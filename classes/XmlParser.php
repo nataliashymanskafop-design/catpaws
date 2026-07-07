@@ -18,15 +18,26 @@ class XmlParser
      */
     public function parse(): array
     {
-        $offers = [];
-
         $xml = simplexml_load_file($this->config['xml_url']);
 
-        if (!$xml) {
+        if ($xml === false) {
             throw new Exception('Не вдалося завантажити XML.');
         }
 
-        foreach ($xml->offers->offer as $item) {
+        // Horoshop може віддавати <shop><offers> або просто <offers>
+        if (isset($xml->shop->offers->offer)) {
+            $items = $xml->shop->offers->offer;
+        } elseif (isset($xml->offers->offer)) {
+            $items = $xml->offers->offer;
+        } elseif (isset($xml->offer)) {
+            $items = $xml->offer;
+        } else {
+            throw new Exception('Не знайдено товари у XML.');
+        }
+
+        $offers = [];
+
+        foreach ($items as $item) {
 
             $offer = new Offer();
 
@@ -34,12 +45,24 @@ class XmlParser
 
             $offer->price = (int)$item->price;
 
-            $offer->oldPrice = isset($item->oldprice)
+            $offer->oldPrice = !empty($item->oldprice)
                 ? (int)$item->oldprice
                 : null;
 
             $offer->available =
                 ((string)$item['available'] === 'true');
+
+            // Країна виробництва (якщо є в param)
+            if (isset($item->param)) {
+                foreach ($item->param as $param) {
+                    $name = mb_strtolower((string)$param['name']);
+
+                    if (str_contains($name, 'країна')) {
+                        $offer->countryCode = trim((string)$param);
+                        break;
+                    }
+                }
+            }
 
             $offers[] = $offer;
         }
