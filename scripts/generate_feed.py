@@ -27,26 +27,27 @@ for offer in root.xpath(".//offer"):
 
     country = offer.findtext("country_of_origin")
 
-   offers.append({
+ available = offer.get("available") == "true"
+
+offers.append({
     "code": code,
     "price": price,
     "old_price": old_price,
-    "availability": offer.get("available") == "true",
 
-    "stock": 999,
+    "availability": available,
+
+    "stock": 999 if available else 0,
 
     "warehouses": [
         {
             "id": "SUPPLIER",
-            "stock": 999
+            "stock": 999 if available else 0
         }
     ],
 
     "warranty_type": "no",
     "warranty_period": 0,
-
     "max_pay_in_parts": 6,
-
     "days_to_dispatch": 0,
 
     "delivery_methods": [
