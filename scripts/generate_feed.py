@@ -27,22 +27,41 @@ for offer in root.xpath(".//offer"):
 
     country = offer.findtext("country_of_origin")
 
-    offers.append({
-        "code": code,
-        "price": price,
-        "old_price": old_price,
-        "availability": True,
-        "stock": None,
-        "warehouses": None,
-        "warranty_type": "no",
-        "warranty_period": 0,
-        "max_pay_in_parts": 6,
-        "days_to_dispatch": 0,
-        "delivery_methods": [
-            {
-                "method": "nova-post:branch",
-                "price": 0
-            },
+   offers.append({
+    "code": code,
+    "price": price,
+    "old_price": old_price,
+    "availability": offer.get("available") == "true",
+
+    "stock": 999,
+
+    "warehouses": [
+        {
+            "id": "SUPPLIER",
+            "stock": 999
+        }
+    ],
+
+    "warranty_type": "no",
+    "warranty_period": 0,
+
+    "max_pay_in_parts": 6,
+
+    "days_to_dispatch": 0,
+
+    "delivery_methods": [
+        {
+            "method": "nova-post:branch",
+            "price": 0
+        },
+        {
+            "method": "courier:nova-post",
+            "price": 0
+        }
+    ],
+
+    "manufacture": None
+})
             {
                 "method": "courier:nova-post",
                 "price": 0
