@@ -27,7 +27,7 @@ for offer in root.xpath(".//offer"):
 
     country = offer.findtext("country_of_origin")
 
- available = offer.get("available") == "true"
+    available = offer.get("available") == "true"
 
 offers.append({
     "code": code,
