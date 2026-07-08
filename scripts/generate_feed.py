@@ -1,87 +1,103 @@
-import requests
 import json
 import os
 from datetime import datetime, timezone
+
+import requests
 from lxml import etree
 
+
 XML_URL = "https://catpaws.com.ua/content/export/f58d0310c9401a7213540d5b6d75420a.xml"
+SUPPLIER_STOCK = 999
+WAREHOUSE_ID = "SUPPLIER"
 
-print("Downloading XML...")
 
-xml = requests.get(XML_URL, timeout=120).content
+def to_int(value, default=0):
+    if value is None:
+        return default
 
-root = etree.fromstring(xml)
+    value = str(value).strip()
 
-offers = []
+    if value == "":
+        return default
 
-for offer in root.xpath(".//offer"):
+    try:
+        return int(float(value))
+    except ValueError:
+        return default
 
+
+def build_offer(offer):
     code = offer.findtext("vendorCode")
+
     if not code:
-        code = offer.get("id")
-
-    price = int(float(offer.findtext("price", "0")))
-
-    old = offer.findtext("oldprice")
-    old_price = int(float(old)) if old else None
-
-    country = offer.findtext("country_of_origin")
+        return None
 
     available = offer.get("available") == "true"
 
-offers.append({
-    "code": code,
-    "price": price,
-    "old_price": old_price,
+    stock = SUPPLIER_STOCK if available else 0
 
-    "availability": available,
+    old_price_text = offer.findtext("oldprice")
+    old_price = to_int(old_price_text, None) if old_price_text else None
 
-    "stock": 999 if available else 0,
-
-    "warehouses": [
-        {
-            "id": "SUPPLIER",
-            "stock": 999 if available else 0
-        }
-    ],
-
-    "warranty_type": "no",
-    "warranty_period": 0,
-    "max_pay_in_parts": 6,
-    "days_to_dispatch": 0,
-
-    "delivery_methods": [
-        {
-            "method": "nova-post:branch",
-            "price": 0
-        },
-        {
-            "method": "courier:nova-post",
-            "price": 0
-        }
-    ],
-
-    "manufacture": None
-})
+    return {
+        "code": code.strip(),
+        "price": to_int(offer.findtext("price")),
+        "old_price": old_price,
+        "availability": available,
+        "stock": stock,
+        "warehouses": [
+            {
+                "id": WAREHOUSE_ID,
+                "stock": stock
+            }
+        ],
+        "warranty_type": "no",
+        "warranty_period": 0,
+        "max_pay_in_parts": 6,
+        "days_to_dispatch": 0,
+        "delivery_methods": [
+            {
+                "method": "nova-post:branch",
+                "price": 0
+            },
             {
                 "method": "courier:nova-post",
                 "price": 0
             }
         ],
-        "manufacture": {
-            "country_code": country
-        } if country else None
-    })
+        "manufacture": None
+    }
 
-result = {
-    "updatedAt": datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00","Z"),
-    "total": len(offers),
-    "data": offers
-}
 
-os.makedirs("public", exist_ok=True)
+def main():
+    print("Downloading XML...")
 
-with open("public/offers-response.json","w",encoding="utf8") as f:
-    json.dump(result,f,ensure_ascii=False,indent=2)
+    response = requests.get(XML_URL, timeout=120)
+    response.raise_for_status()
 
-print("Done:",len(offers),"offers")
+    root = etree.fromstring(response.content)
+
+    offers = []
+
+    for offer in root.xpath(".//offer"):
+        item = build_offer(offer)
+
+        if item is not None:
+            offers.append(item)
+
+    result = {
+        "updatedAt": datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
+        "total": len(offers),
+        "data": offers
+    }
+
+    os.makedirs("public", exist_ok=True)
+
+    with open("public/offers-response.json", "w", encoding="utf-8") as file:
+        json.dump(result, file, ensure_ascii=False, indent=2)
+
+    print(f"Done: {len(offers)} offers")
+
+
+if __name__ == "__main__":
+    main()
