@@ -1,6 +1,7 @@
 import json
 import os
 from datetime import datetime, timezone
+from zoneinfo import ZoneInfo
 
 import requests
 from lxml import etree
@@ -24,6 +25,25 @@ def to_int(value, default=0):
         return int(float(value))
     except ValueError:
         return default
+
+
+def get_days_to_dispatch():
+    now = datetime.now(ZoneInfo("Europe/Kyiv"))
+    weekday = now.weekday()
+
+    if weekday == 5:
+        return 2
+
+    if weekday == 6:
+        return 1
+
+    if now.hour < 12:
+        return 0
+
+    if weekday == 4:
+        return 3
+
+    return 1
 
 
 def build_offer(offer):
@@ -54,7 +74,7 @@ def build_offer(offer):
         "warranty_type": "no",
         "warranty_period": 0,
         "max_pay_in_parts": 6,
-        "days_to_dispatch": 0,
+        "days_to_dispatch": get_days_to_dispatch(),
         "delivery_methods": [
             {
                 "method": "nova-post:branch",
