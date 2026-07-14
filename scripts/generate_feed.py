@@ -6,9 +6,9 @@ import requests
 from lxml import etree
 
 
-XML_URL = "https://catpaws.com.ua/content/export/f58d0310c9401a7213540d5b6d75420a.xml"
+XML_URL = "https://catpaws.com.ua/content/export/7b8be9ac1a32f219fa42e478828c728a.xml?1784021774060"
 SUPPLIER_STOCK = 999
-WAREHOUSE_ID = "SUPPLIER"
+WAREHOUSE_ID = "1"
 
 
 def to_int(value, default=0):
