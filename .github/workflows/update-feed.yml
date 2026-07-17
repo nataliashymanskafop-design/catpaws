@@ -2,6 +2,8 @@ name: Generate Mono Feed
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "*/30 * * * *"
 
 jobs:
   build:
