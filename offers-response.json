@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-17T21:37:35Z",
+  "updatedAt": "2026-07-18T05:54:02Z",
   "total": 1346,
   "data": [
     {
@@ -5127,34 +5127,6 @@
       "manufacture": null
     },
     {
-      "code": "NPLS45800",
-      "price": 3615,
-      "old_price": null,
-      "availability": true,
-      "stock": 999,
-      "warehouses": [
-        {
-          "id": "1",
-          "stock": 999
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 2,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
       "code": "NPLS45953",
       "price": 868,
       "old_price": null,
@@ -7843,6 +7815,34 @@
       "manufacture": null
     },
     {
+      "code": "SNK46095",
+      "price": 179,
+      "old_price": null,
+      "availability": true,
+      "stock": 999,
+      "warehouses": [
+        {
+          "id": "1",
+          "stock": 999
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 2,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
       "code": "SNK46096",
       "price": 169,
       "old_price": null,
@@ -7927,6 +7927,34 @@
       "manufacture": null
     },
     {
+      "code": "SNK46103",
+      "price": 180,
+      "old_price": null,
+      "availability": true,
+      "stock": 999,
+      "warehouses": [
+        {
+          "id": "1",
+          "stock": 999
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 2,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
       "code": "SNK46124",
       "price": 159,
       "old_price": null,
@@ -7985,6 +8013,34 @@
     {
       "code": "SNK46136",
       "price": 193,
+      "old_price": null,
+      "availability": true,
+      "stock": 999,
+      "warehouses": [
+        {
+          "id": "1",
+          "stock": 999
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 2,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "SNK46143",
+      "price": 168,
       "old_price": null,
       "availability": true,
       "stock": 999,
@@ -30523,34 +30579,6 @@
       "manufacture": null
     },
     {
-      "code": "NPPR47919",
-      "price": 185,
-      "old_price": null,
-      "availability": true,
-      "stock": 999,
-      "warehouses": [
-        {
-          "id": "1",
-          "stock": 999
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 2,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
       "code": "NPPR70469",
       "price": 166,
       "old_price": null,
@@ -33939,6 +33967,34 @@
       "manufacture": null
     },
     {
+      "code": "NPLS45800",
+      "price": 3615,
+      "old_price": null,
+      "availability": false,
+      "stock": 0,
+      "warehouses": [
+        {
+          "id": "1",
+          "stock": 0
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 2,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
       "code": "KIKNPLF63359",
       "price": 127,
       "old_price": null,
@@ -34471,62 +34527,6 @@
       "manufacture": null
     },
     {
-      "code": "SNK46095",
-      "price": 179,
-      "old_price": null,
-      "availability": false,
-      "stock": 0,
-      "warehouses": [
-        {
-          "id": "1",
-          "stock": 0
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 2,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "SNK46103",
-      "price": 180,
-      "old_price": null,
-      "availability": false,
-      "stock": 0,
-      "warehouses": [
-        {
-          "id": "1",
-          "stock": 0
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 2,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
       "code": "SNK46108",
       "price": 165,
       "old_price": null,
@@ -34557,34 +34557,6 @@
     {
       "code": "SNK46137",
       "price": 0,
-      "old_price": null,
-      "availability": false,
-      "stock": 0,
-      "warehouses": [
-        {
-          "id": "1",
-          "stock": 0
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 2,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "SNK46143",
-      "price": 168,
       "old_price": null,
       "availability": false,
       "stock": 0,
@@ -37525,6 +37497,34 @@
     {
       "code": "50015001",
       "price": 996,
+      "old_price": null,
+      "availability": false,
+      "stock": 0,
+      "warehouses": [
+        {
+          "id": "1",
+          "stock": 0
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 2,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "NPPR47919",
+      "price": 185,
       "old_price": null,
       "availability": false,
       "stock": 0,
