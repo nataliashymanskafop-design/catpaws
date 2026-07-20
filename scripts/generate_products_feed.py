@@ -4,7 +4,7 @@ from lxml import etree
 
 
 XML_URL = "https://catpaws.com.ua/content/export/f58d0310c9401a7213540d5b6d75420a.xml?1783426713710"
-
+MIN_PRICE = 300
 
 def main():
     print("Downloading product XML...")
@@ -17,6 +17,16 @@ def main():
     updated = 0
 
     for offer in root.xpath(".//offer"):
+            price_text = offer.findtext("price")
+
+        try:
+            price = float(price_text)
+        except (TypeError, ValueError):
+            price = 0
+
+        if price <= MIN_PRICE:
+            offer.getparent().remove(offer)
+            continue    
         vendor_code = offer.findtext("vendorCode")
 
         if not vendor_code:
