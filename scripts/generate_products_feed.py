@@ -17,7 +17,7 @@ def main():
     updated = 0
 
     for offer in root.xpath(".//offer"):
-            price_text = offer.findtext("price")
+        price_text = offer.findtext("price")
 
         try:
             price = float(price_text)
