@@ -10,7 +10,7 @@ from lxml import etree
 XML_URL = "https://catpaws.com.ua/content/export/f58d0310c9401a7213540d5b6d75420a.xml"
 SUPPLIER_STOCK = 999
 WAREHOUSE_ID = "1"
-
+MIN_PRICE = 300
 
 def to_int(value, default=0):
     if value is None:
@@ -52,7 +52,9 @@ def build_offer(offer):
     if not code:
         return None
 
-    available = offer.get("available") == "true"
+       price = to_int(offer.findtext("price"))
+
+    available = offer.get("available") == "true" and price > MIN_PRICE
 
     stock = SUPPLIER_STOCK if available else 0
 
@@ -61,7 +63,7 @@ def build_offer(offer):
 
     return {
         "code": code.strip(),
-        "price": to_int(offer.findtext("price")),
+        "price": price,
         "old_price": old_price,
         "availability": available,
         "stock": stock,
