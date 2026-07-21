@@ -52,7 +52,7 @@ def build_offer(offer):
     if not code:
         return None
 
-       price = to_int(offer.findtext("price"))
+    price = to_int(offer.findtext("price"))
 
     available = offer.get("available") == "true" and price > MIN_PRICE
 
