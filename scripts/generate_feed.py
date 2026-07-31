@@ -7,7 +7,7 @@ import requests
 from lxml import etree
 
 
-XML_URL = "https://catpaws.com.ua/content/export/f58d0310c9401a7213540d5b6d75420a.xml"
+XML_URL = "https://catpaws.com.ua/content/export/4533d74998115a860f812d46074665c9.xml"
 SUPPLIER_STOCK = 999
 WAREHOUSE_ID = "1"
 MIN_PRICE = 300
