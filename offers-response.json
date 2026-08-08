@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T23:56:07Z",
+  "updatedAt": "2026-08-08T01:12:30Z",
   "total": 1654,
   "data": [
     {
@@ -3058,12 +3058,12 @@
       "code": "NPSC45993",
       "price": 9029,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 999,
       "warehouses": [
         {
           "id": "1",
-          "stock": 0
+          "stock": 999
         }
       ],
       "warranty_type": "no",
@@ -3198,12 +3198,12 @@
       "code": "NPSC45995",
       "price": 8071,
       "old_price": null,
-      "availability": true,
-      "stock": 999,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "1",
-          "stock": 999
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -3898,12 +3898,12 @@
       "code": "NPSC45834",
       "price": 1009,
       "old_price": null,
-      "availability": true,
-      "stock": 999,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "1",
-          "stock": 999
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -5186,12 +5186,12 @@
       "code": "NPSC47230",
       "price": 1153,
       "old_price": null,
-      "availability": true,
-      "stock": 999,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "1",
-          "stock": 999
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -7118,12 +7118,12 @@
       "code": "NPSC47231",
       "price": 6028,
       "old_price": null,
-      "availability": true,
-      "stock": 999,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "1",
-          "stock": 999
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -7314,12 +7314,12 @@
       "code": "NPSC47441",
       "price": 1191,
       "old_price": null,
-      "availability": true,
-      "stock": 999,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "1",
-          "stock": 999
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -7395,8 +7395,8 @@
       "manufacture": null
     },
     {
-      "code": "TPL63470",
-      "price": 740,
+      "code": "TPL63799",
+      "price": 784,
       "old_price": null,
       "availability": true,
       "stock": 999,
@@ -7423,8 +7423,8 @@
       "manufacture": null
     },
     {
-      "code": "TPL63468",
-      "price": 619,
+      "code": "TPL63739",
+      "price": 785,
       "old_price": null,
       "availability": true,
       "stock": 999,
@@ -7451,8 +7451,8 @@
       "manufacture": null
     },
     {
-      "code": "TPL63466",
-      "price": 740,
+      "code": "TPL63797",
+      "price": 823,
       "old_price": null,
       "availability": true,
       "stock": 999,
@@ -7479,8 +7479,8 @@
       "manufacture": null
     },
     {
-      "code": "TPL63434",
-      "price": 799,
+      "code": "TPL63793",
+      "price": 780,
       "old_price": null,
       "availability": true,
       "stock": 999,
@@ -8599,8 +8599,8 @@
       "manufacture": null
     },
     {
-      "code": "TPL63469",
-      "price": 916,
+      "code": "TPL63740",
+      "price": 891,
       "old_price": null,
       "availability": true,
       "stock": 999,
@@ -8627,8 +8627,8 @@
       "manufacture": null
     },
     {
-      "code": "TPL63467",
-      "price": 916,
+      "code": "TPL63798",
+      "price": 919,
       "old_price": null,
       "availability": true,
       "stock": 999,
@@ -31364,7 +31364,7 @@
     },
     {
       "code": "NPPR47953",
-      "price": 66,
+      "price": 48,
       "old_price": null,
       "availability": false,
       "stock": 0,
@@ -31420,7 +31420,7 @@
     },
     {
       "code": "NPPR47923",
-      "price": 66,
+      "price": 48,
       "old_price": null,
       "availability": false,
       "stock": 0,
@@ -31476,7 +31476,7 @@
     },
     {
       "code": "NPPR47922",
-      "price": 66,
+      "price": 48,
       "old_price": null,
       "availability": false,
       "stock": 0,
@@ -31504,7 +31504,7 @@
     },
     {
       "code": "NPPR47924",
-      "price": 66,
+      "price": 48,
       "old_price": null,
       "availability": false,
       "stock": 0,
@@ -31560,7 +31560,7 @@
     },
     {
       "code": "NPPR47921",
-      "price": 66,
+      "price": 48,
       "old_price": null,
       "availability": false,
       "stock": 0,
