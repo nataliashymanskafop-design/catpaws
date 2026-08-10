@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-09T23:31:20Z",
+  "updatedAt": "2026-08-10T01:09:01Z",
   "total": 1654,
   "data": [
     {
@@ -43322,12 +43322,12 @@
       "code": "ASB(MBF)--32 Oz",
       "price": 351,
       "old_price": null,
-      "availability": true,
-      "stock": 999,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "1",
-          "stock": 999
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -43350,12 +43350,12 @@
       "code": "ASB(MBF)--64 Oz",
       "price": 454,
       "old_price": null,
-      "availability": true,
-      "stock": 999,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "1",
-          "stock": 999
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -43378,12 +43378,12 @@
       "code": "ASB(MBF)--96 Oz",
       "price": 561,
       "old_price": null,
-      "availability": true,
-      "stock": 999,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "1",
-          "stock": 999
+          "stock": 0
         }
       ],
       "warranty_type": "no",
