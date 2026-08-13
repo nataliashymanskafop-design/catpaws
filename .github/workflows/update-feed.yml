@@ -1,4 +1,4 @@
-name: Generate Mono Feed
+name: Generate Mono and Prom Feeds
 
 on:
   workflow_dispatch:
@@ -18,11 +18,18 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - run: python scripts/generate_feed.py
+      - name: Generate Mono offers
+        run: python scripts/generate_feed.py
 
-      - run: python scripts/generate_products_feed.py
+      - name: Generate Mono products
+        run: python scripts/generate_products_feed.py
 
-      - uses: peaceiris/actions-gh-pages@v4
+      - name: Generate Prom update feed
+        continue-on-error: true
+        run: python scripts/generate_prom_update_feed.py
+
+      - name: Publish all feeds
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
