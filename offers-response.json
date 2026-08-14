@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T23:33:41Z",
+  "updatedAt": "2026-08-14T01:16:22Z",
   "total": 1817,
   "data": [
     {
@@ -5802,12 +5802,12 @@
       "code": "NPSC45793",
       "price": 5202,
       "old_price": null,
-      "availability": true,
-      "stock": 999,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "1",
-          "stock": 999
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -48222,12 +48222,12 @@
       "code": "АКЦ_NPSC47230",
       "price": 1153,
       "old_price": null,
-      "availability": true,
-      "stock": 999,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "1",
-          "stock": 999
+          "stock": 0
         }
       ],
       "warranty_type": "no",
