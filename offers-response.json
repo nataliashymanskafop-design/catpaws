@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T23:41:31Z",
+  "updatedAt": "2026-08-17T00:48:53Z",
   "total": 1817,
   "data": [
     {
@@ -8210,12 +8210,12 @@
       "code": "NPLS45683",
       "price": 4027,
       "old_price": null,
-      "availability": true,
-      "stock": 999,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "1",
-          "stock": 999
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -9862,12 +9862,12 @@
       "code": "KIK45094",
       "price": 454,
       "old_price": null,
-      "availability": true,
-      "stock": 999,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "1",
-          "stock": 999
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -10394,12 +10394,12 @@
       "code": "NPS45661",
       "price": 3472,
       "old_price": null,
-      "availability": true,
-      "stock": 999,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "1",
-          "stock": 999
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -48222,12 +48222,12 @@
       "code": "АКЦ_NPSC47230",
       "price": 1153,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 999,
       "warehouses": [
         {
           "id": "1",
-          "stock": 0
+          "stock": 999
         }
       ],
       "warranty_type": "no",
@@ -48530,12 +48530,12 @@
       "code": "АКЦ_NPSC47439",
       "price": 991,
       "old_price": null,
-      "availability": true,
-      "stock": 999,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "1",
-          "stock": 999
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -48670,12 +48670,12 @@
       "code": "АКЦ_NPSC45834",
       "price": 1009,
       "old_price": null,
-      "availability": true,
-      "stock": 999,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "1",
-          "stock": 999
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -49202,12 +49202,12 @@
       "code": "АКЦ_NPSC45663",
       "price": 1085,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 999,
       "warehouses": [
         {
           "id": "1",
-          "stock": 0
+          "stock": 999
         }
       ],
       "warranty_type": "no",
