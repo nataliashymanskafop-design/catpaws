@@ -8,9 +8,15 @@ from lxml import etree
 
 
 XML_URL = "https://catpaws.com.ua/content/export/4533d74998115a860f812d46074665c9.xml"
+
+# Попередній опублікований прайс Mono.
+# Workflow завантажує його перед запуском цього скрипта.
+PREVIOUS_FEED_FILE = "previous-offers-response.json"
+
 SUPPLIER_STOCK = 999
 WAREHOUSE_ID = "1"
 MIN_PRICE = 300
+
 
 def to_int(value, default=0):
     if value is None:
@@ -54,12 +60,20 @@ def build_offer(offer):
 
     price = to_int(offer.findtext("price"))
 
-    available = offer.get("available") == "true" and price > MIN_PRICE
+    available = (
+        offer.get("available") == "true"
+        and price > MIN_PRICE
+    )
 
     stock = SUPPLIER_STOCK if available else 0
 
     old_price_text = offer.findtext("oldprice")
-    old_price = to_int(old_price_text, None) if old_price_text else None
+
+    old_price = (
+        to_int(old_price_text, None)
+        if old_price_text
+        else None
+    )
 
     return {
         "code": code.strip(),
@@ -91,13 +105,136 @@ def build_offer(offer):
     }
 
 
+def stock_snapshot(offers):
+    """
+    Формуємо знімок тільки складських даних.
+
+    Ціна, old_price, days_to_dispatch та інші поля
+    НЕ впливають на updatedAt.
+    """
+
+    snapshot = {}
+
+    for item in offers:
+        code = item.get("code")
+
+        if not code:
+            continue
+
+        warehouses = item.get("warehouses") or []
+
+        warehouse_stock = {}
+
+        for warehouse in warehouses:
+            warehouse_id = str(
+                warehouse.get("id", "")
+            )
+
+            warehouse_stock[warehouse_id] = (
+                warehouse.get("stock", 0)
+            )
+
+        snapshot[code] = {
+            "availability": item.get(
+                "availability",
+                False
+            ),
+            "stock": item.get("stock", 0),
+            "warehouses": warehouse_stock
+        }
+
+    return snapshot
+
+
+def load_previous_feed():
+    if not os.path.exists(PREVIOUS_FEED_FILE):
+        print(
+            "Previous feed not found. "
+            "updatedAt will be set to current time."
+        )
+        return None
+
+    try:
+        with open(
+            PREVIOUS_FEED_FILE,
+            "r",
+            encoding="utf-8"
+        ) as file:
+            return json.load(file)
+
+    except Exception as error:
+        print(
+            "Could not read previous feed:",
+            error
+        )
+        return None
+
+
+def get_updated_at(new_offers, previous_feed):
+    now = (
+        datetime.now(timezone.utc)
+        .replace(microsecond=0)
+        .isoformat()
+        .replace("+00:00", "Z")
+    )
+
+    if not previous_feed:
+        print(
+            "No previous feed. "
+            "Using new updatedAt:",
+            now
+        )
+        return now
+
+    previous_updated_at = previous_feed.get(
+        "updatedAt"
+    )
+
+    previous_offers = previous_feed.get(
+        "data",
+        []
+    )
+
+    old_stock = stock_snapshot(
+        previous_offers
+    )
+
+    new_stock = stock_snapshot(
+        new_offers
+    )
+
+    if old_stock == new_stock:
+        if previous_updated_at:
+            print(
+                "Stock unchanged. "
+                "Keeping updatedAt:",
+                previous_updated_at
+            )
+
+            return previous_updated_at
+
+    print(
+        "Stock changed. "
+        "New updatedAt:",
+        now
+    )
+
+    return now
+
+
 def main():
     print("Downloading XML...")
 
-    response = requests.get(XML_URL, timeout=120)
+    response = requests.get(
+        XML_URL,
+        timeout=120
+    )
+
     response.raise_for_status()
 
-    root = etree.fromstring(response.content)
+    root = etree.fromstring(
+        response.content
+    )
 
     offers = []
 
@@ -107,18 +244,44 @@ def main():
         if item is not None:
             offers.append(item)
 
+    previous_feed = load_previous_feed()
+
+    updated_at = get_updated_at(
+        offers,
+        previous_feed
+    )
+
     result = {
-        "updatedAt": datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
+        "updatedAt": updated_at,
         "total": len(offers),
         "data": offers
     }
 
-    os.makedirs("public", exist_ok=True)
+    os.makedirs(
+        "public",
+        exist_ok=True
+    )
 
-    with open("public/offers-response.json", "w", encoding="utf-8") as file:
-        json.dump(result, file, ensure_ascii=False, indent=2)
+    with open(
+        "public/offers-response.json",
+        "w",
+        encoding="utf-8"
+    ) as file:
 
-    print(f"Done: {len(offers)} offers")
+        json.dump(
+            result,
+            file,
+            ensure_ascii=False,
+            indent=2
+        )
+
+    print(
+        f"Done: {len(offers)} offers"
+    )
+
+    print(
+        f"updatedAt: {updated_at}"
+    )
 
 
 if __name__ == "__main__":
