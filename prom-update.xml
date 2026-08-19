@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-08-18 03:49">
+<yml_catalog date="2026-08-19 03:38">
  <shop>
   <currencies>
    <currency id="UAH" rate="1"/>
@@ -965,7 +965,8 @@
     <vendorCode>018166</vendorCode>
     <name>Сухой корм Chicopee HNL STERILIZED для взрослых стерилизованных кошек 8 кг</name>
     <name_ua>Сухий корм Chicopee HNL STERILIZED для дорослих стерилізованих котів 8 кг</name_ua>
-    </offer><offer id="2977675073" available="true"><price>894</price>
+    </offer><offer id="2977675073" available="true"><price>805</price>
+    <oldprice>894</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1086</categoryId>
     <vendorCode>018098</vendorCode>
@@ -3316,7 +3317,7 @@
     <vendorCode>70100_box1</vendorCode>
     <name>Набор беззерновых лакомств для кошек HOME FOOD «Мясной пир», мясная соломка ассорти, 6 шт × 40 г</name>
     <name_ua>Набір беззернових ласощів для котів HOME FOOD «М'ясний бенкет», м'ясна соломка асорті, 6 шт × 40 г</name_ua>
-    </offer><offer id="3133954386" available="true"><price>429</price>
+    </offer><offer id="3133954386" available="true"><price>419</price>
     <currencyId>UAH</currencyId>
     <categoryId>1091</categoryId>
     <vendorCode>70100_box2</vendorCode>
@@ -4509,7 +4510,7 @@
     <categoryId>1084</categoryId>
     <vendorCode>50014844p</vendorCode>
     <name>Сухой корм для взрослых собак всех пород с повышенной потребностью в энергии JOSERA High Protein Adult Chicken (High Energy) 900 г * 5 шт</name>
-    <name_ua>Сухий корм для дорослих собак  всіх порід з підвищеною потребою в енергії JOSERA High Protein Adult Chicken (High Energy) 900 г * 5 шт</name_ua>
+    <name_ua>Сухий корм для дорослих собак всіх порід з підвищеною потребою в енергії JOSERA High Protein Adult Chicken (High Energy) 900 г * 5 шт</name_ua>
     </offer><offer id="3157347285" available="true"><price>1555</price>
     <currencyId>UAH</currencyId>
     <categoryId>1084</categoryId>
