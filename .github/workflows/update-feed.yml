@@ -1,288 +1,45 @@
-import json
-import os
-from datetime import datetime, timezone
-from zoneinfo import ZoneInfo
-
-import requests
-from lxml import etree
-
-
-XML_URL = "https://catpaws.com.ua/content/export/4533d74998115a860f812d46074665c9.xml"
-
-# Попередній уже опублікований прайс Mono.
-# Якщо файл існує локально, workflow перед запуском покладе його сюди.
-PREVIOUS_FEED_FILE = "previous-offers-response.json"
-
-SUPPLIER_STOCK = 999
-WAREHOUSE_ID = "1"
-MIN_PRICE = 300
-
-
-def to_int(value, default=0):
-    if value is None:
-        return default
-
-    value = str(value).strip()
-
-    if value == "":
-        return default
-
-    try:
-        return int(float(value))
-    except ValueError:
-        return default
-
-
-def get_days_to_dispatch():
-    now = datetime.now(ZoneInfo("Europe/Kyiv"))
-    weekday = now.weekday()
-
-    if weekday == 5:
-        return 2
-
-    if weekday == 6:
-        return 1
-
-    if now.hour < 12:
-        return 0
-
-    if weekday == 4:
-        return 3
-
-    return 1
-
-
-def build_offer(offer):
-    code = offer.findtext("vendorCode")
-
-    if not code:
-        return None
-
-    price = to_int(offer.findtext("price"))
-
-    available = (
-        offer.get("available") == "true"
-        and price > MIN_PRICE
-    )
-
-    stock = SUPPLIER_STOCK if available else 0
-
-    old_price_text = offer.findtext("oldprice")
-    old_price = (
-        to_int(old_price_text, None)
-        if old_price_text
-        else None
-    )
-
-    return {
-        "code": code.strip(),
-        "price": price,
-        "old_price": old_price,
-        "availability": available,
-        "stock": stock,
-        "warehouses": [
-            {
-                "id": WAREHOUSE_ID,
-                "stock": stock
-            }
-        ],
-        "warranty_type": "no",
-        "warranty_period": 0,
-        "max_pay_in_parts": 6,
-        "days_to_dispatch": get_days_to_dispatch(),
-        "delivery_methods": [
-            {
-                "method": "nova-post:branch",
-                "price": 0
-            },
-            {
-                "method": "courier:nova-post",
-                "price": 0
-            }
-        ],
-        "manufacture": None
-    }
-
-
-def stock_snapshot(offers):
-    """
-    Формуємо тільки складський стан.
-
-    Ціни, old_price, days_to_dispatch та інші
-    параметри навмисно НЕ враховуємо при визначенні
-    нового updatedAt.
-    """
-
-    snapshot = {}
-
-    for item in offers:
-        code = item.get("code")
-
-        if not code:
-            continue
-
-        warehouses = item.get("warehouses") or []
-
-        warehouse_stock = {}
-
-        for warehouse in warehouses:
-            warehouse_id = str(
-                warehouse.get("id", "")
-            )
-
-            warehouse_stock[warehouse_id] = (
-                warehouse.get("stock", 0)
-            )
-
-        snapshot[code] = {
-            "availability": item.get(
-                "availability",
-                False
-            ),
-            "stock": item.get("stock", 0),
-            "warehouses": warehouse_stock
-        }
-
-    return snapshot
-
-
-def load_previous_feed():
-    if not os.path.exists(PREVIOUS_FEED_FILE):
-        print(
-            "Previous feed not found. "
-            "updatedAt will be set to current time."
-        )
-        return None
-
-    try:
-        with open(
-            PREVIOUS_FEED_FILE,
-            "r",
-            encoding="utf-8"
-        ) as file:
-            return json.load(file)
-
-    except Exception as error:
-        print(
-            "Could not read previous feed:",
-            error
-        )
-        return None
-
-
-def get_updated_at(new_offers, previous_feed):
-    now = (
-        datetime.now(timezone.utc)
-        .replace(microsecond=0)
-        .isoformat()
-        .replace("+00:00", "Z")
-    )
-
-    if not previous_feed:
-        print(
-            "No previous feed. "
-            "Using new updatedAt:",
-            now
-        )
-        return now
-
-    previous_updated_at = previous_feed.get(
-        "updatedAt"
-    )
-
-    previous_offers = previous_feed.get(
-        "data",
-        []
-    )
-
-    old_stock = stock_snapshot(
-        previous_offers
-    )
-
-    new_stock = stock_snapshot(
-        new_offers
-    )
-
-    if old_stock == new_stock:
-        if previous_updated_at:
-            print(
-                "Stock unchanged. "
-                "Keeping updatedAt:",
-                previous_updated_at
-            )
-            return previous_updated_at
-
-    print(
-        "Stock changed. "
-        "New updatedAt:",
-        now
-    )
-
-    return now
-
-
-def main():
-    print("Downloading XML...")
-
-    response = requests.get(
-        XML_URL,
-        timeout=120
-    )
-
-    response.raise_for_status()
-
-    root = etree.fromstring(
-        response.content
-    )
-
-    offers = []
-
-    for offer in root.xpath(".//offer"):
-        item = build_offer(offer)
-
-        if item is not None:
-            offers.append(item)
-
-    previous_feed = load_previous_feed()
-
-    updated_at = get_updated_at(
-        offers,
-        previous_feed
-    )
-
-    result = {
-        "updatedAt": updated_at,
-        "total": len(offers),
-        "data": offers
-    }
-
-    os.makedirs(
-        "public",
-        exist_ok=True
-    )
-
-    with open(
-        "public/offers-response.json",
-        "w",
-        encoding="utf-8"
-    ) as file:
-
-        json.dump(
-            result,
-            file,
-            ensure_ascii=False,
-            indent=2
-        )
-
-    print(
-        f"Done: {len(offers)} offers"
-    )
-
-    print(
-        f"updatedAt: {updated_at}"
-    )
-
-
-if __name__ == "__main__":
-    main()crets.GITHUB_TOKEN }}
+name: Generate Mono and Prom Feeds
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/30 * * * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - run: pip install -r requirements.txt
+
+      # Забираємо попередній прайс Mono.
+      # Він потрібен, щоб зберегти старий updatedAt,
+      # якщо фактичні залишки не змінилися.
+      - name: Download previous Mono offers
+        continue-on-error: true
+        run: |
+          curl -fL \
+            "https://nataliashymanskafop-design.github.io/catpaws/offers-response.json" \
+            -o previous-offers-response.json
+
+      - name: Generate Mono offers
+        run: python scripts/generate_feed.py
+
+      - name: Generate Mono products
+        run: python scripts/generate_products_feed.py
+
+      - name: Generate Prom update feed
+        continue-on-error: true
+        run: python scripts/generate_prom_update_feed.py
+
+      - name: Publish all feeds
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
