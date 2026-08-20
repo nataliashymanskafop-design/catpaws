@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-08-19 03:38">
+<yml_catalog date="2026-08-20 03:52">
  <shop>
   <currencies>
    <currency id="UAH" rate="1"/>
@@ -1433,6 +1433,12 @@
     <vendorCode>144179</vendorCode>
     <name>Комкующий бентонитовый наполнитель для кошачьего туалета CAT ROYAL натуральный 10 л</name>
     <name_ua>Комкуючий бентонітовий наповнювач для котячого туалету CAT ROYAL натуральний 10 л</name_ua>
+    </offer><offer id="2979240456" available="true"><price>600</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>1119</categoryId>
+    <vendorCode>653651</vendorCode>
+    <name>Туалет для кошек TM CATROYALE черный с рамкой 20*35*50 см + лопатка</name>
+    <name_ua>Туалет для кішок TM CATROYALE чорний з рамкою 20*35*50 см + лопатка</name_ua>
     </offer><offer id="2979240457" available="true"><price>600</price>
     <currencyId>UAH</currencyId>
     <categoryId>1119</categoryId>
