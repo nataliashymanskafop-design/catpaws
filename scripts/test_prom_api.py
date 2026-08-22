@@ -1,111 +1,113 @@
 import os
-import sys
 import requests
+import json
+
+TOKEN = os.environ["PROM_API_TOKEN"]
+
+headers = {
+    "Authorization": f"Bearer {TOKEN}",
+    "Content-Type": "application/json",
+}
+
+url = "https://my.prom.ua/api/v1/products/list"
+
+all_products = []
+last_id = None
+
+while True:
+    params = {"limit": 100}
+
+    if last_id is not None:
+        params["last_id"] = last_id
+
+    response = requests.get(
+        url,
+        headers=headers,
+        params=params,
+        timeout=30,
+    )
+
+    print("HTTP:", response.status_code)
+    response.raise_for_status()
+
+    data = response.json()
+    products = data.get("products", [])
+
+    if not products:
+        break
+
+    all_products.extend(products)
+
+    print("Downloaded:", len(all_products), "products")
+
+    if len(products) < 100:
+        break
+
+    last_id = products[-1].get("id")
+
+    if not last_id:
+        break
 
 
-PROM_API_URL = "https://my.prom.ua/api/v1"
-CONTROL_CODE = "3C000412"
+print()
+print("=" * 70)
+print("TOTAL PROM PRODUCTS:", len(all_products))
+print("=" * 70)
 
 
-def main():
-    token = os.environ.get("PROM_API_TOKEN")
+# ---------------------------------------------------------
+# Покажемо структуру перших 3 товарів, як її реально віддає API
+# ---------------------------------------------------------
 
-    if not token:
-        print("ERROR: PROM_API_TOKEN is not set")
-        sys.exit(1)
-
-    headers = {
-        "Authorization": f"Bearer {token}",
-        "Content-Type": "application/json",
-    }
-
-    print("Connecting to Prom API...")
-
-    products = []
-    last_id = None
-
-    while True:
-        params = {
-            "limit": 100,
-        }
-
-        if last_id is not None:
-            params["last_id"] = last_id
-
-        response = requests.get(
-            f"{PROM_API_URL}/products/list",
-            headers=headers,
-            params=params,
-            timeout=60,
-        )
-
-        print("HTTP:", response.status_code)
-
-        if response.status_code != 200:
-            print(response.text)
-            sys.exit(1)
-
-        data = response.json()
-        batch = data.get("products", [])
-
-        if not batch:
-            break
-
-        products.extend(batch)
-
-        print(
-            f"Downloaded: {len(products)} products"
-        )
-
-        if len(batch) < 100:
-            break
-
-        last_id = batch[-1].get("id")
-
-        if not last_id:
-            break
-
+for i, product in enumerate(all_products[:3], start=1):
     print()
-    print("==============================")
-    print(f"TOTAL PROM PRODUCTS: {len(products)}")
-    print("==============================")
+    print("=" * 70)
+    print(f"PRODUCT #{i}")
+    print("=" * 70)
 
-    found = []
+    print(
+        json.dumps(
+            product,
+            ensure_ascii=False,
+            indent=2,
+        )
+    )
 
-    for product in products:
 
-        external_id = str(
-            product.get("external_id", "")
-        ).strip()
+# ---------------------------------------------------------
+# Пошук контрольного артикула у ВСІХ полях
+# ---------------------------------------------------------
 
-        sku = str(
-            product.get("sku", "")
-        ).strip()
+CONTROL = "3C000412"
 
-        product_id = product.get("id")
+print()
+print("=" * 70)
+print("SEARCHING FOR:", CONTROL)
+print("=" * 70)
 
-        if (
-            external_id == CONTROL_CODE
-            or sku == CONTROL_CODE
-        ):
-            found.append(product)
+found = []
 
-            print()
-            print("CONTROL PRODUCT FOUND!")
-            print("Prom ID:", product_id)
-            print("external_id:", external_id)
-            print("sku:", sku)
-            print("name:", product.get("name"))
-            print("presence:", product.get("presence"))
-            print("price:", product.get("price"))
+for product in all_products:
+    product_text = json.dumps(
+        product,
+        ensure_ascii=False,
+    )
 
-    if not found:
+    if CONTROL.lower() in product_text.lower():
+        found.append(product)
+
+
+if found:
+    print(f"FOUND: {len(found)}")
+
+    for product in found:
         print()
         print(
-            f"CONTROL {CONTROL_CODE}: "
-            "NOT FOUND VIA API"
+            json.dumps(
+                product,
+                ensure_ascii=False,
+                indent=2,
+            )
         )
-
-
-if __name__ == "__main__":
-    main()
+else:
+    print("CONTROL", CONTROL, "NOT FOUND ANYWHERE IN API RESPONSE")
