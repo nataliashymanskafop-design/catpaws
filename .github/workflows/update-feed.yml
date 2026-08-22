@@ -33,14 +33,20 @@ jobs:
 
       - name: Generate Mono products
         run: python scripts/generate_products_feed.py
+
+      # Перевіряємо доступ до Prom API.
       - name: Test Prom API
         env:
           PROM_API_TOKEN: ${{ secrets.PROM_API_TOKEN }}
         run: python scripts/test_prom_api.py
+
+      # Формуємо XML для оновлення товарів Prom.
       - name: Generate Prom update feed
-        continue-on-error: true
+        env:
+          PROM_API_TOKEN: ${{ secrets.PROM_API_TOKEN }}
         run: python scripts/generate_prom_update_feed.py
 
+      # Публікуємо готові фіди на GitHub Pages.
       - name: Publish all feeds
         uses: peaceiris/actions-gh-pages@v4
         with:
