@@ -13,13 +13,11 @@ HOROSHOP_URL = (
     "77e6f1cd306feb32b68e245d1affc6bc.xml"
 )
 
-PROM_LIST_URL = "https://my.prom.ua/api/v1/products/list"
-PROM_EDIT_URL = "https://my.prom.ua/api/v1/products/edit_by_external_id"
+PROM_API_LIST_URL = "https://my.prom.ua/api/v1/products/list"
+PROM_API_EDIT_URL = "https://my.prom.ua/api/v1/products/edit"
 
 PROM_API_TOKEN = os.environ["PROM_API_TOKEN"]
 
-# Скільки товарів відправляємо одним запитом.
-# Робимо невеликі пачки для безпеки.
 BATCH_SIZE = 50
 
 
@@ -54,48 +52,38 @@ def parse_price(value):
 
     try:
         return float(value.replace(",", "."))
-    except ValueError:
+    except (ValueError, TypeError):
         return None
 
 
 # ============================================================
-# PROM HEADERS
-# ============================================================
-
-def prom_headers():
-    return {
-        "Authorization": f"Bearer {PROM_API_TOKEN}",
-        "Content-Type": "application/json",
-        "Accept": "application/json",
-    }
-
-
-# ============================================================
-# DOWNLOAD ALL PROM PRODUCTS
+# PROM API
 # ============================================================
 
 def get_prom_products():
 
-    print()
-    print("=" * 60)
-    print("DOWNLOADING PROM PRODUCTS")
-    print("=" * 60)
+    headers = {
+        "Authorization": f"Bearer {PROM_API_TOKEN}",
+        "Content-Type": "application/json",
+    }
 
     products = []
     last_id = None
 
+    print("Downloading products from Prom API...")
+
     while True:
 
         params = {
-            "limit": 100,
+            "limit": 100
         }
 
         if last_id is not None:
             params["last_id"] = last_id
 
         response = requests.get(
-            PROM_LIST_URL,
-            headers=prom_headers(),
+            PROM_API_LIST_URL,
+            headers=headers,
             params=params,
             timeout=30,
         )
@@ -126,22 +114,16 @@ def get_prom_products():
         if not last_id:
             break
 
-    print()
-    print("TOTAL PROM PRODUCTS:", len(products))
-
     return products
 
 
 # ============================================================
-# DOWNLOAD HOROSHOP
+# HOROSHOP
 # ============================================================
 
 def get_horoshop_products():
 
-    print()
-    print("=" * 60)
-    print("DOWNLOADING HOROSHOP")
-    print("=" * 60)
+    print("Downloading Horoshop feed...")
 
     response = requests.get(
         HOROSHOP_URL,
@@ -150,14 +132,19 @@ def get_horoshop_products():
 
     response.raise_for_status()
 
-    root = etree.fromstring(response.content)
+    root = etree.fromstring(
+        response.content
+    )
 
     products = {}
 
     for offer in root.xpath(".//offer"):
 
         sku = normalize_code(
-            get_text(offer, "vendorCode")
+            get_text(
+                offer,
+                "vendorCode"
+            )
         )
 
         if not sku:
@@ -174,16 +161,14 @@ def get_horoshop_products():
 
 
 # ============================================================
-# CREATE PROM SKU INDEX
+# PREPARE PROM PRODUCTS
 # ============================================================
 
-def create_prom_index(prom_products):
+def prepare_prom_products(prom_products):
 
     prom_by_sku = {}
 
-    duplicates = set()
-
-    no_sku = 0
+    duplicate_skus = set()
 
     for product in prom_products:
 
@@ -192,93 +177,76 @@ def create_prom_index(prom_products):
         )
 
         if not sku:
-            no_sku += 1
             continue
 
         if sku in prom_by_sku:
-            duplicates.add(sku)
+
+            duplicate_skus.add(sku)
+
             continue
 
         prom_by_sku[sku] = product
 
     print()
-    print("=" * 60)
-    print("PROM INDEX")
-    print("=" * 60)
+    print(
+        "Prom products received:",
+        len(prom_products)
+    )
 
     print(
-        "Products with SKU:",
+        "Prom products with SKU:",
         len(prom_by_sku)
     )
 
-    print(
-        "Products without SKU:",
-        no_sku
-    )
+    if duplicate_skus:
 
-    print(
-        "Duplicate SKU:",
-        len(duplicates)
-    )
-
-    if duplicates:
         print(
-            "Duplicate SKU skipped:",
-            sorted(duplicates)
+            "Duplicate Prom SKU skipped:",
+            sorted(duplicate_skus)
         )
 
-    return prom_by_sku, duplicates
+    return prom_by_sku, duplicate_skus
 
 
 # ============================================================
-# PREPARE UPDATES
+# BUILD API UPDATE LIST
 # ============================================================
 
-def prepare_updates(
+def build_updates(
     prom_by_sku,
-    duplicates,
+    duplicate_skus,
     horoshop_products,
 ):
 
     updates = []
 
-    matched = 0
+    unavailable_count = 0
+    available_count = 0
     missing_horoshop = 0
-    missing_external_id = 0
-    duplicate_skipped = 0
-
-    print()
-    print("=" * 60)
-    print("PREPARING PROM UPDATES")
-    print("=" * 60)
+    skipped_duplicates = 0
 
     for sku, prom_product in prom_by_sku.items():
 
         # ----------------------------------------------------
         # DUPLICATE SKU
+        #
+        # Не чіпаємо взагалі.
         # ----------------------------------------------------
 
-        if sku in duplicates:
+        if sku in duplicate_skus:
 
-            duplicate_skipped += 1
+            skipped_duplicates += 1
 
             continue
 
         # ----------------------------------------------------
-        # FIND SAME SKU IN HOROSHOP
+        # PRODUCT MUST EXIST IN HOROSHOP
         # ----------------------------------------------------
 
         horoshop_offer = horoshop_products.get(
             sku
         )
 
-        # Товар є на Prom, але його немає в Horoshop.
-        #
-        # НІЧОГО З НИМ НЕ РОБИМО.
-        #
-        # Не вимикаємо.
-        # Не видаляємо.
-        # Не змінюємо.
         if horoshop_offer is None:
 
             missing_horoshop += 1
@@ -286,49 +254,12 @@ def prepare_updates(
             continue
 
         # ----------------------------------------------------
-        # EXTERNAL ID
+        # REAL PROM PRODUCT ID
         # ----------------------------------------------------
 
-        external_id = clean(
-            prom_product.get("external_id")
-        )
+        prom_id = prom_product.get("id")
 
-        if not external_id:
-
-            print(
-                f"SKIP {sku}: "
-                "Prom external_id is empty"
-            )
-
-            missing_external_id += 1
-
-            continue
-
-        # ----------------------------------------------------
-        # PRICE
-        # ----------------------------------------------------
-
-        price = parse_price(
-            get_text(
-                horoshop_offer,
-                "price",
-            )
-        )
-
-        oldprice = parse_price(
-            get_text(
-                horoshop_offer,
-                "oldprice",
-            )
-        )
-
-        if price is None:
-
-            print(
-                f"SKIP {sku}: "
-                "Horoshop price is empty"
-            )
-
+        if not prom_id:
             continue
 
         # ----------------------------------------------------
@@ -339,7 +270,7 @@ def prepare_updates(
             horoshop_offer.get("available")
         ).lower()
 
-        is_available = (
+        available = (
             available_raw
             in (
                 "true",
@@ -348,50 +279,109 @@ def prepare_updates(
             )
         )
 
-        presence = (
-            "available"
-            if is_available
-            else "not_available"
+        # ====================================================
+        # CRITICAL RULE
+        #
+        # НЕМАЄ В НАЯВНОСТІ:
+        #
+        # міняємо ТІЛЬКИ presence.
+        #
+        # price НЕ передаємо.
+        # oldprice НЕ передаємо.
+        #
+        # Таким чином ціна товару на Prom
+        # залишається абсолютно без змін.
+        # ====================================================
+
+        if not available:
+
+            item = {
+                "id": prom_id,
+                "presence": "not_available",
+            }
+
+            updates.append(item)
+
+            unavailable_count += 1
+
+            continue
+
+        # ====================================================
+        # PRODUCT IS AVAILABLE
+        #
+        # Тільки тут дозволено працювати з ціною.
+        # ====================================================
+
+        price = parse_price(
+            get_text(
+                horoshop_offer,
+                "price"
+            )
         )
 
-        # ----------------------------------------------------
-        # UPDATE OBJECT
-        #
-        # IMPORTANT:
-        # id here = PROM EXTERNAL_ID
-        #
-        # NOT internal Prom product ID.
-        # ----------------------------------------------------
+        oldprice = parse_price(
+            get_text(
+                horoshop_offer,
+                "oldprice"
+            )
+        )
 
         item = {
-            "id": external_id,
-            "price": price,
-            "presence": presence,
+            "id": prom_id,
+            "presence": "available",
         }
 
         # ----------------------------------------------------
+        # CURRENT PRICE
+        # ----------------------------------------------------
+
+        if (
+            price is not None
+            and price > 0
+        ):
+
+            item["price"] = price
+
+        # ----------------------------------------------------
         # OLD PRICE / DISCOUNT
+        #
+        # Передаємо oldprice ТІЛЬКИ коли:
+        #
+        # 1. товар є в наявності;
+        # 2. oldprice існує;
+        # 3. price існує;
+        # 4. oldprice > price.
+        #
+        # НІКОЛИ не передаємо oldprice = 0.
         # ----------------------------------------------------
 
         if (
             oldprice is not None
+            and price is not None
             and oldprice > price
+            and oldprice > 0
         ):
 
             item["oldprice"] = oldprice
 
-        else:
-
-            # 0 прибирає стару перекреслену ціну,
-            # якщо акція на Horoshop вже закінчилася.
-            item["oldprice"] = 0
-
         updates.append(item)
 
-        matched += 1
+        available_count += 1
 
     print()
-    print("Matched products:", matched)
+    print("=" * 60)
+    print("PROM UPDATE PREPARED")
+    print("=" * 60)
+
+    print(
+        "Available products:",
+        available_count
+    )
+
+    print(
+        "Unavailable products:",
+        unavailable_count
+    )
 
     print(
         "Prom SKU missing in Horoshop:",
@@ -399,132 +389,124 @@ def prepare_updates(
     )
 
     print(
-        "Missing external_id:",
-        missing_external_id
+        "Duplicate SKU skipped:",
+        skipped_duplicates
     )
 
     print(
-        "Duplicate SKU skipped:",
-        duplicate_skipped
+        "Total products prepared:",
+        len(updates)
     )
 
     return updates
 
 
 # ============================================================
-# SEND ONE BATCH TO PROM
-# ============================================================
-
-def send_batch(batch, batch_number):
-
-    print()
-    print(
-        f"Sending batch #{batch_number}: "
-        f"{len(batch)} products"
-    )
-
-    response = requests.post(
-        PROM_EDIT_URL,
-        headers=prom_headers(),
-        json=batch,
-        timeout=60,
-    )
-
-    print(
-        "HTTP:",
-        response.status_code
-    )
-
-    if response.status_code not in (
-        200,
-        201,
-        202,
-    ):
-
-        print()
-        print("PROM ERROR:")
-        print(response.text)
-
-        response.raise_for_status()
-
-    try:
-
-        result = response.json()
-
-        print(
-            "Prom response:",
-            result
-        )
-
-    except ValueError:
-
-        print(
-            "Prom response:",
-            response.text
-        )
-
-    return True
-
-
-# ============================================================
-# SEND ALL UPDATES
+# SEND UPDATES TO PROM
 # ============================================================
 
 def send_updates(updates):
 
-    print()
-    print("=" * 60)
-    print("UPDATING PROM")
-    print("=" * 60)
-
-    if not updates:
-
-        print("Nothing to update.")
-
-        return
+    headers = {
+        "Authorization": f"Bearer {PROM_API_TOKEN}",
+        "Content-Type": "application/json",
+    }
 
     total = len(updates)
 
-    success = 0
+    processed = 0
 
-    batch_number = 0
+    successful_ids = []
+    errors = {}
+
+    print()
+    print("=" * 60)
+    print("SENDING UPDATES TO PROM")
+    print("=" * 60)
 
     for start in range(
         0,
         total,
-        BATCH_SIZE,
+        BATCH_SIZE
     ):
-
-        batch_number += 1
 
         batch = updates[
             start:start + BATCH_SIZE
         ]
 
-        send_batch(
-            batch,
-            batch_number,
+        batch_number = (
+            start // BATCH_SIZE
+        ) + 1
+
+        print()
+        print(
+            f"Sending batch #{batch_number}: "
+            f"{len(batch)} products"
         )
 
-        success += len(batch)
+        response = requests.post(
+            PROM_API_EDIT_URL,
+            headers=headers,
+            json=batch,
+            timeout=60,
+        )
+
+        print(
+            "HTTP:",
+            response.status_code
+        )
+
+        try:
+            result = response.json()
+
+            print(
+                "Prom response:",
+                result
+            )
+
+        except ValueError:
+
+            print(
+                "Prom response text:",
+                response.text
+            )
+
+            response.raise_for_status()
+
+            result = {}
+
+        response.raise_for_status()
+
+        batch_processed = result.get(
+            "processed_ids",
+            []
+        )
+
+        batch_errors = result.get(
+            "errors",
+            {}
+        )
+
+        successful_ids.extend(
+            batch_processed
+        )
+
+        errors.update(
+            batch_errors
+        )
+
+        processed += len(batch)
 
         print(
             f"Progress: "
-            f"{success}/{total}"
+            f"{processed}/{total}"
         )
 
-        # Невелика пауза між запитами
+        # Невелика пауза між пакетами,
+        # щоб не бити API занадто швидко.
         time.sleep(0.5)
 
-    print()
-    print("=" * 60)
-    print("PROM UPDATE FINISHED")
-    print("=" * 60)
-
-    print(
-        "Products sent:",
-        success
-    )
+    return successful_ids, errors
 
 
 # ============================================================
@@ -533,83 +515,78 @@ def send_updates(updates):
 
 def main():
 
-    print()
-    print("=" * 60)
-    print("CATPAWS -> PROM API SYNC")
-    print("=" * 60)
-
-    # --------------------------------------------------------
-    # 1. PROM
-    # --------------------------------------------------------
-
     prom_products = get_prom_products()
-
-    # --------------------------------------------------------
-    # 2. HOROSHOP
-    # --------------------------------------------------------
 
     horoshop_products = (
         get_horoshop_products()
     )
 
-    # --------------------------------------------------------
-    # 3. PROM SKU INDEX
-    # --------------------------------------------------------
-
-    (
-        prom_by_sku,
-        duplicates,
-    ) = create_prom_index(
-        prom_products
+    prom_by_sku, duplicate_skus = (
+        prepare_prom_products(
+            prom_products
+        )
     )
 
-    # --------------------------------------------------------
-    # 4. MATCH BY OUR SKU
-    # --------------------------------------------------------
-
-    updates = prepare_updates(
+    updates = build_updates(
         prom_by_sku,
-        duplicates,
+        duplicate_skus,
         horoshop_products,
     )
 
-    # --------------------------------------------------------
-    # SAFETY
-    # --------------------------------------------------------
+    successful_ids, errors = (
+        send_updates(updates)
+    )
 
     print()
     print("=" * 60)
-    print("SAFETY CHECK")
+    print("PROM UPDATE FINISHED")
     print("=" * 60)
 
     print(
-        "Prom products:",
-        len(prom_products)
-    )
-
-    print(
-        "Horoshop products:",
-        len(horoshop_products)
-    )
-
-    print(
-        "Products prepared:",
+        "Products sent:",
         len(updates)
     )
 
-    # Захист від випадкової масової помилки.
-    if len(updates) == 0:
+    print(
+        "Successfully processed:",
+        len(successful_ids)
+    )
 
-        raise RuntimeError(
-            "SAFETY STOP: "
-            "0 matched products."
-        )
+    print(
+        "Products with errors:",
+        len(errors)
+    )
 
-    # --------------------------------------------------------
-    # 5. UPDATE PROM
-    # --------------------------------------------------------
+    if errors:
 
-    send_updates(updates)
+        print()
+        print("ERRORS:")
+
+        for product_id, error in errors.items():
+
+            print(
+                product_id,
+                error
+            )
+
+    print()
+    print("=" * 60)
+
+    print(
+        "SAFETY RULE:"
+    )
+
+    print(
+        "Unavailable products: "
+        "ONLY presence is updated."
+    )
+
+    print(
+        "Their price and oldprice "
+        "are NEVER sent to Prom."
+    )
+
+    print("=" * 60)
 
 
 # ============================================================
