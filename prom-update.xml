@@ -31,20 +31,11 @@
         <price>3231</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="2976672254" available="false">
-        <vendorCode>1148016</vendorCode>
-      </offer>
       <offer id="2976672255" available="true">
         <vendorCode>3038100</vendorCode>
         <price>3149</price>
         <oldprice>3705</oldprice>
         <currencyId>UAH</currencyId>
-      </offer>
-      <offer id="2976672256" available="false">
-        <vendorCode>1128016</vendorCode>
-      </offer>
-      <offer id="2976672257" available="false">
-        <vendorCode>1367103</vendorCode>
       </offer>
       <offer id="2976672258" available="true">
         <vendorCode>3068004</vendorCode>
@@ -86,18 +77,6 @@
         <price>2884</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="2976672266" available="false">
-        <vendorCode>1367101</vendorCode>
-      </offer>
-      <offer id="2976672267" available="false">
-        <vendorCode>1014008</vendorCode>
-      </offer>
-      <offer id="2976672268" available="false">
-        <vendorCode>1016008</vendorCode>
-      </offer>
-      <offer id="2976672269" available="false">
-        <vendorCode>1012008</vendorCode>
-      </offer>
       <offer id="2976672270" available="true">
         <vendorCode>3099004</vendorCode>
         <price>230</price>
@@ -113,9 +92,6 @@
         <price>2460</price>
         <oldprice>2894</oldprice>
         <currencyId>UAH</currencyId>
-      </offer>
-      <offer id="2976672273" available="false">
-        <vendorCode>1027007</vendorCode>
       </offer>
       <offer id="2976672274" available="true">
         <vendorCode>1127016</vendorCode>
@@ -2082,18 +2058,6 @@
         <price>218</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="2991570231" available="false">
-        <vendorCode>143023</vendorCode>
-      </offer>
-      <offer id="2991570232" available="false">
-        <vendorCode>42035</vendorCode>
-      </offer>
-      <offer id="2991570233" available="false">
-        <vendorCode>42034</vendorCode>
-      </offer>
-      <offer id="2991570234" available="false">
-        <vendorCode>38973</vendorCode>
-      </offer>
       <offer id="2991570235" available="true">
         <vendorCode>ЗС000195</vendorCode>
         <price>141</price>
@@ -2618,9 +2582,6 @@
         <price>97</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="3038206361" available="false">
-        <vendorCode>111293</vendorCode>
-      </offer>
       <offer id="3038234787" available="false">
         <vendorCode>ЗС000412</vendorCode>
         <price>174</price>
@@ -2983,33 +2944,6 @@
         <vendorCode>50006795*5</vendorCode>
         <price>960</price>
         <currencyId>UAH</currencyId>
-      </offer>
-      <offer id="3157347098" available="false">
-        <vendorCode>NPLS45673</vendorCode>
-      </offer>
-      <offer id="3157347099" available="false">
-        <vendorCode>NPLS45675</vendorCode>
-      </offer>
-      <offer id="3157347100" available="false">
-        <vendorCode>NPLS45677</vendorCode>
-      </offer>
-      <offer id="3157347101" available="false">
-        <vendorCode>NPLS45680</vendorCode>
-      </offer>
-      <offer id="3157347102" available="false">
-        <vendorCode>NPLS45686</vendorCode>
-      </offer>
-      <offer id="3157347103" available="false">
-        <vendorCode>NPLS45682</vendorCode>
-      </offer>
-      <offer id="3157347104" available="false">
-        <vendorCode>NPLS45684</vendorCode>
-      </offer>
-      <offer id="3157347105" available="false">
-        <vendorCode>NPPR47914-K2</vendorCode>
-      </offer>
-      <offer id="3157347106" available="false">
-        <vendorCode>NPPR47917-K2</vendorCode>
       </offer>
       <offer id="3157347107" available="true">
         <vendorCode>DOTNPSC70362</vendorCode>
@@ -3510,63 +3444,6 @@
         <vendorCode>DN 800 (633)</vendorCode>
         <price>319</price>
         <currencyId>UAH</currencyId>
-      </offer>
-      <offer id="3157347207" available="false">
-        <vendorCode>740038-0223</vendorCode>
-      </offer>
-      <offer id="3157347208" available="false">
-        <vendorCode>740297-2326</vendorCode>
-      </offer>
-      <offer id="3157347209" available="false">
-        <vendorCode>740238-2227</vendorCode>
-      </offer>
-      <offer id="3157347210" available="false">
-        <vendorCode>740497-4320</vendorCode>
-      </offer>
-      <offer id="3157347211" available="false">
-        <vendorCode>740438-4221</vendorCode>
-      </offer>
-      <offer id="3157347212" available="false">
-        <vendorCode>740397-3323</vendorCode>
-      </offer>
-      <offer id="3157347213" available="false">
-        <vendorCode>740338-3224</vendorCode>
-      </offer>
-      <offer id="3157347214" available="false">
-        <vendorCode>740197-1329</vendorCode>
-      </offer>
-      <offer id="3157347215" available="false">
-        <vendorCode>700297-2328</vendorCode>
-      </offer>
-      <offer id="3157347216" available="false">
-        <vendorCode>700197-1321</vendorCode>
-      </offer>
-      <offer id="3157347217" available="false">
-        <vendorCode>700597-5329</vendorCode>
-      </offer>
-      <offer id="3157347218" available="false">
-        <vendorCode>700045-0454</vendorCode>
-      </offer>
-      <offer id="3157347219" available="false">
-        <vendorCode>700097-0324</vendorCode>
-      </offer>
-      <offer id="3157347220" available="false">
-        <vendorCode>700345-3455</vendorCode>
-      </offer>
-      <offer id="3157347221" available="false">
-        <vendorCode>700397-3325</vendorCode>
-      </offer>
-      <offer id="3157347222" available="false">
-        <vendorCode>700245-2458</vendorCode>
-      </offer>
-      <offer id="3157347223" available="false">
-        <vendorCode>700545-5459</vendorCode>
-      </offer>
-      <offer id="3157347224" available="false">
-        <vendorCode>720374-145</vendorCode>
-      </offer>
-      <offer id="3157347225" available="false">
-        <vendorCode>720474-142</vendorCode>
       </offer>
       <offer id="3157347226" available="true">
         <vendorCode>ЗС000283</vendorCode>
@@ -4233,9 +4110,6 @@
         <price>335</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="3162841480" available="false">
-        <vendorCode>215689</vendorCode>
-      </offer>
       <offer id="3166733862" available="true">
         <vendorCode>ЗС000475</vendorCode>
         <price>516</price>
@@ -4260,135 +4134,6 @@
         <vendorCode>ЗС000479</vendorCode>
         <price>544</price>
         <currencyId>UAH</currencyId>
-      </offer>
-      <offer id="3166733867" available="false">
-        <vendorCode>58211</vendorCode>
-      </offer>
-      <offer id="3166733868" available="false">
-        <vendorCode>46152</vendorCode>
-      </offer>
-      <offer id="3166733869" available="false">
-        <vendorCode>40641</vendorCode>
-      </offer>
-      <offer id="3166733870" available="false">
-        <vendorCode>58235</vendorCode>
-      </offer>
-      <offer id="3166733871" available="false">
-        <vendorCode>58242</vendorCode>
-      </offer>
-      <offer id="3166733872" available="false">
-        <vendorCode>58228</vendorCode>
-      </offer>
-      <offer id="3166733873" available="false">
-        <vendorCode>211247</vendorCode>
-      </offer>
-      <offer id="3166733874" available="false">
-        <vendorCode>58440</vendorCode>
-      </offer>
-      <offer id="3166733875" available="false">
-        <vendorCode>211483</vendorCode>
-      </offer>
-      <offer id="3166733876" available="false">
-        <vendorCode>203341</vendorCode>
-      </offer>
-      <offer id="3166733877" available="false">
-        <vendorCode>201637</vendorCode>
-      </offer>
-      <offer id="3166733878" available="false">
-        <vendorCode>58426</vendorCode>
-      </offer>
-      <offer id="3166733879" available="false">
-        <vendorCode>58419</vendorCode>
-      </offer>
-      <offer id="3166733880" available="false">
-        <vendorCode>46282</vendorCode>
-      </offer>
-      <offer id="3166733881" available="false">
-        <vendorCode>208971</vendorCode>
-      </offer>
-      <offer id="3166733882" available="false">
-        <vendorCode>208964</vendorCode>
-      </offer>
-      <offer id="3166733883" available="false">
-        <vendorCode>58884</vendorCode>
-      </offer>
-      <offer id="3166733884" available="false">
-        <vendorCode>203778</vendorCode>
-      </offer>
-      <offer id="3166733885" available="false">
-        <vendorCode>46138</vendorCode>
-      </offer>
-      <offer id="3166733886" available="false">
-        <vendorCode>46275</vendorCode>
-      </offer>
-      <offer id="3166733887" available="false">
-        <vendorCode>200784</vendorCode>
-      </offer>
-      <offer id="3166733888" available="false">
-        <vendorCode>201521</vendorCode>
-      </offer>
-      <offer id="3166733889" available="false">
-        <vendorCode>46145</vendorCode>
-      </offer>
-      <offer id="3166733890" available="false">
-        <vendorCode>58181</vendorCode>
-      </offer>
-      <offer id="3166733891" available="false">
-        <vendorCode>46695</vendorCode>
-      </offer>
-      <offer id="3166733892" available="false">
-        <vendorCode>58600</vendorCode>
-      </offer>
-      <offer id="3166733893" available="false">
-        <vendorCode>208940</vendorCode>
-      </offer>
-      <offer id="3166733894" available="false">
-        <vendorCode>211230</vendorCode>
-      </offer>
-      <offer id="3166733895" available="false">
-        <vendorCode>58266</vendorCode>
-      </offer>
-      <offer id="3166733896" available="false">
-        <vendorCode>202580</vendorCode>
-      </offer>
-      <offer id="3166733897" available="false">
-        <vendorCode>201170</vendorCode>
-      </offer>
-      <offer id="3166733898" available="false">
-        <vendorCode>212022</vendorCode>
-      </offer>
-      <offer id="3166733899" available="false">
-        <vendorCode>212244</vendorCode>
-      </offer>
-      <offer id="3166733900" available="false">
-        <vendorCode>212237</vendorCode>
-      </offer>
-      <offer id="3166733901" available="false">
-        <vendorCode>204461</vendorCode>
-      </offer>
-      <offer id="3166733902" available="false">
-        <vendorCode>204478</vendorCode>
-      </offer>
-      <offer id="3166733903" available="false">
-        <vendorCode>212701</vendorCode>
-      </offer>
-      <offer id="3166733904" available="false">
-        <vendorCode>208957</vendorCode>
-      </offer>
-      <offer id="3166733905" available="false">
-        <vendorCode>58709</vendorCode>
-      </offer>
-      <offer id="3166733906" available="false">
-        <vendorCode>212718</vendorCode>
-      </offer>
-      <offer id="3166733907" available="false">
-        <vendorCode>215245</vendorCode>
-      </offer>
-      <offer id="3166733908" available="false">
-        <vendorCode>208391</vendorCode>
-      </offer>
-      <offer id="3166733909" available="false">
-        <vendorCode>215726</vendorCode>
       </offer>
     </offers>
   </shop>
