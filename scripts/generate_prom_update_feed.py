@@ -14,7 +14,9 @@ HOROSHOP_URL = (
 
 PROM_API_URL = "https://my.prom.ua/api/v1/products/list"
 
-OUTPUT_FILE = "prom-update.xml"
+# GitHub Pages публікує папку ./public
+OUTPUT_DIR = "public"
+OUTPUT_FILE = os.path.join(OUTPUT_DIR, "prom-update.xml")
 
 PROM_API_TOKEN = os.environ["PROM_API_TOKEN"]
 
@@ -137,13 +139,11 @@ def build_feed():
     horoshop_products = get_horoshop_products()
 
     # --------------------------------------------------------
-    # IMPORTANT:
     # Only products confirmed by Prom API are allowed
     # into the update feed.
     # --------------------------------------------------------
 
     prom_by_sku = {}
-
     duplicate_skus = set()
 
     for product in prom_products:
@@ -174,9 +174,7 @@ def build_feed():
     # --------------------------------------------------------
 
     yml_catalog = etree.Element("yml_catalog")
-
     shop = etree.SubElement(yml_catalog, "shop")
-
     offers = etree.SubElement(shop, "offers")
 
     updated = 0
@@ -185,8 +183,7 @@ def build_feed():
 
     for sku, prom_product in prom_by_sku.items():
 
-        # Do not touch duplicate SKUs.
-        # We cannot safely determine which Prom card is correct.
+        # Не чіпаємо дублікати SKU
         if sku in duplicate_skus:
             skipped_duplicates += 1
             continue
@@ -194,13 +191,9 @@ def build_feed():
         horoshop_offer = horoshop_products.get(sku)
 
         # ----------------------------------------------------
-        # CRITICAL SAFETY RULE:
-        #
-        # If product does not exist in Horoshop,
-        # DO NOT put it in XML.
-        #
-        # We also DO NOT mark it unavailable here.
-        # This feed is ONLY for matched existing products.
+        # SAFETY:
+        # Якщо товару немає в Horoshop —
+        # взагалі не передаємо його в XML.
         # ----------------------------------------------------
 
         if horoshop_offer is None:
@@ -231,9 +224,6 @@ def build_feed():
 
         # ----------------------------------------------------
         # EXISTING PROM PRODUCT ONLY
-        #
-        # id = real Prom product ID from API
-        # vendorCode = real SKU confirmed by Prom API
         # ----------------------------------------------------
 
         offer = etree.SubElement(
@@ -258,15 +248,9 @@ def build_feed():
 
         # ----------------------------------------------------
         # DISCOUNT
-        #
-        # Horoshop:
-        # price    = current selling price
-        # oldprice = old price before discount
-        #
-        # Prom receives both.
         # ----------------------------------------------------
 
-        if oldprice:
+        if oldprice and price:
             try:
                 old_price_num = float(
                     oldprice.replace(",", ".")
@@ -295,8 +279,10 @@ def build_feed():
         updated += 1
 
     # ========================================================
-    # SAVE
+    # SAVE TO ./public
     # ========================================================
+
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
 
     tree = etree.ElementTree(yml_catalog)
 
@@ -317,6 +303,9 @@ def build_feed():
     print("Included in update feed:", updated)
     print("Prom SKU missing in Horoshop:", missing_horoshop)
     print("Duplicate SKU skipped:", skipped_duplicates)
+
+    print()
+    print("OUTPUT FILE:", OUTPUT_FILE)
 
     print()
     print(
