@@ -33,7 +33,10 @@ jobs:
 
       - name: Generate Mono products
         run: python scripts/generate_products_feed.py
-
+      - name: Test Prom API
+        env:
+          PROM_API_TOKEN: ${{ secrets.PROM_API_TOKEN }}
+        run: python scripts/test_prom_api.py
       - name: Generate Prom update feed
         continue-on-error: true
         run: python scripts/generate_prom_update_feed.py
