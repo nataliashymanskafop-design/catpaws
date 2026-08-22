@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-08-21 03:31">
+<yml_catalog date="2026-08-22 03:41">
  <shop>
   <currencies>
    <currency id="UAH" rate="1"/>
@@ -2441,7 +2441,7 @@
     <vendorCode>ЗС000401</vendorCode>
     <name>Шампунь антибактериальный с хлоргексидином 3% и кетоконазолом 1% для собак и кошек, 250 мл, MODES</name>
     <name_ua>Шампунь антибактеріальний з хлоргексидином 3% і кетоконазолом 1% для собак і котів, 250 мл, MODES</name_ua>
-    </offer><offer id="2985306469" available="true"><price>225</price>
+    </offer><offer id="2985306469" available=""><price>225</price>
     <currencyId>UAH</currencyId>
     <categoryId>1099</categoryId>
     <vendorCode>ЗС000400</vendorCode>
@@ -4961,6 +4961,36 @@
     <vendorCode>5160</vendorCode>
     <name>Exclusion Adult Beef Small Breed корм для взрослых собак мелких пород с говядиной 500 г</name>
     <name_ua>Exclusion Adult Beef Small Breed корм для дорослих собак дрібних порід з яловичиною 500 г</name_ua>
+    </offer><offer id="3166733862" available="true"><price>516</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>1088</categoryId>
+    <vendorCode>ЗС000475</vendorCode>
+    <name>Лакомства для собак Пан Гурман (дополнительный корм) «Медальоны с индейкой и кроликом», 500 г, MODES</name>
+    <name_ua>Ласощі для собак Пан Гурман (додатковий корм) «Медальйони з індичкою та кроликом», 500 г, MODES</name_ua>
+    </offer><offer id="3166733863" available="true"><price>557</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>1088</categoryId>
+    <vendorCode>ЗС000476</vendorCode>
+    <name>Лакомства для собак Пан Гурман (дополнительный корм) «Мини-колбаски с индейкой», 500 г, MODES</name>
+    <name_ua>Ласощі для собак Пан Гурман (додатковий корм) «Мініковбаски з індичкою», 500 г, MODES</name_ua>
+    </offer><offer id="3166733864" available="true"><price>564</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>1088</categoryId>
+    <vendorCode>ЗС000477</vendorCode>
+    <name>Лакомства для собак Пан Гурман (дополнительный корм) «Мини-колбаски с уткой», 500 г, MODES</name>
+    <name_ua>Ласощі для собак Пан Гурман (додатковий корм) «Мініковбаски з качкою», 500 г, MODES</name_ua>
+    </offer><offer id="3166733865" available="true"><price>525</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>1088</categoryId>
+    <vendorCode>ЗС000478</vendorCode>
+    <name>Лакомства для собак Пан Гурман (дополнительный корм) «Мясные палочки с индейкой», 500 г, MODES</name>
+    <name_ua>Ласощі для собак Пан Гурман (додатковий корм) «М’ясні палички з індичкою», 500 г, MODES</name_ua>
+    </offer><offer id="3166733866" available="true"><price>544</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>1088</categoryId>
+    <vendorCode>ЗС000479</vendorCode>
+    <name>Лакомства для собак Пан Гурман (дополнительный корм) «Мясные палочки с говядиной», 500 г, MODES</name>
+    <name_ua>Ласощі для собак Пан Гурман (додатковий корм) «М’ясні палички з яловичиною», 500 г, MODES</name_ua>
     </offer></offers>
  </shop>
 </yml_catalog>
