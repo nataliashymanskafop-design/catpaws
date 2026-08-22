@@ -1,4 +1,5 @@
 import os
+from copy import deepcopy
 
 import requests
 from lxml import etree
@@ -12,9 +13,14 @@ HOROSHOP_URL = (
 PROM_URL = (
     "https://internet-magazin-zootovarov-catpaws.prom.ua/products_feed.xml"
     "?hash_tag=8a56485e1e4e81c1d667052043b301b8"
-    "&sales_notes=&product_ids=&label_ids=&exclude_fields=description"
-    "&html_description=0&yandex_cpa=&process_presence_sure="
-    "&languages=uk&extra_fields=&group_ids="
+    "&sales_notes=&product_ids=&label_ids="
+    "&exclude_fields=description"
+    "&html_description=0"
+    "&yandex_cpa="
+    "&process_presence_sure="
+    "&languages=uk"
+    "&extra_fields="
+    "&group_ids="
 )
 
 
@@ -24,90 +30,87 @@ def download_xml(url):
     return etree.fromstring(response.content)
 
 
-def vendor_code(offer):
+def get_vendor_code(offer):
     value = offer.findtext("vendorCode")
     return value.strip() if value else ""
 
 
-def add_text(parent, tag, value):
-    if value is None:
-        return
+def get_prom_offers(root):
+    """
+    Повертає товари, які реально присутні в експорті Prom.
+    Ключ — vendorCode / артикул.
+    """
 
-    value = str(value).strip()
+    result = {}
+    duplicates = set()
 
-    if not value:
-        return
+    for offer in root.xpath(".//offer"):
+        code = get_vendor_code(offer)
 
-    element = etree.SubElement(parent, tag)
-    element.text = value
+        if not code:
+            continue
+
+        if code in result:
+            duplicates.add(code)
+            continue
+
+        result[code] = offer
+
+    return result, duplicates
+
+
+def get_horoshop_offers(root):
+    """
+    Товари Horoshop за артикулом.
+    """
+
+    result = {}
+
+    for offer in root.xpath(".//offer"):
+        code = get_vendor_code(offer)
+
+        if not code:
+            continue
+
+        result[code] = offer
+
+    return result
+
+
+def copy_if_exists(source, destination, tag):
+    element = source.find(tag)
+
+    if element is not None and element.text is not None:
+        destination.append(deepcopy(element))
 
 
 def main():
+
     print("Downloading Horoshop and Prom feeds...")
 
     horoshop_root = download_xml(HOROSHOP_URL)
     prom_root = download_xml(PROM_URL)
 
-    # =========================================================
-    # 1. Товари, які вже є в експорті Prom
-    # =========================================================
+    prom_by_code, duplicate_codes = get_prom_offers(prom_root)
+    horoshop_by_code = get_horoshop_offers(horoshop_root)
 
-    prom_products = {}
-    duplicate_codes = set()
+    print(f"Prom products found: {len(prom_by_code)}")
+    print(f"Horoshop products found: {len(horoshop_by_code)}")
 
-    for offer in prom_root.xpath(".//offer"):
-        code = vendor_code(offer)
-        prom_id = offer.get("id")
+    # ---------------------------------------------------------
+    # Створюємо НОВИЙ мінімальний YML.
+    # Не копіюємо каталог Horoshop.
+    # ---------------------------------------------------------
 
-        if not code or not prom_id:
-            continue
+    yml_catalog = etree.Element("yml_catalog")
 
-        if code in prom_products:
-            duplicate_codes.add(code)
-            continue
+    shop = etree.SubElement(yml_catalog, "shop")
 
-        prom_products[code] = prom_id
+    name = etree.SubElement(shop, "name")
+    name.text = "CatPaws"
 
-    print(f"Products found in Prom export: {len(prom_products)}")
-
-    # =========================================================
-    # 2. Актуальні товари Horoshop
-    # =========================================================
-
-    horoshop_products = {}
-
-    for offer in horoshop_root.xpath(".//offer"):
-        code = vendor_code(offer)
-
-        if code:
-            horoshop_products[code] = offer
-
-    print(f"Products found in Horoshop: {len(horoshop_products)}")
-
-    # =========================================================
-    # 3. Мінімальний update-feed
-    #
-    # Потрапляють ТІЛЬКИ товари:
-    # Prom + Horoshop
-    #
-    # Передаємо:
-    # - Prom ID
-    # - артикул
-    # - наявність
-    # - ціну
-    # - стару ціну / знижку
-    #
-    # НЕ передаємо:
-    # - назву
-    # - опис
-    # - фото
-    # - категорію
-    # - характеристики
-    # =========================================================
-
-    root = etree.Element("yml_catalog")
-
-    shop = etree.SubElement(root, "shop")
+    company = etree.SubElement(shop, "company")
+    company.text = "CatPaws"
 
     currencies = etree.SubElement(shop, "currencies")
 
@@ -115,121 +118,167 @@ def main():
         currencies,
         "currency",
         id="UAH",
-        rate="1",
+        rate="1"
     )
 
-    offers = etree.SubElement(shop, "offers")
+    offers_parent = etree.SubElement(shop, "offers")
 
     updated = 0
-    skipped_missing = 0
+    unavailable = 0
+    skipped = 0
 
-    for code, prom_id in prom_products.items():
+    # ---------------------------------------------------------
+    # Головне:
+    # працюємо ТІЛЬКИ з артикулами, які вже є на Prom.
+    # ---------------------------------------------------------
 
-        source = horoshop_products.get(code)
+    for code, prom_offer in prom_by_code.items():
+
+        source = horoshop_by_code.get(code)
 
         # -----------------------------------------------------
-        # Якщо товару вже немає в Horoshop —
-        # НЕ додаємо його у XML.
+        # Товар є і на Prom, і в Horoshop
         # -----------------------------------------------------
 
-        if source is None:
-            skipped_missing += 1
+        if source is not None:
+
+            available = source.get("available", "false").lower()
+
+            if available not in ("true", "false"):
+                available = "false"
+
+            offer = etree.SubElement(
+                offers_parent,
+                "offer",
+
+                # КРИТИЧНО:
+                # id = артикул, а НЕ внутрішній Prom ID
+                id=code,
+
+                available=available,
+            )
+
+            vendor = etree.SubElement(offer, "vendorCode")
+            vendor.text = code
+
+            copy_if_exists(source, offer, "price")
+            copy_if_exists(source, offer, "oldprice")
+            copy_if_exists(source, offer, "currencyId")
+
+            # Якщо currencyId немає
+            if offer.find("currencyId") is None:
+                currency = etree.SubElement(
+                    offer,
+                    "currencyId"
+                )
+                currency.text = "UAH"
+
+            updated += 1
+
             continue
 
         # -----------------------------------------------------
-        # Наявність
+        # Товар є на Prom, але його НЕМАЄ в Horoshop.
+        #
+        # Значить він більше не продається / відсутній.
+        # Передаємо available=false.
+        #
+        # Ціну беремо зі старого Prom-фіда,
+        # щоб Prom не отримав порожню картку.
         # -----------------------------------------------------
-
-        available = source.get("available", "false").lower()
-
-        if available not in ("true", "false"):
-            available = "false"
 
         offer = etree.SubElement(
-            offers,
+            offers_parent,
             "offer",
-            id=prom_id,
-            available=available,
+            id=code,
+            available="false",
         )
 
-        # -----------------------------------------------------
-        # Артикул
-        # -----------------------------------------------------
+        vendor = etree.SubElement(offer, "vendorCode")
+        vendor.text = code
 
-        add_text(
-            offer,
-            "vendorCode",
-            code,
-        )
+        copy_if_exists(prom_offer, offer, "price")
+        copy_if_exists(prom_offer, offer, "oldprice")
+        copy_if_exists(prom_offer, offer, "currencyId")
 
-        # -----------------------------------------------------
-        # Ціна
-        # -----------------------------------------------------
-
-        price = source.findtext("price")
-
-        add_text(
-            offer,
-            "price",
-            price,
-        )
-
-        # -----------------------------------------------------
-        # Знижка / стара ціна
-        # -----------------------------------------------------
-
-        oldprice = source.findtext("oldprice")
-
-        if oldprice:
-            add_text(
+        if offer.find("currencyId") is None:
+            currency = etree.SubElement(
                 offer,
-                "oldprice",
-                oldprice,
+                "currencyId"
             )
+            currency.text = "UAH"
 
-        # -----------------------------------------------------
-        # Валюта
-        # -----------------------------------------------------
+        unavailable += 1
 
-        currency = source.findtext("currencyId")
-
-        add_text(
-            offer,
-            "currencyId",
-            currency or "UAH",
+        print(
+            f"Unavailable: {code} "
+            f"(exists on Prom, missing in Horoshop)"
         )
 
-        updated += 1
-
-    # =========================================================
-    # 4. Зберігаємо XML
-    # =========================================================
+    # ---------------------------------------------------------
+    # Запис файлу
+    # ---------------------------------------------------------
 
     os.makedirs("public", exist_ok=True)
 
-    etree.ElementTree(root).write(
-        "public/prom-update.xml",
+    output_file = "public/prom-update.xml"
+
+    etree.ElementTree(yml_catalog).write(
+        output_file,
         encoding="UTF-8",
         xml_declaration=True,
         pretty_print=True,
     )
 
-    # =========================================================
-    # 5. Лог
-    # =========================================================
-
     print()
+    print("======================================")
     print("PROM UPDATE FEED READY")
-    print(f"Products included in update feed: {updated}")
-    print(
-        f"Prom products missing in Horoshop and NOT included: "
-        f"{skipped_missing}"
-    )
+    print("======================================")
+    print(f"Existing Prom products: {len(prom_by_code)}")
+    print(f"Updated from Horoshop: {updated}")
+    print(f"Marked unavailable: {unavailable}")
+    print(f"Skipped: {skipped}")
 
     if duplicate_codes:
         print(
             "Duplicate Prom vendorCodes skipped:",
-            sorted(duplicate_codes),
+            sorted(duplicate_codes)
+        )
+
+    # ---------------------------------------------------------
+    # Контроль конкретного товару
+    # ---------------------------------------------------------
+
+    CONTROL_CODE = "3C000412"
+
+    if CONTROL_CODE in prom_by_code:
+
+        if CONTROL_CODE in horoshop_by_code:
+
+            status = horoshop_by_code[
+                CONTROL_CODE
+            ].get("available", "false")
+
+            print(
+                f"CONTROL {CONTROL_CODE}: "
+                f"found in Horoshop, "
+                f"available={status}"
+            )
+
+        else:
+
+            print(
+                f"CONTROL {CONTROL_CODE}: "
+                "exists on Prom, "
+                "missing in Horoshop -> "
+                "available=false"
+            )
+
+    else:
+
+        print(
+            f"CONTROL {CONTROL_CODE}: "
+            "NOT FOUND in Prom export"
         )
 
 
