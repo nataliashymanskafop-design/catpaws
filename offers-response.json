@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-29T01:01:34Z",
-  "total": 2135,
+  "updatedAt": "2026-08-30T05:35:51Z",
+  "total": 2136,
   "data": [
     {
       "code": "1018100",
@@ -59757,6 +59757,34 @@
     {
       "code": "DN 800 (633)_box",
       "price": 1915,
+      "old_price": null,
+      "availability": true,
+      "stock": 999,
+      "warehouses": [
+        {
+          "id": "1",
+          "stock": 999
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "025845",
+      "price": 4980,
       "old_price": null,
       "availability": true,
       "stock": 999,
