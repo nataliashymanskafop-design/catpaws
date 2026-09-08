@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T04:42:15Z",
+  "updatedAt": "2026-09-08T00:45:23Z",
   "total": 2153,
   "data": [
     {
@@ -1518,12 +1518,12 @@
       "code": "3108016",
       "price": 781,
       "old_price": null,
-      "availability": true,
-      "stock": 999,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "1",
-          "stock": 999
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -35426,12 +35426,12 @@
       "code": "NPPR47915_box",
       "price": 576,
       "old_price": null,
-      "availability": true,
-      "stock": 999,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "1",
-          "stock": 999
+          "stock": 0
         }
       ],
       "warranty_type": "no",
