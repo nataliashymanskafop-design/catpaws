@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T00:44:51Z",
+  "updatedAt": "2026-09-10T05:23:01Z",
   "total": 2153,
   "data": [
     {
@@ -13472,14 +13472,14 @@
     },
     {
       "code": "017923",
-      "price": 3045,
-      "old_price": 4350,
-      "availability": true,
-      "stock": 999,
+      "price": 4350,
+      "old_price": null,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "1",
-          "stock": 999
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -22292,7 +22292,7 @@
     },
     {
       "code": "5159",
-      "price": 546,
+      "price": 2549,
       "old_price": null,
       "availability": true,
       "stock": 999,
