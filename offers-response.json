@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-11T01:33:40Z",
-  "total": 2153,
+  "updatedAt": "2026-09-12T01:16:08Z",
+  "total": 2152,
   "data": [
     {
       "code": "1018100",
@@ -6558,12 +6558,12 @@
       "code": "TPL63739",
       "price": 785,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 999,
       "warehouses": [
         {
           "id": "1",
-          "stock": 0
+          "stock": 999
         }
       ],
       "warranty_type": "no",
@@ -6782,12 +6782,12 @@
       "code": "NPS45758",
       "price": 926,
       "old_price": null,
-      "availability": true,
-      "stock": 999,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "1",
-          "stock": 999
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -9946,12 +9946,12 @@
       "code": "NPS45744",
       "price": 3795,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 999,
       "warehouses": [
         {
           "id": "1",
-          "stock": 0
+          "stock": 999
         }
       ],
       "warranty_type": "no",
@@ -9974,12 +9974,12 @@
       "code": "NPB46032",
       "price": 5516,
       "old_price": null,
-      "availability": true,
-      "stock": 999,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "1",
-          "stock": 999
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -13165,34 +13165,6 @@
     {
       "code": "1013008",
       "price": 91,
-      "old_price": null,
-      "availability": false,
-      "stock": 0,
-      "warehouses": [
-        {
-          "id": "1",
-          "stock": 0
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 2,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "1026008",
-      "price": 123,
       "old_price": null,
       "availability": false,
       "stock": 0,
@@ -35034,12 +35006,12 @@
       "code": "NPPR47953_box",
       "price": 792,
       "old_price": null,
-      "availability": true,
-      "stock": 999,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "1",
-          "stock": 999
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -56874,12 +56846,12 @@
       "code": "70100_box6",
       "price": 619,
       "old_price": 621,
-      "availability": true,
-      "stock": 999,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "1",
-          "stock": 999
+          "stock": 0
         }
       ],
       "warranty_type": "no",
