@@ -3,7 +3,7 @@ import requests
 from lxml import etree
 
 
-XML_URL = "https://catpaws.com.ua/content/export/3e9c244f28ee6d1e572f92646e76f6bb.xml"
+XML_URL = "https://catpaws.com.ua/content/export/eecea260628d3b4e921d4f5beb06be53.xml"
 MIN_PRICE = 300
 
 def main():
