@@ -28,8 +28,9 @@ jobs:
             "https://nataliashymanskafop-design.github.io/catpaws/offers-response.json" \
             -o previous-offers-response.json
 
-      - name: Generate Mono offers
-        run: python scripts/generate_feed.py
+           - name: Generate HOME FOOD stock feed
+        continue-on-error: true
+        run: python scripts/generate_home_food_stock.py
 
       - name: Generate Mono products
         run: python scripts/generate_products_feed.py
