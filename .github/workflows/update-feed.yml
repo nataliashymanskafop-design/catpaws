@@ -1,4 +1,4 @@
-name: Generate Mono and Prom Feeds
+name: Generate Mono, Prom and HOME FOOD Feeds
 
 on:
   workflow_dispatch:
@@ -33,6 +33,10 @@ jobs:
 
       - name: Generate Mono products
         run: python scripts/generate_products_feed.py
+
+      # Формуємо YML із залишками складу HOME FOOD.
+      - name: Generate HOME FOOD stock feed
+        run: python scripts/generate_home_food_stock.py
 
       # Перевіряємо доступ до Prom API.
       - name: Test Prom API
