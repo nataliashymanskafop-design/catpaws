@@ -315,6 +315,7 @@ def build_yml(products, virtual_stock, snacky_skus):
         etree.SubElement(offer, "currencyId").text = "UAH"
         etree.SubElement(offer, "categoryId").text = "1"
         etree.SubElement(offer, "quantity_in_stock").text = str(quantity)
+        etree.SubElement(offer, "stock").text = str(quantity)
 
     return etree.ElementTree(root)
 
