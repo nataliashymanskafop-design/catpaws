@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-09-17 15:24">
+<yml_catalog date="2026-09-17 15:58">
   <shop>
     <name>CatPaws HOME FOOD stock</name>
     <company>CatPaws</company>
@@ -18,6 +18,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="1002010" available="true">
         <name>Фітомін для собак HOME FOOD екстракт "Малина" для підготовки до пологів 100 мл</name>
@@ -26,6 +27,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="1003010" available="true">
         <name>Фітомін для собак HOME FOOD екстракт "Ренавіт" для профілактики сечокам’яної хвороби 100 мл</name>
@@ -34,6 +36,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="1004010" available="true">
         <name>Фітомін для собак HOME FOOD екстракт "Фітогама" для зміцнення серцево-судинної системи 100 мл</name>
@@ -42,6 +45,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="1005010" available="true">
         <name>Фітомін для собак HOME FOOD Пробіотик для собак 100 мл</name>
@@ -50,6 +54,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="1006010" available="true">
         <name>Фітомін для собак HOME FOOD олія "Omega Balance" Баланс Омега-3, -6, -9 100 мл</name>
@@ -58,6 +63,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="1007010" available="true">
         <name>Фітомін для собак HOME FOOD олія "Амарант" для відновлення в післяопераційний період 100 мл</name>
@@ -66,6 +72,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="1008010" available="true">
         <name>Фітомін для собак HOME FOOD олія "Криль" для відновлення після линяння 100 мл</name>
@@ -74,6 +81,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="1010008" available="true">
         <name>Ласощі для собак HOME FOOD Косичка з рубця яловичого For DOG 80 г</name>
@@ -82,6 +90,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="1010010" available="true">
         <name>Фітомін для собак HOME FOOD олія "Сезам" для нормалізації роботи ШКТ 100 мл</name>
@@ -90,6 +99,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="1011010" available="true">
         <name>Фітомін для собак HOME FOOD олія "Стимул" Ефективний імуномодулятор 100 мл</name>
@@ -98,6 +108,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="1013008" available="true">
         <name>Ласощі для собак HOME FOOD Вим'я яловиче For DOG 80 г</name>
@@ -106,6 +117,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="1013010" available="true">
         <name>Фітомін для собак HOME FOOD олія "Антиверм" Антипаразитний засіб 100 мл</name>
@@ -114,6 +126,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="1017007" available="true">
         <name>Cухий корм HOME FOOD здорова шкіра та блиск шерсті для дорослих собак малих порід Індичка та лосось Healthy skin and shiny coat 700 г</name>
@@ -122,6 +135,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="1017008" available="true">
         <name>Ласощі для собак HOME FOOD М’ясна жила For DOG 80 г</name>
@@ -130,6 +144,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="1017100" available="true">
         <name>Cухий корм HOME FOOD здорова шкіра та блиск шерсті для дорослих собак малих порід Індичка та лосось Healthy skin and shiny coat 10 кг</name>
@@ -138,6 +153,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="1018100" available="true">
         <name>Сухий корм HOME FOOD здорова шкіра та блиск шерсті для дорослих собак середніх порід Індичка та лосось Healthy skin and shiny coat, 10 кг</name>
@@ -146,6 +162,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="1018330" available="true">
         <name>Сухий корм HOME FOOD здорова шкіра та блиск шерсті для дорослих собак великих порід “Індичка та лосось” Healthy Skin And Shiny Coat 3 кг</name>
@@ -154,6 +171,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="1019004" available="false">
         <name>Ласощі для собак HOME FOOD М’ясні чіпси For DOG 40 г</name>
@@ -162,6 +180,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
       </offer>
       <offer id="1019100" available="true">
         <name>Сухий корм HOME FOOD здорова шкіра та блиск шерсті для дорослих собак великих порід “Індичка та лосось” Healthy Skin And Shiny Coat 10 кг</name>
@@ -170,6 +189,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="1021008" available="true">
         <name>Ласощі для собак HOME FOOD Пеніс яловичий For DOG 80 г</name>
@@ -178,6 +198,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="1022008" available="true">
         <name>Ласощі для собак HOME FOOD Печінка яловича For DOG 80 г</name>
@@ -186,6 +207,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="1024008" available="true">
         <name>Ласощі для собак HOME FOOD Рубець яловичий For DOG 80 г</name>
@@ -194,6 +216,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="1027100" available="true">
         <name>Гіпоалергенний сухий корм HOME FOOD для дорослих собак малих порід "Форель з рисом" Hypoallergenic 10 кг</name>
@@ -202,6 +225,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="1028100" available="true">
         <name>Гіпоалергенний сухий корм HOME FOOD для дорослих собак середніх порід "Форель з рисом" Hypoallergenic 10 кг</name>
@@ -210,6 +234,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="1028303" available="true">
         <name>Гіпоалергенний сухий корм HOME FOOD для дорослих собак великих порід "Форель з рисом" Hypoallergenic 3 кг</name>
@@ -218,6 +243,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="1029100" available="true">
         <name>Гіпоалергенний сухий корм HOME FOOD для дорослих собак великих порід "Форель з рисом" Hypoallergenic 10 кг</name>
@@ -226,6 +252,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="1037077" available="true">
         <name>Беззерновий гіпоалергенний сухий корм HOME FOOD для дорослих собак малих порід Качка та індичка Grain-free hypoallergenic 700 г</name>
@@ -234,6 +261,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="1037100" available="true">
         <name>Беззерновий гіпоалергенний сухий корм HOME FOOD для дорослих собак малих порід Качка та індичка Grain-free hypoallergenic 10 кг</name>
@@ -242,6 +270,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="1038100" available="true">
         <name>Беззерновий гіпоалергенний сухий корм HOME FOOD для дорослих собак середніх і великих порід “М'ясо качки з нутом” Hypoallergenic Grain-Free 10 кг</name>
@@ -250,6 +279,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="1047007" available="true">
         <name>Низькозерновий сухий корм HOME FOOD для активних дорослих собак і юніорів малих порід Ягнятина та рис Low-grain For active adult and junior 700 г</name>
@@ -258,6 +288,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="1047016" available="true">
         <name>Низькозерновий сухий корм HOME FOOD для активних дорослих собак і юніорів малих порід Ягнятина та рис Low-grain For active adult and junior 1.6 кг</name>
@@ -266,6 +297,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="1047100" available="true">
         <name>Низькозерновий сухий корм HOME FOOD для активних дорослих собак і юніорів малих порід Ягнятина та рис Low-grain For active adult and junior 10 кг</name>
@@ -274,6 +306,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="1048100" available="true">
         <name>Сухий корм HOME FOOD для активних дорослих собак і юніорів середніх і великих порід “Ягнятина з рисом” For Active And Young Dogs 10 кг</name>
@@ -282,6 +315,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="1057007" available="true">
         <name>Гіпоалергенний сухий корм HOME FOOD для дорослих собак малих та середніх порід Телятина з овочами та духмяними травами Hypoallergenic 700 г</name>
@@ -290,6 +324,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="1057016" available="true">
         <name>Гіпоалергенний сухий корм HOME FOOD для дорослих собак малих та середніх порід Телятина з овочами та духмяними травами Hypoallergenic 1,6 кг</name>
@@ -298,6 +333,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="1057100" available="true">
         <name>Гіпоалергенний сухий корм HOME FOOD для дорослих собак малих та середніх порід Телятина з овочами та духмяними травами Hypoallergenic 10 кг</name>
@@ -306,6 +342,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="1108003" available="true">
         <name>Сухий корм HOME FOOD для дорослих собак середніх порід з чутливим травленням "Риба та кролик" Sensitive Balanced Formula, 300 г</name>
@@ -314,6 +351,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="1117016" available="true">
         <name>Сухий корм HOME FOOD здорова шкіра та блиск шерсті для дорослих собак малих порід “Індичка та лосось” Healthy Skin And Shiny Coat 1.6 кг</name>
@@ -322,6 +360,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="1118003" available="true">
         <name>Сухий корм HOME FOOD для активних дорослих собак середніх порід “Яловичина” For Active Dogs 300 г</name>
@@ -330,6 +369,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="1118016" available="true">
         <name>Сухий корм HOME FOOD здорова шкіра та блиск шерсті для дорослих собак середніх порід “Індичка та лосось” Healthy Skin And Shiny Coat 1.6 кг</name>
@@ -338,6 +378,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="1127016" available="true">
         <name>Гіпоалергенний сухий корм HOME FOOD для дорослих собак малих порід "Форель з рисом" Hypoallergenic 1.6 кг</name>
@@ -346,6 +387,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="1128003" available="true">
         <name>Сухий корм HOME FOOD для дорослих собак середніх порід "М’ясне асорті" Nutritive Balanced Formula, 300 г</name>
@@ -354,6 +396,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="1137016" available="true">
         <name>Беззерновий гіпоалергенний сухий корм HOME FOOD для дорослих собак малих порід Качка та індичка Grain-free hypoallergenic 1,6 кг</name>
@@ -362,6 +405,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="1138003" available="true">
         <name>Сухий корм HOME FOOD для дорослих собак малих порід "М’ясне асорті" Nutritive Balanced Formula, 300 г</name>
@@ -370,6 +414,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="1138016" available="true">
         <name>Беззерновий гіпоалергенний сухий корм HOME FOOD для дорослих собак середніх і великих порід “М'ясо качки з нутом” Hypoallergenic Grain-Free 1,6 кг</name>
@@ -378,6 +423,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="1357100" available="true">
         <name>Сухий корм HOME FOOD для дорослих котів "М’ясне асорті" Nutritive Balanced Formula, 10 кг</name>
@@ -386,6 +432,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="1357101" available="true">
         <name>Сухий корм HOME FOOD для стерилізованих/кастрованих дорослих котів “Курочка з рибкою” For Sterilised/Neutered Cats 10 кг</name>
@@ -394,6 +441,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="1357102" available="true">
         <name>Сухий корм HOME FOOD для кошенят "Курочка та ягня" Kittens Balanced Formula, 10 кг</name>
@@ -402,6 +450,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="1357110" available="true">
         <name>Сухий корм HOME FOOD для кошенят "Курочка та ягня" Kittens Balanced Formula, 300 г</name>
@@ -410,6 +459,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="1357111" available="true">
         <name>Сухий корм HOME FOOD для дорослих котів "М’ясне асорті" Nutritive Balanced Formula, 300 г</name>
@@ -418,6 +468,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="1357112" available="true">
         <name>Сухий корм HOME FOOD для стерилізованих/кастрованих дорослих котів “Курочка з рибкою” For Sterilised/Neutered Cats 300 г</name>
@@ -426,6 +477,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="1367100" available="true">
         <name>Сухий корм HOME FOOD для дорослих собак малих порід "М’ясне асорті" Nutritive Balanced Formula, 10 кг</name>
@@ -434,6 +486,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="1367101" available="true">
         <name>Сухий корм HOME FOOD для дорослих собак середніх порід "М’ясне асорті" Nutritive Balanced Formula, 10 кг</name>
@@ -442,6 +495,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="1367102" available="true">
         <name>Сухий корм HOME FOOD ля дорослих собак великих порід "М’ясне асорті" Nutritive Balanced Formula, 10 кг</name>
@@ -450,6 +504,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="1367104" available="true">
         <name>Сухий корм HOME FOOD для активних дорослих собак великих порід “Яловичина” Active Balanced Formula, 10 кг</name>
@@ -458,6 +513,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="1367105" available="true">
         <name>Сухий корм HOME FOOD для дорослих собак середніх порід з чутливим травленням "Риба та кролик" Sensitive Balanced Formula, 10 кг</name>
@@ -466,6 +522,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="2027100" available="true">
         <name>Сухий корм HOME FOOD для цуценят малих порід Ягнятина та рис For puppies 1-12 months 10 кг</name>
@@ -474,6 +531,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="2027107" available="true">
         <name>Сухий корм HOME FOOD для цуценят малих порід Ягнятина та рис For puppies 1-12 months 700 г</name>
@@ -482,6 +540,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="2028016" available="true">
         <name>Гіпоалергенний сухий корм HOME FOOD для цуценят середніх і великих порід "Форель з рисом” Hypoallergenic For Puppies 1,6 кг</name>
@@ -490,6 +549,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="2028100" available="true">
         <name>Гіпоалергенний сухий корм HOME FOOD для цуценят середніх і великих порід "Форель з рисом” Hypoallergenic For Puppies 10 кг</name>
@@ -498,6 +558,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="2127100" available="true">
         <name>Сухий корм HOME FOOD для цуценят малих порід Ягнятина та рис For puppies 1-12 months 1,6 кг</name>
@@ -506,6 +567,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="3001010" available="true">
         <name>Фітомін для котів HOME FOOD екстракт "Ехінацея" для укріплення захисних функцій організму 100 мл</name>
@@ -514,6 +576,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="3002010" available="true">
         <name>Фітомін для котів HOME FOOD екстракт "Малина" для підготовки до пологів 100 мл</name>
@@ -522,6 +585,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="3003010" available="true">
         <name>Фітомін для котів HOME FOOD екстракт "Ренавіт" для профілактики сечокам’яної хвороби 100 мл</name>
@@ -530,6 +594,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="3004010" available="true">
         <name>Фітомін для котів HOME FOOD екстракт "Фітогама" для зміцнення серцево-судинної системи 100 мл</name>
@@ -538,6 +603,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="3005010" available="true">
         <name>Фітомін HOME FOOD Пробіотик для котів 100 мл</name>
@@ -546,6 +612,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="3006010" available="true">
         <name>Фітомін для котів HOME FOOD олія "Omega Balance" Баланс Омега-3, -6, -9 100 мл</name>
@@ -554,6 +621,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="3007010" available="true">
         <name>Фітомін для котів HOME FOOD олія "Амарант" для відновлення в післяопераційний період 100 мл</name>
@@ -562,6 +630,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="3008010" available="true">
         <name>Фітомін для котів HOME FOOD олія "Криль" для відновлення після линяння 100 мл</name>
@@ -570,6 +639,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="3010010" available="true">
         <name>Фітомін для котів HOME FOOD олія "Сезам" для нормалізації роботи ШКТ 100 мл</name>
@@ -578,6 +648,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="3011010" available="true">
         <name>Фітомін для котів HOME FOOD олія "Стимул" Ефективний імуномодулятор 100 мл</name>
@@ -586,6 +657,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="3017016" available="true">
         <name>Cухий корм для кошенят HOME FOOD Fresh Chicken For kittens 1-12 months 1.6 кг</name>
@@ -594,6 +666,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="3017044" available="true">
         <name>Cухий корм для кошенят HOME FOOD Fresh Chicken For kittens 1-12 months 400 г</name>
@@ -602,6 +675,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="3028004" available="true">
         <name>Сухий корм HOME FOOD здорова шкіра та блиск шерсті для дорослих котів “Індичка та лосось” Healthy Skin And Shiny Coat 400 г</name>
@@ -610,6 +684,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="3028016" available="true">
         <name>Сухий корм HOME FOOD здорова шкіра та блиск шерсті для дорослих котів “Індичка та лосось” Healthy Skin And Shiny Coat 1.6 кг</name>
@@ -618,6 +693,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="3038004" available="true">
         <name>Сухий корм HOME FOOD для активних дорослих котів “Курочка та креветка” For Active Cats 400 г</name>
@@ -626,6 +702,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="3038016" available="true">
         <name>Сухий корм HOME FOOD для активних дорослих котів “Курочка та креветка” For Active Cats 1.6 кг</name>
@@ -634,6 +711,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="3038100" available="true">
         <name>Сухий корм HOME FOOD для активних дорослих котів “Курочка та креветка” For Active Cats 10 кг</name>
@@ -642,6 +720,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="3048004" available="true">
         <name>Сухий корм HOME FOOD для стерилізованих/кастрованих дорослих котів Кролик та журавлина For sterilised/neutered 400 г</name>
@@ -650,6 +729,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="3048016" available="true">
         <name>Сухий корм HOME FOOD для стерилізованих/кастрованих дорослих котів “Кролик та журавлина” For Sterilised/Neutered Cats 1.6 кг</name>
@@ -658,6 +738,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="3048100" available="true">
         <name>Сухий корм HOME FOOD для стерилізованих/кастрованих дорослих котів “Кролик та журавлина” For Sterilised/Neutered Cats 10 кг</name>
@@ -666,6 +747,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="3058004" available="true">
         <name>Сухий корм HOME FOOD для виведення шерсті зі шлунку для стерилізованих/кастрованих дорослих котів Індичка та ягоди Hairball control For sterilised/neutered, 400 г</name>
@@ -674,6 +756,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="3058110" available="true">
         <name>Cухий корм HOME FOOD для виведення шерсті зі шлунку для стерилізованих/кастрованих дорослих котів Індичка та ягоди Hairball control For sterilised/neutered 10 кг</name>
@@ -682,6 +765,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="3058116" available="true">
         <name>Cухий корм HOME FOOD для виведення шерсті зі шлунку для стерилізованих/кастрованих дорослих котів Індичка та ягоди Hairball control For sterilised/neutered 1.6 кг</name>
@@ -690,6 +774,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="3068004" available="true">
         <name>Гіпоалергенний сухий корм HOME FOOD для стерилізованих/кастрованих дорослих котів Морський коктейль Hypoallergenic For sterilised/neutered 400 г</name>
@@ -698,6 +783,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="3068016" available="true">
         <name>Гіпоалергенний сухий корм HOME FOOD для стерилізованих/кастрованих дорослих котів Морський коктейль Hypoallergenic For sterilised/neutered 1.6 кг</name>
@@ -706,6 +792,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="3068100" available="true">
         <name>Гіпоалергенний сухий корм HOME FOOD для стерилізованих/кастрованих дорослих котів Морський коктейль Hypoallergenic For sterilised/neutered 10 кг</name>
@@ -714,6 +801,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="3079004" available="true">
         <name>Сухий корм HOME FOOD для підтримки опорно-рухового апарату стерилізованих/кастрованих дорослих котів великих порід Телятина з лососем та в’яленими томатами 400 г</name>
@@ -722,6 +810,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="3079016" available="true">
         <name>Сухий корм HOME FOOD для підтримки опорно-рухового апарату стерилізованих/кастрованих дорослих котів великих порід Телятина з лососем та в’яленими томатами 1,6 кг</name>
@@ -730,6 +819,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="3088004" available="true">
         <name>Сухий корм HOME FOOD для стерилізованих/кастрованих дорослих котів з чутливим травленням “Ягнятина та лосось” For Sterilised/Neutered With Sensitive Digestion 400 г</name>
@@ -738,6 +828,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="3088016" available="true">
         <name>Сухий корм HOME FOOD для стерилізованих/кастрованих дорослих котів з чутливим травленням “Ягнятина та лосось” For Sterilised/Neutered With Sensitive Digestion 1.6 кг</name>
@@ -746,6 +837,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="3088100" available="true">
         <name>Сухий корм HOME FOOD для стерилізованих/кастрованих дорослих котів з чутливим травленням “Ягнятина та лосось” For Sterilised/Neutered With Sensitive Digestion 10 кг</name>
@@ -754,6 +846,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="3099004" available="true">
         <name>Cухий корм HOME FOOD для дорослих котів британських та шотландських порід Індичка та качка For British and Scottish breeds. Suitable for large breeds 400 г</name>
@@ -762,6 +855,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="3108004" available="true">
         <name>Сухий корм HOME FOOD для вибагливих стерилізованих/кастрованих дорослих котів Chicken &amp; Liver. Foodies. For sterilised/neutered 400 г</name>
@@ -770,6 +864,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="3108016" available="false">
         <name>Сухий корм HOME FOOD для вибагливих стерилізованих/кастрованих дорослих котів Chicken &amp; Liver. Foodies. For sterilised/neutered 1.6 кг</name>
@@ -778,6 +873,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
       </offer>
       <offer id="3108100" available="true">
         <name>Сухий корм HOME FOOD для вибагливих стерилізованих/кастрованих дорослих котів Chicken &amp; Liver. Foodies. For sterilised/neutered 10 кг</name>
@@ -786,6 +882,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="3115010" available="true">
         <name>Дегустаційний боксHOME FOOD для дорослих котів</name>
@@ -794,6 +891,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="3117000" available="true">
         <name>Cухий корм для кошенят HOME FOOD Fresh Chicken For kittens 1-12 months 10 кг</name>
@@ -802,6 +900,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="3118004" available="true">
         <name>Беззерновий гіпоалергенний корм HOME FOOD для дорослих стерилізованих/кастрованих котів Качка та груша Grain-free hypoallergenic. Suitable for exotic breeds, 400 г</name>
@@ -810,6 +909,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="3118016" available="true">
         <name>Беззерновий гіпоалергенний корм HOME FOOD для дорослих стерилізованих/кастрованих котів Качка та груша Grain-free hypoallergenic. Suitable for exotic breeds 1.6 кг</name>
@@ -818,6 +918,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="3118110" available="true">
         <name>Беззерновий гіпоалергенний корм HOME FOOD для дорослих стерилізованих/кастрованих котів Качка та груша Grain-free hypoallergenic. Suitable for exotic breeds 10 кг</name>
@@ -826,6 +927,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="3128100" available="true">
         <name>Сухий корм HOME FOOD здорова шкіра та блиск шерсті для дорослих котів “Індичка та лосось” Healthy Skin And Shiny Coat 10 кг</name>
@@ -834,6 +936,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="3158100" available="true">
         <name>Мікс для Котів ТМ " Home Food" 10 кг</name>
@@ -842,6 +945,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="3179100" available="true">
         <name>Сухий корм HOME FOOD для підтримки опорно-рухового апарату стерилізованих/кастрованих дорослих котів великих порід Телятина з лососем та в’яленими томатами 10 кг</name>
@@ -850,6 +954,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="3199016" available="true">
         <name>Cухий корм HOME FOOD для дорослих котів британських та шотландських порід Індичка та качка For British and Scottish breeds. Suitable for large breeds 1.6 кг</name>
@@ -858,6 +963,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="3199100" available="true">
         <name>Cухий корм HOME FOOD для дорослих котів британських та шотландських порід Індичка та качка For British and Scottish breeds. Suitable for large breeds 10 кг</name>
@@ -866,6 +972,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="3215010" available="true">
         <name>Дегустаційний бокс HOME FOOD для дорослих собак малих порід</name>
@@ -874,6 +981,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="3315010" available="true">
         <name>Дегустаційний бокс HOME FOOD для дорослих собак середніх порід</name>
@@ -882,6 +990,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="357112" available="true">
         <name>Сухий корм HOME FOOD для стерилізованих/кастрованих дорослих котів “Курочка з рибкою” For Sterilised/Neutered Cats 300 г</name>
@@ -890,6 +999,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="7000001" available="true">
         <name>Протеїнове печиво з індичкою для собак HOME FOOD, 80 г</name>
@@ -898,6 +1008,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="7000003" available="true">
         <name>Симбіотик для підтримки травлення та імунітету HePawSyn HOME FOOD Expert, 250 г</name>
@@ -906,6 +1017,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="7000004" available="true">
         <name>Шампунь "Досконалий догляд" для собак та котів Total Care HOME FOOD Beauty, 200 мл</name>
@@ -914,6 +1026,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="7000005" available="true">
         <name>Кондиціонер "Шовковистий дотик" для собак та котів Silky Touch HOME FOOD Beauty, 200 мл</name>
@@ -922,6 +1035,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="7000006" available="true">
         <name>Шампунь "Досконалий догляд" для собак та котів Total Care HOME FOOD Beauty, 20 мл</name>
@@ -930,6 +1044,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="7000007" available="true">
         <name>Кондиціонер "Шовковистий дотик" для собак та котів Silky Touch HOME FOOD Beauty, 20 мл</name>
@@ -938,6 +1053,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="7000008" available="true">
         <name>Дієтична добавка CBD oil 2% для зменшення тривожності та болю Relax Pro HOME FOOD Expert, 10 мл</name>
@@ -946,6 +1062,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="7000009" available="true">
         <name>Гепатопротектор для підтримки функцій печінки Liver Pro HOME FOOD Expert, 30 мл</name>
@@ -954,6 +1071,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="7000010" available="true">
         <name>Ентеросорбент для детоксикації організму Detox Pro HOME FOOD Expert, 30 мл</name>
@@ -962,6 +1080,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="7000011" available="true">
         <name>Адаптоген для підтримки нервової, ендокринної та імунної систем Harmony Pro HOME FOOD Expert, 20 г</name>
@@ -970,6 +1089,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="7000012" available="true">
         <name>Пробіотик та ферменти для відновлення мікробіоти кишечника ImmunoBiotic Pro HOME FOOD Expert, 20 г</name>
@@ -978,6 +1098,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="7000019" available="true">
         <name>Піна для очищення лап собак і котів Clean Paws HOME FOOD Beauty, 150 мл</name>
@@ -986,6 +1107,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="7010006" available="true">
         <name>Протеїнове печиво з індичкою та антистрес-формулою для собак, 80 г</name>
@@ -994,6 +1116,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="7010010" available="true">
         <name>Лососева олія для здоров’я шкіри та блиску шерсті собак і котів, 200 мл</name>
@@ -1002,6 +1125,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="7010011" available="true">
         <name>Лососева олія для здоров’я шкіри та блиску шерсті собак і котів, 100 мл</name>
@@ -1010,6 +1134,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="7010012" available="true">
         <name>М'ясний топінг HOME FOOD для котів, 100 г</name>
@@ -1018,6 +1143,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="7010013" available="true">
         <name>М'ясний топінг HOME FOOD для собак, 100 г</name>
@@ -1026,6 +1152,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="7010014" available="true">
         <name>М'ясний топінг HOME FOOD для собак, 200 мл</name>
@@ -1034,6 +1161,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="7010015" available="true">
         <name>Повнораціонний консервований корм HOME FOOD для дорослих котів з яловичиною та лососем в желе, 85 г</name>
@@ -1042,6 +1170,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="7010015_box" available="true">
         <name>Повнораціонний консервований корм HOME FOOD для дорослих котів з яловичиною та лососем в желе, 85 г * 12 шт</name>
@@ -1050,6 +1179,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
       </offer>
       <offer id="7010016" available="true">
         <name>Повнораціонний консервований корм HOME FOOD для дорослих собак з яловичиною, лососем та овочами в желе, 360 г</name>
@@ -1058,6 +1188,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="7010016_box" available="true">
         <name>Повнораціонний консервований корм HOME FOOD для дорослих собак з яловичиною, лососем та овочами в желе, 360 г * 8 шт</name>
@@ -1066,6 +1197,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
       </offer>
       <offer id="7010017" available="true">
         <name>Повнораціонний консервований корм HOME FOOD для дорослих котів Паштет з яловичиною, 85 г</name>
@@ -1074,6 +1206,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="7010017_box" available="true">
         <name>Повнораціонний консервований корм HOME FOOD для дорослих котів Паштет з яловичиною, 85 г * 12 шт</name>
@@ -1082,6 +1215,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
       </offer>
       <offer id="7010018" available="true">
         <name>Повнораціонний консервований корм HOME FOOD для дорослих собак Паштет з яловичиною та куркою, 360 г</name>
@@ -1090,6 +1224,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="7010018_box" available="true">
         <name>Повнораціонний консервований корм HOME FOOD для дорослих собак Паштет з яловичиною та куркою, 360 г * 8 шт</name>
@@ -1098,6 +1233,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
       </offer>
       <offer id="7010019" available="true">
         <name>Повнораціонний консервований корм HOME FOOD для дорослих котів з індичкою та куркою в соусі, 85 г</name>
@@ -1106,6 +1242,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="7010019_box" available="true">
         <name>Повнораціонний консервований корм HOME FOOD для дорослих котів з індичкою та куркою в соусі, 85 г * 12 шт</name>
@@ -1114,6 +1251,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
       </offer>
       <offer id="7010022" available="true">
         <name>Spooky Протеїнове печиво з індичкою та гарбузом для собак HOME FOOD, 80 г</name>
@@ -1122,6 +1260,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="7010023" available="true">
         <name>Повнораціонний беззерновий консервований корм HOME FOOD для стерилізованих/кастрованих дорослих котів з лососем та тунцем в соусі, 85 г</name>
@@ -1130,6 +1269,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="7010023_box" available="true">
         <name>Повнораціонний беззерновий консервований корм HOME FOOD для стерилізованих/кастрованих дорослих котів з лососем та тунцем в соусі, 85 г * 12 шт</name>
@@ -1138,6 +1278,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
       </offer>
       <offer id="7010024" available="true">
         <name>Повнораціонний беззерновий консервований корм HOME FOOD для вибагливих дорослих котів з качкою в желе, 85 г</name>
@@ -1146,6 +1287,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="7010024_box" available="true">
         <name>Повнораціонний беззерновий консервований корм HOME FOOD для вибагливих дорослих котів з качкою в желе, 85 г * 12 шт</name>
@@ -1154,6 +1296,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
       </offer>
       <offer id="7010025" available="true">
         <name>Повнораціонний беззерновий консервований корм HOME FOOD для стерилізованих/кастрованих дорослих котів з куркою в желе, 85 г</name>
@@ -1162,6 +1305,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="7010025_box" available="true">
         <name>Повнораціонний беззерновий консервований корм HOME FOOD для стерилізованих/кастрованих дорослих котів з куркою в желе, 85 г * 12 шт</name>
@@ -1170,6 +1314,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
       </offer>
       <offer id="7010026" available="true">
         <name>Ласощі для собак HOME FOOD М’ясна соломка з креветки, 80 г</name>
@@ -1178,6 +1323,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="7010027" available="true">
         <name>Ласощі для котів HOME FOOD М’ясна соломка з креветки, 40 г</name>
@@ -1186,6 +1332,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="7010028" available="true">
         <name>Ласощі для собак HOME FOOD М’ясна соломка з лосося, 80 г</name>
@@ -1194,6 +1341,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="7010029" available="true">
         <name>Ласощі для котів HOME FOOD М’ясна соломка з лосося, 40 г</name>
@@ -1202,6 +1350,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="7010030" available="true">
         <name>Ласощі для собак HOME FOOD М’ясна соломка з індички та в’ялених томатів, 80 г</name>
@@ -1210,6 +1359,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="7010031" available="true">
         <name>Ласощі для котів HOME FOOD М’ясна соломка з індички та в’ялених томатів, 40 г</name>
@@ -1218,6 +1368,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="7010032" available="true">
         <name>Ласощі для собак HOME FOOD М’ясна соломка з індички та гарбуза, 80 г</name>
@@ -1226,6 +1377,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="7010033" available="true">
         <name>Ласощі для котів HOME FOOD М’ясна соломка з індички та гарбуза, 40 г</name>
@@ -1234,6 +1386,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="7010034" available="true">
         <name>Ласощі для собак HOME FOOD М’ясна соломка з індички та журавлини, 80 г</name>
@@ -1242,6 +1395,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="7010035" available="true">
         <name>Ласощі для котів HOME FOOD М’ясна соломка з індички та журавлини, 40 г</name>
@@ -1250,6 +1404,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="7010036" available="true">
         <name>Ласощі для котів HOME FOOD М’ясна соломка з індички та котячої м’яти, 40 г</name>
@@ -1258,6 +1413,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="7010037" available="true">
         <name>Ласощі для собак HOME FOOD М’ясна соломка з індички та оливок, 80 г</name>
@@ -1266,6 +1422,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="7010038" available="true">
         <name>Ласощі для котів HOME FOOD М’ясна соломка з індички та оливок, 40 г</name>
@@ -1274,6 +1431,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="7010039" available="true">
         <name>Ласощі для собак HOME FOOD М’ясна соломка з кролика, 80 г</name>
@@ -1282,6 +1440,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="7010040" available="true">
         <name>Ласощі для котів HOME FOOD М’ясна соломка з кролика, 40 г</name>
@@ -1290,6 +1449,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="7010041" available="true">
         <name>Ласощі для собак HOME FOOD М’ясна соломка з курки та моркви, 80 г</name>
@@ -1298,6 +1458,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="7010042" available="true">
         <name>Ласощі для котів HOME FOOD М’ясна соломка з курки та моркви, 40 г</name>
@@ -1306,6 +1467,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="7010043" available="true">
         <name>Ласощі для собак HOME FOOD М’ясна соломка з курки, 80 г</name>
@@ -1314,6 +1476,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="7010044" available="true">
         <name>Ласощі для котів HOME FOOD М’ясна соломка з курки, 40 г</name>
@@ -1322,6 +1485,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="7010045" available="true">
         <name>Ласощі для собак HOME FOOD М’ясна соломка з яловичини та моркви, 80 г</name>
@@ -1330,6 +1494,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="7010046" available="true">
         <name>Ласощі для котів HOME FOOD М’ясна соломка з яловичини та моркви, 40 г</name>
@@ -1338,6 +1503,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="7010047" available="true">
         <name>Ласощі для собак HOME FOOD М’ясна соломка з яловичини, 80 г</name>
@@ -1346,6 +1512,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="7010048" available="true">
         <name>Ласощі для котів HOME FOOD М’ясна соломка з яловичини, 40 г</name>
@@ -1354,6 +1521,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="7010050" available="true">
         <name>Беззерновий вологий корм HOME FOOD для собак — Паштет з качкою, 360 г</name>
@@ -1362,6 +1530,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="7010050_box" available="true">
         <name>Беззерновий вологий корм HOME FOOD для собак — Паштет з качкою, 360 г * 8 шт</name>
@@ -1370,6 +1539,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
       </offer>
       <offer id="7010050_box1" available="true">
         <name>Набір вологого корму HOME FOOD для дорослих собак, яловичина з лососем та овочами + паштет із качкою, 8 шт × 360 г</name>
@@ -1378,6 +1548,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
       </offer>
       <offer id="70100_box1" available="true">
         <name>Набір беззернових ласощів для котів HOME FOOD «М'ясний бенкет», м'ясна соломка асорті, 6 шт × 40 г</name>
@@ -1386,6 +1557,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="70100_box10" available="true">
         <name>Набір протеїнового печива для собак HOME FOOD «Протеїнове тріо», 3 шт</name>
@@ -1394,6 +1566,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="70100_box2" available="true">
         <name>Набір беззернових ласощів для котів HOME FOOD «Індичка MIX», м'ясна соломка асорті, 5 шт × 40 г</name>
@@ -1402,6 +1575,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="70100_box3" available="true">
         <name>Набір беззернових ласощів для котів HOME FOOD «Котячий гурман», м'ясна соломка асорті, 6 шт × 40 г</name>
@@ -1410,6 +1584,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="70100_box4" available="true">
         <name>Набір беззернових ласощів для котів HOME FOOD «Спробуй усі смаки», м'ясна соломка асорті, 12 шт × 40 г</name>
@@ -1418,6 +1593,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="70100_box5" available="false">
         <name>Набір ласощів для собак HOME FOOD «Для тренувань», 5 шт</name>
@@ -1426,6 +1602,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
       </offer>
       <offer id="70100_box6" available="false">
         <name>Набір натуральних ласощів для собак HOME FOOD «Довгожуйка», 5 шт</name>
@@ -1434,6 +1611,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
       </offer>
       <offer id="70100_box7" available="false">
         <name>Набір натуральних ласощів для собак HOME FOOD «Яловичий мікс», 5 шт</name>
@@ -1442,6 +1620,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
       </offer>
       <offer id="70100_box8" available="true">
         <name>Набір ласощів для собак HOME FOOD «М’ясна соломка MIX», 5 шт</name>
@@ -1450,6 +1629,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
       </offer>
       <offer id="70100_box9" available="false">
         <name>Набір ласощів для собак HOME FOOD «Преміальний мікс», 4 шт</name>
@@ -1458,6 +1638,7 @@
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
       </offer>
     </offers>
   </shop>
