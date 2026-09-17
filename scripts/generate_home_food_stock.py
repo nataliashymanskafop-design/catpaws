@@ -1,6 +1,10 @@
+import json
 import os
 import subprocess
-from datetime import datetime
+from datetime import datetime, timedelta
+from urllib.error import HTTPError, URLError
+from urllib.parse import urlencode
+from urllib.request import Request, urlopen
 from zoneinfo import ZoneInfo
 
 from lxml import etree
@@ -8,19 +12,36 @@ from lxml import etree
 
 CATALOG_XML_URL = "https://catpaws.com.ua/content/export/3e9c244f28ee6d1e572f92646e76f6bb.xml"
 OUTPUT_FILE = "public/home-food-stock.yml"
+STATE_FILE = "public/home-food-stock-state.json"
+
+SALESDRIVE_BASE_URL = "https://catpaws.salesdrive.me"
+ORDER_LIST_URL = f"{SALESDRIVE_BASE_URL}/api/order/list/"
+PRODUCT_UPDATE_URL = f"{SALESDRIVE_BASE_URL}/product-handler/"
+
+# Р¦Рµ Р·Р°РјРѕРІР»РµРЅРЅСЏ РїРѕРєР°Р·Р°РЅРµ РЅР° СЃРєСЂРёРЅС–: С‚РѕРІР°СЂ HOME FOOD Р·С– СЃРєР»Р°РґСѓ
+# "HOME FOOD вЂ” Р—Р°Р·РёРјвЂ™СЏ". Р’РѕРЅРѕ РїРѕС‚СЂС–Р±РЅРµ Р»РёС€Рµ РѕРґРёРЅ СЂР°Р·, С‰РѕР± Р±РµР·РїРµС‡РЅРѕ
+# РІРёР·РЅР°С‡РёС‚Рё С‡РёСЃР»РѕРІРёР№ ID СЃРєР»Р°РґСѓ. РџРѕС‚С–Рј ID Р·Р±РµСЂС–РіР°С”С‚СЊСЃСЏ Сѓ STATE_FILE.
+BOOTSTRAP_ORDER_ID = 2526
 
 DEFAULT_STOCK = 20
-SNACKY_STOCK = 10
+DEFAULT_THRESHOLD = 5
+TREAT_STOCK = 21
+TREAT_THRESHOLD = 5
+CAT_CAN_STOCK = 60
+CAT_CAN_THRESHOLD = 24
+DOG_CAN_STOCK = 40
+DOG_CAN_THRESHOLD = 16
+BUNDLE_RESERVE = 1
 
-# Ці товари тимчасово відсутні.
+# Р¦С– С‚РѕРІР°СЂРё С‚РёРјС‡Р°СЃРѕРІРѕ РІС–РґСЃСѓС‚РЅС–.
 FORCE_ZERO_SKUS = {
     "3108016",
     "1019004",
 }
 
 
-# Тільки товари HOME FOOD, які вже є в каталозі SalesDrive.
-# Список сформований з експорту SalesDrive від 15.09.2026.
+# РўС–Р»СЊРєРё С‚РѕРІР°СЂРё HOME FOOD, СЏРєС– РІР¶Рµ С” РІ РєР°С‚Р°Р»РѕР·С– SalesDrive.
+# РЎРїРёСЃРѕРє СЃС„РѕСЂРјРѕРІР°РЅРёР№ Р· РµРєСЃРїРѕСЂС‚Сѓ SalesDrive РІС–Рґ 15.09.2026.
 CRM_HOME_FOOD_SKUS = {
     "1367104", "2027107", "2127100", "2027100", "2028016", "2028100",
     "1017007", "1117016", "1017100", "1027007", "1127016", "1027100",
@@ -62,7 +83,7 @@ CRM_HOME_FOOD_SKUS = {
 }
 
 
-# Звичайні коробки: SKU коробки -> (SKU одиниці, штук у коробці).
+# Р—РІРёС‡Р°Р№РЅС– РєРѕСЂРѕР±РєРё: SKU РєРѕСЂРѕР±РєРё -> (SKU РѕРґРёРЅРёС†С–, С€С‚СѓРє Сѓ РєРѕСЂРѕР±С†С–).
 SIMPLE_BOXES = {
     "7010018_box": ("7010018", 8),
     "7010016_box": ("7010016", 8),
@@ -78,7 +99,7 @@ SIMPLE_BOXES = {
 }
 
 
-# Авторські набори: SKU набору -> {SKU складової: кількість}.
+# РђРІС‚РѕСЂСЃСЊРєС– РЅР°Р±РѕСЂРё: SKU РЅР°Р±РѕСЂСѓ -> {SKU СЃРєР»Р°РґРѕРІРѕС—: РєС–Р»СЊРєС–СЃС‚СЊ}.
 BUNDLES = {
     "7010050_box1": {
         "7010016": 4,
@@ -149,8 +170,8 @@ BUNDLES = {
         "7010034": 1,
         "7010047": 1,
     },
-    # Артикула косички зі шкіри лосося немає у каталозі.
-    # Набір залишається з нульовим залишком.
+    # РђСЂС‚РёРєСѓР»Р° РєРѕСЃРёС‡РєРё Р·С– С€РєС–СЂРё Р»РѕСЃРѕСЃСЏ РЅРµРјР°С” Сѓ РєР°С‚Р°Р»РѕР·С–.
+    # РќР°Р±С–СЂ Р·Р°Р»РёС€Р°С”С‚СЊСЃСЏ Р· РЅСѓР»СЊРѕРІРёРј Р·Р°Р»РёС€РєРѕРј.
     "70100_box9": {
         "1090018": 1,
         "__SALMON_SKIN_BRAID_SKU_REQUIRED__": 1,
@@ -187,14 +208,23 @@ def normalize_name(name):
     return " ".join(str(name or "").lower().split())
 
 
-def is_snacky(name):
+def is_treat(name):
     normalized = normalize_name(name)
-    return "снек" in normalized or "snack" in normalized
+    keywords = (
+        "Р»Р°СЃРѕС‰",
+        "СЃРЅРµРє",
+        "snack",
+        "СЃРѕР»РѕРјРє",
+        "С‡РµРєС–",
+        "chew",
+        "РєРѕСЃРёС‡Рє",
+    )
+    return any(keyword in normalized for keyword in keywords)
 
 
 def is_water(name):
     normalized = normalize_name(name)
-    return "вода" in normalized or "water" in normalized
+    return "РІРѕРґР°" in normalized or "water" in normalized
 
 
 def load_home_food_catalog():
@@ -215,11 +245,11 @@ def load_home_food_catalog():
     for sku in CRM_HOME_FOOD_SKUS:
         name = catalog_names.get(sku)
 
-        # Не додаємо SKU, яких уже немає в каталозі сайту.
+        # РќРµ РґРѕРґР°С”РјРѕ SKU, СЏРєРёС… СѓР¶Рµ РЅРµРјР°С” РІ РєР°С‚Р°Р»РѕР·С– СЃР°Р№С‚Сѓ.
         if not name:
             continue
 
-        # Воду до фіда HOME FOOD не додаємо.
+        # Р’РѕРґСѓ РґРѕ С„С–РґР° HOME FOOD РЅРµ РґРѕРґР°С”РјРѕ.
         if is_water(name):
             continue
 
@@ -228,62 +258,330 @@ def load_home_food_catalog():
     return products
 
 
-def build_virtual_stock(products):
-    stock = {}
-    snacky_skus = set()
+CAT_CAN_SKUS = {
+    base_sku
+    for base_sku, pack_size in SIMPLE_BOXES.values()
+    if pack_size == 12
+}
 
-    for sku, name in products.items():
-        if is_snacky(name):
-            snacky_skus.add(sku)
+DOG_CAN_SKUS = {
+    base_sku
+    for base_sku, pack_size in SIMPLE_BOXES.values()
+    if pack_size == 8
+}
 
-        if sku in FORCE_ZERO_SKUS:
-            stock[sku] = 0
-        elif is_snacky(name):
-            stock[sku] = SNACKY_STOCK
-        else:
-            stock[sku] = DEFAULT_STOCK
+TREAT_COMPONENT_SKUS = {
+    component_sku
+    for components in BUNDLES.values()
+    for component_sku in components
+    if not component_sku.startswith("__")
+}
 
-    return stock, snacky_skus
+DERIVED_SKUS = set(SIMPLE_BOXES) | set(BUNDLES)
 
 
-def calculate_stock(sku, virtual_stock, snacky_skus):
-    # Товари, які тимчасово відсутні.
+def now_kyiv():
+    return datetime.now(ZoneInfo("Europe/Kyiv"))
+
+
+def format_api_time(value):
+    return value.strftime("%Y-%m-%d %H:%M:%S")
+
+
+def parse_api_time(value):
+    return datetime.strptime(value, "%Y-%m-%d %H:%M:%S").replace(
+        tzinfo=ZoneInfo("Europe/Kyiv")
+    )
+
+
+def api_json(url, api_key, params=None, payload=None):
+    if params:
+        url = f"{url}?{urlencode(params)}"
+
+    data = None
+    headers = {
+        "Accept": "application/json",
+        "X-Api-Key": api_key,
+    }
+
+    if payload is not None:
+        data = json.dumps(payload, ensure_ascii=False).encode("utf-8")
+        headers["Content-Type"] = "application/json"
+
+    request = Request(url, data=data, headers=headers)
+
+    try:
+        with urlopen(request, timeout=45) as response:
+            raw = response.read().decode("utf-8")
+    except HTTPError as error:
+        details = error.read().decode("utf-8", errors="replace")
+        raise RuntimeError(
+            f"SalesDrive API returned HTTP {error.code}: {details[:500]}"
+        ) from error
+    except URLError as error:
+        raise RuntimeError(f"SalesDrive API is unavailable: {error}") from error
+
+    try:
+        result = json.loads(raw)
+    except json.JSONDecodeError as error:
+        raise RuntimeError("SalesDrive API returned invalid JSON") from error
+
+    if result.get("status") == "error" or result.get("success") is False:
+        raise RuntimeError(f"SalesDrive API error: {result}")
+
+    return result
+
+
+def fetch_orders(api_key, updated_from, updated_to):
+    orders = []
+    page = 1
+
+    while page <= 20:
+        result = api_json(
+            ORDER_LIST_URL,
+            api_key,
+            params={
+                "page": page,
+                "limit": 100,
+                "filter[updateAt][from]": format_api_time(updated_from),
+                "filter[updateAt][to]": format_api_time(updated_to),
+            },
+        )
+        batch = result.get("data") or []
+        orders.extend(batch)
+
+        if len(batch) < 100:
+            break
+
+        page += 1
+
+    if page > 20:
+        raise RuntimeError("Too many updated SalesDrive orders; pagination limit reached")
+
+    return orders
+
+
+def find_warehouse_id(state, orders):
+    configured = os.environ.get("SALESDRIVE_HOME_FOOD_STOCK_ID", "").strip()
+    if configured:
+        return int(configured)
+
+    if state and state.get("warehouse_id"):
+        return int(state["warehouse_id"])
+
+    for order in orders:
+        if int(order.get("id") or 0) != BOOTSTRAP_ORDER_ID:
+            continue
+
+        for product in order.get("products") or []:
+            if str(product.get("sku") or "").strip() == "1019100":
+                stock_id = product.get("stockId")
+                if stock_id:
+                    return int(stock_id)
+
+    raise RuntimeError(
+        "Could not determine the HOME FOOD warehouse ID from order #2526. "
+        "Set repository variable SALESDRIVE_HOME_FOOD_STOCK_ID."
+    )
+
+
+def load_state():
+    if not os.path.exists(STATE_FILE):
+        return None
+
+    try:
+        with open(STATE_FILE, "r", encoding="utf-8") as file:
+            state = json.load(file)
+    except (OSError, json.JSONDecodeError):
+        return None
+
+    if state.get("version") != 2:
+        return None
+
+    return state
+
+
+def save_state(state):
+    os.makedirs(os.path.dirname(STATE_FILE), exist_ok=True)
+    temporary = f"{STATE_FILE}.tmp"
+
+    with open(temporary, "w", encoding="utf-8") as file:
+        json.dump(state, file, ensure_ascii=False, indent=2, sort_keys=True)
+        file.write("\n")
+
+    os.replace(temporary, STATE_FILE)
+
+
+def stock_policy(sku, name):
+    if sku in FORCE_ZERO_SKUS:
+        return 0, 0
+    if sku in CAT_CAN_SKUS:
+        return CAT_CAN_STOCK, CAT_CAN_THRESHOLD
+    if sku in DOG_CAN_SKUS:
+        return DOG_CAN_STOCK, DOG_CAN_THRESHOLD
+    if sku in TREAT_COMPONENT_SKUS or is_treat(name):
+        return TREAT_STOCK, TREAT_THRESHOLD
+    return DEFAULT_STOCK, DEFAULT_THRESHOLD
+
+
+def base_skus(products):
+    return set(products) - DERIVED_SKUS
+
+
+def initial_base_stock(products):
+    result = {}
+    for sku in base_skus(products):
+        target, _ = stock_policy(sku, products[sku])
+        result[sku] = target
+    return result
+
+
+def calculate_stock(sku, base_stock):
     if sku in FORCE_ZERO_SKUS:
         return 0
 
-    # Звичайні коробки.
     if sku in SIMPLE_BOXES:
-        base_sku, pack_size = SIMPLE_BOXES[sku]
+        component_sku, pack_size = SIMPLE_BOXES[sku]
+        return max(0, int(base_stock.get(component_sku, 0)) // pack_size)
 
-        # Коробки зі Снекі поки не продаємо.
-        if base_sku in snacky_skus:
-            return 0
-
-        return virtual_stock.get(base_sku, 0) // pack_size
-
-    # Авторські набори.
     if sku in BUNDLES:
-        components = BUNDLES[sku]
-
-        # Якщо до набору входить Снекі — набір тимчасово відсутній.
-        if any(component_sku in snacky_skus for component_sku in components):
-            return 0
-
-        possible_sets = [
-            virtual_stock.get(component_sku, 0) // component_quantity
-            for component_sku, component_quantity in components.items()
-        ]
-
+        # Р РµР·РµСЂРІ РІ РѕРґРЅСѓ РѕРґРёРЅРёС†СЋ Р·Р°Р»РёС€Р°С”РјРѕ Р»РёС€Рµ РґР»СЏ РЅР°Р±РѕСЂС–РІ Р»Р°СЃРѕС‰С–РІ.
+        # 7010050_box1 вЂ” Р·РјС–С€Р°РЅР° РєРѕСЂРѕР±РєР° РєРѕРЅСЃРµСЂРІС–РІ 4 + 4.
+        reserve = 0 if sku == "7010050_box1" else BUNDLE_RESERVE
+        possible_sets = []
+        for component_sku, component_quantity in BUNDLES[sku].items():
+            component_stock = int(base_stock.get(component_sku, 0))
+            possible_sets.append(
+                max(0, component_stock // component_quantity - reserve)
+            )
         return min(possible_sets) if possible_sets else 0
 
-    # Невідомі набори не вмикаємо автоматично.
     if "_box" in sku.lower():
         return 0
 
-    return virtual_stock.get(sku, 0)
+    return max(0, int(base_stock.get(sku, 0)))
 
 
-def build_yml(products, virtual_stock, snacky_skus):
+def materialize_stock(products, base_stock):
+    return {
+        sku: calculate_stock(sku, base_stock)
+        for sku in products
+    }
+
+
+def direct_order_snapshot(order, warehouse_id, products):
+    snapshot = {}
+    for item in order.get("products") or []:
+        if int(item.get("stockId") or 0) != warehouse_id:
+            continue
+
+        sku = str(item.get("sku") or "").strip()
+        if sku not in products:
+            continue
+
+        amount = int(float(item.get("amount") or 0))
+        if amount > 0:
+            snapshot[sku] = snapshot.get(sku, 0) + amount
+
+    return snapshot
+
+
+def expand_consumption(sku, amount):
+    if sku in SIMPLE_BOXES:
+        component_sku, pack_size = SIMPLE_BOXES[sku]
+        return {component_sku: amount * pack_size}
+
+    if sku in BUNDLES:
+        return {
+            component_sku: amount * component_quantity
+            for component_sku, component_quantity in BUNDLES[sku].items()
+            if not component_sku.startswith("__")
+        }
+
+    return {sku: amount}
+
+
+def apply_order_changes(products, warehouse_id, orders, state):
+    current_base_skus = base_skus(products)
+    base_stock = {}
+    for sku in current_base_skus:
+        if sku in state["base_stock"]:
+            base_stock[sku] = int(state["base_stock"][sku])
+        else:
+            target, _ = stock_policy(sku, products[sku])
+            base_stock[sku] = target
+    snapshots = state.get("order_snapshots", {})
+    direct_deltas = {}
+
+    for order in orders:
+        order_id = str(order.get("id"))
+        previous = snapshots.get(order_id, {})
+        current = direct_order_snapshot(order, warehouse_id, products)
+
+        for sku in set(previous) | set(current):
+            delta = int(current.get(sku, 0)) - int(previous.get(sku, 0))
+            if not delta:
+                continue
+
+            direct_deltas[sku] = direct_deltas.get(sku, 0) + delta
+            for component_sku, component_delta in expand_consumption(
+                sku, delta
+            ).items():
+                if component_sku in base_stock:
+                    base_stock[component_sku] = max(
+                        0,
+                        base_stock[component_sku] - component_delta,
+                    )
+
+        snapshots[order_id] = current
+
+    return base_stock, snapshots, direct_deltas
+
+
+def replenish_low_stock(products, base_stock):
+    replenished = []
+
+    for sku in sorted(base_stock):
+        target, threshold = stock_policy(sku, products[sku])
+
+        if target == 0:
+            if base_stock[sku] != 0:
+                base_stock[sku] = 0
+                replenished.append(sku)
+            continue
+
+        if base_stock[sku] <= threshold:
+            base_stock[sku] = target
+            replenished.append(sku)
+
+    return replenished
+
+
+def update_salesdrive_stock(api_key, warehouse_id, updates):
+    items = [
+        {
+            "id": sku,
+            "stockBalanceByStock": {
+                str(warehouse_id): int(quantity),
+            },
+        }
+        for sku, quantity in sorted(updates.items())
+    ]
+
+    for offset in range(0, len(items), 100):
+        result = api_json(
+            PRODUCT_UPDATE_URL,
+            api_key,
+            payload={
+                "action": "update",
+                "product": items[offset:offset + 100],
+            },
+        )
+        if result.get("status") not in (None, "success"):
+            raise RuntimeError(f"Could not update SalesDrive stock: {result}")
+
+
+def build_yml(products, published_stock):
     now = datetime.now(ZoneInfo("Europe/Kyiv")).strftime("%Y-%m-%d %H:%M")
 
     root = etree.Element("yml_catalog", date=now)
@@ -302,7 +600,7 @@ def build_yml(products, virtual_stock, snacky_skus):
     offers = etree.SubElement(shop, "offers")
 
     for sku, name in sorted(products.items()):
-        quantity = calculate_stock(sku, virtual_stock, snacky_skus)
+        quantity = int(published_stock.get(sku, 0))
 
         offer = etree.SubElement(
             offers,
@@ -317,7 +615,7 @@ def build_yml(products, virtual_stock, snacky_skus):
         etree.SubElement(offer, "currencyId").text = "UAH"
         etree.SubElement(offer, "categoryId").text = "1"
 
-        # Кількість товару для імпорту на склад SalesDrive.
+        # РљС–Р»СЊРєС–СЃС‚СЊ С‚РѕРІР°СЂСѓ РґР»СЏ С–РјРїРѕСЂС‚Сѓ РЅР° СЃРєР»Р°Рґ SalesDrive.
         etree.SubElement(
             offer,
             "quantity_in_stock",
@@ -328,8 +626,8 @@ def build_yml(products, virtual_stock, snacky_skus):
             "stock",
         ).text = str(quantity)
 
-        # Окреме просте поле наявності для SalesDrive:
-        # 1 — товар у наявності, 0 — товар відсутній.
+        # РћРєСЂРµРјРµ РїСЂРѕСЃС‚Рµ РїРѕР»Рµ РЅР°СЏРІРЅРѕСЃС‚С– РґР»СЏ SalesDrive:
+        # 1 вЂ” С‚РѕРІР°СЂ Сѓ РЅР°СЏРІРЅРѕСЃС‚С–, 0 вЂ” С‚РѕРІР°СЂ РІС–РґСЃСѓС‚РЅС–Р№.
         etree.SubElement(
             offer,
             "in_stock",
@@ -339,14 +637,81 @@ def build_yml(products, virtual_stock, snacky_skus):
 
 
 def main():
-    products = load_home_food_catalog()
-    virtual_stock, snacky_skus = build_virtual_stock(products)
+    api_key = os.environ.get("SALESDRIVE_API_KEY", "").strip()
+    if not api_key:
+        raise RuntimeError("SALESDRIVE_API_KEY is not configured")
 
-    document = build_yml(
-        products,
-        virtual_stock,
-        snacky_skus,
-    )
+    products = load_home_food_catalog()
+    state = load_state()
+    run_finished_at = now_kyiv()
+    initializing = state is None
+
+    if initializing:
+        orders = fetch_orders(
+            api_key,
+            run_finished_at - timedelta(days=30),
+            run_finished_at,
+        )
+        warehouse_id = find_warehouse_id(None, orders)
+        base_stock = initial_base_stock(products)
+        snapshots = {
+            str(order.get("id")): direct_order_snapshot(
+                order, warehouse_id, products
+            )
+            for order in orders
+        }
+        published_stock = materialize_stock(products, base_stock)
+        updates = published_stock
+        replenished = []
+        print("Initial HOME FOOD stock synchronization")
+    else:
+        warehouse_id = find_warehouse_id(state, [])
+        updated_from = parse_api_time(state["last_sync"]) - timedelta(minutes=2)
+        orders = fetch_orders(api_key, updated_from, run_finished_at)
+
+        previous_published = {
+            sku: int(quantity)
+            for sku, quantity in state["published_stock"].items()
+        }
+        base_stock, snapshots, direct_deltas = apply_order_changes(
+            products,
+            warehouse_id,
+            orders,
+            state,
+        )
+        replenished = replenish_low_stock(products, base_stock)
+        published_stock = materialize_stock(products, base_stock)
+
+        # SalesDrive already subtracts the product line selected in an order.
+        # Estimate that automatic result and send only corrections caused by
+        # bundles/boxes or a threshold replenishment.
+        automatic_stock = dict(previous_published)
+        for sku, delta in direct_deltas.items():
+            automatic_stock[sku] = max(
+                0,
+                int(automatic_stock.get(sku, 0)) - delta,
+            )
+
+        updates = {
+            sku: quantity
+            for sku, quantity in published_stock.items()
+            if int(automatic_stock.get(sku, 0)) != int(quantity)
+        }
+
+    if updates:
+        update_salesdrive_stock(api_key, warehouse_id, updates)
+
+    state = {
+        "version": 2,
+        "warehouse_id": warehouse_id,
+        "last_sync": format_api_time(run_finished_at),
+        "base_stock": base_stock,
+        "published_stock": published_stock,
+        "order_snapshots": snapshots,
+    }
+    save_state(state)
+
+    document = build_yml(products, published_stock)
 
     os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
 
@@ -357,18 +722,19 @@ def main():
         pretty_print=True,
     )
 
-    positive = sum(
-        calculate_stock(sku, virtual_stock, snacky_skus) > 0
-        for sku in products
-    )
+    positive = sum(quantity > 0 for quantity in published_stock.values())
 
     zero = len(products) - positive
 
     print(f"HOME FOOD products in catalog: {len(products)}")
-    print(f"Snacky products with limited stock: {len(snacky_skus)}")
+    print(f"SalesDrive warehouse ID: {warehouse_id}")
+    print(f"Updated orders read: {len(orders)}")
+    print(f"Products sent to SalesDrive: {len(updates)}")
+    print(f"Products replenished by threshold: {len(replenished)}")
     print(f"Products with positive stock: {positive}")
     print(f"Products with zero stock: {zero}")
     print(f"Created: {OUTPUT_FILE}")
+    print(f"State saved: {STATE_FILE}")
 
 
 if __name__ == "__main__":
