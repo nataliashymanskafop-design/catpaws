@@ -173,6 +173,7 @@ def download(url):
     )
     return result.stdout
 
+
 def repair_mojibake(value):
     text = " ".join(str(value or "").split())
 
@@ -180,7 +181,8 @@ def repair_mojibake(value):
         return text.encode("cp1251").decode("utf-8")
     except (UnicodeEncodeError, UnicodeDecodeError):
         return text
-        
+
+
 def normalize_name(name):
     return " ".join(str(name or "").lower().split())
 
@@ -314,8 +316,24 @@ def build_yml(products, virtual_stock, snacky_skus):
         etree.SubElement(offer, "price").text = "1"
         etree.SubElement(offer, "currencyId").text = "UAH"
         etree.SubElement(offer, "categoryId").text = "1"
-        etree.SubElement(offer, "quantity_in_stock").text = str(quantity)
-        etree.SubElement(offer, "stock").text = str(quantity)
+
+        # Кількість товару для імпорту на склад SalesDrive.
+        etree.SubElement(
+            offer,
+            "quantity_in_stock",
+        ).text = str(quantity)
+
+        etree.SubElement(
+            offer,
+            "stock",
+        ).text = str(quantity)
+
+        # Окреме просте поле наявності для SalesDrive:
+        # 1 — товар у наявності, 0 — товар відсутній.
+        etree.SubElement(
+            offer,
+            "in_stock",
+        ).text = "1" if quantity > 0 else "0"
 
     return etree.ElementTree(root)
 
