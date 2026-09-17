@@ -1,4 +1,4 @@
-name: Generate Mono, Prom and HOME FOOD Feeds
+name: Generate Mono, Prom, HOME FOOD and Kormax Feeds
 
 on:
   workflow_dispatch:
@@ -44,7 +44,8 @@ jobs:
             "https://nataliashymanskafop-design.github.io/catpaws/home-food-stock-state.json" \
             -o public/home-food-stock-state.json
 
-      # Синхронізуємо залишки HOME FOOD із SalesDrive та формуємо резервний YML.
+      # Синхронізуємо залишки HOME FOOD із SalesDrive
+      # та формуємо резервний YML.
       # Помилка цього кроку не повинна зупиняти Mono та Prom.
       - name: Generate HOME FOOD stock feed
         continue-on-error: true
@@ -52,6 +53,26 @@ jobs:
           SALESDRIVE_API_KEY: ${{ secrets.SALESDRIVE_API_KEY }}
           SALESDRIVE_HOME_FOOD_STOCK_ID: ${{ vars.SALESDRIVE_HOME_FOOD_STOCK_ID }}
         run: python scripts/generate_home_food_stock.py
+
+      # Забираємо журнал попередньої синхронізації складу Білогородка.
+      # Він потрібен, щоб замовлення не списували залишки повторно.
+      - name: Download previous Kormax stock state
+        continue-on-error: true
+        run: |
+          mkdir -p public
+          curl -fL \
+            "https://nataliashymanskafop-design.github.io/catpaws/kormax-stock-state.json" \
+            -o public/kormax-stock-state.json
+
+      # Синхронізуємо склад Kormax — Білогородка із SalesDrive
+      # та формуємо резервний YML.
+      # Помилка цього кроку не повинна зупиняти Mono та Prom.
+      - name: Generate Kormax stock feed
+        continue-on-error: true
+        env:
+          SALESDRIVE_API_KEY: ${{ secrets.SALESDRIVE_API_KEY }}
+          SALESDRIVE_KORMAX_STOCK_ID: ${{ vars.SALESDRIVE_KORMAX_STOCK_ID }}
+        run: python scripts/generate_kormax_stock.py
 
       # Перевіряємо доступ до Prom API.
       - name: Test Prom API
