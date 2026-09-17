@@ -173,7 +173,14 @@ def download(url):
     )
     return result.stdout
 
+def repair_mojibake(value):
+    text = " ".join(str(value or "").split())
 
+    try:
+        return text.encode("cp1251").decode("utf-8")
+    except (UnicodeEncodeError, UnicodeDecodeError):
+        return text
+        
 def normalize_name(name):
     return " ".join(str(name or "").lower().split())
 
@@ -194,7 +201,7 @@ def load_home_food_catalog():
 
     for offer in root.xpath(".//offer"):
         sku = str(offer.findtext("vendorCode") or "").strip()
-        name = " ".join(str(offer.findtext("name") or "").split())
+        name = repair_mojibake(offer.findtext("name"))
 
         if not sku or not name:
             continue
