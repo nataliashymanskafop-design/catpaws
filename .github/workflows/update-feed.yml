@@ -34,10 +34,23 @@ jobs:
       - name: Generate Mono products
         run: python scripts/generate_products_feed.py
 
-      # Формуємо YML із залишками складу HOME FOOD.
-      # Помилка цього фіда не повинна зупиняти Mono та Prom.
+      # Забираємо журнал попередньої синхронізації HOME FOOD.
+      # Він потрібен, щоб кожне замовлення враховувалося лише один раз.
+      - name: Download previous HOME FOOD stock state
+        continue-on-error: true
+        run: |
+          mkdir -p public
+          curl -fL \
+            "https://nataliashymanskafop-design.github.io/catpaws/home-food-stock-state.json" \
+            -o public/home-food-stock-state.json
+
+      # Синхронізуємо залишки HOME FOOD із SalesDrive та формуємо резервний YML.
+      # Помилка цього кроку не повинна зупиняти Mono та Prom.
       - name: Generate HOME FOOD stock feed
         continue-on-error: true
+        env:
+          SALESDRIVE_API_KEY: ${{ secrets.SALESDRIVE_API_KEY }}
+          SALESDRIVE_HOME_FOOD_STOCK_ID: ${{ vars.SALESDRIVE_HOME_FOOD_STOCK_ID }}
         run: python scripts/generate_home_food_stock.py
 
       # Перевіряємо доступ до Prom API.
