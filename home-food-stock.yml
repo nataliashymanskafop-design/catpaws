@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-09-17 22:11">
+<yml_catalog date="2026-09-17 22:44">
   <shop>
     <name>CatPaws HOME FOOD stock</name>
     <company>CatPaws</company>
@@ -97,8 +97,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>21</quantity_in_stock>
+        <stock>21</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="1010010" available="true">
@@ -127,8 +127,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>21</quantity_in_stock>
+        <stock>21</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="1013010" available="true">
@@ -157,8 +157,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>21</quantity_in_stock>
+        <stock>21</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="1017100" available="true">
@@ -227,8 +227,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>21</quantity_in_stock>
+        <stock>21</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="1024008" available="true">
@@ -237,8 +237,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>21</quantity_in_stock>
+        <stock>21</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="1027100" available="true">
@@ -1117,8 +1117,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>21</quantity_in_stock>
+        <stock>21</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7000003" available="true">
@@ -1237,8 +1237,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>21</quantity_in_stock>
+        <stock>21</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7010010" available="true">
@@ -1297,8 +1297,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>60</quantity_in_stock>
+        <stock>60</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7010015_box" available="true">
@@ -1307,8 +1307,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7010016" available="true">
@@ -1317,8 +1317,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>40</quantity_in_stock>
+        <stock>40</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7010016_box" available="true">
@@ -1327,8 +1327,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7010017" available="true">
@@ -1337,8 +1337,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>60</quantity_in_stock>
+        <stock>60</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7010017_box" available="true">
@@ -1347,8 +1347,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7010018" available="true">
@@ -1357,8 +1357,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>40</quantity_in_stock>
+        <stock>40</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7010018_box" available="true">
@@ -1367,8 +1367,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7010019" available="true">
@@ -1377,8 +1377,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>60</quantity_in_stock>
+        <stock>60</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7010019_box" available="true">
@@ -1387,8 +1387,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7010022" available="true">
@@ -1397,8 +1397,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>21</quantity_in_stock>
+        <stock>21</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7010023" available="true">
@@ -1407,8 +1407,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>60</quantity_in_stock>
+        <stock>60</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7010023_box" available="true">
@@ -1417,8 +1417,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7010024" available="true">
@@ -1427,8 +1427,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>60</quantity_in_stock>
+        <stock>60</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7010024_box" available="true">
@@ -1437,8 +1437,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7010025" available="true">
@@ -1447,8 +1447,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>60</quantity_in_stock>
+        <stock>60</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7010025_box" available="true">
@@ -1457,8 +1457,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7010026" available="true">
@@ -1467,8 +1467,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>21</quantity_in_stock>
+        <stock>21</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7010027" available="true">
@@ -1477,8 +1477,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>21</quantity_in_stock>
+        <stock>21</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7010028" available="true">
@@ -1487,8 +1487,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>21</quantity_in_stock>
+        <stock>21</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7010029" available="true">
@@ -1497,8 +1497,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>21</quantity_in_stock>
+        <stock>21</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7010030" available="true">
@@ -1517,8 +1517,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>21</quantity_in_stock>
+        <stock>21</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7010032" available="true">
@@ -1527,8 +1527,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>21</quantity_in_stock>
+        <stock>21</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7010033" available="true">
@@ -1537,8 +1537,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>21</quantity_in_stock>
+        <stock>21</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7010034" available="true">
@@ -1547,8 +1547,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>21</quantity_in_stock>
+        <stock>21</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7010035" available="true">
@@ -1557,8 +1557,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>21</quantity_in_stock>
+        <stock>21</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7010036" available="true">
@@ -1567,8 +1567,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>21</quantity_in_stock>
+        <stock>21</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7010037" available="true">
@@ -1587,8 +1587,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>21</quantity_in_stock>
+        <stock>21</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7010039" available="true">
@@ -1607,8 +1607,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>21</quantity_in_stock>
+        <stock>21</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7010041" available="true">
@@ -1617,8 +1617,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>21</quantity_in_stock>
+        <stock>21</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7010042" available="true">
@@ -1627,8 +1627,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>21</quantity_in_stock>
+        <stock>21</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7010043" available="true">
@@ -1637,8 +1637,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>21</quantity_in_stock>
+        <stock>21</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7010044" available="true">
@@ -1647,8 +1647,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>21</quantity_in_stock>
+        <stock>21</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7010045" available="true">
@@ -1667,8 +1667,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>21</quantity_in_stock>
+        <stock>21</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7010047" available="true">
@@ -1677,8 +1677,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>21</quantity_in_stock>
+        <stock>21</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7010048" available="true">
@@ -1687,8 +1687,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>21</quantity_in_stock>
+        <stock>21</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7010050" available="true">
@@ -1697,8 +1697,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>40</quantity_in_stock>
+        <stock>40</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7010050_box" available="true">
@@ -1707,8 +1707,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7010050_box1" available="true">
@@ -1717,8 +1717,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="70100_box1" available="true">
