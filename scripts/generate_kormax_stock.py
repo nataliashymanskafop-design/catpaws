@@ -27,10 +27,10 @@ KORMAX_XLSX_URL = "https://b2b.kormaxtrade.com.ua/feeds/edq0mnq846.xlsx"
 OUTPUT_FILE = "public/kormax-stock.yml"
 STATE_FILE = "public/kormax-stock-state.json"
 
-# РЈ Р·Р°РјРѕРІР»РµРЅРЅС– в„–2506 С‚РѕРІР°СЂРё РІСЂСѓС‡РЅСѓ РїРµСЂРµРІРµРґРµРЅС– РЅР° СЃРєР»Р°Рґ
-# "Kormaxtrade - Р‘С–Р»РѕРіРѕСЂРѕРґРєР°". Р’РѕРЅРѕ РІРёРєРѕСЂРёСЃС‚РѕРІСѓС”С‚СЊСЃСЏ С‚С–Р»СЊРєРё РґР»СЏ
-# РІРёР·РЅР°С‡РµРЅРЅСЏ С‡РёСЃР»РѕРІРѕРіРѕ ID СЃРєР»Р°РґСѓ. РџС–Рґ С‡Р°СЃ РїРµСЂС€РѕРіРѕ Р·Р°РїСѓСЃРєСѓ Р№РѕРіРѕ РїСЂРѕРґР°Р¶С–
-# Р·Р°РїРёСЃСѓСЋС‚СЊСЃСЏ Сѓ РїРѕС‡Р°С‚РєРѕРІРёР№ Р·РЅС–РјРѕРє С– РїРѕРІС‚РѕСЂРЅРѕ РЅРµ РІС–РґРЅС–РјР°СЋС‚СЊСЃСЏ.
+# У замовленні №2506 товари вручну переведені на склад
+# "Kormaxtrade - Білогородка". Воно використовується тільки для
+# визначення числового ID складу. Під час першого запуску його продажі
+# записуються у початковий знімок і повторно не віднімаються.
 BOOTSTRAP_ORDER_ID = 2506
 
 ALLOWED_BRANDS = {
@@ -60,7 +60,7 @@ def clean(value):
 
 
 def normalize(value):
-    return clean(value).casefold().replace("вЂ™", "'")
+    return clean(value).casefold().replace("’", "'")
 
 
 def load_site_catalog():
@@ -86,7 +86,7 @@ def load_supplier():
     rows = sheet.iter_rows(values_only=True)
     headers = [clean(value) for value in next(rows)]
     columns = {name: index for index, name in enumerate(headers)}
-    required = {"РђСЂС‚РёРєСѓР»", "РќР°Р·РІР°", "Р‘СЂРµРЅРґ", "РЎС‚Р°С‚СѓСЃ", "РљС–Р»СЊРєС–СЃС‚СЊ"}
+    required = {"Артикул", "Назва", "Бренд", "Статус", "Кількість"}
 
     missing = required - set(columns)
     if missing:
@@ -96,16 +96,16 @@ def load_supplier():
 
     products = {}
     for row in rows:
-        sku = clean(row[columns["РђСЂС‚РёРєСѓР»"]])
-        brand = clean(row[columns["Р‘СЂРµРЅРґ"]])
+        sku = clean(row[columns["Артикул"]])
+        brand = clean(row[columns["Бренд"]])
         if not sku or brand not in ALLOWED_BRANDS:
             continue
 
         products[sku] = {
-            "name": clean(row[columns["РќР°Р·РІР°"]]),
+            "name": clean(row[columns["Назва"]]),
             "brand": brand,
-            "status": clean(row[columns["РЎС‚Р°С‚СѓСЃ"]]),
-            "quantity_band": clean(row[columns["РљС–Р»СЊРєС–СЃС‚СЊ"]]),
+            "status": clean(row[columns["Статус"]]),
+            "quantity_band": clean(row[columns["Кількість"]]),
         }
 
     return products
@@ -113,7 +113,7 @@ def load_supplier():
 
 def parse_pack_size(name):
     match = re.search(
-        r"(?:\*|Г—|x|С…)\s*(\d{1,3})\s*(?:С€С‚\.?|РѕРґ\.?|pcs)?\b",
+        r"(?:\*|×|x|х)\s*(\d{1,3})\s*(?:шт\.?|од\.?|pcs)?\b",
         normalize(name),
     )
     return int(match.group(1)) if match else None
@@ -121,19 +121,19 @@ def parse_pack_size(name):
 
 def is_cat_product(name):
     text = normalize(name)
-    return any(word in text for word in ("РєРѕС‚", "РєРѕС€РµРЅ", "cats", "cat ", "kitten"))
+    return any(word in text for word in ("кот", "кошен", "cats", "cat ", "kitten"))
 
 
 def is_dog_product(name):
     text = normalize(name)
-    return any(word in text for word in ("СЃРѕР±Р°Рє", "С†СѓС†РµРЅ", "dogs", "dog ", "puppy"))
+    return any(word in text for word in ("собак", "цуцен", "dogs", "dog ", "puppy"))
 
 
 def is_wet_food(name):
     text = normalize(name)
     return any(
         word in text
-        for word in ("РІРѕР»РѕРі", "РєРѕРЅСЃРµСЂРІ", "РїР°СѓС‡", "wet food")
+        for word in ("волог", "консерв", "пауч", "wet food")
     )
 
 
@@ -141,14 +141,14 @@ def build_product_catalog(site_catalog, supplier):
     products = {}
     boxes = {}
 
-    # Р‘РµСЂРµРјРѕ С‚С–Р»СЊРєРё С‚РѕРІР°СЂРё, СЏРєС– РѕРґРЅРѕС‡Р°СЃРЅРѕ С” Сѓ РїСЂР°Р№СЃС– РїРѕСЃС‚Р°С‡Р°Р»СЊРЅРёРєР°
-    # С‚Р° РІР¶Рµ Р·Р°РІРµРґРµРЅС– РІ РєР°С‚Р°Р»РѕР·С– CatPaws/SalesDrive.
+    # Беремо тільки товари, які одночасно є у прайсі постачальника
+    # та вже заведені в каталозі CatPaws/SalesDrive.
     for sku, supplier_item in supplier.items():
         if sku in site_catalog:
             products[sku] = site_catalog[sku]
 
-    # Р’Р»Р°СЃРЅС– РєРѕСЂРѕР±РєРё РїРѕСЃС‚Р°С‡Р°Р»СЊРЅРёРє РЅРµ РїРµСЂРµРґР°С”. Р—РЅР°С…РѕРґРёРјРѕ С—С… Сѓ РєР°С‚Р°Р»РѕР·С–
-    # Р·Р° СЃСѓС„С–РєСЃРѕРј _box С‚Р° СЂР°С…СѓС”РјРѕ РєС–Р»СЊРєС–СЃС‚СЊ С–Р· Р·Р°Р»РёС€РєСѓ РѕРґРёРЅРёС‡РЅРѕРіРѕ SKU.
+    # Власні коробки постачальник не передає. Знаходимо їх у каталозі
+    # за суфіксом _box та рахуємо кількість із залишку одиничного SKU.
     for box_sku, box_name in site_catalog.items():
         if not box_sku.lower().endswith("_box"):
             continue
@@ -159,7 +159,7 @@ def build_product_catalog(site_catalog, supplier):
 
         pack_size = parse_pack_size(box_name)
         if not pack_size:
-            print(f"Skipped box without pack size: {box_sku} вЂ” {box_name}")
+            print(f"Skipped box without pack size: {box_sku} — {box_name}")
             continue
 
         products[box_sku] = box_name
@@ -175,7 +175,7 @@ def build_product_catalog(site_catalog, supplier):
 
 def supplier_available(item):
     status = normalize(item.get("status"))
-    return "РЅРµРјР°С”" not in status and "РЅРµС‚ РІ РЅР°Р»РёС‡РёРё" not in status
+    return "немає" not in status and "нет в наличии" not in status
 
 
 def supplier_band(item):
@@ -183,15 +183,15 @@ def supplier_band(item):
         return "zero"
 
     band = normalize(item.get("quantity_band"))
-    if "РґРѕ 5" in band:
+    if "до 5" in band:
         return "low"
-    if "6 РґРѕ 10" in band:
+    if "6 до 10" in band:
         return "medium"
-    if "11 РґРѕ 100" in band or "РІС–Рґ 101" in band or "РѕС‚ 101" in band:
+    if "11 до 100" in band or "від 101" in band or "от 101" in band:
         return "high"
 
-    # РЇРєС‰Рѕ РїРѕСЃС‚Р°С‡Р°Р»СЊРЅРёРє РїРѕР·РЅР°С‡РёРІ С‚РѕРІР°СЂ РЅР°СЏРІРЅРёРј, Р°Р»Рµ РЅРµ РїРµСЂРµРґР°РІ РґС–Р°РїР°Р·РѕРЅ,
-    # Р±РµР·РїРµС‡РЅС–С€Рµ РїРѕРєР°Р·Р°С‚Рё РјС–РЅС–РјР°Р»СЊРЅРёР№ Р·Р°Р»РёС€РѕРє, Р° РЅРµ 20/60.
+    # Якщо постачальник позначив товар наявним, але не передав діапазон,
+    # безпечніше показати мінімальний залишок, а не 20/60.
     return "low"
 
 
@@ -204,14 +204,14 @@ def stock_policy(sku, name, supplier):
     if band == "medium":
         return MEDIUM_TARGET, MEDIUM_THRESHOLD, band
 
-    # Р’РµР»РёРєС– Р·Р°Р»РёС€РєРё РІРѕР»РѕРіРѕРіРѕ РєРѕСЂРјСѓ РґР°СЋС‚СЊ 5 РїРѕРІРЅРёС… РєРѕСЂРѕР±РѕРє:
-    # РєРѕС‚СЏС‡С– РїР°СѓС‡С–/РєРѕРЅСЃРµСЂРІРё вЂ” 5 Г— 12 = 60;
-    # СЃРѕР±Р°С‡С– вЂ” 5 Г— 8 = 40.
+    # Великі залишки вологого корму дають 5 повних коробок:
+    # котячі паучі/консерви — 5 × 12 = 60;
+    # собачі — 5 × 8 = 40.
     if is_wet_food(name):
         pack_size = BOX_PACK_SIZES_BY_COMPONENT.get(sku)
         if pack_size:
-            # РџРѕРєР°Р·СѓС”РјРѕ Рї'СЏС‚СЊ РїРѕРІРЅРёС… Р·Р°РІРѕРґСЃСЊРєРёС… СѓРїР°РєРѕРІРѕРє, Р° РїРѕРїРѕРІРЅСЋС”РјРѕ,
-            # РєРѕР»Рё Р»РёС€Р°С”С‚СЊСЃСЏ РЅРµ Р±С–Р»СЊС€Рµ РґРІРѕС… СѓРїР°РєРѕРІРѕРє.
+            # Показуємо п'ять повних заводських упаковок, а поповнюємо,
+            # коли лишається не більше двох упаковок.
             return pack_size * 5, pack_size * 2, band
         if is_cat_product(name):
             return CAT_CAN_TARGET, CAT_CAN_THRESHOLD, band
@@ -325,13 +325,13 @@ def apply_order_changes(products, boxes, warehouse_id, orders, state, supplier):
         else:
             current = target
 
-        # РџРѕСЃС‚Р°С‡Р°Р»СЊРЅРёРє Р·Р°РєС–РЅС‡РёРІ С‚РѕРІР°СЂ Р°Р±Рѕ Р·РЅРёР·РёРІ РґРѕСЃС‚СѓРїРЅРёР№ РґС–Р°РїР°Р·РѕРЅ вЂ”
-        # РѕРґСЂР°Р·Сѓ Р·РјРµРЅС€СѓС”РјРѕ РЅР°С€ Р·Р°Р»РёС€РѕРє РґРѕ РґРѕР·РІРѕР»РµРЅРѕС— РјРµР¶С–.
+        # Постачальник закінчив товар або знизив доступний діапазон —
+        # одразу зменшуємо наш залишок до дозволеної межі.
         if target == 0:
             current = 0
         elif current > target:
             current = target
-        # РўРѕРІР°СЂ РїРѕРІРµСЂРЅСѓРІСЃСЏ Сѓ РїСЂРѕРґР°Р¶ РїС–СЃР»СЏ РЅСѓР»СЊРѕРІРѕРіРѕ Р·Р°Р»РёС€РєСѓ.
+        # Товар повернувся у продаж після нульового залишку.
         elif previous_policies.get(sku) == "zero" and current == 0:
             current = target
 
@@ -487,8 +487,8 @@ def main():
         )
         published_stock = materialize_stock(products, base_stock, boxes)
 
-        # SalesDrive СѓР¶Рµ СЃРїРёСЃР°РІ Р±РµР·РїРѕСЃРµСЂРµРґРЅСЊРѕ Р·Р°РјРѕРІР»РµРЅС– SKU. РќР°РґСЃРёР»Р°С”РјРѕ
-        # Р»РёС€Рµ РєРѕСЂРёРіСѓРІР°РЅРЅСЏ РєРѕСЂРѕР±РѕРє, Р·РјС–РЅ РїРѕСЃС‚Р°С‡Р°Р»СЊРЅРёРєР° С‚Р° РїРѕРїРѕРІРЅРµРЅРЅСЏ РїРѕСЂРѕРіР°.
+        # SalesDrive уже списав безпосередньо замовлені SKU. Надсилаємо
+        # лише коригування коробок, змін постачальника та поповнення порога.
         automatic_stock = dict(previous_published)
         for sku, delta in direct_deltas.items():
             automatic_stock[sku] = max(
