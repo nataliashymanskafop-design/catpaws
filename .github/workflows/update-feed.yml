@@ -1,4 +1,4 @@
-name: Generate Mono, Prom, HOME FOOD and Kormax Feeds
+name: Generate Mono, Prom, HOME FOOD, Kormax and DOMS Feeds
 
 on:
   workflow_dispatch:
@@ -73,6 +73,26 @@ jobs:
           SALESDRIVE_API_KEY: ${{ secrets.SALESDRIVE_API_KEY }}
           SALESDRIVE_KORMAX_STOCK_ID: ${{ vars.SALESDRIVE_KORMAX_STOCK_ID }}
         run: python scripts/generate_kormax_stock.py
+
+      # Забираємо журнал попередньої синхронізації складу Святопетрівське.
+      # Він потрібен, щоб замовлення не списували залишки повторно.
+      - name: Download previous DOMS stock state
+        continue-on-error: true
+        run: |
+          mkdir -p public
+          curl -fL \
+            "https://nataliashymanskafop-design.github.io/catpaws/doms-stock-state.json" \
+            -o public/doms-stock-state.json
+
+      # Синхронізуємо склад ДОМС-ТРЕЙД — Святопетрівське із SalesDrive
+      # та формуємо резервний YML.
+      # Помилка цього кроку не повинна зупиняти Mono та Prom.
+      - name: Generate DOMS stock feed
+        continue-on-error: true
+        env:
+          SALESDRIVE_API_KEY: ${{ secrets.SALESDRIVE_API_KEY }}
+          SALESDRIVE_DOMS_STOCK_ID: ${{ vars.SALESDRIVE_DOMS_STOCK_ID }}
+        run: python scripts/generate_doms_stock.py
 
       # Перевіряємо доступ до Prom API.
       - name: Test Prom API
