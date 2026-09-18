@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-09-18 17:54">
+<yml_catalog date="2026-09-18 18:05">
   <shop>
     <name>CatPaws DOMS stock</name>
     <company>CatPaws</company>
@@ -911,15 +911,15 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="144100" available="false">
+      <offer id="144100" available="true">
         <name>Комкуючий бентонітовий наповнювач для котячого туалету CAT ROYAL лаванда 5 л</name>
         <vendorCode>144100</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="144117" available="true">
         <name>Комкуючий бентонітовий наповнювач для котячого туалету CAT ROYAL лаванда 10 л</name>
@@ -931,15 +931,15 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="144124" available="false">
+      <offer id="144124" available="true">
         <name>Комкуючий бентонітовий наповнювач для котячого туалету CAT ROYAL марсельське мило 5 л</name>
         <vendorCode>144124</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="144131" available="true">
         <name>Комкуючий бентонітовий наповнювач для котячого туалету CAT ROYAL марсельське мило 10 л</name>
@@ -951,15 +951,15 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="144148" available="false">
+      <offer id="144148" available="true">
         <name>Комкуючий бентонітовий наповнювач для котячого туалету CAT ROYAL дитяча пудра 5 л</name>
         <vendorCode>144148</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="144155" available="true">
         <name>Комкуючий бентонітовий наповнювач для котячого туалету CAT ROYAL дитяча пудра 10 л</name>
@@ -971,15 +971,15 @@
         <stock>19</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="144162" available="false">
+      <offer id="144162" available="true">
         <name>Комкуючий бентонітовий наповнювач для котячого туалету CAT ROYAL натуральний 5 л</name>
         <vendorCode>144162</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="144179" available="true">
         <name>Комкуючий бентонітовий наповнювач для котячого туалету CAT ROYAL натуральний 10 л</name>
@@ -991,25 +991,25 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="144186" available="false">
+      <offer id="144186" available="true">
         <name>Комкуючий бентонітовий наповнювач для котячого туалету CAT ROYAL з Активованим вугіллям 5 л</name>
         <vendorCode>144186</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
       </offer>
-      <offer id="144193" available="false">
+      <offer id="144193" available="true">
         <name>Комкуючий бентонітовий наповнювач для котячого туалету CAT ROYAL з Активованим вугіллям 10 л</name>
         <vendorCode>144193</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="368204" available="true">
         <name>Комкуючий бентонітовий наповнювач для котячого туалету Clear Cat Blanco лаванда 5 л</name>
@@ -1041,15 +1041,15 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="368215" available="false">
+      <offer id="368215" available="true">
         <name>Комкуючий бентонітовий наповнювач для котячого туалету Clear Cat Blanco з Активованим вугіллям 10 л</name>
         <vendorCode>368215</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="368228" available="false">
         <name>Комкуючий бентонітовий наповнювач для котячого туалету Clear Cat Blanco дитяча пудра 5 л</name>
