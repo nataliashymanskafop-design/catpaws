@@ -1,0 +1,1356 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<yml_catalog date="2026-09-18 13:23">
+  <shop>
+    <name>CatPaws DOMS stock</name>
+    <company>CatPaws</company>
+    <url>https://catpaws.com.ua/</url>
+    <currencies>
+      <currency id="UAH" rate="1"/>
+    </currencies>
+    <categories>
+      <category id="1">DOMS</category>
+    </categories>
+    <offers>
+      <offer id="011110" available="true">
+        <name>Килимок двошаровий для котячого лотка 40х60 - синій</name>
+        <vendorCode>011110</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="011111" available="true">
+        <name>Килимок двошаровий для котячого лотка 40х60 - сірий</name>
+        <vendorCode>011111</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="011112" available="true">
+        <name>Килимок двошаровий для котячого лотка 40х60 - чорний</name>
+        <vendorCode>011112</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="011115" available="true">
+        <name>Килимок двошаровий для котячого лотка 60х80 - сірий</name>
+        <vendorCode>011115</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="011116" available="true">
+        <name>Килимок двошаровий для котячого лотка 60х80 - чорний</name>
+        <vendorCode>011116</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="011117" available="true">
+        <name>Килимок двошаровий для котячого лотка 60х80 - синій</name>
+        <vendorCode>011117</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="014366" available="true">
+        <name>Сухий корм для цуценят з 3 тижня життя ягня рис Chicopee PNL Puppy Lamb&amp;Rice 20 кг</name>
+        <vendorCode>014366</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="014373" available="true">
+        <name>Сухий корм для дорослих собак Chicopee PNL Adult 20 кг</name>
+        <vendorCode>014373</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="014380" available="true">
+        <name>Сухий корм для дорослих собак ягня рис Chicopee PNL Adult Lamb&amp;Rice 20 кг</name>
+        <vendorCode>014380</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="014397" available="true">
+        <name>Сухий корм для дорослих активних собак Chicopee PNL Active 20 кг</name>
+        <vendorCode>014397</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="015110" available="true">
+        <name>Сухий корм для цуценят всіх порід ягня рис Chicopee CNL Puppy Lamb &amp; Rice 2 кг</name>
+        <vendorCode>015110</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="015134" available="true">
+        <name>Сухий корм для цуценят всіх порід ягня рис Chicopee CNL Puppy Lamb &amp; Rice 15 кг</name>
+        <vendorCode>015134</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="015172" available="true">
+        <name>Сухий корм для цуценят великих порід птиця просо Chicopee CNL Maxi Puppy Poultry &amp; Millet 15 кг</name>
+        <vendorCode>015172</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="015196" available="true">
+        <name>Сухий корм для дорослих собак малих порід ягня рис Chicopee CNL Mini Adult Lamb &amp; Rice 2 кг</name>
+        <vendorCode>015196</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="015219" available="true">
+        <name>Сухий корм для дорослих собак малих порід ягня рис Chicopee CNL Mini Adult Lamb &amp; Rice 15 кг</name>
+        <vendorCode>015219</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="015233" available="true">
+        <name>Сухий корм для дорослих собак ягня рис Chicopee CNL Adult Lamb &amp; Rice 2 кг</name>
+        <vendorCode>015233</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="015257" available="true">
+        <name>Сухий корм для дорослих собак ягня рис Chicopee CNL Adult Lamb &amp; Rice 15 кг</name>
+        <vendorCode>015257</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="015318" available="true">
+        <name>Сухий корм для дорослих собак лосось рис Chicopee CNL Adult Soft Salmon &amp; Rice 2 кг</name>
+        <vendorCode>015318</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="015332" available="true">
+        <name>Сухий корм для дорослих собак лосось рис Chicopee CNL Adult Soft Salmon &amp; Rice 15 кг</name>
+        <vendorCode>015332</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="015370" available="true">
+        <name>Сухий корм для дорослих собак птиця просо Chicopee CNL Maxi Adult Poultry &amp; Millet 15 кг</name>
+        <vendorCode>015370</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="015394" available="true">
+        <name>Сухий корм для дорослих собак лайт ягня рис Chicopee CNL Adult Light Lamb &amp; Rice 2 кг</name>
+        <vendorCode>015394</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="015417" available="true">
+        <name>Сухий корм для дорослих собак лайт ягня рис Chicopee CNL Adult Light Lamb &amp; Rice 15 кг</name>
+        <vendorCode>015417</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="015431" available="false">
+        <name>Сухий корм для літніх собак курча рис Chicopee CNL Senior Soft Chicken &amp; Rice 2 кг</name>
+        <vendorCode>015431</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
+      <offer id="015455" available="true">
+        <name>Сухий корм для літніх собак курча рис Chicopee CNL Senior Soft Chicken &amp; Rice 15 кг</name>
+        <vendorCode>015455</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="015516" available="true">
+        <name>Сухий корм для цуценят ягня та картопля Chicopee HNL Puppy Lamb &amp; Potato 2 кг</name>
+        <vendorCode>015516</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="015530" available="true">
+        <name>Сухий корм для цуценят ягня та картопля Chicopee HNL Puppy Lamb &amp; Potato 12 кг</name>
+        <vendorCode>015530</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="015554" available="true">
+        <name>Сухий корм для дорослих активних собак лосось та картопля Chicopee HNL Active Salmon &amp; Potato 2кг</name>
+        <vendorCode>015554</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="015578" available="true">
+        <name>Сухий корм для дорослих активних собак лосось та картопля Chicopee HNL Active Salmon &amp; Potato 12 кг</name>
+        <vendorCode>015578</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="015592" available="true">
+        <name>Сухий корм для дорослих собак ягня та картопля Chicopee HNL Adult Lamb &amp; Potato 2 кг</name>
+        <vendorCode>015592</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="015615" available="true">
+        <name>Сухий корм для дорослих собак ягня та картопля Chicopee HNL Adult Lamb &amp; Potato 12 кг</name>
+        <vendorCode>015615</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="015639" available="true">
+        <name>Сухий корм для дорослих собак страус та картопля Chicopee HNL Soft Adult Ostrich &amp; Potato 2 кг</name>
+        <vendorCode>015639</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="015653" available="true">
+        <name>Сухий корм для дорослих собак страус та картопля Chicopee HNL Soft Adult Ostrich &amp; Potato 12 кг</name>
+        <vendorCode>015653</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="017916" available="true">
+        <name>Сухий корм Chicopee CNL NEW LIFE для кошенят та вагітних кішок 1,5 кг</name>
+        <vendorCode>017916</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="017923" available="false">
+        <name>Сухий корм Chicopee CNL NEW LIFE для кошенят та вагітних кішок 15 кг</name>
+        <vendorCode>017923</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
+      <offer id="017947" available="true">
+        <name>Сухий корм для дорослих котів Chicopee CNL BEAUTY з лососем 1,5 кг</name>
+        <vendorCode>017947</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="017954" available="true">
+        <name>Сухий корм для дорослих котів Chicopee CNL BEAUTY з лососем 15 кг</name>
+        <vendorCode>017954</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="017978" available="true">
+        <name>Сухий корм для дорослих котів Chicopee CNL INDOOR з яловичиною 1,5 кг</name>
+        <vendorCode>017978</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="017985" available="true">
+        <name>Сухий корм для дорослих котів Chicopee CNL INDOOR з яловичиною 15 кг</name>
+        <vendorCode>017985</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="018036" available="true">
+        <name>Сухий корм для дорослих котів Chicopee CNL Cat Adult Sensible Lamb Гіпоалергенний 1,5 кг</name>
+        <vendorCode>018036</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="018043" available="true">
+        <name>Сухий корм для дорослих котів Chicopee CNL Cat Adult Sensible Lamb Гіпоалергенний 15 кг</name>
+        <vendorCode>018043</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="018067" available="false">
+        <name>Сухий корм Chicopee CNL SENIOR BEST AGE для літніх котів 1,5 кг</name>
+        <vendorCode>018067</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
+      <offer id="018098" available="true">
+        <name>Сухий корм для дорослих котів Chicopee HNL HAIR &amp; SKIN здоров'я шкіри і шерсті 1,5 кг</name>
+        <vendorCode>018098</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="018104" available="true">
+        <name>Сухий корм для дорослих котів Chicopee HNL HAIR &amp; SKIN здоров'я шкіри і шерсті 8 кг</name>
+        <vendorCode>018104</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="018128" available="true">
+        <name>Сухий корм для дорослих котів Chicopee HNL NO GRAIN беззерновой 1,5 кг</name>
+        <vendorCode>018128</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="018135" available="true">
+        <name>Сухий корм для дорослих котів Chicopee HNL NO GRAIN беззерновой 8 кг</name>
+        <vendorCode>018135</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="018159" available="true">
+        <name>Сухий корм Chicopee HNL STERILIZED для дорослих стерилізованих котів 1,5 кг</name>
+        <vendorCode>018159</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="018166" available="true">
+        <name>Сухий корм Chicopee HNL STERILIZED для дорослих стерилізованих котів 8 кг</name>
+        <vendorCode>018166</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="018180" available="true">
+        <name>Сухий корм Сhicopee HNL URINARY для котів з сечокам'яною хворобою 1,5 кг</name>
+        <vendorCode>018180</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="018197" available="true">
+        <name>Сухий корм Сhicopee HNL URINARY для котів з сечокам'яною хворобою 8 кг</name>
+        <vendorCode>018197</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="018968" available="true">
+        <name>Консерва для дорослих собак з птицею та рисом Chicopee Dog Adult Pure Poultry &amp; Rice 400 г</name>
+        <vendorCode>018968</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>60</quantity_in_stock>
+        <stock>60</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="018982" available="true">
+        <name>Консерва для дорослих собак птиця з лососем Chicopee Dog Adult Pure Poultry &amp; Salmon 400 г</name>
+        <vendorCode>018982</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>60</quantity_in_stock>
+        <stock>60</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="019002" available="false">
+        <name>Консерва для доролих собак з ягням та качкою Chicopee Dog Adult Pure Lamb &amp; Duck 400 г</name>
+        <vendorCode>019002</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
+      <offer id="019026" available="true">
+        <name>Консерва для доролих собак з яловичиною та рисом Chicopee Dog Adult Pure Beef &amp; Rice 400 г</name>
+        <vendorCode>019026</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>60</quantity_in_stock>
+        <stock>60</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="019040" available="true">
+        <name>Консерва для цуценят з птицею та качкою Chicopee Dog Junior Pure Chicken &amp; Duck 400 г</name>
+        <vendorCode>019040</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>60</quantity_in_stock>
+        <stock>60</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="019064" available="true">
+        <name>Консерва для дорослих собак з птицею та рисом Chicopee Dog Adult Pure Poultry &amp; Rice 400 г*6шт</name>
+        <vendorCode>019064</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="019088" available="true">
+        <name>Консерва для дорослих собак птиця з лососем Chicopee Dog Adult Pure Poultry &amp; Salmon 400 г*6 шт</name>
+        <vendorCode>019088</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="019101" available="false">
+        <name>Консерва для доролих собак з ягням та качкою Chicopee Dog Adult Pure Lamb &amp; Duck 400 г*6шт</name>
+        <vendorCode>019101</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
+      <offer id="019125" available="true">
+        <name>Консерва для доролих собак з яловичиною та рисом Chicopee Dog Adult Pure Beef &amp; Rice 400 г*6шт</name>
+        <vendorCode>019125</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="019149" available="true">
+        <name>Консерва для цуценят з птицею та качкою Chicopee Dog Junior Pure Chicken &amp; Duck 400 г*6шт</name>
+        <vendorCode>019149</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="019163" available="false">
+        <name>Консерва для дорослих котів з Качкою та Куркою Chicopee Cat Adult Gourmet pot Duck &amp; Chicken 195 г</name>
+        <vendorCode>019163</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
+      <offer id="019187" available="false">
+        <name>Консерва для дорослих котів з Птицею та Олениною Chicopee Cat Adult Gourmet pot Poultry &amp; Venison 195 г</name>
+        <vendorCode>019187</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
+      <offer id="019200" available="true">
+        <name>Консерва для дорослих котів з Птицею та Крабом Chicopee Cat Adult Gourmet pot Poultry &amp; Crabs 195 г</name>
+        <vendorCode>019200</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>60</quantity_in_stock>
+        <stock>60</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="019224" available="false">
+        <name>Консерва для дорослих котів з Лососем та Птицею Chicopee Cat Adult Jelly Salmon &amp; Poultry 195 г</name>
+        <vendorCode>019224</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
+      <offer id="019262" available="false">
+        <name>Консерва для дорослих котів з Качкою та Куркою Chicopee Cat Adult Gourmet pot Duck &amp; Chicken 195 г*6</name>
+        <vendorCode>019262</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
+      <offer id="019286" available="false">
+        <name>Консерва для дорослих котів з Птицею та Олениною Chicopee Cat Adult Gourmet pot Poultry &amp; Venison 195 г*6 шт</name>
+        <vendorCode>019286</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
+      <offer id="019309" available="true">
+        <name>Консерва для дорослих котів з Птицею та Крабом Chicopee Cat Adult Gourmet pot Poultry &amp; Crabs 195 г *6 шт</name>
+        <vendorCode>019309</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="019323" available="false">
+        <name>Консерва для дорослих котів з Лососем та Птицею Chicopee Cat Adult Jelly Salmon &amp; Poultry 195 г*6 шт</name>
+        <vendorCode>019323</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
+      <offer id="020640" available="true">
+        <name>Сухий корм для дорослих стерелізованих котів Chicopee CNL Cat Adult Castrate 1,5 кг</name>
+        <vendorCode>020640</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="020671" available="true">
+        <name>Сухий корм для дорослих стерелізованих котів Chicopee CNL Cat Adult Castrate 15 кг</name>
+        <vendorCode>020671</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="020695" available="true">
+        <name>Сухий корм Chicopee HNL KITTEN для кошенят, вагітних або годуючих кішок 1,5 кг</name>
+        <vendorCode>020695</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="020718" available="true">
+        <name>Сухий корм Chicopee HNL KITTEN для кошенят, вагітних або годуючих кішок 8 кг</name>
+        <vendorCode>020718</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="022972" available="true">
+        <name>Сухий корм для дорослих собак форель та картопля Chicopee HNL Sensitive Trout &amp; Potato 2 кг</name>
+        <vendorCode>022972</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="022989" available="true">
+        <name>Сухий корм для дорослих собак форель та картопля Chicopee HNL Sensitive Trout &amp; Potato 12 кг</name>
+        <vendorCode>022989</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="023009" available="true">
+        <name>Сухий корм для літніх, стерилізованих та собак з надмірною вагою коза та картопля Chicopee HNL Soft Senior Goat &amp; Potato 2 кг</name>
+        <vendorCode>023009</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="023016" available="true">
+        <name>Сухий корм для літніх, стерилізованих та собак з надмірною вагою коза та картопля Chicopee HNL Soft Senior Goat &amp; Potato 12 кг</name>
+        <vendorCode>023016</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="023061" available="true">
+        <name>Смаколики для собак Chicopee DENTAL STICKS з КАЛЬЦІЄМ для підтримки гігієни пащі 300 г</name>
+        <vendorCode>023061</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="023078" available="true">
+        <name>Смаколики для собак Chicopee JOINT BITES з МОЛЮСКАМИ ТА КРЕВЕТКАМИ для підтримки хрящів та суглобів 350 г</name>
+        <vendorCode>023078</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="023573" available="true">
+        <name>Сухий корм для дорослих собак ягня та солодка картопля Chicopee HNL Sensitive Lamb &amp; Sweet potato 2 кг</name>
+        <vendorCode>023573</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="023580" available="true">
+        <name>Сухий корм для дорослих собак ягня та солодка картопля Chicopee HNL Sensitive Lamb &amp; Sweet potato 12 кг</name>
+        <vendorCode>023580</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="023696" available="true">
+        <name>Консерва для дорослих котів з Качкою Chicopee Cat Adult Special Duck 195 г</name>
+        <vendorCode>023696</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>60</quantity_in_stock>
+        <stock>60</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="023702" available="true">
+        <name>Консерва для дорослих котів з Качкою Chicopee Cat Adult Special Duck 195 г*6</name>
+        <vendorCode>023702</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="024549" available="false">
+        <name>Сухий корм Chicopee CNL NEW LIFE для кошенят та вагітних кішок 400 г</name>
+        <vendorCode>024549</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
+      <offer id="024563" available="false">
+        <name>Сухий корм для дорослих котів Chicopee CNL BEAUTY з лососем 400 г</name>
+        <vendorCode>024563</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
+      <offer id="024587" available="false">
+        <name>Сухий корм для дорослих котів Chicopee CNL INDOOR з яловичиною 400 г</name>
+        <vendorCode>024587</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
+      <offer id="024600" available="false">
+        <name>Сухий корм для дорослих котів Chicopee CNL Cat Adult Sensible Lamb Гіпоалергенний 400 г</name>
+        <vendorCode>024600</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
+      <offer id="024624" available="true">
+        <name>Сухий корм для дорослих стерелізованих котів Chicopee CNL Cat Adult Castrate 400 г</name>
+        <vendorCode>024624</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="024952" available="true">
+        <name>Сухий корм для дорослих собак курка та рис Chicopee CNL Adult Soft Chicken &amp; Rice 2 кг</name>
+        <vendorCode>024952</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="024969" available="true">
+        <name>Сухий корм для дорослих собак курка та рис Chicopee CNL Adult Soft Chicken &amp; Rice 15 кг</name>
+        <vendorCode>024969</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="024990" available="true">
+        <name>Сухий корм для дорослих собак качка та рис Chicopee CNL Adult Sensitive Duck &amp; Rice 2 кг</name>
+        <vendorCode>024990</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="026536" available="true">
+        <name>Сухий корм Chicopee HNL STERILIZED для дорослих стерилізованих котів 400 г</name>
+        <vendorCode>026536</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="144100" available="false">
+        <name>Комкуючий бентонітовий наповнювач для котячого туалету CAT ROYAL лаванда 5 л</name>
+        <vendorCode>144100</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
+      <offer id="144117" available="true">
+        <name>Комкуючий бентонітовий наповнювач для котячого туалету CAT ROYAL лаванда 10 л</name>
+        <vendorCode>144117</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="144124" available="false">
+        <name>Комкуючий бентонітовий наповнювач для котячого туалету CAT ROYAL марсельське мило 5 л</name>
+        <vendorCode>144124</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
+      <offer id="144131" available="true">
+        <name>Комкуючий бентонітовий наповнювач для котячого туалету CAT ROYAL марсельське мило 10 л</name>
+        <vendorCode>144131</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="144148" available="false">
+        <name>Комкуючий бентонітовий наповнювач для котячого туалету CAT ROYAL дитяча пудра 5 л</name>
+        <vendorCode>144148</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
+      <offer id="144155" available="true">
+        <name>Комкуючий бентонітовий наповнювач для котячого туалету CAT ROYAL дитяча пудра 10 л</name>
+        <vendorCode>144155</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="144162" available="false">
+        <name>Комкуючий бентонітовий наповнювач для котячого туалету CAT ROYAL натуральний 5 л</name>
+        <vendorCode>144162</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
+      <offer id="144179" available="true">
+        <name>Комкуючий бентонітовий наповнювач для котячого туалету CAT ROYAL натуральний 10 л</name>
+        <vendorCode>144179</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="144186" available="false">
+        <name>Комкуючий бентонітовий наповнювач для котячого туалету CAT ROYAL з Активованим вугіллям 5 л</name>
+        <vendorCode>144186</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
+      <offer id="144193" available="false">
+        <name>Комкуючий бентонітовий наповнювач для котячого туалету CAT ROYAL з Активованим вугіллям 10 л</name>
+        <vendorCode>144193</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
+      <offer id="368204" available="true">
+        <name>Комкуючий бентонітовий наповнювач для котячого туалету Clear Cat Blanco лаванда 5 л</name>
+        <vendorCode>368204</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="368208" available="false">
+        <name>Комкуючий бентонітовий наповнювач для котячого туалету Clear Cat Blanco з Активованим вугіллям 5 л</name>
+        <vendorCode>368208</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
+      <offer id="368211" available="true">
+        <name>Комкуючий бентонітовий наповнювач для котячого туалету Clear Cat Blanco лаванда 10 л</name>
+        <vendorCode>368211</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="368215" available="false">
+        <name>Комкуючий бентонітовий наповнювач для котячого туалету Clear Cat Blanco з Активованим вугіллям 10 л</name>
+        <vendorCode>368215</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
+      <offer id="368228" available="false">
+        <name>Комкуючий бентонітовий наповнювач для котячого туалету Clear Cat Blanco дитяча пудра 5 л</name>
+        <vendorCode>368228</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
+      <offer id="368235" available="true">
+        <name>Комкуючий бентонітовий наповнювач для котячого туалету Clear Cat Blanco дитяча пудра 10 л</name>
+        <vendorCode>368235</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="368242" available="false">
+        <name>Комкуючий бентонітовий наповнювач для котячого туалету Clear Cat Blanco алое вера 5 л</name>
+        <vendorCode>368242</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
+      <offer id="368259" available="true">
+        <name>Комкуючий бентонітовий наповнювач для котячого туалету Clear Cat Blanco алое вера 10 л</name>
+        <vendorCode>368259</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="378010" available="true">
+        <name>Сухий корм Homie Premium з куркою для дорослих котів, 2,75 кг</name>
+        <vendorCode>378010</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="378027" available="true">
+        <name>Сухий корм Homie Premium з куркою для дорослих котів, 15 кг</name>
+        <vendorCode>378027</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="378041" available="true">
+        <name>Сухий корм Homie Premium з куркою для дорослих собак, 15 кг</name>
+        <vendorCode>378041</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="378058" available="true">
+        <name>Сухий корм Homie Premium з куркою для дорослих собак, 5,75 кг</name>
+        <vendorCode>378058</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="378164" available="true">
+        <name>Сухий корм Homie Special Cat Adult Sterilised &amp; Light Chicken Low Grain з куркою для стерилізованих котів, 12 кг</name>
+        <vendorCode>378164</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="378171" available="true">
+        <name>Сухий корм Homie Special Cat Adult Sterilised &amp; Light Chicken Low Grain з куркою для стерилізованих котів, 3,75 кг</name>
+        <vendorCode>378171</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="378362" available="true">
+        <name>Сухий корм Homie Super Premium з куркою для дорослих котів, 12 кг</name>
+        <vendorCode>378362</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="378379" available="true">
+        <name>Сухий корм Homie Super Premium з куркою для дорослих котів, 3,75 кг</name>
+        <vendorCode>378379</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="378447" available="true">
+        <name>Сухий корм Homie Super Premium з лососем для дорослих котів, 12 кг</name>
+        <vendorCode>378447</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="378454" available="true">
+        <name>Сухий корм Homie Super Premium з лососем для дорослих котів, 3,75 кг</name>
+        <vendorCode>378454</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="378485" available="true">
+        <name>Сухий корм Homie Super Premium з куркою для дорослих котів, 15 кг</name>
+        <vendorCode>378485</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="378492" available="true">
+        <name>Сухий корм Homie Super Premium з куркою для дорослих котів, 2,75 кг</name>
+        <vendorCode>378492</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="378522" available="true">
+        <name>Сухий корм Homie Super Premium з куркою та різнокольоровими гранулами для дорослих котів, 15 кг</name>
+        <vendorCode>378522</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="378645" available="true">
+        <name>Сухий корм Homie Super Premium з лососем для дорослих собак, 12 кг</name>
+        <vendorCode>378645</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="378652" available="true">
+        <name>Сухий корм Homie Super Premium з лососем для дорослих собак, 3,75 кг</name>
+        <vendorCode>378652</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="378805" available="true">
+        <name>Сухий корм Homie Super Premium з куркою для дорослих собак, 15 кг</name>
+        <vendorCode>378805</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="378812" available="true">
+        <name>Сухий корм Homie Super Premium з куркою для дорослих собак, 5,75 кг</name>
+        <vendorCode>378812</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="379284" available="true">
+        <name>Сухий корм Homie Special Cat Adult Sterilised &amp; Light Salmon Low Grain з лососем для стерилізованих котів, 4 кг</name>
+        <vendorCode>379284</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="379291" available="true">
+        <name>Сухий корм Homie Special Cat Adult Sterilised &amp; Light Salmon Low Grain з лососем для стерилізованих котів, 12 кг</name>
+        <vendorCode>379291</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="653606" available="true">
+        <name>Туалет для кішок TM GATTINO сірий з блакитною рамкою 20*35*50 см , + лопатка</name>
+        <vendorCode>653606</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="653613" available="true">
+        <name>Туалет для кішок TM GATTINO сірий з фіолетовою рамкою 20*35*50 см , + лопатка</name>
+        <vendorCode>653613</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="653620" available="true">
+        <name>Туалет для кішок TM GATTINO сірий з рожевою рамкою 20*35*50 см , + лопатка</name>
+        <vendorCode>653620</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="653637" available="true">
+        <name>Туалет для кішок TM GATTINO сірий з помаранчевою рамкою 20*35*50 см , + лопатка</name>
+        <vendorCode>653637</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="653644" available="true">
+        <name>Туалет для кішок TM GATTINO сірий з зеленою рамкою 20*35*50 см , + лопатка</name>
+        <vendorCode>653644</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="653651" available="true">
+        <name>Туалет для кішок TM CATROYALE чорний з рамкою 20*35*50 см + лопатка</name>
+        <vendorCode>653651</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="8025003" available="true">
+        <name>Сухий корм для дорослих собак качка та рис Chicopee CNL Adult Sensitive Duck &amp; Rice 15 кг</name>
+        <vendorCode>8025003</vendorCode>
+        <price>1</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+    </offers>
+  </shop>
+</yml_catalog>
