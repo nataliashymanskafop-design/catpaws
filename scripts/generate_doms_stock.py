@@ -78,6 +78,22 @@ SUPPLIER_SKUS = {
 }
 
 
+# Horoshop може деякий час віддавати в експортному XML попередній артикул
+# після його зміни в картці товару. Для визначення наявності зіставляємо
+# старі артикули з актуальними артикулами постачальника, але в каталозі та
+# запитах до SalesDrive залишаємо артикул із XML. Це оновлює наявний товар
+# і не створює дублікат із новим артикулом, поки XML ще не оновився.
+SUPPLIER_SKU_ALIASES = {
+    "144100": "76144100",
+    "144124": "76144124",
+    "144148": "76144148",
+    "144162": "76144162",
+    "144186": "76144186",
+    "144193": "76144193",
+    "368215": "244215",
+}
+
+
 # Блок консервів -> (артикул одиничної банки, банок у блоці).
 # У SalesDrive і на сайті це окремі артикули, але запас у них спільний.
 PACKS = {
@@ -104,7 +120,15 @@ def normalize_sku(value):
 
 
 def normalize_brand(value):
-    return "".join(character for character in clean(value).casefold() if character.isalnum())
+    return "".join(
+        character
+        for character in clean(value).casefold()
+        if character.isalnum()
+    )
+
+
+def supplier_sku(sku):
+    return SUPPLIER_SKU_ALIASES.get(sku, sku)
 
 
 def load_site_catalog():
@@ -115,8 +139,12 @@ def load_site_catalog():
         sku = normalize_sku(offer.findtext("vendorCode"))
         name = clean(offer.findtext("name"))
         brand = normalize_brand(offer.findtext("vendor"))
+
         if sku and name:
-            catalog[sku] = {"name": name, "brand": brand}
+            catalog[sku] = {
+                "name": name,
+                "brand": brand,
+            }
 
     return catalog
 
@@ -141,7 +169,9 @@ def stock_policy(sku, item):
     if item["brand"] == "homie":
         return DEFAULT_TARGET, DEFAULT_THRESHOLD, "available"
 
-    if sku not in SUPPLIER_SKUS:
+    # Якщо XML Horoshop ще містить старий артикул, перевіряємо
+    # наявність за актуальним артикулом постачальника.
+    if supplier_sku(sku) not in SUPPLIER_SKUS:
         return 0, 0, "zero"
 
     if sku in CAN_BASE_SKUS:
@@ -153,8 +183,15 @@ def stock_policy(sku, item):
 def calculate_stock(sku, base_stock):
     if sku in PACKS:
         base_sku, pack_size = PACKS[sku]
-        return max(0, int(base_stock.get(base_sku, 0)) // pack_size)
-    return max(0, int(base_stock.get(sku, 0)))
+        return max(
+            0,
+            int(base_stock.get(base_sku, 0)) // pack_size,
+        )
+
+    return max(
+        0,
+        int(base_stock.get(sku, 0)),
+    )
 
 
 def materialize_stock(products, base_stock):
@@ -169,7 +206,10 @@ def initial_base_stock(products):
     policies = {}
 
     for sku in base_skus(products):
-        target, _, policy = stock_policy(sku, products[sku])
+        target, _, policy = stock_policy(
+            sku,
+            products[sku],
+        )
         result[sku] = target
         policies[sku] = policy
 
@@ -184,10 +224,12 @@ def direct_order_snapshot(order, warehouse_id, products):
             continue
 
         sku = normalize_sku(item.get("sku"))
+
         if sku not in products:
             continue
 
         amount = int(float(item.get("amount") or 0))
+
         if amount > 0:
             snapshot[sku] = snapshot.get(sku, 0) + amount
 
@@ -195,7 +237,11 @@ def direct_order_snapshot(order, warehouse_id, products):
 
 
 def find_warehouse_id(state, orders, products):
-    configured = os.environ.get(WAREHOUSE_VARIABLE, "").strip()
+    configured = os.environ.get(
+        WAREHOUSE_VARIABLE,
+        "",
+    ).strip()
+
     if configured:
         return int(configured)
 
@@ -209,6 +255,7 @@ def find_warehouse_id(state, orders, products):
         for item in order.get("products") or []:
             sku = normalize_sku(item.get("sku"))
             stock_id = item.get("stockId")
+
             if sku in products and stock_id:
                 return int(stock_id)
 
@@ -223,65 +270,140 @@ def load_state():
         return None
 
     try:
-        with open(STATE_FILE, "r", encoding="utf-8") as file:
+        with open(
+            STATE_FILE,
+            "r",
+            encoding="utf-8",
+        ) as file:
             state = json.load(file)
     except (OSError, json.JSONDecodeError):
         return None
 
-    return state if state.get("version") == 1 else None
+    if state.get("version") != 1:
+        return None
+
+    return state
 
 
 def save_state(state):
-    os.makedirs(os.path.dirname(STATE_FILE), exist_ok=True)
+    os.makedirs(
+        os.path.dirname(STATE_FILE),
+        exist_ok=True,
+    )
+
     temporary = f"{STATE_FILE}.tmp"
 
-    with open(temporary, "w", encoding="utf-8") as file:
-        json.dump(state, file, ensure_ascii=False, indent=2, sort_keys=True)
+    with open(
+        temporary,
+        "w",
+        encoding="utf-8",
+    ) as file:
+        json.dump(
+            state,
+            file,
+            ensure_ascii=False,
+            indent=2,
+            sort_keys=True,
+        )
         file.write("\n")
 
-    os.replace(temporary, STATE_FILE)
+    os.replace(
+        temporary,
+        STATE_FILE,
+    )
 
 
 def expand_consumption(sku, amount):
     if sku in PACKS:
         base_sku, pack_size = PACKS[sku]
-        return {base_sku: amount * pack_size}
-    return {sku: amount}
+
+        return {
+            base_sku: amount * pack_size,
+        }
+
+    return {
+        sku: amount,
+    }
 
 
-def apply_order_changes(products, warehouse_id, orders, state):
+def apply_order_changes(
+    products,
+    warehouse_id,
+    orders,
+    state,
+):
     base_stock = {}
-    previous_policies = state.get("supplier_policies", {})
+    previous_policies = state.get(
+        "supplier_policies",
+        {},
+    )
 
     for sku in base_skus(products):
-        target, _, policy = stock_policy(sku, products[sku])
-        current = int(state.get("base_stock", {}).get(sku, target))
+        target, _, policy = stock_policy(
+            sku,
+            products[sku],
+        )
+
+        current = int(
+            state.get(
+                "base_stock",
+                {},
+            ).get(
+                sku,
+                target,
+            )
+        )
 
         if target == 0:
             current = 0
         elif current > target:
             current = target
-        elif previous_policies.get(sku) == "zero" and current == 0:
+        elif (
+            previous_policies.get(sku) == "zero"
+            and current == 0
+        ):
+            # Товар раніше був відсутній, але тепер знайдений
+            # у залишках постачальника.
             current = target
 
         base_stock[sku] = current
 
-    snapshots = state.get("order_snapshots", {})
+    snapshots = state.get(
+        "order_snapshots",
+        {},
+    )
     direct_deltas = {}
 
     for order in orders:
         order_id = str(order.get("id"))
-        previous = snapshots.get(order_id, {})
-        current = direct_order_snapshot(order, warehouse_id, products)
+        previous = snapshots.get(
+            order_id,
+            {},
+        )
+        current = direct_order_snapshot(
+            order,
+            warehouse_id,
+            products,
+        )
 
         for sku in set(previous) | set(current):
-            delta = int(current.get(sku, 0)) - int(previous.get(sku, 0))
+            delta = (
+                int(current.get(sku, 0))
+                - int(previous.get(sku, 0))
+            )
+
             if not delta:
                 continue
 
-            direct_deltas[sku] = direct_deltas.get(sku, 0) + delta
+            direct_deltas[sku] = (
+                direct_deltas.get(sku, 0)
+                + delta
+            )
 
-            for base_sku, base_delta in expand_consumption(sku, delta).items():
+            for base_sku, base_delta in expand_consumption(
+                sku,
+                delta,
+            ).items():
                 if base_sku in base_stock:
                     base_stock[base_sku] = max(
                         0,
@@ -290,7 +412,11 @@ def apply_order_changes(products, warehouse_id, orders, state):
 
         snapshots[order_id] = current
 
-    return base_stock, snapshots, direct_deltas
+    return (
+        base_stock,
+        snapshots,
+        direct_deltas,
+    )
 
 
 def replenish(products, base_stock):
@@ -298,7 +424,11 @@ def replenish(products, base_stock):
     policies = {}
 
     for sku in sorted(base_stock):
-        target, threshold, policy = stock_policy(sku, products[sku])
+        target, threshold, policy = stock_policy(
+            sku,
+            products[sku],
+        )
+
         policies[sku] = policy
 
         if target == 0:
@@ -310,11 +440,17 @@ def replenish(products, base_stock):
     return replenished, policies
 
 
-def update_salesdrive_stock(api_key, warehouse_id, updates):
+def update_salesdrive_stock(
+    api_key,
+    warehouse_id,
+    updates,
+):
     items = [
         {
             "id": sku,
-            "stockBalanceByStock": {str(warehouse_id): int(quantity)},
+            "stockBalanceByStock": {
+                str(warehouse_id): int(quantity),
+            },
         }
         for sku, quantity in sorted(updates.items())
     ]
@@ -323,58 +459,163 @@ def update_salesdrive_stock(api_key, warehouse_id, updates):
         result = api_json(
             PRODUCT_UPDATE_URL,
             api_key,
-            payload={"action": "update", "product": items[offset:offset + 100]},
+            payload={
+                "action": "update",
+                "product": items[offset:offset + 100],
+            },
         )
-        if result.get("status") not in (None, "success"):
-            raise RuntimeError(f"Could not update SalesDrive stock: {result}")
+
+        if result.get("status") not in (
+            None,
+            "success",
+        ):
+            raise RuntimeError(
+                f"Could not update SalesDrive stock: {result}"
+            )
 
 
 def build_yml(products, published_stock):
     root = etree.Element(
         "yml_catalog",
-        date=now_kyiv().strftime("%Y-%m-%d %H:%M"),
+        date=now_kyiv().strftime(
+            "%Y-%m-%d %H:%M"
+        ),
     )
-    shop = etree.SubElement(root, "shop")
-    etree.SubElement(shop, "name").text = "CatPaws DOMS stock"
-    etree.SubElement(shop, "company").text = "CatPaws"
-    etree.SubElement(shop, "url").text = "https://catpaws.com.ua/"
 
-    currencies = etree.SubElement(shop, "currencies")
-    etree.SubElement(currencies, "currency", id="UAH", rate="1")
-    categories = etree.SubElement(shop, "categories")
-    etree.SubElement(categories, "category", id="1").text = "DOMS"
-    offers = etree.SubElement(shop, "offers")
+    shop = etree.SubElement(
+        root,
+        "shop",
+    )
+
+    etree.SubElement(
+        shop,
+        "name",
+    ).text = "CatPaws DOMS stock"
+
+    etree.SubElement(
+        shop,
+        "company",
+    ).text = "CatPaws"
+
+    etree.SubElement(
+        shop,
+        "url",
+    ).text = "https://catpaws.com.ua/"
+
+    currencies = etree.SubElement(
+        shop,
+        "currencies",
+    )
+
+    etree.SubElement(
+        currencies,
+        "currency",
+        id="UAH",
+        rate="1",
+    )
+
+    categories = etree.SubElement(
+        shop,
+        "categories",
+    )
+
+    etree.SubElement(
+        categories,
+        "category",
+        id="1",
+    ).text = "DOMS"
+
+    offers = etree.SubElement(
+        shop,
+        "offers",
+    )
 
     for sku, item in sorted(products.items()):
-        quantity = int(published_stock.get(sku, 0))
+        quantity = int(
+            published_stock.get(
+                sku,
+                0,
+            )
+        )
+
         offer = etree.SubElement(
             offers,
             "offer",
             id=sku,
-            available="true" if quantity > 0 else "false",
+            available=(
+                "true"
+                if quantity > 0
+                else "false"
+            ),
         )
-        etree.SubElement(offer, "name").text = item["name"]
-        etree.SubElement(offer, "vendorCode").text = sku
-        etree.SubElement(offer, "price").text = "1"
-        etree.SubElement(offer, "currencyId").text = "UAH"
-        etree.SubElement(offer, "categoryId").text = "1"
-        etree.SubElement(offer, "quantity_in_stock").text = str(quantity)
-        etree.SubElement(offer, "stock").text = str(quantity)
-        etree.SubElement(offer, "in_stock").text = "1" if quantity > 0 else "0"
+
+        etree.SubElement(
+            offer,
+            "name",
+        ).text = item["name"]
+
+        etree.SubElement(
+            offer,
+            "vendorCode",
+        ).text = sku
+
+        etree.SubElement(
+            offer,
+            "price",
+        ).text = "1"
+
+        etree.SubElement(
+            offer,
+            "currencyId",
+        ).text = "UAH"
+
+        etree.SubElement(
+            offer,
+            "categoryId",
+        ).text = "1"
+
+        etree.SubElement(
+            offer,
+            "quantity_in_stock",
+        ).text = str(quantity)
+
+        etree.SubElement(
+            offer,
+            "stock",
+        ).text = str(quantity)
+
+        etree.SubElement(
+            offer,
+            "in_stock",
+        ).text = (
+            "1"
+            if quantity > 0
+            else "0"
+        )
 
     return etree.ElementTree(root)
 
 
 def main():
-    api_key = os.environ.get("SALESDRIVE_API_KEY", "").strip()
+    api_key = os.environ.get(
+        "SALESDRIVE_API_KEY",
+        "",
+    ).strip()
+
     if not api_key:
-        raise RuntimeError("SALESDRIVE_API_KEY is not configured")
+        raise RuntimeError(
+            "SALESDRIVE_API_KEY is not configured"
+        )
 
     site_catalog = load_site_catalog()
-    products = build_product_catalog(site_catalog)
+    products = build_product_catalog(
+        site_catalog
+    )
 
     if not products:
-        raise RuntimeError("No DOMS products found in the CatPaws catalog")
+        raise RuntimeError(
+            "No DOMS products found in the CatPaws catalog"
+        )
 
     state = load_state()
     finished_at = now_kyiv()
@@ -386,8 +627,17 @@ def main():
             finished_at - timedelta(days=30),
             finished_at,
         )
-        warehouse_id = find_warehouse_id(None, orders, products)
-        base_stock, supplier_policies = initial_base_stock(products)
+
+        warehouse_id = find_warehouse_id(
+            None,
+            orders,
+            products,
+        )
+
+        base_stock, supplier_policies = (
+            initial_base_stock(products)
+        )
+
         snapshots = {
             str(order.get("id")): direct_order_snapshot(
                 order,
@@ -396,81 +646,188 @@ def main():
             )
             for order in orders
         }
-        published_stock = materialize_stock(products, base_stock)
+
+        published_stock = materialize_stock(
+            products,
+            base_stock,
+        )
+
         updates = published_stock
         replenished = []
-        print("Initial DOMS stock synchronization")
+
+        print(
+            "Initial DOMS stock synchronization"
+        )
     else:
-        warehouse_id = find_warehouse_id(state, [], products)
+        warehouse_id = find_warehouse_id(
+            state,
+            [],
+            products,
+        )
+
         orders = fetch_orders(
             api_key,
-            parse_api_time(state["last_sync"]) - timedelta(minutes=2),
+            parse_api_time(
+                state["last_sync"]
+            ) - timedelta(minutes=2),
             finished_at,
         )
+
         previous_published = {
             sku: int(quantity)
-            for sku, quantity in state.get("published_stock", {}).items()
+            for sku, quantity
+            in state.get(
+                "published_stock",
+                {},
+            ).items()
         }
-        base_stock, snapshots, direct_deltas = apply_order_changes(
+
+        (
+            base_stock,
+            snapshots,
+            direct_deltas,
+        ) = apply_order_changes(
             products,
             warehouse_id,
             orders,
             state,
         )
-        replenished, supplier_policies = replenish(products, base_stock)
-        published_stock = materialize_stock(products, base_stock)
 
-        # SalesDrive уже сам списав безпосередньо замовлений SKU.
-        # Надсилаємо лише пов'язані коригування блоків/банок,
-        # зміни наявності та поповнення умовного залишку.
-        automatic_stock = dict(previous_published)
+        (
+            replenished,
+            supplier_policies,
+        ) = replenish(
+            products,
+            base_stock,
+        )
+
+        published_stock = materialize_stock(
+            products,
+            base_stock,
+        )
+
+        # SalesDrive уже сам списав безпосередньо
+        # замовлений SKU.
+        # Надсилаємо лише пов'язані коригування
+        # блоків/банок, зміни наявності та
+        # поповнення умовного залишку.
+        automatic_stock = dict(
+            previous_published
+        )
+
         for sku, delta in direct_deltas.items():
             automatic_stock[sku] = max(
                 0,
-                int(automatic_stock.get(sku, 0)) - delta,
+                int(
+                    automatic_stock.get(
+                        sku,
+                        0,
+                    )
+                ) - delta,
             )
 
         updates = {
             sku: quantity
-            for sku, quantity in published_stock.items()
-            if int(automatic_stock.get(sku, 0)) != int(quantity)
+            for sku, quantity
+            in published_stock.items()
+            if int(
+                automatic_stock.get(
+                    sku,
+                    0,
+                )
+            ) != int(quantity)
         }
 
     if updates:
-        update_salesdrive_stock(api_key, warehouse_id, updates)
+        update_salesdrive_stock(
+            api_key,
+            warehouse_id,
+            updates,
+        )
 
     save_state({
         "version": 1,
         "warehouse_id": warehouse_id,
-        "last_sync": format_api_time(finished_at),
+        "last_sync": format_api_time(
+            finished_at
+        ),
         "base_stock": base_stock,
         "published_stock": published_stock,
         "supplier_policies": supplier_policies,
         "order_snapshots": snapshots,
     })
 
-    os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
-    build_yml(products, published_stock).write(
+    os.makedirs(
+        os.path.dirname(OUTPUT_FILE),
+        exist_ok=True,
+    )
+
+    build_yml(
+        products,
+        published_stock,
+    ).write(
         OUTPUT_FILE,
         encoding="UTF-8",
         xml_declaration=True,
         pretty_print=True,
     )
 
-    positive = sum(quantity > 0 for quantity in published_stock.values())
-    homie = sum(item["brand"] == "homie" for item in products.values())
-    print(f"DOMS supplier SKUs in XLS: {len(SUPPLIER_SKUS)}")
-    print(f"DOMS products in CatPaws catalog: {len(products)}")
-    print(f"Homie products treated as available: {homie}")
-    print(f"Linked canned-food packs: {len(PACKS)}")
-    print(f"SalesDrive warehouse ID: {warehouse_id}")
-    print(f"Updated orders read: {len(orders)}")
-    print(f"Products sent to SalesDrive: {len(updates)}")
-    print(f"Products replenished by threshold: {len(replenished)}")
-    print(f"Products with positive stock: {positive}")
-    print(f"Products with zero stock: {len(products) - positive}")
-    print(f"Created: {OUTPUT_FILE}")
-    print(f"State saved: {STATE_FILE}")
+    positive = sum(
+        quantity > 0
+        for quantity in published_stock.values()
+    )
+
+    homie = sum(
+        item["brand"] == "homie"
+        for item in products.values()
+    )
+
+    print(
+        f"DOMS supplier SKUs in XLS: "
+        f"{len(SUPPLIER_SKUS)}"
+    )
+    print(
+        f"DOMS products in CatPaws catalog: "
+        f"{len(products)}"
+    )
+    print(
+        f"Homie products treated as available: "
+        f"{homie}"
+    )
+    print(
+        f"Linked canned-food packs: "
+        f"{len(PACKS)}"
+    )
+    print(
+        f"SalesDrive warehouse ID: "
+        f"{warehouse_id}"
+    )
+    print(
+        f"Updated orders read: "
+        f"{len(orders)}"
+    )
+    print(
+        f"Products sent to SalesDrive: "
+        f"{len(updates)}"
+    )
+    print(
+        f"Products replenished by threshold: "
+        f"{len(replenished)}"
+    )
+    print(
+        f"Products with positive stock: "
+        f"{positive}"
+    )
+    print(
+        f"Products with zero stock: "
+        f"{len(products) - positive}"
+    )
+    print(
+        f"Created: {OUTPUT_FILE}"
+    )
+    print(
+        f"State saved: {STATE_FILE}"
+    )
 
 
 if __name__ == "__main__":
