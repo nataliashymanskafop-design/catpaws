@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-09-18 13:23">
+<yml_catalog date="2026-09-18 13:52">
   <shop>
     <name>CatPaws Kormax stock</name>
     <company>CatPaws</company>
@@ -387,8 +387,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>61</quantity_in_stock>
-        <stock>61</stock>
+        <quantity_in_stock>60</quantity_in_stock>
+        <stock>60</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="KIK24635" available="true">
@@ -537,8 +537,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>61</quantity_in_stock>
-        <stock>61</stock>
+        <quantity_in_stock>60</quantity_in_stock>
+        <stock>60</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="KIK45279" available="false">
@@ -647,8 +647,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>61</quantity_in_stock>
-        <stock>61</stock>
+        <quantity_in_stock>60</quantity_in_stock>
+        <stock>60</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="KIK45611" available="false">
@@ -1587,8 +1587,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>72</quantity_in_stock>
-        <stock>72</stock>
+        <quantity_in_stock>60</quantity_in_stock>
+        <stock>60</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPPR479136_box" available="true">
@@ -1597,8 +1597,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>6</quantity_in_stock>
-        <stock>6</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPPR47914-K2" available="true">
@@ -3297,8 +3297,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>72</quantity_in_stock>
-        <stock>72</stock>
+        <quantity_in_stock>60</quantity_in_stock>
+        <stock>60</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPSC47910_box" available="true">
@@ -3307,8 +3307,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>6</quantity_in_stock>
-        <stock>6</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPSC47911" available="true">
