@@ -28,12 +28,6 @@ jobs:
             "https://nataliashymanskafop-design.github.io/catpaws/offers-response.json" \
             -o previous-offers-response.json
 
-      - name: Generate Mono offers
-        run: python scripts/generate_feed.py
-
-      - name: Generate Mono products
-        run: python scripts/generate_products_feed.py
-
       # Забираємо журнал попередньої синхронізації HOME FOOD.
       # Він потрібен, щоб кожне замовлення враховувалося лише один раз.
       - name: Download previous HOME FOOD stock state
@@ -93,6 +87,14 @@ jobs:
           SALESDRIVE_API_KEY: ${{ secrets.SALESDRIVE_API_KEY }}
           SALESDRIVE_DOMS_STOCK_ID: ${{ vars.SALESDRIVE_DOMS_STOCK_ID }}
         run: python scripts/generate_doms_stock.py
+
+      # Формуємо Mono після синхронізації складів, щоб у фід одразу
+      # потрапили актуальні залишки та правильні ID локацій.
+      - name: Generate Mono offers
+        run: python scripts/generate_feed.py
+
+      - name: Generate Mono products
+        run: python scripts/generate_products_feed.py
 
       # Перевіряємо доступ до Prom API.
       - name: Test Prom API
