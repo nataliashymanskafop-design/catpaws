@@ -14,8 +14,35 @@ XML_URL = "https://catpaws.com.ua/content/export/3e9c244f28ee6d1e572f92646e76f6b
 PREVIOUS_FEED_FILE = "previous-offers-response.json"
 
 SUPPLIER_STOCK = 999
-WAREHOUSE_ID = "1"
+DEFAULT_WAREHOUSE_ID = "SUPPLIER"
 MIN_PRICE = 300
+
+STOCK_SOURCES = (
+    {
+        "name": "HOME FOOD",
+        "warehouse_id": "HOME_FOOD",
+        "state_file": "public/home-food-stock-state.json",
+        "dispatch_days": {0, 1, 2, 3, 4},
+        "cutoff_hour": 12,
+        "cutoff_minute": 0,
+    },
+    {
+        "name": "Kormax",
+        "warehouse_id": "KORMAX",
+        "state_file": "public/kormax-stock-state.json",
+        "dispatch_days": {0, 1, 2, 3, 4},
+        "cutoff_hour": 12,
+        "cutoff_minute": 0,
+    },
+    {
+        "name": "DOMS",
+        "warehouse_id": "DOMS",
+        "state_file": "public/doms-stock-state.json",
+        "dispatch_days": {0, 2, 4},
+        "cutoff_hour": 15,
+        "cutoff_minute": 30,
+    },
+)
 
 
 def to_int(value, default=0):
@@ -33,26 +60,116 @@ def to_int(value, default=0):
         return default
 
 
-def get_days_to_dispatch():
+def get_days_to_dispatch(
+    dispatch_days=None,
+    cutoff_hour=12,
+    cutoff_minute=0,
+):
     now = datetime.now(ZoneInfo("Europe/Kyiv"))
-    weekday = now.weekday()
+    allowed_days = dispatch_days or {0, 1, 2, 3, 4}
+    before_cutoff = (now.hour, now.minute) < (
+        cutoff_hour,
+        cutoff_minute,
+    )
 
-    if weekday == 5:
-        return 2
+    for days_ahead in range(8):
+        candidate_weekday = (now.weekday() + days_ahead) % 7
 
-    if weekday == 6:
-        return 1
+        if candidate_weekday not in allowed_days:
+            continue
 
-    if now.hour < 12:
-        return 0
+        if days_ahead == 0 and not before_cutoff:
+            continue
 
-    if weekday == 4:
-        return 3
+        return days_ahead
 
-    return 1
+    return 7
 
 
-def build_offer(offer):
+def previous_source_stock(previous_feed, warehouse_id):
+    result = {}
+
+    if not previous_feed:
+        return result
+
+    for item in previous_feed.get("data") or []:
+        code = str(item.get("code") or "").strip()
+
+        if not code:
+            continue
+
+        for warehouse in item.get("warehouses") or []:
+            if str(warehouse.get("id") or "") != warehouse_id:
+                continue
+
+            result[code] = max(0, to_int(warehouse.get("stock")))
+            break
+
+    return result
+
+
+def load_stock_sources(previous_feed):
+    stock_by_sku = {}
+
+    for source in STOCK_SOURCES:
+        state_file = source["state_file"]
+
+        published_stock = None
+        try:
+            with open(state_file, "r", encoding="utf-8") as file:
+                state = json.load(file)
+            published_stock = state.get("published_stock")
+        except (OSError, json.JSONDecodeError):
+            pass
+
+        if not isinstance(published_stock, dict) or not published_stock:
+            published_stock = previous_source_stock(
+                previous_feed,
+                source["warehouse_id"],
+            )
+
+            if not published_stock:
+                raise RuntimeError(
+                    f'{source["name"]} stock is unavailable in both '
+                    f'{state_file} and the previous Mono feed'
+                )
+
+            print(
+                f'{source["name"]} state is unavailable. '
+                'Keeping stock from the previous Mono feed.'
+            )
+
+        loaded = 0
+
+        for sku, quantity in published_stock.items():
+            normalized_sku = str(sku).strip()
+
+            if not normalized_sku:
+                continue
+
+            if normalized_sku in stock_by_sku:
+                previous = stock_by_sku[normalized_sku]
+                raise RuntimeError(
+                    f'Duplicate warehouse mapping for SKU '
+                    f'{normalized_sku}: {previous["name"]} and '
+                    f'{source["name"]}'
+                )
+
+            stock_by_sku[normalized_sku] = {
+                **source,
+                "stock": max(0, to_int(quantity)),
+            }
+            loaded += 1
+
+        print(
+            f'{source["name"]} stock loaded: '
+            f'{loaded} products -> {source["warehouse_id"]}'
+        )
+
+    return stock_by_sku
+
+
+def build_offer(offer, stock_by_sku):
     code = offer.findtext("vendorCode")
 
     if not code:
@@ -60,12 +177,31 @@ def build_offer(offer):
 
     price = to_int(offer.findtext("price"))
 
-    available = (
-        offer.get("available") == "true"
-        and price > MIN_PRICE
-    )
+    price_allowed = price > MIN_PRICE
+    site_available = offer.get("available") == "true"
+    normalized_code = code.strip()
+    stock_source = stock_by_sku.get(normalized_code)
 
-    stock = SUPPLIER_STOCK if available else 0
+    if stock_source:
+        # Для підключених складів джерелом наявності є складський стан,
+        # а не ознака available із сайту, яка може оновитися пізніше.
+        stock = stock_source["stock"] if price_allowed else 0
+        warehouse_id = stock_source["warehouse_id"]
+        days_to_dispatch = get_days_to_dispatch(
+            stock_source["dispatch_days"],
+            stock_source["cutoff_hour"],
+            stock_source["cutoff_minute"],
+        )
+    else:
+        stock = (
+            SUPPLIER_STOCK
+            if site_available and price_allowed
+            else 0
+        )
+        warehouse_id = DEFAULT_WAREHOUSE_ID
+        days_to_dispatch = get_days_to_dispatch()
+
+    available = stock > 0
 
     old_price_text = offer.findtext("oldprice")
 
@@ -76,21 +212,21 @@ def build_offer(offer):
     )
 
     return {
-        "code": code.strip(),
+        "code": normalized_code,
         "price": price,
         "old_price": old_price,
         "availability": available,
         "stock": stock,
         "warehouses": [
             {
-                "id": WAREHOUSE_ID,
+                "id": warehouse_id,
                 "stock": stock
             }
         ],
         "warranty_type": "no",
         "warranty_period": 0,
         "max_pay_in_parts": 6,
-        "days_to_dispatch": get_days_to_dispatch(),
+        "days_to_dispatch": days_to_dispatch,
         "delivery_methods": [
             {
                 "method": "nova-post:branch",
@@ -236,15 +372,16 @@ def main():
         response.content
     )
 
+    previous_feed = load_previous_feed()
+    stock_by_sku = load_stock_sources(previous_feed)
+
     offers = []
 
     for offer in root.xpath(".//offer"):
-        item = build_offer(offer)
+        item = build_offer(offer, stock_by_sku)
 
         if item is not None:
             offers.append(item)
-
-    previous_feed = load_previous_feed()
 
     updated_at = get_updated_at(
         offers,
