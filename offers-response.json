@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T21:22:03Z",
+  "updatedAt": "2026-09-20T12:08:06Z",
   "total": 2152,
   "data": [
     {
@@ -119,11 +119,11 @@
       "price": 3231,
       "old_price": null,
       "availability": true,
-      "stock": 19,
+      "stock": 20,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 19
+          "stock": 20
         }
       ],
       "warranty_type": "no",
@@ -8463,11 +8463,11 @@
       "price": 5668,
       "old_price": null,
       "availability": true,
-      "stock": 10,
+      "stock": 5,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 10
+          "stock": 5
         }
       ],
       "warranty_type": "no",
@@ -12578,12 +12578,12 @@
       "code": "TPL63598",
       "price": 1195,
       "old_price": null,
-      "availability": true,
-      "stock": 5,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 5
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -17647,11 +17647,11 @@
       "price": 540,
       "old_price": null,
       "availability": true,
-      "stock": 20,
+      "stock": 19,
       "warehouses": [
         {
           "id": "DOMS",
-          "stock": 20
+          "stock": 19
         }
       ],
       "warranty_type": "no",
@@ -17675,11 +17675,11 @@
       "price": 480,
       "old_price": 600,
       "availability": true,
-      "stock": 18,
+      "stock": 17,
       "warehouses": [
         {
           "id": "DOMS",
-          "stock": 18
+          "stock": 17
         }
       ],
       "warranty_type": "no",
@@ -18543,11 +18543,11 @@
       "price": 606,
       "old_price": 758,
       "availability": true,
-      "stock": 19,
+      "stock": 18,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 19
+          "stock": 18
         }
       ],
       "warranty_type": "no",
@@ -34615,11 +34615,11 @@
       "price": 451,
       "old_price": null,
       "availability": true,
-      "stock": 5,
+      "stock": 4,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 5
+          "stock": 4
         }
       ],
       "warranty_type": "no",
@@ -35258,12 +35258,12 @@
       "code": "NPPR479136_box",
       "price": 576,
       "old_price": null,
-      "availability": true,
-      "stock": 5,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 5
+          "stock": 0
         }
       ],
       "warranty_type": "no",
