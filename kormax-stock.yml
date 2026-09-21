@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-09-21 17:27">
+<yml_catalog date="2026-09-21 22:41">
   <shop>
     <name>CatPaws Kormax stock</name>
     <company>CatPaws</company>
@@ -921,15 +921,15 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="KIKNPSC47660" available="true">
+      <offer id="KIKNPSC47660" available="false">
         <name>Беззернові ласощі для дорослих собак із рудим забарвленням з ягнятиною, 150 г Nature's Protection Superior Care Red Coat Healthy Body &amp; Endurance</name>
         <vendorCode>KIKNPSC47660</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="KIKNPSC47712" available="true">
         <name>Ласощі з птицею для дорослих котів Superior Care with Poultry Adult Oral Care 75 г</name>
@@ -1107,8 +1107,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>10</quantity_in_stock>
-        <stock>10</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPB46030" available="true">
@@ -2197,8 +2197,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>10</quantity_in_stock>
-        <stock>10</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPS45757" available="false">
