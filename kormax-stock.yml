@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-09-22 10:30">
+<yml_catalog date="2026-09-22 16:14">
   <shop>
     <name>CatPaws Kormax stock</name>
     <company>CatPaws</company>
@@ -541,15 +541,15 @@
         <stock>60</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="KIK45279" available="false">
+      <offer id="KIK45279" available="true">
         <name>Вологий корм для молодих собак малих порід з куркою і яловичиною, 100 г Nature's Protection Junior Small Breeds Healthy Growth Chicken &amp; Beef</name>
         <vendorCode>KIK45279</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>40</quantity_in_stock>
+        <stock>40</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="KIK45514" available="true">
         <name>Мус для цуценят Nature's Protection Puppy Starter Mousse Chicken 200 г</name>
@@ -637,8 +637,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>60</quantity_in_stock>
-        <stock>60</stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="KIK45610" available="true">
@@ -671,15 +671,15 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="KIKNPLF63358" available="false">
+      <offer id="KIKNPLF63358" available="true">
         <name>Суп для стерилізованих котів з лососем NP Lifestyle Sterilised Salmon, 140мл</name>
         <vendorCode>KIKNPLF63358</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="KIKNPLF63359" available="false">
         <name>Суп для котів з чутливим травленням, з тунцем NP Lifestyle Sensitive Digestion, 140мл</name>
@@ -1581,15 +1581,15 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPPR479136" available="true">
+      <offer id="NPPR479136" available="false">
         <name>Вологий корм для кошенят з куркою та індичкою Nature's Protection Prime Kitten Chicken and Turkey, 85 г</name>
         <vendorCode>NPPR479136</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="NPPR479136_box" available="false">
         <name>Вологий корм для кошенят з куркою та індичкою Nature's Protection Prime Kitten Chicken and Turkey, 85 г * 12 шт</name>
@@ -1991,15 +1991,15 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPS45735" available="true">
+      <offer id="NPS45735" available="false">
         <name>Сухий корм для дорослих собак малих порід з ягнятиною Mini Adult Lamb Small Breeds 7.5кг</name>
         <vendorCode>NPS45735</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="NPS45736" available="true">
         <name>Сухий корм для дорослих собак малих порід з лососем, 500 г Nature's Protection Mini Extra Salmon Adult Small Breeds</name>
@@ -3011,15 +3011,15 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPSC47598" available="true">
+      <offer id="NPSC47598" available="false">
         <name>Сухий корм для собак усіх розмірів і стадій життя з протеїном комах, 4 кг Nature's Protection Superior Care White Dogs Insect All Sizes&amp;Life Stages</name>
         <vendorCode>NPSC47598</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="NPSC47599" available="false">
         <name>Сухий корм для собак усіх розмірів і стадій життя з протеїном комах, 10 кг Nature's Protection Superior Care White Dogs Insect All Sizes&amp;Life Stages</name>
@@ -4447,8 +4447,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>10</quantity_in_stock>
-        <stock>10</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="TPLRAN70403" available="true">
