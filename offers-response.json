@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T19:41:10Z",
+  "updatedAt": "2026-09-22T07:30:53Z",
   "total": 2152,
   "data": [
     {
@@ -6307,11 +6307,11 @@
       "price": 5226,
       "old_price": null,
       "availability": true,
-      "stock": 20,
+      "stock": 10,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 20
+          "stock": 10
         }
       ],
       "warranty_type": "no",
@@ -8379,11 +8379,11 @@
       "price": 2764,
       "old_price": null,
       "availability": true,
-      "stock": 10,
+      "stock": 5,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 10
+          "stock": 5
         }
       ],
       "warranty_type": "no",
@@ -10003,11 +10003,11 @@
       "price": 3238,
       "old_price": null,
       "availability": true,
-      "stock": 20,
+      "stock": 10,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 20
+          "stock": 10
         }
       ],
       "warranty_type": "no",
