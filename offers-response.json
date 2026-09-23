@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T14:21:07Z",
+  "updatedAt": "2026-09-23T18:32:23Z",
   "total": 2152,
   "data": [
     {
@@ -3030,12 +3030,12 @@
       "code": "KIK24636",
       "price": 302,
       "old_price": null,
-      "availability": true,
-      "stock": 5,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 5
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -7931,11 +7931,11 @@
       "price": 899,
       "old_price": null,
       "availability": true,
-      "stock": 20,
+      "stock": 10,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 20
+          "stock": 10
         }
       ],
       "warranty_type": "no",
@@ -17759,11 +17759,11 @@
       "price": 600,
       "old_price": null,
       "availability": true,
-      "stock": 20,
+      "stock": 19,
       "warehouses": [
         {
           "id": "DOMS",
-          "stock": 20
+          "stock": 19
         }
       ],
       "warranty_type": "no",

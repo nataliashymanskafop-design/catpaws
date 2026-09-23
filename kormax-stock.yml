@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-09-23 17:21">
+<yml_catalog date="2026-09-23 21:32">
   <shop>
     <name>CatPaws Kormax stock</name>
     <company>CatPaws</company>
@@ -401,15 +401,15 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="KIK24636" available="true">
+      <offer id="KIK24636" available="false">
         <name>Вологий корм для стерилізованих котів та кішок з індичкою, лососем та рисом Nature's Protection Neutered Turkey, Salmon&amp;Rice 400г</name>
         <vendorCode>KIK24636</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="KIK45086" available="true">
         <name>Вологий корм для цуценят з телятиною, 200 г Nature's Protection Puppy Veal</name>
@@ -4297,8 +4297,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="TPL63792" available="true">
