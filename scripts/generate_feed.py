@@ -42,6 +42,14 @@ STOCK_SOURCES = (
         "cutoff_hour": 15,
         "cutoff_minute": 30,
     },
+    {
+        "name": "PETIMPEX",
+        "warehouse_id": "PETIMPEX",
+        "state_file": "public/petimpex-stock-state.json",
+        "dispatch_days": {0, 1, 2, 3, 4},
+        "cutoff_hour": 12,
+        "cutoff_minute": 0,
+    },
 )
 
 
