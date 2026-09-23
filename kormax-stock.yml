@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-09-23 02:43">
+<yml_catalog date="2026-09-23 07:03">
   <shop>
     <name>CatPaws Kormax stock</name>
     <company>CatPaws</company>
@@ -671,15 +671,15 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="KIKNPLF63358" available="true">
+      <offer id="KIKNPLF63358" available="false">
         <name>Суп для стерилізованих котів з лососем NP Lifestyle Sterilised Salmon, 140мл</name>
         <vendorCode>KIKNPLF63358</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>10</quantity_in_stock>
-        <stock>10</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="KIKNPLF63359" available="false">
         <name>Суп для котів з чутливим травленням, з тунцем NP Lifestyle Sensitive Digestion, 140мл</name>
