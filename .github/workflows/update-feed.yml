@@ -1,4 +1,4 @@
-name: Generate Mono, Prom, HOME FOOD, Kormax and DOMS Feeds
+name: Generate Mono, Prom and supplier stock feeds
 
 on:
   workflow_dispatch:
@@ -87,6 +87,25 @@ jobs:
           SALESDRIVE_API_KEY: ${{ secrets.SALESDRIVE_API_KEY }}
           SALESDRIVE_DOMS_STOCK_ID: ${{ vars.SALESDRIVE_DOMS_STOCK_ID }}
         run: python scripts/generate_doms_stock.py
+
+      # Забираємо попередній стан ПЕТІМПЕКС, щоб надсилати в SalesDrive
+      # тільки залишки, які змінилися у фіді постачальника.
+      - name: Download previous PETIMPEX stock state
+        continue-on-error: true
+        run: |
+          mkdir -p public
+          curl -fL \
+            "https://nataliashymanskafop-design.github.io/catpaws/petimpex-stock-state.json" \
+            -o public/petimpex-stock-state.json
+
+      # Синхронізуємо точні залишки ПЕТІМПЕКС із SalesDrive.
+      # Заявка №2649 використовується лише для першого визначення ID складу.
+      - name: Generate PETIMPEX stock feed
+        continue-on-error: true
+        env:
+          SALESDRIVE_API_KEY: ${{ secrets.SALESDRIVE_API_KEY }}
+          SALESDRIVE_PETIMPEX_STOCK_ID: ${{ vars.SALESDRIVE_PETIMPEX_STOCK_ID }}
+        run: python scripts/generate_petimpex_stock.py
 
       # Формуємо Mono після синхронізації складів, щоб у фід одразу
       # потрапили актуальні залишки та правильні ID локацій.
