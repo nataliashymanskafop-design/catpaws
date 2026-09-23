@@ -284,7 +284,11 @@ def stock_snapshot(offers):
                 False
             ),
             "stock": item.get("stock", 0),
-            "warehouses": warehouse_stock
+            "warehouses": warehouse_stock,
+"days_to_dispatch": item.get(
+    "days_to_dispatch",
+    0
+)
         }
 
     return snapshot
