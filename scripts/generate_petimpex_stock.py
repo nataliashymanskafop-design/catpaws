@@ -24,9 +24,11 @@ STATE_FILE = "public/petimpex-stock-state.json"
 BOOTSTRAP_ORDER_ID = 2649
 BOOTSTRAP_SKU = "НФ-00005773"
 WAREHOUSE_VARIABLE = "SALESDRIVE_PETIMPEX_STOCK_ID"
+SALESDRIVE_YML_VARIABLE = "SALESDRIVE_PRODUCTS_YML_URL"
 
 MIN_SUPPLIER_OFFERS = 1000
 MIN_TRACKED_PRODUCTS = 500
+MIN_SALESDRIVE_PRODUCTS = 500
 
 
 def clean(value):
@@ -51,8 +53,13 @@ def load_supplier_feed():
             continue
 
         products[sku] = {
-            "name": clean(offer.findtext("name_ua") or offer.findtext("name")),
-            "stock": parse_quantity(offer.findtext("quantity_in_stock")),
+            "name": clean(
+                offer.findtext("name_ua")
+                or offer.findtext("name")
+            ),
+            "stock": parse_quantity(
+                offer.findtext("quantity_in_stock")
+            ),
         }
 
     if len(products) < MIN_SUPPLIER_OFFERS:
@@ -66,11 +73,16 @@ def load_supplier_feed():
 
 def load_tracked_skus():
     try:
-        with open(TRACKED_SKUS_FILE, "r", encoding="utf-8") as file:
+        with open(
+            TRACKED_SKUS_FILE,
+            "r",
+            encoding="utf-8",
+        ) as file:
             skus = {
                 line.strip()
                 for line in file
-                if line.strip() and not line.lstrip().startswith("#")
+                if line.strip()
+                and not line.lstrip().startswith("#")
             }
     except OSError as error:
         raise RuntimeError(
@@ -99,26 +111,78 @@ def load_site_catalog():
     return result
 
 
-def select_products(supplier, tracked_skus, site_catalog):
-    # The static list contains products confirmed in the full CatPaws export,
-    # including cards that are currently unavailable and therefore absent from
-    # the public site XML. Current site products are added automatically so new
-    # PETIMPEX cards start syncing without waiting for a manual list refresh.
+def load_salesdrive_product_ids():
+    url = os.environ.get(
+        SALESDRIVE_YML_VARIABLE,
+        "",
+    ).strip()
+
+    if not url:
+        raise RuntimeError(
+            f"GitHub secret "
+            f"{SALESDRIVE_YML_VARIABLE} "
+            "is not configured"
+        )
+
+    root = etree.fromstring(download(url))
+    product_ids = {}
+    duplicate_skus = set()
+
+    for offer in root.xpath(".//offer"):
+        product_id = clean(offer.get("id"))
+        sku = clean(
+            offer.findtext("vendorCode")
+            or offer.findtext("sku")
+        )
+
+        if not product_id or not sku:
+            continue
+
+        previous_id = product_ids.get(sku)
+
+        if previous_id and previous_id != product_id:
+            duplicate_skus.add(sku)
+        else:
+            product_ids[sku] = product_id
+
+    # Не оновлюємо неоднозначні артикули,
+    # щоб випадково не змінити іншу картку.
+    for sku in duplicate_skus:
+        product_ids.pop(sku, None)
+
+    if len(product_ids) < MIN_SALESDRIVE_PRODUCTS:
+        raise RuntimeError(
+            "SalesDrive YML export is empty or incomplete: "
+            f"only {len(product_ids)} unique products"
+        )
+
+    return product_ids, duplicate_skus
+
+
+def select_products(
+    supplier,
+    tracked_skus,
+    site_catalog,
+):
     known_skus = set(tracked_skus)
-    known_skus.update(set(site_catalog) & set(supplier))
+    known_skus.update(
+        set(site_catalog) & set(supplier)
+    )
 
     products = {}
+
     for sku in known_skus:
         supplier_item = supplier.get(sku)
+
         products[sku] = {
             "name": (
                 (supplier_item or {}).get("name")
                 or site_catalog.get(sku)
                 or sku
             ),
-            # A previously tracked item missing from the current supplier feed
-            # must be set to zero instead of keeping a stale positive balance.
-            "stock": int((supplier_item or {}).get("stock", 0)),
+            "stock": int(
+                (supplier_item or {}).get("stock", 0)
+            ),
         }
 
     return products
@@ -129,7 +193,11 @@ def load_state():
         return None
 
     try:
-        with open(STATE_FILE, "r", encoding="utf-8") as file:
+        with open(
+            STATE_FILE,
+            "r",
+            encoding="utf-8",
+        ) as file:
             state = json.load(file)
     except (OSError, json.JSONDecodeError):
         return None
@@ -138,18 +206,36 @@ def load_state():
 
 
 def save_state(state):
-    os.makedirs(os.path.dirname(STATE_FILE), exist_ok=True)
+    os.makedirs(
+        os.path.dirname(STATE_FILE),
+        exist_ok=True,
+    )
+
     temporary = f"{STATE_FILE}.tmp"
 
-    with open(temporary, "w", encoding="utf-8") as file:
-        json.dump(state, file, ensure_ascii=False, indent=2, sort_keys=True)
+    with open(
+        temporary,
+        "w",
+        encoding="utf-8",
+    ) as file:
+        json.dump(
+            state,
+            file,
+            ensure_ascii=False,
+            indent=2,
+            sort_keys=True,
+        )
         file.write("\n")
 
     os.replace(temporary, STATE_FILE)
 
 
 def find_warehouse_id(api_key, state):
-    configured = os.environ.get(WAREHOUSE_VARIABLE, "").strip()
+    configured = os.environ.get(
+        WAREHOUSE_VARIABLE,
+        "",
+    ).strip()
+
     if configured:
         return int(configured)
 
@@ -157,6 +243,7 @@ def find_warehouse_id(api_key, state):
         return int(state["warehouse_id"])
 
     finished_at = now_kyiv()
+
     orders = fetch_orders(
         api_key,
         finished_at - timedelta(days=30),
@@ -172,11 +259,13 @@ def find_warehouse_id(api_key, state):
                 continue
 
             stock_id = item.get("stockId")
+
             if stock_id:
                 return int(stock_id)
 
     raise RuntimeError(
-        "Could not determine PETIMPEX warehouse ID from order #2649. "
+        "Could not determine PETIMPEX warehouse ID "
+        "from order #2649. "
         f"Set repository variable {WAREHOUSE_VARIABLE}."
     )
 
@@ -192,8 +281,13 @@ def changed_stock(products, state):
 
     previous = {
         str(sku): int(quantity)
-        for sku, quantity in state.get("published_stock", {}).items()
+        for sku, quantity
+        in state.get(
+            "published_stock",
+            {},
+        ).items()
     }
+
     updates = {
         sku: quantity
         for sku, quantity in current.items()
@@ -203,15 +297,21 @@ def changed_stock(products, state):
     return current, updates
 
 
-def update_salesdrive_stock(api_key, warehouse_id, updates):
+def update_salesdrive_stock(
+    api_key,
+    warehouse_id,
+    updates,
+    product_ids,
+):
     items = [
         {
-            "id": sku,
+            "id": product_ids[sku],
             "stockBalanceByStock": {
                 str(warehouse_id): int(quantity),
             },
         }
         for sku, quantity in sorted(updates.items())
+        if sku in product_ids
     ]
 
     for offset in range(0, len(items), 100):
@@ -220,67 +320,206 @@ def update_salesdrive_stock(api_key, warehouse_id, updates):
             api_key,
             payload={
                 "action": "update",
-                "product": items[offset:offset + 100],
+                "product": items[
+                    offset:offset + 100
+                ],
             },
         )
-        if result.get("status") not in (None, "success"):
+
+        if result.get("status") not in (
+            None,
+            "success",
+        ):
             raise RuntimeError(
-                f"Could not update PETIMPEX stock in SalesDrive: {result}"
+                "Could not update PETIMPEX "
+                f"stock in SalesDrive: {result}"
             )
+
+    return len(items)
 
 
 def build_yml(products, published_stock):
     root = etree.Element(
         "yml_catalog",
-        date=now_kyiv().strftime("%Y-%m-%d %H:%M"),
+        date=now_kyiv().strftime(
+            "%Y-%m-%d %H:%M"
+        ),
     )
-    shop = etree.SubElement(root, "shop")
-    etree.SubElement(shop, "name").text = "CatPaws PETIMPEX stock"
-    etree.SubElement(shop, "company").text = "CatPaws"
-    etree.SubElement(shop, "url").text = "https://catpaws.com.ua/"
 
-    currencies = etree.SubElement(shop, "currencies")
-    etree.SubElement(currencies, "currency", id="UAH", rate="1")
-    categories = etree.SubElement(shop, "categories")
-    etree.SubElement(categories, "category", id="1").text = "PETIMPEX"
-    offers = etree.SubElement(shop, "offers")
+    shop = etree.SubElement(root, "shop")
+
+    etree.SubElement(
+        shop,
+        "name",
+    ).text = "CatPaws PETIMPEX stock"
+
+    etree.SubElement(
+        shop,
+        "company",
+    ).text = "CatPaws"
+
+    etree.SubElement(
+        shop,
+        "url",
+    ).text = "https://catpaws.com.ua/"
+
+    currencies = etree.SubElement(
+        shop,
+        "currencies",
+    )
+
+    etree.SubElement(
+        currencies,
+        "currency",
+        id="UAH",
+        rate="1",
+    )
+
+    categories = etree.SubElement(
+        shop,
+        "categories",
+    )
+
+    etree.SubElement(
+        categories,
+        "category",
+        id="1",
+    ).text = "PETIMPEX"
+
+    offers = etree.SubElement(
+        shop,
+        "offers",
+    )
 
     for sku, item in sorted(products.items()):
-        quantity = int(published_stock.get(sku, 0))
+        quantity = int(
+            published_stock.get(sku, 0)
+        )
+
         offer = etree.SubElement(
             offers,
             "offer",
             id=sku,
-            available="true" if quantity > 0 else "false",
+            available=(
+                "true"
+                if quantity > 0
+                else "false"
+            ),
         )
-        etree.SubElement(offer, "name").text = item["name"]
-        etree.SubElement(offer, "vendorCode").text = sku
-        etree.SubElement(offer, "price").text = "1"
-        etree.SubElement(offer, "currencyId").text = "UAH"
-        etree.SubElement(offer, "categoryId").text = "1"
-        etree.SubElement(offer, "quantity_in_stock").text = str(quantity)
-        etree.SubElement(offer, "stock").text = str(quantity)
-        etree.SubElement(offer, "in_stock").text = "1" if quantity > 0 else "0"
+
+        etree.SubElement(
+            offer,
+            "name",
+        ).text = item["name"]
+
+        etree.SubElement(
+            offer,
+            "vendorCode",
+        ).text = sku
+
+        etree.SubElement(
+            offer,
+            "price",
+        ).text = "1"
+
+        etree.SubElement(
+            offer,
+            "currencyId",
+        ).text = "UAH"
+
+        etree.SubElement(
+            offer,
+            "categoryId",
+        ).text = "1"
+
+        etree.SubElement(
+            offer,
+            "quantity_in_stock",
+        ).text = str(quantity)
+
+        etree.SubElement(
+            offer,
+            "stock",
+        ).text = str(quantity)
+
+        etree.SubElement(
+            offer,
+            "in_stock",
+        ).text = (
+            "1"
+            if quantity > 0
+            else "0"
+        )
 
     return etree.ElementTree(root)
 
 
 def main():
-    api_key = os.environ.get("SALESDRIVE_API_KEY", "").strip()
-    if not api_key:
-        raise RuntimeError("SALESDRIVE_API_KEY is not configured")
+    api_key = os.environ.get(
+        "SALESDRIVE_API_KEY",
+        "",
+    ).strip()
 
-    supplier, supplier_updated_at = load_supplier_feed()
+    if not api_key:
+        raise RuntimeError(
+            "SALESDRIVE_API_KEY is not configured"
+        )
+
+    supplier, supplier_updated_at = (
+        load_supplier_feed()
+    )
+
     tracked_skus = load_tracked_skus()
     site_catalog = load_site_catalog()
-    products = select_products(supplier, tracked_skus, site_catalog)
+
+    products = select_products(
+        supplier,
+        tracked_skus,
+        site_catalog,
+    )
+
+    salesdrive_ids, duplicate_skus = (
+        load_salesdrive_product_ids()
+    )
+
+    if BOOTSTRAP_SKU not in salesdrive_ids:
+        raise RuntimeError(
+            f"Test SKU {BOOTSTRAP_SKU} "
+            "is missing from SalesDrive YML export"
+        )
+
+    matched_products = (
+        set(products) & set(salesdrive_ids)
+    )
+
+    if len(matched_products) < MIN_SALESDRIVE_PRODUCTS:
+        raise RuntimeError(
+            "Too few PETIMPEX products matched "
+            "to SalesDrive IDs: "
+            f"only {len(matched_products)}"
+        )
 
     state = load_state()
-    warehouse_id = find_warehouse_id(api_key, state)
-    published_stock, updates = changed_stock(products, state)
+
+    warehouse_id = find_warehouse_id(
+        api_key,
+        state,
+    )
+
+    published_stock, updates = changed_stock(
+        products,
+        state,
+    )
+
+    sent_count = 0
 
     if updates:
-        update_salesdrive_stock(api_key, warehouse_id, updates)
+        sent_count = update_salesdrive_stock(
+            api_key,
+            warehouse_id,
+            updates,
+            salesdrive_ids,
+        )
 
     save_state({
         "version": 1,
@@ -289,22 +528,66 @@ def main():
         "published_stock": published_stock,
     })
 
-    os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
-    build_yml(products, published_stock).write(
+    os.makedirs(
+        os.path.dirname(OUTPUT_FILE),
+        exist_ok=True,
+    )
+
+    build_yml(
+        products,
+        published_stock,
+    ).write(
         OUTPUT_FILE,
         encoding="UTF-8",
         xml_declaration=True,
         pretty_print=True,
     )
 
-    positive = sum(quantity > 0 for quantity in published_stock.values())
-    print(f"PETIMPEX offers in supplier feed: {len(supplier)}")
-    print(f"Tracked CatPaws PETIMPEX products: {len(products)}")
-    print(f"SalesDrive warehouse ID: {warehouse_id}")
-    print(f"Products sent to SalesDrive: {len(updates)}")
-    print(f"Products with positive stock: {positive}")
-    print(f"Products with zero stock: {len(products) - positive}")
-    print(f"Test SKU {BOOTSTRAP_SKU}: {published_stock.get(BOOTSTRAP_SKU, 0)}")
+    positive = sum(
+        quantity > 0
+        for quantity in published_stock.values()
+    )
+
+    print(
+        "PETIMPEX offers in supplier feed: "
+        f"{len(supplier)}"
+    )
+    print(
+        "Tracked CatPaws PETIMPEX products: "
+        f"{len(products)}"
+    )
+    print(
+        "SalesDrive products in YML: "
+        f"{len(salesdrive_ids)}"
+    )
+    print(
+        "PETIMPEX products matched "
+        "to SalesDrive IDs: "
+        f"{len(matched_products)}"
+    )
+    print(
+        "Ambiguous duplicate SalesDrive "
+        "SKUs skipped: "
+        f"{len(duplicate_skus)}"
+    )
+    print(
+        f"SalesDrive warehouse ID: {warehouse_id}"
+    )
+    print(
+        f"Products sent to SalesDrive: {sent_count}"
+    )
+    print(
+        "Products with positive stock: "
+        f"{positive}"
+    )
+    print(
+        "Products with zero stock: "
+        f"{len(products) - positive}"
+    )
+    print(
+        f"Test SKU {BOOTSTRAP_SKU}: "
+        f"{published_stock.get(BOOTSTRAP_SKU, 0)}"
+    )
     print(f"Created: {OUTPUT_FILE}")
     print(f"State saved: {STATE_FILE}")
 
