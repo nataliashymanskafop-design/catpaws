@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-09-23 12:27">
+<yml_catalog date="2026-09-23 17:21">
   <shop>
     <name>CatPaws Kormax stock</name>
     <company>CatPaws</company>
@@ -301,15 +301,15 @@
         <stock>40</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="KIK24523" available="true">
+      <offer id="KIK24523" available="false">
         <name>Вологий корм для собак з яловичиною та індичкою, 200 г Nature's Protection Adult Beef &amp; Turkey</name>
         <vendorCode>KIK24523</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="KIK24627" available="true">
         <name>Вологий корм для цуценят всіх порід з ягнятиною Nature's Protection Puppy Lamb 400г</name>
@@ -407,8 +407,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>60</quantity_in_stock>
-        <stock>60</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="KIK45086" available="true">
@@ -631,15 +631,15 @@
         <stock>60</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="KIK45608" available="true">
+      <offer id="KIK45608" available="false">
         <name>Вологий корм для дорослих котів з куркою і сиром Nature's Protection with Сhicken &amp; Сheese 400 г</name>
         <vendorCode>KIK45608</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>10</quantity_in_stock>
-        <stock>10</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="KIK45610" available="true">
         <name>Вологий корм для кошенят з яловичиною та серцем індички Nature's Protection Kitten with Beef &amp; Turkey hearts 400 г</name>
@@ -1581,15 +1581,15 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPPR479136" available="true">
+      <offer id="NPPR479136" available="false">
         <name>Вологий корм для кошенят з куркою та індичкою Nature's Protection Prime Kitten Chicken and Turkey, 85 г</name>
         <vendorCode>NPPR479136</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="NPPR479136_box" available="false">
         <name>Вологий корм для кошенят з куркою та індичкою Nature's Protection Prime Kitten Chicken and Turkey, 85 г * 12 шт</name>
@@ -1651,25 +1651,25 @@
         <stock>60</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPPR47921" available="true">
+      <offer id="NPPR47921" available="false">
         <name>Вологий корм для цуценят з куркою та індичкою Nature's Protection Prime Puppy Chicken and Turkey, 85 г</name>
         <vendorCode>NPPR47921</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>60</quantity_in_stock>
-        <stock>60</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
-      <offer id="NPPR47921_box" available="true">
+      <offer id="NPPR47921_box" available="false">
         <name>Вологий корм для цуценят з куркою та індичкою Nature's Protection Prime Puppy Chicken and Turkey, 85 г * 12 шт</name>
         <vendorCode>NPPR47921_box</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="NPPR47922" available="true">
         <name>Вологий корм для собак для догляду за шкірою та шерстю з куркою і лососем Nature's Protection Prime Skin and Coat Adult Dogs Chicken and Salmon, 85 г</name>
