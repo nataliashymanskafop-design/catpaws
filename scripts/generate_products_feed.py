@@ -32,7 +32,7 @@ def main():
         if not vendor_code:
             continue
         if vendor_code.strip() == "NPS24432":
-        offer.getparent().remove(offer)
+            offer.getparent().remove(offer)
             continue
 
         old_code = offer.find("code")
