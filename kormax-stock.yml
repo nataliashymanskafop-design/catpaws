@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-09-24 08:57">
+<yml_catalog date="2026-09-24 14:34">
   <shop>
     <name>CatPaws Kormax stock</name>
     <company>CatPaws</company>
@@ -541,15 +541,15 @@
         <stock>60</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="KIK45279" available="true">
+      <offer id="KIK45279" available="false">
         <name>Вологий корм для молодих собак малих порід з куркою і яловичиною, 100 г Nature's Protection Junior Small Breeds Healthy Growth Chicken &amp; Beef</name>
         <vendorCode>KIK45279</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>10</quantity_in_stock>
-        <stock>10</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="KIK45514" available="true">
         <name>Мус для цуценят Nature's Protection Puppy Starter Mousse Chicken 200 г</name>
@@ -1671,25 +1671,25 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="NPPR47922" available="true">
+      <offer id="NPPR47922" available="false">
         <name>Вологий корм для собак для догляду за шкірою та шерстю з куркою і лососем Nature's Protection Prime Skin and Coat Adult Dogs Chicken and Salmon, 85 г</name>
         <vendorCode>NPPR47922</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>60</quantity_in_stock>
-        <stock>60</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
-      <offer id="NPPR47922_box" available="true">
+      <offer id="NPPR47922_box" available="false">
         <name>Вологий корм для собак для догляду за шкірою та шерстю з куркою і лососем Nature's Protection Prime Skin and Coat Adult Dogs Chicken and Salmon, 85 г * 12 шт</name>
         <vendorCode>NPPR47922_box</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="NPPR47923" available="true">
         <name>Вологий корм для активних собак з куркою і яловичиною Nature's Protection Prime Active Adult Dogs Chicken and Beef, 85 г</name>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-09-24 08:57">
+<yml_catalog date="2026-09-24 14:35">
   <shop>
     <name>CatPaws PETIMPEX stock</name>
     <company>CatPaws</company>
@@ -781,15 +781,15 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="044090" available="true">
+      <offer id="044090" available="false">
         <name>MERA Twinky Mix печиво твінкі мікс (2,5 см), 10 кг</name>
         <vendorCode>044090</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="044290" available="true">
         <name>MERA Puppy Knochen Mint м'ятні кісточки для цуценят (2,2см), 10 кг</name>
@@ -1107,8 +1107,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="04PE002000.0046.0192" available="false">
@@ -9181,15 +9181,15 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="700045 - 0454" available="true">
+      <offer id="700045 - 0454" available="false">
         <name>MERA MVH Gastro Intestinal корм дор. собак при розладах травлення 10 кг</name>
         <vendorCode>700045 - 0454</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="700097 - 0324" available="true">
         <name>MERA MVH Gastro Intestinal корм дор. собак при розладах травлення 3 кг</name>
@@ -9347,8 +9347,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7157" available="true">
@@ -9471,15 +9471,15 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="740297 - 2326" available="true">
+      <offer id="740297 - 2326" available="false">
         <name>MERA MVH Renal корм для котів при хворобах нирок 3 кг</name>
         <vendorCode>740297 - 2326</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="740338 - 3224" available="true">
         <name>MERA MVH Urinary корм для котів при сечокам'яних хворобах 750 гр</name>
@@ -15881,15 +15881,15 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="BPOS0036" available="true">
+      <offer id="BPOS0036" available="false">
         <name>Наповнювач бентонітовий "Пухнастики", дрібний, без аромату, 5кг, 4шт/уп</name>
         <vendorCode>BPOS0036</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="BW008" available="true">
         <name>Ласощі для собак "Bow wow" палички вялені "Копчене м'ясо"12см ( 55шт в уп.)</name>
@@ -16057,8 +16057,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="BW366" available="false">
@@ -19821,15 +19821,15 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="C6067183" available="true">
+      <offer id="C6067183" available="false">
         <name>Фурминатор POWERfur для собак короткошерстих, S (до 9 кг), 4,5 см, 3шт/уп</name>
         <vendorCode>C6067183</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="C6067184" available="false">
         <name>Фурминатор POWERfur для собак короткошерстих, М (9-24 кг), 6,5 см, 3шт/уп</name>
@@ -20247,8 +20247,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="C6080971" available="false">
@@ -30037,8 +30037,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="ШП-35" available="true">
