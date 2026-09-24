@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-09-24 14:34">
+<yml_catalog date="2026-09-24 19:23">
   <shop>
     <name>CatPaws HOME FOOD stock</name>
     <company>CatPaws</company>
@@ -277,8 +277,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>16</quantity_in_stock>
-        <stock>16</stock>
+        <quantity_in_stock>14</quantity_in_stock>
+        <stock>14</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="1037077" available="true">
@@ -307,8 +307,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>18</quantity_in_stock>
+        <stock>18</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="1047007" available="true">
@@ -1697,8 +1697,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>40</quantity_in_stock>
-        <stock>40</stock>
+        <quantity_in_stock>32</quantity_in_stock>
+        <stock>32</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7010050_box" available="true">
@@ -1707,8 +1707,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
+        <quantity_in_stock>4</quantity_in_stock>
+        <stock>4</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7010050_box1" available="true">
@@ -1717,8 +1717,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>9</quantity_in_stock>
-        <stock>9</stock>
+        <quantity_in_stock>8</quantity_in_stock>
+        <stock>8</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="70100_box1" available="true">
