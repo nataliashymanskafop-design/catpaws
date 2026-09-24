@@ -188,6 +188,8 @@ def build_offer(offer, stock_by_sku):
     price_allowed = price > MIN_PRICE
     site_available = offer.get("available") == "true"
     normalized_code = code.strip()
+    if normalized_code == "NPS24432":
+        return None
     stock_source = stock_by_sku.get(normalized_code)
 
     if stock_source:
