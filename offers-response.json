@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T23:19:43Z",
+  "updatedAt": "2026-09-25T07:23:19Z",
   "total": 2151,
   "data": [
     {
@@ -40635,11 +40635,11 @@
       "price": 346,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -41083,11 +41083,11 @@
       "price": 3978,
       "old_price": 4972,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -43014,12 +43014,12 @@
       "code": "740297 - 2326",
       "price": 1483,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -43070,12 +43070,12 @@
       "code": "740497 - 4320",
       "price": 1713,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -51443,11 +51443,11 @@
       "price": 420,
       "old_price": 494,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -51471,11 +51471,11 @@
       "price": 347,
       "old_price": 408,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -51611,11 +51611,11 @@
       "price": 347,
       "old_price": 408,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
