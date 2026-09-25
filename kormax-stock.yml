@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-09-25 15:54">
+<yml_catalog date="2026-09-25 20:50">
   <shop>
     <name>CatPaws Kormax stock</name>
     <company>CatPaws</company>
@@ -247,8 +247,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>40</quantity_in_stock>
-        <stock>40</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="KIK24518" available="true">
@@ -2767,8 +2767,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>19</quantity_in_stock>
+        <stock>19</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPSC46339" available="true">
@@ -3601,15 +3601,15 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="SNK46127" available="true">
+      <offer id="SNK46127" available="false">
         <name>Ласощі для собак, сушена качка, смужки, Nature's Protection Lifestyle Snack For Dogs Duck Sticks 75г</name>
         <vendorCode>SNK46127</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="SNK46129" available="true">
         <name>Ласощі для собак, рулети з качки і тріски, Nature's Protection Lifestyle snacks for dogs, duck and cod rolls, 75г</name>
