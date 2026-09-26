@@ -29,6 +29,7 @@ STATE_FILE = "public/doms-stock-state.json"
 BOOTSTRAP_ORDER_ID = 2527
 
 WAREHOUSE_VARIABLE = "SALESDRIVE_DOMS_STOCK_ID"
+SKU_ALIAS_MIGRATION = "salesdrive-sku-aliases-v1"
 
 # Звичайні товари: умовний залишок 20. Коли залишається 5 або менше,
 # скрипт відновлює умовний залишок до 20.
@@ -687,11 +688,22 @@ def main():
             products,
         )
 
+        migrating_sku_aliases = (
+            state.get("sku_alias_migration")
+            != SKU_ALIAS_MIGRATION
+        )
+
+        orders_from = (
+            finished_at - timedelta(days=30)
+            if migrating_sku_aliases
+            else parse_api_time(
+                state["last_sync"]
+            ) - timedelta(minutes=2)
+        )
+
         orders = fetch_orders(
             api_key,
-            parse_api_time(
-                state["last_sync"]
-            ) - timedelta(minutes=2),
+            orders_from,
             finished_at,
         )
 
@@ -781,6 +793,7 @@ def main():
 
     save_state({
         "version": 1,
+        "sku_alias_migration": SKU_ALIAS_MIGRATION,
         "warehouse_id": warehouse_id,
         "last_sync": format_api_time(
             finished_at
