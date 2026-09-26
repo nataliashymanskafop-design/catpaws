@@ -62,6 +62,15 @@ STOCK_SOURCES = (
         "cutoff_minute": 0,
     },
     {
+        "name": "TERRAVET",
+        "warehouse_id": "TERRAVET",
+        "state_file": "public/terravet-stock-state.json",
+        "dispatch_days": {0, 1, 2, 3, 4},
+        "cutoff_hour": 12,
+        "cutoff_minute": 0,
+        "allow_same_day": True,
+    },
+    {
         "name": "Darwin — Харків",
         "warehouse_id": "DARWIN",
         "state_file": "public/darwin-stock-state.json",
