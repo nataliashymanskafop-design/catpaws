@@ -17,6 +17,12 @@ def main():
     updated = 0
 
     for offer in root.xpath(".//offer"):
+        vendor = " ".join((offer.findtext("vendor") or "").split()).casefold()
+
+        if vendor == "rafi":
+            offer.getparent().remove(offer)
+            continue
+
         price_text = offer.findtext("price")
 
         try:
