@@ -114,6 +114,20 @@ jobs:
       - name: Generate Darwin stock feed
         run: python scripts/generate_darwin_stock.py
 
+      # Забираємо попередній стан TERRAVET. Поки склад наповнюється
+      # тільки точними залишками MODES; Josera буде другим джерелом пізніше.
+      - name: Download previous TERRAVET stock state
+        continue-on-error: true
+        run: |
+          mkdir -p public
+          curl -fL \
+            "https://nataliashymanskafop-design.github.io/catpaws/terravet-stock-state.json" \
+            -o public/terravet-stock-state.json
+
+      - name: Generate TERRAVET stock feed
+        continue-on-error: true
+        run: python scripts/generate_terravet_stock.py
+
       # Забираємо попередній точний стан власного складу. Якщо SalesDrive
       # тимчасово недоступний, Mono збереже останні успішні залишки.
       - name: Download previous own stock state
