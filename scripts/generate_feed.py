@@ -80,7 +80,7 @@ def get_days_to_dispatch(
         cutoff_minute,
     )
 
-    for days_ahead in range(8):
+    for days_ahead in range(1, 8):
         candidate_weekday = (now.weekday() + days_ahead) % 7
 
         if candidate_weekday not in allowed_days:
@@ -178,6 +178,11 @@ def load_stock_sources(previous_feed):
 
 
 def build_offer(offer, stock_by_sku):
+    vendor = " ".join((offer.findtext("vendor") or "").split()).casefold()
+
+    if vendor == "rafi":
+        return None
+
     code = offer.findtext("vendorCode")
 
     if not code:
