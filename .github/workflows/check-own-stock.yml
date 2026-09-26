@@ -1,0 +1,53 @@
+name: Check own SalesDrive stock export
+
+on:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+      - name: Check SKU 3C000294 in SalesDrive YML
+        env:
+          SALESDRIVE_PRODUCTS_YML_URL: ${{ secrets.SALESDRIVE_PRODUCTS_YML_URL }}
+        run: |
+          python - <<'PY'
+          import os
+          import requests
+          from lxml import etree
+
+          response = requests.get(
+              os.environ["SALESDRIVE_PRODUCTS_YML_URL"],
+              timeout=120,
+          )
+          response.raise_for_status()
+          root = etree.fromstring(response.content)
+          offers = root.xpath(".//offer")
+          print(f"SalesDrive YML offers: {len(offers)}")
+
+          for offer in offers:
+              sku = str(
+                  offer.findtext("vendorCode")
+                  or offer.findtext("sku")
+                  or ""
+              ).strip()
+              if sku != "3C000294":
+                  continue
+
+              print("SKU 3C000294 fields:")
+              for child in offer:
+                  if child.tag in {
+                      "quantity_in_stock",
+                      "stock",
+                      "quantity",
+                  }:
+                      print(f"{child.tag}={child.text}")
+              break
+          else:
+              raise RuntimeError("SKU 3C000294 not found")
+          PY
