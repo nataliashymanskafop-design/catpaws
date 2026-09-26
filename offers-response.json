@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-26T18:22:20Z",
+  "updatedAt": "2026-09-26T18:55:44Z",
   "total": 1998,
   "data": [
     {
@@ -7,11 +7,11 @@
       "price": 2894,
       "old_price": null,
       "availability": true,
-      "stock": 20,
+      "stock": 1,
       "warehouses": [
         {
-          "id": "HOME_FOOD",
-          "stock": 20
+          "id": "SUPPLIER",
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -119,11 +119,11 @@
       "price": 3231,
       "old_price": null,
       "availability": true,
-      "stock": 20,
+      "stock": 5,
       "warehouses": [
         {
-          "id": "HOME_FOOD",
-          "stock": 20
+          "id": "SUPPLIER",
+          "stock": 5
         }
       ],
       "warranty_type": "no",
@@ -147,11 +147,11 @@
       "price": 3705,
       "old_price": null,
       "availability": true,
-      "stock": 20,
+      "stock": 4,
       "warehouses": [
         {
-          "id": "HOME_FOOD",
-          "stock": 20
+          "id": "SUPPLIER",
+          "stock": 4
         }
       ],
       "warranty_type": "no",
@@ -346,7 +346,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "HOME_FOOD",
+          "id": "SUPPLIER",
           "stock": 0
         }
       ],
@@ -371,11 +371,11 @@
       "price": 2307,
       "old_price": 2884,
       "availability": true,
-      "stock": 14,
+      "stock": 1,
       "warehouses": [
         {
-          "id": "HOME_FOOD",
-          "stock": 14
+          "id": "SUPPLIER",
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -1043,11 +1043,11 @@
       "price": 2894,
       "old_price": null,
       "availability": true,
-      "stock": 20,
+      "stock": 3,
       "warehouses": [
         {
-          "id": "HOME_FOOD",
-          "stock": 20
+          "id": "SUPPLIER",
+          "stock": 3
         }
       ],
       "warranty_type": "no",
@@ -1295,11 +1295,11 @@
       "price": 745,
       "old_price": null,
       "availability": true,
-      "stock": 20,
+      "stock": 1,
       "warehouses": [
         {
-          "id": "HOME_FOOD",
-          "stock": 20
+          "id": "SUPPLIER",
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -1407,11 +1407,11 @@
       "price": 761,
       "old_price": null,
       "availability": true,
-      "stock": 20,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "HOME_FOOD",
-          "stock": 20
+          "id": "SUPPLIER",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -1575,11 +1575,11 @@
       "price": 758,
       "old_price": null,
       "availability": true,
-      "stock": 20,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "HOME_FOOD",
-          "stock": 20
+          "id": "SUPPLIER",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -1659,11 +1659,11 @@
       "price": 4229,
       "old_price": null,
       "availability": true,
-      "stock": 20,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "HOME_FOOD",
-          "stock": 20
+          "id": "SUPPLIER",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -1687,11 +1687,11 @@
       "price": 781,
       "old_price": null,
       "availability": true,
-      "stock": 20,
+      "stock": 1,
       "warehouses": [
         {
-          "id": "HOME_FOOD",
-          "stock": 20
+          "id": "SUPPLIER",
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -8802,7 +8802,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "HOME_FOOD",
+          "id": "SUPPLIER",
           "stock": 0
         }
       ],
@@ -8970,7 +8970,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "HOME_FOOD",
+          "id": "SUPPLIER",
           "stock": 0
         }
       ],
@@ -9082,7 +9082,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "HOME_FOOD",
+          "id": "SUPPLIER",
           "stock": 0
         }
       ],
@@ -11991,11 +11991,11 @@
       "price": 546,
       "old_price": 780,
       "availability": true,
-      "stock": 20,
+      "stock": 1,
       "warehouses": [
         {
-          "id": "DOMS",
-          "stock": 20
+          "id": "SUPPLIER",
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -12102,12 +12102,12 @@
       "code": "017923",
       "price": 4350,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "DOMS",
-          "stock": 0
+          "id": "SUPPLIER",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -12299,11 +12299,11 @@
       "price": 894,
       "old_price": null,
       "availability": true,
-      "stock": 19,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "DOMS",
-          "stock": 19
+          "id": "SUPPLIER",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -12355,11 +12355,11 @@
       "price": 894,
       "old_price": null,
       "availability": true,
-      "stock": 20,
+      "stock": 3,
       "warehouses": [
         {
-          "id": "DOMS",
-          "stock": 20
+          "id": "SUPPLIER",
+          "stock": 3
         }
       ],
       "warranty_type": "no",
@@ -12638,7 +12638,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "HOME_FOOD",
+          "id": "SUPPLIER",
           "stock": 0
         }
       ],
@@ -13587,11 +13587,11 @@
       "price": 3630,
       "old_price": null,
       "availability": true,
-      "stock": 20,
+      "stock": 1,
       "warehouses": [
         {
-          "id": "DOMS",
-          "stock": 20
+          "id": "SUPPLIER",
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -14738,7 +14738,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "HOME_FOOD",
+          "id": "SUPPLIER",
           "stock": 0
         }
       ],
@@ -15042,12 +15042,12 @@
       "code": "ЗС000218",
       "price": 602,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 3,
       "warehouses": [
         {
           "id": "SUPPLIER",
-          "stock": 0
+          "stock": 3
         }
       ],
       "warranty_type": "no",
@@ -15886,7 +15886,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "HOME_FOOD",
+          "id": "SUPPLIER",
           "stock": 0
         }
       ],
@@ -17423,11 +17423,11 @@
       "price": 414,
       "old_price": 518,
       "availability": true,
-      "stock": 20,
+      "stock": 1,
       "warehouses": [
         {
-          "id": "HOME_FOOD",
-          "stock": 20
+          "id": "SUPPLIER",
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -18207,11 +18207,11 @@
       "price": 3870,
       "old_price": null,
       "availability": true,
-      "stock": 20,
+      "stock": 1,
       "warehouses": [
         {
-          "id": "DOMS",
-          "stock": 20
+          "id": "SUPPLIER",
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -18990,12 +18990,12 @@
       "code": "ЗС000383",
       "price": 423,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "SUPPLIER",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -19887,11 +19887,11 @@
       "price": 591,
       "old_price": null,
       "availability": true,
-      "stock": 18,
+      "stock": 4,
       "warehouses": [
         {
-          "id": "HOME_FOOD",
-          "stock": 18
+          "id": "SUPPLIER",
+          "stock": 4
         }
       ],
       "warranty_type": "no",
@@ -20002,7 +20002,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "HOME_FOOD",
+          "id": "SUPPLIER",
           "stock": 0
         }
       ],
@@ -20030,7 +20030,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "HOME_FOOD",
+          "id": "SUPPLIER",
           "stock": 0
         }
       ],
@@ -20110,12 +20110,12 @@
       "code": "ЗС000319",
       "price": 348,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 1,
       "warehouses": [
         {
           "id": "SUPPLIER",
-          "stock": 0
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -20334,12 +20334,12 @@
       "code": "ЗС000380",
       "price": 360,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "SUPPLIER",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25991,11 +25991,11 @@
       "price": 4649,
       "old_price": null,
       "availability": true,
-      "stock": 2,
+      "stock": 1,
       "warehouses": [
         {
-          "id": "DARWIN",
-          "stock": 2
+          "id": "SUPPLIER",
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -27422,7 +27422,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "HOME_FOOD",
+          "id": "SUPPLIER",
           "stock": 0
         }
       ],
@@ -27478,7 +27478,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "HOME_FOOD",
+          "id": "SUPPLIER",
           "stock": 0
         }
       ],
@@ -27758,7 +27758,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "HOME_FOOD",
+          "id": "SUPPLIER",
           "stock": 0
         }
       ],
@@ -29186,7 +29186,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "HOME_FOOD",
+          "id": "SUPPLIER",
           "stock": 0
         }
       ],
@@ -29578,7 +29578,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "HOME_FOOD",
+          "id": "SUPPLIER",
           "stock": 0
         }
       ],
@@ -29606,7 +29606,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "HOME_FOOD",
+          "id": "SUPPLIER",
           "stock": 0
         }
       ],
@@ -29634,7 +29634,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "HOME_FOOD",
+          "id": "SUPPLIER",
           "stock": 0
         }
       ],
@@ -30638,12 +30638,12 @@
       "code": "58228",
       "price": 1029,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 1,
       "warehouses": [
         {
           "id": "SUPPLIER",
-          "stock": 0
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -32434,7 +32434,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "HOME_FOOD",
+          "id": "SUPPLIER",
           "stock": 0
         }
       ],
@@ -38482,7 +38482,7 @@
       "stock": 1,
       "warehouses": [
         {
-          "id": "PETIMPEX",
+          "id": "SUPPLIER",
           "stock": 1
         }
       ],
@@ -41222,12 +41222,12 @@
       "code": "740197 - 1329",
       "price": 1483,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 3,
       "warehouses": [
         {
-          "id": "PETIMPEX",
-          "stock": 0
+          "id": "SUPPLIER",
+          "stock": 3
         }
       ],
       "warranty_type": "no",
@@ -47858,12 +47858,12 @@
       "code": "50014714",
       "price": 303,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 5,
       "warehouses": [
         {
           "id": "SUPPLIER",
-          "stock": 0
+          "stock": 5
         }
       ],
       "warranty_type": "no",
