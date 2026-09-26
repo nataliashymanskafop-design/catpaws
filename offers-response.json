@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-26T18:55:44Z",
+  "updatedAt": "2026-09-26T19:10:52Z",
   "total": 1998,
   "data": [
     {
@@ -14762,12 +14762,12 @@
       "code": "ЗС000322",
       "price": 387,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 50,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 0
+          "id": "TERRAVET",
+          "stock": 50
         }
       ],
       "warranty_type": "no",
@@ -14794,7 +14794,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -14818,12 +14818,12 @@
       "code": "ЗС000311",
       "price": 331,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 50,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 0
+          "id": "TERRAVET",
+          "stock": 50
         }
       ],
       "warranty_type": "no",
@@ -14846,12 +14846,12 @@
       "code": "ЗС000312",
       "price": 392,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 50,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 0
+          "id": "TERRAVET",
+          "stock": 50
         }
       ],
       "warranty_type": "no",
@@ -14874,12 +14874,12 @@
       "code": "ЗС000313",
       "price": 476,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 50,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 0
+          "id": "TERRAVET",
+          "stock": 50
         }
       ],
       "warranty_type": "no",
@@ -14902,12 +14902,12 @@
       "code": "ЗС000314",
       "price": 619,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 50,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 0
+          "id": "TERRAVET",
+          "stock": 50
         }
       ],
       "warranty_type": "no",
@@ -14934,7 +14934,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -14962,7 +14962,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -14990,7 +14990,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -15014,12 +15014,12 @@
       "code": "ЗС000217",
       "price": 384,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 50,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 0
+          "id": "TERRAVET",
+          "stock": 50
         }
       ],
       "warranty_type": "no",
@@ -15102,7 +15102,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -15130,7 +15130,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -15214,7 +15214,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -15242,7 +15242,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -15270,7 +15270,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -15294,12 +15294,12 @@
       "code": "ЗС000239",
       "price": 378,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 50,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 0
+          "id": "TERRAVET",
+          "stock": 50
         }
       ],
       "warranty_type": "no",
@@ -19442,7 +19442,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -19470,7 +19470,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -19498,7 +19498,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -19526,7 +19526,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -19554,7 +19554,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -19582,7 +19582,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -19610,7 +19610,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -19638,7 +19638,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -19666,7 +19666,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -19722,7 +19722,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -20166,12 +20166,12 @@
       "code": "ЗС000343",
       "price": 348,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 50,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 0
+          "id": "TERRAVET",
+          "stock": 50
         }
       ],
       "warranty_type": "no",
@@ -20194,12 +20194,12 @@
       "code": "ЗС000268",
       "price": 487,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 50,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 0
+          "id": "TERRAVET",
+          "stock": 50
         }
       ],
       "warranty_type": "no",
@@ -20226,7 +20226,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -20254,7 +20254,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -22718,7 +22718,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -22746,7 +22746,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -22774,7 +22774,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -22802,7 +22802,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -22830,7 +22830,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -22858,7 +22858,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -22886,7 +22886,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -22914,7 +22914,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -22942,7 +22942,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -22970,7 +22970,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -22998,7 +22998,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -23026,7 +23026,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -23054,7 +23054,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -23082,7 +23082,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -23110,7 +23110,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -23138,7 +23138,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -23166,7 +23166,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -23194,7 +23194,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -23222,7 +23222,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -23250,7 +23250,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -23278,7 +23278,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -23306,7 +23306,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -23334,7 +23334,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -23362,7 +23362,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -23418,7 +23418,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -23446,7 +23446,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -23474,7 +23474,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -23502,7 +23502,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -23554,12 +23554,12 @@
       "code": "ЗС000416",
       "price": 335,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 50,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 0
+          "id": "TERRAVET",
+          "stock": 50
         }
       ],
       "warranty_type": "no",
@@ -23586,7 +23586,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -23614,7 +23614,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -23642,7 +23642,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -23670,7 +23670,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -23698,7 +23698,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -23722,12 +23722,12 @@
       "code": "ЗС000417",
       "price": 541,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 26,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 0
+          "id": "TERRAVET",
+          "stock": 26
         }
       ],
       "warranty_type": "no",
@@ -23754,7 +23754,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -23782,7 +23782,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -23922,7 +23922,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -23978,7 +23978,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -24006,7 +24006,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -24034,7 +24034,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -24062,7 +24062,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -24090,7 +24090,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -24118,7 +24118,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -24146,7 +24146,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -24174,7 +24174,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -24202,7 +24202,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -24230,7 +24230,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -24258,7 +24258,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -24286,7 +24286,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -24314,7 +24314,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -24342,7 +24342,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -24370,7 +24370,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -24398,7 +24398,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -24426,7 +24426,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -24454,7 +24454,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -24482,7 +24482,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -24594,7 +24594,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -24622,7 +24622,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -24650,7 +24650,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -24678,7 +24678,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -24730,12 +24730,12 @@
       "code": "ЗС000374",
       "price": 454,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 50,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 0
+          "id": "TERRAVET",
+          "stock": 50
         }
       ],
       "warranty_type": "no",
@@ -27562,7 +27562,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -27590,7 +27590,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -27674,7 +27674,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -27702,7 +27702,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -27730,7 +27730,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -27814,7 +27814,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -27870,7 +27870,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -28038,7 +28038,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -28066,7 +28066,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -28094,7 +28094,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -29326,7 +29326,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -29382,7 +29382,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -29410,7 +29410,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -29438,7 +29438,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -29466,7 +29466,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -29490,12 +29490,12 @@
       "code": "ЗС000394",
       "price": 493,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 50,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 0
+          "id": "TERRAVET",
+          "stock": 50
         }
       ],
       "warranty_type": "no",
@@ -29662,7 +29662,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -29690,7 +29690,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -29718,7 +29718,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -31930,7 +31930,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -34142,7 +34142,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -34170,7 +34170,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -34198,7 +34198,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -34226,7 +34226,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -42234,7 +42234,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -42262,7 +42262,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -42290,7 +42290,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -42318,7 +42318,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -42346,7 +42346,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -42374,7 +42374,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -42402,7 +42402,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -42430,7 +42430,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -42514,7 +42514,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -42542,7 +42542,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -42570,7 +42570,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -44278,7 +44278,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -44306,7 +44306,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -44334,7 +44334,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -44362,7 +44362,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -44390,7 +44390,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -44418,7 +44418,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -44446,7 +44446,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -44474,7 +44474,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -44502,7 +44502,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -44530,7 +44530,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -44726,7 +44726,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -44754,7 +44754,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -44782,7 +44782,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -44810,7 +44810,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -44838,7 +44838,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -44866,7 +44866,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -44894,7 +44894,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -44922,7 +44922,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -44950,7 +44950,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -44978,7 +44978,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -45006,7 +45006,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -45034,7 +45034,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -45058,12 +45058,12 @@
       "code": "ЗС000434",
       "price": 479,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 24,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 0
+          "id": "TERRAVET",
+          "stock": 24
         }
       ],
       "warranty_type": "no",
@@ -45086,12 +45086,12 @@
       "code": "ЗС000435",
       "price": 622,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 20,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 0
+          "id": "TERRAVET",
+          "stock": 20
         }
       ],
       "warranty_type": "no",
@@ -45114,12 +45114,12 @@
       "code": "ЗС000436",
       "price": 606,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 33,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 0
+          "id": "TERRAVET",
+          "stock": 33
         }
       ],
       "warranty_type": "no",
@@ -45142,12 +45142,12 @@
       "code": "ЗС000437",
       "price": 467,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 6,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 0
+          "id": "TERRAVET",
+          "stock": 6
         }
       ],
       "warranty_type": "no",
@@ -45170,12 +45170,12 @@
       "code": "ЗС000432",
       "price": 412,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 12,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 0
+          "id": "TERRAVET",
+          "stock": 12
         }
       ],
       "warranty_type": "no",
@@ -45198,12 +45198,12 @@
       "code": "ЗС000433",
       "price": 535,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 25,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 0
+          "id": "TERRAVET",
+          "stock": 25
         }
       ],
       "warranty_type": "no",
@@ -52366,12 +52366,12 @@
       "code": "ЗС000475",
       "price": 516,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 50,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 0
+          "id": "TERRAVET",
+          "stock": 50
         }
       ],
       "warranty_type": "no",
@@ -52394,12 +52394,12 @@
       "code": "ЗС000476",
       "price": 557,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 50,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 0
+          "id": "TERRAVET",
+          "stock": 50
         }
       ],
       "warranty_type": "no",
@@ -52422,12 +52422,12 @@
       "code": "ЗС000477",
       "price": 564,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 43,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 0
+          "id": "TERRAVET",
+          "stock": 43
         }
       ],
       "warranty_type": "no",
@@ -52450,12 +52450,12 @@
       "code": "ЗС000478",
       "price": 525,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 34,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 0
+          "id": "TERRAVET",
+          "stock": 34
         }
       ],
       "warranty_type": "no",
@@ -52478,12 +52478,12 @@
       "code": "ЗС000479",
       "price": 544,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 50,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 0
+          "id": "TERRAVET",
+          "stock": 50
         }
       ],
       "warranty_type": "no",
@@ -55506,7 +55506,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -55534,7 +55534,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
@@ -55562,7 +55562,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "TERRAVET",
           "stock": 0
         }
       ],
