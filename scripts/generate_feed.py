@@ -17,6 +17,17 @@ SUPPLIER_STOCK = 999
 DEFAULT_WAREHOUSE_ID = "SUPPLIER"
 MIN_PRICE = 300
 
+
+def is_modes_bowl(offer):
+    vendor = " ".join((offer.findtext("vendor") or "").split()).casefold()
+    name = " ".join((offer.findtext("name") or "").split()).casefold()
+
+    return vendor == "modes" and any(
+        keyword in name
+        for keyword in ("миска", "миски", "bowl")
+    )
+
+
 STOCK_SOURCES = (
     {
         "name": "HOME FOOD",
@@ -181,6 +192,9 @@ def build_offer(offer, stock_by_sku):
     vendor = " ".join((offer.findtext("vendor") or "").split()).casefold()
 
     if vendor == "rafi":
+        return None
+
+    if is_modes_bowl(offer):
         return None
 
     code = offer.findtext("vendorCode")
