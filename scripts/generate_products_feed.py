@@ -3,8 +3,19 @@ import requests
 from lxml import etree
 
 
-XML_URL = "https://catpaws.com.ua/content/export/eecea260628d3b4e921d4f5beb06be53.xml"
+XML_URL = "https://catpaws.com.ua/content/export/5d007701b07c6dab399214f2c0d6743c.xml"
 MIN_PRICE = 300
+
+
+def is_modes_bowl(offer):
+    vendor = " ".join((offer.findtext("vendor") or "").split()).casefold()
+    name = " ".join((offer.findtext("name") or "").split()).casefold()
+
+    return vendor == "modes" and any(
+        keyword in name
+        for keyword in ("миска", "миски", "bowl")
+    )
+
 
 def main():
     print("Downloading product XML...")
@@ -20,6 +31,10 @@ def main():
         vendor = " ".join((offer.findtext("vendor") or "").split()).casefold()
 
         if vendor == "rafi":
+            offer.getparent().remove(offer)
+            continue
+
+        if is_modes_bowl(offer):
             offer.getparent().remove(offer)
             continue
 
