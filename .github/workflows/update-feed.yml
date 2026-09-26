@@ -114,6 +114,23 @@ jobs:
       - name: Generate Darwin stock feed
         run: python scripts/generate_darwin_stock.py
 
+      # Забираємо попередній точний стан власного складу. Якщо SalesDrive
+      # тимчасово недоступний, Mono збереже останні успішні залишки.
+      - name: Download previous own stock state
+        continue-on-error: true
+        run: |
+          mkdir -p public
+          curl -fL \
+            "https://nataliashymanskafop-design.github.io/catpaws/own-stock-state.json" \
+            -o public/own-stock-state.json
+
+      # Отримуємо точні залишки тільки складу ФОП Шиманська.
+      - name: Generate exact own stock
+        continue-on-error: true
+        env:
+          SALESDRIVE_OWN_STOCK_YML_URL: ${{ secrets.SALESDRIVE_OWN_STOCK_YML_URL }}
+        run: python scripts/generate_own_stock.py
+
       # Формуємо Mono після синхронізації складів, щоб у фід одразу
       # потрапили актуальні залишки та правильні ID локацій.
       - name: Generate Mono offers
