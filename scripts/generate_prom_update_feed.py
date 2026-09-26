@@ -13,6 +13,11 @@ HOROSHOP_URL = (
     "77e6f1cd306feb32b68e245d1affc6bc.xml"
 )
 
+RAFI_SOURCE_URL = (
+    "https://catpaws.com.ua/content/export/"
+    "3e9c244f28ee6d1e572f92646e76f6bb.xml"
+)
+
 PROM_API_LIST_URL = "https://my.prom.ua/api/v1/products/list"
 PROM_API_EDIT_URL = "https://my.prom.ua/api/v1/products/edit"
 
@@ -160,6 +165,48 @@ def get_horoshop_products():
     return products
 
 
+def get_rafi_skus():
+
+    print("Downloading RAFI exclusion list...")
+
+    response = requests.get(
+        RAFI_SOURCE_URL,
+        timeout=60,
+    )
+
+    response.raise_for_status()
+
+    root = etree.fromstring(
+        response.content
+    )
+
+    rafi_skus = set()
+
+    for offer in root.xpath(".//offer"):
+
+        vendor = get_text(
+            offer,
+            "vendor"
+        ).casefold()
+
+        if vendor != "rafi":
+            continue
+
+        sku = normalize_code(
+            get_text(
+                offer,
+                "vendorCode"
+            )
+        )
+
+        if sku:
+            rafi_skus.add(sku)
+
+    print("RAFI products to disable:", len(rafi_skus))
+
+    return rafi_skus
+
+
 # ============================================================
 # PREPARE PROM PRODUCTS
 # ============================================================
@@ -216,6 +263,7 @@ def build_updates(
     prom_by_sku,
     duplicate_skus,
     horoshop_products,
+    rafi_skus,
 ):
 
     updates = []
@@ -224,6 +272,7 @@ def build_updates(
     available_count = 0
     missing_horoshop = 0
     skipped_duplicates = 0
+    rafi_count = 0
 
     for sku, prom_product in prom_by_sku.items():
 
@@ -240,6 +289,29 @@ def build_updates(
             continue
 
         # ----------------------------------------------------
+        # REAL PROM PRODUCT ID
+        # ----------------------------------------------------
+
+        prom_id = prom_product.get("id")
+
+        if not prom_id:
+            continue
+
+        # RAFI прибираємо з продажу на Prom, навіть якщо позиція вже
+        # відсутня в основному Horoshop-фіді. Ціну при цьому не змінюємо.
+        if sku in rafi_skus:
+
+            updates.append({
+                "id": prom_id,
+                "presence": "not_available",
+            })
+
+            unavailable_count += 1
+            rafi_count += 1
+
+            continue
+
+        # ----------------------------------------------------
         # PRODUCT MUST EXIST IN HOROSHOP
         # ----------------------------------------------------
 
@@ -251,15 +323,6 @@ def build_updates(
 
             missing_horoshop += 1
 
-            continue
-
-        # ----------------------------------------------------
-        # REAL PROM PRODUCT ID
-        # ----------------------------------------------------
-
-        prom_id = prom_product.get("id")
-
-        if not prom_id:
             continue
 
         # ----------------------------------------------------
@@ -394,6 +457,11 @@ def build_updates(
     )
 
     print(
+        "RAFI products disabled:",
+        rafi_count
+    )
+
+    print(
         "Total products prepared:",
         len(updates)
     )
@@ -521,6 +589,8 @@ def main():
         get_horoshop_products()
     )
 
+    rafi_skus = get_rafi_skus()
+
     prom_by_sku, duplicate_skus = (
         prepare_prom_products(
             prom_products
@@ -531,6 +601,7 @@ def main():
         prom_by_sku,
         duplicate_skus,
         horoshop_products,
+        rafi_skus,
     )
 
     successful_ids, errors = (
