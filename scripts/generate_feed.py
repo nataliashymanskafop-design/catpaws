@@ -61,6 +61,17 @@ STOCK_SOURCES = (
         "cutoff_hour": 12,
         "cutoff_minute": 0,
     },
+    {
+        "name": "Darwin — Харків",
+        "warehouse_id": "DARWIN",
+        "state_file": "public/darwin-stock-state.json",
+        "dispatch_days": {0, 1, 2, 3, 4},
+        "cutoff_hour": 16,
+        "cutoff_minute": 0,
+        "allow_same_day": True,
+        # Darwin є основним джерелом для цих кормів замість PETIMPEX.
+        "overrides_warehouses": {"PETIMPEX"},
+    },
 )
 
 
@@ -83,6 +94,7 @@ def get_days_to_dispatch(
     dispatch_days=None,
     cutoff_hour=12,
     cutoff_minute=0,
+    allow_same_day=False,
 ):
     now = datetime.now(ZoneInfo("Europe/Kyiv"))
     allowed_days = dispatch_days or {0, 1, 2, 3, 4}
@@ -91,7 +103,9 @@ def get_days_to_dispatch(
         cutoff_minute,
     )
 
-    for days_ahead in range(1, 8):
+    first_day = 0 if allow_same_day else 1
+
+    for days_ahead in range(first_day, 8):
         candidate_weekday = (now.weekday() + days_ahead) % 7
 
         if candidate_weekday not in allowed_days:
@@ -159,6 +173,7 @@ def load_stock_sources(previous_feed):
             )
 
         loaded = 0
+        overridden = 0
 
         for sku, quantity in published_stock.items():
             normalized_sku = str(sku).strip()
@@ -168,11 +183,19 @@ def load_stock_sources(previous_feed):
 
             if normalized_sku in stock_by_sku:
                 previous = stock_by_sku[normalized_sku]
-                raise RuntimeError(
-                    f'Duplicate warehouse mapping for SKU '
-                    f'{normalized_sku}: {previous["name"]} and '
-                    f'{source["name"]}'
+                allowed_overrides = source.get(
+                    "overrides_warehouses",
+                    set(),
                 )
+
+                if previous["warehouse_id"] not in allowed_overrides:
+                    raise RuntimeError(
+                        f'Duplicate warehouse mapping for SKU '
+                        f'{normalized_sku}: {previous["name"]} and '
+                        f'{source["name"]}'
+                    )
+
+                overridden += 1
 
             stock_by_sku[normalized_sku] = {
                 **source,
@@ -182,7 +205,8 @@ def load_stock_sources(previous_feed):
 
         print(
             f'{source["name"]} stock loaded: '
-            f'{loaded} products -> {source["warehouse_id"]}'
+            f'{loaded} products -> {source["warehouse_id"]}; '
+            f'overridden: {overridden}'
         )
 
     return stock_by_sku
@@ -220,6 +244,7 @@ def build_offer(offer, stock_by_sku):
             stock_source["dispatch_days"],
             stock_source["cutoff_hour"],
             stock_source["cutoff_minute"],
+            stock_source.get("allow_same_day", False),
         )
     else:
         stock = (
