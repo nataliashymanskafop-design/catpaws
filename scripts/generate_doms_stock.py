@@ -78,11 +78,10 @@ SUPPLIER_SKUS = {
 }
 
 
-# Horoshop може деякий час віддавати в експортному XML попередній артикул
-# після його зміни в картці товару. Для визначення наявності зіставляємо
-# старі артикули з актуальними артикулами постачальника, але в каталозі та
-# запитах до SalesDrive залишаємо артикул із XML. Це оновлює наявний товар
-# і не створює дублікат із новим артикулом, поки XML ще не оновився.
+# У Horoshop ці товари мають старі артикули, а в SalesDrive/DOMS — нові.
+# Усередині стану і DOMS YML зберігаємо артикул сайту, щоб Mono правильно
+# зіставляв залишок із товарним фідом. У запитах до SalesDrive використовуємо
+# новий артикул, а артикули із замовлень переводимо назад у код сайту.
 SUPPLIER_SKU_ALIASES = {
     "144100": "76144100",
     "144124": "76144124",
@@ -91,6 +90,18 @@ SUPPLIER_SKU_ALIASES = {
     "144186": "76144186",
     "144193": "76144193",
     "368215": "244215",
+}
+
+FORCE_ZERO_SKUS = {
+    "368208",
+    "368228",
+    "368242",
+}
+
+SALESDRIVE_TO_SITE_SKU = {
+    salesdrive_sku: site_sku
+    for site_sku, salesdrive_sku
+    in SUPPLIER_SKU_ALIASES.items()
 }
 
 
@@ -131,6 +142,10 @@ def supplier_sku(sku):
     return SUPPLIER_SKU_ALIASES.get(sku, sku)
 
 
+def site_sku(sku):
+    return SALESDRIVE_TO_SITE_SKU.get(sku, sku)
+
+
 def load_site_catalog():
     root = etree.fromstring(download(CATALOG_XML_URL))
     catalog = {}
@@ -164,6 +179,9 @@ def base_skus(products):
 
 
 def stock_policy(sku, item):
+    if sku in FORCE_ZERO_SKUS:
+        return 0, 0, "zero"
+
     # Homie постачальник підтвердив як наявний, навіть якщо його немає
     # у файлі залишків.
     if item["brand"] == "homie":
@@ -223,7 +241,9 @@ def direct_order_snapshot(order, warehouse_id, products):
         if int(item.get("stockId") or 0) != warehouse_id:
             continue
 
-        sku = normalize_sku(item.get("sku"))
+        sku = site_sku(
+            normalize_sku(item.get("sku"))
+        )
 
         if sku not in products:
             continue
@@ -253,7 +273,9 @@ def find_warehouse_id(state, orders, products):
             continue
 
         for item in order.get("products") or []:
-            sku = normalize_sku(item.get("sku"))
+            sku = site_sku(
+            normalize_sku(item.get("sku"))
+        )
             stock_id = item.get("stockId")
 
             if sku in products and stock_id:
@@ -447,7 +469,7 @@ def update_salesdrive_stock(
 ):
     items = [
         {
-            "id": sku,
+            "id": supplier_sku(sku),
             "stockBalanceByStock": {
                 str(warehouse_id): int(quantity),
             },
@@ -737,6 +759,18 @@ def main():
                 )
             ) != int(quantity)
         }
+
+    # Ці артикули мають бути передані в SalesDrive явно. Для перейменованих
+    # позицій це виправляє старий залишок, записаний під кодом Horoshop;
+    # для відсутніх у постачальника товарів гарантує нульовий залишок.
+    forced_sync_skus = (
+        set(SUPPLIER_SKU_ALIASES)
+        | FORCE_ZERO_SKUS
+    )
+
+    for sku in forced_sync_skus:
+        if sku in published_stock:
+            updates[sku] = published_stock[sku]
 
     if updates:
         update_salesdrive_stock(
