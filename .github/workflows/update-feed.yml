@@ -108,6 +108,12 @@ jobs:
           SALESDRIVE_PETIMPEX_STOCK_ID: ${{ vars.SALESDRIVE_PETIMPEX_STOCK_ID }}
         run: python scripts/generate_petimpex_stock.py
 
+      # Для Darwin немає точного фіду залишків. Передаємо обережні 2 шт.
+      # для доступних Ambrosia, Happy One та Exclusion. Загальний фільтр
+      # ціни Mono не пропускає дешеві поштучні консерви.
+      - name: Generate Darwin stock feed
+        run: python scripts/generate_darwin_stock.py
+
       # Формуємо Mono після синхронізації складів, щоб у фід одразу
       # потрапили актуальні залишки та правильні ID локацій.
       - name: Generate Mono offers
