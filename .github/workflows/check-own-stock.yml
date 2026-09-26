@@ -19,12 +19,14 @@ jobs:
         run: |
           python - <<'PY'
           import os
-          from datetime import datetime, timedelta
 
           import requests
           from lxml import etree
 
-          from scripts.generate_home_food_stock import fetch_orders
+          from scripts.generate_home_food_stock import (
+              ORDER_LIST_URL,
+              api_json,
+          )
 
           response = requests.get(
               os.environ["SALESDRIVE_PRODUCTS_YML_URL"],
@@ -56,12 +58,17 @@ jobs:
                   }:
                       print(f"YML {child.tag}={child.text}")
 
-          now = datetime.now()
-          orders = fetch_orders(
+          result = api_json(
+              ORDER_LIST_URL,
               os.environ["SALESDRIVE_API_KEY"],
-              now - timedelta(days=30),
-              now,
+              params={
+                  "page": 1,
+                  "limit": 10,
+                  "filter[id][from]": 2695,
+                  "filter[id][to]": 2695,
+              },
           )
+          orders = result.get("data") or []
           for order in orders:
               if int(order.get("id") or 0) != 2695:
                   continue
@@ -69,6 +76,8 @@ jobs:
               for item in order.get("products") or []:
                   print(
                       "ORDER_ITEM "
+                      f"id={item.get('id')} "
+                      f"productId={item.get('productId')} "
                       f"sku={item.get('sku')} "
                       f"stockId={item.get('stockId')} "
                       f"restCount={item.get('restCount')}"
