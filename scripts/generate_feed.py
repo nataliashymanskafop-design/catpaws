@@ -13,8 +13,8 @@ XML_URL = "https://catpaws.com.ua/content/export/3e9c244f28ee6d1e572f92646e76f6b
 # Workflow завантажує його перед запуском цього скрипта.
 PREVIOUS_FEED_FILE = "previous-offers-response.json"
 
-SUPPLIER_STOCK = 999
 DEFAULT_WAREHOUSE_ID = "SUPPLIER"
+OWN_STOCK_STATE_FILE = "public/own-stock-state.json"
 MIN_PRICE = 300
 
 
@@ -66,8 +66,8 @@ STOCK_SOURCES = (
         "warehouse_id": "DARWIN",
         "state_file": "public/darwin-stock-state.json",
         "dispatch_days": {0, 1, 2, 3, 4},
-        "cutoff_hour": 16,
-        "cutoff_minute": 0,
+        "cutoff_hour": 15,
+        "cutoff_minute": 30,
         "allow_same_day": True,
         # Darwin є основним джерелом для цих кормів замість PETIMPEX.
         "overrides_warehouses": {"PETIMPEX"},
@@ -151,7 +151,7 @@ def load_stock_sources(previous_feed):
         try:
             with open(state_file, "r", encoding="utf-8") as file:
                 state = json.load(file)
-            published_stock = state.get("published_stock")
+            published_stock = state.get("publhed_stock")
         except (OSError, json.JSONDecodeError):
             pass
 
@@ -212,7 +212,39 @@ def load_stock_sources(previous_feed):
     return stock_by_sku
 
 
-def build_offer(offer, stock_by_sku):
+def load_own_stock():
+    try:
+        with open(
+            OWN_STOCK_STATE_FILE,
+            "r",
+            encoding="utf-8",
+        ) as file:
+            state = json.load(file)
+    except (OSError, json.JSONDecodeError):
+        print(
+            "Exact own stock is unavailable. "
+            "Unmapped SUPPLIER products will be published with stock 0."
+        )
+        return {}
+
+    published_stock = state.get("published_stock")
+
+    if not isinstance(published_stock, dict):
+        raise RuntimeError(
+            f"Invalid own stock state in {OWN_STOCK_STATE_FILE}"
+        )
+
+    own_stock = {
+        str(sku).strip(): max(0, to_int(quantity))
+        for sku, quantity in published_stock.items()
+        if str(sku).strip()
+    }
+
+    print(f"Exact own stock loaded: {len(own_stock)m} products")
+    return own_stock
+
+
+def build_offer(offer, stock_by_sku, own_stock):
     vendor = " ".join((offer.findtext("vendor") or "").split()).casefold()
 
     if vendor == "rafi":
@@ -229,128 +261,63 @@ def build_offer(offer, stock_by_sku):
     price = to_int(offer.findtext("price"))
 
     price_allowed = price > MIN_PRICE
-    site_available = offer.get("available") == "true"
     normalized_code = code.strip()
     if normalized_code == "NPS24432":
         return None
     stock_source = stock_by_sku.get(normalized_code)
+    own_quantity = own_stock.get(normalized_code, 0)
 
-    if stock_source:
-        # Для підключених складів джерелом наявності є складський стан,
-        # а не ознака available із сайту, яка може оновитися пізніше.
-        stock = stock_source["stock"] if price_allowed else 0
-        warehouse_id = stock_source["warehouse_id"]
-        days_to_dispatch = get_days_to_dispatch(
-            stock_source["dispatch_days"],
-            stock_source["cutoff_hour"],
-            stock_source["cutoff_minute"],
-            stock_source.get("allow_same_day", False),
-        )
-    else:
-        stock = (
-            SUPPLIER_STOCK
-            if site_available and price_allowed
-            else 0
-        )
-        warehouse_id = DEFAULT_WAREHOUSE_ID
-        days_to_dispatch = get_days_to_dispatch()
-
-    available = stock > 0
-
-    old_price_text = offer.findtext("oldprice")
-
-    old_price = (
-        to_int(old_price_text, None)
-        if old_price_text
-        else None
-    )
-
-    return {
-        "code": normalized_code,
-        "price": price,
-        "old_price": old_price,
-        "availability": available,
-        "stock": stock,
-        "warehouses": [
-            {
-                "id": warehouse_id,
-                "stock": stock
-            }
-        ],
-        "warranty_type": "no",
-        "warranty_period": 0,
-        "max_pay_in_parts": 6,
-        "days_to_dispatch": days_to_dispatch,
-        "delivery_methods": [
-            {
-                "method": "nova-post:branch",
-                "price": 0
-            },
-            {
-                "method": "courier:nova-post",
-                "price": 0
-            }
-        ],
-        "manufacture": None
-    }
-
-
-def stock_snapshot(offers):
-    """
-    Формуємо знімок тільки складських даних.
-
-    Ціна, old_price, days_to_dispatch та інші поля
-    НЕ впливають на updatedAt.
-    """
-
-    snapshot = {}
-
-    for item in offers:
-        code = item.get("code")
-
-        if not code:
-            continue
-
-        warehouses = item.get("warehouses") or []
-
-        warehouse_stock = {}
-
-        for warehouse in warehouses:
-            warehouse_id = str(
-                warehouse.get("id", "")
-            )
-
-            warehouse_stock[warehouse_id] = (
-                warehouse.get("stock", 0)
-            )
-
-        snapshot[code] = {
-            "availability": item.get(
-                "availability",
-                False
-            ),
-            "stock": item.get("stock", 0),
-            "warehouses": warehouse_stock,
-"days_to_dispatch": item.get(
-    "days_to_dispatch",
-    0
-)
-        }
-
-    return snapshot
-
-
-def load_previous_feed():
-    if not os.path.exists(PREVIOUS_FEED_FILE):
-        print(
-            "Previous feed not found. "
-            "updatedAt will be set to current time."
-        )
-        return None
-
-    try:
-        with open(
-            PREVIOUS_FEED_FILE,
+    if own_quantity > 0:
+        # Викуплений або повернений товар ф�z�B�B�FB�B��B�B�B�B�FF0�B�B��B�B�B�FB�B�B�F�FB�B�B�B�FX�(����������B�B�B�B�B�B�B�B�B��B�F[BЃFB�B�B��B�B�FB�FB�B�B�B�B�B��B�B�FFB�FB�B�F3B�B�B�B��(���������ѽ����ݹ}�Յ�ѥ�䁥���ɥ��}����ݕ����͔��(��������݅ɕ���͕}����U1Q}]I!=UM}%(������������}ѽ}�����э��􁝕�}����}ѽ}�����э���(����������ѽ��}ͽ�ɍ��(����������BSB�F<�B�F[B�B�B�F;FB�B�B�F�FB�B�B�B�F[BȃB�B�B�FB�B�B�B��B�B�F?B�B�B�FFFX�B�FB�B�B�FF3B�B�B�FFB�B���2
+
+�R
+�}�
+�f��&�R
+}m}
+�-��
+��
+��mR
+���-�-��
+�m}�m�R�7F�6��7F�6��6�W&6U�'7F�6�%��b&�6U����vVBV�6R �v&V��W6U��B�7F�6��6�W&6U�'v&V��W6U��B%ТF�5�F��F�7F6��vWE�F�5�F��F�7F6���7F�6��6�W&6U�&F�7F6��F�2%���7F�6��6�W&6U�&7WF�fe���W"%���7F�6��6�W&6U�&7WF�fe�֖�WFR%���7F�6��6�W&6R�vWB�&���u�6�U�F�"�f�6R�����V�6S��2
+	�}�
+�f��&�R
+�
+
+�-b
+�R
+�m-�-�
+-�}�2
+�m���m-�
+b
+��mP�2
+
+=
+]=
+-�-��=�
+��
+M2�
+	�R
+�mM�m��M��
+}r
+=��-��������7F�6�� �v&V��W6U��B�DTdT�E�t$T��U4U��@�F�5�F��F�7F6��vWE�F�5�F��F�7F6�����f��&�R�7F�6�� ����E�&�6U�FW�B��ffW"�f��GFW�B�&��G&�6R"�����E�&�6R���F����B���E�&�6U�FW�B����R���b��E�&�6U�FW�@�V�6R���P����&WGW&���&6�FR#���&�Ɨ�VE�6�FR��'&�6R#�&�6R��&��E�&�6R#���E�&�6R��&f��&�ƗG�#�f��&�R��'7F�6�#�7F�6���'v&V��W6W2#�����&�B#�v&V��W6U��B��'7F�6�#�7F�6��Т���'v'&�G��G�R#�&��"��'v'&�G��W&��B#���&��������'G2#�b��&F�5�F��F�7F6�#�F�5�F��F�7F6���&FVƗfW'���WF��G2#�����&�WF��B#�&��f��7C�'&�6�"��'&�6R#� ������&�WF��B#�&6�W&�W#���f��7B"��'&�6R#� �Т���&��Vf7GW&R#����P�Р��FVb7F�6��6�6��B��ffW'2���"" �
+M�
+�=M��
+}�m���
+-m����
+��
+M���R
+M
+��Rࠢ
+mm����E�&�6R�F�5�F��F�7F6�
+-
+m��b
+����
+	�	R
+-���-
+�-�
+�WFFVDB�"" ��6�6��B��Р�f�"�FV����ffW'3��6�FR��FV��vWB�&6�FR"����b��B6�FS��6��F��VP��v&V��W6W2��FV��vWB�'v&V��W6W2"��"�Р�v&V��W6U�7F�6���Р�f�"v&V��W6R��v&V��W6W3��v&V��W6U��B�7G"��v&V��W6R�vWB�&�B"�""�����v&V��W6U�7F�6��v&V��W6U��E����v&V��W6R�vWB�'7F�6�"������6�6��E�6�FU����&f��&�ƗG�#��FV��vWB��&f��&�ƗG�"��f�6P����'7F�6�#��FV��vWB�'7F�6�"����'v&V��W6W2#�v&V��W6U�7F�6���&F�5�F��F�7F6�#��FV��vWB��&F�5�F��F�7F6�"�� ���Р�&WGW&�6�6��@���FVb��E�&Wf��W5�fVVB�����b��B�2�F��W��7G2�$Ud��U5�dTTGђSJN���[�
+���]�[�\��YY����[�����\]Y]�[�H�]��\��[�[YK���
+B��]\���ۙB���N���]�[���U�S�T�ёQQFILE,
             "r",
             encoding="utf-8"
         ) as file:
@@ -412,7 +379,6 @@ def get_updated_at(new_offers, previous_feed):
         "New updatedAt:",
         now
     )
-
     return now
 
 
@@ -423,7 +389,6 @@ def main():
         XML_URL,
         timeout=120
     )
-
     response.raise_for_status()
 
     root = etree.fromstring(
@@ -432,11 +397,15 @@ def main():
 
     previous_feed = load_previous_feed()
     stock_by_sku = load_stock_sources(previous_feed)
-
+    own_stock = load_own_stock()
     offers = []
 
     for offer in root.xpath(".//offer"):
-        item = build_offer(offer, stock_by_sku)
+        item = build_offer(
+            offer,
+            stock_by_sku,
+            own_stock,
+        )
 
         if item is not None:
             offers.append(item)
