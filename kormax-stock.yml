@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-09-26 13:06">
+<yml_catalog date="2026-09-26 16:17">
   <shop>
     <name>CatPaws Kormax stock</name>
     <company>CatPaws</company>
@@ -241,15 +241,15 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="KIK24517" available="true">
+      <offer id="KIK24517" available="false">
         <name>Вологий корм для дорослих собак всіх порід з ягнятиною Nature's Protection Adult Lamb 200г</name>
         <vendorCode>KIK24517</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="KIK24518" available="true">
         <name>Вологий корм для собак з телятиною, 200 г Nature's Protection Adult Veal</name>

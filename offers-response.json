@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-26T08:30:31Z",
+  "updatedAt": "2026-09-26T13:17:58Z",
   "total": 1998,
   "data": [
     {
@@ -15967,11 +15967,11 @@
       "price": 3231,
       "old_price": null,
       "availability": true,
-      "stock": 19,
+      "stock": 18,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 19
+          "stock": 18
         }
       ],
       "warranty_type": "no",
@@ -16331,11 +16331,11 @@
       "price": 480,
       "old_price": 600,
       "availability": true,
-      "stock": 10,
+      "stock": 8,
       "warehouses": [
         {
           "id": "DOMS",
-          "stock": 10
+          "stock": 8
         }
       ],
       "warranty_type": "no",
@@ -19918,7 +19918,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -19946,7 +19946,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -19971,11 +19971,11 @@
       "price": 4402,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -20083,11 +20083,11 @@
       "price": 3776,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -20391,11 +20391,11 @@
       "price": 4145,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -20419,11 +20419,11 @@
       "price": 1395,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -20447,11 +20447,11 @@
       "price": 4145,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -20475,11 +20475,11 @@
       "price": 335,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -20503,11 +20503,11 @@
       "price": 1050,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -20531,11 +20531,11 @@
       "price": 2850,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -20562,7 +20562,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -20587,11 +20587,11 @@
       "price": 335,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -20615,11 +20615,11 @@
       "price": 968,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -20643,11 +20643,11 @@
       "price": 2549,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -20674,7 +20674,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -20699,11 +20699,11 @@
       "price": 4145,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -20727,11 +20727,11 @@
       "price": 1395,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -20755,11 +20755,11 @@
       "price": 4145,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -20783,11 +20783,11 @@
       "price": 335,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -20811,11 +20811,11 @@
       "price": 1050,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -20839,11 +20839,11 @@
       "price": 2850,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -20870,7 +20870,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -20895,11 +20895,11 @@
       "price": 4145,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -20923,11 +20923,11 @@
       "price": 1395,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -20951,11 +20951,11 @@
       "price": 4145,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -20979,11 +20979,11 @@
       "price": 335,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -21007,11 +21007,11 @@
       "price": 1050,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -21035,11 +21035,11 @@
       "price": 2850,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -21066,7 +21066,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -21091,11 +21091,11 @@
       "price": 335,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -21119,11 +21119,11 @@
       "price": 1050,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -21147,11 +21147,11 @@
       "price": 335,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -21175,11 +21175,11 @@
       "price": 1050,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -21206,7 +21206,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -21234,7 +21234,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -21259,11 +21259,11 @@
       "price": 1050,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -21287,11 +21287,11 @@
       "price": 4830,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -21315,11 +21315,11 @@
       "price": 1395,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -21343,11 +21343,11 @@
       "price": 3776,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -21371,11 +21371,11 @@
       "price": 1395,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -21399,11 +21399,11 @@
       "price": 4145,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -21427,11 +21427,11 @@
       "price": 1395,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -21455,11 +21455,11 @@
       "price": 1465,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -21483,11 +21483,11 @@
       "price": 4402,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -21511,11 +21511,11 @@
       "price": 335,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -21539,11 +21539,11 @@
       "price": 1180,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -21567,11 +21567,11 @@
       "price": 2975,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -21595,11 +21595,11 @@
       "price": 1465,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -21623,11 +21623,11 @@
       "price": 4402,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -21651,11 +21651,11 @@
       "price": 335,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -21679,11 +21679,11 @@
       "price": 1180,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -21710,7 +21710,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -21735,11 +21735,11 @@
       "price": 335,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -21763,11 +21763,11 @@
       "price": 1180,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -21794,7 +21794,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -21822,7 +21822,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -21850,7 +21850,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -21878,7 +21878,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -21906,7 +21906,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -21931,11 +21931,11 @@
       "price": 1050,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -21959,11 +21959,11 @@
       "price": 4830,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -21990,7 +21990,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -22018,7 +22018,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -22043,11 +22043,11 @@
       "price": 1190,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -22071,11 +22071,11 @@
       "price": 5145,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -22102,7 +22102,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -22127,11 +22127,11 @@
       "price": 1190,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -22155,11 +22155,11 @@
       "price": 5145,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -22186,7 +22186,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -22211,11 +22211,11 @@
       "price": 1190,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -22239,11 +22239,11 @@
       "price": 5145,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -22270,7 +22270,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -22295,11 +22295,11 @@
       "price": 1190,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -22326,7 +22326,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -22354,7 +22354,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -22382,7 +22382,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -22410,7 +22410,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -22438,7 +22438,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -22466,7 +22466,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -22494,7 +22494,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -22522,7 +22522,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -22550,7 +22550,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -22578,7 +22578,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -22603,11 +22603,11 @@
       "price": 1150,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -24790,7 +24790,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -24818,7 +24818,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -24846,7 +24846,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -24874,7 +24874,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -24902,7 +24902,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -24930,7 +24930,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -24955,11 +24955,11 @@
       "price": 1101,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -24983,11 +24983,11 @@
       "price": 3134,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25011,11 +25011,11 @@
       "price": 1101,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25039,11 +25039,11 @@
       "price": 3714,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25067,11 +25067,11 @@
       "price": 1189,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25095,11 +25095,11 @@
       "price": 3403,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25123,11 +25123,11 @@
       "price": 1157,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25154,7 +25154,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -25182,7 +25182,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -25210,7 +25210,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -25235,11 +25235,11 @@
       "price": 1167,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25263,11 +25263,11 @@
       "price": 2815,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25291,11 +25291,11 @@
       "price": 1519,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25319,11 +25319,11 @@
       "price": 4167,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25347,11 +25347,11 @@
       "price": 1519,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25375,11 +25375,11 @@
       "price": 1519,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25403,11 +25403,11 @@
       "price": 3018,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25431,11 +25431,11 @@
       "price": 1519,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25459,11 +25459,11 @@
       "price": 3444,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25487,11 +25487,11 @@
       "price": 1519,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25518,7 +25518,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -25543,11 +25543,11 @@
       "price": 1519,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25571,11 +25571,11 @@
       "price": 4167,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25599,11 +25599,11 @@
       "price": 1751,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25627,11 +25627,11 @@
       "price": 5364,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25658,7 +25658,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -25683,11 +25683,11 @@
       "price": 4167,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25711,11 +25711,11 @@
       "price": 1550,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25739,11 +25739,11 @@
       "price": 3709,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25767,11 +25767,11 @@
       "price": 1029,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25795,11 +25795,11 @@
       "price": 2479,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25826,7 +25826,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -25854,7 +25854,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -25882,7 +25882,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -25910,7 +25910,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -25938,7 +25938,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -25963,11 +25963,11 @@
       "price": 1029,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25991,11 +25991,11 @@
       "price": 4649,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -26019,11 +26019,11 @@
       "price": 1079,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -26047,11 +26047,11 @@
       "price": 4879,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -26075,11 +26075,11 @@
       "price": 1089,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -26103,11 +26103,11 @@
       "price": 4889,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -26131,11 +26131,11 @@
       "price": 999,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -26159,11 +26159,11 @@
       "price": 4499,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -26187,11 +26187,11 @@
       "price": 1039,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -26215,11 +26215,11 @@
       "price": 4669,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -26246,7 +26246,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -26274,7 +26274,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -26299,11 +26299,11 @@
       "price": 4329,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -26327,11 +26327,11 @@
       "price": 889,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -26355,11 +26355,11 @@
       "price": 2399,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -26386,7 +26386,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -26411,11 +26411,11 @@
       "price": 2869,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -26439,11 +26439,11 @@
       "price": 839,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -26467,11 +26467,11 @@
       "price": 2219,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -26495,11 +26495,11 @@
       "price": 590,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -26523,11 +26523,11 @@
       "price": 590,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -26551,11 +26551,11 @@
       "price": 590,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -26582,7 +26582,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -26607,11 +26607,11 @@
       "price": 979,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -26638,7 +26638,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -26666,7 +26666,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -26691,11 +26691,11 @@
       "price": 929,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -26722,7 +26722,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -26750,7 +26750,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -26778,7 +26778,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -26803,11 +26803,11 @@
       "price": 3213,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -26831,11 +26831,11 @@
       "price": 3249,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -26859,11 +26859,11 @@
       "price": 3249,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -26890,7 +26890,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -26915,11 +26915,11 @@
       "price": 2145,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -26946,7 +26946,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -26971,11 +26971,11 @@
       "price": 999,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -26999,11 +26999,11 @@
       "price": 2799,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -27027,11 +27027,11 @@
       "price": 889,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -27058,7 +27058,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -27083,11 +27083,11 @@
       "price": 949,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -27114,7 +27114,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -27139,11 +27139,11 @@
       "price": 949,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -27170,7 +27170,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -27195,11 +27195,11 @@
       "price": 959,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -27223,11 +27223,11 @@
       "price": 2599,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -32462,7 +32462,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -37583,11 +37583,11 @@
       "price": 590,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -37611,11 +37611,11 @@
       "price": 1159,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -37639,11 +37639,11 @@
       "price": 3239,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -37667,11 +37667,11 @@
       "price": 1169,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -37695,11 +37695,11 @@
       "price": 3349,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -37723,11 +37723,11 @@
       "price": 1069,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -37751,11 +37751,11 @@
       "price": 2949,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -37779,11 +37779,11 @@
       "price": 1119,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -37807,11 +37807,11 @@
       "price": 979,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -37835,11 +37835,11 @@
       "price": 2699,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -37866,7 +37866,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -37891,11 +37891,11 @@
       "price": 3289,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -37922,7 +37922,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -37947,11 +37947,11 @@
       "price": 3159,
       "old_price": null,
       "availability": true,
-      "stock": 999,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 999
+          "id": "DARWIN",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
