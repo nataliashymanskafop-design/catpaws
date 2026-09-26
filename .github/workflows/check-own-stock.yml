@@ -14,12 +14,17 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Check SKU 3C000294 in SalesDrive YML
         env:
+          SALESDRIVE_API_KEY: ${{ secrets.SALESDRIVE_API_KEY }}
           SALESDRIVE_PRODUCTS_YML_URL: ${{ secrets.SALESDRIVE_PRODUCTS_YML_URL }}
         run: |
           python - <<'PY'
           import os
+          from datetime import datetime, timedelta
+
           import requests
           from lxml import etree
+
+          from scripts.generate_home_food_stock import fetch_orders
 
           response = requests.get(
               os.environ["SALESDRIVE_PRODUCTS_YML_URL"],
@@ -30,24 +35,45 @@ jobs:
           offers = root.xpath(".//offer")
           print(f"SalesDrive YML offers: {len(offers)}")
 
+          matches = []
           for offer in offers:
-              sku = str(
-                  offer.findtext("vendorCode")
-                  or offer.findtext("sku")
-                  or ""
-              ).strip()
-              if sku != "3C000294":
-                  continue
+              values = {
+                  str(node.text or "").strip()
+                  for node in offer.iter()
+              }
+              if any("3C000294" in value for value in values):
+                  matches.append(offer)
 
-              print("SKU 3C000294 fields:")
+          print(f"YML matches for 3C000294: {len(matches)}")
+          for offer in matches[:3]:
               for child in offer:
                   if child.tag in {
+                      "vendorCode",
+                      "sku",
                       "quantity_in_stock",
                       "stock",
                       "quantity",
                   }:
-                      print(f"{child.tag}={child.text}")
+                      print(f"YML {child.tag}={child.text}")
+
+          now = datetime.now()
+          orders = fetch_orders(
+              os.environ["SALESDRIVE_API_KEY"],
+              now - timedelta(days=30),
+              now,
+          )
+          for order in orders:
+              if int(order.get("id") or 0) != 2695:
+                  continue
+              print("Order 2695 found")
+              for item in order.get("products") or []:
+                  print(
+                      "ORDER_ITEM "
+                      f"sku={item.get('sku')} "
+                      f"stockId={item.get('stockId')} "
+                      f"restCount={item.get('restCount')}"
+                  )
               break
           else:
-              raise RuntimeError("SKU 3C000294 not found")
+              raise RuntimeError("Order 2695 not found")
           PY
