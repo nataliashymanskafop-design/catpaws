@@ -12,7 +12,7 @@ jobs:
         with:
           python-version: "3.11"
       - run: pip install -r requirements.txt
-      - name: Check SKU 3C000294 in SalesDrive YML
+      - name: Check SKU ЗС000294 in SalesDrive YML
         env:
           SALESDRIVE_API_KEY: ${{ secrets.SALESDRIVE_API_KEY }}
           SALESDRIVE_PRODUCTS_YML_URL: ${{ secrets.SALESDRIVE_PRODUCTS_YML_URL }}
@@ -43,20 +43,20 @@ jobs:
                   str(node.text or "").strip()
                   for node in offer.iter()
               }
-              if any("3C000294" in value for value in values):
+              if any(target in value for target in ("ЗС000294", "1038100") for value in values):
                   matches.append(offer)
 
-          print(f"YML matches for 3C000294: {len(matches)}")
+          print(f"YML matches for ЗС000294: {len(matches)}")
           for offer in matches[:3]:
+              print(f"YML offer_id={offer.get('id')}")
               for child in offer:
-                  if child.tag in {
-                      "vendorCode",
-                      "sku",
-                      "quantity_in_stock",
-                      "stock",
-                      "quantity",
-                  }:
-                      print(f"YML {child.tag}={child.text}")
+                  if child.tag == "description":
+                      continue
+                  value = " ".join(str(child.text or "").split())
+                  print(
+                      f"YML {child.tag} "
+                      f"attrs={dict(child.attrib)} value={value[:160]}"
+                  )
 
           result = api_json(
               ORDER_LIST_URL,
