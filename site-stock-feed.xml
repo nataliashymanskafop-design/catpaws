@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-09-27 13:40">
+<yml_catalog date="2026-09-27 18:14">
   <shop>
     <offers>
       <offer id="515" available="true">
@@ -44,7 +44,7 @@
       </offer>
       <offer id="575" available="true">
         <vendorCode>1019100</vendorCode>
-        <quantity_in_stock>18</quantity_in_stock>
+        <quantity_in_stock>17</quantity_in_stock>
       </offer>
       <offer id="578" available="true">
         <vendorCode>1357101</vendorCode>
@@ -224,7 +224,7 @@
       </offer>
       <offer id="744" available="true">
         <vendorCode>3088100</vendorCode>
-        <quantity_in_stock>2</quantity_in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
       </offer>
       <offer id="745" available="true">
         <vendorCode>3118016</vendorCode>
@@ -488,7 +488,7 @@
       </offer>
       <offer id="979" available="true">
         <vendorCode>NPLS45958</vendorCode>
-        <quantity_in_stock>10</quantity_in_stock>
+        <quantity_in_stock>5</quantity_in_stock>
       </offer>
       <offer id="980" available="true">
         <vendorCode>NPLS45959</vendorCode>
@@ -976,7 +976,7 @@
       </offer>
       <offer id="1493" available="true">
         <vendorCode>TPL63794</vendorCode>
-        <quantity_in_stock>20</quantity_in_stock>
+        <quantity_in_stock>10</quantity_in_stock>
       </offer>
       <offer id="1494" available="true">
         <vendorCode>TPL63791</vendorCode>
@@ -1560,7 +1560,7 @@
       </offer>
       <offer id="2195" available="true">
         <vendorCode>019040</vendorCode>
-        <quantity_in_stock>60</quantity_in_stock>
+        <quantity_in_stock>54</quantity_in_stock>
       </offer>
       <offer id="2196" available="true">
         <vendorCode>019026</vendorCode>
@@ -2280,7 +2280,7 @@
       </offer>
       <offer id="2939" available="true">
         <vendorCode>019149</vendorCode>
-        <quantity_in_stock>10</quantity_in_stock>
+        <quantity_in_stock>9</quantity_in_stock>
       </offer>
       <offer id="2940" available="true">
         <vendorCode>357112</vendorCode>
