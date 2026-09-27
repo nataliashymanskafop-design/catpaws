@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27T10:25:55Z",
+  "updatedAt": "2026-09-27T10:40:20Z",
   "total": 1998,
   "data": [
     {
@@ -12271,11 +12271,11 @@
       "price": 894,
       "old_price": null,
       "availability": true,
-      "stock": 20,
+      "stock": 19,
       "warehouses": [
         {
           "id": "DOMS",
-          "stock": 20
+          "stock": 19
         }
       ],
       "warranty_type": "no",
@@ -52591,11 +52591,11 @@
       "price": 794,
       "old_price": 806,
       "availability": true,
-      "stock": 20,
+      "stock": 19,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 20
+          "stock": 19
         }
       ],
       "warranty_type": "no",
