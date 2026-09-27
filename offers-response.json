@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-26T21:25:28Z",
+  "updatedAt": "2026-09-27T10:25:55Z",
   "total": 1998,
   "data": [
     {
@@ -16331,11 +16331,11 @@
       "price": 480,
       "old_price": 600,
       "availability": true,
-      "stock": 8,
+      "stock": 7,
       "warehouses": [
         {
           "id": "DOMS",
-          "stock": 8
+          "stock": 7
         }
       ],
       "warranty_type": "no",
@@ -20111,11 +20111,11 @@
       "price": 348,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 50,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 1
+          "id": "TERRAVET",
+          "stock": 50
         }
       ],
       "warranty_type": "no",
@@ -50379,11 +50379,11 @@
       "price": 8146,
       "old_price": null,
       "availability": true,
-      "stock": 20,
+      "stock": 10,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 20
+          "stock": 10
         }
       ],
       "warranty_type": "no",
