@@ -145,6 +145,22 @@ jobs:
           SALESDRIVE_OWN_STOCK_YML_URL: ${{ secrets.SALESDRIVE_OWN_STOCK_YML_URL }}
         run: python scripts/generate_own_stock.py
 
+      # Якщо джерело тимчасово недоступне, під час публікації зберігаємо
+      # останній успішний файл, а не обнуляємо залишки на сайті.
+      - name: Download previous Horoshop stock feed
+        continue-on-error: true
+        run: |
+          curl -fL \
+            "https://nataliashymanskafop-design.github.io/catpaws/site-stock-feed.xml" \
+            -o public/site-stock-feed.xml
+
+      # Створюємо одне безпечне посилання для ручного оновлення Horoshop.
+      # Файл містить лише артикул, кількість і наявність та не змінює
+      # ціни, назви, описи, фото або категорії товарів.
+      - name: Generate unified Horoshop stock feed
+        continue-on-error: true
+        run: python scripts/generate_site_stock_feed.py
+
       # Формуємо Mono після синхронізації складів, щоб у фід одразу
       # потрапили актуальні залишки та правильні ID локацій.
       - name: Generate Mono offers
