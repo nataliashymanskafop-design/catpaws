@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27T15:14:59Z",
+  "updatedAt": "2026-09-27T19:11:30Z",
   "total": 1998,
   "data": [
     {
@@ -16331,11 +16331,11 @@
       "price": 480,
       "old_price": 600,
       "availability": true,
-      "stock": 7,
+      "stock": 6,
       "warehouses": [
         {
           "id": "DOMS",
-          "stock": 7
+          "stock": 6
         }
       ],
       "warranty_type": "no",
