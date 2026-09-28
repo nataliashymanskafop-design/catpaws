@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-09-28 01:29">
+<yml_catalog date="2026-09-28 08:38">
   <shop>
     <name>CatPaws Kormax stock</name>
     <company>CatPaws</company>
@@ -3197,19 +3197,19 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>60</quantity_in_stock>
-        <stock>60</stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPSC47908_box" available="true">
+      <offer id="NPSC47908_box" available="false">
         <name>Вологий корм для стерилізованих котів з кроликом, куркою і журавлиною Nature's Protection Superior Care Sterilised Grain Free Adult Cats with Rabbit, Chicken Breast and Cranberries , 85 г * 12 шт</name>
         <vendorCode>NPSC47908_box</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="NPSC47909" available="true">
         <name>Вологий беззерновий корм Nature's Protection Superior Care Urinary для дорослих котів, філе у соусі з качкою, курячою грудкою та журавлиною, 85 г</name>
@@ -3637,8 +3637,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="SNK46144" available="true">

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27T22:29:46Z",
+  "updatedAt": "2026-09-28T05:38:53Z",
   "total": 1998,
   "data": [
     {
@@ -33802,12 +33802,12 @@
       "code": "NPSC47908_box",
       "price": 792,
       "old_price": null,
-      "availability": true,
-      "stock": 5,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 5
+          "stock": 0
         }
       ],
       "warranty_type": "no",
