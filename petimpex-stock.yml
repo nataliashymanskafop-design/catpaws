@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-09-28 08:38">
+<yml_catalog date="2026-09-28 10:26">
   <shop>
     <name>CatPaws PETIMPEX stock</name>
     <company>CatPaws</company>
@@ -707,8 +707,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="041690" available="true">
@@ -1427,8 +1427,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="056981 - 6926" available="true">
@@ -2091,15 +2091,15 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="120202X16070" available="false">
+      <offer id="120202X16070" available="true">
         <name>Туалет д/кіш БОКС з фільтром NETTA MAXI CLOSE BLUE 66x49x50 (3 шт в ящ)</name>
         <vendorCode>120202X16070</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="120301R01000" available="true">
         <name>Туалет д/кіш БОКС з фільтром KOMODA RECYCLED 54*39*40 (10 шт в ящ)</name>
@@ -2857,8 +2857,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="2407 GCAVIARMIX" available="true">
@@ -7447,8 +7447,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="487,91" available="true">
@@ -19001,15 +19001,15 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="C6020576" available="true">
+      <offer id="C6020576" available="false">
         <name>Пакети для фекалій GILL'S, 20 пак. / Рул, (50шт /уп) (ціна за рул.)</name>
         <vendorCode>C6020576</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="C6020592" available="true">
         <name>Драпак CROCI кутова, 23х49 см</name>
@@ -22767,8 +22767,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="DN 185 (794)" available="true">
@@ -22797,8 +22797,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="DN 400 (066)" available="true">
@@ -27521,15 +27521,15 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="SP 816 KITTEN 2KG" available="true">
+      <offer id="SP 816 KITTEN 2KG" available="false">
         <name>AMITY Super Premium Kitten Salmon сухий корм для кошенят, з лососем, 2 kg</name>
         <vendorCode>SP 816 KITTEN 2KG</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="SP 915 SALM 2KG" available="false">
         <name>AMITY Super Premium Cat Salmоn сухий корм для дорослих котів, з лососем, 2 kg</name>

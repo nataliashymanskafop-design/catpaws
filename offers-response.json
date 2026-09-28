@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28T05:38:53Z",
+  "updatedAt": "2026-09-28T07:26:31Z",
   "total": 1998,
   "data": [
     {
@@ -5187,11 +5187,11 @@
       "price": 405,
       "old_price": null,
       "availability": true,
-      "stock": 20,
+      "stock": 19,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 20
+          "stock": 19
         }
       ],
       "warranty_type": "no",
@@ -39067,11 +39067,11 @@
       "price": 3683,
       "old_price": 4604,
       "availability": true,
-      "stock": 2,
+      "stock": 1,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 2
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -40747,11 +40747,11 @@
       "price": 2886,
       "old_price": null,
       "availability": true,
-      "stock": 2,
+      "stock": 1,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 2
+          "stock": 1
         }
       ],
       "warranty_type": "no",
