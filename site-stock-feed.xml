@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-09-29 00:42">
+<yml_catalog date="2026-09-29 04:37">
   <shop>
     <offers>
       <offer id="515" available="true">
@@ -470,10 +470,6 @@
         <vendorCode>KIKNPLF63357</vendorCode>
         <quantity_in_stock>20</quantity_in_stock>
       </offer>
-      <offer id="1187" available="false">
-        <vendorCode>KIKNPLF63359</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
       <offer id="1188" available="true">
         <vendorCode>KIKNPSC63360</vendorCode>
         <quantity_in_stock>20</quantity_in_stock>
@@ -542,10 +538,6 @@
         <vendorCode>SNK46129</vendorCode>
         <quantity_in_stock>20</quantity_in_stock>
       </offer>
-      <offer id="1279" available="false">
-        <vendorCode>SNK46143</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
       <offer id="1280" available="true">
         <vendorCode>SNK46144</vendorCode>
         <quantity_in_stock>20</quantity_in_stock>
@@ -573,10 +565,6 @@
       <offer id="1308" available="true">
         <vendorCode>NPSC47228</vendorCode>
         <quantity_in_stock>20</quantity_in_stock>
-      </offer>
-      <offer id="1309" available="false">
-        <vendorCode>NPSC47231</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
       </offer>
       <offer id="1313" available="true">
         <vendorCode>SNK46147</vendorCode>
@@ -1982,14 +1970,6 @@
         <vendorCode>1357111</vendorCode>
         <quantity_in_stock>14</quantity_in_stock>
       </offer>
-      <offer id="2979" available="false">
-        <vendorCode>ЗС000357</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="2980" available="false">
-        <vendorCode>ЗС000358</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
       <offer id="2982" available="true">
         <vendorCode>ЗС000280</vendorCode>
         <quantity_in_stock>50</quantity_in_stock>
@@ -3278,10 +3258,6 @@
         <vendorCode>NPPR47952_box</vendorCode>
         <quantity_in_stock>5</quantity_in_stock>
       </offer>
-      <offer id="3798" available="false">
-        <vendorCode>NPSC47908</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
       <offer id="3799" available="true">
         <vendorCode>NPSC47909</vendorCode>
         <quantity_in_stock>60</quantity_in_stock>
@@ -3293,10 +3269,6 @@
       <offer id="3801" available="true">
         <vendorCode>NPSC47911</vendorCode>
         <quantity_in_stock>60</quantity_in_stock>
-      </offer>
-      <offer id="3802" available="false">
-        <vendorCode>NPSC47908_box</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
       </offer>
       <offer id="3803" available="true">
         <vendorCode>NPSC47909_box</vendorCode>
@@ -4710,10 +4682,6 @@
         <vendorCode>KIK45086</vendorCode>
         <quantity_in_stock>40</quantity_in_stock>
       </offer>
-      <offer id="4586" available="false">
-        <vendorCode>KIK45279</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
       <offer id="4588" available="true">
         <vendorCode>CAN63295</vendorCode>
         <quantity_in_stock>10</quantity_in_stock>
@@ -5118,6 +5086,10 @@
         <vendorCode>JOY63240</vendorCode>
         <quantity_in_stock>20</quantity_in_stock>
       </offer>
+      <offer id="5231" available="false">
+        <vendorCode>5600760440020</vendorCode>
+        <quantity_in_stock>0</quantity_in_stock>
+      </offer>
       <offer id="600" available="false">
         <vendorCode>50014798р</vendorCode>
         <quantity_in_stock>0</quantity_in_stock>
@@ -5402,6 +5374,10 @@
         <vendorCode>KIKNPLF63358</vendorCode>
         <quantity_in_stock>0</quantity_in_stock>
       </offer>
+      <offer id="1187" available="false">
+        <vendorCode>KIKNPLF63359</vendorCode>
+        <quantity_in_stock>0</quantity_in_stock>
+      </offer>
       <offer id="1190" available="false">
         <vendorCode>KIK24517</vendorCode>
         <quantity_in_stock>0</quantity_in_stock>
@@ -5440,6 +5416,14 @@
       </offer>
       <offer id="1271" available="false">
         <vendorCode>SNK46103</vendorCode>
+        <quantity_in_stock>0</quantity_in_stock>
+      </offer>
+      <offer id="1279" available="false">
+        <vendorCode>SNK46143</vendorCode>
+        <quantity_in_stock>0</quantity_in_stock>
+      </offer>
+      <offer id="1309" available="false">
+        <vendorCode>NPSC47231</vendorCode>
         <quantity_in_stock>0</quantity_in_stock>
       </offer>
       <offer id="1310" available="false">
@@ -5916,6 +5900,14 @@
       </offer>
       <offer id="2978" available="false">
         <vendorCode>ЗС000356</vendorCode>
+        <quantity_in_stock>0</quantity_in_stock>
+      </offer>
+      <offer id="2979" available="false">
+        <vendorCode>ЗС000357</vendorCode>
+        <quantity_in_stock>0</quantity_in_stock>
+      </offer>
+      <offer id="2980" available="false">
+        <vendorCode>ЗС000358</vendorCode>
         <quantity_in_stock>0</quantity_in_stock>
       </offer>
       <offer id="2981" available="false">
@@ -6672,6 +6664,14 @@
       </offer>
       <offer id="3796" available="false">
         <vendorCode>NPPR47915_box</vendorCode>
+        <quantity_in_stock>0</quantity_in_stock>
+      </offer>
+      <offer id="3798" available="false">
+        <vendorCode>NPSC47908</vendorCode>
+        <quantity_in_stock>0</quantity_in_stock>
+      </offer>
+      <offer id="3802" available="false">
+        <vendorCode>NPSC47908_box</vendorCode>
         <quantity_in_stock>0</quantity_in_stock>
       </offer>
       <offer id="3811" available="false">
@@ -8096,6 +8096,10 @@
       </offer>
       <offer id="4576" available="false">
         <vendorCode>KIK24523</vendorCode>
+        <quantity_in_stock>0</quantity_in_stock>
+      </offer>
+      <offer id="4586" available="false">
+        <vendorCode>KIK45279</vendorCode>
         <quantity_in_stock>0</quantity_in_stock>
       </offer>
       <offer id="4587" available="false">
