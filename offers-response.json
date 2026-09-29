@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28T21:42:52Z",
+  "updatedAt": "2026-09-29T08:08:18Z",
   "total": 1998,
   "data": [
     {
@@ -7258,12 +7258,12 @@
       "code": "NPLS45676",
       "price": 3510,
       "old_price": null,
-      "availability": true,
-      "stock": 5,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 5
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -7455,11 +7455,11 @@
       "price": 3035,
       "old_price": null,
       "availability": true,
-      "stock": 20,
+      "stock": 10,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 20
+          "stock": 10
         }
       ],
       "warranty_type": "no",
@@ -16331,11 +16331,11 @@
       "price": 480,
       "old_price": 600,
       "availability": true,
-      "stock": 20,
+      "stock": 19,
       "warehouses": [
         {
           "id": "DOMS",
-          "stock": 20
+          "stock": 19
         }
       ],
       "warranty_type": "no",
@@ -16807,11 +16807,11 @@
       "price": 3294,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 20,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 1
+          "id": "HOME_FOOD",
+          "stock": 20
         }
       ],
       "warranty_type": "no",

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-09-29 04:37">
+<yml_catalog date="2026-09-29 11:07">
   <shop>
     <name>CatPaws Kormax stock</name>
     <company>CatPaws</company>
@@ -1321,15 +1321,15 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPLS45676" available="true">
+      <offer id="NPLS45676" available="false">
         <name>Сухий беззерновий корм з птицею для дорослих собак всіх порід Lifestyle Grain Free Poultry Adult All Breeds 10кг</name>
         <vendorCode>NPLS45676</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="NPLS45677" available="true">
         <name>Сухий беззерновий корм для собак усіх порід з лососем, 1,5 кг Nature's Protection Lifestyle Grain Free Salmon Adult All Breeds</name>
@@ -2377,8 +2377,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPS45775" available="true">
