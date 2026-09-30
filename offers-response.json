@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T16:56:47Z",
+  "updatedAt": "2026-09-30T19:07:56Z",
   "total": 1998,
   "data": [
     {
@@ -11962,12 +11962,12 @@
       "code": "020671",
       "price": 4350,
       "old_price": null,
-      "availability": true,
-      "stock": 20,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "DOMS",
-          "stock": 20
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -12410,12 +12410,12 @@
       "code": "018159",
       "price": 984,
       "old_price": null,
-      "availability": true,
-      "stock": 20,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "DOMS",
-          "stock": 20
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -12914,12 +12914,12 @@
       "code": "015639",
       "price": 1368,
       "old_price": null,
-      "availability": true,
-      "stock": 20,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "DOMS",
-          "stock": 20
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -16134,12 +16134,12 @@
       "code": "144193",
       "price": 540,
       "old_price": null,
-      "availability": true,
-      "stock": 20,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "DOMS",
-          "stock": 20
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -16666,12 +16666,12 @@
       "code": "1057016",
       "price": 580,
       "old_price": null,
-      "availability": true,
-      "stock": 20,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 20
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -17255,11 +17255,11 @@
       "price": 542,
       "old_price": 677,
       "availability": true,
-      "stock": 20,
+      "stock": 18,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 20
+          "stock": 18
         }
       ],
       "warranty_type": "no",
@@ -17478,12 +17478,12 @@
       "code": "368235",
       "price": 540,
       "old_price": null,
-      "availability": true,
-      "stock": 20,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "DOMS",
-          "stock": 20
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -17534,12 +17534,12 @@
       "code": "368211",
       "price": 540,
       "old_price": null,
-      "availability": true,
-      "stock": 19,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "DOMS",
-          "stock": 19
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -17590,12 +17590,12 @@
       "code": "368259",
       "price": 540,
       "old_price": null,
-      "availability": true,
-      "stock": 20,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "DOMS",
-          "stock": 20
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -17646,12 +17646,12 @@
       "code": "368215",
       "price": 540,
       "old_price": null,
-      "availability": true,
-      "stock": 20,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "DOMS",
-          "stock": 20
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -18654,12 +18654,12 @@
       "code": "019125",
       "price": 699,
       "old_price": null,
-      "availability": true,
-      "stock": 10,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "DOMS",
-          "stock": 10
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -34558,12 +34558,12 @@
       "code": "378027",
       "price": 2985,
       "old_price": null,
-      "availability": true,
-      "stock": 20,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "DOMS",
-          "stock": 20
+          "stock": 0
         }
       ],
       "warranty_type": "no",
