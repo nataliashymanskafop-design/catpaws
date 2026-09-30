@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-09-30 14:00">
+<yml_catalog date="2026-09-30 19:56">
   <shop>
     <name>CatPaws Kormax stock</name>
     <company>CatPaws</company>
@@ -1361,15 +1361,15 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPLS45681" available="true">
+      <offer id="NPLS45681" available="false">
         <name>Сухий беззерновий корм з лососем та крилем для дорослих собак малих порід Lifestyle Grain Free Salmon with krill Adult Small and Mini Breeds 10кг</name>
         <vendorCode>NPLS45681</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="NPLS45682" available="true">
         <name>Сухий беззерновий корм для цуценят усіх порід з лососем та крилем, 1,5 кг Nature's Protection Lifestyle Grain Free Salmon with Krill Puppies All Breeds</name>
@@ -1487,8 +1487,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>10</quantity_in_stock>
-        <stock>10</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPLS45952" available="true">
@@ -1551,15 +1551,15 @@
         <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPLS45958" available="true">
+      <offer id="NPLS45958" available="false">
         <name>Сухий беззерновий корм для дорослих котів з білою рибою Lifestyle Grain Free White Fish Adult Cat 400г</name>
         <vendorCode>NPLS45958</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="NPLS45959" available="true">
         <name>Сухий беззерновий корм для дорослих котів з білою рибою Lifestyle Grain Free White Fish Adult Cat 1,5кг</name>
@@ -2017,8 +2017,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPS45745" available="true">
@@ -2127,8 +2127,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>10</quantity_in_stock>
-        <stock>10</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPS45756" available="true">
@@ -2381,15 +2381,15 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPS45781" available="true">
+      <offer id="NPS45781" available="false">
         <name>Сухий корм для літніх котів Nature's Protection Senior 400г</name>
         <vendorCode>NPS45781</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="NPS45782" available="true">
         <name>Сухий корм для літніх котів Nature's Protection Senior 2кг</name>
@@ -2527,8 +2527,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPSC45792" available="true">
@@ -2687,8 +2687,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPSC45997" available="true">
@@ -3527,8 +3527,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="SNK46124" available="true">
@@ -4167,8 +4167,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="TPL63622" available="true">
