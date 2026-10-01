@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T14:43:41Z",
+  "updatedAt": "2026-10-01T20:15:00Z",
   "total": 1691,
   "data": [
     {
@@ -35,11 +35,11 @@
       "price": 2746,
       "old_price": 3231,
       "availability": true,
-      "stock": 2,
+      "stock": 1,
       "warehouses": [
         {
           "id": "SUPPLIER",
-          "stock": 2
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -1434,12 +1434,12 @@
       "code": "NPLS45803",
       "price": 3615,
       "old_price": null,
-      "availability": true,
-      "stock": 5,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 5
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -1771,11 +1771,11 @@
       "price": 8145,
       "old_price": null,
       "availability": true,
-      "stock": 10,
+      "stock": 5,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 10
+          "stock": 5
         }
       ],
       "warranty_type": "no",
@@ -8743,11 +8743,11 @@
       "price": 542,
       "old_price": 677,
       "availability": true,
-      "stock": 18,
+      "stock": 17,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 18
+          "stock": 17
         }
       ],
       "warranty_type": "no",
@@ -13279,11 +13279,11 @@
       "price": 954,
       "old_price": 1192,
       "availability": true,
-      "stock": 4,
+      "stock": 5,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 4
+          "stock": 5
         }
       ],
       "warranty_type": "no",
@@ -13923,11 +13923,11 @@
       "price": 1192,
       "old_price": null,
       "availability": true,
-      "stock": 8,
+      "stock": 9,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 8
+          "stock": 9
         }
       ],
       "warranty_type": "no",
@@ -14315,11 +14315,11 @@
       "price": 1086,
       "old_price": null,
       "availability": true,
-      "stock": 19,
+      "stock": 17,
       "warehouses": [
         {
           "id": "DOMS",
-          "stock": 19
+          "stock": 17
         }
       ],
       "warranty_type": "no",
