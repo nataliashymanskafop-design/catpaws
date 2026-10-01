@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T21:21:42Z",
+  "updatedAt": "2026-10-01T00:44:56Z",
   "total": 1998,
   "data": [
     {
@@ -17423,11 +17423,11 @@
       "price": 414,
       "old_price": 518,
       "availability": true,
-      "stock": 1,
+      "stock": 20,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 1
+          "id": "HOME_FOOD",
+          "stock": 20
         }
       ],
       "warranty_type": "no",
