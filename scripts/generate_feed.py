@@ -270,6 +270,13 @@ def build_offer(offer, stock_by_sku, own_stock):
     price = to_int(offer.findtext("price"))
 
     price_allowed = price > MIN_PRICE
+
+    # Товари нижче мінімальної ціни відсутні у products-feed.xml,
+    # тому не залишаємо їх і в offers-response.json навіть з нульовим
+    # залишком. Обидва Mono-фіди повинні містити однаковий набір кодів.
+    if not price_allowed:
+        return None
+
     normalized_code = code.strip()
     if normalized_code == "NPS24432":
         return None
