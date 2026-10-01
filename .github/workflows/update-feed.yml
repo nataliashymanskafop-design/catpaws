@@ -112,6 +112,9 @@ jobs:
       # для доступних Ambrosia, Happy One та Exclusion. Загальний фільтр
       # ціни Mono не пропускає дешеві поштучні консерви.
       - name: Generate Darwin stock feed
+        env:
+          SALESDRIVE_API_KEY: ${{ secrets.SALESDRIVE_API_KEY }}
+          SALESDRIVE_DARWIN_STOCK_ID: ${{ vars.SALESDRIVE_DARWIN_STOCK_ID }}
         run: python scripts/generate_darwin_stock.py
 
       # Забираємо попередній стан TERRAVET. Поки склад наповнюється
