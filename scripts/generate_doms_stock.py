@@ -17,7 +17,7 @@ from generate_home_food_stock import (
 
 CATALOG_XML_URL = (
     "https://catpaws.com.ua/content/export/"
-    "3e9c244f28ee6d1e572f92646e76f6bb.xml"
+    "5d007701b07c6dab399214f2c0d6743c.xml"
 )
 
 OUTPUT_FILE = "public/doms-stock.yml"
@@ -29,7 +29,7 @@ STATE_FILE = "public/doms-stock-state.json"
 BOOTSTRAP_ORDER_ID = 2527
 
 WAREHOUSE_VARIABLE = "SALESDRIVE_DOMS_STOCK_ID"
-SKU_ALIAS_MIGRATION = "salesdrive-sku-aliases-v1"
+SKU_ALIAS_MIGRATION = "current-site-skus-v2"
 
 # Звичайні товари: умовний залишок 20. Коли залишається 5 або менше,
 # скрипт відновлює умовний залишок до 20.
@@ -79,18 +79,9 @@ SUPPLIER_SKUS = {
 }
 
 
-# У Horoshop ці товари мають старі артикули, а в SalesDrive/DOMS — нові.
-# Усередині стану і DOMS YML зберігаємо артикул сайту, щоб Mono правильно
-# зіставляв залишок із товарним фідом. У запитах до SalesDrive використовуємо
-# новий артикул, а артикули із замовлень переводимо назад у код сайту.
-SUPPLIER_SKU_ALIASES = {
-    "144100": "76144100",
-    "144124": "76144124",
-    "144148": "76144148",
-    "144162": "76144162",
-    "144186": "76144186",
-    "144193": "76144193",
-}
+# На сайті, у SalesDrive та у фідах Mono використовуються однакові
+# актуальні артикули. Старі коди не переносимо у новий стан складу.
+SUPPLIER_SKU_ALIASES = {}
 
 FORCE_ZERO_SKUS = {
     "368208",
@@ -184,8 +175,6 @@ def stock_policy(sku, item):
     if sku in FORCE_ZERO_SKUS:
         return 0, 0, "zero"
 
-    # Якщо XML Horoshop ще містить старий артикул, перевіряємо
-    # наявність за актуальним артикулом постачальника.
     if supplier_sku(sku) not in SUPPLIER_SKUS:
         return 0, 0, "zero"
 
