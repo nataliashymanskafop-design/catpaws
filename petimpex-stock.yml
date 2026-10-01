@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-10-01 03:44">
+<yml_catalog date="2026-10-01 09:32">
   <shop>
     <name>CatPaws PETIMPEX stock</name>
     <company>CatPaws</company>
@@ -2857,8 +2857,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="2407 GCAVIARMIX" available="true">
@@ -16257,8 +16257,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="BW824" available="true">
@@ -24691,35 +24691,35 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="EUD731-1" available="true">
+      <offer id="EUD731-1" available="false">
         <name>Ласощі INABA "Churu Rolls" для собак, з куркою 1стік /12 гр</name>
         <vendorCode>EUD731-1</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
-      <offer id="EUD732-1" available="true">
+      <offer id="EUD732-1" available="false">
         <name>Ласощі INABA "Churu Rolls" для собак, курка з лососем 1стік /12 гр</name>
         <vendorCode>EUD732-1</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
-      <offer id="EUD733-1" available="true">
+      <offer id="EUD733-1" available="false">
         <name>Ласощі INABA "Churu Rolls" для собак, курка з сиром 1стік /12 гр</name>
         <vendorCode>EUD733-1</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="EVC111" available="true">
         <name>Ласощі INABA "Churu" NOURISH для котів, вершковий мус в стіках, з куркою татунцем, 50*14 гр (8 шт.уп.) (банка)</name>
