@@ -7,7 +7,7 @@ import requests
 from lxml import etree
 
 
-XML_URL = "https://catpaws.com.ua/content/export/3e9c244f28ee6d1e572f92646e76f6bb.xml"
+XML_URL = "https://catpaws.com.ua/content/export/5d007701b07c6dab399214f2c0d6743c.xml"
 
 # Попередній опублікований прайс Mono.
 # Workflow завантажує його перед запуском цього скрипта.
@@ -342,10 +342,11 @@ def build_offer(offer, stock_by_sku, own_stock):
 
 def stock_snapshot(offers):
     """
-    Формуємо знімок тільки складських даних.
+    Формуємо знімок даних, зміна яких повинна змусити
+    Mono Market повторно прочитати офери.
 
-    Ціна, old_price, days_to_dispatch та інші поля
-    НЕ впливають на updatedAt.
+    Разом із залишками враховуємо актуальну та стару ціну,
+    щоб зміна цін оновлювала updatedAt.
     """
 
     snapshot = {}
@@ -370,6 +371,8 @@ def stock_snapshot(offers):
             )
 
         snapshot[code] = {
+            "price": item.get("price"),
+            "old_price": item.get("old_price"),
             "availability": item.get(
                 "availability",
                 False
