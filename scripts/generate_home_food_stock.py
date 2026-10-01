@@ -1,6 +1,7 @@
 import json
 import os
 import subprocess
+import time
 from datetime import datetime, timedelta
 from urllib.error import HTTPError, URLError
 from urllib.parse import urlencode
@@ -319,18 +320,38 @@ def api_json(url, api_key, params=None, payload=None):
         data = json.dumps(payload, ensure_ascii=False).encode("utf-8")
         headers["Content-Type"] = "application/json"
 
-    request = Request(url, data=data, headers=headers)
+    raw = None
 
-    try:
-        with urlopen(request, timeout=45) as response:
-            raw = response.read().decode("utf-8")
-    except HTTPError as error:
-        details = error.read().decode("utf-8", errors="replace")
-        raise RuntimeError(
-            f"SalesDrive API returned HTTP {error.code}: {details[:500]}"
-        ) from error
-    except URLError as error:
-        raise RuntimeError(f"SalesDrive API is unavailable: {error}") from error
+    for attempt in range(3):
+        request = Request(url, data=data, headers=headers)
+
+        try:
+            with urlopen(request, timeout=45) as response:
+                raw = response.read().decode("utf-8")
+            break
+        except HTTPError as error:
+            details = error.read().decode("utf-8", errors="replace")
+            rate_limited = (
+                error.code in (400, 429)
+                and "API limit reached" in details
+            )
+
+            if rate_limited and attempt < 2:
+                wait_seconds = 65
+                print(
+                    "SalesDrive API limit reached. "
+                    f"Retrying in {wait_seconds} seconds..."
+                )
+                time.sleep(wait_seconds)
+                continue
+
+            raise RuntimeError(
+                f"SalesDrive API returned HTTP {error.code}: {details[:500]}"
+            ) from error
+        except URLError as error:
+            raise RuntimeError(
+                f"SalesDrive API is unavailable: {error}"
+            ) from error
 
     try:
         result = json.loads(raw)
