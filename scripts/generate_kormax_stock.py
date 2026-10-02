@@ -20,12 +20,13 @@ from generate_home_food_stock import (
 
 CATALOG_XML_URL = (
     "https://catpaws.com.ua/content/export/"
-    "3e9c244f28ee6d1e572f92646e76f6bb.xml"
+    "5d007701b07c6dab399214f2c0d6743c.xml"
 )
 KORMAX_XLSX_URL = "https://b2b.kormaxtrade.com.ua/feeds/edq0mnq846.xlsx"
 
 OUTPUT_FILE = "public/kormax-stock.yml"
 STATE_FILE = "public/kormax-stock-state.json"
+FORCE_ZERO_SKUS = {"NPUPF63660"}
 
 # У замовленні №2506 товари вручну переведені на склад
 # "Kormaxtrade - Білогородка". Воно використовується тільки для
@@ -501,6 +502,11 @@ def main():
             for sku, quantity in published_stock.items()
             if int(automatic_stock.get(sku, 0)) != int(quantity)
         }
+
+    # Товари, зняті з виробництва та видалені із сайту, обнуляємо
+    # у SalesDrive явно, щоб старий залишок не зберігався на складі.
+    for sku in FORCE_ZERO_SKUS:
+        updates[sku] = 0
 
     if updates:
         update_salesdrive_stock(api_key, warehouse_id, updates)
