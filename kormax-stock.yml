@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-10-02 11:24">
+<yml_catalog date="2026-10-02 14:14">
   <shop>
     <name>CatPaws Kormax stock</name>
     <company>CatPaws</company>
@@ -147,8 +147,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="CAN63551" available="true">
@@ -540,16 +540,6 @@
         <quantity_in_stock>60</quantity_in_stock>
         <stock>60</stock>
         <in_stock>1</in_stock>
-      </offer>
-      <offer id="KIK45279" available="false">
-        <name>Вологий корм для молодих собак малих порід з куркою і яловичиною, 100 г Nature's Protection Junior Small Breeds Healthy Growth Chicken &amp; Beef</name>
-        <vendorCode>KIK45279</vendorCode>
-        <price>1</price>
-        <currencyId>UAH</currencyId>
-        <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
       </offer>
       <offer id="KIK45514" available="true">
         <name>Мус для цуценят Nature's Protection Puppy Starter Mousse Chicken 200 г</name>
@@ -957,8 +947,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>10</quantity_in_stock>
-        <stock>10</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="KIKNPSC63360" available="true">
@@ -1127,8 +1117,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>10</quantity_in_stock>
-        <stock>10</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPB46032" available="false">
@@ -3151,25 +3141,25 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="NPSC47909" available="true">
+      <offer id="NPSC47909" available="false">
         <name>Вологий беззерновий корм Nature's Protection Superior Care Urinary для дорослих котів, філе у соусі з качкою, курячою грудкою та журавлиною, 85 г</name>
         <vendorCode>NPSC47909</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>60</quantity_in_stock>
-        <stock>60</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
-      <offer id="NPSC47909_box" available="true">
+      <offer id="NPSC47909_box" available="false">
         <name>Вологий беззерновий корм Nature's Protection Superior Care Urinary для дорослих котів, філе у соусі з качкою, курячою грудкою та журавлиною, 85 г * 12 шт</name>
         <vendorCode>NPSC47909_box</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="NPSC47910" available="true">
         <name>Вологий беззерновий корм Nature's Protection Superior Care Kitten для кошенят, філе у соусі з індичкою та курячою грудкою, 85 г</name>
@@ -3271,15 +3261,15 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPSCVET47577" available="true">
+      <offer id="NPSCVET47577" available="false">
         <name>Ветеринарний дієтичний корм для собак при захворюванннях шлунково-кишкового тракту NP Superior Care Veterinary Diet Gastrointestinal White Fish Adult All Breed Dogs з білою рибою, 10кг</name>
         <vendorCode>NPSCVET47577</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="NPSCVET47578" available="true">
         <name>Ветеринарний дієтичний гіпоалергенний корм для собак NP Superior Care Veterinary Diet Hypoallergenic Insect Adult All Breed Dogs з білком комах, 1,5кг</name>
@@ -3314,86 +3304,6 @@
       <offer id="NPSCVET47581" available="false">
         <name>Ветеринарний дієтичний корм для здоров'я шкіри та шерсті собак NP Superior Care Veterinary Diet Dermatosis Salmon Adult All Breed Dogs з лососем, 10кг</name>
         <vendorCode>NPSCVET47581</vendorCode>
-        <price>1</price>
-        <currencyId>UAH</currencyId>
-        <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
-      </offer>
-      <offer id="NPUPF63654" available="false">
-        <name>Вологий корм для котів для підтримки сечовидільної системи з куркою, білою рибою і журавлиною, 100 г Nature’s Protection Adult cats Urinary Chicken with White Fish &amp; Cranberry</name>
-        <vendorCode>NPUPF63654</vendorCode>
-        <price>1</price>
-        <currencyId>UAH</currencyId>
-        <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
-      </offer>
-      <offer id="NPUPF63655" available="false">
-        <name>Вологий корм для стерилізованих котів з індичкою і журавлиною, 100 г Nature’s Protection Adult cats Sterilised Turkey with Cranberry</name>
-        <vendorCode>NPUPF63655</vendorCode>
-        <price>1</price>
-        <currencyId>UAH</currencyId>
-        <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
-      </offer>
-      <offer id="NPUPF63656" available="false">
-        <name>Вологий корм для кошенят із куркою та яловичиною для здорового зростання Nature’s Protection Healthy Growth, Chicken with Beef 100 г</name>
-        <vendorCode>NPUPF63656</vendorCode>
-        <price>1</price>
-        <currencyId>UAH</currencyId>
-        <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
-      </offer>
-      <offer id="NPUPF63657" available="false">
-        <name>Вологий корм для котів для контролю ваги з куркою, лососем і тунцем, 100 г Nature’s Protection Adult cats Weight Control Chicken with Salmon &amp; Tuna</name>
-        <vendorCode>NPUPF63657</vendorCode>
-        <price>1</price>
-        <currencyId>UAH</currencyId>
-        <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
-      </offer>
-      <offer id="NPUPF63658" available="false">
-        <name>Вологий корм для кошенят для здорового зростання з куркою, яловичиною та ягням, 100 г Nature’s Protection Kitten Healthy Growth Chicken Beef &amp; Lamb</name>
-        <vendorCode>NPUPF63658</vendorCode>
-        <price>1</price>
-        <currencyId>UAH</currencyId>
-        <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
-      </offer>
-      <offer id="NPUPF63659" available="false">
-        <name>Вологий корм для стерилізованих котів з лососем і травами, 100 г Nature’s Protection Adult cats Sterilised Salmon with Herbs</name>
-        <vendorCode>NPUPF63659</vendorCode>
-        <price>1</price>
-        <currencyId>UAH</currencyId>
-        <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
-      </offer>
-      <offer id="NPUPF63661" available="false">
-        <name>Вологий корм для собак для контролю ваги з куркою і білою рибою, 100 г Nature’s Protection Adult Weight Control Chicken with White Fish</name>
-        <vendorCode>NPUPF63661</vendorCode>
-        <price>1</price>
-        <currencyId>UAH</currencyId>
-        <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
-      </offer>
-      <offer id="NPUPF63662" available="false">
-        <name>Вологий корм для собак мульті-користь з куркою і ягням, 100 г Nature’s Protection Adult Multi-benefit Chicken with Lamb</name>
-        <vendorCode>NPUPF63662</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
@@ -4167,8 +4077,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>10</quantity_in_stock>
-        <stock>10</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="TPL63619" available="true">
@@ -4257,8 +4167,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="TPL63791" available="true">
