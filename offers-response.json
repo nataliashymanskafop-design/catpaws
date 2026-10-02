@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T06:03:53Z",
+  "updatedAt": "2026-10-02T08:20:38Z",
   "total": 1484,
   "data": [
     {
@@ -175,11 +175,11 @@
       "price": 2307,
       "old_price": 2884,
       "availability": true,
-      "stock": 9,
+      "stock": 8,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 9
+          "stock": 8
         }
       ],
       "warranty_type": "no",
@@ -791,11 +791,11 @@
       "price": 3595,
       "old_price": 4229,
       "availability": true,
-      "stock": 1,
+      "stock": 20,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 1
+          "id": "HOME_FOOD",
+          "stock": 20
         }
       ],
       "warranty_type": "no",
@@ -5019,11 +5019,11 @@
       "price": 5048,
       "old_price": null,
       "availability": true,
-      "stock": 20,
+      "stock": 10,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 20
+          "stock": 10
         }
       ],
       "warranty_type": "no",
@@ -18739,11 +18739,11 @@
       "price": 557,
       "old_price": null,
       "availability": true,
-      "stock": 49,
+      "stock": 47,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 49
+          "stock": 47
         }
       ],
       "warranty_type": "no",
@@ -27810,12 +27810,12 @@
       "code": "NPSC47912-K2_box",
       "price": 792,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 5,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 0
+          "id": "KORMAX",
+          "stock": 5
         }
       ],
       "warranty_type": "no",
