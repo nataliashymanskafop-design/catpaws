@@ -145,7 +145,7 @@ def build_product_catalog(site_catalog, supplier):
     # Беремо тільки товари, які одночасно є у прайсі постачальника
     # та вже заведені в каталозі CatPaws/SalesDrive.
     for sku, supplier_item in supplier.items():
-        if sku in site_catalog:
+        if sku in site_catalog and sku not in FORCE_ZERO_SKUS:
             products[sku] = site_catalog[sku]
 
     # Власні коробки постачальник не передає. Знаходимо їх у каталозі
