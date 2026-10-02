@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T13:04:01Z",
+  "updatedAt": "2026-10-02T18:39:22Z",
   "total": 1484,
   "data": [
     {
@@ -119,11 +119,11 @@
       "price": 2132,
       "old_price": 2665,
       "availability": true,
-      "stock": 17,
+      "stock": 16,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 17
+          "stock": 16
         }
       ],
       "warranty_type": "no",
@@ -175,11 +175,11 @@
       "price": 2307,
       "old_price": 2884,
       "availability": true,
-      "stock": 8,
+      "stock": 7,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 8
+          "stock": 7
         }
       ],
       "warranty_type": "no",
@@ -1770,12 +1770,12 @@
       "code": "NPSC45996",
       "price": 8145,
       "old_price": null,
-      "availability": true,
-      "stock": 5,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 5
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -9135,11 +9135,11 @@
       "price": 3294,
       "old_price": null,
       "availability": true,
-      "stock": 20,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "HOME_FOOD",
-          "stock": 20
+          "id": "SUPPLIER",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -16219,11 +16219,11 @@
       "price": 471,
       "old_price": null,
       "availability": true,
-      "stock": 2,
+      "stock": 1,
       "warehouses": [
         {
-          "id": "PETIMPEX",
-          "stock": 2
+          "id": "SUPPLIER",
+          "stock": 1
         }
       ],
       "warranty_type": "no",

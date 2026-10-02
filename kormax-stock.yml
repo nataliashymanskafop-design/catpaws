@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-10-02 16:01">
+<yml_catalog date="2026-10-02 21:37">
   <shop>
     <name>CatPaws Kormax stock</name>
     <company>CatPaws</company>
@@ -757,8 +757,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="KIKNPSC47200" available="true">
@@ -2671,15 +2671,15 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="NPSC45996" available="true">
+      <offer id="NPSC45996" available="false">
         <name>Сухий беззерновий корм для дорослих собак малих порід з білою шерстю та лососем Nature's Protection Superior Care White Dogs Grain Free Salmon Adult Small Breeds, 17 кг</name>
         <vendorCode>NPSC45996</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="NPSC45997" available="true">
         <name>Сухий беззерновий корм для цуценят малих порід з білим забарвленням шерсті Superior Care White Dogs Grain Free Junior Small and Mini Breeds 17 кг</name>
