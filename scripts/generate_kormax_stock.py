@@ -26,7 +26,7 @@ KORMAX_XLSX_URL = "https://b2b.kormaxtrade.com.ua/feeds/edq0mnq846.xlsx"
 
 OUTPUT_FILE = "public/kormax-stock.yml"
 STATE_FILE = "public/kormax-stock-state.json"
-FORCE_ZERO_SKUS = {"NPUPF63660"}
+FORCE_ZERO_SKUS = {"KIK45279", "NPUPF63660", "NPUPF63661", "NPUPF63662"}
 
 # У замовленні №2506 товари вручну переведені на склад
 # "Kormaxtrade - Білогородка". Воно використовується тільки для
