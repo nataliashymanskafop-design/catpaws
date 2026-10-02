@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-10-02 14:14">
+<yml_catalog date="2026-10-02 16:02">
   <shop>
     <name>CatPaws PETIMPEX stock</name>
     <company>CatPaws</company>
@@ -912,7 +912,7 @@
         <in_stock>1</in_stock>
       </offer>
       <offer id="04GA000600.0001.0032" available="false">
-        <name>BRAVERY Chicken Adult Cat, сухий корм для дорослих котів, з куркою 600 гр</name>
+        <name>04GA000600.0001.0032</name>
         <vendorCode>04GA000600.0001.0032</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
@@ -922,7 +922,7 @@
         <in_stock>0</in_stock>
       </offer>
       <offer id="04GA000600.0002.0032" available="false">
-        <name>BRAVERY Chicken Adult Cat Sterilized, корм для дор. котів стерилізованих , з куркою 600 гр</name>
+        <name>04GA000600.0002.0032</name>
         <vendorCode>04GA000600.0002.0032</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
@@ -931,18 +931,18 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="04GA000600.0003.0032" available="true">
-        <name>BRAVERY Chicken Kitten, сухий корм для кошенят, з куркою 600 гр</name>
+      <offer id="04GA000600.0003.0032" available="false">
+        <name>04GA000600.0003.0032</name>
         <vendorCode>04GA000600.0003.0032</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="04GA000600.0004.0032" available="false">
-        <name>BRAVERY Salmon Adult Cat, сухий корм для дорослих котів, з лососем 600 гр</name>
+        <name>04GA000600.0004.0032</name>
         <vendorCode>04GA000600.0004.0032</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
@@ -952,7 +952,7 @@
         <in_stock>0</in_stock>
       </offer>
       <offer id="04GA000600.0005.0032" available="false">
-        <name>BRAVERY Salmon Adult Cat Sterilized, сухий корм для дор. котів стерилізованих, з лососем 600 гр</name>
+        <name>04GA000600.0005.0032</name>
         <vendorCode>04GA000600.0005.0032</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
@@ -962,7 +962,7 @@
         <in_stock>0</in_stock>
       </offer>
       <offer id="04GA000600.0007.0032" available="false">
-        <name>BRAVERY Herring Adult Cat, сухий корм для дорослих котів, з оселедцем 600 гр</name>
+        <name>04GA000600.0007.0032</name>
         <vendorCode>04GA000600.0007.0032</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
@@ -972,7 +972,7 @@
         <in_stock>0</in_stock>
       </offer>
       <offer id="04GA000600.0008.0032" available="false">
-        <name>BRAVERY Herring Adult Cat Sterilized,сухий корм для дор. котів стерилізованих, з оселедцем 600 гр</name>
+        <name>04GA000600.0008.0032</name>
         <vendorCode>04GA000600.0008.0032</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
@@ -982,7 +982,7 @@
         <in_stock>0</in_stock>
       </offer>
       <offer id="04GA000600.0009.0032" available="false">
-        <name>Корм для котів AMITY Chicken&amp;Rice, повсякденний, з куркою і рисом, 600g</name>
+        <name>04GA000600.0009.0032</name>
         <vendorCode>04GA000600.0009.0032</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
@@ -992,7 +992,7 @@
         <in_stock>0</in_stock>
       </offer>
       <offer id="04GA000600.0010.0032" available="false">
-        <name>Корм для котів AMITY Sterilized Chicken, для стерилізованих, з куркою, 600g</name>
+        <name>04GA000600.0010.0032</name>
         <vendorCode>04GA000600.0010.0032</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
@@ -1002,7 +1002,7 @@
         <in_stock>0</in_stock>
       </offer>
       <offer id="04GA000600.0011.0032" available="false">
-        <name>Корм для котів AMITY Kitten, повсякденний для кошенят, з куркою і рисом, 600g</name>
+        <name>04GA000600.0011.0032</name>
         <vendorCode>04GA000600.0011.0032</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
@@ -1012,7 +1012,7 @@
         <in_stock>0</in_stock>
       </offer>
       <offer id="04GA000600.0012.0032" available="false">
-        <name>Корм для котів AMITY Salmon&amp;Rice, повсякденний, з лососем і рисом, 600g</name>
+        <name>04GA000600.0012.0032</name>
         <vendorCode>04GA000600.0012.0032</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
@@ -1022,7 +1022,7 @@
         <in_stock>0</in_stock>
       </offer>
       <offer id="04GA000600.0013.0032" available="false">
-        <name>Корм для котів AMITY Sterilized Salmon, для стерилізованих, з лососем, 600g</name>
+        <name>04GA000600.0013.0032</name>
         <vendorCode>04GA000600.0013.0032</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
@@ -1031,48 +1031,48 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="04PE000600.0001.0032" available="true">
-        <name>BRAVERY Chicken Mini Puppy,сухий корм для цуценят дрібних порід,з куркою 600 гр</name>
+      <offer id="04PE000600.0001.0032" available="false">
+        <name>04PE000600.0001.0032</name>
         <vendorCode>04PE000600.0001.0032</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
-      <offer id="04PE000600.0003.0032" available="true">
-        <name>BRAVERY Salmon Mini Puppy ,сухий корм для цуценят дрібних порід,з лососем 600 гр</name>
+      <offer id="04PE000600.0003.0032" available="false">
+        <name>04PE000600.0003.0032</name>
         <vendorCode>04PE000600.0003.0032</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
-      <offer id="04PE002000.0004.0192" available="true">
-        <name>BRAVERY Chicken Mini Adult,сухий корм для дор.собак дрібних порід,з куркою 2kg</name>
+      <offer id="04PE002000.0004.0192" available="false">
+        <name>04PE002000.0004.0192</name>
         <vendorCode>04PE002000.0004.0192</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
-      <offer id="04PE002000.0006.0192" available="true">
-        <name>BRAVERY Iberian Pork Mini Adult LIGHT,сухий корм для дор.собак дрібних порід,зі свининою по -іберійськи Легка 2kg</name>
+      <offer id="04PE002000.0006.0192" available="false">
+        <name>04PE002000.0006.0192</name>
         <vendorCode>04PE002000.0006.0192</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="04PE002000.0007.0192" available="false">
-        <name>BRAVERY Iberian Pork Mini Adult,сухий корм для дор.собак дрібних порід,з іберійською свининою 2kg</name>
+        <name>04PE002000.0007.0192</name>
         <vendorCode>04PE002000.0007.0192</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
@@ -1082,7 +1082,7 @@
         <in_stock>0</in_stock>
       </offer>
       <offer id="04PE002000.0008.0192" available="false">
-        <name>BRAVERY Lamb Mini Adult,сухий корм для дор.собак дрібних порід,з ягням 2kg</name>
+        <name>04PE002000.0008.0192</name>
         <vendorCode>04PE002000.0008.0192</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
@@ -1091,28 +1091,28 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="04PE002000.0009.0192" available="true">
-        <name>BRAVERY Salmon Mini Adult, сухий корм для дор.собак дрібних порід,з лососем 2kg</name>
+      <offer id="04PE002000.0009.0192" available="false">
+        <name>04PE002000.0009.0192</name>
         <vendorCode>04PE002000.0009.0192</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
-      <offer id="04PE002000.0022.0192" available="true">
-        <name>BRAVERY Herring Mini Adult,сухий корм для дор.собак дрібних порід,з оселедцем 2kg</name>
+      <offer id="04PE002000.0022.0192" available="false">
+        <name>04PE002000.0022.0192</name>
         <vendorCode>04PE002000.0022.0192</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="04PE002000.0046.0192" available="false">
-        <name>Корм для собак AMITY Mini Adult, для дрібних порід, з куркою і ягням, 2 kg</name>
+        <name>04PE002000.0046.0192</name>
         <vendorCode>04PE002000.0046.0192</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
@@ -1122,7 +1122,7 @@
         <in_stock>0</in_stock>
       </offer>
       <offer id="04PE003000.0003.0096" available="false">
-        <name>Корм для собак AMITY Adult Iberian Pork&amp;Rice, дієтичний, з іберійською свининою і рисом, 3kg</name>
+        <name>04PE003000.0003.0096</name>
         <vendorCode>04PE003000.0003.0096</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
@@ -1132,7 +1132,7 @@
         <in_stock>0</in_stock>
       </offer>
       <offer id="04PE004000.0006.0096" available="false">
-        <name>AMITY Super Premium Adult Chicken, сухий корм для дорослих собак, з куркою 4 kg</name>
+        <name>04PE004000.0006.0096</name>
         <vendorCode>04PE004000.0006.0096</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
@@ -1142,7 +1142,7 @@
         <in_stock>0</in_stock>
       </offer>
       <offer id="04PE004000.0007.0096" available="false">
-        <name>AMITY Super Premium Adult Iberian Pork, сухий корм для дорослих собак, з іберійською свининою 4 kg</name>
+        <name>04PE004000.0007.0096</name>
         <vendorCode>04PE004000.0007.0096</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
@@ -1152,7 +1152,7 @@
         <in_stock>0</in_stock>
       </offer>
       <offer id="04PE004000.0008.0096" available="false">
-        <name>AMITY Super Premium Adult Lamb, сухий корм для дорослих собак, з ягням 4 kg</name>
+        <name>04PE004000.0008.0096</name>
         <vendorCode>04PE004000.0008.0096</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
@@ -1162,7 +1162,7 @@
         <in_stock>0</in_stock>
       </offer>
       <offer id="04PE004000.0009.0096" available="false">
-        <name>AMITY Super Premium Adult Salmon, сухий корм для дорослих собак, з лососем 4 kg</name>
+        <name>04PE004000.0009.0096</name>
         <vendorCode>04PE004000.0009.0096</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
@@ -1172,7 +1172,7 @@
         <in_stock>0</in_stock>
       </offer>
       <offer id="04PE004000.0010.0096" available="false">
-        <name>AMITY Super Premium Puppy Chicken, для цуценят усіх порід, з куркою 4 kg</name>
+        <name>04PE004000.0010.0096</name>
         <vendorCode>04PE004000.0010.0096</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
@@ -1182,7 +1182,7 @@
         <in_stock>0</in_stock>
       </offer>
       <offer id="04PE004000.0019.0096" available="false">
-        <name>BRAVERY Chicken Adult Large/Medium,сухий корм для дор.собак середніх та великих порід, з куркою 4kg</name>
+        <name>04PE004000.0019.0096</name>
         <vendorCode>04PE004000.0019.0096</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
@@ -1192,7 +1192,7 @@
         <in_stock>0</in_stock>
       </offer>
       <offer id="04PE004000.0020.0096" available="false">
-        <name>BRAVERY Chicken Puppy Large/Medium,сухий корм для цуценят cередніх та великих порід,з куркою 4kg</name>
+        <name>04PE004000.0020.0096</name>
         <vendorCode>04PE004000.0020.0096</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
@@ -1202,7 +1202,7 @@
         <in_stock>0</in_stock>
       </offer>
       <offer id="04PE004000.0021.0096" available="false">
-        <name>BRAVERY Iberian Pork Large/Medium Adult,сухий корм для дор.собак cередніх та великих порід,з іберійською свининою 4kg</name>
+        <name>04PE004000.0021.0096</name>
         <vendorCode>04PE004000.0021.0096</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
@@ -1212,7 +1212,7 @@
         <in_stock>0</in_stock>
       </offer>
       <offer id="04PE004000.0022.0096" available="false">
-        <name>BRAVERY Iberian Pork Large/Medium Adult LIGHT,сухий корм для дор.собак cередніх та великих порід,зі свининою по -іберійськи Легка 4kg</name>
+        <name>04PE004000.0022.0096</name>
         <vendorCode>04PE004000.0022.0096</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
@@ -1222,7 +1222,7 @@
         <in_stock>0</in_stock>
       </offer>
       <offer id="04PE004000.0023.0096" available="false">
-        <name>BRAVERY Lamb Large/Medium Adult,сухий корм для дор.собак cередніх та великих порід,з ягням 4kg</name>
+        <name>04PE004000.0023.0096</name>
         <vendorCode>04PE004000.0023.0096</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
@@ -1232,7 +1232,7 @@
         <in_stock>0</in_stock>
       </offer>
       <offer id="04PE004000.0024.0096" available="false">
-        <name>BRAVERY Salmon Large/Medium Adult,сухий корм для дор.собак cередніх та великих порід,з лососем 4kg</name>
+        <name>04PE004000.0024.0096</name>
         <vendorCode>04PE004000.0024.0096</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
@@ -1242,7 +1242,7 @@
         <in_stock>0</in_stock>
       </offer>
       <offer id="04PE004000.0065.0096" available="false">
-        <name>BRAVERY Herring Large/Medium Adult,сухий корм для дор.собак cередніх та великих порід,з оселедцем 4kg</name>
+        <name>04PE004000.0065.0096</name>
         <vendorCode>04PE004000.0065.0096</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
@@ -1252,7 +1252,7 @@
         <in_stock>0</in_stock>
       </offer>
       <offer id="04PE004000.0098.0096" available="false">
-        <name>Корм для собак AMITY Adult Chicken&amp;Rice, повсякденний, з куркою і рисом, 4 kg</name>
+        <name>04PE004000.0098.0096</name>
         <vendorCode>04PE004000.0098.0096</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
@@ -1262,7 +1262,7 @@
         <in_stock>0</in_stock>
       </offer>
       <offer id="04PE004000.0099.0096" available="false">
-        <name>Корм для собак AMITY Adult Salmon&amp;Rice, гіпоалергенний, з лососем і рисом, 4 kg</name>
+        <name>04PE004000.0099.0096</name>
         <vendorCode>04PE004000.0099.0096</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
@@ -1272,7 +1272,7 @@
         <in_stock>0</in_stock>
       </offer>
       <offer id="04PE004000.0101.0096" available="false">
-        <name>Корм для собак AMITY Adult Lamb&amp;Rice, дієтичний, з ягням і рисом, 4kg</name>
+        <name>04PE004000.0101.0096</name>
         <vendorCode>04PE004000.0101.0096</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
@@ -1282,7 +1282,7 @@
         <in_stock>0</in_stock>
       </offer>
       <offer id="04PE015000.0001.0027" available="false">
-        <name>Корм для собак AMITY Adult Activity, енергетичний, для собак з підвищеними навантаженнями, 15kg (215)</name>
+        <name>04PE015000.0001.0027</name>
         <vendorCode>04PE015000.0001.0027</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
@@ -1292,7 +1292,7 @@
         <in_stock>0</in_stock>
       </offer>
       <offer id="04PE015000.0089.0027" available="false">
-        <name>Корм для собак AMITY Adult Gigantes Chicken&amp;Rice,для великих порід ,з куркою і рисом, 15KG (223)</name>
+        <name>04PE015000.0089.0027</name>
         <vendorCode>04PE015000.0089.0027</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
@@ -2347,8 +2347,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="20004-4" available="true">
@@ -3247,8 +3247,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="30010-5" available="true">
@@ -3477,8 +3477,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="3012" available="true">
@@ -5577,8 +5577,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="482,09" available="true">
@@ -6587,8 +6587,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="484,39" available="true">
@@ -8417,19 +8417,19 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="582,71" available="true">
+      <offer id="582,71" available="false">
         <name>Когтеріз для котів Caty salon, (ножиці) , 5,4*8.5 cм (6шт.уп.)</name>
         <vendorCode>582,71</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="582,81" available="true">
         <name>Пуходерка для котів Expert,14*6 см (12шт.уп.)</name>
@@ -8891,15 +8891,15 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="585,42" available="true">
+      <offer id="585,42" available="false">
         <name>Іграшка для котів Caty funny дразнилка з пір'їнкою, 30 см (12шт.уп.)</name>
         <vendorCode>585,42</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="585,43" available="true">
         <name>Іграшка для котів Caty funny дразнилка (миша,м'ячик),30 см (12шт.уп.)</name>
@@ -12611,15 +12611,15 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="AD059/A" available="true">
+      <offer id="AD059/A" available="false">
         <name>Іграшка для собак гантель гумова з бейсбольними м'ячами по краях з пищалкою, 10 см 6 шт.упак (ціна за 1шт)</name>
         <vendorCode>AD059/A</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="AD065/A" available="false">
         <name>Іграшка для собак м'яч канат бавовняний, 6,5 см, 80/85 гр, 6 шт.упак (ціна за 1шт)</name>
@@ -17277,8 +17277,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="C3052103" available="false">
@@ -17367,8 +17367,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="C3052264" available="true">
@@ -17981,15 +17981,15 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="C5079830" available="true">
+      <offer id="C5079830" available="false">
         <name>Повідець SOFT REFLECTIVE світловідбиваючий, м'який, червоний, нейлон, 120х1см (3шт/уп)</name>
         <vendorCode>C5079830</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="C5079871" available="false">
         <name>Нашийник SOFT REFLECTIVE світловідбиваючий, м'який, зелений, нейлон, 30-45х1,5см (3шт/уп)</name>
@@ -18301,15 +18301,15 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="C5179741" available="true">
+      <offer id="C5179741" available="false">
         <name>Повідець SOFT REFLECTIVE світловідбиваючий, м'який, бордо, нейлон, 120х1см (3шт уп)</name>
         <vendorCode>C5179741</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="C5179745" available="false">
         <name>Шлея SOFT REFLECTIVE, світловідбиваюча, м'який, бордо, нейлон, 25-40х1см (3шт/уп)</name>
@@ -18431,15 +18431,15 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="C5MZ0294" available="true">
+      <offer id="C5MZ0294" available="false">
         <name>Нашийник нейлон, регульований, чорний, 21-28x1 см (3шт/уп)</name>
         <vendorCode>C5MZ0294</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="C6002315" available="true">
         <name>Щітка подвійна дерев'яна, 220х55мм, 12шт/уп</name>
@@ -19427,8 +19427,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="C6052776" available="true">
@@ -19451,15 +19451,15 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="C6052935" available="true">
+      <offer id="C6052935" available="false">
         <name>Серветки гігієнічні ECO ALMOND/SHEA BUTTER,(миндаль+масло ши) 30шт / уп (12шт / кор.) ціна за уп.</name>
         <vendorCode>C6052935</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="C6058056" available="true">
         <name>Накидка на сидіння в авто з бортиками, нейлон, 125х120см</name>
@@ -19861,15 +19861,15 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="C6067187" available="true">
+      <offer id="C6067187" available="false">
         <name>Фурминатор POWERfur для котів короткошерстих, М (більше 4,5 кг), 6,5 см, 3шт/уп</name>
         <vendorCode>C6067187</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="C6067188" available="true">
         <name>Фурминатор POWERfur для собак довгошерстих, S (до 9 кг), 4,5 см, 3шт/уп</name>
@@ -19911,15 +19911,15 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="C6067192" available="true">
+      <offer id="C6067192" available="false">
         <name>Фурминатор POWERfur для котів довгошерстих, М (більше 4,5 кг), 6,5 см, 3шт/уп</name>
         <vendorCode>C6067192</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="C6067311" available="false">
         <name>Рукавичка Groomy (аналог True Touch), для вичісування шерсті, розмір М, права (ціна за 1 шт) 2шт/уп</name>
@@ -27522,7 +27522,7 @@
         <in_stock>0</in_stock>
       </offer>
       <offer id="SP 816 KITTEN 2KG" available="false">
-        <name>AMITY Super Premium Kitten Salmon сухий корм для кошенят, з лососем, 2 kg</name>
+        <name>SP 816 KITTEN 2KG</name>
         <vendorCode>SP 816 KITTEN 2KG</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
@@ -27532,7 +27532,7 @@
         <in_stock>0</in_stock>
       </offer>
       <offer id="SP 915 SALM 2KG" available="false">
-        <name>AMITY Super Premium Cat Salmоn сухий корм для дорослих котів, з лососем, 2 kg</name>
+        <name>SP 915 SALM 2KG</name>
         <vendorCode>SP 915 SALM 2KG</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
@@ -27542,7 +27542,7 @@
         <in_stock>0</in_stock>
       </offer>
       <offer id="SP 922 STER SALAMITYM 2KG" available="false">
-        <name>AMITY Super Premium Cat Sterilized Salmon сухий корм для дор. стерелізованих котів, з лососем, 2 kg</name>
+        <name>SP 922 STER SALAMITYM 2KG</name>
         <vendorCode>SP 922 STER SALAMITYM 2KG</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
@@ -27837,8 +27837,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="ММ-24" available="true">
@@ -27897,8 +27897,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="ММ-45" available="true">
@@ -27907,8 +27907,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="ММ-50" available="true">
@@ -28067,8 +28067,8 @@
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="НФ-00002014" available="false">
@@ -29921,15 +29921,15 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="СС-66" available="true">
+      <offer id="СС-66" available="false">
         <name>Ласощі для собак Легені яловичі 1,0 кг</name>
         <vendorCode>СС-66</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="СС-67" available="true">
         <name>Ласощі для собак Рубець яловичий різаний 1,0 кг</name>
