@@ -1362,9 +1362,9 @@
         <vendorCode>018180</vendorCode>
         <quantity_in_stock>2</quantity_in_stock>
       </offer>
-      <offer id="2169" available="true">
+      <offer id="2169" available="false">
         <vendorCode>018197</vendorCode>
-        <quantity_in_stock>20</quantity_in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
       </offer>
       <offer id="2170" available="true">
         <vendorCode>018128</vendorCode>
