@@ -1918,9 +1918,9 @@
         <vendorCode>7000001</vendorCode>
         <quantity_in_stock>21</quantity_in_stock>
       </offer>
-      <offer id="2943" available="true">
+      <offer id="2943" available="false">
         <vendorCode>7000008</vendorCode>
-        <quantity_in_stock>20</quantity_in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
       </offer>
       <offer id="2945" available="true">
         <vendorCode>7000010</vendorCode>
