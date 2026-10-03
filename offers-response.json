@@ -9778,12 +9778,12 @@
       "code": "7000008",
       "price": 642,
       "old_price": null,
-      "availability": true,
-      "stock": 20,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 20
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -9800,7 +9800,8 @@
           "price": 0
         }
       ],
-      "manufacture": null
+      "manufacture": null,
+      "updatedAt": "2026-10-03T09:06:52.577Z"
     },
     {
       "code": "7000003",
