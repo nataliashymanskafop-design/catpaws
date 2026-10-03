@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T07:50:32Z",
+  "updatedAt": "2026-10-03T09:18:10Z",
   "total": 1487,
   "data": [
     {
@@ -6922,12 +6922,12 @@
       "code": "018197",
       "price": 4500,
       "old_price": null,
-      "availability": true,
-      "stock": 20,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "DOMS",
-          "stock": 20
+          "stock": 0
         }
       ],
       "warranty_type": "no",
