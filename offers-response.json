@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T09:18:10Z",
+  "updatedAt": "2026-10-03T13:12:28Z",
   "total": 1487,
   "data": [
     {
@@ -5578,12 +5578,12 @@
       "code": "TPL63594",
       "price": 3134,
       "old_price": null,
-      "availability": true,
-      "stock": 5,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 5
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -9303,11 +9303,11 @@
       "price": 542,
       "old_price": 677,
       "availability": true,
-      "stock": 17,
+      "stock": 16,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 17
+          "stock": 16
         }
       ],
       "warranty_type": "no",
@@ -9800,8 +9800,7 @@
           "price": 0
         }
       ],
-      "manufacture": null,
-      "updatedAt": "2026-10-03T09:06:52.577Z"
+      "manufacture": null
     },
     {
       "code": "7000003",
@@ -10284,11 +10283,11 @@
       "price": 348,
       "old_price": null,
       "availability": true,
-      "stock": 5,
+      "stock": 6,
       "warehouses": [
         {
           "id": "SUPPLIER",
-          "stock": 5
+          "stock": 6
         }
       ],
       "warranty_type": "no",
@@ -27587,12 +27586,12 @@
       "code": "30001650_box",
       "price": 992,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 1,
       "warehouses": [
         {
           "id": "SUPPLIER",
-          "stock": 0
+          "stock": 1
         }
       ],
       "warranty_type": "no",
