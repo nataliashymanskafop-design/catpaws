@@ -1171,15 +1171,15 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="7000008" available="true">
+      <offer id="7000008" available="false">
         <name>Дієтична добавка CBD oil 2% для зменшення тривожності та болю Relax Pro HOME FOOD Expert, 10 мл</name>
         <vendorCode>7000008</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="7000009" available="true">
         <name>Гепатопротектор для підтримки функцій печінки Liver Pro HOME FOOD Expert, 30 мл</name>
