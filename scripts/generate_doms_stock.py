@@ -84,6 +84,7 @@ SUPPLIER_SKUS = {
 SUPPLIER_SKU_ALIASES = {}
 
 FORCE_ZERO_SKUS = {
+    "018197",  # Temporarily unavailable in Sviatopetrivske.
     "368208",
     "368215",
     "244215",
