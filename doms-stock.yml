@@ -441,15 +441,15 @@
         <stock>19</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="018197" available="true">
+      <offer id="018197" available="false">
         <name>Сухий корм Сhicopee HNL URINARY для котів з сечокам'яною хворобою 8 кг</name>
         <vendorCode>018197</vendorCode>
         <price>1</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="018968" available="true">
         <name>Консерва для дорослих собак з птицею та рисом Chicopee Dog Adult Pure Poultry &amp; Rice 400 г</name>
