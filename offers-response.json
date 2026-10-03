@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-02T22:53:37Z",
-  "total": 1484,
+  "updatedAt": "2026-10-03T01:50:06Z",
+  "total": 1487,
   "data": [
     {
       "code": "1018100",
@@ -2888,8 +2888,8 @@
     },
     {
       "code": "NPB46050",
-      "price": 7403,
-      "old_price": null,
+      "price": 5922,
+      "old_price": 7403,
       "availability": true,
       "stock": 20,
       "warehouses": [
@@ -3000,8 +3000,8 @@
     },
     {
       "code": "NPS45776",
-      "price": 1144,
-      "old_price": null,
+      "price": 915,
+      "old_price": 1144,
       "availability": true,
       "stock": 20,
       "warehouses": [
@@ -3140,8 +3140,8 @@
     },
     {
       "code": "NPB46042",
-      "price": 7455,
-      "old_price": null,
+      "price": 5964,
+      "old_price": 7455,
       "availability": true,
       "stock": 20,
       "warehouses": [
@@ -3476,8 +3476,8 @@
     },
     {
       "code": "NPLS45685",
-      "price": 4537,
-      "old_price": null,
+      "price": 3856,
+      "old_price": 4537,
       "availability": true,
       "stock": 20,
       "warehouses": [
@@ -4820,8 +4820,8 @@
     },
     {
       "code": "NPS45737",
-      "price": 994,
-      "old_price": null,
+      "price": 895,
+      "old_price": 994,
       "availability": true,
       "stock": 20,
       "warehouses": [
@@ -5472,34 +5472,6 @@
         {
           "id": "KORMAX",
           "stock": 20
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 2,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "NPSCVET47577",
-      "price": 6214,
-      "old_price": null,
-      "availability": false,
-      "stock": 0,
-      "warehouses": [
-        {
-          "id": "KORMAX",
-          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -14283,34 +14255,6 @@
       "manufacture": null
     },
     {
-      "code": "NPSC47909_box",
-      "price": 792,
-      "old_price": null,
-      "availability": false,
-      "stock": 0,
-      "warehouses": [
-        {
-          "id": "KORMAX",
-          "stock": 0
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 2,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
       "code": "NPSC47910_box",
       "price": 792,
       "old_price": null,
@@ -18987,6 +18931,146 @@
       "manufacture": null
     },
     {
+      "code": "041061",
+      "price": 917,
+      "old_price": null,
+      "availability": false,
+      "stock": 0,
+      "warehouses": [
+        {
+          "id": "SUPPLIER",
+          "stock": 0
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 2,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "041063",
+      "price": 1313,
+      "old_price": null,
+      "availability": false,
+      "stock": 0,
+      "warehouses": [
+        {
+          "id": "SUPPLIER",
+          "stock": 0
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 2,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "041013",
+      "price": 1082,
+      "old_price": null,
+      "availability": false,
+      "stock": 0,
+      "warehouses": [
+        {
+          "id": "SUPPLIER",
+          "stock": 0
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 2,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "041014",
+      "price": 759,
+      "old_price": null,
+      "availability": false,
+      "stock": 0,
+      "warehouses": [
+        {
+          "id": "SUPPLIER",
+          "stock": 0
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 2,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "041015",
+      "price": 759,
+      "old_price": null,
+      "availability": false,
+      "stock": 0,
+      "warehouses": [
+        {
+          "id": "SUPPLIER",
+          "stock": 0
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 2,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
       "code": "7652 SHCRI 100",
       "price": 311,
       "old_price": null,
@@ -20387,6 +20471,90 @@
       "manufacture": null
     },
     {
+      "code": "NPSC70466-K2-12",
+      "price": 634,
+      "old_price": 792,
+      "availability": false,
+      "stock": 0,
+      "warehouses": [
+        {
+          "id": "SUPPLIER",
+          "stock": 0
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 2,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "NPSC70465-K2-12",
+      "price": 634,
+      "old_price": 792,
+      "availability": false,
+      "stock": 0,
+      "warehouses": [
+        {
+          "id": "SUPPLIER",
+          "stock": 0
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 2,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "NPSC70467-12",
+      "price": 792,
+      "old_price": null,
+      "availability": false,
+      "stock": 0,
+      "warehouses": [
+        {
+          "id": "SUPPLIER",
+          "stock": 0
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 2,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
       "code": "50014798р",
       "price": 1420,
       "old_price": null,
@@ -21648,8 +21816,8 @@
     },
     {
       "code": "NPLS45803",
-      "price": 3615,
-      "old_price": null,
+      "price": 3073,
+      "old_price": 3615,
       "availability": false,
       "stock": 0,
       "warehouses": [
@@ -22069,6 +22237,34 @@
     {
       "code": "NPB46032",
       "price": 5516,
+      "old_price": null,
+      "availability": false,
+      "stock": 0,
+      "warehouses": [
+        {
+          "id": "KORMAX",
+          "stock": 0
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 2,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "NPSCVET47577",
+      "price": 6214,
       "old_price": null,
       "availability": false,
       "stock": 0,
@@ -27780,8 +27976,36 @@
     },
     {
       "code": "NPSC47908_box",
-      "price": 792,
-      "old_price": null,
+      "price": 634,
+      "old_price": 792,
+      "availability": false,
+      "stock": 0,
+      "warehouses": [
+        {
+          "id": "KORMAX",
+          "stock": 0
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 2,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "NPSC47909_box",
+      "price": 634,
+      "old_price": 792,
       "availability": false,
       "stock": 0,
       "warehouses": [
@@ -32427,148 +32651,8 @@
       "manufacture": null
     },
     {
-      "code": "041061",
-      "price": 917,
-      "old_price": null,
-      "availability": false,
-      "stock": 0,
-      "warehouses": [
-        {
-          "id": "SUPPLIER",
-          "stock": 0
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 2,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
       "code": "041062",
       "price": 1056,
-      "old_price": null,
-      "availability": false,
-      "stock": 0,
-      "warehouses": [
-        {
-          "id": "SUPPLIER",
-          "stock": 0
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 2,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "041063",
-      "price": 1313,
-      "old_price": null,
-      "availability": false,
-      "stock": 0,
-      "warehouses": [
-        {
-          "id": "SUPPLIER",
-          "stock": 0
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 2,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "041013",
-      "price": 1082,
-      "old_price": null,
-      "availability": false,
-      "stock": 0,
-      "warehouses": [
-        {
-          "id": "SUPPLIER",
-          "stock": 0
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 2,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "041014",
-      "price": 759,
-      "old_price": null,
-      "availability": false,
-      "stock": 0,
-      "warehouses": [
-        {
-          "id": "SUPPLIER",
-          "stock": 0
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 2,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "041015",
-      "price": 759,
       "old_price": null,
       "availability": false,
       "stock": 0,
