@@ -88,7 +88,7 @@ def to_int(value, default=0):
     if value is None:
         return default
 
-    value = str(value).strip()
+    value = "".join(str(value).split()).replace(",", ".")
 
     if value == "":
         return default

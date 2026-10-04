@@ -146,6 +146,10 @@ def build_feed(catalog_root, own_stock, supplier_stock):
             f"only {len(seen_skus)} products"
         )
 
+    # A stock import must never overwrite retail or promotional prices.
+    if root.xpath(".//price | .//oldprice | .//purchaseprice"):
+        raise RuntimeError("Price fields are forbidden in the site stock feed")
+
     return root, source_counts
 
 

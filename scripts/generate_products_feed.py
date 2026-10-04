@@ -41,13 +41,14 @@ def main():
         price_text = offer.findtext("price")
 
         try:
-            price = float(price_text)
+            price = float("".join(str(price_text).split()).replace(",", "."))
         except (TypeError, ValueError):
             price = 0
 
         if price <= MIN_PRICE:
             offer.getparent().remove(offer)
             continue    
+        offer.find("price").text = format(price, ".2f")
         vendor_code = offer.findtext("vendorCode")
 
         if not vendor_code:

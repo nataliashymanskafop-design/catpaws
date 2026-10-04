@@ -570,11 +570,6 @@ def build_yml(products, published_stock):
 
         etree.SubElement(
             offer,
-            "price",
-        ).text = "1"
-
-        etree.SubElement(
-            offer,
             "currencyId",
         ).text = "UAH"
 

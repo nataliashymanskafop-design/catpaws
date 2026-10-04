@@ -56,7 +56,7 @@ def parse_price(value):
         return None
 
     try:
-        return float(value.replace(",", "."))
+        return float("".join(value.split()).replace(",", "."))
     except (ValueError, TypeError):
         return None
 

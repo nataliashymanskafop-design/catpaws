@@ -438,7 +438,6 @@ def build_yml(products, published_stock):
         )
         etree.SubElement(offer, "name").text = name
         etree.SubElement(offer, "vendorCode").text = sku
-        etree.SubElement(offer, "price").text = "1"
         etree.SubElement(offer, "currencyId").text = "UAH"
         etree.SubElement(offer, "categoryId").text = "1"
         etree.SubElement(offer, "quantity_in_stock").text = str(quantity)
