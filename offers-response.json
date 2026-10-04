@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T23:39:12Z",
+  "updatedAt": "2026-10-04T05:35:43Z",
   "total": 1487,
   "data": [
     {
@@ -36490,12 +36490,12 @@
       "code": "7652 SHCRI 100",
       "price": 311,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 0
+          "id": "PETIMPEX",
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -39098,7 +39098,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "PETIMPEX",
           "stock": 0
         }
       ],
@@ -39238,7 +39238,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "PETIMPEX",
           "stock": 0
         }
       ],
@@ -39266,7 +39266,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "PETIMPEX",
           "stock": 0
         }
       ],
@@ -39458,12 +39458,12 @@
       "code": "H2SH1AL0100NOKNN",
       "price": 458,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 1,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 0
+          "id": "PETIMPEX",
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -39486,12 +39486,12 @@
       "code": "H2SH1AL0100HYKNN",
       "price": 458,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 1,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 0
+          "id": "PETIMPEX",
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -39570,12 +39570,12 @@
       "code": "H3MI1AL0100HYKNN",
       "price": 714,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 1,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 0
+          "id": "PETIMPEX",
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -39598,12 +39598,12 @@
       "code": "H3PW1GC0024NOKNN",
       "price": 885,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 1,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 0
+          "id": "PETIMPEX",
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -39626,12 +39626,12 @@
       "code": "H3DO1AL0500OCKNN",
       "price": 594,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 1,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 0
+          "id": "PETIMPEX",
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -39654,12 +39654,12 @@
       "code": "H3DO1AL0500GLKNN",
       "price": 594,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 1,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 0
+          "id": "PETIMPEX",
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -40078,7 +40078,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -40106,7 +40106,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -40134,7 +40134,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -40158,12 +40158,12 @@
       "code": "1367103",
       "price": 2042,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 20,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 0
+          "id": "HOME_FOOD",
+          "stock": 20
         }
       ],
       "warranty_type": "no",
@@ -41254,7 +41254,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -41278,12 +41278,12 @@
       "code": "1128016",
       "price": 554,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 20,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 0
+          "id": "HOME_FOOD",
+          "stock": 20
         }
       ],
       "warranty_type": "no",
@@ -41306,12 +41306,12 @@
       "code": "1148016",
       "price": 522,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 20,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 0
+          "id": "HOME_FOOD",
+          "stock": 20
         }
       ],
       "warranty_type": "no",
@@ -41338,7 +41338,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -41366,7 +41366,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -41394,7 +41394,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -41422,7 +41422,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -41450,7 +41450,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -41478,7 +41478,7 @@
       "stock": 0,
       "warehouses": [
         {
-          "id": "SUPPLIER",
+          "id": "DARWIN",
           "stock": 0
         }
       ],
@@ -41502,12 +41502,12 @@
       "code": "7010055-12",
       "price": 564,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 5,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 0
+          "id": "HOME_FOOD",
+          "stock": 5
         }
       ],
       "warranty_type": "no",
@@ -41530,12 +41530,12 @@
       "code": "7010053-12",
       "price": 564,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 5,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 0
+          "id": "HOME_FOOD",
+          "stock": 5
         }
       ],
       "warranty_type": "no",

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-10-04 08:29">
+<yml_catalog date="2026-10-04 08:35">
   <shop>
     <name>CatPaws PETIMPEX stock</name>
     <company>CatPaws</company>
@@ -32,6 +32,15 @@
       <offer id="0013 шампунь 30мл" available="false">
         <name>Шампунь Iv San Bernard Black Cherry для короткої шерсті, с протеінами шовку та чорною вишнею, 30мл</name>
         <vendorCode>0013 шампунь 30мл</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
+      <offer id="0015 NSHA011000" available="false">
+        <name>1 Шампунь Iv San Bernard 01 Nourishing, захистна очищуюча дія, з маслом Аргана, 1л (6 шт/уп)</name>
+        <vendorCode>0015 NSHA011000</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>0</quantity_in_stock>
@@ -155,6 +164,15 @@
         <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
+      <offer id="0046 NSHA013000" available="false">
+        <name>1 Шампунь Iv San Bernard 01 Nourishing, захистна очищуюча дія, з маслом Аргана, 3л ( 2 шт/уп)</name>
+        <vendorCode>0046 NSHA013000</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
       <offer id="0051 BALAL300" available="true">
         <name>Кондиціонер APRICOT для котів,середнього та короткого типу шерсті,пом'якшуючий 300 ml. (12шт/уп)</name>
         <vendorCode>0051 BALAL300</vendorCode>
@@ -173,6 +191,87 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
+      <offer id="0082 SHACO1000" available="true">
+        <name>Шампунь COCONUT для котів, всі типи шерсті,заспокійливий 1000 ml. (6шт/уп)</name>
+        <vendorCode>0082 SHACO1000</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="0084 NMASK021000" available="false">
+        <name>2 Маска Iv San Bernard 02 Energetic and Revitalising, захист і відновлення, з мінерал. солями, 1л (6 шт/уп)</name>
+        <vendorCode>0084 NMASK021000</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
+      <offer id="0099 SHAAL1000" available="true">
+        <name>Шампунь APRICOT для котів,середнього та короткого типу шерсті,пом'якшуючий 1000 ml. (6шт/уп)</name>
+        <vendorCode>0099 SHAAL1000</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="0105 BALCO1000" available="true">
+        <name>Кондиціонер COCONUT для котів, всі типи шерсті,заспокійливий 1000 ml. (6шт/уп)</name>
+        <vendorCode>0105 BALCO1000</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="0107 NMASK023000" available="false">
+        <name>2 Маска Iv San Bernard 02 Energetic and Revitalising, захист і відновлення, з мінерал. солями, 3л ( 2 шт/уп)</name>
+        <vendorCode>0107 NMASK023000</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
+      <offer id="0112 BALAL1000" available="true">
+        <name>Кондиціонер APRICOT для котів,середнього та короткого типу шерсті,пом'якшуючий 1000 ml. (6шт/уп)</name>
+        <vendorCode>0112 BALAL1000</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="0129 SHACO3000" available="false">
+        <name>Шампунь COCONUT для котів, всі типи шерсті,заспокійливий 3000 ml. (2шт/уп)</name>
+        <vendorCode>0129 SHACO3000</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
+      <offer id="0136 BALAL3000" available="true">
+        <name>Кондиціонер APRICOT для котів,середнього та короткого типу шерсті,пом'якшуючий 3000 ml. (2шт/уп)</name>
+        <vendorCode>0136 BALAL3000</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="0143 BALCO3000" available="true">
+        <name>Кондиціонер COCONUT для котів, всі типи шерсті,заспокійливий 3000 ml. (2шт/уп)</name>
+        <vendorCode>0143 BALCO3000</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
+        <in_stock>1</in_stock>
+      </offer>
       <offer id="0151030//0535" available="false">
         <name>Портфель - футляр для ножиць</name>
         <vendorCode>0151030//0535</vendorCode>
@@ -181,6 +280,15 @@
         <quantity_in_stock>0</quantity_in_stock>
         <stock>0</stock>
         <in_stock>0</in_stock>
+      </offer>
+      <offer id="0174 SHAAL3000" available="true">
+        <name>Шампунь APRICOT для котів,середнього та короткого типу шерсті,пом'якшуючий 3000 ml. (2шт/уп)</name>
+        <vendorCode>0174 SHAAL3000</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="0176 NPRLUP150" available="true">
         <name>Парфум Iv San Bernard LUPIN, екзотичний та елегантний аромат, не містить спирту, 150мл ( 12 шт/уп)</name>
@@ -194,6 +302,15 @@
       <offer id="0190 NOLIOARGAN" available="false">
         <name>3 Масло Iv San Bernard 03 Oil–Intensive Treatment, інтенсив. віднов. будь-якого типу шерсті, 100мл ( 12 шт/уп)</name>
         <vendorCode>0190 NOLIOARGAN</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
+      <offer id="0213 NSHAZOL1000" available="false">
+        <name>Шампунь Iv San Bernard Mineral Plus Zolfo(кіт/собака),з колоїдної сіркою і рослинними білками, 1л ( 6 шт/уп)</name>
+        <vendorCode>0213 NSHAZOL1000</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>0</quantity_in_stock>
@@ -542,6 +659,15 @@
         <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
+      <offer id="0297 SHACHE1000" available="true">
+        <name>Шампунь KERATIN для котів,всіх типів шерсті та голих порід, зміцнюючий та захищаючий 1000 ml. (6шт/уп)</name>
+        <vendorCode>0297 SHACHE1000</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
+        <in_stock>1</in_stock>
+      </offer>
       <offer id="0298 DERMOIL500" available="true">
         <name>Масло для пошкодженої шкіри Iv San Bernard DERM OIL X7, 500мл ( 6 шт/уп)</name>
         <vendorCode>0298 DERMOIL500</vendorCode>
@@ -551,9 +677,27 @@
         <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
+      <offer id="0310 SHACHE3000" available="false">
+        <name>Шампунь KERATIN для котів,всіх типів шерсті та голих порід, зміцнюючий та захищаючий 3000 ml. (2шт/уп)</name>
+        <vendorCode>0310 SHACHE3000</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
       <offer id="0334 BALCHE300" available="true">
         <name>Кондиціонер KERATIN для котів,всіх типів шерсті та голих порід, зміцнюючий та захищаючий 300 ml. (12шт/уп)</name>
         <vendorCode>0334 BALCHE300</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="0372 BALCHE3000" available="true">
+        <name>Кондиціонер KERATIN для котів,всіх типів шерсті та голих порід, зміцнюючий та захищаючий 3000 ml. (2шт/уп)</name>
+        <vendorCode>0372 BALCHE3000</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>1</quantity_in_stock>
@@ -1172,15 +1316,6 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="056334" available="true">
-        <name>MERA ps Puppy, корм для цуценят та годуючих самок з індичкою та рисом 4кг</name>
-        <vendorCode>056334</vendorCode>
-        <currencyId>UAH</currencyId>
-        <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
-      </offer>
       <offer id="056350" available="true">
         <name>MERA ps Puppy, корм для цуценят та годуючих самок з індичкою та рисом, 12,5кг(102)</name>
         <vendorCode>056350</vendorCode>
@@ -1445,15 +1580,6 @@
       <offer id="059378 - 9318" available="true">
         <name>Mera good snacks pure sensitive Insect Protein снеки для чутливих собак із білком комах, 600 гр</name>
         <vendorCode>059378 - 9318</vendorCode>
-        <currencyId>UAH</currencyId>
-        <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
-        <in_stock>1</in_stock>
-      </offer>
-      <offer id="061250" available="true">
-        <name>Mera Super premium " ESSENTIAL Soft Brocken " корм для собак з норм рівнем активності (м'яка крокета), 12,5кг (126)</name>
-        <vendorCode>061250</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>2</quantity_in_stock>
@@ -1847,6 +1973,15 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
+      <offer id="1135 SHAPLUS1000" available="false">
+        <name>Шампунь Iv San Bernard Mineral Plus Cream (кіт/собака), для запаленної шкіри, 1л ( 6 шт//уп)</name>
+        <vendorCode>1135 SHAPLUS1000</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
       <offer id="1136 PHASE 2" available="false">
         <name>Фаза 2 Iv San Bernard Mousse, активує, збагачує, не фіксує , 200мл ( 6 шт/уп)</name>
         <vendorCode>1136 PHASE 2</vendorCode>
@@ -1864,6 +1999,15 @@
         <quantity_in_stock>0</quantity_in_stock>
         <stock>0</stock>
         <in_stock>0</in_stock>
+      </offer>
+      <offer id="1159 H270300" available="true">
+        <name>Засіб Iv San Bernard H270 2-Phase, масло жожоба, авокадо та екстракт бамбука, 300мл ( 12 шт/уп)</name>
+        <vendorCode>1159 H270300</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="120201A16070" available="false">
         <name>Туалет д/кіш з рамкою NETTA OPEN BLUE 54x39x29 (6 шт в ящ)</name>
@@ -2198,9 +2342,27 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
+      <offer id="2117 LOZH0150" available="false">
+        <name>Лосьйон Iv San Bernard Mineral H (кіт/собака), проти випадіння волосся, з плацентою, 150мл (12 шт/уп)</name>
+        <vendorCode>2117 LOZH0150</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
       <offer id="2187 NMOUS250" available="false">
         <name>Мус Iv San Bernard Moussette сухий шампунь для очищення шерсті, 250мл (12 шт/уп)</name>
         <vendorCode>2187 NMOUS250</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
+      <offer id="2200 NPURSHA5000" available="false">
+        <name>Шампунь Iv San Bernard PURIFYING SHAMPOO, очищающий з глиною Мертвого моря, 5л ( 2 шт/уп)</name>
+        <vendorCode>2200 NPURSHA5000</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>0</quantity_in_stock>
@@ -4826,6 +4988,15 @@
         <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
+      <offer id="4630 NVSHMID10000" available="false">
+        <name>Шампунь Iv San Bernard Marrow, бамбуковий для короткошерстих котів і собак, 10 л ( 1шт/уп)</name>
+        <vendorCode>4630 NVSHMID10000</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
       <offer id="4646 DOSHA2IN1300" available="true">
         <name>Шампунь Iv San Bernard Cuccioli, для цуценят та кошенят (не дратує очі), 300мл ( 12 шт/уп)</name>
         <vendorCode>4646 DOSHA2IN1300</vendorCode>
@@ -4835,9 +5006,36 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
+      <offer id="4647 NVSHMAN10000" available="false">
+        <name>Шампунь Iv San Bernard White Coat,для білої шерсті (усуває жовтий колір) собак і котів,10л ( 1 шт/уп)</name>
+        <vendorCode>4647 NVSHMAN10000</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
+      <offer id="4654 NVSHERB10000" available="true">
+        <name>Шампунь Iv San Bernard Herb ,трав'яний освіжаючий для всіх типів шерсті котів і собак, 10л (1 шт/уп)</name>
+        <vendorCode>4654 NVSHERB10000</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
+        <in_stock>1</in_stock>
+      </offer>
       <offer id="4660 DOSHACOR300" available="true">
         <name>Шампунь Iv San Bernard Pelo Corto, для короткошерстих котів і собак, 300мл ( 12 шт/уп)</name>
         <vendorCode>4660 DOSHACOR300</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="4678 NVSHALG10000" available="true">
+        <name>Шампунь Iv San Bernard Alghe, з водоростями для середньої та довгої шерсті котів і собак,10л ( 1 шт/уп)</name>
+        <vendorCode>4678 NVSHALG10000</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>1</quantity_in_stock>
@@ -4928,6 +5126,15 @@
       <offer id="480,21" available="false">
         <name>Пелюшки для собак Benny,60*90 см (6шт) - 40 уп/ящ</name>
         <vendorCode>480,21</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
+      <offer id="4807 NVBALERB5000" available="false">
+        <name>Кондиціонер Iv San Bernard Herb ,трав'яний освіжаючий для всіх типів шерсті котів і собак, 5л (2шт/уп)</name>
+        <vendorCode>4807 NVBALERB5000</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>0</quantity_in_stock>
@@ -6341,6 +6548,15 @@
       <offer id="4851 BNSHAFRU10000" available="false">
         <name>Шампунь Iv San Bernard BIANCO &amp; NERO Frutta Esotica, універсальний фруктовий , 10л (1 шт/уп)</name>
         <vendorCode>4851 BNSHAFRU10000</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
+      <offer id="4852 NVSHATT10000" available="false">
+        <name>Шампунь Iv San Bernard Anti Parassitario Tea Tree, з чайним деревом антипаразитарний для котів і собак, 10л ( 1 шт/уп)</name>
+        <vendorCode>4852 NVSHATT10000</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>0</quantity_in_stock>
@@ -8588,6 +8804,24 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
+      <offer id="7577 POMP02" available="false">
+        <name>Помпа Iv San Bernard 5 л</name>
+        <vendorCode>7577 POMP02</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
+      <offer id="7584 POMPBIG" available="false">
+        <name>Помпа Iv San Bernard 10 л для Vanesia line</name>
+        <vendorCode>7584 POMPBIG</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
       <offer id="7591 POMPAPEK" available="true">
         <name>Помпа Iv San Bernard PEK 5 л</name>
         <vendorCode>7591 POMPAPEK</vendorCode>
@@ -8595,6 +8829,15 @@
         <categoryId>1</categoryId>
         <quantity_in_stock>1</quantity_in_stock>
         <stock>1</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="7652 SHCRI 100" available="true">
+        <name>Шампунь Iv San Bernard Cristal Clean для білої шерсті (кіт/собака), усуває жовті плями, 100 мл</name>
+        <vendorCode>7652 SHCRI 100</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="780066 - 0184" available="false">
@@ -9200,6 +9443,24 @@
         <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
+      <offer id="9591 SHAPLUS3000" available="false">
+        <name>Шампунь Iv San Bernard Mineral Plus Cream (кіт/собака), для запаленної шкіри , 3л ( 2 шт/уп)</name>
+        <vendorCode>9591 SHAPLUS3000</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
+      <offer id="9614 SHAH3000" available="false">
+        <name>Шампунь Iv San Bernard Mineral H (кіт/собака), проти випадіння волосся, з плацентою, 3л (2 шт/уп)</name>
+        <vendorCode>9614 SHAH3000</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
       <offer id="9638 MOU04300" available="false">
         <name>4 Мусс Iv San Bernard 04 Volume Plus, м'якість та об'єм, з маслом Аргана, 300мл</name>
         <vendorCode>9638 MOU04300</vendorCode>
@@ -9212,6 +9473,15 @@
       <offer id="9676 GELSOS100" available="false">
         <name>Дерма-гель Iv San Bernard Derma Gel S.O.S, проти зуду, 100мл (6 шт/уп)</name>
         <vendorCode>9676 GELSOS100</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
+      <offer id="9690 TONLAV3000" available="false">
+        <name>Засіб Iv San Bernard Derma Complex, дбайливе очищення, без сульфатів, з кератином та кропивой, 3л ( 2шт/уп)</name>
+        <vendorCode>9690 TONLAV3000</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>0</quantity_in_stock>
@@ -9236,6 +9506,15 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
+      <offer id="9737 TONNUT3000" available="false">
+        <name>Кондиціонер Iv San Bernard Derma Plus, дбайливе живлення шкіри, з кератином і кропивой, 3л (2 шт/уп)</name>
+        <vendorCode>9737 TONNUT3000</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
       <offer id="9750 NPURMASK500" available="false">
         <name>Маска Iv San Bernard PURIFYING, очищуюча з глиною Мертвого моря, 500мл ( 12 шт/уп)</name>
         <vendorCode>9750 NPURMASK500</vendorCode>
@@ -9248,6 +9527,15 @@
       <offer id="9751 TONNUT300" available="false">
         <name>Кондиціонер Iv San Bernard Derma Plus, дбайливе живлення шкіри, з кератином і кропивой, 300мл (6 шт/уп)</name>
         <vendorCode>9751 TONNUT300</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
+      <offer id="9775 PELEXT3000" available="false">
+        <name>Пілінг Iv San Bernard Extreme, тонкий відлущуючий гель, сприяє. регенерації шкіри, 3л (2 шт/уп)</name>
+        <vendorCode>9775 PELEXT3000</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>0</quantity_in_stock>
@@ -9344,9 +9632,27 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
+      <offer id="9970 NMASK02100" available="false">
+        <name>Маска Iv San Bernard 02 Energetic and Revitalising, захист і відновлення, з мінерал. солями, 100 мл</name>
+        <vendorCode>9970 NMASK02100</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
       <offer id="9987 GBALCAV100" available="false">
         <name>Кондиціонер GREEN Caviar, швидке пом'якшення та живленяя, з зеленою ікрою та омега-3, 100 мл</name>
         <vendorCode>9987 GBALCAV100</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
+      <offer id="9996 NSHA01250" available="false">
+        <name>1 Шампунь Iv San Bernard 01 Nourishing, захистна очищуюча дія, з маслом Аргана, 250мл ( 12шт/уп)</name>
+        <vendorCode>9996 NSHA01250</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>0</quantity_in_stock>
@@ -22529,6 +22835,24 @@
         <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
+      <offer id="H1CD3AL0500HYKNN" available="false">
+        <name>Hyponic for Show Dogs, кондиціонер з молочним протеїном д/собак , 500 мл. (6 шт/уп)</name>
+        <vendorCode>H1CD3AL0500HYKNN</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
+      <offer id="H1CD3AL3800HYKNN" available="true">
+        <name>Hyponic for Show Dogs, кондиціонер з молочним протеїном д/собак, 3,8 л. (4 шт/уп)</name>
+        <vendorCode>H1CD3AL3800HYKNN</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
+        <in_stock>1</in_stock>
+      </offer>
       <offer id="H1CD4VL0010HYKNN" available="true">
         <name>Hyponic PRO, кондиціонер д/собак, об'єм та зволоження шерсті,10мл.</name>
         <vendorCode>H1CD4VL0010HYKNN</vendorCode>
@@ -22536,6 +22860,24 @@
         <categoryId>1</categoryId>
         <quantity_in_stock>2</quantity_in_stock>
         <stock>2</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="H1CD4VL1500HYKNN" available="false">
+        <name>Hyponic PRO, кондиціонер д/собак, об'єм та зволоження шерсті,1500мл. (6 шт/уп)</name>
+        <vendorCode>H1CD4VL1500HYKNN</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
+      <offer id="H1CD4VL3800HYKNN" available="true">
+        <name>Hyponic PRO, кондиціонер д/собак, об'єм та зволоження шерсті,3,8 л. (4 шт/уп)</name>
+        <vendorCode>H1CD4VL3800HYKNN</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="H1DR3AL0300HYKNN" available="false">
@@ -22550,6 +22892,15 @@
       <offer id="H1ER1AL0120NOKNN" available="true">
         <name>Hyponic, засіб для чищення вух з кипарисом Хінокі , д/собак,120мл (6 шт/уп)</name>
         <vendorCode>H1ER1AL0120NOKNN</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="H1ER1AL0500NOKNN" available="true">
+        <name>Hyponic, засіб для чищення вух з кипарисом Хінокі, д/всіх домаш.тварин ,500мл (6 шт/уп)</name>
+        <vendorCode>H1ER1AL0500NOKNN</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>1</quantity_in_stock>
@@ -22583,6 +22934,15 @@
         <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
+      <offer id="H1MI1AL0237DSENN" available="true">
+        <name>Hyponic, спрей DE-SKUNK ефективно нейтралізує та усуває неприємні запахи, д/домаш.тварин,237 мл</name>
+        <vendorCode>H1MI1AL0237DSENN</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
+        <in_stock>1</in_stock>
+      </offer>
       <offer id="H1MS1MX0006MNKNS" available="false">
         <name>Дорожний міні набір "Hyponic" Hypoallergenic (20 шт/уп)</name>
         <vendorCode>H1MS1MX0006MNKNS</vendorCode>
@@ -22601,9 +22961,54 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
+      <offer id="H1SH1AL0300HYOFN" available="true">
+        <name>Hyponic Hypoallergenic, гіпоалергенний шампунь з олією соняшника,жожоба та екстрактом зеленого чаю, д/собак, 300 мл. (6 шт/уп)</name>
+        <vendorCode>H1SH1AL0300HYOFN</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
+        <in_stock>1</in_stock>
+      </offer>
       <offer id="H1SH1AL0300NOOFN" available="true">
         <name>Hyponic Hypoallergenic, гіпоалергенний шампунь з олією соняшника,жожоба, д/собак,(без запаху) , 300 мл. (6 шт/уп)</name>
         <vendorCode>H1SH1AL0300NOOFN</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="H1SH1AL0500HYKNN" available="true">
+        <name>Hyponic Hypoallergenic, гіпоалергенний шампунь з олією соняшника,жожоба та екстрактом зеленого чаю, д/собак, 500 мл. (6 шт/уп)</name>
+        <vendorCode>H1SH1AL0500HYKNN</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="H1SH1AL0500NOKNN" available="true">
+        <name>Hyponic Hypoallergenic, гіпоалергенний шампунь з олією соняшника,жожоба, д/собак,(без запаху) , 500 мл. (6 шт/уп)</name>
+        <vendorCode>H1SH1AL0500NOKNN</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="H1SH1AL1500HYKNN" available="true">
+        <name>Hyponic Hypoallergenic, гіпоалергенний шампунь з олією соняшника,жожоба та екстрактом зеленого чаю, д/собак,1,5 л. (6 шт/уп)</name>
+        <vendorCode>H1SH1AL1500HYKNN</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="H1SH1AL1500NOKNN" available="true">
+        <name>Hyponic Hypoallergenic, гіпоалергенний шампунь з олією соняшника,жожоба, д/собак,(без запаху), 1,5 л. (6 шт/уп)</name>
+        <vendorCode>H1SH1AL1500NOKNN</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>1</quantity_in_stock>
@@ -22619,9 +23024,45 @@
         <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
+      <offer id="H1SH1BA0500HYKNN" available="true">
+        <name>Hyponic Hypoallergenic, гіпоалергенний шампунь д/цуценят та короткошерстих собак, 500 мл. (6 шт/уп)</name>
+        <vendorCode>H1SH1BA0500HYKNN</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="H1SH1BA1500HYKNN" available="true">
+        <name>Hyponic Hypoallergenic, гіпоалергенний шампунь д/цуценят та короткошерстих собак,1,5 л. (6 шт/уп)</name>
+        <vendorCode>H1SH1BA1500HYKNN</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
+        <in_stock>1</in_stock>
+      </offer>
       <offer id="H1SH1BF0080HYKNN" available="true">
         <name>Hyponic, шампунь для собак породи Бішон Фризе , 80 мл (20 шт/уп)</name>
         <vendorCode>H1SH1BF0080HYKNN</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="H1SH1BF0300HYKNN" available="true">
+        <name>Hyponic, шампунь для собак породи Бішон Фризе , 300 мл (6 шт/уп)</name>
+        <vendorCode>H1SH1BF0300HYKNN</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="H1SH1BF0500HYKNN" available="true">
+        <name>Hyponic, шампунь для собак породи Бішон Фрізе , 500 мл (6 шт/уп)</name>
+        <vendorCode>H1SH1BF0500HYKNN</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>1</quantity_in_stock>
@@ -22646,6 +23087,15 @@
         <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
+      <offer id="H1SH1RT1500HYKNN" available="true">
+        <name>Hyponic, шампунь для собак породи Ретрівер , 1500 мл (6 шт/уп)</name>
+        <vendorCode>H1SH1RT1500HYKNN</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
+        <in_stock>1</in_stock>
+      </offer>
       <offer id="H1SH1VL0010HYKNN" available="false">
         <name>Hyponic Hypoallergenic, гіпоалергенний шампунь з екстрактом фрезії та коріння женьшеню панакса, д/собак-об'єм, 10 мл.(200 шт/уп)</name>
         <vendorCode>H1SH1VL0010HYKNN</vendorCode>
@@ -22654,6 +23104,24 @@
         <quantity_in_stock>0</quantity_in_stock>
         <stock>0</stock>
         <in_stock>0</in_stock>
+      </offer>
+      <offer id="H1SH1VL0500HYKNN" available="false">
+        <name>Hyponic Hypoallergenic, гіпоалергенний шампунь з екстрактом фрезії та коріння женьшеню панакса, д/собак-об'єм, 500 мл. (6 шт/уп)</name>
+        <vendorCode>H1SH1VL0500HYKNN</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
+      <offer id="H1SH1VL1500HYKNN" available="true">
+        <name>Hyponic Hypoallergenic, гіпоалергенний шампунь з екстрактом фрезії та коріння женьшеню панакса, д/собак-об'єм,1,5 л. (6 шт/уп)</name>
+        <vendorCode>H1SH1VL1500HYKNN</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="H1SH1WH0010HYKNN" available="false">
         <name>Hyponic Hypoallergenic, гіпоалергенний шампунь д/собак з білою шерстю, 10 мл.(200 шт/уп)</name>
@@ -22664,9 +23132,63 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
+      <offer id="H1SH1WH0300HYOFN" available="true">
+        <name>Hyponic Hypoallergenic, гіпоалергенний шампунь д/собак з білою шерстю, 300 мл. (6 шт/уп)</name>
+        <vendorCode>H1SH1WH0300HYOFN</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="H1SH1WH0500HYKNN" available="true">
+        <name>Hyponic Hypoallergenic, гіпоалергенний шампунь д/собак з білою шерстю, 500 мл. (6 шт/уп)</name>
+        <vendorCode>H1SH1WH0500HYKNN</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="H1SH1WH1500HYKNN" available="true">
+        <name>Hyponic Hypoallergenic, гіпоалергенний шампунь д/собак з білою шерстю,1,5 л. (6 шт/уп)</name>
+        <vendorCode>H1SH1WH1500HYKNN</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
+        <in_stock>1</in_stock>
+      </offer>
       <offer id="H1SH2DV0100HYKNN" available="true">
         <name>Hyponic Grooming Artist, шампунь - майстер по догляду за волоссям,глибоке очищення та об'єм, 100 мл. (12 шт/уп)</name>
         <vendorCode>H1SH2DV0100HYKNN</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="H1SH2DV0530HYKNN" available="true">
+        <name>Hyponic Grooming Artist, шампунь - майстер по догляду за волоссям,глибоке очищення та об'єм, 530 мл. (6 шт/уп)</name>
+        <vendorCode>H1SH2DV0530HYKNN</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="H1SH2DV1500HYKNN" available="true">
+        <name>Hyponic Grooming Artist, шампунь - майстер по догляду за волоссям,глибоке очищення та об'єм, 1,5 л. (6 шт/уп)</name>
+        <vendorCode>H1SH2DV1500HYKNN</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="H1SH2DV3800HYKNN" available="true">
+        <name>Hyponic Grooming Artist, шампунь - майстер по догляду за волоссям,глибоке очищення та об'єм, 3,8 л. (4 шт/уп)</name>
+        <vendorCode>H1SH2DV3800HYKNN</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>1</quantity_in_stock>
@@ -22682,6 +23204,33 @@
         <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
+      <offer id="H1SH2MO0530HYKNN" available="true">
+        <name>Hyponic Grooming Artist, шампунь - майстер по догляду за волоссям,для машинного зрізання та зволоження, 530 мл. (6 шт/уп)</name>
+        <vendorCode>H1SH2MO0530HYKNN</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="H1SH2MO1500HYKNN" available="true">
+        <name>Hyponic Grooming Artist, шампунь - майстер по догляду за волоссям,для машинного зрізання та зволоження, 1,5 л. (6 шт/уп)</name>
+        <vendorCode>H1SH2MO1500HYKNN</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="H1SH2MO3800HYKNN" available="true">
+        <name>Hyponic Grooming Artist, шампунь - майстер по догляду за волоссям,для машинного зрізання та зволоження, 3,8 л. (4 шт/уп)</name>
+        <vendorCode>H1SH2MO3800HYKNN</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
+        <in_stock>1</in_stock>
+      </offer>
       <offer id="H1SH2VL0100HYKNN" available="false">
         <name>Hyponic Grooming Artist, шампунь - майстер по догляду за волоссям,для ручної стрижки та об'єму, 100 мл. (12 шт/уп)</name>
         <vendorCode>H1SH2VL0100HYKNN</vendorCode>
@@ -22691,9 +23240,54 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
+      <offer id="H1SH2VL0530HYKNN" available="true">
+        <name>Hyponic Grooming Artist, шампунь - майстер по догляду за волоссям,для ручної стрижки та об'єму, 530 мл. (6 шт/уп)</name>
+        <vendorCode>H1SH2VL0530HYKNN</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="H1SH2VL1500HYKNN" available="true">
+        <name>Hyponic Grooming Artist, шампунь - майстер по догляду за волоссям,для ручної стрижки та об'єму,1,5 л. (6 шт/уп)</name>
+        <vendorCode>H1SH2VL1500HYKNN</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="H1SH2VL3800HYKNN" available="true">
+        <name>Hyponic Grooming Artist, шампунь - майстер по догляду за волоссям,для ручної стрижки та об'єму,3,8 л. (4 шт/уп)</name>
+        <vendorCode>H1SH2VL3800HYKNN</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
+        <in_stock>1</in_stock>
+      </offer>
       <offer id="H1SH3VL0100HYKNN" available="true">
         <name>Hyponic for Show Dogs, шампунь з кипарисовою водою д/собак-об'єм , 100 мл. (12 шт/уп)</name>
         <vendorCode>H1SH3VL0100HYKNN</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="H1SH3VL0500HYKNN" available="true">
+        <name>Hyponic for Show Dogs, шампунь з кипарисовою водою д/собак-об'єм , 500 мл. (6 шт/уп)</name>
+        <vendorCode>H1SH3VL0500HYKNN</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="H1SH3VL3800HYKNN" available="true">
+        <name>Hyponic for Show Dogs, шампунь з кипарисовою водою д/собак-об'єм, 3,8 л. (4 шт/уп)</name>
+        <vendorCode>H1SH3VL3800HYKNN</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>1</quantity_in_stock>
@@ -22754,6 +23348,42 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
+      <offer id="H2SH1AL0100HYKNN" available="true">
+        <name>Hyponic Hypoallergenic, гіпоалергенний шампунь з олією соняшника та жожоба, д/котів, (10уп по 10 мл.) (70 шт/уп)</name>
+        <vendorCode>H2SH1AL0100HYKNN</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="H2SH1AL0100NOKNN" available="true">
+        <name>Hyponic Hypoallergenic, гіпоалергенний шампунь з олією соняшника та жожоба, д/котів (без запаху), (10уп по 10 мл.) (12 шт/уп)</name>
+        <vendorCode>H2SH1AL0100NOKNN</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="H2SH1AL0300HYKNN" available="true">
+        <name>Hyponic Hypoallergenic, гіпоалергенний шампунь з олією соняшника та жожоба, д/котів,300 мл. (6 шт/уп)</name>
+        <vendorCode>H2SH1AL0300HYKNN</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="H2SH1AL0300NOKNN" available="true">
+        <name>Hyponic Hypoallergenic, гіпоалергенний шампунь з олією соняшника та жожоба, д/котів (без запаху), 300 мл. (6 шт/уп)</name>
+        <vendorCode>H2SH1AL0300NOKNN</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
+        <in_stock>1</in_stock>
+      </offer>
       <offer id="H330/A" available="true">
         <name>Ласощі міні палички з м'якою стружкою з морквою та полуницею , 60 гр, 4*1см, (флоупак) 12 уп./короб. (ціна за упак)</name>
         <vendorCode>H330/A</vendorCode>
@@ -22781,6 +23411,42 @@
         <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
+      <offer id="H3DO1AL0500GLKNN" available="true">
+        <name>Hyponic, дезодорант хітозановий, садовий пікнік , 500 мл (6 шт/уп)</name>
+        <vendorCode>H3DO1AL0500GLKNN</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="H3DO1AL0500OCKNN" available="true">
+        <name>Hyponic, дезодорант хітозановий, океанський сплеск, 500 мл (6 шт/уп)</name>
+        <vendorCode>H3DO1AL0500OCKNN</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="H3DO1AL3800GLKNN" available="false">
+        <name>Hyponic, дезодорант хітозановий, садовий пікнік ,3,8 л (4 шт/уп)</name>
+        <vendorCode>H3DO1AL3800GLKNN</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
+      <offer id="H3DO1AL3800OCKNN" available="false">
+        <name>Hyponic, дезодорант хітозановий, океанський сплеск,3,8 л (4 шт/уп)</name>
+        <vendorCode>H3DO1AL3800OCKNN</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
       <offer id="H3ER1AL0030NOKNN" available="true">
         <name>Hyponic, засіб для чищення вух з кипарисом Хінокі, д/всіх домаш.тварин ,30мл (35 шт/уп)</name>
         <vendorCode>H3ER1AL0030NOKNN</vendorCode>
@@ -22793,6 +23459,15 @@
       <offer id="H3MI1AL0055HYKNN" available="true">
         <name>Hyponic, зволожуючий спрей для розплутування шерсті д/всіх домаш.тварин, 55 мл (50 шт/уп)</name>
         <vendorCode>H3MI1AL0055HYKNN</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="H3MI1AL0100HYKNN" available="true">
+        <name>Hyponic, зволожуючий спрей для розплутування шерсті д/всіх домаш.тварин,100 мл (12 шт/уп)</name>
+        <vendorCode>H3MI1AL0100HYKNN</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>1</quantity_in_stock>
@@ -22817,6 +23492,15 @@
         <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
+      <offer id="H3MI1AL1000HYKNN" available="true">
+        <name>Hyponic, зволожуючий спрей для розплутування шерсті д/всіх домаш.тварин,1000 мл (6 шт/уп)</name>
+        <vendorCode>H3MI1AL1000HYKNN</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
+        <in_stock>1</in_stock>
+      </offer>
       <offer id="H3PW1GC0002NOKNN" available="true">
         <name>Hyponic, ніжний відлущуючий скраб-порошок д/домаш.тварин, 2 грам.(200 шт/уп)</name>
         <vendorCode>H3PW1GC0002NOKNN</vendorCode>
@@ -22824,6 +23508,24 @@
         <categoryId>1</categoryId>
         <quantity_in_stock>2</quantity_in_stock>
         <stock>2</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="H3PW1GC0024NOKNN" available="true">
+        <name>Hyponic, ніжний відлущуючий скраб-порошок д/домаш.тварин, 24 грам.( 2гр * 12 шт) (140 шт/уп)</name>
+        <vendorCode>H3PW1GC0024NOKNN</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="H3PW1GC0100NOKNN" available="true">
+        <name>Hyponic, ніжний відлущуючий скраб-порошок д/всіх домаш.тварин,100 грам.(2 гр* 50 шт) (36 шт/уп)</name>
+        <vendorCode>H3PW1GC0100NOKNN</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="H3RM1TS0030NOKNN" available="false">
@@ -22834,6 +23536,15 @@
         <quantity_in_stock>0</quantity_in_stock>
         <stock>0</stock>
         <in_stock>0</in_stock>
+      </offer>
+      <offer id="H3RM1TS0120NOKNN" available="true">
+        <name>Hyponic, засіб для виведення плям від сліз д/всіх домаш.тварин,120мл (6 шт/уп)</name>
+        <vendorCode>H3RM1TS0120NOKNN</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="H3WL1AL0190HYKNN" available="true">
         <name>Hyponic Hypoallergenic, гіпоалергенний безводний шампунь , для всіх домаш.тварин , 190 мл (6 шт/уп)</name>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-10-04 08:28">
+<yml_catalog date="2026-10-04 08:35">
   <shop>
     <name>CatPaws HOME FOOD stock</name>
     <company>CatPaws</company>
@@ -128,6 +128,15 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
+      <offer id="1014008" available="false">
+        <name>Ласощі для собак HOME FOOD Жила станова яловича, 80 г</name>
+        <vendorCode>1014008</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
       <offer id="1017007" available="true">
         <name>Cухий корм HOME FOOD здорова шкіра та блиск шерсті для дорослих собак малих порід Індичка та лосось Healthy skin and shiny coat 700 г</name>
         <vendorCode>1017007</vendorCode>
@@ -217,6 +226,15 @@
         <quantity_in_stock>0</quantity_in_stock>
         <stock>0</stock>
         <in_stock>0</in_stock>
+      </offer>
+      <offer id="1027007" available="true">
+        <name>Гіпоалергенний сухий корм HOME FOOD для дорослих собак малих порід "Форель з рисом" Hypoallergenic 700 г</name>
+        <vendorCode>1027007</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="1027100" available="true">
         <name>Гіпоалергенний сухий корм HOME FOOD для дорослих собак малих порід "Форель з рисом" Hypoallergenic 10 кг</name>
@@ -398,6 +416,15 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
+      <offer id="1128016" available="true">
+        <name>Гіпоалергенний сухий корм HOME FOOD для дорослих собак середніх порід "Форель з рисом" Hypoallergenic 1.6 кг</name>
+        <vendorCode>1128016</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
       <offer id="1137016" available="true">
         <name>Беззерновий гіпоалергенний сухий корм HOME FOOD для дорослих собак малих порід Качка та індичка Grain-free hypoallergenic 1,6 кг</name>
         <vendorCode>1137016</vendorCode>
@@ -423,6 +450,15 @@
         <categoryId>1</categoryId>
         <quantity_in_stock>19</quantity_in_stock>
         <stock>19</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="1148016" available="true">
+        <name>Сухий корм HOME FOOD для активних дорослих собак і юніорів середніх і великих порід “Ягнятина з рисом” For Active And Young Dogs 1.6 кг</name>
+        <vendorCode>1148016</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="1357100" available="true">
@@ -500,6 +536,15 @@
       <offer id="1367102" available="true">
         <name>Сухий корм HOME FOOD ля дорослих собак великих порід "М’ясне асорті" Nutritive Balanced Formula, 10 кг</name>
         <vendorCode>1367102</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="1367103" available="true">
+        <name>Сухий корм HOME FOOD для активних дорослих собак середніх порід “Яловичина” For Active Dogs 10 кг</name>
+        <vendorCode>1367103</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
@@ -1548,6 +1593,42 @@
         <categoryId>1</categoryId>
         <quantity_in_stock>9</quantity_in_stock>
         <stock>9</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="7010053" available="true">
+        <name>Повнораціонний вологий корм HOME FOOD для стерилізованих/кастрованих дорослих котів з кроликом та журавлиною в желе, 85 г</name>
+        <vendorCode>7010053</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>60</quantity_in_stock>
+        <stock>60</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="7010053-12" available="true">
+        <name>Повнораціонний вологий корм HOME FOOD для стерилізованих/кастрованих дорослих котів з кроликом та журавлиною в желе, 85 г * 12 шт</name>
+        <vendorCode>7010053-12</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="7010055" available="true">
+        <name>Повнораціонний вологий корм HOME FOOD для стерилізованих/кастрованих дорослих котів з куркою та креветкою в желе, 85 г</name>
+        <vendorCode>7010055</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>60</quantity_in_stock>
+        <stock>60</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="7010055-12" available="true">
+        <name>Повнораціонний вологий корм HOME FOOD для стерилізованих/кастрованих дорослих котів з куркою та креветкою в желе, 85 г * 12 шт</name>
+        <vendorCode>7010055-12</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="70100_box1" available="true">
