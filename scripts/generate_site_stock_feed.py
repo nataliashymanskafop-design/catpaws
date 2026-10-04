@@ -6,6 +6,7 @@ from zoneinfo import ZoneInfo
 from lxml import etree
 
 from generate_home_food_stock import download
+from generate_feed import is_modes_bowl
 
 
 # Актуальний фід каталогу сайту. На відміну від Mono-фідів, тут не
@@ -119,6 +120,11 @@ def build_feed(catalog_root, own_stock, supplier_stock):
             raise RuntimeError(f"Duplicate SKU in site catalog: {sku}")
 
         seen_skus.add(sku)
+        # Site-only MODES bowls keep the manually selected inquiry status.
+        # No stock/availability row may overwrite it during a site import.
+        if is_modes_bowl(source_offer):
+            continue
+
         if vendor in FORCE_ZERO_BRANDS:
             # З RAFI більше не працюємо. Товар залишається прихованим у
             # Horoshop, а фід додатково не дозволить повернути наявність.
