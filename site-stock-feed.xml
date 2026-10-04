@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-10-04 08:06">
+<yml_catalog date="2026-10-04 08:29">
   <shop>
     <offers>
       <offer id="515" available="true">
@@ -7302,14 +7302,6 @@
         <vendorCode>ЗС000179</vendorCode>
         <quantity_in_stock>0</quantity_in_stock>
       </offer>
-      <offer id="4200" available="false">
-        <vendorCode>HDN(MB)- 21</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4201" available="false">
-        <vendorCode>HDN(MB)- 24</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
       <offer id="4202" available="false">
         <vendorCode>ЗС000180</vendorCode>
         <quantity_in_stock>0</quantity_in_stock>
@@ -7346,64 +7338,12 @@
         <vendorCode>ЗС000348</vendorCode>
         <quantity_in_stock>0</quantity_in_stock>
       </offer>
-      <offer id="4211" available="false">
-        <vendorCode>ASR-64 oz</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4212" available="false">
-        <vendorCode>ASR-96 oz</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4213" available="false">
-        <vendorCode>ASR(TRST)-24 Oz</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
       <offer id="4214" available="false">
         <vendorCode>GHB(RD)</vendorCode>
         <quantity_in_stock>0</quantity_in_stock>
       </offer>
       <offer id="4215" available="false">
         <vendorCode>BBR(BL)</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4216" available="false">
-        <vendorCode>ASB(W)-08 Oz</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4217" available="false">
-        <vendorCode>ASRP(SLT)- 16 oz blue</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4218" available="false">
-        <vendorCode>ASR2P(SLE)-24 Oz dual blue</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4219" available="false">
-        <vendorCode>ASRP(FP)-24 Oz black/white</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4220" available="false">
-        <vendorCode>ASRP(FP)-32 Oz black/white</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4221" available="false">
-        <vendorCode>ASB(MBF)--24 Oz</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4222" available="false">
-        <vendorCode>ASB(MBF)--32 Oz</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4223" available="false">
-        <vendorCode>ASB(MBF)--64 Oz</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4224" available="false">
-        <vendorCode>ASB(MBF)--96 Oz</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4225" available="false">
-        <vendorCode>HDN(MB)- 17</vendorCode>
         <quantity_in_stock>0</quantity_in_stock>
       </offer>
       <offer id="4226" available="false">
@@ -7446,86 +7386,6 @@
         <vendorCode>TGV(BL)</vendorCode>
         <quantity_in_stock>0</quantity_in_stock>
       </offer>
-      <offer id="4238" available="false">
-        <vendorCode>ASR(TRST)-32 Oz</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4239" available="false">
-        <vendorCode>ASR(TRST)-64 Oz</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4240" available="false">
-        <vendorCode>ASR(TRST)-96 Oz</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4241" available="false">
-        <vendorCode>CCH-CP- 48 oz</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4242" available="false">
-        <vendorCode>CCH-CP- 96 oz</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4243" available="false">
-        <vendorCode>CCC-CP- 64 oz</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4244" available="false">
-        <vendorCode>HDE(C)-17</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4245" available="false">
-        <vendorCode>HDE(C)-21</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4246" available="false">
-        <vendorCode>ASBH(S)-24 Oz</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4247" available="false">
-        <vendorCode>PF-29</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4248" available="false">
-        <vendorCode>FBHD(NS)- 1 Qt</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4249" available="false">
-        <vendorCode>FBR(CNS)-1 Qt</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4250" available="false">
-        <vendorCode>HDN(LP)- 14 golden</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4251" available="false">
-        <vendorCode>HDN(LP)- 17 golden</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4252" available="false">
-        <vendorCode>HDN(LP)- 21 blue</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4253" available="false">
-        <vendorCode>HDN(LP)- 24 red</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4254" available="false">
-        <vendorCode>DDWF2B-CP-3 Qt</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4255" available="false">
-        <vendorCode>DDWF-PC-SL-2Qt</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4256" available="false">
-        <vendorCode>DDWF-PC-SL-3Qt</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4257" available="false">
-        <vendorCode>DDWF2B-RS-3 Qt</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
       <offer id="4258" available="false">
         <vendorCode>ЗС000398</vendorCode>
         <quantity_in_stock>0</quantity_in_stock>
@@ -7540,198 +7400,6 @@
       </offer>
       <offer id="4261" available="false">
         <vendorCode>ЗС000397</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4262" available="false">
-        <vendorCode>FBR(CB)- 2Qt</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4263" available="false">
-        <vendorCode>FBR(CB)- 3Qt</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4264" available="false">
-        <vendorCode>FBR(CB)- 5Qt</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4265" available="false">
-        <vendorCode>ASR(CB)-16 Oz</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4266" available="false">
-        <vendorCode>ASR(CB)-24 Oz</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4267" available="false">
-        <vendorCode>ASR(CB)-32 Oz</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4268" available="false">
-        <vendorCode>ASR(CB)-64 Oz</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4269" available="false">
-        <vendorCode>ASR(CB)-96 Oz</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4270" available="false">
-        <vendorCode>ASWT(ETD)-16</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4271" available="false">
-        <vendorCode>ASWT(ETD)-32</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4272" available="false">
-        <vendorCode>ASR(ETD)-16 oz</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4273" available="false">
-        <vendorCode>ASR(ETD)-24 oz</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4274" available="false">
-        <vendorCode>ASBPP-24 oz violet</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4275" available="false">
-        <vendorCode>ASRP(M)-24 oz (Bone) black</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4276" available="false">
-        <vendorCode>ASRP(M)-64 oz (Bone) red</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4277" available="false">
-        <vendorCode>DDBXT(TFM)-1/2 Pt</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4278" available="false">
-        <vendorCode>CDBX(W)</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4279" available="false">
-        <vendorCode>ASR(GMS1)-16 Oz</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4280" available="false">
-        <vendorCode>ASR(SP)-16 Oz</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4281" available="false">
-        <vendorCode>ACRC(W)-1 bronze</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4282" available="false">
-        <vendorCode>ACRC(W)-4 bronze</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4283" available="false">
-        <vendorCode>ACRC(W)-8 bronze</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4284" available="false">
-        <vendorCode>ACRC(W)-4 golden</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4285" available="false">
-        <vendorCode>ACRC(W)-8 golden</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4286" available="false">
-        <vendorCode>ASR(ETD)-32 oz</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4287" available="false">
-        <vendorCode>ASB(W)-16 Oz</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4288" available="false">
-        <vendorCode>ASB(W)-24 Oz</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4289" available="false">
-        <vendorCode>ASWTP2P(ST)-32 Oz black</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4290" available="false">
-        <vendorCode>ASWTP2P(ST)-64 Oz black</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4291" available="false">
-        <vendorCode>ASR(DST)-16 Oz black</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4292" available="false">
-        <vendorCode>ASR(DST)-24 Oz black</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4293" available="false">
-        <vendorCode>ASR(DST)-32 Oz green</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4294" available="false">
-        <vendorCode>ASR(DST)-64 Oz green</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4295" available="false">
-        <vendorCode>ASR(DST)-96 Oz green</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4296" available="false">
-        <vendorCode>ASRP(SLE)- 64 oz violet</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4297" available="false">
-        <vendorCode>ASRP(SLE)- 96 oz violet</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4298" available="false">
-        <vendorCode>ASRP(SLE-C)- 16 oz</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4299" available="false">
-        <vendorCode>ASRP(SLE-C)- 24 oz</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4300" available="false">
-        <vendorCode>ASRP(SLE-C)- 32 oz</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4301" available="false">
-        <vendorCode>ASRP(SLE-C)- 64 oz</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4302" available="false">
-        <vendorCode>ASRP(SLE-C)- 96 oz</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4303" available="false">
-        <vendorCode>ASRP(SLT)- 24 oz blue</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4304" available="false">
-        <vendorCode>ASRP(SLT)- 32 oz blue</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4305" available="false">
-        <vendorCode>ASRP(SLT)- 64 oz blue</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4306" available="false">
-        <vendorCode>ASRP(SLT)- 96 oz blue</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4307" available="false">
-        <vendorCode>ASR2P(SLE)-32 Oz dual blue</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4308" available="false">
-        <vendorCode>ASR2P(SLE)-64 Oz dual blue</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="4309" available="false">
-        <vendorCode>ASR2P(SLE)-96 Oz dual blue</vendorCode>
         <quantity_in_stock>0</quantity_in_stock>
       </offer>
       <offer id="4310" available="false">
