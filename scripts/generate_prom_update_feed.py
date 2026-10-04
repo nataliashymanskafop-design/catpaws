@@ -2,6 +2,7 @@ import os
 import time
 import requests
 from lxml import etree
+from generate_feed import is_modes_bowl
 
 
 # ============================================================
@@ -334,7 +335,8 @@ def build_updates(
         ).lower()
 
         available = (
-            available_raw
+            not is_modes_bowl(horoshop_offer)
+            and available_raw
             in (
                 "true",
                 "1",
