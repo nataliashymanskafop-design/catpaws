@@ -11,7 +11,7 @@ from zoneinfo import ZoneInfo
 from lxml import etree
 
 
-CATALOG_XML_URL = "https://catpaws.com.ua/content/export/3e9c244f28ee6d1e572f92646e76f6bb.xml"
+CATALOG_XML_URL = "https://catpaws.com.ua/content/export/5d007701b07c6dab399214f2c0d6743c.xml"
 OUTPUT_FILE = "public/home-food-stock.yml"
 STATE_FILE = "public/home-food-stock-state.json"
 
