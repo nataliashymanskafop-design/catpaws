@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-10-05 04:10">
+<yml_catalog date="2026-10-05 10:32">
   <shop>
     <name>CatPaws Kormax stock</name>
     <company>CatPaws</company>
@@ -1087,8 +1087,8 @@
         <vendorCode>NPB46041</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPB46042" available="true">
@@ -3926,23 +3926,23 @@
         <stock>60</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="UNINPSC63750" available="true">
+      <offer id="UNINPSC63750" available="false">
         <name>Вологий корм Nature's Protection Superior Care для стерилізованих дорослих котів усіх порід, шматочки у соусі з тунцем, 70 г</name>
         <vendorCode>UNINPSC63750</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>120</quantity_in_stock>
-        <stock>120</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
-      <offer id="UNINPSC63750_box" available="true">
+      <offer id="UNINPSC63750_box" available="false">
         <name>Вологий корм Nature's Protection Superior Care для стерилізованих дорослих котів усіх порід, шматочки у соусі з тунцем, 70 г * 24 шт</name>
         <vendorCode>UNINPSC63750_box</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="UNINPSC63751" available="true">
         <name>Вологий корм Nature's Protection Superior Care для дорослих котів усіх порід, шматочки у соусі з тунцем та лососем, для підтримки здоров'я сечовидільної системи, 70 г</name>

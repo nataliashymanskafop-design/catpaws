@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T01:11:05Z",
+  "updatedAt": "2026-10-05T07:34:52Z",
   "total": 1678,
   "data": [
     {
@@ -119,11 +119,11 @@
       "price": 2132,
       "old_price": 2665,
       "availability": true,
-      "stock": 16,
+      "stock": 15,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 16
+          "stock": 15
         }
       ],
       "warranty_type": "no",
@@ -175,11 +175,11 @@
       "price": 2307,
       "old_price": 2884,
       "availability": true,
-      "stock": 6,
+      "stock": 20,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 6
+          "stock": 20
         }
       ],
       "warranty_type": "no",
@@ -3871,11 +3871,11 @@
       "price": 4970,
       "old_price": null,
       "availability": true,
-      "stock": 20,
+      "stock": 10,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 20
+          "stock": 10
         }
       ],
       "warranty_type": "no",
@@ -7231,11 +7231,11 @@
       "price": 930,
       "old_price": null,
       "availability": true,
-      "stock": 20,
+      "stock": 19,
       "warehouses": [
         {
           "id": "DOMS",
-          "stock": 20
+          "stock": 19
         }
       ],
       "warranty_type": "no",
@@ -13810,12 +13810,12 @@
       "code": "UNINPSC63750_box",
       "price": 2136,
       "old_price": null,
-      "availability": true,
-      "stock": 5,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 5
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -14931,11 +14931,11 @@
       "price": 1165,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -15267,11 +15267,11 @@
       "price": 1169,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -15715,11 +15715,11 @@
       "price": 2591,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -15771,11 +15771,11 @@
       "price": 4604,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -16387,11 +16387,11 @@
       "price": 416,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -32374,12 +32374,12 @@
       "code": "700045 - 0454",
       "price": 4555,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -32402,12 +32402,12 @@
       "code": "700545 - 5459",
       "price": 5321,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 1,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 1
         }
       ],
       "warranty_type": "no",
