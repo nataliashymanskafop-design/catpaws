@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-10-06 06:14">
+<yml_catalog date="2026-10-06 10:42">
   <shop>
     <name>CatPaws PETIMPEX stock</name>
     <company>CatPaws</company>
@@ -2518,8 +2518,8 @@
         <vendorCode>224,26</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="224,28" available="true">
@@ -3193,8 +3193,8 @@
         <vendorCode>30058-8</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="3006" available="true">
@@ -3283,18 +3283,18 @@
         <vendorCode>30104-8</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="30105-8" available="true">
+      <offer id="30105-8" available="false">
         <name>Іграшка "AGILITY"для котів вудочка пластик жучок з дзвіночком 35 см</name>
         <vendorCode>30105-8</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="3012" available="true">
         <name>Pure Nurture Daily Power of 3 Lamb with Barley,Medium &amp; Large Adult для дорослих собак середніх та великих порід з ягням та ячменем, 3кг</name>
@@ -5236,8 +5236,8 @@
         <vendorCode>482,09</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="482,11" available="true">
@@ -8710,8 +8710,8 @@
         <vendorCode>740038 - 0223</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="740138 - 1220" available="false">
@@ -12220,8 +12220,8 @@
         <vendorCode>AE134</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="AE307" available="true">
@@ -12351,7 +12351,7 @@
         <in_stock>0</in_stock>
       </offer>
       <offer id="AE363" available="true">
-        <name>Ласощі Dental Snak, кісточки двоколірні з солодкої картоплі зі смаком м'яти, сушених томатів, 80 гр,.2.5x1.5x 1см, (флоупак) 14 шт/уп(ціна за упак)</name>
+        <name>Ласощі Dental Snak, кісточки двоколірні з солодкої картоплі зі смаком м'яти, сушених томатів, 80 гр,.2.5x1.5x 1см, (флоупак) 12 шт/уп(ціна за упак)</name>
         <vendorCode>AE363</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
@@ -12423,7 +12423,7 @@
         <in_stock>1</in_stock>
       </offer>
       <offer id="AE377/A" available="true">
-        <name>Ласощі Dental Snak, ензимні палички з ферментами та ароматами петрушки, магнолії та розмарину, 144 гр, 12см, (3 шт в флоупак) 14 шт/уп(ціна за упак)</name>
+        <name>Ласощі Dental Snak, ензимні палички з ферментами та ароматами петрушки, магнолії та розмарину, 144 гр, 12см, (3 шт в флоупак) 12 шт/уп(ціна за упак)</name>
         <vendorCode>AE377/A</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
@@ -13754,14 +13754,14 @@
         <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="B189/B" available="true">
+      <offer id="B189/B" available="false">
         <name>Рукавичка з TPR та сітки для вичісування та масажу домашніх тварин, 1шт. (ціна за 1 шт.)</name>
         <vendorCode>B189/B</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="B189/C" available="false">
         <name>Рукавичка з тонкими зубчиками на сітці для вичісування та масажу собак, 1шт. (ціна за 1 шт.)</name>
@@ -14875,8 +14875,8 @@
         <vendorCode>BW630</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="BW650" available="false">
@@ -16144,8 +16144,8 @@
         <vendorCode>C3052985</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="C3052986" available="true">
@@ -18259,8 +18259,8 @@
         <vendorCode>C6067414</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="C6067415" available="true">
@@ -18808,8 +18808,8 @@
         <vendorCode>C6098220</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="C6098255" available="false">
@@ -21728,14 +21728,14 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="EU126" available="true">
+      <offer id="EU126" available="false">
         <name>Ласощі INABA "Churu" для котів, вершковий мус в стіках, "Різновиди морепродуктів" * 14 гр (20 шт.уп.) продаж УПАК. (16шт. в ящ.)</name>
         <vendorCode>EU126</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="EU127" available="true">
         <name>Ласощі INABA "Churu" для котів, вершковий мус в стіках, "Різновиди курки" * 14 гр (20 шт.уп.) продаж УПАК. (16шт. в ящ.)</name>
@@ -23249,14 +23249,14 @@
         <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="H1SH2VL1500HYKNN" available="true">
+      <offer id="H1SH2VL1500HYKNN" available="false">
         <name>Hyponic Grooming Artist, шампунь - майстер по догляду за волоссям,для ручної стрижки та об'єму,1,5 л. (6 шт/уп)</name>
         <vendorCode>H1SH2VL1500HYKNN</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="H1SH2VL3800HYKNN" available="true">
         <name>Hyponic Grooming Artist, шампунь - майстер по догляду за волоссям,для ручної стрижки та об'єму,3,8 л. (4 шт/уп)</name>
@@ -23812,18 +23812,18 @@
         <vendorCode>KT0022</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="KT0039" available="true">
+      <offer id="KT0039" available="false">
         <name>Наповнювач д/кот KOTIX TOFU Green Tea, 6L (6шт/ящ)</name>
         <vendorCode>KT0039</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="KT0046" available="false">
         <name>Наповнювач д/кот KOTIX TOFU Honey Peach. 6L (6шт/ящ)</name>
@@ -24631,8 +24631,8 @@
         <vendorCode>PI1042</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="PI1060" available="true">
@@ -24986,14 +24986,14 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="PR 1 ПЛАСТ ЧОРНИЙ" available="true">
+      <offer id="PR 1 ПЛАСТ ЧОРНИЙ" available="false">
         <name>Переноска ECO PRATIKO 1 plast. BLACK - RECYCLED NERO 48*31.5*33 h (14 шт в ящ) Вага жив. 10кг</name>
         <vendorCode>PR 1 ПЛАСТ ЧОРНИЙ</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="PR 2 MЕТ СИНІЙ" available="true">
         <name>Переноска PRATIKO 2 metal DARK BLUE(темно-синій) 55*36*36 h (10 шт в ящ) Вага жив. 15кг</name>
@@ -25432,8 +25432,8 @@
         <vendorCode>S10030100</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="S10030200" available="false">
@@ -26102,14 +26102,14 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="НФ-00002180" available="true">
+      <offer id="НФ-00002180" available="false">
         <name>Спрей FIPROMAX HomeCare захист місць для котів і собак, 100мл./уп.10 шт</name>
         <vendorCode>НФ-00002180</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="НФ-00002188" available="false">
         <name>Спрей FIPROMAX HomeCare захист предметів від погризу для собак, 100мл./уп.10 шт</name>
@@ -26125,8 +26125,8 @@
         <vendorCode>НФ-00002189</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="НФ-00002397 (FP-027)" available="true">
@@ -27479,14 +27479,14 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="СС-31" available="true">
+      <offer id="СС-31" available="false">
         <name>Ласощі для собак Пеніс яловичий 1,0 кг</name>
         <vendorCode>СС-31</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="СС-32" available="true">
         <name>Ласощі для собак Пеніс яловичий 0,2 кг</name>
@@ -27641,14 +27641,14 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="СС-66" available="true">
+      <offer id="СС-66" available="false">
         <name>Ласощі для собак Легені яловичі 1,0 кг</name>
         <vendorCode>СС-66</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="СС-67" available="true">
         <name>Ласощі для собак Рубець яловичий різаний 1,0 кг</name>
