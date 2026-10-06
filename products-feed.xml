@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE yml_catalog SYSTEM "shops.dtd">
-<yml_catalog date="2026-10-05 03:40">
+<yml_catalog date="2026-10-06 03:42">
  <shop>
   <name>catpaws.com.ua</name>
   <company>Интернет-магазин catpaws.com.ua</company>
@@ -6016,7 +6016,8 @@
    </offer>
    <offer id="3977" available="true">
     <code>024842</code><url>https://catpaws.com.ua/sukhyi-korm-mera-cats-nature-adult-chicken-huhn-dlia-doroslykh-kotiv-vsikh-porid-z-kurkoiu-2-kh/</url>
-    <price>1102.00</price>
+    <price>827.00</price>
+    <oldprice>1102</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1086</categoryId>
     <picture>https://catpaws.com.ua/content/images/28/82193392348486_+c7bb468c79.jpg</picture>
@@ -6027,7 +6028,8 @@
    </offer>
    <offer id="3978" available="true">
     <code>025142</code><url>https://catpaws.com.ua/sukhyi-korm-mera-cats-nature-adult-duck-ente-dlia-doroslykh-kotiv-vsikh-porid-z-kachkoiu-2-kh/</url>
-    <price>1165.00</price>
+    <price>874.00</price>
+    <oldprice>1165</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1086</categoryId>
     <picture>https://catpaws.com.ua/content/images/29/31535023598536_+62b6f48a2c.jpg</picture>
@@ -6038,7 +6040,8 @@
    </offer>
    <offer id="3979" available="true">
     <code>025042</code><url>https://catpaws.com.ua/sukhyi-korm-mera-cats-nature-adult-lamb-lamm-dlia-doroslykh-kotiv-vsikh-porid-z-iahniam-2-kh/</url>
-    <price>1165.00</price>
+    <price>874.00</price>
+    <oldprice>1165</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1086</categoryId>
     <picture>https://catpaws.com.ua/content/images/30/94202951811066_+b00b903d78.jpg</picture>
@@ -6049,7 +6052,8 @@
    </offer>
    <offer id="3980" available="true">
     <code>024942</code><url>https://catpaws.com.ua/sukhyi-korm-mera-cats-nature-adult-salmon-lachs-dlia-doroslykh-kotiv-vsikh-porid-z-lososem-2-kh/</url>
-    <price>1165.00</price>
+    <price>874.00</price>
+    <oldprice>1165</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1086</categoryId>
     <picture>https://catpaws.com.ua/content/images/31/78889245193375_+a9ddb00bb0.jpg</picture>
@@ -6060,7 +6064,8 @@
    </offer>
    <offer id="3981" available="true">
     <code>025242</code><url>https://catpaws.com.ua/sukhyi-korm-mera-cats-nature-adult-trout-forelle-dlia-doroslykh-kotiv-vsikh-porid-z-forelliu-2-kh/</url>
-    <price>1165.00</price>
+    <price>874.00</price>
+    <oldprice>1165</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1086</categoryId>
     <picture>https://catpaws.com.ua/content/images/32/69356721945080_+3873853688.jpg</picture>
@@ -6104,7 +6109,8 @@
    </offer>
    <offer id="3985" available="true">
     <code>025342</code><url>https://catpaws.com.ua/sukhyi-korm-mera-cats-nature-adult-insekt-insekt-dlia-doroslykh-kotiv-vsikh-porid-z-komakhamy-2-kh/</url>
-    <price>1221.00</price>
+    <price>916.00</price>
+    <oldprice>1221</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1086</categoryId>
     <picture>https://catpaws.com.ua/content/images/36/79435782565292_+75b14ba7b7.jpg</picture>
@@ -6214,7 +6220,8 @@
    </offer>
    <offer id="3995" available="true">
     <code>025542</code><url>https://catpaws.com.ua/sukhyi-korm-mera-cats-nature-sensitive-chicken-huhn-dlia-kotiv-iz-chutlyvym-travlenniam-z-kurkoiu-2-kh/</url>
-    <price>1225.00</price>
+    <price>918.00</price>
+    <oldprice>1225</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1086</categoryId>
     <picture>https://catpaws.com.ua/content/images/46/48309926258452_+d0933c9ef7.jpg</picture>
@@ -6247,7 +6254,8 @@
    </offer>
    <offer id="3998" available="true">
     <code>025642</code><url>https://catpaws.com.ua/sukhyi-korm-mera-cats-nature-sensitive-insekt-insekt-dlia-kotiv-iz-chutlyvym-travlenniam-z-komakhamy-2-kh/</url>
-    <price>1426.00</price>
+    <price>1069.00</price>
+    <oldprice>1426</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1086</categoryId>
     <picture>https://catpaws.com.ua/content/images/49/14802877186385_+cccd9dddea.jpg</picture>
@@ -6324,7 +6332,8 @@
    </offer>
    <offer id="4006" available="true">
     <code>024742</code><url>https://catpaws.com.ua/sukhyi-korm-mera-cats-nature-kitten-salmon-lachs-dlia-kosheniat-vsikh-porid-z-lososem-2-kh/</url>
-    <price>1165.00</price>
+    <price>874.00</price>
+    <oldprice>1165</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1086</categoryId>
     <picture>https://catpaws.com.ua/content/images/7/24376149083465_+aa7bd95f6e.jpg</picture>
@@ -6357,7 +6366,8 @@
    </offer>
    <offer id="4012" available="true">
     <code>056934</code><url>https://catpaws.com.ua/sukhyi-korm-mera-pure-sensitive-junior-truthahn-reis-dlia-iunioriv-z-indychkoiu-ta-rysom-4-kh/</url>
-    <price>2173.00</price>
+    <price>1629.00</price>
+    <oldprice>2173</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1084</categoryId>
     <picture>https://catpaws.com.ua/content/images/13/82296601586689_+c278294fec.jpg</picture>
@@ -6368,7 +6378,8 @@
    </offer>
    <offer id="4014" available="true">
     <code>056534</code><url>https://catpaws.com.ua/sukhyi-korm-mera-pure-sensitive-insect-protein-dlia-doroslykh-sobak-z-proteinom-komakh-4-kh/</url>
-    <price>2591.00</price>
+    <price>1943.00</price>
+    <oldprice>2591</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1084</categoryId>
     <picture>https://catpaws.com.ua/content/images/15/69191426840918_+b831793d81.jpg</picture>
@@ -6467,7 +6478,8 @@
    </offer>
    <offer id="4024" available="true">
     <code>057434</code><url>https://catpaws.com.ua/sukhyi-korm-mera-pure-sensitive-fresh-meat-rind-kartoffel-dlia-doroslykh-sobak-iz-svizhym-m-iasom-ialovychyny-i-kartopli-bezzernovyi-4-kh/</url>
-    <price>2573.00</price>
+    <price>1930.00</price>
+    <oldprice>2573</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1084</categoryId>
     <picture>https://catpaws.com.ua/content/images/25/94506102761137_+f784a0e295.jpg</picture>
@@ -6500,7 +6512,8 @@
    </offer>
    <offer id="4027" available="true">
     <code>057134</code><url>https://catpaws.com.ua/sukhyi-korm-mera-pure-sensitive-fresh-meat-truthahn-kartoffel-dlia-doroslykh-sobak-iz-svizhym-m-iasom-indychky-i-kartopli-bezzernovyi-4-kh/</url>
-    <price>2244.00</price>
+    <price>1683.00</price>
+    <oldprice>2244</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1084</categoryId>
     <picture>https://catpaws.com.ua/content/images/28/11475756134964_+768a494a99.jpg</picture>
@@ -6555,7 +6568,8 @@
    </offer>
    <offer id="4032" available="true">
     <code>057534</code><url>https://catpaws.com.ua/sukhyi-korm-mera-pure-sensitive-mini-lamm-reis-dlia-doroslykh-sobak-dribnykh-porid-z-iahniam-ta-rysom-4-kh/</url>
-    <price>2346.00</price>
+    <price>1759.00</price>
+    <oldprice>2346</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1084</categoryId>
     <picture>https://catpaws.com.ua/content/images/33/64304953295296_+bc9d945ccf.jpg</picture>
@@ -6577,7 +6591,8 @@
    </offer>
    <offer id="4034" available="true">
     <code>057634</code><url>https://catpaws.com.ua/sukhyi-korm-mera-pure-sensitive-mini-truthahn-reis-dlia-doroslykh-sobak-dribnykh-porid-z-indychkoiu-ta-rysom-4-kh/</url>
-    <price>2068.00</price>
+    <price>1551.00</price>
+    <oldprice>2068</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1084</categoryId>
     <picture>https://catpaws.com.ua/content/images/35/41552921964205_+07f9307cd1.jpg</picture>
@@ -6863,7 +6878,8 @@
    </offer>
    <offer id="4088" available="true">
     <code>740297 - 2326</code><url>https://catpaws.com.ua/sukhyi-korm-mera-vital-renal-dlia-kotiv-pry-khvorobakh-nyrok-3-kh/</url>
-    <price>1483.00</price>
+    <price>1187.00</price>
+    <oldprice>1483</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1108</categoryId>
     <picture>https://catpaws.com.ua/content/images/39/54948346839972_+9b2b03319e.jpg</picture>
@@ -6885,7 +6901,8 @@
    </offer>
    <offer id="4090" available="true">
     <code>740497 - 4320</code><url>https://catpaws.com.ua/sukhyi-korm-mera-vital-skin-control-allergic-dlia-kotiv-pry-dermatozi-ta-nadmirnomu-vypadanni-shersti-3-kh/</url>
-    <price>1713.00</price>
+    <price>1370.00</price>
+    <oldprice>1713</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1108</categoryId>
     <picture>https://catpaws.com.ua/content/images/41/94555035265472_+80e0596d7f.jpg</picture>
@@ -6907,7 +6924,8 @@
    </offer>
    <offer id="4092" available="true">
     <code>740397 - 3323</code><url>https://catpaws.com.ua/sukhyi-korm-mera-vital-urinary-dlia-kotiv-pry-sechokam-ianykh-khvorobakh-3-kh/</url>
-    <price>1483.00</price>
+    <price>1187.00</price>
+    <oldprice>1483</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1108</categoryId>
     <picture>https://catpaws.com.ua/content/images/43/63131122606000_+292b2b7e54.jpg</picture>
@@ -7014,17 +7032,6 @@
     <vendor>MERA</vendor>
     <name>Сухий корм MERA VITAL Renal для дорослих собак при хворобах нирок, 10 кг</name>
     <description>Сухий корм MERA VITAL Renal для дорослих собак при хворобах нирок, 10 кг    Збалансований сухий раціон німецького виробництва для щоденного годування.    Основні особливості:       Призначення: дієтичної підтримки функції нирок.   Рецептура: ретельно підібраними інгредієнтами.   Лінійка: MERA VITAL.   Вироблено в Німеччині для собак.      Склад і аналітичні компоненти    Склад: рис, кукурудза, жир свійської птиці, білок свійської птиці (частично сушений и гідролізований), кукурудзяний білок, бурякова м'якоть (сушена), желатин (гідролізований, HDP), насіння льону, лососева олія, куряча печінка (высушенная, гидро ), соняшникова олія, карбонат кальцію, кухонна сіль, хлорид калію, яєчний порошок, лигноцеллюлоза, дріжджі (0,3%, богатые маннан-олигосахаридами и бета-глюканами из клеточных стенок дрожжей), морских , богатые ДГК).    Аналітичний склад: сирий протеїн 14%, вміст жиру 16%, сира клітковина 2,5%, сира зола 5%, кальцій 0,6%, фосфор 0,3%, натрій 0,35%, калій 0,6 %, омега-6 жирных кислот 4%, омега-3 жирных кислот 0,9%.    Добавки на кг: вітамін A 22000 МE, вітамін D3 1600 МE, вітамін E (альфа-токоферола ацетат) 600 мг, вітамін С (аскорбиновая кислота) 200 мг, мідь (как сульфат меди (II) пентагидрат) 12,5 мг, цинк (сульфат цинка)) 100 мг, цинк (в виде сульфата глицина, гидрата) 120 мг, залізо (в виде сульфата железа (II), моногидрата) 150 мг, марганець (в виде сульфата марганца (II), моногидрата) 25 мг, йод (в виде йода кальция, без воды) 1,8 мг, селен (в виде селенита натрия) 0,35 мг.    Важливо: ветеринарну дієту рекомендовано застосовувати після консультації з ветеринарним лікарем. Раціон не замінює діагностику та лікування.    Рекомендації з годування: Добову норму підбирайте з урахуванням віку, маси тіла, активності та стану тварини. Перехід на новий раціон здійснюйте поступово протягом 5–7 днів. Свіжа вода має бути доступна постійно.  </description>
-   </offer>
-   <offer id="4104" available="true">
-    <code>720374 - 145</code><url>https://catpaws.com.ua/volohyi-korm-mera-vital-mobility-dlia-doroslykh-sobak-pry-zakhvoriuvanniakh-oporno-rukhovoi-systemy-400-h/</url>
-    <price>388.00</price>
-    <currencyId>UAH</currencyId>
-    <categoryId>1107</categoryId>
-    <picture>https://catpaws.com.ua/content/images/5/84951588932066_+00ddc5d140.jpg</picture>
-    <vendorCode>720374 - 145</vendorCode>
-    <vendor>MERA</vendor>
-    <name>Вологий корм MERA VITAL Mobility для дорослих собак при захворюваннях опорно-рухової системи, 400 г</name>
-    <description>Вологий корм MERA VITAL Mobility для дорослих собак при захворюваннях опорно-рухової системи, 400 г    Вологий раціон із приємною текстурою та збалансованим складом.    Основні особливості:       Призначення: дієтичної підтримки суглобів та опорно-рухової системи.   Рецептура: ретельно підібраними інгредієнтами.   Лінійка: MERA VITAL.   Вироблено в Німеччині для собак.      Склад і аналітичні компоненти    Аналітичні компонентиБелок 11%, вміст жиру 5,6%, сира клітковина 0,3%, сира зола 2,1%, влажность 76%, омега-6 жирні кислоти 0,81%, омега-3 жирні кислоти 0,32%, калій 0,26%, кальцій 0,2%, фосфор 0,14%, натрій 0,13%, докозагексаеновая кислота (ДГК) 0,13%, эйкозапентановая кислота (ЭПК) 0,09%.    Склад62% мясо и субпродукты животного происхождения (куриное мясо, куриные желудки, куриное сердце, куряча печінка, куриные шейки, говяжьи легкие), масла и жири (лососева олія, льняное масло), субпродукты растительного происхождения , минеральные вещества и ракообразные (экстракт моллюсков = 0,09% глюкозамина, 0,03% хондроитинсульфата), дріжджі (0,06% бета-глюканов из клеточных стенок дрожжей).    Добавки на кгДитамин D3 200 МЕ, цинк (в виде сульфата цинка, моногидрат) 15 мг, марганець (в виде марганца-II-сульфата, моногидрат) 3 мг, йод (в виде йода кальция, безводный) 0,75 мг.    Важливо: ветеринарну дієту рекомендовано застосовувати після консультації з ветеринарним лікарем. Раціон не замінює діагностику та лікування.    Рекомендації з годування: Добову норму підбирайте з урахуванням віку, маси тіла, активності та стану тварини. Перехід на новий раціон здійснюйте поступово протягом 5–7 днів. Свіжа вода має бути доступна постійно.  </description>
    </offer>
    <offer id="4339" available="true">
     <code>ЗС000434</code><url>https://catpaws.com.ua/peliushky-piatysharovi-hihiienichni-pohlynaiuchi-dlia-domashnikh-tvaryn-z-aktyvovanym-vuhilliam-petsanit-6060-sm-modes/</url>
@@ -8175,7 +8182,8 @@
    </offer>
    <offer id="4910" available="true">
     <code>0281 DERMCOND1000</code><url>https://catpaws.com.ua/kondytsioner-dlia-poshkodzhenoi-shkiry-iv-san-bernard-derm-conditioner-z5-1000ml/</url>
-    <price>3914.00</price>
+    <price>2935.00</price>
+    <oldprice>3914</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1101</categoryId>
     <picture>https://catpaws.com.ua/content/images/11/36210238454029_+9f044a7501.jpg</picture>
@@ -8187,7 +8195,8 @@
    </offer>
    <offer id="4911" available="true">
     <code>0298 DERMOIL500</code><url>https://catpaws.com.ua/maslo-dlia-poshkodzhenoi-shkiry-iv-san-bernard-derm-oil-x7-500ml/</url>
-    <price>6608.00</price>
+    <price>4956.00</price>
+    <oldprice>6608</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1103</categoryId>
     <picture>https://catpaws.com.ua/content/images/12/60442985904345_+1ceb126559.jpg</picture>
@@ -8271,7 +8280,8 @@
    </offer>
    <offer id="4948" available="true">
     <code>0396 BIFHC250</code><url>https://catpaws.com.ua/sprei-2phase-dvofaznyi-z-ekstraktom-zelenoho-chaiu-vidnovlennia-ta-pom-iakshennia-250-ml/</url>
-    <price>1794.00</price>
+    <price>1346.00</price>
+    <oldprice>1794</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1103</categoryId>
     <picture>https://catpaws.com.ua/content/images/49/57927046790494_+344316472e.jpg</picture>
@@ -8403,7 +8413,8 @@
    </offer>
    <offer id="5025" available="true">
     <code>H1SH3VL0100HYKNN</code><url>https://catpaws.com.ua/hyponic-for-show-dogs-shampun-z-kyparysovoiu-vodoiu-d-sobak-ob-iem-100-ml/</url>
-    <price>561.00</price>
+    <price>421.00</price>
+    <oldprice>561</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1099</categoryId>
     <picture>https://catpaws.com.ua/content/images/26/45398102265406_+dcc036dfff.jpg</picture>
@@ -8559,7 +8570,8 @@
    </offer>
    <offer id="5083" available="true">
     <code>H3MI1AL0237HOKNN</code><url>https://catpaws.com.ua/hyponic-zvolozhuiuchyi-sprei-dlia-rozplutuvannia-shersti-d-vsikh-domash-tvaryn-z-nizhnym-aromatom-237-ml/</url>
-    <price>1242.00</price>
+    <price>931.00</price>
+    <oldprice>1242</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1103</categoryId>
     <picture>https://catpaws.com.ua/content/images/34/50338646008606_+ab418a4ca7.jpg</picture>
@@ -8571,7 +8583,8 @@
    </offer>
    <offer id="5084" available="true">
     <code>H3MI1AL0237HYKNN</code><url>https://catpaws.com.ua/hyponic-zvolozhuiuchyi-sprei-dlia-rozplutuvannia-shersti-d-vsikh-domash-tvaryn-237-ml/</url>
-    <price>1242.00</price>
+    <price>931.00</price>
+    <oldprice>1242</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1103</categoryId>
     <picture>https://catpaws.com.ua/content/images/35/16271413797495_+b3a951d339.jpg</picture>
@@ -10496,6 +10509,7 @@
    <offer id="3386" available="">
     <code>5309</code><url>https://catpaws.com.ua/kondytsioner-iv-san-bernard-cassiopeia-short-dlia-korotkoi-shersti-z-ekstraktom-akatsii-500-ml/</url>
     <price>1098.00</price>
+    <oldprice>1463</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1101</categoryId>
     <picture>https://catpaws.com.ua/content/images/37/39393189829468_+abd5ec07e9.jpg</picture>
@@ -14013,7 +14027,8 @@
    </offer>
    <offer id="4635" available="">
     <code>DN 185 (794)_box</code><url>https://catpaws.com.ua/volohyi-korm-dlia-kotiv-dolina-noteci-premium-miasni-shmatochky-v-sousi-z-kachkoiu-185-h-12-sht/</url>
-    <price>1653.00</price>
+    <price>1405.00</price>
+    <oldprice>1653</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1090</categoryId>
     <picture>https://catpaws.com.ua/content/images/36/vologiy-korm-dlja-kotv-dolina-noteci-premium-mjasn-shmatochki-v-sous-z-kachkou-185-g-12-sht-56922111756377_+bfb48dda7f.png</picture>
@@ -14024,7 +14039,8 @@
    </offer>
    <offer id="4636" available="">
     <code>DN 185 (787)_box</code><url>https://catpaws.com.ua/volohyi-korm-dlia-kotiv-dolina-noteci-premium-miasni-shmatochky-v-sousi-z-lososem-185-h-12-sht/</url>
-    <price>1653.00</price>
+    <price>1405.00</price>
+    <oldprice>1653</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1090</categoryId>
     <picture>https://catpaws.com.ua/content/images/37/vologiy-korm-dlja-kotv-dolina-noteci-premium-mjasn-shmatochki-v-sous-z-lososem-185-g-12-sht-50600331129885_+3aec1a12bd.png</picture>
@@ -14046,7 +14062,8 @@
    </offer>
    <offer id="4638" available="">
     <code>DN 185 (800)_box</code><url>https://catpaws.com.ua/volohyi-korm-dlia-kotiv-dolina-noteci-premium-miasni-shmatochky-v-sousi-z-yahniatynoiu-185-h-12-sht/</url>
-    <price>1653.00</price>
+    <price>1405.00</price>
+    <oldprice>1653</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1090</categoryId>
     <picture>https://catpaws.com.ua/content/images/39/vologiy-korm-dlja-kotv-dolina-noteci-premium-mjasn-shmatochki-v-sous-z-jagnjatinou-185-g-12-sht-82962971376059_+53a09e1867.png</picture>
@@ -14057,7 +14074,8 @@
    </offer>
    <offer id="4639" available="">
     <code>DN 185 (817)_box</code><url>https://catpaws.com.ua/volohyi-korm-dlia-kosheniat-dolina-noteci-premium-miasni-shmatochky-v-sousi-z-indychkoiu-185-h-12-sht/</url>
-    <price>1653.00</price>
+    <price>1405.00</price>
+    <oldprice>1653</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1090</categoryId>
     <picture>https://catpaws.com.ua/content/images/40/vologiy-korm-dlja-koshenjat-dolina-noteci-premium-mjasn-shmatochki-v-sous-z-ndichkou-185-g-12-sht-72020627635442_+53a67ea258.png</picture>
@@ -15080,7 +15098,8 @@
    </offer>
    <offer id="4743" available="">
     <code>1197</code><url>https://catpaws.com.ua/maska-iv-san-bernard-black-cherry-dlia-korotkoi-shersti-z-proteinamy-shovku-ta-chornoiu-vyshneiu-3l/</url>
-    <price>7344.00</price>
+    <price>5875.00</price>
+    <oldprice>7344</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1101</categoryId>
     <picture>https://catpaws.com.ua/content/images/44/70941414995918_+27332ec5f2.jpg</picture>
@@ -15224,7 +15243,8 @@
    </offer>
    <offer id="4755" available="">
     <code>1388</code><url>https://catpaws.com.ua/maska-iv-san-bernard-ginger-and-elderberry-dezinfikuiucha-z-buzynoiu-ta-imbyrem-3l/</url>
-    <price>7344.00</price>
+    <price>5875.00</price>
+    <oldprice>7344</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1101</categoryId>
     <picture>https://catpaws.com.ua/content/images/6/51159603652588_+69f226900e.jpg</picture>
@@ -15272,7 +15292,8 @@
    </offer>
    <offer id="4759" available="">
     <code>2163</code><url>https://catpaws.com.ua/maska-iv-san-bernard-mint-osvizhaiucha-i-tonizuiucha-z-m-iatoiu-ta-vitamynom-v6-3l/</url>
-    <price>7344.00</price>
+    <price>5875.00</price>
+    <oldprice>7344</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1101</categoryId>
     <picture>https://catpaws.com.ua/content/images/10/91573724102921_+8f2451424d.jpg</picture>
@@ -15296,7 +15317,8 @@
    </offer>
    <offer id="4761" available="">
     <code>1234</code><url>https://catpaws.com.ua/maska-iv-san-bernard-orange-zmichnuiucha-z-ekstraktom-apelsyna-3l/</url>
-    <price>7344.00</price>
+    <price>5875.00</price>
+    <oldprice>7344</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1101</categoryId>
     <picture>https://catpaws.com.ua/content/images/12/13858949469820_+849c46d23e.jpg</picture>
@@ -15320,7 +15342,8 @@
    </offer>
    <offer id="4763" available="">
     <code>1340</code><url>https://catpaws.com.ua/maska-iv-san-bernard-pink-grapefruit-dlia-serednoi-shersti-z-hreipfrutom-ta-vitamynom-v6-3l/</url>
-    <price>7344.00</price>
+    <price>5875.00</price>
+    <oldprice>7344</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1101</categoryId>
     <picture>https://catpaws.com.ua/content/images/14/55300612463638_+96d59da8ff.jpg</picture>
@@ -15560,7 +15583,8 @@
    </offer>
    <offer id="4785" available="">
     <code>1463</code><url>https://catpaws.com.ua/shampun-iv-san-bernard-orange-zmichnuiucha-z-ekstraktom-apelsyna-3-25l/</url>
-    <price>3310.00</price>
+    <price>2648.00</price>
+    <oldprice>3310</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1099</categoryId>
     <picture>https://catpaws.com.ua/content/images/36/80571730657404_+df7cb3dca1.jpg</picture>
@@ -15596,7 +15620,8 @@
    </offer>
    <offer id="4788" available="">
     <code>1555</code><url>https://catpaws.com.ua/shampun-iv-san-bernard-pink-grapefruit-dlia-serednoi-shersti-z-hreipfrutom-ta-vitamynom-v6-3-25l/</url>
-    <price>3310.00</price>
+    <price>2648.00</price>
+    <oldprice>3310</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1099</categoryId>
     <picture>https://catpaws.com.ua/content/images/39/86969552400198_+039d2db1bd.jpg</picture>
@@ -16473,6 +16498,7 @@
    <offer id="4876" available="">
     <code>5323</code><url>https://catpaws.com.ua/kondytsioner-iv-san-bernard-cassiopeia-short-dlia-korotkoi-shersti-z-ekstraktom-akatsii-2450-ml/</url>
     <price>4371.00</price>
+    <oldprice>5828</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1101</categoryId>
     <picture>https://catpaws.com.ua/content/images/27/81293865104092_+de94463973.jpg</picture>
@@ -16485,6 +16511,7 @@
    <offer id="4877" available="">
     <code>8676</code><url>https://catpaws.com.ua/nabir-iv-san-bernard-andromeda-kondyts-500-ml-andromeda-shampun-probnyk-andromeda-parfum-probnyk/</url>
     <price>1132.00</price>
+    <oldprice>1510</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1099</categoryId>
     <picture>https://catpaws.com.ua/content/images/28/56852145955138_+7398bc1fff.jpg</picture>
@@ -16497,6 +16524,7 @@
    <offer id="4878" available="">
     <code>8683</code><url>https://catpaws.com.ua/nabir-iv-san-bernard-aquarius-kondyts-500-ml-aquarius-shampun-probnyk-aquarius-parfum-probnyk/</url>
     <price>1132.00</price>
+    <oldprice>1510</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1099</categoryId>
     <picture>https://catpaws.com.ua/content/images/29/60294598672328_+9f94f4eada.jpg</picture>
@@ -16509,6 +16537,7 @@
    <offer id="4879" available="">
     <code>8690</code><url>https://catpaws.com.ua/nabir-iv-san-bernard-cassiopeia-kondyts-500-ml-cassiopeia-shampun-probnyk-cassiopeia-parfum-probnyk/</url>
     <price>1132.00</price>
+    <oldprice>1510</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1099</categoryId>
     <picture>https://catpaws.com.ua/content/images/30/83199360198668_+70df9db4d3.jpg</picture>
@@ -16521,6 +16550,7 @@
    <offer id="4880" available="">
     <code>8713</code><url>https://catpaws.com.ua/nabir-iv-san-bernard-orion-kondyts-500-ml-orion-shampun-probnyk-orion-parfum-probnyk/</url>
     <price>1132.00</price>
+    <oldprice>1510</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1099</categoryId>
     <picture>https://catpaws.com.ua/content/images/31/23431060308429_+f313ef34fb.jpg</picture>
@@ -16533,6 +16563,7 @@
    <offer id="4881" available="">
     <code>8775</code><url>https://catpaws.com.ua/nabir-iv-san-bernard-orion-shampun-550-ml-orion-kondyts-probnyk-orion-parfum-probnyk/</url>
     <price>1132.00</price>
+    <oldprice>1510</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1099</categoryId>
     <picture>https://catpaws.com.ua/content/images/32/81139089142423_+cb9a800747.jpg</picture>
@@ -16545,6 +16576,7 @@
    <offer id="4882" available="">
     <code>5613</code><url>https://catpaws.com.ua/parfum-iv-san-bernard-andromeda-50-ml/</url>
     <price>1183.00</price>
+    <oldprice>1578</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1130</categoryId>
     <picture>https://catpaws.com.ua/content/images/33/52524704184650_+387b1d7865.jpg</picture>
@@ -16557,6 +16589,7 @@
    <offer id="4883" available="">
     <code>5590</code><url>https://catpaws.com.ua/parfum-iv-san-bernard-aquarius-50-ml/</url>
     <price>1183.00</price>
+    <oldprice>1578</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1130</categoryId>
     <picture>https://catpaws.com.ua/content/images/34/31004076416399_+781c3db0ca.jpg</picture>
@@ -16569,6 +16602,7 @@
    <offer id="4884" available="">
     <code>5569</code><url>https://catpaws.com.ua/parfum-iv-san-bernard-cassiopeia-50-ml/</url>
     <price>1183.00</price>
+    <oldprice>1578</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1130</categoryId>
     <picture>https://catpaws.com.ua/content/images/35/15722217711652_+42716b15ef.jpg</picture>
@@ -16581,6 +16615,7 @@
    <offer id="4885" available="">
     <code>5606</code><url>https://catpaws.com.ua/parfum-iv-san-bernard-hydra-50-ml/</url>
     <price>1183.00</price>
+    <oldprice>1578</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1130</categoryId>
     <picture>https://catpaws.com.ua/content/images/36/92214718515017_+a84ea4ed88.jpg</picture>
@@ -16593,6 +16628,7 @@
    <offer id="4886" available="">
     <code>5583</code><url>https://catpaws.com.ua/parfum-iv-san-bernard-orion-50ml/</url>
     <price>1183.00</price>
+    <oldprice>1578</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1130</categoryId>
     <picture>https://catpaws.com.ua/content/images/37/19636479354027_+c897098250.jpg</picture>
@@ -16605,6 +16641,7 @@
    <offer id="4887" available="">
     <code>5576</code><url>https://catpaws.com.ua/parfum-iv-san-bernard-pegasus-50-ml/</url>
     <price>1183.00</price>
+    <oldprice>1578</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1130</categoryId>
     <picture>https://catpaws.com.ua/content/images/38/53998588893221_+56304c8adb.jpg</picture>
@@ -16616,7 +16653,8 @@
    </offer>
    <offer id="4888" available="">
     <code>5286</code><url>https://catpaws.com.ua/shampun-iv-san-bernard-cassiopeia-short-dlia-korotkoi-shersti-z-ekstraktom-akatsii-2500-ml/</url>
-    <price>5828.00</price>
+    <price>4371.00</price>
+    <oldprice>5828</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1099</categoryId>
     <picture>https://catpaws.com.ua/content/images/39/42647493239833_+80ebd7c9d8.jpg</picture>
@@ -16724,7 +16762,8 @@
    </offer>
    <offer id="4901" available="">
     <code>4807 NVBALERB5000</code><url>https://catpaws.com.ua/kondytsioner-iv-san-bernard-herb-trav-ianyi-osvizhaiuchyi-dlia-vsikh-typiv-shersti-kotiv-i-sobak-5l/</url>
-    <price>6229.00</price>
+    <price>5294.00</price>
+    <oldprice>6229</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1101</categoryId>
     <picture>https://catpaws.com.ua/content/images/2/46361120793328_+89e6df6648.jpg</picture>
@@ -16736,7 +16775,8 @@
    </offer>
    <offer id="4902" available="">
     <code>4678 NVSHALG10000</code><url>https://catpaws.com.ua/shampun-iv-san-bernard-alghe-z-vodorostiamy-dlia-serednoi-ta-dovhoi-shersti-kotiv-i-sobak-10l/</url>
-    <price>5871.00</price>
+    <price>4990.00</price>
+    <oldprice>5871</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1099</categoryId>
     <picture>https://catpaws.com.ua/content/images/3/48422001791294_+c2107dfa5e.jpg</picture>
@@ -16748,7 +16788,8 @@
    </offer>
    <offer id="4903" available="">
     <code>4852 NVSHATT10000</code><url>https://catpaws.com.ua/shampun-iv-san-bernard-anti-parassitario-tea-tree-z-chainym-derevom-antyparazytarnyi-dlia-kotiv-i-sobak-10l/</url>
-    <price>6446.00</price>
+    <price>5479.00</price>
+    <oldprice>6446</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1099</categoryId>
     <picture>https://catpaws.com.ua/content/images/4/53410084741400_+5e20852650.jpg</picture>
@@ -16760,7 +16801,8 @@
    </offer>
    <offer id="4904" available="">
     <code>4654 NVSHERB10000</code><url>https://catpaws.com.ua/shampun-iv-san-bernard-herb-trav-ianyi-osvizhaiuchyi-dlia-vsikh-typiv-shersti-kotiv-i-sobak-10l/</url>
-    <price>5871.00</price>
+    <price>4990.00</price>
+    <oldprice>5871</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1099</categoryId>
     <picture>https://catpaws.com.ua/content/images/5/31671108038592_+141fca2604.jpg</picture>
@@ -16784,7 +16826,8 @@
    </offer>
    <offer id="4906" available="">
     <code>4647 NVSHMAN10000</code><url>https://catpaws.com.ua/shampun-iv-san-bernard-white-coat-dlia-biloi-shersti-usuvaie-zhovtyi-kolir-sobak-i-kotiv-10l/</url>
-    <price>6446.00</price>
+    <price>5479.00</price>
+    <oldprice>6446</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1099</categoryId>
     <picture>https://catpaws.com.ua/content/images/7/51618950033420_+71c7b68c16.jpg</picture>
@@ -16808,7 +16851,8 @@
    </offer>
    <offer id="4912" available="">
     <code>0274 DERMSH1000</code><url>https://catpaws.com.ua/shampun-dlia-poshkodzhenoi-shkiry-iv-san-bernard-derm-shampoo-y6y-1000ml/</url>
-    <price>3368.00</price>
+    <price>2526.00</price>
+    <oldprice>3368</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1099</categoryId>
     <picture>https://catpaws.com.ua/content/images/13/82640589902410_+5d254f0475.jpg</picture>
@@ -17096,7 +17140,8 @@
    </offer>
    <offer id="4943" available="">
     <code>0112 BALAL1000</code><url>https://catpaws.com.ua/kondytsioner-apricot-dlia-kotiv-serednoho-ta-korotkoho-typu-shersti-pom-iakshuiuchyi-1000-ml/</url>
-    <price>2065.00</price>
+    <price>1549.00</price>
+    <oldprice>2065</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1101</categoryId>
     <picture>https://catpaws.com.ua/content/images/44/33670044706266_+ee1e29dd6d.jpg</picture>
@@ -17120,7 +17165,8 @@
    </offer>
    <offer id="4945" available="">
     <code>0105 BALCO1000</code><url>https://catpaws.com.ua/kondytsioner-coconut-dlia-kotiv-vsi-typy-shersti-zaspokiilyvyi-1000-ml/</url>
-    <price>2065.00</price>
+    <price>1549.00</price>
+    <oldprice>2065</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1101</categoryId>
     <picture>https://catpaws.com.ua/content/images/46/23147777133902_+573037238e.jpg</picture>
@@ -17156,7 +17202,8 @@
    </offer>
    <offer id="4949" available="">
     <code>0099 SHAAL1000</code><url>https://catpaws.com.ua/shampun-apricot-dlia-kotiv-serednoho-ta-korotkoho-typu-shersti-pom-iakshuiuchyi-1000-ml/</url>
-    <price>1438.00</price>
+    <price>1079.00</price>
+    <oldprice>1438</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1099</categoryId>
     <picture>https://catpaws.com.ua/content/images/50/77484762676852_+f1917e977e.jpg</picture>
@@ -17180,7 +17227,8 @@
    </offer>
    <offer id="4951" available="">
     <code>0082 SHACO1000</code><url>https://catpaws.com.ua/shampun-coconut-dlia-kotiv-vsi-typy-shersti-zaspokiilyvyi-1000-ml/</url>
-    <price>1438.00</price>
+    <price>1079.00</price>
+    <oldprice>1438</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1099</categoryId>
     <picture>https://catpaws.com.ua/content/images/2/81481710506860_+8e47930f09.jpg</picture>
@@ -17204,7 +17252,8 @@
    </offer>
    <offer id="4953" available="">
     <code>0297 SHACHE1000</code><url>https://catpaws.com.ua/shampun-keratin-dlia-kotiv-vsikh-typiv-shersti-ta-holykh-porid-zmitsniuiuchyi-ta-zakhyshchaiuchyi-1000-ml/</url>
-    <price>1438.00</price>
+    <price>1079.00</price>
+    <oldprice>1438</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1099</categoryId>
     <picture>https://catpaws.com.ua/content/images/4/95722971317862_+077ef9b5af.jpg</picture>
@@ -17514,9 +17563,114 @@
     <description>Гребінець для собак і котів з принтом Фантазія DERMOBRUSH Iv San Bernard для догляду за шерстю - невід'ємний елемент догляду за тваринам. Призначена для догляду за шерстю тварин: прекрасно розчісує і розплутує шерсть, масажує шкіру, покращує кровопостачання. Може використовуватися для догляду за тваринами з ніжною і чутливою шкірою.  Ідеальна для розподілу косметичних засобів по шерсті. Основні переваги гребінця: - Простий у використанні - Ефективно виконує своє призначення - Зроблений з високоякісних матеріалів - Безпечний для вихованця - Ідеально підходить для котів, а також для всіх невеликих улюбленців, які потребують догляду за шерстю і шкірою Італійська компанія «Iv San Bernard заснована в 1995 році, є провідним виробником на ринку професійної косметичної продукції для домашніх тварин. Шампуні і кондиціонери цієї марки відрізняються не тільки високою ефективністю і абсолютною безпекою для здоров'я ваших улюбленців, але і також приємними і дивовижними ароматами фруктово-квіткових композицій. Кожен продукт, бездоганно доглядає за шкірою і шерстю тварини: зволожуючи, живлячи і позбавляючи шерсть від різних проблем (таких як ламкість, сухість, випадання шерсті і багато іншого). Крім того,що дуже важливо, аромати косметики не завдадуть і найменшої шкоди чуйному нюху вашого вихованця.</description>
     <manufacturer_warranty>true</manufacturer_warranty>
    </offer>
+   <offer id="4989" available="">
+    <code>12982</code><url>https://catpaws.com.ua/nozhytsi-vyhnuti-ivsanbernard-curve-6-6-diuimiv/</url>
+    <price>10176.00</price>
+    <oldprice>13568</oldprice>
+    <currencyId>UAH</currencyId>
+    <categoryId>1129</categoryId>
+    <picture>https://catpaws.com.ua/content/images/40/21897206708592_+9fbd816541.jpg</picture>
+    <vendorCode>12982</vendorCode>
+    <vendor>Iv San Bernard</vendor>
+    <name>Ножиці вигнуті для стрижки собак CURVE 6 Iv San Bernard, 15 см</name>
+    <description>Ножиці вигнуті CURVE 6 Iv San Bernard для стрижки собак, 6 дюймів - 15 см Найголовніший інструмент креативного грумінгу - це ножиці. Шерсть собак, як правило, більш гладка і більш товста, ніж волосся людей, тому необхідно мати спеціальні ножиці. Металеві ножиці CURVE 6 Iv San Bernard розроблені для стрижки вовни та надання їй останніх штрихів. Дозволяють обережно зрізати збилися, спутанную шерсть. Відмінна якість металу і заточування задовольнять потреби власників тварин та професійних грумерів. Бездоганний стиль і професіоналізм італійських майстрів, плюс високоякісна сталь і багаторічний досвід, провідній компанії, у сфері товарів для грумінгу – Iv San Bernard CURVE 6, змогли поєднати, в ножицях – розкішне якість і високе мистецтво. Прямі ножиці мають гранично-гострою заточкою і филлигранной точністю зрізу. Гранична заточка забезпечує рівну лінію зрізу по всій довжині полотна, а м'який хід шарніра забезпечує мінімальне навантаження на кисть. Щоб уникнути розмноження бактерій регулярно очищайте ножиці. Для промивання використовуйте воду з антисептичним розчином, потім залиште до повного висихання. Сталь 440С (Japanese, TOP QUALITY), конвексне заточування, твердість сталі - 59 за шкалою Роквелла.</description>
+    <manufacturer_warranty>true</manufacturer_warranty>
+   </offer>
+   <offer id="4990" available="">
+    <code>15660</code><url>https://catpaws.com.ua/nozhytsi-vyhnuti-ivsanbernard-yoko-curved-8-diuimiv-20sm/</url>
+    <price>17196.00</price>
+    <oldprice>22927</oldprice>
+    <currencyId>UAH</currencyId>
+    <categoryId>1129</categoryId>
+    <picture>https://catpaws.com.ua/content/images/41/88970999421622_+39b4a835a0.jpg</picture>
+    <vendorCode>15660</vendorCode>
+    <vendor>Iv San Bernard</vendor>
+    <name>Ножиці вигнуті для стрижки собак YOKO CURVED Iv San Bernard, 20 см</name>
+    <description>Ножиці вигнуті YOKO CURVED Iv San Bernard для стрижки собак, 8 дюймів - 20 см Найголовніший інструмент креативного грумінгу - це ножиці. Шерсть собак, як правило, більш гладка і більш товста, ніж волосся людей, тому необхідно мати спеціальні ножиці. Металеві ножиці YOKO CURVED Iv San Bernard розроблені для стрижки вовни та надання їй останніх штрихів. Дозволяють обережно зрізати збилися, спутанную шерсть. Відмінна якість металу і заточування задовольнять потреби власників тварин та професійних грумерів. Бездоганний стиль і професіоналізм італійських майстрів, плюс високоякісна сталь і багаторічний досвід, провідній компанії, у сфері товарів для грумінгу   Iv San Bernard YOKO CURVED, змогли поєднати, в ножицях   розкішне якість і високе мистецтво. Прямі ножиці мають гранично-гострою заточкою і филлигранной точністю зрізу. Гранична заточка забезпечує рівну лінію зрізу по всій довжині полотна, а м'який хід шарніра забезпечує мінімальне навантаження на кисть. Щоб уникнути розмноження бактерій регулярно очищайте ножиці. Для промивання використовуйте воду з антисептичним розчином, потім залиште до повного висихання. Сталь 440С (Japanese, TOP QUALITY), конвексне заточування, твердість сталі - 59 за шкалою Роквелла. Покриття - синій Титан. </description>
+    <manufacturer_warranty>true</manufacturer_warranty>
+   </offer>
+   <offer id="4991" available="">
+    <code>15661</code><url>https://catpaws.com.ua/nozhytsi-vyhnuti-ivsanbernard-yoko-curved-8-5-diuimiv-21-5sm/</url>
+    <price>17196.00</price>
+    <oldprice>22927</oldprice>
+    <currencyId>UAH</currencyId>
+    <categoryId>1129</categoryId>
+    <picture>https://catpaws.com.ua/content/images/42/86718528218481_+91450eb0d1.jpg</picture>
+    <vendorCode>15661</vendorCode>
+    <vendor>Iv San Bernard</vendor>
+    <name>Ножиці вигнуті для стрижки собак YOKO CURVED Iv San Bernard, 21,5 см</name>
+    <description>Ножиці вигнуті YOKO CURVED Iv San Bernard для стрижки собак, 8.5 дюймів - 21.5 см Найголовніший інструмент креативного грумінгу - це ножиці. Шерсть собак, як правило, більш гладка і більш товста, ніж волосся людей, тому необхідно мати спеціальні ножиці. Металеві ножиці YOKO CURVED Iv San Bernard розроблені для стрижки вовни та надання їй останніх штрихів. Дозволяють обережно зрізати збилися, спутанную шерсть. Відмінна якість металу і заточування задовольнять потреби власників тварин та професійних грумерів. Бездоганний стиль і професіоналізм італійських майстрів, плюс високоякісна сталь і багаторічний досвід, провідній компанії, у сфері товарів для грумінгу   Iv San Bernard YOKO CURVED, змогли поєднати, в ножицях   розкішне якість і високе мистецтво. Прямі ножиці мають гранично-гострою заточкою і филлигранной точністю зрізу. Гранична заточка забезпечує рівну лінію зрізу по всій довжині полотна, а м'який хід шарніра забезпечує мінімальне навантаження на кисть. Щоб уникнути розмноження бактерій регулярно очищайте ножиці. Для промивання використовуйте воду з антисептичним розчином, потім залиште до повного висихання. Сталь 440С (Japanese, TOP QUALITY), конвексне заточування, твердість сталі - 59 за шкалою Роквелла. Покриття - синій Титан. </description>
+    <manufacturer_warranty>true</manufacturer_warranty>
+   </offer>
+   <offer id="4992" available="">
+    <code>FA 35-85//9507</code><url>https://catpaws.com.ua/nozhytsi-vyhnuti-ivsanbernard-8-5-diuimiv-21-5sm/</url>
+    <price>11006.00</price>
+    <oldprice>14675</oldprice>
+    <currencyId>UAH</currencyId>
+    <categoryId>1129</categoryId>
+    <picture>https://catpaws.com.ua/content/images/43/22840707280901_+d3e3a0e9dc.jpg</picture>
+    <vendorCode>FA 35-85//9507</vendorCode>
+    <vendor>Iv San Bernard</vendor>
+    <name>Ножиці вигнуті для стрижки собак Iv San Bernard, 21,5 см</name>
+    <description>Ножиці вигнуті Iv San Bernard для стрижки собак, 8.5 дюймів - 21.5 см Найголовніший інструмент креативного грумінгу - це ножиці. Шерсть собак, як правило, більш гладка і більш товста, ніж волосся людей, тому необхідно мати спеціальні ножиці. Металеві ножиці Iv San Bernard розроблені для стрижки вовни та надання їй останніх штрихів. Дозволяють обережно зрізати збилися, спутанную шерсть. Відмінна якість металу і заточування задовольнять потреби власників тварин та професійних грумерів. Бездоганний стиль і професіоналізм італійських майстрів, плюс високоякісна сталь і багаторічний досвід, провідній компанії, у сфері товарів для грумінгу   Iv San Bernard, змогли поєднати, в ножицях   розкішне якість і високе мистецтво. Прямі ножиці мають гранично-гострою заточкою і филлигранной точністю зрізу. Гранична заточка забезпечує рівну лінію зрізу по всій довжині полотна, а м'який хід шарніра забезпечує мінімальне навантаження на кисть. Щоб уникнути розмноження бактерій регулярно очищайте ножиці. Для промивання використовуйте воду з антисептичним розчином, потім залиште до повного висихання. Сталь 440С (Japanese, TOP QUALITY), конвексне заточування, твердість сталі - 59 за шкалою Роквелла.</description>
+    <manufacturer_warranty>true</manufacturer_warranty>
+   </offer>
+   <offer id="4993" available="">
+    <code>12978</code><url>https://catpaws.com.ua/nozhytsi-priami-ivsanbernard-art-black-5-5-diuimiv/</url>
+    <price>9750.00</price>
+    <oldprice>13000</oldprice>
+    <currencyId>UAH</currencyId>
+    <categoryId>1129</categoryId>
+    <picture>https://catpaws.com.ua/content/images/44/71851578069146_+431b942904.jpg</picture>
+    <vendorCode>12978</vendorCode>
+    <vendor>Iv San Bernard</vendor>
+    <name>Ножиці прямі для стрижки собак ART BLACK Iv San Bernard, 14 см</name>
+    <description>Ножиці прямі ART BLACK Iv San Bernard для стрижки собак, 5.5 дюймів - 14 см Найголовніший інструмент креативного грумінгу - це ножиці. Шерсть собак, як правило, більш гладка і більш товста, ніж волосся людей, тому необхідно мати спеціальні ножиці. Металеві ножиці Iv San Bernard ART BLACK розроблені для стрижки вовни та надання їй останніх штрихів. Дозволяють обережно зрізати збилися, спутанную шерсть. Відмінна якість металу і заточування задовольнять потреби власників тварин та професійних грумерів. Бездоганний стиль і професіоналізм італійських майстрів, плюс високоякісна сталь і багаторічний досвід, провідній компанії, у сфері товарів для грумінгу   Iv San Bernard BLACK ART, змогли поєднати, в ножицях   розкішне якість і високе мистецтво. Прямі ножиці мають гранично-гострою заточкою і филлигранной точністю зрізу. Гранична заточка забезпечує рівну лінію зрізу по всій довжині полотна, а м'який хід шарніра забезпечує мінімальне навантаження на кисть. Щоб уникнути розмноження бактерій регулярно очищайте ножиці. Для промивання використовуйте воду з антисептичним розчином, потім залиште до повного висихання. Сталь 440С (Japanese, TOP QUALITY), конвексне заточування, твердість сталі - 59 за шкалою Роквелла. </description>
+    <manufacturer_warranty>true</manufacturer_warranty>
+   </offer>
+   <offer id="4994" available="">
+    <code>12980</code><url>https://catpaws.com.ua/nozhytsi-priami-ivsanbernard-art-gold-5-5-diuimiv/</url>
+    <price>10176.00</price>
+    <oldprice>13568</oldprice>
+    <currencyId>UAH</currencyId>
+    <categoryId>1129</categoryId>
+    <picture>https://catpaws.com.ua/content/images/45/73793573835481_+835e2fbf0a.jpg</picture>
+    <vendorCode>12980</vendorCode>
+    <vendor>Iv San Bernard</vendor>
+    <name>Ножиці прямі для стрижки собак ART GOLD Iv San Bernard, 14 см</name>
+    <description>Ножиці прямі ART GOLD Iv San Bernard для стрижки собак, 5.5 дюймів - 14 см Найголовніший інструмент креативного грумінгу - це ножиці. Шерсть собак, як правило, більш гладка і більш товста, ніж волосся людей, тому необхідно мати спеціальні ножиці. Металеві ножиці Iv San Bernard ART GOLD розроблені для стрижки вовни та надання їй останніх штрихів. Дозволяють обережно зрізати збилися, спутанную шерсть. Відмінна якість металу і заточування задовольнять потреби власників тварин та професійних грумерів. Бездоганний стиль і професіоналізм італійських майстрів, плюс високоякісна сталь і багаторічний досвід, провідній компанії, у сфері товарів для грумінгу   Iv San Bernard GOLD ART, змогли поєднати, в ножицях   розкішне якість і високе мистецтво. Прямі ножиці мають гранично-гострою заточкою і филлигранной точністю зрізу. Гранична заточка забезпечує рівну лінію зрізу по всій довжині полотна, а м'який хід шарніра забезпечує мінімальне навантаження на кисть. Щоб уникнути розмноження бактерій регулярно очищайте ножиці. Для промивання використовуйте воду з антисептичним розчином, потім залиште до повного висихання. Сталь 440С (Japanese, TOP QUALITY), конвексне заточування, твердість сталі - 59 за шкалою Роквелла. </description>
+    <manufacturer_warranty>true</manufacturer_warranty>
+   </offer>
+   <offer id="4995" available="">
+    <code>SK2W-85//9569</code><url>https://catpaws.com.ua/nozhytsi-priami-ivsanbernard-haiaki-8-5-diuimiv/</url>
+    <price>10320.00</price>
+    <oldprice>13760</oldprice>
+    <currencyId>UAH</currencyId>
+    <categoryId>1129</categoryId>
+    <picture>https://catpaws.com.ua/content/images/46/99493124923155_+85708e3e98.jpg</picture>
+    <vendorCode>SK2W-85//9569</vendorCode>
+    <vendor>Iv San Bernard</vendor>
+    <name>Ножиці прямі для стрижки собак HAIAKI Iv San Bernard, 21,5 см</name>
+    <description>Ножиці прямі HAIAKI Iv San Bernard для стрижки собак, 8.5 дюймів - 21.5 см Найголовніший інструмент креативного грумінгу - це ножиці. Шерсть собак, як правило, більш гладка і більш товста, ніж волосся людей, тому необхідно мати спеціальні ножиці. Металеві ножиці Iv San Bernard HAIAKI розроблені для стрижки вовни та надання їй останніх штрихів. Дозволяють обережно зрізати збилися, спутанную шерсть. Відмінна якість металу і заточування задовольнять потреби власників тварин та професійних грумерів. Бездоганний стиль і професіоналізм італійських майстрів, плюс високоякісна сталь і багаторічний досвід, провідній компанії, у сфері товарів для грумінгу   Iv San Bernard HAIAKI, змогли поєднати, в ножицях   розкішне якість і високе мистецтво. Прямі ножиці мають гранично-гострою заточкою і филлигранной точністю зрізу. Гранична заточка забезпечує рівну лінію зрізу по всій довжині полотна, а м'який хід шарніра забезпечує мінімальне навантаження на кисть. Щоб уникнути розмноження бактерій регулярно очищайте ножиці. Для промивання використовуйте воду з антисептичним розчином, потім залиште до повного висихання. Сталь 440С (Japanese, TOP QUALITY), конвексне заточування, твердість сталі - 59 за шкалою Роквелла.</description>
+    <manufacturer_warranty>true</manufacturer_warranty>
+   </offer>
+   <offer id="4996" available="">
+    <code>12985</code><url>https://catpaws.com.ua/nozhytsi-priami-ivsanbernard-pop-purple-5-5-diuimiv/</url>
+    <price>10176.00</price>
+    <oldprice>13568</oldprice>
+    <currencyId>UAH</currencyId>
+    <categoryId>1129</categoryId>
+    <picture>https://catpaws.com.ua/content/images/47/51593219688993_+6529e22083.jpg</picture>
+    <vendorCode>12985</vendorCode>
+    <vendor>Iv San Bernard</vendor>
+    <name>Ножиці прямі для стрижки собак POP PURPLE Iv San Bernard, 14 см</name>
+    <description>Ножиці прямі POP PURPLE Iv San Bernard для стрижки собак, 5.5 дюймів - 14 см Найголовніший інструмент креативного грумінгу - це ножиці. Шерсть собак, як правило, більш гладка і більш товста, ніж волосся людей, тому необхідно мати спеціальні ножиці. Металеві ножиці Iv San Bernard POP PURPLE розроблені для стрижки вовни та надання їй останніх штрихів. Дозволяють обережно зрізати збилися, спутанную шерсть. Відмінна якість металу і заточування задовольнять потреби власників тварин та професійних грумерів. Бездоганний стиль і професіоналізм італійських майстрів, плюс високоякісна сталь і багаторічний досвід, провідній компанії, у сфері товарів для грумінгу   Iv San Bernard POP PURPLE, змогли поєднати, в ножицях   розкішне якість і високе мистецтво. Прямі ножиці мають гранично-гострою заточкою і филлигранной точністю зрізу. Гранична заточка забезпечує рівну лінію зрізу по всій довжині полотна, а м'який хід шарніра забезпечує мінімальне навантаження на кисть. Щоб уникнути розмноження бактерій регулярно очищайте ножиці. Для промивання використовуйте воду з антисептичним розчином, потім залиште до повного висихання. Сталь 440С (Japanese, TOP QUALITY), конвексне заточування, твердість сталі - 59 за шкалою Роквелла.</description>
+    <manufacturer_warranty>true</manufacturer_warranty>
+   </offer>
    <offer id="4997" available="">
     <code>12966</code><url>https://catpaws.com.ua/nozhytsi-priami-ivsanbernard-procut-5-5-diuimiv-14sm/</url>
-    <price>5624.00</price>
+    <price>4218.00</price>
+    <oldprice>5624</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1129</categoryId>
     <picture>https://catpaws.com.ua/content/images/48/96467446435677_+efa50eea22.jpg</picture>
@@ -17526,9 +17680,88 @@
     <description>Ножиці прямі PROCUT Iv San Bernard для стрижки собак, 5.5 дюймів - 14 см    Найголовніший інструмент креативного грумінгу - це ножиці. Шерсть собак, як правило, більш гладка і більш товста, ніж волосся людей, тому необхідно мати спеціальні ножиці.    Металеві ножиці Iv San Bernard PROCUT розроблені для стрижки вовни та надання їй останніх штрихів. Дозволяють обережно зрізати збилися, спутанную шерсть. Відмінна якість металу і заточування задовольнять потреби власників тварин та професійних грумерів.    Бездоганний стиль і професіоналізм італійських майстрів, плюс високоякісна сталь і багаторічний досвід, провідній компанії, у сфері товарів для грумінгу – Iv San Bernard PROCUT, змогли поєднати, в ножицях – розкішне якість і високе мистецтво.    Прямі ножиці мають гранично-гострою заточкою і филлигранной точністю зрізу. Гранична заточка забезпечує рівну лінію зрізу по всій довжині полотна, а м'який хід шарніра забезпечує мінімальне навантаження на кисть.    Щоб уникнути розмноження бактерій регулярно очищайте ножиці. Для промивання використовуйте воду з антисептичним розчином, потім залиште до повного висихання.    Сталь 440С (Japanese, TOP QUALITY), конвексне заточування, твердість сталі - 59 за шкалою Роквелла.  </description>
     <manufacturer_warranty>true</manufacturer_warranty>
    </offer>
+   <offer id="4998" available="">
+    <code>12988</code><url>https://catpaws.com.ua/nozhytsi-priami-ivsanbernard-tjs-7-diuimiv/</url>
+    <price>7829.00</price>
+    <oldprice>10438</oldprice>
+    <currencyId>UAH</currencyId>
+    <categoryId>1129</categoryId>
+    <picture>https://catpaws.com.ua/content/images/49/48316199495819_+79781f038c.jpg</picture>
+    <vendorCode>12988</vendorCode>
+    <vendor>Iv San Bernard</vendor>
+    <name>Ножиці прямі для стрижки собак TJS Iv San Bernard, 18 см</name>
+    <description>Ножиці прямі TJS Iv San Bernard для стрижки собак, 7 дюймів - 18 см Найголовніший інструмент креативного грумінгу - це ножиці. Шерсть собак, як правило, більш гладка і більш товста, ніж волосся людей, тому необхідно мати спеціальні ножиці. Металеві ножиці Iv San Bernard TJS розроблені для стрижки вовни та надання їй останніх штрихів. Дозволяють обережно зрізати збилися, спутанную шерсть. Відмінна якість металу і заточування задовольнять потреби власників тварин та професійних грумерів. Бездоганний стиль і професіоналізм італійських майстрів, плюс високоякісна сталь і багаторічний досвід, провідній компанії, у сфері товарів для грумінгу   Iv San Bernard TJS, змогли поєднати, в ножицях   розкішне якість і високе мистецтво. Прямі ножиці мають гранично-гострою заточкою і филлигранной точністю зрізу. Гранична заточка забезпечує рівну лінію зрізу по всій довжині полотна, а м'який хід шарніра забезпечує мінімальне навантаження на кисть. Щоб уникнути розмноження бактерій регулярно очищайте ножиці. Для промивання використовуйте воду з антисептичним розчином, потім залиште до повного висихання. Сталь 440С (Japanese, TOP QUALITY), конвексне заточування, твердість сталі - 59 за шкалою Роквелла.</description>
+    <manufacturer_warranty>true</manufacturer_warranty>
+   </offer>
+   <offer id="4999" available="">
+    <code>12977</code><url>https://catpaws.com.ua/nozhytsi-priami-ivsanbernard-vanguard-7-diuimiv/</url>
+    <price>8609.00</price>
+    <oldprice>11478</oldprice>
+    <currencyId>UAH</currencyId>
+    <categoryId>1129</categoryId>
+    <picture>https://catpaws.com.ua/content/images/50/75497074882926_+b49b1d682b.jpg</picture>
+    <vendorCode>12977</vendorCode>
+    <vendor>Iv San Bernard</vendor>
+    <name>Ножиці прямі для стрижки собак VANGUARD Iv San Bernard, 18 см</name>
+    <description>Ножиці прямі VANGUARD Iv San Bernard для стрижки собак, 7 дюймів - 18 см Найголовніший інструмент креативного грумінгу - це ножиці. Шерсть собак, як правило, більш гладка і більш товста, ніж волосся людей, тому необхідно мати спеціальні ножиці. Металеві ножиці Iv San Bernard VANGUARD розроблені для стрижки вовни та надання їй останніх штрихів. Дозволяють обережно зрізати збилися, спутанную шерсть. Відмінна якість металу і заточування задовольнять потреби власників тварин та професійних грумерів. Бездоганний стиль і професіоналізм італійських майстрів, плюс високоякісна сталь і багаторічний досвід, провідній компанії, у сфері товарів для грумінгу   Iv San Bernard VANGUARD, змогли поєднати, в ножицях   розкішне якість і високе мистецтво. Прямі ножиці мають гранично-гострою заточкою і филлигранной точністю зрізу. Гранична заточка забезпечує рівну лінію зрізу по всій довжині полотна, а м'який хід шарніра забезпечує мінімальне навантаження на кисть. Щоб уникнути розмноження бактерій регулярно очищайте ножиці. Для промивання використовуйте воду з антисептичним розчином, потім залиште до повного висихання. Сталь 440С (Japanese, TOP QUALITY), конвексне заточування, твердість сталі - 59 за шкалою Роквелла.</description>
+    <manufacturer_warranty>true</manufacturer_warranty>
+   </offer>
+   <offer id="5000" available="">
+    <code>15654</code><url>https://catpaws.com.ua/nozhytsi-priami-ivsanbernard-yoko-straight-7-7-diuimiv/</url>
+    <price>12386.00</price>
+    <oldprice>16514</oldprice>
+    <currencyId>UAH</currencyId>
+    <categoryId>1129</categoryId>
+    <picture>https://catpaws.com.ua/content/images/1/49874798391334_+ee852fbb21.jpg</picture>
+    <vendorCode>15654</vendorCode>
+    <vendor>Iv San Bernard</vendor>
+    <name>Ножиці прямі для стрижки собак YOKO STRAIGHT 7 Iv San Bernard, 18 см</name>
+    <description>Ножиці прямі YOKO STRAIGHT 7 Iv San Bernard для стрижки собак, 7 дюймів - 18 см Найголовніший інструмент креативного грумінгу - це ножиці. Шерсть собак, як правило, більш гладка і більш товста, ніж волосся людей, тому необхідно мати спеціальні ножиці. Металеві ножиці Iv San Bernard YOKO STRAIGHT 7 розроблені для стрижки вовни та надання їй останніх штрихів. Дозволяють обережно зрізати збилися, спутанную шерсть. Відмінна якість металу і заточування задовольнять потреби власників тварин та професійних грумерів. Бездоганний стиль і професіоналізм італійських майстрів, плюс високоякісна сталь і багаторічний досвід, провідній компанії, у сфері товарів для грумінгу   Iv San Bernard YOKO STRAIGHT 7, змогли поєднати, в ножицях   розкішне якість і високе мистецтво. Прямі ножиці мають гранично-гострою заточкою і филлигранной точністю зрізу. Гранична заточка забезпечує рівну лінію зрізу по всій довжині полотна, а м'який хід шарніра забезпечує мінімальне навантаження на кисть. Щоб уникнути розмноження бактерій регулярно очищайте ножиці. Для промивання використовуйте воду з антисептичним розчином, потім залиште до повного висихання. Сталь 440С (Japanese, TOP QUALITY), конвексне заточування, твердість сталі - 59 за шкалою Роквелла. Покриття - синій Титан. </description>
+    <manufacturer_warranty>true</manufacturer_warranty>
+   </offer>
+   <offer id="5001" available="">
+    <code>15655</code><url>https://catpaws.com.ua/nozhytsi-priami-ivsanbernard-yoko-straight-7-5-7-5-diuimiv/</url>
+    <price>12725.00</price>
+    <oldprice>16967</oldprice>
+    <currencyId>UAH</currencyId>
+    <categoryId>1129</categoryId>
+    <picture>https://catpaws.com.ua/content/images/2/68018748561611_+80bcdf8524.jpg</picture>
+    <vendorCode>15655</vendorCode>
+    <vendor>Iv San Bernard</vendor>
+    <name>Ножиці прямі для стрижки собак YOKO STRAIGHT 7.5 Iv San Bernard, 19 см</name>
+    <description>Ножиці прямі YOKO STRAIGHT 7.5 Iv San Bernard для стрижки собак, 7.5 дюймів - 19 см Найголовніший інструмент креативного грумінгу - це ножиці. Шерсть собак, як правило, більш гладка і більш товста, ніж волосся людей, тому необхідно мати спеціальні ножиці. Металеві ножиці Iv San Bernard YOKO STRAIGHT 7.5 розроблені для стрижки вовни та надання їй останніх штрихів. Дозволяють обережно зрізати збилися, спутанную шерсть. Відмінна якість металу і заточування задовольнять потреби власників тварин та професійних грумерів. Бездоганний стиль і професіоналізм італійських майстрів, плюс високоякісна сталь і багаторічний досвід, провідній компанії, у сфері товарів для грумінгу   Iv San Bernard YOKO STRAIGHT 7.5, змогли поєднати, в ножицях   розкішне якість і високе мистецтво. Прямі ножиці мають гранично-гострою заточкою і филлигранной точністю зрізу. Гранична заточка забезпечує рівну лінію зрізу по всій довжині полотна, а м'який хід шарніра забезпечує мінімальне навантаження на кисть. Щоб уникнути розмноження бактерій регулярно очищайте ножиці. Для промивання використовуйте воду з антисептичним розчином, потім залиште до повного висихання. Сталь 440С (Japanese, TOP QUALITY), конвексне заточування, твердість сталі - 59 за шкалою Роквелла. Покриття - синій Титан. </description>
+    <manufacturer_warranty>true</manufacturer_warranty>
+   </offer>
+   <offer id="5002" available="">
+    <code>15656</code><url>https://catpaws.com.ua/nozhytsi-priami-ivsanbernard-yoko-straight-8-8-diuimiv/</url>
+    <price>13411.00</price>
+    <oldprice>17882</oldprice>
+    <currencyId>UAH</currencyId>
+    <categoryId>1129</categoryId>
+    <picture>https://catpaws.com.ua/content/images/3/14409552364870_+31a2139b2c.jpg</picture>
+    <vendorCode>15656</vendorCode>
+    <vendor>Iv San Bernard</vendor>
+    <name>Ножиці прямі для стрижки собак YOKO STRAIGHT 8 Iv San Bernard, 20 см</name>
+    <description>Ножиці прямі YOKO STRAIGHT 8 Iv San Bernard для стрижки собак, 8 дюймів - 20 см Найголовніший інструмент креативного грумінгу - це ножиці. Шерсть собак, як правило, більш гладка і більш товста, ніж волосся людей, тому необхідно мати спеціальні ножиці. Металеві ножиці Iv San Bernard YOKO STRAIGHT 8 розроблені для стрижки вовни та надання їй останніх штрихів. Дозволяють обережно зрізати збилися, спутанную шерсть. Відмінна якість металу і заточування задовольнять потреби власників тварин та професійних грумерів. Бездоганний стиль і професіоналізм італійських майстрів, плюс високоякісна сталь і багаторічний досвід, провідній компанії, у сфері товарів для грумінгу   Iv San Bernard YOKO STRAIGHT 8, змогли поєднати, в ножицях   розкішне якість і високе мистецтво. Прямі ножиці мають гранично-гострою заточкою і филлигранной точністю зрізу. Гранична заточка забезпечує рівну лінію зрізу по всій довжині полотна, а м'який хід шарніра забезпечує мінімальне навантаження на кисть. Щоб уникнути розмноження бактерій регулярно очищайте ножиці. Для промивання використовуйте воду з антисептичним розчином, потім залиште до повного висихання. Сталь 440С (Japanese, TOP QUALITY), конвексне заточування, твердість сталі - 59 за шкалою Роквелла. Покриття - синій Титан. </description>
+    <manufacturer_warranty>true</manufacturer_warranty>
+   </offer>
+   <offer id="5003" available="">
+    <code>15657</code><url>https://catpaws.com.ua/nozhytsi-priami-ivsanbernard-yoko-straight-9-9-diuimiv-23sm/</url>
+    <price>14444.00</price>
+    <oldprice>19259</oldprice>
+    <currencyId>UAH</currencyId>
+    <categoryId>1129</categoryId>
+    <picture>https://catpaws.com.ua/content/images/4/60728185052373_+49cec1f79e.jpg</picture>
+    <vendorCode>15657</vendorCode>
+    <vendor>Iv San Bernard</vendor>
+    <name>Ножиці прямі для стрижки собак YOKO STRAIGHT 9 Iv San Bernard, 23 см</name>
+    <description>Ножиці прямі YOKO STRAIGHT 9 Iv San Bernard для стрижки собак, 9 дюймів - 23 см Найголовніший інструмент креативного грумінгу - це ножиці. Шерсть собак, як правило, більш гладка і більш товста, ніж волосся людей, тому необхідно мати спеціальні ножиці. Металеві ножиці Iv San Bernard YOKO STRAIGHT 9 розроблені для стрижки вовни та надання їй останніх штрихів. Дозволяють обережно зрізати збилися, спутанную шерсть. Відмінна якість металу і заточування задовольнять потреби власників тварин та професійних грумерів. Бездоганний стиль і професіоналізм італійських майстрів, плюс високоякісна сталь і багаторічний досвід, провідній компанії, у сфері товарів для грумінгу   Iv San Bernard YOKO STRAIGHT 9, змогли поєднати, в ножицях   розкішне якість і високе мистецтво. Прямі ножиці мають гранично-гострою заточкою і филлигранной точністю зрізу. Гранична заточка забезпечує рівну лінію зрізу по всій довжині полотна, а м'який хід шарніра забезпечує мінімальне навантаження на кисть. Щоб уникнути розмноження бактерій регулярно очищайте ножиці. Для промивання використовуйте воду з антисептичним розчином, потім залиште до повного висихання. Сталь 440С (Japanese, TOP QUALITY), конвексне заточування, твердість сталі - 59 за шкалою Роквелла. Покриття - синій Титан. </description>
+    <manufacturer_warranty>true</manufacturer_warranty>
+   </offer>
    <offer id="5004" available="">
     <code>S0021</code><url>https://catpaws.com.ua/nozhytsi-priami-ivsanbernard-dlia-lap/</url>
-    <price>4343.00</price>
+    <price>3257.00</price>
+    <oldprice>4343</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1129</categoryId>
     <picture>https://catpaws.com.ua/content/images/5/65523334908745_+c286d18582.jpg</picture>
@@ -17540,7 +17773,8 @@
    </offer>
    <offer id="5005" available="">
     <code>ST0010</code><url>https://catpaws.com.ua/nozhytsi-filiruvalni-ivsanbernard-28-teeth-livi/</url>
-    <price>6509.00</price>
+    <price>4882.00</price>
+    <oldprice>6509</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1129</categoryId>
     <picture>https://catpaws.com.ua/content/images/6/54309299528151_+f14041c129.jpg</picture>
@@ -17548,6 +17782,58 @@
     <vendor>Iv San Bernard</vendor>
     <name>Ножиці філірувальні для стрижки собак 32 TEETH Iv San Bernard, ліві</name>
     <description>Ножиці філірувальні Iv San Bernard 32 TEETH, ліві Найголовніший інструмент креативного грумінгу - це ножиці. Шерсть собак, як правило, більш гладка і більш товста, ніж волосся людей, тому необхідно мати спеціальні ножиці. Металеві ножиці Iv San Bernard 32 TEETH розроблені для стрижки шерсті та надання їй останніх штрихів. Дають змогу акуратно зрізати збиту, сплутану шерсть. Відмінна якість металу і заточування задовольнять потреби власників тварин і професійних грумерів. Філіровочні ножиці ідеально підходять для зняття об'єму шерсті, текстурування її і поліпшення природного розпаду. Гранична заточка забезпечує рівну лінію зрізу по всій довжині полотна, а м'який хід шарніра забезпечує мінімальне навантаження на кисть. Щоб уникнути розмноження бактерій регулярно очищайте ножиці. Для промивання використовуйте воду з антисептичним розчином, потім залиште до повного висихання. Сталь 440С (Japanese, TOP QUALITY), конвексне заточування, твердість сталі - 59 за шкалою Роквелла. 32 зубці</description>
+    <manufacturer_warranty>true</manufacturer_warranty>
+   </offer>
+   <offer id="5006" available="">
+    <code>12983</code><url>https://catpaws.com.ua/nozhytsi-filiruvalni-ivsanbernard-shark-6-6-diuimiv/</url>
+    <price>12884.00</price>
+    <oldprice>17179</oldprice>
+    <currencyId>UAH</currencyId>
+    <categoryId>1129</categoryId>
+    <picture>https://catpaws.com.ua/content/images/7/62366803986673_+50954f7fae.jpg</picture>
+    <vendorCode>12983</vendorCode>
+    <vendor>Iv San Bernard</vendor>
+    <name>Ножиці філірувальні для стрижки собак SHARK Iv San Bernard, 15 см</name>
+    <description>Ножиці філірувальні для стрижки собак SHARK Iv San Bernard, 6 дюймів - 15 см Найголовніший інструмент креативного грумінгу - це ножиці. Шерсть собак, як правило, більш гладка і більш товста, ніж волосся людей, тому необхідно мати спеціальні ножиці. Металеві ножиці Iv San Bernard SHARK розроблені для стрижки шерсті та надання їй останніх штрихів. Дають змогу акуратно зрізати збиту, сплутану шерсть. Відмінна якість металу і заточування задовольнять потреби власників тварин і професійних грумерів. Філіровочні ножиці ідеально підходять для зняття об'єму шерсті, текстурування її і поліпшення природного розпаду. Гранична заточка забезпечує рівну лінію зрізу по всій довжині полотна, а м'який хід шарніра забезпечує мінімальне навантаження на кисть. Щоб уникнути розмноження бактерій регулярно очищайте ножиці. Для промивання використовуйте воду з антисептичним розчином, потім залиште до повного висихання. Сталь 440С (Japanese, TOP QUALITY), конвексне заточування, твердість сталі - 59 за шкалою Роквелла. 28 зубців</description>
+    <manufacturer_warranty>true</manufacturer_warranty>
+   </offer>
+   <offer id="5007" available="">
+    <code>12993</code><url>https://catpaws.com.ua/nozhytsi-filiruvalni-ivsanbernard-sx-left-s-6-diuimiv-livi/</url>
+    <price>9389.00</price>
+    <oldprice>12518</oldprice>
+    <currencyId>UAH</currencyId>
+    <categoryId>1129</categoryId>
+    <picture>https://catpaws.com.ua/content/images/8/73810954548799_+1508f00051.jpg</picture>
+    <vendorCode>12993</vendorCode>
+    <vendor>Iv San Bernard</vendor>
+    <name>Ножиці філірувальні для стрижки собак SX LEFT S Iv San Bernard, 15 см ліві</name>
+    <description>Ножиці філірувальні SX LEFT S Iv San Bernard для стрижки собак, 6 дюймів - 15 см, ліві Найголовніший інструмент креативного грумінгу - це ножиці. Шерсть собак, як правило, більш гладка і більш товста, ніж волосся людей, тому необхідно мати спеціальні ножиці. Металеві ножиці Iv San Bernard SX LEFT S розроблені для стрижки шерсті та надання їй останніх штрихів. Дають змогу акуратно зрізати збиту, сплутану шерсть. Відмінна якість металу і заточування задовольнять потреби власників тварин і професійних грумерів. Філіровочні ножиці ідеально підходять для зняття об'єму шерсті, текстурування її і поліпшення природного розпаду. Гранична заточка забезпечує рівну лінію зрізу по всій довжині полотна, а м'який хід шарніра забезпечує мінімальне навантаження на кисть. Щоб уникнути розмноження бактерій регулярно очищайте ножиці. Для промивання використовуйте воду з антисептичним розчином, потім залиште до повного висихання. Сталь 440С (Japanese, TOP QUALITY), конвексне заточування, твердість сталі - 59 за шкалою Роквелла. 30 зубців</description>
+    <manufacturer_warranty>true</manufacturer_warranty>
+   </offer>
+   <offer id="5008" available="">
+    <code>15659</code><url>https://catpaws.com.ua/nozhytsi-filiruvalni-ivsanbernard-yoko-thinning-7-diuimiv-18sm/</url>
+    <price>15137.00</price>
+    <oldprice>20183</oldprice>
+    <currencyId>UAH</currencyId>
+    <categoryId>1129</categoryId>
+    <picture>https://catpaws.com.ua/content/images/9/82335291039514_+dc93300eba.jpg</picture>
+    <vendorCode>15659</vendorCode>
+    <vendor>Iv San Bernard</vendor>
+    <name>Ножиці філірувальні для стрижки собак YOKO THINNING NEW Iv San Bernard, 18 см</name>
+    <description>Ножиці філірувальні YOKO THINNING NEW Iv San Bernard для стрижки собак, 7 дюймів - 18 см Найголовніший інструмент креативного грумінгу - це ножиці. Шерсть собак, як правило, більш гладка і більш товста, ніж волосся людей, тому необхідно мати спеціальні ножиці. Металеві ножиці Iv San Bernard YOKO THINNING NEW розроблені для стрижки шерсті та надання їй останніх штрихів. Дають змогу акуратно зрізати збиту, сплутану шерсть. Відмінна якість металу і заточування задовольнять потреби власників тварин і професійних грумерів. Філіровочні ножиці ідеально підходять для зняття об'єму шерсті, текстурування її і поліпшення природного розпаду. Гранична заточка забезпечує рівну лінію зрізу по всій довжині полотна, а м'який хід шарніра забезпечує мінімальне навантаження на кисть. Щоб уникнути розмноження бактерій регулярно очищайте ножиці. Для промивання використовуйте воду з антисептичним розчином, потім залиште до повного висихання. Сталь 440С (Japanese, TOP QUALITY), конвексне заточування, твердість сталі - 59 за шкалою Роквелла. Покриття - Синій Титан.</description>
+    <manufacturer_warranty>true</manufacturer_warranty>
+   </offer>
+   <offer id="5009" available="">
+    <code>15658</code><url>https://catpaws.com.ua/nozhytsi-filiruvalni-ivsanbernard-yoko-thinning-broad-teeth-7-diuimiv-18sm/</url>
+    <price>15137.00</price>
+    <oldprice>20183</oldprice>
+    <currencyId>UAH</currencyId>
+    <categoryId>1129</categoryId>
+    <picture>https://catpaws.com.ua/content/images/10/38528600855047_+9cce47fc36.jpg</picture>
+    <vendorCode>15658</vendorCode>
+    <vendor>Iv San Bernard</vendor>
+    <name>Ножиці філірувальні YOKO THINNING/BROAD TEETH Iv San Bernard, 7 дюймів (18 см)</name>
+    <description>Ножиці філірувальні YOKO THINNING Iv San Bernard для стрижки собак, 7 дюймів - 18 см Найголовніший інструмент креативного грумінгу - це ножиці. Шерсть собак, як правило, більш гладка і більш товста, ніж волосся людей, тому необхідно мати спеціальні ножиці. Металеві ножиці Iv San Bernard YOKO THINNING розроблені для стрижки шерсті та надання їй останніх штрихів. Дають змогу акуратно зрізати збиту, сплутану шерсть. Відмінна якість металу і заточування задовольнять потреби власників тварин і професійних грумерів. Філіровочні ножиці ідеально підходять для зняття об'єму шерсті, текстурування її і поліпшення природного розпаду. Гранична заточка забезпечує рівну лінію зрізу по всій довжині полотна, а м'який хід шарніра забезпечує мінімальне навантаження на кисть. Щоб уникнути розмноження бактерій регулярно очищайте ножиці. Для промивання використовуйте воду з антисептичним розчином, потім залиште до повного висихання. Сталь 440С (Japanese, TOP QUALITY), конвексне заточування, твердість сталі - 59 за шкалою Роквелла. Покриття - Синій Титан. </description>
     <manufacturer_warranty>true</manufacturer_warranty>
    </offer>
    <offer id="5010" available="">
@@ -17684,7 +17970,8 @@
    </offer>
    <offer id="5026" available="">
     <code>H1SH3VL0500HYKNN</code><url>https://catpaws.com.ua/hyponic-for-show-dogs-shampun-z-kyparysovoiu-vodoiu-d-sobak-ob-iem-500-ml/</url>
-    <price>2041.00</price>
+    <price>1531.00</price>
+    <oldprice>2041</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1099</categoryId>
     <picture>https://catpaws.com.ua/content/images/27/79487934557917_+40098dd0ab.jpg</picture>
@@ -17744,7 +18031,8 @@
    </offer>
    <offer id="5032" available="">
     <code>H1SH2DV0530HYKNN</code><url>https://catpaws.com.ua/hyponic-grooming-artist-shampun-maister-po-dohliadu-za-volossiam-hlyboke-ochyshchennia-ta-ob-iem-530-ml/</url>
-    <price>1565.00</price>
+    <price>1174.00</price>
+    <oldprice>1565</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1099</categoryId>
     <picture>https://catpaws.com.ua/content/images/33/83672534673909_+60eec997e4.jpg</picture>
@@ -17768,7 +18056,8 @@
    </offer>
    <offer id="5035" available="">
     <code>H1SH2MO0530HYKNN</code><url>https://catpaws.com.ua/hyponic-grooming-artist-shampun-maister-po-dohliadu-za-volossiam-dlia-mashynnoho-zrizannia-ta-zvolozhennia-530-ml/</url>
-    <price>1565.00</price>
+    <price>1174.00</price>
+    <oldprice>1565</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1099</categoryId>
     <picture>https://catpaws.com.ua/content/images/36/70056098369939_+9db13f6810.jpg</picture>
@@ -17804,7 +18093,8 @@
    </offer>
    <offer id="5038" available="">
     <code>H1SH2VL0530HYKNN</code><url>https://catpaws.com.ua/hyponic-grooming-artist-shampun-maister-po-dohliadu-za-volossiam-dlia-ruchnoi-stryzhky-ta-ob-iemu-530-ml/</url>
-    <price>1565.00</price>
+    <price>1174.00</price>
+    <oldprice>1565</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1099</categoryId>
     <picture>https://catpaws.com.ua/content/images/39/94544935472075_+75a3e907b6.jpg</picture>
@@ -17912,7 +18202,8 @@
    </offer>
    <offer id="5050" available="">
     <code>H1SH1BA1500HYKNN</code><url>https://catpaws.com.ua/hyponic-hypoallergenic-hipoalerhennyi-shampun-d-tsutseniat-ta-korotkosherstykh-sobak-1-5-l/</url>
-    <price>3648.00</price>
+    <price>2736.00</price>
+    <oldprice>3648</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1099</categoryId>
     <picture>https://catpaws.com.ua/content/images/1/83458728339444_+8dff440b7d.jpg</picture>
@@ -17924,7 +18215,8 @@
    </offer>
    <offer id="5051" available="">
     <code>H1SH1VL1500HYKNN</code><url>https://catpaws.com.ua/hyponic-hypoallergenic-hipoalerhennyi-shampun-z-ekstraktom-frezii-ta-korinnia-zhensheniu-panaksa-d-sobak-ob-iem-1-5-l/</url>
-    <price>3648.00</price>
+    <price>2736.00</price>
+    <oldprice>3648</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1099</categoryId>
     <picture>https://catpaws.com.ua/content/images/2/21111550690861_+9a02946f4e.jpg</picture>
@@ -17996,7 +18288,8 @@
    </offer>
    <offer id="5060" available="">
     <code>H1SH1AL1500HYKNN</code><url>https://catpaws.com.ua/hyponic-hypoallergenic-hipoalerhennyi-shampun-z-oliieiu-soniashnyka-zhozhoba-ta-ekstraktom-zelenoho-chaiu-d-sobak-1-5-l/</url>
-    <price>3648.00</price>
+    <price>2736.00</price>
+    <oldprice>3648</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1099</categoryId>
     <picture>https://catpaws.com.ua/content/images/11/26577279877511_+f17a90f0a2.jpg</picture>
@@ -18008,7 +18301,8 @@
    </offer>
    <offer id="5062" available="">
     <code>H1SH1AL1500NOKNN</code><url>https://catpaws.com.ua/hyponic-hypoallergenic-hipoalerhennyi-shampun-z-oliieiu-soniashnyka-zhozhoba-d-sobak-bez-zapakhu-1-5-l/</url>
-    <price>3648.00</price>
+    <price>2736.00</price>
+    <oldprice>3648</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1099</categoryId>
     <picture>https://catpaws.com.ua/content/images/13/88128772470681_+85f6e1eb8b.jpg</picture>
@@ -18224,7 +18518,8 @@
    </offer>
    <offer id="5094" available="">
     <code>H1ER1AL0500NOKNN</code><url>https://catpaws.com.ua/hyponic-zasib-dlia-chyshchennia-vukh-z-kyparysom-khinoki-d-vsikh-domash-tvaryn-500ml/</url>
-    <price>2041.00</price>
+    <price>1531.00</price>
+    <oldprice>2041</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1103</categoryId>
     <picture>https://catpaws.com.ua/content/images/45/38224593305364_+d84164fdd1.jpg</picture>
@@ -18260,7 +18555,8 @@
    </offer>
    <offer id="5099" available="">
     <code>H1MI1AL0237DSENN</code><url>https://catpaws.com.ua/hyponic-sprei-de-skunk-efektyvno-neitralizuie-ta-usuvaie-nepryiemni-zapakhy-d-domash-tvaryn-237-ml/</url>
-    <price>1323.00</price>
+    <price>992.00</price>
+    <oldprice>1323</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1096</categoryId>
     <picture>https://catpaws.com.ua/content/images/50/31928953078047_+85ddbe4cbe.jpg</picture>
@@ -18685,7 +18981,8 @@
    </offer>
    <offer id="5188" available="">
     <code>95207-16</code><url>https://catpaws.com.ua/volohyi-korm-dlia-kotiv-nuevo-adult-z-kurkoiu-ta-lososem-85-h-16-sht/</url>
-    <price>1379.00</price>
+    <price>1172.00</price>
+    <oldprice>1379</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1090</categoryId>
     <picture>https://catpaws.com.ua/content/images/39/vologiy-korm-dlja-kotv-nuevo-adult-z-kurkou-ta-lososem-85-g-16-sht-49700693618439_+4d1734b375.jpg</picture>
@@ -18696,7 +18993,8 @@
    </offer>
    <offer id="5190" available="">
     <code>95205-16</code><url>https://catpaws.com.ua/volohyi-korm-dlia-kotiv-nuevo-adult-z-ialovychynoiu-ta-kurkoiu-85-h-16-sht/</url>
-    <price>1379.00</price>
+    <price>1172.00</price>
+    <oldprice>1379</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1090</categoryId>
     <picture>https://catpaws.com.ua/content/images/41/vologiy-korm-dlja-kotv-nuevo-adult-z-jalovichinou-ta-kurkou-85-g-16-sht-11959618227158_+7d2899d97f.jpg</picture>
@@ -18707,7 +19005,8 @@
    </offer>
    <offer id="5192" available="">
     <code>95202-16</code><url>https://catpaws.com.ua/volohyi-korm-dlia-kotiv-skhylnykh-do-ozhyrinnia-nuevo-light-z-kurkoiu-ta-rysom-85-h-16-sht/</url>
-    <price>1379.00</price>
+    <price>1172.00</price>
+    <oldprice>1379</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1090</categoryId>
     <picture>https://catpaws.com.ua/content/images/43/vologiy-korm-dlja-kotv-sxilnix-do-ozhirnnja-nuevo-light-z-kurkou-ta-risom-85-g-16-sht-40231606401644_+d0f030da70.jpg</picture>
@@ -18718,7 +19017,8 @@
    </offer>
    <offer id="5194" available="">
     <code>95201-16</code><url>https://catpaws.com.ua/volohyi-korm-dlia-litnikh-kotiv-nuevo-senior-z-ptytseiu-z-baranynoiu-ta-rysom-85-h-16-sht/</url>
-    <price>1379.00</price>
+    <price>1172.00</price>
+    <oldprice>1379</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1090</categoryId>
     <picture>https://catpaws.com.ua/content/images/45/vologiy-korm-dlja-ltnx-kotv-nuevo-senior-z-pticeu-z-baraninou-ta-risom-85-g-16-sht-28653316198154_+d63473ee0e.jpg</picture>
@@ -18729,7 +19029,8 @@
    </offer>
    <offer id="5196" available="">
     <code>95204-16</code><url>https://catpaws.com.ua/volohyi-korm-dlia-kotiv-z-chutlyvym-travlenniam-nuevo-sensitive-z-monoproteinom-indychky-85-h-16-sht/</url>
-    <price>1379.00</price>
+    <price>1172.00</price>
+    <oldprice>1379</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1090</categoryId>
     <picture>https://catpaws.com.ua/content/images/47/vologiy-korm-dlja-kotv-z-chutlivim-travlennjam-nuevo-sensitive-z-monoprotenom-ndichki-85-g-16-sht-45099604326465_+cb764de810.jpg</picture>
@@ -18740,7 +19041,8 @@
    </offer>
    <offer id="5198" available="">
     <code>95203-16</code><url>https://catpaws.com.ua/volohyi-korm-dlia-sterylizovanykh-kotiv-nuevo-sterilized-z-kurkoiu-ta-rysom-85-h-16-sht/</url>
-    <price>1379.00</price>
+    <price>1172.00</price>
+    <oldprice>1379</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1090</categoryId>
     <picture>https://catpaws.com.ua/content/images/49/vologiy-korm-dlja-sterilzovanix-kotv-nuevo-sterilized-z-kurkou-ta-risom-85-g-16-sht-92495823756302_+2e767d9ffd.jpg</picture>
