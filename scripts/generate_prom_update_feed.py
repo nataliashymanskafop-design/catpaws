@@ -353,19 +353,24 @@ def build_updates(
             )
         )
 
-        # ====================================================
-        # CRITICAL RULE
-        #
-        # НЕМАЄ В НАЯВНОСТІ:
-        #
-        # міняємо ТІЛЬКИ presence.
-        #
-        # price НЕ передаємо.
-        # oldprice НЕ передаємо.
-        #
-        # Таким чином ціна товару на Prom
-        # залишається абсолютно без змін.
-        # ====================================================
+        price = parse_price(get_text(horoshop_offer, "price"))
+        oldprice_text = get_text(horoshop_offer, "oldprice")
+        oldprice = parse_price(oldprice_text)
+        valid_price = price is not None and price > 0
+        has_discount = (
+            valid_price and oldprice is not None and oldprice > price
+        )
+        # Omitted fields leave an existing Prom discount unchanged.
+        # The documented API reset is discount=null, not oldprice=0.
+        # A malformed source must not accidentally clear an active discount.
+        clear_discount = (
+            valid_price
+            and (not oldprice_text or oldprice is not None)
+            and not has_discount
+        )
+
+        # Unavailable products keep their base price. Expired discounts
+        # still need clearing so they cannot reappear when stock returns.
 
         if not available:
 
@@ -373,6 +378,8 @@ def build_updates(
                 "id": prom_id,
                 "presence": "not_available",
             }
+            if clear_discount:
+                item["discount"] = None
 
             updates.append(item)
 
@@ -385,20 +392,6 @@ def build_updates(
         #
         # Тільки тут дозволено працювати з ціною.
         # ====================================================
-
-        price = parse_price(
-            get_text(
-                horoshop_offer,
-                "price"
-            )
-        )
-
-        oldprice = parse_price(
-            get_text(
-                horoshop_offer,
-                "oldprice"
-            )
-        )
 
         item = {
             "id": prom_id,
@@ -426,17 +419,15 @@ def build_updates(
         # 3. price існує;
         # 4. oldprice > price.
         #
-        # НІКОЛИ не передаємо oldprice = 0.
+        # Коли акції немає, явно видаляємо попередню знижку Prom.
+        # discount та oldprice не можна передавати разом.
         # ----------------------------------------------------
 
-        if (
-            oldprice is not None
-            and price is not None
-            and oldprice > price
-            and oldprice > 0
-        ):
+        if has_discount:
 
             item["oldprice"] = oldprice
+        elif clear_discount:
+            item["discount"] = None
 
         updates.append(item)
 
@@ -660,7 +651,7 @@ def main():
 
     print(
         "Unavailable products: "
-        "ONLY presence is updated."
+        "base price is preserved; ended discounts are cleared."
     )
 
     print(
