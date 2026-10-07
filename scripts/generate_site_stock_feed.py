@@ -7,6 +7,7 @@ from lxml import etree
 
 from generate_home_food_stock import download
 from generate_feed import is_modes_bowl
+from normalize_feed_prices import normalize_price
 
 
 # Актуальний фід каталогу сайту. На відміну від Mono-фідів, тут не
@@ -27,6 +28,31 @@ SUPPLIER_STATE_FILES = (
     "public/darwin-stock-state.json",
 )
 FORCE_ZERO_BRANDS = {"rafi"}
+PETIMPEX_XML_URL = "https://files.petimpex.com/shimanskay/Shimanskaya.xml.yml"
+PETIMPEX_STATE_FILE = "public/petimpex-stock-state.json"
+
+
+def load_petimpex_prices(payload, tracked_skus):
+    supplier_root = etree.fromstring(payload)
+    offers = supplier_root.xpath(".//offer")
+    if len(offers) < 1000:
+        raise RuntimeError("PetImpex price source is empty or incomplete")
+    prices = {}
+    for offer in offers:
+        sku = clean(offer.get("id"))
+        if sku not in tracked_skus:
+            continue
+        value = offer.findtext("price")
+        # Supplier bundles without retail prices must not overwrite site prices.
+        if value is None:
+            continue
+        price = normalize_price(value)
+        if float(price) <= 0:
+            continue
+        prices[sku] = price
+    if len(prices) < 300:
+        raise RuntimeError(f"PetImpex retail prices are incomplete: {len(prices)}")
+    return prices
 
 
 def clean(value):
@@ -96,7 +122,8 @@ def resolve_quantity(sku, own_stock, supplier_stock):
     return 0, "none"
 
 
-def build_feed(catalog_root, own_stock, supplier_stock):
+def build_feed(catalog_root, own_stock, supplier_stock, retail_prices=None):
+    retail_prices = retail_prices or {}
     root = etree.Element(
         "yml_catalog",
         date=datetime.now(ZoneInfo("Europe/Kyiv")).strftime(
@@ -145,6 +172,9 @@ def build_feed(catalog_root, own_stock, supplier_stock):
         )
         etree.SubElement(offer, "vendorCode").text = sku
         etree.SubElement(offer, "quantity_in_stock").text = str(quantity)
+        if sku in retail_prices:
+            etree.SubElement(offer, "price").text = normalize_price(retail_prices[sku])
+            etree.SubElement(offer, "currencyId").text = "UAH"
 
     if len(seen_skus) < 2000:
         raise RuntimeError(
@@ -152,9 +182,10 @@ def build_feed(catalog_root, own_stock, supplier_stock):
             f"only {len(seen_skus)} products"
         )
 
-    # A stock import must never overwrite retail or promotional prices.
-    if root.xpath(".//price | .//oldprice | .//purchaseprice"):
-        raise RuntimeError("Price fields are forbidden in the site stock feed")
+    # Retail prices are explicitly authorized; discounts, old prices and gifts
+    # remain managed on the site and must never be reset by this feed.
+    if root.xpath(".//oldprice | .//purchaseprice | .//discount | .//gift"):
+        raise RuntimeError("Promotional or purchase price fields are forbidden")
 
     return root, source_counts
 
@@ -165,10 +196,15 @@ def main():
 
     own_stock = load_state(OWN_STOCK_STATE_FILE)
     supplier_stock = load_supplier_stock()
+    retail_prices = load_petimpex_prices(
+        download(PETIMPEX_XML_URL),
+        load_state(PETIMPEX_STATE_FILE),
+    )
     root, source_counts = build_feed(
         catalog_root,
         own_stock,
         supplier_stock,
+        retail_prices,
     )
 
     os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
@@ -189,7 +225,8 @@ def main():
     print(
         "Site stock feed generated: "
         f"{len(offers)} products, {available} available, "
-        f"sources: {source_counts}"
+        f"sources: {source_counts}, "
+        f"normalized retail prices: {len(root.xpath('.//offer/price'))}"
     )
 
 

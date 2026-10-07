@@ -8,6 +8,8 @@ on:
       - scripts/generate_products_feed.py
       - scripts/generate_prom_update_feed.py
       - scripts/generate_doms_stock.py
+      - scripts/generate_site_stock_feed.py
+      - scripts/normalize_feed_prices.py
   workflow_dispatch:
   schedule:
     - cron: "*/30 * * * *"
@@ -165,8 +167,8 @@ jobs:
             -o public/site-stock-feed.xml
 
       # Створюємо одне безпечне посилання для ручного оновлення Horoshop.
-      # Файл містить лише артикул, кількість і наявність та не змінює
-      # ціни, назви, описи, фото або категорії товарів.
+      # Кількість і наявність для всіх складів та роздрібні ціни PetImpex
+      # без роздільників тисяч. Акції, назви, описи й фото не змінюємо.
       - name: Generate unified Horoshop stock feed
         continue-on-error: true
         run: python scripts/generate_site_stock_feed.py

@@ -2,6 +2,7 @@ import os
 import requests
 from lxml import etree
 from generate_feed import DISCONTINUED_SKUS
+from normalize_feed_prices import normalize_feed_prices
 
 
 XML_URL = "https://catpaws.com.ua/content/export/5d007701b07c6dab399214f2c0d6743c.xml"
@@ -25,6 +26,7 @@ def main():
     response.raise_for_status()
 
     root = etree.fromstring(response.content)
+    normalize_feed_prices(root)
 
     updated = 0
 
