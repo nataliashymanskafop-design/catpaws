@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T15:23:21Z",
+  "updatedAt": "2026-10-07T15:58:51Z",
   "total": 1694,
   "data": [
     {
@@ -17258,7 +17258,7 @@
       "stock": 1,
       "warehouses": [
         {
-          "id": "PETIMPEX",
+          "id": "SUPPLIER",
           "stock": 1
         }
       ],
@@ -47382,12 +47382,12 @@
       "code": "NPSC70465-K2-12",
       "price": 634,
       "old_price": 792,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 0
+          "id": "KORMAX",
+          "stock": 2
         }
       ],
       "warranty_type": "no",

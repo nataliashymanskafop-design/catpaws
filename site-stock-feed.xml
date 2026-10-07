@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-10-07 18:23">
+<yml_catalog date="2026-10-07 18:58">
   <shop>
     <offers>
       <offer id="515" available="true">
@@ -4856,7 +4856,7 @@
       </offer>
       <offer id="4520" available="true">
         <vendorCode>NPSC70465-K2</vendorCode>
-        <quantity_in_stock>40</quantity_in_stock>
+        <quantity_in_stock>28</quantity_in_stock>
       </offer>
       <offer id="4523" available="true">
         <vendorCode>NPSC47601</vendorCode>
@@ -5158,7 +5158,7 @@
       </offer>
       <offer id="4728" available="true">
         <vendorCode>0020 шампунь 30мл</vendorCode>
-        <quantity_in_stock>2</quantity_in_stock>
+        <quantity_in_stock>3</quantity_in_stock>
         <price>66.3</price>
         <currencyId>UAH</currencyId>
       </offer>
@@ -10704,9 +10704,9 @@
         <vendorCode>NPSC70466-K2-12</vendorCode>
         <quantity_in_stock>0</quantity_in_stock>
       </offer>
-      <offer id="5258" available="false">
+      <offer id="5258" available="true">
         <vendorCode>NPSC70465-K2-12</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
       </offer>
       <offer id="5259" available="false">
         <vendorCode>NPSC70467-12</vendorCode>
