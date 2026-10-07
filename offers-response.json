@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T15:58:51Z",
+  "updatedAt": "2026-10-07T20:44:44Z",
   "total": 1694,
   "data": [
     {
@@ -1295,11 +1295,11 @@
       "price": 3230,
       "old_price": null,
       "availability": true,
-      "stock": 5,
+      "stock": 20,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 5
+          "stock": 20
         }
       ],
       "warranty_type": "no",
@@ -2751,11 +2751,11 @@
       "price": 7335,
       "old_price": null,
       "availability": true,
-      "stock": 5,
+      "stock": 20,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 5
+          "stock": 20
         }
       ],
       "warranty_type": "no",
@@ -3927,11 +3927,11 @@
       "price": 3380,
       "old_price": null,
       "availability": true,
-      "stock": 5,
+      "stock": 20,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 5
+          "stock": 20
         }
       ],
       "warranty_type": "no",
@@ -4543,11 +4543,11 @@
       "price": 3238,
       "old_price": null,
       "availability": true,
-      "stock": 5,
+      "stock": 20,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 5
+          "stock": 20
         }
       ],
       "warranty_type": "no",
@@ -5635,11 +5635,11 @@
       "price": 1861,
       "old_price": null,
       "availability": true,
-      "stock": 10,
+      "stock": 5,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 10
+          "stock": 5
         }
       ],
       "warranty_type": "no",
@@ -5915,11 +5915,11 @@
       "price": 919,
       "old_price": null,
       "availability": true,
-      "stock": 5,
+      "stock": 20,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 5
+          "stock": 20
         }
       ],
       "warranty_type": "no",
@@ -7455,11 +7455,11 @@
       "price": 1103,
       "old_price": null,
       "availability": true,
-      "stock": 5,
+      "stock": 20,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 5
+          "stock": 20
         }
       ],
       "warranty_type": "no",
@@ -13223,11 +13223,11 @@
       "price": 564,
       "old_price": null,
       "availability": true,
-      "stock": 4,
+      "stock": 3,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 4
+          "stock": 3
         }
       ],
       "warranty_type": "no",
@@ -19214,12 +19214,12 @@
       "code": "NPS45755",
       "price": 1430,
       "old_price": null,
-      "availability": true,
-      "stock": 5,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 5
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -24450,12 +24450,12 @@
       "code": "NPSC45995",
       "price": 8071,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 20,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 0
+          "stock": 20
         }
       ],
       "warranty_type": "no",
@@ -24478,12 +24478,12 @@
       "code": "NPS45726",
       "price": 750,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 20,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 0
+          "stock": 20
         }
       ],
       "warranty_type": "no",
@@ -24506,12 +24506,12 @@
       "code": "NPLS45803",
       "price": 3073,
       "old_price": 3615,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 20,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 0
+          "stock": 20
         }
       ],
       "warranty_type": "no",
@@ -24534,12 +24534,12 @@
       "code": "NPSC46339",
       "price": 6274,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 20,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 0
+          "stock": 20
         }
       ],
       "warranty_type": "no",
@@ -24590,12 +24590,12 @@
       "code": "NPSC45835",
       "price": 5982,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 20,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 0
+          "stock": 20
         }
       ],
       "warranty_type": "no",
@@ -24618,12 +24618,12 @@
       "code": "NPSC45996",
       "price": 8145,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 20,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 0
+          "stock": 20
         }
       ],
       "warranty_type": "no",
@@ -24758,12 +24758,12 @@
       "code": "NPLS45676",
       "price": 3510,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 20,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 0
+          "stock": 20
         }
       ],
       "warranty_type": "no",
@@ -25178,12 +25178,12 @@
       "code": "NPB46026",
       "price": 5744,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 20,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 0
+          "stock": 20
         }
       ],
       "warranty_type": "no",
@@ -25430,12 +25430,12 @@
       "code": "NPB46032",
       "price": 5516,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 20,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 0
+          "stock": 20
         }
       ],
       "warranty_type": "no",
@@ -25458,12 +25458,12 @@
       "code": "NPSCVET47577",
       "price": 6214,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 20,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 0
+          "stock": 20
         }
       ],
       "warranty_type": "no",
@@ -25514,12 +25514,12 @@
       "code": "NPSCVET47581",
       "price": 6339,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 20,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 0
+          "stock": 20
         }
       ],
       "warranty_type": "no",
@@ -25542,12 +25542,12 @@
       "code": "TPL63594",
       "price": 3134,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 5,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 0
+          "stock": 5
         }
       ],
       "warranty_type": "no",
@@ -25570,12 +25570,12 @@
       "code": "TPL63598",
       "price": 1195,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 10,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 0
+          "stock": 10
         }
       ],
       "warranty_type": "no",
@@ -25598,12 +25598,12 @@
       "code": "TPL63585",
       "price": 3134,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 5,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 0
+          "stock": 5
         }
       ],
       "warranty_type": "no",
@@ -26242,12 +26242,12 @@
       "code": "NPSC47633",
       "price": 4287,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 10,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 0
+          "stock": 10
         }
       ],
       "warranty_type": "no",
@@ -30974,12 +30974,12 @@
       "code": "NPB46244",
       "price": 5324,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 20,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 0
+          "stock": 20
         }
       ],
       "warranty_type": "no",
@@ -35622,12 +35622,12 @@
       "code": "NPSC47600",
       "price": 3089,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 20,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 0
+          "stock": 20
         }
       ],
       "warranty_type": "no",
@@ -35706,12 +35706,12 @@
       "code": "NPSC47599",
       "price": 6666,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 20,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 0
+          "stock": 20
         }
       ],
       "warranty_type": "no",

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-10-07 18:56">
+<yml_catalog date="2026-10-07 23:43">
   <shop>
     <name>CatPaws Kormax stock</name>
     <company>CatPaws</company>
@@ -596,14 +596,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="KIKNPLF63358" available="false">
+      <offer id="KIKNPLF63358" available="true">
         <name>Суп для стерилізованих котів з лососем NP Lifestyle Sterilised Salmon, 140мл</name>
         <vendorCode>KIKNPLF63358</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="KIKNPLF63359" available="true">
         <name>Суп для котів з чутливим травленням, з тунцем NP Lifestyle Sensitive Digestion, 140мл</name>
@@ -893,23 +893,23 @@
         <stock>16</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="KIKNPSC70540" available="false">
+      <offer id="KIKNPSC70540" available="true">
         <name>Ласощі для собак кролячі вушка з начинкою з качки, 75 г Nature's Protection Superior Care Rabbit Ears with Duck Filling</name>
         <vendorCode>KIKNPSC70540</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
       </offer>
-      <offer id="KIKNPSC70542" available="false">
+      <offer id="KIKNPSC70542" available="true">
         <name>Ласощі для собак кролячі вушка з начинкою з кролика, 75 г Nature's Protection Superior Care Rabbit Ears with Rabbit Filling</name>
         <vendorCode>KIKNPSC70542</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="KIKNPSP47238" available="true">
         <name>Ласощі для цуценят з м'ясом птиці Nature's Protection Poultry Healthy Growth, 150г</name>
@@ -956,14 +956,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPB46026" available="false">
+      <offer id="NPB46026" available="true">
         <name>Сухий корм для цуценят малих порід Mini Junior Small Breeds 18кг</name>
         <vendorCode>NPB46026</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="NPB46027" available="true">
         <name>Сухий корм для дорослих собак великих порід Maxi Adult Large Breeds 18кг</name>
@@ -1006,18 +1006,18 @@
         <vendorCode>NPB46031</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPB46032" available="false">
+      <offer id="NPB46032" available="true">
         <name>Сухий корм для дорослих спортивних, мисливських та службових собак Active Sport Adult All Breeds 18кг</name>
         <vendorCode>NPB46032</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="NPB46033" available="true">
         <name>Сухий корм для стерилізованих котів та кішок Nature's Protection Sterilised 18кг</name>
@@ -1136,14 +1136,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPB46244" available="false">
+      <offer id="NPB46244" available="true">
         <name>Сухий корм для дорослих собак великих порід з ягням Nature's Protection Lamb Adult Maxi Breeds 18 кг</name>
         <vendorCode>NPB46244</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="NPB46245" available="true">
         <name>Сухий корм для дорослих собак малих порід з ягнятиною Mini Adult Lamb Small Breeds 18кг</name>
@@ -1181,14 +1181,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPLS45676" available="false">
+      <offer id="NPLS45676" available="true">
         <name>Сухий беззерновий корм з птицею для дорослих собак всіх порід Lifestyle Grain Free Poultry Adult All Breeds 10кг</name>
         <vendorCode>NPLS45676</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="NPLS45677" available="true">
         <name>Сухий беззерновий корм для собак усіх порід з лососем, 1,5 кг Nature's Protection Lifestyle Grain Free Salmon Adult All Breeds</name>
@@ -1325,14 +1325,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPLS45803" available="false">
+      <offer id="NPLS45803" available="true">
         <name>Сухий беззерновий корм для стерілізованих дорослих котів з білою рибою Lifestyle Grain Free White Fish Sterilised Adult Cat 7кг</name>
         <vendorCode>NPLS45803</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="NPLS45952" available="true">
         <name>Сухий беззерновий корм для кошенят з лососем Lifestyle Grain Free Salmon Kitten 400г</name>
@@ -1388,14 +1388,14 @@
         <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPLS45958" available="false">
+      <offer id="NPLS45958" available="true">
         <name>Сухий беззерновий корм для дорослих котів з білою рибою Lifestyle Grain Free White Fish Adult Cat 400г</name>
         <vendorCode>NPLS45958</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="NPLS45959" available="true">
         <name>Сухий беззерновий корм для дорослих котів з білою рибою Lifestyle Grain Free White Fish Adult Cat 1,5кг</name>
@@ -1649,14 +1649,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPS45726" available="false">
+      <offer id="NPS45726" available="true">
         <name>Сухий корм для цуценят всіх порід Junior All Breeds 2кг</name>
         <vendorCode>NPS45726</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="NPS45727" available="true">
         <name>Сухий корм для цуценят всіх порід Junior All Breeds 7.5кг</name>
@@ -1681,8 +1681,8 @@
         <vendorCode>NPS45729</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPS45730" available="true">
@@ -1780,8 +1780,8 @@
         <vendorCode>NPS45740</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPS45741" available="true">
@@ -1798,8 +1798,8 @@
         <vendorCode>NPS45742</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPS45744" available="true">
@@ -1901,14 +1901,14 @@
         <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPS45755" available="true">
+      <offer id="NPS45755" available="false">
         <name>Сухий корм для літніх собак від 7 років усіх порід з м'ясом птиці, 4 кг Nature's Protection Senior All Breed</name>
         <vendorCode>NPS45755</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="NPS45756" available="true">
         <name>Сухий корм для дорослих собак всіх порід від 7 років Senior All Breeds 12кг</name>
@@ -2135,14 +2135,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPS45781" available="false">
+      <offer id="NPS45781" available="true">
         <name>Сухий корм для літніх котів Nature's Protection Senior 400г</name>
         <vendorCode>NPS45781</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="NPS45782" available="true">
         <name>Сухий корм для літніх котів Nature's Protection Senior 2кг</name>
@@ -2360,14 +2360,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPSC45835" available="false">
+      <offer id="NPSC45835" available="true">
         <name>Сухий беззерновий корм для дорослих собак малих порід з білою шерстю та лососем Nature's Protection Superior Care White Dogs Grain Free Salmon Adult Small Breeds, 10 кг</name>
         <vendorCode>NPSC45835</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="NPSC45992" available="true">
         <name>Сухий беззерновий корм для цуценят (стартер) всіх порід з білим забарвленням шерсті Superior Care White Dogs Grain Free Starter All Breeds 17кг</name>
@@ -2396,23 +2396,23 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPSC45995" available="false">
+      <offer id="NPSC45995" available="true">
         <name>Сухий беззерновий корм для цуценят всіх порід з білим забарвленням шерсті Superior Care White Dogs Grain Free Junior All Breeds 17кг</name>
         <vendorCode>NPSC45995</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
       </offer>
-      <offer id="NPSC45996" available="false">
+      <offer id="NPSC45996" available="true">
         <name>Сухий беззерновий корм для дорослих собак малих порід з білою шерстю та лососем Nature's Protection Superior Care White Dogs Grain Free Salmon Adult Small Breeds, 17 кг</name>
         <vendorCode>NPSC45996</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="NPSC45997" available="true">
         <name>Сухий беззерновий корм для цуценят малих порід з білим забарвленням шерсті Superior Care White Dogs Grain Free Junior Small and Mini Breeds 17 кг</name>
@@ -2432,14 +2432,14 @@
         <stock>19</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPSC46339" available="false">
+      <offer id="NPSC46339" available="true">
         <name>Сухий беззерновой корм для дорослих собак великих порід з білою шерстю, з білою рибою Superior Care White Dogs Grain Free White Fish Adult Large Breeds 10kg</name>
         <vendorCode>NPSC46339</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="NPSC46340" available="true">
         <name>Сухий беззерновой корм для дорослих собак великих порід з білою шерстю, з білою рибою Superior Care White Dogs Grain Free White Fish Adult Large Breeds 17kg</name>
@@ -2657,23 +2657,23 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="NPSC47599" available="false">
+      <offer id="NPSC47599" available="true">
         <name>Сухий корм для собак усіх розмірів і стадій життя з протеїном комах, 10 кг Nature's Protection Superior Care White Dogs Insect All Sizes&amp;Life Stages</name>
         <vendorCode>NPSC47599</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
       </offer>
-      <offer id="NPSC47600" available="false">
+      <offer id="NPSC47600" available="true">
         <name>Сухий беззерновий корм для собак усіх розмірів і стадій життя з протеїном комах, 4 кг Nature's Protection Superior Care White Dogs Grain Free Insect All Sizes&amp;Life Stages</name>
         <vendorCode>NPSC47600</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="NPSC47601" available="true">
         <name>Сухий беззерновий корм для собак усіх розмірів і стадій життя з протеїном комах, 10 кг Nature's Protection Superior Care White Dogs Grain Free Insect All Sizes&amp;Life Stages</name>
@@ -2725,18 +2725,18 @@
         <vendorCode>NPSC47632</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPSC47633" available="false">
+      <offer id="NPSC47633" available="true">
         <name>Сухий беззерновий корм з оселедцем для дорослих котів усіх порід із білим забарвленням шерсті Superior Care White Cats Grain Free with Herring Adult all breeds 7 кг</name>
         <vendorCode>NPSC47633</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="NPSC47634" available="true">
         <name>Сухий беззерновий корм з оселедцем для дорослих котів усіх порід із рудим і коричневим забарвленням шерсті Superior Care Red Cats Grain Free with Herring Adult all breeds 7 кг</name>
@@ -2927,14 +2927,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPSCVET47577" available="false">
+      <offer id="NPSCVET47577" available="true">
         <name>Ветеринарний дієтичний корм для собак при захворюванннях шлунково-кишкового тракту NP Superior Care Veterinary Diet Gastrointestinal White Fish Adult All Breed Dogs з білою рибою, 10кг</name>
         <vendorCode>NPSCVET47577</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="NPSCVET47578" available="true">
         <name>Ветеринарний дієтичний гіпоалергенний корм для собак NP Superior Care Veterinary Diet Hypoallergenic Insect Adult All Breed Dogs з білком комах, 1,5кг</name>
@@ -2963,14 +2963,14 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="NPSCVET47581" available="false">
+      <offer id="NPSCVET47581" available="true">
         <name>Ветеринарний дієтичний корм для здоров'я шкіри та шерсті собак NP Superior Care Veterinary Diet Dermatosis Salmon Adult All Breed Dogs з лососем, 10кг</name>
         <vendorCode>NPSCVET47581</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="SNK46087" available="true">
         <name>Ласощі для собак з куркою у формі гантелі Nature's Protection snack for dogs with chicken 75g</name>
@@ -3125,14 +3125,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="SNK46127" available="false">
+      <offer id="SNK46127" available="true">
         <name>Ласощі для собак, сушена качка, смужки, Nature's Protection Lifestyle Snack For Dogs Duck Sticks 75г</name>
         <vendorCode>SNK46127</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="SNK46129" available="true">
         <name>Ласощі для собак, рулети з качки і тріски, Nature's Protection Lifestyle snacks for dogs, duck and cod rolls, 75г</name>
@@ -3301,8 +3301,8 @@
         <vendorCode>TPL47575</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>10</quantity_in_stock>
-        <stock>10</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="TPL63380" available="true">
@@ -3395,14 +3395,14 @@
         <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="TPL63585" available="false">
+      <offer id="TPL63585" available="true">
         <name>Шампунь для надання об'єму шерсті собак та котів TAURO PRO LINE Ultra Natural Care Volume Boost Shampoo, 3785 мл</name>
         <vendorCode>TPL63585</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="TPL63586" available="true">
         <name>Маска для надання об'єму шерсті собак і котів TAURO PRO LINE Ultra Natural Care Volume Boost Mask, 1000 мл</name>
@@ -3467,14 +3467,14 @@
         <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="TPL63594" available="false">
+      <offer id="TPL63594" available="true">
         <name>Інтенсивно зволожуючий шампунь для шерсті та шкіри собак та котів TAURO PRO LINE Ultra Natural Care Intense Hydrate Shampoo, 3785 мл</name>
         <vendorCode>TPL63594</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="TPL63595" available="true">
         <name>Інтенсивно зволожувальна маска для шкіри та шерсті собак і котів TAURO PRO LINE Ultra Natural Care Intense Hydrate Mask, 400 мл</name>
@@ -3494,14 +3494,14 @@
         <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="TPL63598" available="false">
+      <offer id="TPL63598" available="true">
         <name>Делікатний шампунь-скраб для шерсті та шкіри собак та котів TAURO PRO LINE Ultra Natural Care Gentle Scrub Shampoo, 400 мл</name>
         <vendorCode>TPL63598</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="TPL63599" available="true">
         <name>Делікатний шампунь-скраб для шерсті та шкіри собак та котів TAURO PRO LINE Ultra Natural Care Gentle Scrub Shampoo, 1000 мл</name>
@@ -3661,8 +3661,8 @@
         <vendorCode>TPL63618</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="TPL63619" available="true">
