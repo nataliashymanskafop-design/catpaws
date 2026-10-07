@@ -16,6 +16,7 @@ PREVIOUS_FEED_FILE = "previous-offers-response.json"
 DEFAULT_WAREHOUSE_ID = "SUPPLIER"
 OWN_STOCK_STATE_FILE = "public/own-stock-state.json"
 MIN_PRICE = 300
+DISCONTINUED_SKUS = {"017954"}
 
 
 def is_modes_bowl(offer):
@@ -278,7 +279,7 @@ def build_offer(offer, stock_by_sku, own_stock):
         return None
 
     normalized_code = code.strip()
-    if normalized_code == "NPS24432":
+    if normalized_code == "NPS24432" or normalized_code in DISCONTINUED_SKUS:
         return None
     stock_source = stock_by_sku.get(normalized_code)
     own_quantity = own_stock.get(normalized_code, 0)

@@ -1,6 +1,13 @@
 name: Generate Mono, Prom and supplier stock feeds
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/generate_feed.py
+      - scripts/generate_products_feed.py
+      - scripts/generate_prom_update_feed.py
+      - scripts/generate_doms_stock.py
   workflow_dispatch:
   schedule:
     - cron: "*/30 * * * *"

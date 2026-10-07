@@ -2,7 +2,7 @@ import os
 import time
 import requests
 from lxml import etree
-from generate_feed import is_modes_bowl
+from generate_feed import DISCONTINUED_SKUS, is_modes_bowl
 
 # Also disable existing Prom cards after the site stops exporting them.
 SITE_ONLY_MODES_SKUS = {"ACRC(W)-1 bronze","ACRC(W)-4 bronze","ACRC(W)-4 golden","ACRC(W)-8 bronze","ACRC(W)-8 golden","ASB(MBF)--24 Oz","ASB(MBF)--32 Oz","ASB(MBF)--64 Oz","ASB(MBF)--96 Oz","ASB(W)-08 Oz","ASB(W)-16 Oz","ASB(W)-24 Oz","ASBH(S)-24 Oz","ASBPP-24 oz violet","ASR(CB)-16 Oz","ASR(CB)-24 Oz","ASR(CB)-32 Oz","ASR(CB)-64 Oz","ASR(CB)-96 Oz","ASR(DST)-16 Oz black","ASR(DST)-24 Oz black","ASR(DST)-32 Oz green","ASR(DST)-64 Oz green","ASR(DST)-96 Oz green","ASR(ETD)-16 oz","ASR(ETD)-24 oz","ASR(ETD)-32 oz","ASR(GMS1)-16 Oz","ASR(SP)-16 Oz","ASR(TRST)-24 Oz","ASR(TRST)-32 Oz","ASR(TRST)-64 Oz","ASR(TRST)-96 Oz","ASR-64 oz","ASR-96 oz","ASR2P(SLE)-24 Oz dual blue","ASR2P(SLE)-32 Oz dual blue","ASR2P(SLE)-64 Oz dual blue","ASR2P(SLE)-96 Oz dual blue","ASRP(FP)-24 Oz black/white","ASRP(FP)-32 Oz black/white","ASRP(M)-24 oz (Bone) black","ASRP(M)-64 oz (Bone) red","ASRP(SLE)- 64 oz violet","ASRP(SLE)- 96 oz violet","ASRP(SLE-C)- 16 oz","ASRP(SLE-C)- 24 oz","ASRP(SLE-C)- 32 oz","ASRP(SLE-C)- 64 oz","ASRP(SLE-C)- 96 oz","ASRP(SLT)- 16 oz blue","ASRP(SLT)- 24 oz blue","ASRP(SLT)- 32 oz blue","ASRP(SLT)- 64 oz blue","ASRP(SLT)- 96 oz blue","ASWT(ETD)-16","ASWT(ETD)-32","ASWTP2P(ST)-32 Oz black","ASWTP2P(ST)-64 Oz black","CCC-CP- 64 oz","CCH-CP- 48 oz","CCH-CP- 96 oz","CDBX(W)","DDBXT(TFM)-1/2 Pt","DDWF-PC-SL-2Qt","DDWF-PC-SL-3Qt","DDWF2B-CP-3 Qt","DDWF2B-RS-3 Qt","FBHD(NS)- 1 Qt","FBR(CB)- 2Qt","FBR(CB)- 3Qt","FBR(CB)- 5Qt","FBR(CNS)-1 Qt","HDE(C)-17","HDE(C)-21","HDN(LP)- 14 golden","HDN(LP)- 17 golden","HDN(LP)- 21 blue","HDN(LP)- 24 red","HDN(MB)- 17","HDN(MB)- 21","HDN(MB)- 24","PF-29"}
@@ -302,7 +302,7 @@ def build_updates(
         if not prom_id:
             continue
 
-        if sku in SITE_ONLY_MODES_SKUS:
+        if sku in SITE_ONLY_MODES_SKUS or sku in DISCONTINUED_SKUS:
             updates.append({"id": prom_id, "presence": "not_available"})
             unavailable_count += 1
             continue

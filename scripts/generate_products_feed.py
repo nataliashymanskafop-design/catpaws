@@ -1,6 +1,7 @@
 import os
 import requests
 from lxml import etree
+from generate_feed import DISCONTINUED_SKUS
 
 
 XML_URL = "https://catpaws.com.ua/content/export/5d007701b07c6dab399214f2c0d6743c.xml"
@@ -53,7 +54,7 @@ def main():
 
         if not vendor_code:
             continue
-        if vendor_code.strip() == "NPS24432":
+        if vendor_code.strip() == "NPS24432" or vendor_code.strip() in DISCONTINUED_SKUS:
             offer.getparent().remove(offer)
             continue
 
