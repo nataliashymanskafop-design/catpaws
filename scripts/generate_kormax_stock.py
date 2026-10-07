@@ -65,6 +65,9 @@ DOG_CAN_TARGET = 40
 DOG_CAN_THRESHOLD = 16
 
 BOX_PACK_SIZES_BY_COMPONENT = {}
+EXPLICIT_BOXES = {
+    "NPSC70465-K2-12": ("NPSC70465-K2", 12),
+}
 
 
 def clean(value):
@@ -162,14 +165,15 @@ def build_product_catalog(site_catalog, supplier):
     # Власні коробки постачальник не передає. Знаходимо їх у каталозі
     # за суфіксом _box та рахуємо кількість із залишку одиничного SKU.
     for box_sku, box_name in site_catalog.items():
-        if not box_sku.lower().endswith("_box"):
+        if box_sku in EXPLICIT_BOXES:
+            component_sku, pack_size = EXPLICIT_BOXES[box_sku]
+        elif box_sku.lower().endswith("_box"):
+            component_sku = box_sku[:-4]
+            pack_size = parse_pack_size(box_name)
+        else:
             continue
-
-        component_sku = box_sku[:-4]
         if component_sku not in products:
             continue
-
-        pack_size = parse_pack_size(box_name)
         if not pack_size:
             print(f"Skipped box without pack size: {box_sku} — {box_name}")
             continue
@@ -502,15 +506,13 @@ def main():
         # лише коригування коробок, змін постачальника та поповнення порога.
         automatic_stock = dict(previous_published)
         for sku, delta in direct_deltas.items():
-            automatic_stock[sku] = max(
-                0,
-                int(automatic_stock.get(sku, 0)) - delta,
-            )
+            automatic_stock[sku] = int(automatic_stock.get(sku, 0)) - delta
 
         updates = {
             sku: quantity
             for sku, quantity in published_stock.items()
-            if int(automatic_stock.get(sku, 0)) != int(quantity)
+            if sku in boxes
+            or int(automatic_stock.get(sku, 0)) != int(quantity)
         }
 
     # Товари, зняті з виробництва та видалені із сайту, обнуляємо

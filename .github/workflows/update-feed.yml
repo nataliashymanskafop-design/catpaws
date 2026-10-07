@@ -8,6 +8,8 @@ on:
       - scripts/generate_products_feed.py
       - scripts/generate_prom_update_feed.py
       - scripts/generate_doms_stock.py
+      - scripts/generate_home_food_stock.py
+      - scripts/generate_kormax_stock.py
       - scripts/generate_site_stock_feed.py
       - scripts/normalize_feed_prices.py
   workflow_dispatch:

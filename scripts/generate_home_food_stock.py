@@ -722,15 +722,15 @@ def main():
         # bundles/boxes or a threshold replenishment.
         automatic_stock = dict(previous_published)
         for sku, delta in direct_deltas.items():
-            automatic_stock[sku] = max(
-                0,
-                int(automatic_stock.get(sku, 0)) - delta,
-            )
+            # SalesDrive may subtract below zero. Keep that negative estimate
+            # so the computed nonnegative stock is sent back as a correction.
+            automatic_stock[sku] = int(automatic_stock.get(sku, 0)) - delta
 
         updates = {
             sku: quantity
             for sku, quantity in published_stock.items()
-            if int(automatic_stock.get(sku, 0)) != int(quantity)
+            if sku in DERIVED_SKUS
+            or int(automatic_stock.get(sku, 0)) != int(quantity)
         }
 
     if updates:
