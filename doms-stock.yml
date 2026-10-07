@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-10-07 10:37">
+<yml_catalog date="2026-10-07 17:58">
   <shop>
     <name>CatPaws DOMS stock</name>
     <company>CatPaws</company>
@@ -299,14 +299,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="017954" available="true">
+      <offer id="017954" available="false">
         <name>Сухий корм для дорослих котів Chicopee CNL BEAUTY з лососем 15 кг</name>
         <vendorCode>017954</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="017978" available="true">
         <name>Сухий корм для дорослих котів Chicopee CNL INDOOR з яловичиною 1,5 кг</name>
