@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-10-07 04:17">
+<yml_catalog date="2026-10-07 10:39">
   <shop>
     <offers>
       <offer id="515" available="true">
@@ -56,7 +56,7 @@
       </offer>
       <offer id="582" available="true">
         <vendorCode>1029100</vendorCode>
-        <quantity_in_stock>20</quantity_in_stock>
+        <quantity_in_stock>19</quantity_in_stock>
       </offer>
       <offer id="707" available="true">
         <vendorCode>3099004</vendorCode>
@@ -512,7 +512,7 @@
       </offer>
       <offer id="1241" available="true">
         <vendorCode>NPLS45960</vendorCode>
-        <quantity_in_stock>20</quantity_in_stock>
+        <quantity_in_stock>10</quantity_in_stock>
       </offer>
       <offer id="1246" available="true">
         <vendorCode>KIK45604</vendorCode>
@@ -1724,7 +1724,7 @@
       </offer>
       <offer id="2700" available="true">
         <vendorCode>3079016</vendorCode>
-        <quantity_in_stock>10</quantity_in_stock>
+        <quantity_in_stock>9</quantity_in_stock>
       </offer>
       <offer id="2701" available="true">
         <vendorCode>3179100</vendorCode>
@@ -2942,9 +2942,9 @@
         <vendorCode>NPPR47925</vendorCode>
         <quantity_in_stock>30</quantity_in_stock>
       </offer>
-      <offer id="3578" available="true">
+      <offer id="3578" available="false">
         <vendorCode>NPPR47923</vendorCode>
-        <quantity_in_stock>60</quantity_in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
       </offer>
       <offer id="3579" available="true">
         <vendorCode>NPPR70470</vendorCode>
@@ -3170,9 +3170,9 @@
         <vendorCode>NPPR47954_box</vendorCode>
         <quantity_in_stock>5</quantity_in_stock>
       </offer>
-      <offer id="3787" available="true">
+      <offer id="3787" available="false">
         <vendorCode>NPPR47923_box</vendorCode>
-        <quantity_in_stock>5</quantity_in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
       </offer>
       <offer id="3788" available="true">
         <vendorCode>NPPR70470_box</vendorCode>
@@ -3248,7 +3248,7 @@
       </offer>
       <offer id="3825" available="true">
         <vendorCode>ЗС000330</vendorCode>
-        <quantity_in_stock>30</quantity_in_stock>
+        <quantity_in_stock>29</quantity_in_stock>
       </offer>
       <offer id="3829" available="true">
         <vendorCode>378652</vendorCode>
@@ -4396,7 +4396,7 @@
       </offer>
       <offer id="4504" available="true">
         <vendorCode>KIKNPSC70540</vendorCode>
-        <quantity_in_stock>20</quantity_in_stock>
+        <quantity_in_stock>5</quantity_in_stock>
       </offer>
       <offer id="4506" available="true">
         <vendorCode>KIKNPSC70539</vendorCode>
@@ -5236,7 +5236,7 @@
       </offer>
       <offer id="5233" available="true">
         <vendorCode>ЗС000490</vendorCode>
-        <quantity_in_stock>9</quantity_in_stock>
+        <quantity_in_stock>3</quantity_in_stock>
       </offer>
       <offer id="5234" available="true">
         <vendorCode>ЗС000492</vendorCode>

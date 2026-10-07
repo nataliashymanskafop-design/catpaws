@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T21:50:35Z",
+  "updatedAt": "2026-10-07T07:39:07Z",
   "total": 1695,
   "data": [
     {
@@ -175,11 +175,11 @@
       "price": 2307,
       "old_price": 2884,
       "availability": true,
-      "stock": 20,
+      "stock": 19,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 20
+          "stock": 19
         }
       ],
       "warranty_type": "no",
@@ -2051,11 +2051,11 @@
       "price": 3027,
       "old_price": null,
       "availability": true,
-      "stock": 20,
+      "stock": 10,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 20
+          "stock": 10
         }
       ],
       "warranty_type": "no",
@@ -8603,11 +8603,11 @@
       "price": 606,
       "old_price": 758,
       "availability": true,
-      "stock": 10,
+      "stock": 9,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 10
+          "stock": 9
         }
       ],
       "warranty_type": "no",
@@ -13474,12 +13474,12 @@
       "code": "NPPR47923_box",
       "price": 792,
       "old_price": null,
-      "availability": true,
-      "stock": 5,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 5
+          "stock": 0
         }
       ],
       "warranty_type": "no",
