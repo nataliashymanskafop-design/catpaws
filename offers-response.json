@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T14:50:37Z",
+  "updatedAt": "2026-10-08T17:28:17Z",
   "total": 1691,
   "data": [
     {
@@ -2526,12 +2526,12 @@
       "code": "NPB46039",
       "price": 5679,
       "old_price": null,
-      "availability": true,
-      "stock": 5,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 5
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -5634,12 +5634,12 @@
       "code": "NPB46026",
       "price": 5744,
       "old_price": null,
-      "availability": true,
-      "stock": 20,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 20
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -6139,11 +6139,11 @@
       "price": 8706,
       "old_price": null,
       "availability": true,
-      "stock": 20,
+      "stock": 10,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 20
+          "stock": 10
         }
       ],
       "warranty_type": "no",
@@ -11879,11 +11879,11 @@
       "price": 606,
       "old_price": 758,
       "availability": true,
-      "stock": 6,
+      "stock": 20,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 6
+          "stock": 20
         }
       ],
       "warranty_type": "no",
@@ -16246,12 +16246,12 @@
       "code": "5578",
       "price": 3709,
       "old_price": null,
-      "availability": true,
-      "stock": 2,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "DARWIN",
-          "stock": 2
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -21090,12 +21090,12 @@
       "code": "NPB46244",
       "price": 5324,
       "old_price": null,
-      "availability": true,
-      "stock": 20,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 20
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -21847,11 +21847,11 @@
       "price": 792,
       "old_price": null,
       "availability": true,
-      "stock": 5,
+      "stock": 4,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 5
+          "stock": 4
         }
       ],
       "warranty_type": "no",
@@ -30974,12 +30974,12 @@
       "code": "NPSC47647",
       "price": 9487,
       "old_price": null,
-      "availability": true,
-      "stock": 10,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 10
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -32319,6 +32319,34 @@
       "price": 516,
       "old_price": null,
       "availability": true,
+      "stock": 36,
+      "warehouses": [
+        {
+          "id": "TERRAVET",
+          "stock": 36
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "ЗС000476",
+      "price": 557,
+      "old_price": null,
+      "availability": true,
       "stock": 40,
       "warehouses": [
         {
@@ -32343,43 +32371,15 @@
       "manufacture": null
     },
     {
-      "code": "ЗС000476",
-      "price": 557,
-      "old_price": null,
-      "availability": true,
-      "stock": 41,
-      "warehouses": [
-        {
-          "id": "TERRAVET",
-          "stock": 41
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
       "code": "ЗС000477",
       "price": 564,
       "old_price": null,
       "availability": true,
-      "stock": 39,
+      "stock": 38,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 39
+          "stock": 38
         }
       ],
       "warranty_type": "no",
@@ -32431,11 +32431,11 @@
       "price": 544,
       "old_price": null,
       "availability": true,
-      "stock": 50,
+      "stock": 49,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 50
+          "stock": 49
         }
       ],
       "warranty_type": "no",
