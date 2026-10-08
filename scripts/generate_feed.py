@@ -17,6 +17,8 @@ DEFAULT_WAREHOUSE_ID = "SUPPLIER"
 OWN_STOCK_STATE_FILE = "public/own-stock-state.json"
 MIN_PRICE = 300
 DISCONTINUED_SKUS = {"017954"}
+# Confirmed unavailable; only restore after the supplier confirms stock.
+FORCE_ZERO_SKUS = {"5578"}  # happyOne Insect Protein 10 kg, Darwin
 
 
 def is_modes_bowl(offer):
@@ -307,6 +309,9 @@ def build_offer(offer, stock_by_sku, own_stock):
         stock = 0
         warehouse_id = DEFAULT_WAREHOUSE_ID
         days_to_dispatch = get_days_to_dispatch()
+
+    if normalized_code in FORCE_ZERO_SKUS:
+        stock = 0
 
     available = stock > 0
 

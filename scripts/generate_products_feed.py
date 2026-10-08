@@ -1,7 +1,7 @@
 import os
 import requests
 from lxml import etree
-from generate_feed import DISCONTINUED_SKUS
+from generate_feed import DISCONTINUED_SKUS, FORCE_ZERO_SKUS
 from normalize_feed_prices import normalize_feed_prices
 
 
@@ -59,6 +59,9 @@ def main():
         if vendor_code.strip() == "NPS24432" or vendor_code.strip() in DISCONTINUED_SKUS:
             offer.getparent().remove(offer)
             continue
+
+        if vendor_code.strip() in FORCE_ZERO_SKUS:
+            offer.set("available", "false")
 
         old_code = offer.find("code")
 

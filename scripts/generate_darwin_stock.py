@@ -4,6 +4,7 @@ from datetime import timedelta
 
 from lxml import etree
 
+from generate_feed import FORCE_ZERO_SKUS
 from generate_home_food_stock import (
     CATALOG_XML_URL,
     PRODUCT_UPDATE_URL,
@@ -152,9 +153,14 @@ def main():
 
         published_stock[sku] = (
             AVAILABLE_STOCK
-            if offer.get("available") == "true"
+            if offer.get("available") == "true" and sku not in FORCE_ZERO_SKUS
             else 0
         )
+
+    # Clear confirmed unavailable products in SalesDrive even if the site
+    # has stopped exporting their cards.
+    for sku in FORCE_ZERO_SKUS:
+        published_stock[sku] = 0
 
     if len(published_stock) < 100:
         raise RuntimeError(

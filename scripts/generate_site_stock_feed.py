@@ -6,7 +6,7 @@ from zoneinfo import ZoneInfo
 from lxml import etree
 
 from generate_home_food_stock import download
-from generate_feed import is_modes_bowl
+from generate_feed import FORCE_ZERO_SKUS, is_modes_bowl
 from normalize_feed_prices import normalize_price
 
 
@@ -152,7 +152,10 @@ def build_feed(catalog_root, own_stock, supplier_stock, retail_prices=None):
         if is_modes_bowl(source_offer):
             continue
 
-        if vendor in FORCE_ZERO_BRANDS:
+        if sku in FORCE_ZERO_SKUS:
+            # A stale catalog or stock state must not restore this product.
+            quantity, source = 0, "none"
+        elif vendor in FORCE_ZERO_BRANDS:
             # З RAFI більше не працюємо. Товар залишається прихованим у
             # Horoshop, а фід додатково не дозволить повернути наявність.
             quantity, source = 0, "none"
