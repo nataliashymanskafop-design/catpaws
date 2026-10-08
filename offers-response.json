@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T00:51:15Z",
+  "updatedAt": "2026-10-08T07:10:20Z",
   "total": 1691,
   "data": [
     {
@@ -11879,11 +11879,11 @@
       "price": 606,
       "old_price": 758,
       "availability": true,
-      "stock": 9,
+      "stock": 6,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 9
+          "stock": 6
         }
       ],
       "warranty_type": "no",
@@ -28511,11 +28511,11 @@
       "price": 535,
       "old_price": null,
       "availability": true,
-      "stock": 15,
+      "stock": 14,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 15
+          "stock": 14
         }
       ],
       "warranty_type": "no",
@@ -39794,12 +39794,12 @@
       "code": "4654 NVSHERB10000",
       "price": 4990,
       "old_price": 5871,
-      "availability": true,
-      "stock": 1,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 0
         }
       ],
       "warranty_type": "no",
