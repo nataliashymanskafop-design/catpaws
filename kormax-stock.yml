@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-10-08 10:09">
+<yml_catalog date="2026-10-08 17:48">
   <shop>
     <name>CatPaws Kormax stock</name>
     <company>CatPaws</company>
@@ -713,14 +713,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="KIKNPSC47271" available="false">
+      <offer id="KIKNPSC47271" available="true">
         <name>Беззернові ласощі для дорослих собак всіх порід з рудим окрасом шерсті Nature's Protection Superior Care Red Coat Hypoallergenic Oral Care з лососем, 150г</name>
         <vendorCode>KIKNPSC47271</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="KIKNPSC47272" available="false">
         <name>Беззернові ласощі для дорослих собак всіх порід з рудим окрасом шерсті Nature's Protection Superior Care Red Coat Hypoallergenic &amp; Intestinal Care з лососем, 150г</name>
@@ -1078,8 +1078,8 @@
         <vendorCode>NPB46039</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>10</quantity_in_stock>
-        <stock>10</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPB46041" available="true">
@@ -2509,8 +2509,8 @@
         <vendorCode>NPSC47234</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPSC47235" available="true">
@@ -2644,8 +2644,8 @@
         <vendorCode>NPSC47597</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPSC47598" available="false">
@@ -2734,8 +2734,8 @@
         <vendorCode>NPSC47633</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>10</quantity_in_stock>
-        <stock>10</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPSC47634" available="true">
@@ -2882,23 +2882,23 @@
         <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPSC70465-K2" available="true">
+      <offer id="NPSC70465-K2" available="false">
         <name>Вологий корм для собак з білим забарвленням з білою рибою і крилем, 85 г Nature's Protection Superior Care White Dogs Grain Free Adult All White Fish and Krill 85 г</name>
         <vendorCode>NPSC70465-K2</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>28</quantity_in_stock>
-        <stock>28</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
-      <offer id="NPSC70465-K2-12" available="true">
+      <offer id="NPSC70465-K2-12" available="false">
         <name>Вологий корм для собак з білим забарвленням з білою рибою і крилем, 85 г Nature's Protection Superior Care White Dogs Grain Free Adult All White Fish and Krill 85 г * 12 шт</name>
         <vendorCode>NPSC70465-K2-12</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="NPSC70466-K2" available="true">
         <name>Вологий корм для собак з рудим забарвленням з лососем і крилем, 85 г Nature's Protection Superior Care Red Coat Grain Free Adult Salmon and Krill 85 г</name>
@@ -2923,8 +2923,8 @@
         <vendorCode>NPSCVET47576</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPSCVET47577" available="true">
@@ -3710,14 +3710,14 @@
         <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="TPL63690" available="true">
+      <offer id="TPL63690" available="false">
         <name>Рушник для домашніх тварин з мікрофібри Tauro Pro Line, м’ятний, 80×120 см</name>
         <vendorCode>TPL63690</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="TPL63739" available="true">
         <name>М'який шампунь для цуценят Tauro Pro Line Pure Nature Delicate Puppy, 400 ml</name>
