@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-10-09 10:51">
+<yml_catalog date="2026-10-09 18:06">
   <shop>
     <name>CatPaws Kormax stock</name>
     <company>CatPaws</company>
@@ -1073,14 +1073,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPB46039" available="true">
+      <offer id="NPB46039" available="false">
         <name>Сухий корм для дорослих собак всіх порід з лососем Extra Salmon Adult All Breeds 18кг</name>
         <vendorCode>NPB46039</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="NPB46041" available="true">
         <name>Сухий корм для цуценят всіх порід Junior All Breeds 18кг</name>
@@ -1114,8 +1114,8 @@
         <vendorCode>NPB46047</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>10</quantity_in_stock>
-        <stock>10</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPB46050" available="true">
@@ -1663,8 +1663,8 @@
         <vendorCode>NPS45727</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>10</quantity_in_stock>
-        <stock>10</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPS45728" available="true">
@@ -2509,8 +2509,8 @@
         <vendorCode>NPSC47234</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>10</quantity_in_stock>
-        <stock>10</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPSC47235" available="true">
@@ -2545,8 +2545,8 @@
         <vendorCode>NPSC47300</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>10</quantity_in_stock>
-        <stock>10</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPSC47439" available="true">
@@ -2995,8 +2995,8 @@
         <vendorCode>SNK46096</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="SNK46102" available="true">
@@ -3454,8 +3454,8 @@
         <vendorCode>TPL63592</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>10</quantity_in_stock>
-        <stock>10</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="TPL63593" available="true">
@@ -3539,14 +3539,14 @@
         <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="TPL63604" available="true">
+      <offer id="TPL63604" available="false">
         <name>Маска відновлення та живлення для шкіри та шерсті собак і котів TAURO PRO LINE Ultra Natural Care Repair and Nourish Mask, 400 мл</name>
         <vendorCode>TPL63604</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="TPL63606" available="true">
         <name>Кератиновий шампунь для шерсті собак та котів TAURO PRO LINE Ultra Natural Care Keratin &amp; Gloss Shampoo, 400 мл</name>
@@ -3733,8 +3733,8 @@
         <vendorCode>TPL63740</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="TPL63790" available="true">
