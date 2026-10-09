@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-10-09 04:03">
+<yml_catalog date="2026-10-09 10:51">
   <shop>
     <name>CatPaws HOME FOOD stock</name>
     <company>CatPaws</company>
@@ -142,8 +142,8 @@
         <vendorCode>1017007</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>18</quantity_in_stock>
-        <stock>18</stock>
+        <quantity_in_stock>17</quantity_in_stock>
+        <stock>17</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="1017008" available="false">
@@ -484,8 +484,8 @@
         <vendorCode>1357102</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>19</quantity_in_stock>
+        <stock>19</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="1357110" available="true">
@@ -655,8 +655,8 @@
         <vendorCode>3005010</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>19</quantity_in_stock>
+        <stock>19</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="3006010" available="true">
@@ -709,8 +709,8 @@
         <vendorCode>3017016</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>15</quantity_in_stock>
-        <stock>15</stock>
+        <quantity_in_stock>14</quantity_in_stock>
+        <stock>14</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="3017044" available="true">
@@ -1564,8 +1564,8 @@
         <vendorCode>7010048</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>21</quantity_in_stock>
-        <stock>21</stock>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7010050" available="true">
