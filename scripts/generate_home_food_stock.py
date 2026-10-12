@@ -37,6 +37,7 @@ BUNDLE_RESERVE = 1
 # Р¦С– С‚РѕРІР°СЂРё С‚РёРјС‡Р°СЃРѕРІРѕ РІС–РґСЃСѓС‚РЅС–.
 FORCE_ZERO_SKUS = {
     "7000008",  # Temporarily unavailable; do not replenish automatically.
+    "1021008",  # Confirmed unavailable on 2026-10-12.
     "3108016",
     "1057016",
     "1013008",
