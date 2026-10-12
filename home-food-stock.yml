@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-10-12 04:36">
+<yml_catalog date="2026-10-12 08:48">
   <shop>
     <name>CatPaws HOME FOOD stock</name>
     <company>CatPaws</company>
@@ -200,14 +200,14 @@
         <stock>11</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="1021008" available="true">
+      <offer id="1021008" available="false">
         <name>Ласощі для собак HOME FOOD Пеніс яловичий For DOG 80 г</name>
         <vendorCode>1021008</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="1022008" available="false">
         <name>Ласощі для собак HOME FOOD Печінка яловича For DOG 80 г</name>
@@ -1348,8 +1348,8 @@
         <vendorCode>7010025</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>60</quantity_in_stock>
-        <stock>60</stock>
+        <quantity_in_stock>36</quantity_in_stock>
+        <stock>36</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7010025_box" available="true">
@@ -1357,8 +1357,8 @@
         <vendorCode>7010025_box</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
+        <quantity_in_stock>3</quantity_in_stock>
+        <stock>3</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7010026" available="true">
