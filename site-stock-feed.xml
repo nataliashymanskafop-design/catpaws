@@ -1694,9 +1694,9 @@
         <vendorCode>1013008</vendorCode>
         <quantity_in_stock>0</quantity_in_stock>
       </offer>
-      <offer id="2107" available="true">
+      <offer id="2107" available="false">
         <vendorCode>1021008</vendorCode>
-        <quantity_in_stock>20</quantity_in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
       </offer>
       <offer id="2109" available="false">
         <vendorCode>1019004</vendorCode>
