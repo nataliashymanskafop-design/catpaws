@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-10-12 18:32">
+<yml_catalog date="2026-10-12 21:47">
   <shop>
     <offers>
       <offer id="515" available="true">
@@ -20,7 +20,7 @@
       </offer>
       <offer id="532" available="true">
         <vendorCode>1038100</vendorCode>
-        <quantity_in_stock>20</quantity_in_stock>
+        <quantity_in_stock>4</quantity_in_stock>
       </offer>
       <offer id="544" available="true">
         <vendorCode>3038100</vendorCode>
@@ -36,7 +36,7 @@
       </offer>
       <offer id="570" available="true">
         <vendorCode>2028100</vendorCode>
-        <quantity_in_stock>19</quantity_in_stock>
+        <quantity_in_stock>20</quantity_in_stock>
       </offer>
       <offer id="574" available="true">
         <vendorCode>3118004</vendorCode>
@@ -72,7 +72,7 @@
       </offer>
       <offer id="717" available="true">
         <vendorCode>1127016</vendorCode>
-        <quantity_in_stock>17</quantity_in_stock>
+        <quantity_in_stock>16</quantity_in_stock>
       </offer>
       <offer id="718" available="true">
         <vendorCode>1027100</vendorCode>
@@ -152,7 +152,7 @@
       </offer>
       <offer id="744" available="true">
         <vendorCode>3088100</vendorCode>
-        <quantity_in_stock>20</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
       </offer>
       <offer id="745" available="true">
         <vendorCode>3118016</vendorCode>
@@ -896,7 +896,7 @@
       </offer>
       <offer id="1675" available="true">
         <vendorCode>1011010</vendorCode>
-        <quantity_in_stock>20</quantity_in_stock>
+        <quantity_in_stock>19</quantity_in_stock>
       </offer>
       <offer id="1677" available="true">
         <vendorCode>1007010</vendorCode>
@@ -920,7 +920,7 @@
       </offer>
       <offer id="1687" available="true">
         <vendorCode>1004010</vendorCode>
-        <quantity_in_stock>20</quantity_in_stock>
+        <quantity_in_stock>19</quantity_in_stock>
       </offer>
       <offer id="1689" available="true">
         <vendorCode>1003010</vendorCode>
@@ -1636,7 +1636,7 @@
       </offer>
       <offer id="2474" available="true">
         <vendorCode>3005010</vendorCode>
-        <quantity_in_stock>19</quantity_in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
       </offer>
       <offer id="2476" available="true">
         <vendorCode>3017044</vendorCode>
@@ -2004,7 +2004,7 @@
       </offer>
       <offer id="3010" available="true">
         <vendorCode>7000012</vendorCode>
-        <quantity_in_stock>5</quantity_in_stock>
+        <quantity_in_stock>9</quantity_in_stock>
       </offer>
       <offer id="3030" available="true">
         <vendorCode>06040</vendorCode>
@@ -2340,7 +2340,7 @@
       </offer>
       <offer id="3165" available="true">
         <vendorCode>5208</vendorCode>
-        <quantity_in_stock>2</quantity_in_stock>
+        <quantity_in_stock>5</quantity_in_stock>
       </offer>
       <offer id="3166" available="true">
         <vendorCode>5209</vendorCode>
@@ -2512,7 +2512,7 @@
       </offer>
       <offer id="3309" available="true">
         <vendorCode>ЗС000352</vendorCode>
-        <quantity_in_stock>50</quantity_in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
       </offer>
       <offer id="3310" available="true">
         <vendorCode>ЗС000415</vendorCode>
@@ -2968,7 +2968,7 @@
       </offer>
       <offer id="3520" available="true">
         <vendorCode>ЗС000419</vendorCode>
-        <quantity_in_stock>50</quantity_in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
       </offer>
       <offer id="3521" available="true">
         <vendorCode>1357112</vendorCode>
@@ -4200,7 +4200,7 @@
       </offer>
       <offer id="4151" available="true">
         <vendorCode>ЗС000429</vendorCode>
-        <quantity_in_stock>50</quantity_in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
       </offer>
       <offer id="4230" available="true">
         <vendorCode>ЗС000459</vendorCode>
@@ -4256,7 +4256,7 @@
       </offer>
       <offer id="4339" available="true">
         <vendorCode>ЗС000434</vendorCode>
-        <quantity_in_stock>13</quantity_in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
       </offer>
       <offer id="4340" available="true">
         <vendorCode>ЗС000435</vendorCode>
@@ -5982,7 +5982,7 @@
       </offer>
       <offer id="5237" available="true">
         <vendorCode>ЗС000480</vendorCode>
-        <quantity_in_stock>50</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
       </offer>
       <offer id="5238" available="true">
         <vendorCode>ЗС000481</vendorCode>
@@ -6175,6 +6175,10 @@
       <offer id="2981" available="false">
         <vendorCode>ЗС000359</vendorCode>
         <quantity_in_stock>0</quantity_in_stock>
+      </offer>
+      <offer id="2995" available="true">
+        <vendorCode>ЗС000338</vendorCode>
+        <quantity_in_stock>2</quantity_in_stock>
       </offer>
       <offer id="3024" available="false">
         <vendorCode>05539</vendorCode>
