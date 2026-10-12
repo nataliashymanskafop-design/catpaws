@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T05:49:44Z",
+  "updatedAt": "2026-10-12T08:54:02Z",
   "total": 1693,
   "data": [
     {
@@ -6026,12 +6026,12 @@
       "code": "TPL63589",
       "price": 885,
       "old_price": null,
-      "availability": true,
-      "stock": 10,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 10
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -6082,12 +6082,12 @@
       "code": "TPL63592",
       "price": 919,
       "old_price": null,
-      "availability": true,
-      "stock": 5,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 5
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -8939,11 +8939,11 @@
       "price": 606,
       "old_price": 758,
       "availability": true,
-      "stock": 20,
+      "stock": 19,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 20
+          "stock": 19
         }
       ],
       "warranty_type": "no",
@@ -9863,11 +9863,11 @@
       "price": 591,
       "old_price": null,
       "availability": true,
-      "stock": 18,
+      "stock": 5,
       "warehouses": [
         {
-          "id": "HOME_FOOD",
-          "stock": 18
+          "id": "SUPPLIER",
+          "stock": 5
         }
       ],
       "warranty_type": "no",
@@ -15491,11 +15491,11 @@
       "price": 346,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -15659,11 +15659,11 @@
       "price": 1169,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -15827,11 +15827,11 @@
       "price": 346,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -15855,11 +15855,11 @@
       "price": 346,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -16023,11 +16023,11 @@
       "price": 4972,
       "old_price": null,
       "availability": true,
-      "stock": 2,
+      "stock": 1,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 2
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -17143,11 +17143,11 @@
       "price": 521,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -17619,11 +17619,11 @@
       "price": 479,
       "old_price": null,
       "availability": true,
-      "stock": 15,
+      "stock": 14,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 15
+          "stock": 14
         }
       ],
       "warranty_type": "no",
@@ -17647,11 +17647,11 @@
       "price": 622,
       "old_price": null,
       "availability": true,
-      "stock": 5,
+      "stock": 3,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 5
+          "stock": 3
         }
       ],
       "warranty_type": "no",
@@ -17731,11 +17731,11 @@
       "price": 412,
       "old_price": null,
       "availability": true,
-      "stock": 29,
+      "stock": 28,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 29
+          "stock": 28
         }
       ],
       "warranty_type": "no",
@@ -19971,11 +19971,11 @@
       "price": 516,
       "old_price": null,
       "availability": true,
-      "stock": 35,
+      "stock": 33,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 35
+          "stock": 33
         }
       ],
       "warranty_type": "no",
@@ -22098,12 +22098,12 @@
       "code": "H2SH1AL0300NOKNN",
       "price": 1069,
       "old_price": null,
-      "availability": true,
-      "stock": 1,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -33634,12 +33634,12 @@
       "code": "025674",
       "price": 346,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -33662,12 +33662,12 @@
       "code": "024645",
       "price": 5262,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 1,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -33690,12 +33690,12 @@
       "code": "057050",
       "price": 4202,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 1,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -33802,12 +33802,12 @@
       "code": "043490",
       "price": 2808,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 1,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -45226,12 +45226,12 @@
       "code": "H1SH2VL1500HYKNN",
       "price": 2977,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 1,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 1
         }
       ],
       "warranty_type": "no",

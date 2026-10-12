@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-10-12 08:48">
+<yml_catalog date="2026-10-12 11:52">
   <shop>
     <name>CatPaws Kormax stock</name>
     <company>CatPaws</company>
@@ -3431,14 +3431,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="TPL63589" available="true">
+      <offer id="TPL63589" available="false">
         <name>Шампунь для глибокого очищення шкіри та шерсті собак і котів TAURO PRO LINE Ultra Natural Care Deep Clean Shampoo, 400 мл</name>
         <vendorCode>TPL63589</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>10</quantity_in_stock>
-        <stock>10</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="TPL63590" available="true">
         <name>Шампунь для глибокого очищення шкіри та шерсті собак і котів TAURO PRO LINE Ultra Natural Care Deep Clean Shampoo, 1000 мл</name>
@@ -3449,14 +3449,14 @@
         <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="TPL63592" available="true">
+      <offer id="TPL63592" available="false">
         <name>Інтенсивно зволожуючий шампунь для шерсті та шкіри собак та котів TAURO PRO LINE Ultra Natural Care Intense Hydrate Shampoo, 400 мл</name>
         <vendorCode>TPL63592</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="TPL63593" available="true">
         <name>Інтенсивно зволожуючий шампунь для шерсті та шкіри собак та котів TAURO PRO LINE Ultra Natural Care Intense Hydrate Shampoo, 1000 мл</name>
