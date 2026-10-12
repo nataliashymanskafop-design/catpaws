@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-10-12 13:02">
+<yml_catalog date="2026-10-12 18:30">
   <shop>
     <name>CatPaws DOMS stock</name>
     <company>CatPaws</company>
@@ -704,14 +704,14 @@
         <stock>17</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="244215" available="false">
+      <offer id="244215" available="true">
         <name>Комкуючий бентонітовий наповнювач для котячого туалету Clear Cat Blanco з Активованим вугіллям 10 л</name>
         <vendorCode>244215</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="378003" available="true">
         <name>Сухий корм Homie Premium з куркою для дорослих котів, 15 кг</name>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-10-12 13:02">
+<yml_catalog date="2026-10-12 18:30">
   <shop>
     <name>CatPaws Kormax stock</name>
     <company>CatPaws</company>
@@ -754,8 +754,8 @@
         <vendorCode>KIKNPSC47652</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="KIKNPSC47653" available="true">
@@ -1348,8 +1348,8 @@
         <vendorCode>NPLS45953</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPLS45954" available="true">
@@ -1636,8 +1636,8 @@
         <vendorCode>NPS45724</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPS45725" available="true">
@@ -1978,8 +1978,8 @@
         <vendorCode>NPS45763</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPS45764" available="true">
@@ -2158,8 +2158,8 @@
         <vendorCode>NPS45783</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>10</quantity_in_stock>
-        <stock>10</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPS45784" available="true">
@@ -2419,8 +2419,8 @@
         <vendorCode>NPSC45997</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPSC46338" available="true">
@@ -2540,14 +2540,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPSC47300" available="true">
+      <offer id="NPSC47300" available="false">
         <name>Сухий беззерновий корм для дорослих собак малих порід з білою шерстю Superior Care White Dogs Grain Free with Insect Adult Small Breeds 10кг</name>
         <vendorCode>NPSC47300</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="NPSC47439" available="true">
         <name>Сухий беззерновий корм з оселедцем для дорослих собак малих порід Superior Care White Dogs Grain Free with Herring Adult Small Breeds 1.5кг</name>
@@ -2675,14 +2675,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPSC47601" available="true">
+      <offer id="NPSC47601" available="false">
         <name>Сухий беззерновий корм для собак усіх розмірів і стадій життя з протеїном комах, 10 кг Nature's Protection Superior Care White Dogs Grain Free Insect All Sizes&amp;Life Stages</name>
         <vendorCode>NPSC47601</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="NPSC47622" available="true">
         <name>Сухий корм для дорослих собак усіх порід з чорним забарвленням шерсті, 1,5 кг Nature's Protection Superior Care Dark Coat Grain Free Adult All Breeds</name>
@@ -2765,14 +2765,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPSC47646" available="true">
+      <offer id="NPSC47646" available="false">
         <name>Сухий беззерновий корм для юніорів усіх розмірів з білою рибою, 17 кг Nature's Protection Superior Care White Dogs Grain Free White Fish Junior All Sizes</name>
         <vendorCode>NPSC47646</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="NPSC47647" available="false">
         <name>Сухий беззерновий корм для собак усіх розмірів і стадій життя з протеїном комах, 17 кг Nature's Protection Superior Care White Dogs Grain Free Insect All Sizes&amp;Life Stages</name>
@@ -2916,15 +2916,6 @@
         <categoryId>1</categoryId>
         <quantity_in_stock>40</quantity_in_stock>
         <stock>40</stock>
-        <in_stock>1</in_stock>
-      </offer>
-      <offer id="NPSCVET47576" available="true">
-        <name>Ветеринарний дієтичний корм для собак при захворюванннях шлунково-кишкового тракту NP Superior Care Veterinary Diet Gastrointestinal White Fish Adult All Breed Dogs з білою рибою, 1,5кг</name>
-        <vendorCode>NPSCVET47576</vendorCode>
-        <currencyId>UAH</currencyId>
-        <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPSCVET47577" available="true">
@@ -3535,8 +3526,8 @@
         <vendorCode>TPL63602</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>10</quantity_in_stock>
-        <stock>10</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="TPL63604" available="false">
