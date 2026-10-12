@@ -95,6 +95,9 @@ def load_supplier_stock():
 
         for sku, quantity in source_stock.items():
             if sku in combined:
+                # Blocked products are forced to zero when building the feed.
+                if sku in FORCE_ZERO_SKUS:
+                    continue
                 raise RuntimeError(
                     f"SKU {sku} occurs in more than one supplier state"
                 )

@@ -197,6 +197,9 @@ def load_stock_sources(previous_feed):
                 continue
 
             if normalized_sku in stock_by_sku:
+                # Blocked products stay unavailable even in stale duplicate states.
+                if normalized_sku in FORCE_ZERO_SKUS:
+                    continue
                 previous = stock_by_sku[normalized_sku]
                 allowed_overrides = source.get(
                     "overrides_warehouses",
