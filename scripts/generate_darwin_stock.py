@@ -160,7 +160,9 @@ def main():
     # Clear confirmed unavailable products in SalesDrive even if the site
     # has stopped exporting their cards.
     for sku in FORCE_ZERO_SKUS:
-        published_stock[sku] = 0
+        # Keep unavailable HOME FOOD and other supplier SKUs out of Darwin.
+        if sku == "5578" or sku in published_stock:
+            published_stock[sku] = 0
 
     if len(published_stock) < 100:
         raise RuntimeError(
