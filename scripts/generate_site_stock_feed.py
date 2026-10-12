@@ -1,5 +1,6 @@
 import json
 import os
+from collections import Counter
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
@@ -120,9 +121,9 @@ def resolve_quantity(sku, own_stock, supplier_stock):
     if sku in supplier_stock:
         return supplier_stock[sku], "supplier"
 
-    # Товар, якого немає ані на власному, ані на підключених складах,
-    # не повинен випадково залишитися доступним на сайті.
-    return 0, "none"
+    # Відсутність джерела залишків не означає відсутність товару.
+    # Не змінюємо ручну наявність на сайті; Mono має окремі правила.
+    return None, "none"
 
 
 def build_feed(catalog_root, own_stock, supplier_stock, retail_prices=None):
@@ -139,17 +140,23 @@ def build_feed(catalog_root, own_stock, supplier_stock, retail_prices=None):
     seen_skus = set()
     source_counts = {"SUPPLIER": 0, "supplier": 0, "none": 0}
 
-    for source_offer in catalog_root.xpath(".//offer"):
+    catalog_offers = catalog_root.xpath(".//offer")
+    sku_counts = Counter(clean(item.findtext("vendorCode")) for item in catalog_offers)
+    duplicate_skus = {sku for sku, count in sku_counts.items() if sku and count > 1}
+    if duplicate_skus:
+        print(f"Ambiguous duplicate SKUs omitted from site update: {sorted(duplicate_skus)}")
+
+    for source_offer in catalog_offers:
         sku = clean(source_offer.findtext("vendorCode"))
         vendor = clean(source_offer.findtext("vendor")).casefold()
 
         if not sku:
             continue
 
-        if sku in seen_skus:
-            raise RuntimeError(f"Duplicate SKU in site catalog: {sku}")
-
         seen_skus.add(sku)
+        # Never select an arbitrary card when several IDs share the same SKU.
+        if sku in duplicate_skus:
+            continue
         # Site-only MODES bowls keep the manually selected inquiry status.
         # No stock/availability row may overwrite it during a site import.
         if is_modes_bowl(source_offer):
@@ -169,6 +176,9 @@ def build_feed(catalog_root, own_stock, supplier_stock, retail_prices=None):
                 supplier_stock,
             )
         source_counts[source] += 1
+        if quantity is None:
+            # Omit the entire row so Horoshop preserves its existing status.
+            continue
 
         offer = etree.SubElement(
             offers,
