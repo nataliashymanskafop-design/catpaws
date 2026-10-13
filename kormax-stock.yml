@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-10-13 11:15">
+<yml_catalog date="2026-10-13 19:18">
   <shop>
     <name>CatPaws Kormax stock</name>
     <company>CatPaws</company>
@@ -1109,14 +1109,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPB46047" available="true">
+      <offer id="NPB46047" available="false">
         <name>Сухий корм для дорослих собак всіх порід від 7 років Senior All Breeds 18кг</name>
         <vendorCode>NPB46047</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="NPB46050" available="true">
         <name>Сухий корм для кошенят великих порід Nature's Protection Large cat Kitten 18кг</name>
@@ -1636,8 +1636,8 @@
         <vendorCode>NPS45724</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>10</quantity_in_stock>
-        <stock>10</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPS45725" available="true">
@@ -1973,14 +1973,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPS45763" available="true">
+      <offer id="NPS45763" available="false">
         <name>Сухий корм для дорослих котів мешкаючих у будинку Nature's Protection Indoor 400г</name>
         <vendorCode>NPS45763</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>10</quantity_in_stock>
-        <stock>10</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="NPS45764" available="true">
         <name>Сухий корм для дорослих котів мешкаючих у будинку Nature's Protection Indoor 2кг</name>
@@ -2261,14 +2261,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPSC45672" available="true">
+      <offer id="NPSC45672" available="false">
         <name>Сухий беззерновий корм для цуценят всіх порід з білим забарвленням шерсті Superior Care White Dogs Grain Free Junior All Breeds 10кг</name>
         <vendorCode>NPSC45672</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="NPSC45792" available="true">
         <name>Сухий корм для дорослих собак усіх порід із чутливим травленням з ягням, 1,5 кг Nature's Protection Superior Care Sensitive Skin&amp;Stomach Adult All Breeds</name>
@@ -2419,8 +2419,8 @@
         <vendorCode>NPSC45997</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>10</quantity_in_stock>
-        <stock>10</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPSC46338" available="true">
@@ -2446,8 +2446,8 @@
         <vendorCode>NPSC46340</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>10</quantity_in_stock>
-        <stock>10</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPSC47228" available="true">
@@ -2806,8 +2806,8 @@
         <vendorCode>NPSC47781</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>10</quantity_in_stock>
-        <stock>10</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPSC47909" available="false">
@@ -3355,8 +3355,8 @@
         <vendorCode>TPL63580</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="TPL63582" available="true">
