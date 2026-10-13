@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-10-13 19:19">
+<yml_catalog date="2026-10-14 00:27">
   <shop>
     <offers>
       <offer id="515" available="true">
@@ -140,7 +140,7 @@
       </offer>
       <offer id="740" available="true">
         <vendorCode>3048016</vendorCode>
-        <quantity_in_stock>2</quantity_in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
       </offer>
       <offer id="741" available="true">
         <vendorCode>3048100</vendorCode>
@@ -1076,7 +1076,7 @@
       </offer>
       <offer id="1767" available="true">
         <vendorCode>KIK45087</vendorCode>
-        <quantity_in_stock>40</quantity_in_stock>
+        <quantity_in_stock>10</quantity_in_stock>
       </offer>
       <offer id="1768" available="true">
         <vendorCode>KIK45088</vendorCode>
@@ -4076,7 +4076,7 @@
       </offer>
       <offer id="4094" available="true">
         <vendorCode>740197 - 1329</vendorCode>
-        <quantity_in_stock>3</quantity_in_stock>
+        <quantity_in_stock>4</quantity_in_stock>
         <price>1483.44</price>
         <currencyId>UAH</currencyId>
       </offer>
