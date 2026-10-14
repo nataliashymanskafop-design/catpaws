@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-10-14 19:52">
+<yml_catalog date="2026-10-14 23:32">
   <shop>
     <offers>
       <offer id="1018100" available="true">
@@ -732,7 +732,7 @@
       </offer>
       <offer id="NPSC45996" available="true">
         <vendorCode>NPSC45996</vendorCode>
-        <quantity_in_stock>20</quantity_in_stock>
+        <quantity_in_stock>10</quantity_in_stock>
       </offer>
       <offer id="NPSC47229" available="true">
         <vendorCode>NPSC47229</vendorCode>
@@ -1336,7 +1336,7 @@
       </offer>
       <offer id="NPS45731" available="true">
         <vendorCode>NPS45731</vendorCode>
-        <quantity_in_stock>10</quantity_in_stock>
+        <quantity_in_stock>5</quantity_in_stock>
       </offer>
       <offer id="NPS45732" available="true">
         <vendorCode>NPS45732</vendorCode>
@@ -1970,7 +1970,7 @@
       </offer>
       <offer id="NPSC47630" available="true">
         <vendorCode>NPSC47630</vendorCode>
-        <quantity_in_stock>20</quantity_in_stock>
+        <quantity_in_stock>10</quantity_in_stock>
       </offer>
       <offer id="NPSC47633" available="true">
         <vendorCode>NPSC47633</vendorCode>
