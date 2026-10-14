@@ -54,6 +54,14 @@ class SyncTests(unittest.TestCase):
     def test_spaces_in_price(self):
         self.assertEqual(sync.parse_price('1\u00a0278,48'), 1278.48)
 
+    def test_stale_source_is_rejected(self):
+        for stamp in ('2000-01-01 00:00', None, 'bad'):
+            root = etree.Element('yml_catalog')
+            if stamp:
+                root.set('date', stamp)
+            with self.assertRaises(RuntimeError):
+                sync.validate_source_freshness(root)
+
     def test_discontinued_and_rafi(self):
         for sku, rafi in [('GONE', set()), ('FORCE', set()), ('RAFI', {'RAFI'})]:
             self.assertEqual(self.build(self.offer(), sku, rafi),
@@ -75,6 +83,13 @@ class SyncTests(unittest.TestCase):
         self.assertEqual(sync.state_mismatches(item,
                          {'price': 630, 'presence': 'available',
                           'discount': {'type': 'amount', 'value': 126}}), ['discount'])
+
+    def test_expired_or_future_promotion_is_not_matching(self):
+        item = {'price': 504, 'oldprice': 630}
+        for dates in ({'date_end': '01.01.2000'}, {'date_start': '01.01.2099'}):
+            discount = {'type': 'amount', 'value': 126, **dates}
+            self.assertEqual(sync.state_mismatches(item, {'price': 630, 'discount': discount}),
+                             ['discount dates'])
 
     def test_wrong_availability_detected(self):
         self.assertEqual(sync.state_mismatches({'presence': 'not_available'},
