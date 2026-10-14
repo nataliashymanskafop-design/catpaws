@@ -186,7 +186,8 @@ def build_feed(catalog_root, own_stock, supplier_stock, retail_prices=None):
             id=clean(source_offer.get("id")) or sku,
             available="true" if quantity > 0 else "false",
         )
-        etree.SubElement(offer, "vendorCode").text = sku
+        # Horoshop matches the literal article: keep internal spaces from its catalog.
+        etree.SubElement(offer, "vendorCode").text = str(source_offer.findtext("vendorCode") or "").strip()
         etree.SubElement(offer, "quantity_in_stock").text = str(quantity)
         if sku in retail_prices:
             etree.SubElement(offer, "price").text = normalize_price(retail_prices[sku])
