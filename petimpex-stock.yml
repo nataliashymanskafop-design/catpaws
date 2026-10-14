@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-10-14 17:09">
+<yml_catalog date="2026-10-14 17:42">
   <shop>
     <name>CatPaws PETIMPEX stock</name>
     <company>CatPaws</company>
@@ -1595,9 +1595,9 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="082   ECO ADULT 20KG" available="false">
-        <name>082   ECO ADULT 20KG</name>
-        <vendorCode>082   ECO ADULT 20KG</vendorCode>
+      <offer id="082 ECO ADULT 20KG" available="false">
+        <name>082 ECO ADULT 20KG</name>
+        <vendorCode>082 ECO ADULT 20KG</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>0</quantity_in_stock>
@@ -1901,9 +1901,9 @@
         <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="105   ECO ACTY 20KG" available="false">
-        <name>105   ECO ACTY 20KG</name>
-        <vendorCode>105   ECO ACTY 20KG</vendorCode>
+      <offer id="105 ECO ACTY 20KG" available="false">
+        <name>105 ECO ACTY 20KG</name>
+        <vendorCode>105 ECO ACTY 20KG</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>0</quantity_in_stock>
@@ -1964,9 +1964,9 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="112   ECO PUP 20KG" available="false">
-        <name>112   ECO PUP 20KG</name>
-        <vendorCode>112   ECO PUP 20KG</vendorCode>
+      <offer id="112 ECO PUP 20KG" available="false">
+        <name>112 ECO PUP 20KG</name>
+        <vendorCode>112 ECO PUP 20KG</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>0</quantity_in_stock>
@@ -2045,9 +2045,9 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="129   ECO MIX 20KG" available="false">
-        <name>129   ECO MIX 20KG</name>
-        <vendorCode>129   ECO MIX 20KG</vendorCode>
+      <offer id="129 ECO MIX 20KG" available="false">
+        <name>129 ECO MIX 20KG</name>
+        <vendorCode>129 ECO MIX 20KG</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>0</quantity_in_stock>
@@ -2306,23 +2306,23 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="20070270    DELUXE" available="false">
-        <name>20070270    DELUXE</name>
-        <vendorCode>20070270    DELUXE</vendorCode>
+      <offer id="20070270 DELUXE" available="true">
+        <name>Вольєр для хом'яка BERNIE DELUXE, 53x38x26cm (2 шт в ящ) синій або сірий піддон</name>
+        <vendorCode>20070270 DELUXE</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
+        <in_stock>1</in_stock>
       </offer>
-      <offer id="20070370   PRESTIGE" available="false">
-        <name>20070370   PRESTIGE</name>
-        <vendorCode>20070370   PRESTIGE</vendorCode>
+      <offer id="20070370 PRESTIGE" available="true">
+        <name>Вольєр для хом'яка BERNIE PRESTIGE, 53x38x27cm (2 шт в ящ) синій або сірий піддон</name>
+        <vendorCode>20070370 PRESTIGE</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="204//6600626/KISS" available="true">
         <name>Гребінець IvSanBernard DERMOBRUSH,поцілунок</name>
@@ -2332,15 +2332,6 @@
         <quantity_in_stock>1</quantity_in_stock>
         <stock>1</stock>
         <in_stock>1</in_stock>
-      </offer>
-      <offer id="2117  LOZH0150" available="false">
-        <name>2117  LOZH0150</name>
-        <vendorCode>2117  LOZH0150</vendorCode>
-        <currencyId>UAH</currencyId>
-        <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
       </offer>
       <offer id="2117 LOZH0150" available="true">
         <name>Лосьйон Iv San Bernard Mineral H (кіт/собака), проти випадіння волосся, з плацентою, 150мл (12 шт/уп)</name>
@@ -2891,14 +2882,14 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="25100076   PORTOBELO" available="false">
-        <name>25100076   PORTOBELO</name>
-        <vendorCode>25100076   PORTOBELO</vendorCode>
+      <offer id="25100076 PORTOBELO" available="true">
+        <name>Переноска для гризунів PORTOBELLO, 30x23x21cm (6 шт в ящ) сіра або червона</name>
+        <vendorCode>25100076 PORTOBELO</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="26.5KDK.00289" available="true">
         <name>Бентонітовий наповнювач KOTIX натуральний білий, 5л</name>
@@ -7562,9 +7553,9 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="525    PUP 3KG" available="false">
-        <name>525    PUP 3KG</name>
-        <vendorCode>525    PUP 3KG</vendorCode>
+      <offer id="525 PUP 3KG" available="false">
+        <name>525 PUP 3KG</name>
+        <vendorCode>525 PUP 3KG</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>0</quantity_in_stock>
@@ -9200,54 +9191,54 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="95001     (401)" available="false">
-        <name>95001     (401)</name>
-        <vendorCode>95001     (401)</vendorCode>
+      <offer id="95001 (401)" available="true">
+        <name>Корм конс. NUEVO ADULT з олениною, брусницею та сафлоровою олією, для собак, 400г (6шт у пак.) *</name>
+        <vendorCode>95001 (401)</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="95004 (403)" available="false">
+        <name>Корм конс. NUEVO ADULT з яловичиною, для собак, 400г (6шт у пак.) *</name>
+        <vendorCode>95004 (403)</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>0</quantity_in_stock>
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="95004     (403)" available="false">
-        <name>95004     (403)</name>
-        <vendorCode>95004     (403)</vendorCode>
+      <offer id="95007 (405)" available="true">
+        <name>Корм конс. NUEVO ADULT з куркою, для собак, 400г (6шт у пак.)</name>
+        <vendorCode>95007 (405)</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
+        <in_stock>1</in_stock>
       </offer>
-      <offer id="95007     (405)" available="false">
-        <name>95007     (405)</name>
-        <vendorCode>95007     (405)</vendorCode>
+      <offer id="95010 (407)" available="true">
+        <name>Корм конс. NUEVO ADULT з ягням та картоплею, для собак, 400г (6шт у пак.) *</name>
+        <vendorCode>95010 (407)</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
+        <in_stock>1</in_stock>
       </offer>
-      <offer id="95010     (407)" available="false">
-        <name>95010     (407)</name>
-        <vendorCode>95010     (407)</vendorCode>
+      <offer id="95013 (409)" available="true">
+        <name>Корм конс. NUEVO JUNIOR з куркою, яловичиною та рисом + кальцій, для цуценят, 400г(6шт у пак.) *</name>
+        <vendorCode>95013 (409)</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
+        <in_stock>1</in_stock>
       </offer>
-      <offer id="95013     (409)" available="false">
-        <name>95013     (409)</name>
-        <vendorCode>95013     (409)</vendorCode>
-        <currencyId>UAH</currencyId>
-        <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
-      </offer>
-      <offer id="95016     (411)" available="false">
-        <name>95016     (411)</name>
-        <vendorCode>95016     (411)</vendorCode>
+      <offer id="95016 (411)" available="false">
+        <name>Корм конс. NUEVO SENIOR з ягням, яловичиною та вівсянкою, для дорослих собак, 400г (6шт у пак.) *</name>
+        <vendorCode>95016 (411)</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>0</quantity_in_stock>
@@ -9263,176 +9254,176 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="95101     (213)" available="false">
-        <name>95101     (213)</name>
-        <vendorCode>95101     (213)</vendorCode>
+      <offer id="95101 (213)" available="true">
+        <name>Корм конс. NUEVO ADULT з лососем, для котів, 200г (6шт у пак.)</name>
+        <vendorCode>95101 (213)</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="95104 (215)" available="true">
+        <name>Корм конс. NUEVO ADULT з куркою, для котів, 200г (6шт в пак.)</name>
+        <vendorCode>95104 (215)</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="95107 (217)" available="true">
+        <name>Корм конс. NUEVO ADULT з куркою та креветками, для котів, 200г (6шт в пак.)</name>
+        <vendorCode>95107 (217)</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="95110 (219)" available="true">
+        <name>Корм конс. NUEVO ADULT з яловичиною, для котів, 200г (6шт у пак.)</name>
+        <vendorCode>95110 (219)</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="95113 (221)" available="true">
+        <name>Корм конс. NUEVO KITTEN з куркою, рисом та жиром лосося, для кошенят, 200г (6шт у пак.)</name>
+        <vendorCode>95113 (221)</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="95116 (223)" available="true">
+        <name>Корм конс. NUEVO SENIOR з ягням та журавлиною, для дорослих котів, 200г (6шт у пак.)</name>
+        <vendorCode>95116 (223)</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="95151 (460)" available="false">
+        <name>Корм конс. NUEVO SENSITIVE з яловичиною, для собак з чутливим травленням, 400г (6шт у пак.) *</name>
+        <vendorCode>95151 (460)</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>0</quantity_in_stock>
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="95104     (215)" available="false">
-        <name>95104     (215)</name>
-        <vendorCode>95104     (215)</vendorCode>
+      <offer id="95154 (461)" available="true">
+        <name>Корм конс. NUEVO SENSITIVE з куркою, для собак з чутливим травленням, 400г (6шт у пак.) *</name>
+        <vendorCode>95154 (461)</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
+        <in_stock>1</in_stock>
       </offer>
-      <offer id="95107     (217)" available="false">
-        <name>95107     (217)</name>
-        <vendorCode>95107     (217)</vendorCode>
+      <offer id="95157 (462)" available="true">
+        <name>Корм конс. NUEVO SENSITIVE з рибою, для собак з чутливим травленням, 375 г (6шт у пак.) *</name>
+        <vendorCode>95157 (462)</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
+        <in_stock>1</in_stock>
       </offer>
-      <offer id="95110     (219)" available="false">
-        <name>95110     (219)</name>
-        <vendorCode>95110     (219)</vendorCode>
+      <offer id="95160 (463)" available="true">
+        <name>Корм конс. NUEVO SENSITIVE з ягням, для собак з чутливим травленням, 400г (6шт у пак.) *</name>
+        <vendorCode>95160 (463)</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
+        <in_stock>1</in_stock>
       </offer>
-      <offer id="95113     (221)" available="false">
-        <name>95113     (221)</name>
-        <vendorCode>95113     (221)</vendorCode>
+      <offer id="95200 (753)" available="true">
+        <name>Пауч NUEVO KITTEN для кошенят,птиця з рисом , 85 г (16шт упак.)</name>
+        <vendorCode>95200 (753)</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
+        <in_stock>1</in_stock>
       </offer>
-      <offer id="95116     (223)" available="false">
-        <name>95116     (223)</name>
-        <vendorCode>95116     (223)</vendorCode>
+      <offer id="95201 (754)" available="true">
+        <name>Пауч NUEVO SENIOR для дорос.котів,птиця та ягня з рисом , 85 г (16шт упак.)</name>
+        <vendorCode>95201 (754)</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
+        <in_stock>1</in_stock>
       </offer>
-      <offer id="95151     (460)" available="false">
-        <name>95151     (460)</name>
-        <vendorCode>95151     (460)</vendorCode>
+      <offer id="95202 (755)" available="true">
+        <name>Пауч NUEVO LIGHT для котів, курка і рис , 85 г (16шт упак.)</name>
+        <vendorCode>95202 (755)</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
+        <in_stock>1</in_stock>
       </offer>
-      <offer id="95154     (461)" available="false">
-        <name>95154     (461)</name>
-        <vendorCode>95154     (461)</vendorCode>
+      <offer id="95203 (756)" available="true">
+        <name>Пауч NUEVO STERILIZED для стерил. котів, курка і рис , 85 г (16шт упак.)</name>
+        <vendorCode>95203 (756)</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
+        <in_stock>1</in_stock>
       </offer>
-      <offer id="95157     (462)" available="false">
-        <name>95157     (462)</name>
-        <vendorCode>95157     (462)</vendorCode>
+      <offer id="95204 (757)" available="true">
+        <name>Пауч NUEVO SENSITIVE для чутливих котів, з монопротеїном індички , 85 г (16шт упак.)</name>
+        <vendorCode>95204 (757)</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
+        <in_stock>1</in_stock>
       </offer>
-      <offer id="95160     (463)" available="false">
-        <name>95160     (463)</name>
-        <vendorCode>95160     (463)</vendorCode>
+      <offer id="95205 (758)" available="true">
+        <name>Пауч NUEVO ADULT для котів, яловичина і курка , 85 г (16шт упак.)</name>
+        <vendorCode>95205 (758)</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
+        <in_stock>1</in_stock>
       </offer>
-      <offer id="95200       (753)" available="false">
-        <name>95200       (753)</name>
-        <vendorCode>95200       (753)</vendorCode>
+      <offer id="95206 (759)" available="true">
+        <name>Пауч NUEVO ADULT для котів, курка і кролик , 85 г (16шт упак.)</name>
+        <vendorCode>95206 (759)</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
+        <in_stock>1</in_stock>
       </offer>
-      <offer id="95201       (754)" available="false">
-        <name>95201       (754)</name>
-        <vendorCode>95201       (754)</vendorCode>
+      <offer id="95207 (760)" available="true">
+        <name>Пауч NUEVO ADULT для котів, курка і лосось , 85 г (16шт упак.)</name>
+        <vendorCode>95207 (760)</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
+        <in_stock>1</in_stock>
       </offer>
-      <offer id="95202       (755)" available="false">
-        <name>95202       (755)</name>
-        <vendorCode>95202       (755)</vendorCode>
+      <offer id="95208 (761)" available="true">
+        <name>Пауч NUEVO ADULT для котів, курка і качка , 85 г (16шт упак.)</name>
+        <vendorCode>95208 (761)</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
-      </offer>
-      <offer id="95203       (756)" available="false">
-        <name>95203       (756)</name>
-        <vendorCode>95203       (756)</vendorCode>
-        <currencyId>UAH</currencyId>
-        <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
-      </offer>
-      <offer id="95204       (757)" available="false">
-        <name>95204       (757)</name>
-        <vendorCode>95204       (757)</vendorCode>
-        <currencyId>UAH</currencyId>
-        <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
-      </offer>
-      <offer id="95205       (758)" available="false">
-        <name>95205       (758)</name>
-        <vendorCode>95205       (758)</vendorCode>
-        <currencyId>UAH</currencyId>
-        <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
-      </offer>
-      <offer id="95206       (759)" available="false">
-        <name>95206       (759)</name>
-        <vendorCode>95206       (759)</vendorCode>
-        <currencyId>UAH</currencyId>
-        <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
-      </offer>
-      <offer id="95207       (760)" available="false">
-        <name>95207       (760)</name>
-        <vendorCode>95207       (760)</vendorCode>
-        <currencyId>UAH</currencyId>
-        <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
-      </offer>
-      <offer id="95208       (761)" available="false">
-        <name>95208       (761)</name>
-        <vendorCode>95208       (761)</vendorCode>
-        <currencyId>UAH</currencyId>
-        <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="9529 NEWDIAMOND23" available="true">
         <name>Мило Iv San Bernard Diamonds для білої шерсті, усуває жовті плями,75г (12 шт/уп)(нова формула)</name>
@@ -14546,15 +14537,6 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="BETA  PLUS MAXI D.BLUE" available="false">
-        <name>BETA  PLUS MAXI D.BLUE</name>
-        <vendorCode>BETA  PLUS MAXI D.BLUE</vendorCode>
-        <currencyId>UAH</currencyId>
-        <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
-      </offer>
       <offer id="BETA MAXI BRUNO" available="true">
         <name>Туалет д/кіш з рамкою BETA MAXI BRUNO 49x39x13h (6 шт в ящ)</name>
         <vendorCode>BETA MAXI BRUNO</vendorCode>
@@ -14563,6 +14545,15 @@
         <quantity_in_stock>2</quantity_in_stock>
         <stock>2</stock>
         <in_stock>1</in_stock>
+      </offer>
+      <offer id="BETA PLUS MAXI D.BLUE" available="false">
+        <name>Туалет д/кіш з рамкою BETA PLUS MAXI DARK BLUE, 49x39x17 (6 шт в ящ)</name>
+        <vendorCode>BETA PLUS MAXI D.BLUE</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="BETA PLUS SMALL D. BLUE" available="false">
         <name>Туалет д/кіш з рамкою BETA PLUS SMALL DARK BLUE, 43x31x16 (9 шт в ящ)</name>
@@ -24968,14 +24959,14 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="PR 1 MЕТ Light  Green" available="false">
-        <name>PR 1 MЕТ Light  Green</name>
-        <vendorCode>PR 1 MЕТ Light  Green</vendorCode>
+      <offer id="PR 1 MЕТ Light Green" available="true">
+        <name>Переноска PRATIKO 1 metal LIGHT GREEN (cвітло-зелений) 48*31.5*33 h (14 шт в ящ) Вага жив. 10кг</name>
+        <vendorCode>PR 1 MЕТ Light Green</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="PR 1 ПЛАСТ ЧЕРВОНИЙ" available="true">
         <name>Переноска PRATIKO 1 plast. CIPRIA - MARSALA (світло-коричневий) 48*31.5*33 h (14 шт в ящ) Вага жив. 10кг</name>
@@ -25220,14 +25211,14 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="S 01230300  CAT" available="false">
-        <name>S 01230300  CAT</name>
-        <vendorCode>S 01230300  CAT</vendorCode>
+      <offer id="S 01230300 CAT" available="true">
+        <name>Переноска SKUDO 3 CAT 60*40*39 h (4 шт/ящ) Вага жив. 24кг</name>
+        <vendorCode>S 01230300 CAT</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="S0021" available="true">
         <name>Ножиці прямі IvSanBernard, для лап</name>
@@ -25886,23 +25877,23 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="НФ-00001692  (F-002)" available="false">
-        <name>НФ-00001692  (F-002)</name>
-        <vendorCode>НФ-00001692  (F-002)</vendorCode>
+      <offer id="НФ-00001692 (F-002)" available="true">
+        <name>Краплі FIPROMAX д/котів і дрібних собак вагою 4-10 кг,1,0 мл.2 піп/уп.10шт (фіпроніл,пірипроксифен),захист від бліх і кліщів до 4тиж.</name>
+        <vendorCode>НФ-00001692 (F-002)</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
+        <in_stock>1</in_stock>
       </offer>
-      <offer id="НФ-00001693  (F-003)" available="false">
-        <name>НФ-00001693  (F-003)</name>
-        <vendorCode>НФ-00001693  (F-003)</vendorCode>
+      <offer id="НФ-00001693 (F-003)" available="true">
+        <name>Краплі FIPROMAX д/середніх собак вагою 10-25 кг,2,0 мл. 2 піп./уп.10шт (фіпроніл,пірипроксифен),захист від бліх і кліщів до 4тиж.</name>
+        <vendorCode>НФ-00001693 (F-003)</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="НФ-00001694" available="false">
         <name>Краплі FIPROMAX д/середніх собак вагою 25-40 кг,4,0 мл. 2 піп./уп.10шт (фіпроніл,пірипроксифен),захист від бліх і кліщів до 4тиж.</name>
@@ -25913,14 +25904,14 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="НФ-00001695  (F-005)" available="false">
-        <name>НФ-00001695  (F-005)</name>
-        <vendorCode>НФ-00001695  (F-005)</vendorCode>
+      <offer id="НФ-00001695 (F-005)" available="true">
+        <name>Краплі FIPROMAX д/собак велик. вагою 40-60 кг,6,0 мл. 2 піп./уп.10шт (фіпроніл,пірипроксифен),захист від бліх і кліщів до 4тиж.</name>
+        <vendorCode>НФ-00001695 (F-005)</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="НФ-00001696" available="true">
         <name>Нашийник FIPROMAX д/котів і дрібних собак, 35см 12шт.уп.(фіпроніл,перметрин),захист від бліх і кліщів до 4 міс.</name>
@@ -26237,104 +26228,104 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="НФ-00002869  (674)" available="false">
-        <name>НФ-00002869  (674)</name>
-        <vendorCode>НФ-00002869  (674)</vendorCode>
+      <offer id="НФ-00002869 (674)" available="true">
+        <name>Вітамінізовані Ласощі ZOO-ZOO для котів (стерил/ кастр), 90табл / 0,5г (10шт/уп)</name>
+        <vendorCode>НФ-00002869 (674)</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="НФ-00002870 (673)" available="false">
+        <name>НФ-00002870 (673)</name>
+        <vendorCode>НФ-00002870 (673)</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>0</quantity_in_stock>
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="НФ-00002870  (673)" available="false">
-        <name>НФ-00002870  (673)</name>
-        <vendorCode>НФ-00002870  (673)</vendorCode>
+      <offer id="НФ-00002871 (675)" available="true">
+        <name>Вітамінізовані Ласощі ZOO-ZOO для кошенят, 90табл / 0,5г (10шт/уп)</name>
+        <vendorCode>НФ-00002871 (675)</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
+        <in_stock>1</in_stock>
       </offer>
-      <offer id="НФ-00002871  (675)" available="false">
-        <name>НФ-00002871  (675)</name>
-        <vendorCode>НФ-00002871  (675)</vendorCode>
+      <offer id="НФ-00002872 (672)" available="true">
+        <name>Вітамінізовані Ласощі ZOO-ZOO для котів (морські водорості.) , 90табл / 0,5г (10шт/уп)</name>
+        <vendorCode>НФ-00002872 (672)</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
+        <in_stock>1</in_stock>
       </offer>
-      <offer id="НФ-00002872  (672)" available="false">
-        <name>НФ-00002872  (672)</name>
-        <vendorCode>НФ-00002872  (672)</vendorCode>
+      <offer id="НФ-00002873 (676)" available="true">
+        <name>Вітамінізовані Ласощі ZOO-ZOO для котів (виведення шерсті) , 90табл / 0,5г (10шт/уп)</name>
+        <vendorCode>НФ-00002873 (676)</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
+        <in_stock>1</in_stock>
       </offer>
-      <offer id="НФ-00002873  (676)" available="false">
-        <name>НФ-00002873  (676)</name>
-        <vendorCode>НФ-00002873  (676)</vendorCode>
+      <offer id="НФ-00002874 (671)" available="true">
+        <name>Вітамінізовані Ласощі ZOO-ZOO для котів (шкіра / шерсть) , 90табл / 0,5г (10шт/уп)</name>
+        <vendorCode>НФ-00002874 (671)</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
+        <in_stock>1</in_stock>
       </offer>
-      <offer id="НФ-00002874  (671)" available="false">
-        <name>НФ-00002874  (671)</name>
-        <vendorCode>НФ-00002874  (671)</vendorCode>
+      <offer id="НФ-00002875 (668)" available="true">
+        <name>Вітамінізовані Ласощі ZOO-ZOO для цуценят , 90табл / 1г (10шт/уп)</name>
+        <vendorCode>НФ-00002875 (668)</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
+        <in_stock>1</in_stock>
       </offer>
-      <offer id="НФ-00002875  (668)" available="false">
-        <name>НФ-00002875  (668)</name>
-        <vendorCode>НФ-00002875  (668)</vendorCode>
+      <offer id="НФ-00002877 (669)" available="true">
+        <name>Вітамінізовані Ласощі ZOO-ZOO для собак (вагітних та годуючих ) 90табл / 1г (10шт/уп)</name>
+        <vendorCode>НФ-00002877 (669)</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
+        <in_stock>1</in_stock>
       </offer>
-      <offer id="НФ-00002877  (669)" available="false">
-        <name>НФ-00002877  (669)</name>
-        <vendorCode>НФ-00002877  (669)</vendorCode>
+      <offer id="НФ-00002878 (667)" available="true">
+        <name>Вітамінізовані Ласощі ZOO-ZOO для собак (морські водорості.), 90табл / 1г (10шт/уп)</name>
+        <vendorCode>НФ-00002878 (667)</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
+        <in_stock>1</in_stock>
       </offer>
-      <offer id="НФ-00002878  (667)" available="false">
-        <name>НФ-00002878  (667)</name>
-        <vendorCode>НФ-00002878  (667)</vendorCode>
+      <offer id="НФ-00002879 (666)" available="true">
+        <name>Вітамінізовані Ласощі ZOO-ZOO для собак (кальцій) , 90табл / 1г (10шт/уп)</name>
+        <vendorCode>НФ-00002879 (666)</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
+        <in_stock>1</in_stock>
       </offer>
-      <offer id="НФ-00002879  (666)" available="false">
-        <name>НФ-00002879  (666)</name>
-        <vendorCode>НФ-00002879  (666)</vendorCode>
+      <offer id="НФ-00002880 (670)" available="true">
+        <name>Вітамінізовані Ласощі ZOO-ZOO для собак (суглоби) , 90табл / 1г (10шт/уп)</name>
+        <vendorCode>НФ-00002880 (670)</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
-      </offer>
-      <offer id="НФ-00002880  (670)" available="false">
-        <name>НФ-00002880  (670)</name>
-        <vendorCode>НФ-00002880  (670)</vendorCode>
-        <currencyId>UAH</currencyId>
-        <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="НФ-00003432" available="false">
         <name>Спрей Secfour 3D 250мл (пропоксур/пірипроксифен) 10шт/уп</name>

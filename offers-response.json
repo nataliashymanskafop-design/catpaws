@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T14:10:43Z",
+  "updatedAt": "2026-10-14T14:42:54Z",
   "total": 1693,
   "data": [
     {
@@ -5298,12 +5298,12 @@
       "code": "50012164",
       "price": 2925,
       "old_price": null,
-      "availability": true,
-      "stock": 20,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 20
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -35174,12 +35174,12 @@
       "code": "50006793*5",
       "price": 960,
       "old_price": null,
-      "availability": true,
-      "stock": 4,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 4
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -42986,12 +42986,12 @@
       "code": "2117  LOZH0150",
       "price": 2300,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
