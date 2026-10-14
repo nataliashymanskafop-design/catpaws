@@ -16,14 +16,9 @@ SITE_ONLY_MODES_SKUS = {"ACRC(W)-1 bronze","ACRC(W)-4 bronze","ACRC(W)-4 golden"
 # SETTINGS
 # ============================================================
 
-HOROSHOP_URL = (
-    "https://catpaws.com.ua/content/export/"
-    "77e6f1cd306feb32b68e245d1affc6bc.xml"
-)
-
-# Current complete site catalog used by the site-stock feed; the primary
-# marketplace export intentionally omits some brands and product groups.
-FULL_CATALOG_URL = "https://catpaws.com.ua/content/export/5d007701b07c6dab399214f2c0d6743c.xml"
+# Unfiltered Prom export created on 2026-10-14, with daily autogeneration.
+# All currently exported brands use one authoritative source.
+HOROSHOP_URL = "https://catpaws.com.ua/content/export/9ba864d51aeb3249ffc3b374be058b88.xml"
 
 RAFI_SOURCE_URL = (
     "https://catpaws.com.ua/content/export/"
@@ -36,6 +31,7 @@ PROM_API_EDIT_URL = "https://my.prom.ua/api/v1/products/edit"
 PROM_API_TOKEN = os.environ["PROM_API_TOKEN"]
 
 BATCH_SIZE = 50
+MIN_SOURCE_PRODUCTS = 2000
 
 
 # ============================================================
@@ -163,6 +159,7 @@ def get_horoshop_products():
     validate_source_freshness(root)
 
     products = {}
+    duplicate_skus = set()
 
     for offer in root.xpath(".//offer"):
 
@@ -176,34 +173,21 @@ def get_horoshop_products():
         if not sku:
             continue
 
+        if sku in products:
+            duplicate_skus.add(sku)
         products[sku] = offer
 
-    full_response = requests.get(FULL_CATALOG_URL, timeout=60)
-    full_response.raise_for_status()
-    full_root = etree.fromstring(full_response.content)
-    validate_source_freshness(full_root)
-    additional = {}
-    ambiguous = set()
-    for offer in full_root.xpath(".//offer"):
-        sku = normalize_code(get_text(offer, "vendorCode"))
-        if not sku or sku in products:
-            continue
-        if sku in additional:
-            ambiguous.add(sku)
-        additional[sku] = offer
-    for sku in ambiguous:
-        additional.pop(sku, None)
-    products.update(additional)
-    print("Added SKUs from current full catalog:", len(additional),
-          "ambiguous skipped:", sorted(ambiguous))
+    for sku in duplicate_skus:
+        products.pop(sku, None)
+    print("Ambiguous source SKUs skipped:", sorted(duplicate_skus))
 
     print(
         "Horoshop products:",
         len(products)
     )
 
-    if not products:
-        raise RuntimeError("Horoshop source contains no products; refusing synchronization")
+    if len(products) < MIN_SOURCE_PRODUCTS:
+        raise RuntimeError("Full Horoshop source is empty or incomplete; refusing synchronization")
 
     return products
 
@@ -390,6 +374,11 @@ def build_updates(
             missing_horoshop += 1
             missing_items.append({"sku": sku, "id": prom_id,
                                   "external_id": prom_product.get("external_id")})
+            # The source is now an unfiltered, size-validated full site export.
+            # Missing cards are hidden/deleted on the site or use obsolete SKUs;
+            # stop selling them on Prom, retaining their price/content.
+            updates.append({"id": prom_id, "presence": "not_available"})
+            unavailable_count += 1
 
             continue
 
@@ -527,7 +516,7 @@ def build_updates(
         "Total products prepared:",
         len(updates)
     )
-    print("Products without Horoshop source (not overwritten):", missing_items)
+    print("Products absent from full site export (disabled on Prom):", missing_items)
     summary = os.environ.get("GITHUB_STEP_SUMMARY")
     if summary and (missing_items or duplicate_skus):
         with open(summary, "a", encoding="utf-8") as handle:
@@ -771,4 +760,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 

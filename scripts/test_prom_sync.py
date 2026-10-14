@@ -62,17 +62,14 @@ class SyncTests(unittest.TestCase):
             with self.assertRaises(RuntimeError):
                 sync.validate_source_freshness(root)
 
-    def test_full_catalog_fills_missing_skus_without_overriding_primary(self):
+    def test_unfiltered_catalog_loads_all_unique_skus(self):
         date = sync.datetime.now(sync.ZoneInfo('Europe/Kyiv')).strftime('%Y-%m-%d %H:%M')
-        primary = f'<yml_catalog date="{date}"><offer><vendorCode>A</vendorCode><price>10</price></offer></yml_catalog>'
-        full = f'<yml_catalog date="{date}"><offer><vendorCode>A</vendorCode><price>99</price></offer><offer><vendorCode>B</vendorCode></offer><offer><vendorCode>C</vendorCode></offer><offer><vendorCode>C</vendorCode></offer></yml_catalog>'
-        responses = []
-        for payload in (primary, full):
-            response = unittest.mock.Mock()
-            response.content = payload.encode()
-            responses.append(response)
-        with patch.object(sync.requests, 'get', side_effect=responses):
+        payload = f'<yml_catalog date="{date}"><offer><vendorCode>A</vendorCode><price>10</price></offer><offer><vendorCode>B</vendorCode></offer><offer><vendorCode>C</vendorCode></offer><offer><vendorCode>C</vendorCode></offer></yml_catalog>'
+        response = unittest.mock.Mock()
+        response.content = payload.encode()
+        with patch.object(sync.requests, 'get', return_value=response) as get, patch.object(sync, 'MIN_SOURCE_PRODUCTS', 1):
             products = sync.get_horoshop_products()
+            get.assert_called_once()
         self.assertEqual(set(products), {'A', 'B'})
         self.assertEqual(products['A'].findtext('price'), '10')
 
@@ -84,6 +81,17 @@ class SyncTests(unittest.TestCase):
     def test_duplicate_sku_skipped(self):
         self.assertEqual(sync.build_updates({'X': {'id': 1}}, {'X'},
                                            {'X': self.offer()}, set()), [])
+
+    def test_card_absent_from_complete_site_export_stops_selling(self):
+        self.assertEqual(sync.build_updates({'OLD': {'id': 1, 'sku': 'OLD'}}, set(),
+                                           {}, set()), [{'id': 1, 'presence': 'not_available'}])
+
+    def test_incomplete_full_source_is_rejected(self):
+        date = sync.datetime.now(sync.ZoneInfo('Europe/Kyiv')).strftime('%Y-%m-%d %H:%M')
+        response = unittest.mock.Mock()
+        response.content = f'<yml_catalog date="{date}"><offer><vendorCode>A</vendorCode></offer></yml_catalog>'.encode()
+        with patch.object(sync.requests, 'get', return_value=response), self.assertRaises(RuntimeError):
+            sync.get_horoshop_products()
 
     def test_active_discount_readback_amount_and_percent(self):
         item = {'id': 1, 'presence': 'available', 'price': 504, 'oldprice': 630}
