@@ -62,6 +62,20 @@ class SyncTests(unittest.TestCase):
             with self.assertRaises(RuntimeError):
                 sync.validate_source_freshness(root)
 
+    def test_full_catalog_fills_missing_skus_without_overriding_primary(self):
+        date = sync.datetime.now(sync.ZoneInfo('Europe/Kyiv')).strftime('%Y-%m-%d %H:%M')
+        primary = f'<yml_catalog date="{date}"><offer><vendorCode>A</vendorCode><price>10</price></offer></yml_catalog>'
+        full = f'<yml_catalog date="{date}"><offer><vendorCode>A</vendorCode><price>99</price></offer><offer><vendorCode>B</vendorCode></offer><offer><vendorCode>C</vendorCode></offer><offer><vendorCode>C</vendorCode></offer></yml_catalog>'
+        responses = []
+        for payload in (primary, full):
+            response = unittest.mock.Mock()
+            response.content = payload.encode()
+            responses.append(response)
+        with patch.object(sync.requests, 'get', side_effect=responses):
+            products = sync.get_horoshop_products()
+        self.assertEqual(set(products), {'A', 'B'})
+        self.assertEqual(products['A'].findtext('price'), '10')
+
     def test_discontinued_and_rafi(self):
         for sku, rafi in [('GONE', set()), ('FORCE', set()), ('RAFI', {'RAFI'})]:
             self.assertEqual(self.build(self.offer(), sku, rafi),

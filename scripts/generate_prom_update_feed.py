@@ -21,6 +21,10 @@ HOROSHOP_URL = (
     "77e6f1cd306feb32b68e245d1affc6bc.xml"
 )
 
+# Current complete site catalog used by the site-stock feed; the primary
+# marketplace export intentionally omits some brands and product groups.
+FULL_CATALOG_URL = "https://catpaws.com.ua/content/export/5d007701b07c6dab399214f2c0d6743c.xml"
+
 RAFI_SOURCE_URL = (
     "https://catpaws.com.ua/content/export/"
     "3e9c244f28ee6d1e572f92646e76f6bb.xml"
@@ -173,6 +177,25 @@ def get_horoshop_products():
             continue
 
         products[sku] = offer
+
+    full_response = requests.get(FULL_CATALOG_URL, timeout=60)
+    full_response.raise_for_status()
+    full_root = etree.fromstring(full_response.content)
+    validate_source_freshness(full_root)
+    additional = {}
+    ambiguous = set()
+    for offer in full_root.xpath(".//offer"):
+        sku = normalize_code(get_text(offer, "vendorCode"))
+        if not sku or sku in products:
+            continue
+        if sku in additional:
+            ambiguous.add(sku)
+        additional[sku] = offer
+    for sku in ambiguous:
+        additional.pop(sku, None)
+    products.update(additional)
+    print("Added SKUs from current full catalog:", len(additional),
+          "ambiguous skipped:", sorted(ambiguous))
 
     print(
         "Horoshop products:",
