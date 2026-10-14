@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T13:46:19Z",
+  "updatedAt": "2026-10-14T14:10:43Z",
   "total": 1693,
   "data": [
     {
@@ -13559,11 +13559,11 @@
       "price": 541,
       "old_price": null,
       "availability": true,
-      "stock": 25,
+      "stock": 23,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 25
+          "stock": 23
         }
       ],
       "warranty_type": "no",
@@ -23303,11 +23303,11 @@
       "price": 557,
       "old_price": null,
       "availability": true,
-      "stock": 36,
+      "stock": 34,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 36
+          "stock": 34
         }
       ],
       "warranty_type": "no",
@@ -23331,11 +23331,11 @@
       "price": 564,
       "old_price": null,
       "availability": true,
-      "stock": 35,
+      "stock": 33,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 35
+          "stock": 33
         }
       ],
       "warranty_type": "no",
