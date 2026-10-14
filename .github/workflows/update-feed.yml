@@ -133,7 +133,16 @@ jobs:
       # Для Darwin немає точного фіду залишків. Передаємо обережні 2 шт.
       # для доступних Ambrosia, Happy One та Exclusion. Загальний фільтр
       # ціни Mono не пропускає дешеві поштучні консерви.
+      - name: Download previous Darwin stock state
+        continue-on-error: true
+        run: |
+          mkdir -p public
+          curl -fL \
+            "https://nataliashymanskafop-design.github.io/catpaws/darwin-stock-state.json" \
+            -o public/darwin-stock-state.json
+
       - name: Generate Darwin stock feed
+        continue-on-error: true
         env:
           SALESDRIVE_API_KEY: ${{ secrets.SALESDRIVE_API_KEY }}
           SALESDRIVE_DARWIN_STOCK_ID: ${{ vars.SALESDRIVE_DARWIN_STOCK_ID }}

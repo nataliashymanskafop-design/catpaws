@@ -184,7 +184,7 @@ def build_feed(catalog_root, own_stock, supplier_stock, retail_prices=None):
         offer = etree.SubElement(
             offers,
             "offer",
-            id=clean(source_offer.get("id")) or sku,
+            id=str(source_offer.findtext("vendorCode") or "").strip(),
             available="true" if quantity > 0 else "false",
         )
         # Horoshop matches the literal article: keep internal spaces from its catalog.
