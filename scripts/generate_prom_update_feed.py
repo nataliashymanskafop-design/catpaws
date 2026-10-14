@@ -1,6 +1,7 @@
 import os
 import math
-from datetime import datetime, timezone
+from datetime import datetime
+from zoneinfo import ZoneInfo
 import time
 import requests
 from lxml import etree
@@ -155,6 +156,7 @@ def get_horoshop_products():
     root = etree.fromstring(
         response.content
     )
+    validate_source_freshness(root)
 
     products = {}
 
@@ -181,6 +183,19 @@ def get_horoshop_products():
         raise RuntimeError("Horoshop source contains no products; refusing synchronization")
 
     return products
+
+
+def validate_source_freshness(root):
+    value = root.get("date")
+    try:
+        generated = datetime.strptime(value, "%Y-%m-%d %H:%M").replace(
+            tzinfo=ZoneInfo("Europe/Kyiv"))
+    except (ValueError, TypeError):
+        raise RuntimeError("Horoshop export has no valid generation timestamp")
+    age_hours = (datetime.now(ZoneInfo("Europe/Kyiv")) - generated).total_seconds() / 3600
+    print("Horoshop export generated:", value, "age hours:", round(age_hours, 2))
+    if age_hours > 36 or age_hours < -1:
+        raise RuntimeError("Horoshop export is stale or future-dated; refusing outdated prices/promotions")
 
 
 def get_rafi_skus():
@@ -494,9 +509,9 @@ def build_updates(
     if summary and (missing_items or duplicate_skus):
         with open(summary, "a", encoding="utf-8") as handle:
             handle.write(f"Source coverage: {missing_horoshop} unmatched SKUs; "
-                         f"{skipped_duplicates} duplicate SKUs skipped.\\n")
-            handle.write(f"Unmatched SKU/IDs: {missing_items}\\n")
-            handle.write(f"Duplicate SKUs: {sorted(duplicate_skus)}\\n")
+                         f"{skipped_duplicates} duplicate SKUs skipped.\n")
+            handle.write(f"Unmatched SKU/IDs: {missing_items}\n")
+            handle.write(f"Duplicate SKUs: {sorted(duplicate_skus)}\n")
 
     return updates
 
@@ -527,6 +542,22 @@ def discount_amount(product):
     return None
 
 
+def discount_is_current(discount):
+    if not discount:
+        return False
+    today = datetime.now(ZoneInfo("Europe/Kyiv")).date()
+    for field, boundary in (("date_start", "start"), ("date_end", "end")):
+        value = discount.get(field)
+        if value:
+            try:
+                day = datetime.strptime(value, "%d.%m.%Y").date()
+            except (ValueError, TypeError):
+                return False
+            if (boundary == "start" and day > today) or (boundary == "end" and day < today):
+                return False
+    return True
+
+
 def state_mismatches(item, product):
     if product is None:
         return ["product missing from API readback"]
@@ -542,6 +573,8 @@ def state_mismatches(item, product):
         expected_discount = item["oldprice"] - item["price"]
         if not prices_equal(discount_amount(product), expected_discount):
             failures.append("discount")
+        elif expected_discount > 0 and not discount_is_current(product.get("discount")):
+            failures.append("discount dates")
     elif "discount" in item and item["discount"] is None:
         if product.get("discount") is not None:
             failures.append("discount")
