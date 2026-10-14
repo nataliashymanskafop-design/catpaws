@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-10-14 09:23">
+<yml_catalog date="2026-10-14 14:40">
   <shop>
     <offers>
       <offer id="515" available="true">
@@ -56,7 +56,7 @@
       </offer>
       <offer id="582" available="true">
         <vendorCode>1029100</vendorCode>
-        <quantity_in_stock>16</quantity_in_stock>
+        <quantity_in_stock>15</quantity_in_stock>
       </offer>
       <offer id="707" available="true">
         <vendorCode>3099004</vendorCode>
@@ -100,7 +100,7 @@
       </offer>
       <offer id="727" available="true">
         <vendorCode>3128100</vendorCode>
-        <quantity_in_stock>2</quantity_in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
       </offer>
       <offer id="730" available="true">
         <vendorCode>3199016</vendorCode>
@@ -132,7 +132,7 @@
       </offer>
       <offer id="737" available="true">
         <vendorCode>3058110</vendorCode>
-        <quantity_in_stock>15</quantity_in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
       </offer>
       <offer id="739" available="true">
         <vendorCode>3108100</vendorCode>
@@ -140,7 +140,7 @@
       </offer>
       <offer id="740" available="true">
         <vendorCode>3048016</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
       </offer>
       <offer id="741" available="true">
         <vendorCode>3048100</vendorCode>
@@ -152,7 +152,7 @@
       </offer>
       <offer id="744" available="true">
         <vendorCode>3088100</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>20</quantity_in_stock>
       </offer>
       <offer id="745" available="true">
         <vendorCode>3118016</vendorCode>
@@ -814,9 +814,9 @@
         <vendorCode>NPSC45664</vendorCode>
         <quantity_in_stock>20</quantity_in_stock>
       </offer>
-      <offer id="1649" available="true">
+      <offer id="1649" available="false">
         <vendorCode>NPS45724</vendorCode>
-        <quantity_in_stock>5</quantity_in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
       </offer>
       <offer id="1650" available="true">
         <vendorCode>NPS45725</vendorCode>
@@ -1296,7 +1296,7 @@
       </offer>
       <offer id="2170" available="true">
         <vendorCode>018128</vendorCode>
-        <quantity_in_stock>2</quantity_in_stock>
+        <quantity_in_stock>4</quantity_in_stock>
       </offer>
       <offer id="2171" available="true">
         <vendorCode>018135</vendorCode>
@@ -1648,7 +1648,7 @@
       </offer>
       <offer id="2507" available="true">
         <vendorCode>653651</vendorCode>
-        <quantity_in_stock>19</quantity_in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
       </offer>
       <offer id="2508" available="true">
         <vendorCode>653644</vendorCode>
@@ -1704,7 +1704,7 @@
       </offer>
       <offer id="2685" available="true">
         <vendorCode>1037100</vendorCode>
-        <quantity_in_stock>20</quantity_in_stock>
+        <quantity_in_stock>3</quantity_in_stock>
       </offer>
       <offer id="2686" available="true">
         <vendorCode>2027100</vendorCode>
@@ -2352,7 +2352,7 @@
       </offer>
       <offer id="3276" available="true">
         <vendorCode>ЗС000139</vendorCode>
-        <quantity_in_stock>49</quantity_in_stock>
+        <quantity_in_stock>47</quantity_in_stock>
       </offer>
       <offer id="3277" available="true">
         <vendorCode>ЗС000138</vendorCode>
@@ -2436,7 +2436,7 @@
       </offer>
       <offer id="3297" available="true">
         <vendorCode>ЗС000156</vendorCode>
-        <quantity_in_stock>6</quantity_in_stock>
+        <quantity_in_stock>5</quantity_in_stock>
       </offer>
       <offer id="3298" available="true">
         <vendorCode>ЗС000157</vendorCode>
@@ -2548,7 +2548,7 @@
       </offer>
       <offer id="3333" available="true">
         <vendorCode>ЗС000295</vendorCode>
-        <quantity_in_stock>50</quantity_in_stock>
+        <quantity_in_stock>49</quantity_in_stock>
       </offer>
       <offer id="3334" available="true">
         <vendorCode>ЗС000298</vendorCode>
@@ -2556,7 +2556,7 @@
       </offer>
       <offer id="3335" available="true">
         <vendorCode>ЗС000297</vendorCode>
-        <quantity_in_stock>45</quantity_in_stock>
+        <quantity_in_stock>44</quantity_in_stock>
       </offer>
       <offer id="3336" available="true">
         <vendorCode>ЗС000296</vendorCode>
@@ -2564,7 +2564,7 @@
       </offer>
       <offer id="3337" available="true">
         <vendorCode>ЗС000302</vendorCode>
-        <quantity_in_stock>29</quantity_in_stock>
+        <quantity_in_stock>27</quantity_in_stock>
       </offer>
       <offer id="3338" available="true">
         <vendorCode>ЗС000300</vendorCode>
@@ -3458,7 +3458,7 @@
       </offer>
       <offer id="3986" available="true">
         <vendorCode>025374</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>346.38</price>
         <currencyId>UAH</currencyId>
       </offer>
@@ -3584,7 +3584,7 @@
       </offer>
       <offer id="4007" available="true">
         <vendorCode>024645</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>5261.94</price>
         <currencyId>UAH</currencyId>
       </offer>
@@ -3614,7 +3614,7 @@
       </offer>
       <offer id="4012" available="true">
         <vendorCode>056934</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>2172.66</price>
         <currencyId>UAH</currencyId>
       </offer>
@@ -3644,7 +3644,7 @@
       </offer>
       <offer id="4018" available="true">
         <vendorCode>056350</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>4971.54</price>
         <currencyId>UAH</currencyId>
       </offer>
@@ -3656,31 +3656,31 @@
       </offer>
       <offer id="4020" available="true">
         <vendorCode>057050</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>4201.86</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="4021" available="true">
         <vendorCode>057350</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>5426.34</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="4022" available="true">
         <vendorCode>057450</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>5994.9</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="4023" available="true">
         <vendorCode>057481 - 7426</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>738.24</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="4024" available="true">
         <vendorCode>057434</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>2573.28</price>
         <currencyId>UAH</currencyId>
       </offer>
@@ -3698,7 +3698,7 @@
       </offer>
       <offer id="4027" available="true">
         <vendorCode>057134</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>2244.42</price>
         <currencyId>UAH</currencyId>
       </offer>
@@ -3716,7 +3716,7 @@
       </offer>
       <offer id="4030" available="true">
         <vendorCode>056881 - 6826</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>593.04</price>
         <currencyId>UAH</currencyId>
       </offer>
@@ -3824,7 +3824,7 @@
       </offer>
       <offer id="4051" available="true">
         <vendorCode>7379</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>174.66</price>
         <currencyId>UAH</currencyId>
       </offer>
@@ -3854,7 +3854,7 @@
       </offer>
       <offer id="4056" available="true">
         <vendorCode>7164</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>182.46</price>
         <currencyId>UAH</currencyId>
       </offer>
@@ -3870,9 +3870,9 @@
         <price>177.96</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4059" available="true">
+      <offer id="4059" available="false">
         <vendorCode>7119</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
         <price>177.96</price>
         <currencyId>UAH</currencyId>
       </offer>
@@ -3920,19 +3920,19 @@
       </offer>
       <offer id="4068" available="true">
         <vendorCode>041990</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>2700.96</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="4069" available="true">
         <vendorCode>040690</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>3131.28</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="4070" available="true">
         <vendorCode>041890</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>2683.44</price>
         <currencyId>UAH</currencyId>
       </offer>
@@ -3944,43 +3944,43 @@
       </offer>
       <offer id="4072" available="true">
         <vendorCode>044390</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>2807.7</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="4074" available="true">
         <vendorCode>043690</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>2807.7</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="4075" available="true">
         <vendorCode>041390</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>2842.68</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="4076" available="true">
         <vendorCode>041290</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>2858.4</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="4077" available="true">
         <vendorCode>041590</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>2886.36</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="4078" available="true">
         <vendorCode>041090</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>2886.36</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="4079" available="true">
         <vendorCode>041690</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>2700.96</price>
         <currencyId>UAH</currencyId>
       </offer>
@@ -3992,31 +3992,31 @@
       </offer>
       <offer id="4081" available="true">
         <vendorCode>043490</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>2807.7</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="4082" available="true">
         <vendorCode>043090</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>2665.98</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="4083" available="true">
         <vendorCode>041190</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>2886.36</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="4084" available="true">
         <vendorCode>040790</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>2875.92</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="4086" available="true">
         <vendorCode>044090</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>2807.7</price>
         <currencyId>UAH</currencyId>
       </offer>
@@ -4100,19 +4100,19 @@
       </offer>
       <offer id="4100" available="true">
         <vendorCode>700345 - 3455</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>4100.4</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="4101" available="true">
         <vendorCode>700397 - 3325</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>1368</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="4102" available="true">
         <vendorCode>700245 - 2458</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>4212.36</price>
         <currencyId>UAH</currencyId>
       </offer>
@@ -4188,7 +4188,7 @@
       </offer>
       <offer id="4230" available="true">
         <vendorCode>ЗС000459</vendorCode>
-        <quantity_in_stock>21</quantity_in_stock>
+        <quantity_in_stock>19</quantity_in_stock>
       </offer>
       <offer id="4312" available="true">
         <vendorCode>ЗС000421</vendorCode>
@@ -4244,7 +4244,7 @@
       </offer>
       <offer id="4341" available="true">
         <vendorCode>ЗС000436</vendorCode>
-        <quantity_in_stock>17</quantity_in_stock>
+        <quantity_in_stock>16</quantity_in_stock>
       </offer>
       <offer id="4342" available="true">
         <vendorCode>ЗС000437</vendorCode>
@@ -4896,9 +4896,9 @@
         <vendorCode>NPSC45794</vendorCode>
         <quantity_in_stock>20</quantity_in_stock>
       </offer>
-      <offer id="4518" available="true">
+      <offer id="4518" available="false">
         <vendorCode>KIKNPSC47652</vendorCode>
-        <quantity_in_stock>10</quantity_in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
       </offer>
       <offer id="4519" available="true">
         <vendorCode>KIKNPSC47653</vendorCode>
@@ -5114,7 +5114,7 @@
       </offer>
       <offer id="4607" available="true">
         <vendorCode>ЗС000475</vendorCode>
-        <quantity_in_stock>26</quantity_in_stock>
+        <quantity_in_stock>24</quantity_in_stock>
       </offer>
       <offer id="4608" available="true">
         <vendorCode>ЗС000476</vendorCode>
@@ -5122,7 +5122,7 @@
       </offer>
       <offer id="4609" available="true">
         <vendorCode>ЗС000477</vendorCode>
-        <quantity_in_stock>36</quantity_in_stock>
+        <quantity_in_stock>35</quantity_in_stock>
       </offer>
       <offer id="4610" available="true">
         <vendorCode>ЗС000478</vendorCode>
@@ -5154,7 +5154,7 @@
       </offer>
       <offer id="4720" available="true">
         <vendorCode>0025 маска 20мл</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>101.28</price>
         <currencyId>UAH</currencyId>
       </offer>
@@ -5232,7 +5232,7 @@
       </offer>
       <offer id="4818" available="true">
         <vendorCode>4609 H270100</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>801.24</price>
         <currencyId>UAH</currencyId>
       </offer>
@@ -5244,13 +5244,13 @@
       </offer>
       <offer id="4860" available="true">
         <vendorCode>2391 G10IN1</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>993.06</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="4893" available="true">
         <vendorCode>9118 SHGINKO300</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>1881.48</price>
         <currencyId>UAH</currencyId>
       </offer>
@@ -5262,7 +5262,7 @@
       </offer>
       <offer id="4895" available="true">
         <vendorCode>4708 VSHALG0300</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>453.06</price>
         <currencyId>UAH</currencyId>
       </offer>
@@ -5274,7 +5274,7 @@
       </offer>
       <offer id="4902" available="true">
         <vendorCode>4678 NVSHALG10000</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>5870.7</price>
         <currencyId>UAH</currencyId>
       </offer>
@@ -5286,79 +5286,79 @@
       </offer>
       <offer id="4909" available="true">
         <vendorCode>4837 BNSHALAT10000</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>3580.86</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="4910" available="true">
         <vendorCode>0281 DERMCOND1000</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>3913.8</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="4911" available="true">
         <vendorCode>0298 DERMOIL500</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>6608.22</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="4937" available="true">
         <vendorCode>0051 BALAL300</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>898.2</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="4938" available="true">
         <vendorCode>0037 BALCO300</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>898.2</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="4939" available="true">
         <vendorCode>0334 BALCHE300</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>898.2</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="4940" available="true">
         <vendorCode>0006 SHAAL300</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>723.96</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="4941" available="true">
         <vendorCode>0044 SHACO300</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>723.96</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="4942" available="true">
         <vendorCode>0273 SHACHE300</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>723.96</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="4943" available="true">
         <vendorCode>0112 BALAL1000</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>2065.32</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="4944" available="true">
         <vendorCode>0136 BALAL3000</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>4581.6</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="4945" available="true">
         <vendorCode>0105 BALCO1000</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>2065.32</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="4946" available="true">
         <vendorCode>0143 BALCO3000</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>4581.6</price>
         <currencyId>UAH</currencyId>
       </offer>
@@ -5370,43 +5370,43 @@
       </offer>
       <offer id="4948" available="true">
         <vendorCode>0396 BIFHC250</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>1794.3</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="4949" available="true">
         <vendorCode>0099 SHAAL1000</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>1438.2</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="4950" available="true">
         <vendorCode>0174 SHAAL3000</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>3588.6</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="4951" available="true">
         <vendorCode>0082 SHACO1000</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>1438.2</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="4953" available="true">
         <vendorCode>0297 SHACHE1000</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>1438.2</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="4964" available="true">
         <vendorCode>0176 NPRLUP150</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>1176.9</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="4966" available="true">
         <vendorCode>0411 PRUBOX150</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>828.54</price>
         <currencyId>UAH</currencyId>
       </offer>
@@ -5418,19 +5418,19 @@
       </offer>
       <offer id="4971" available="true">
         <vendorCode>6631 / 19395</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>1126.68</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="4976" available="true">
         <vendorCode>6709 POMP01</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>481.5</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="4978" available="true">
         <vendorCode>6693 POMPLITRO</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>115.62</price>
         <currencyId>UAH</currencyId>
       </offer>
@@ -5442,19 +5442,19 @@
       </offer>
       <offer id="4980" available="true">
         <vendorCode>6716 POMPE</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>481.5</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="4988" available="true">
         <vendorCode>719// 31383/A</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>1203.72</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="5019" available="true">
         <vendorCode>111//19394</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>1049.64</price>
         <currencyId>UAH</currencyId>
       </offer>
@@ -5466,151 +5466,151 @@
       </offer>
       <offer id="5024" available="true">
         <vendorCode>H1CD3AL3800HYKNN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>8334.96</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="5025" available="true">
         <vendorCode>H1SH3VL0100HYKNN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>561.36</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="5026" available="true">
         <vendorCode>H1SH3VL0500HYKNN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>2041.26</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="5027" available="true">
         <vendorCode>H1SH3VL3800HYKNN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>7229.28</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="5028" available="true">
         <vendorCode>H1SH2DV3800HYKNN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>6463.8</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="5029" available="true">
         <vendorCode>H1SH2MO3800HYKNN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>6463.8</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="5030" available="true">
         <vendorCode>H1SH2VL3800HYKNN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>6463.8</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="5031" available="true">
         <vendorCode>H1SH2DV0100HYKNN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>493.32</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="5032" available="true">
         <vendorCode>H1SH2DV0530HYKNN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>1564.98</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="5033" available="true">
         <vendorCode>H1SH2DV1500HYKNN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>2976.84</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="5034" available="true">
         <vendorCode>H1SH2MO0100HYKNN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>493.32</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="5035" available="true">
         <vendorCode>H1SH2MO0530HYKNN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>1564.98</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="5036" available="true">
         <vendorCode>H1SH2MO1500HYKNN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>2976.84</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="5038" available="true">
         <vendorCode>H1SH2VL0530HYKNN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>1564.98</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="5039" available="true">
         <vendorCode>H1SH2VL1500HYKNN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>2976.84</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="5040" available="true">
         <vendorCode>H1SH1WH0500HYKNN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>1445.88</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="5041" available="true">
         <vendorCode>H1SH1BA0500HYKNN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>1445.88</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="5043" available="true">
         <vendorCode>H1SH1AL0500HYKNN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>1445.88</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="5044" available="true">
         <vendorCode>H1SH1AL0500NOKNN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>1442.1</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="5045" available="true">
         <vendorCode>H3WL1AL0190HYKNN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>952.62</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="5046" available="true">
         <vendorCode>H3WL1AL0190NOKNN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>952.62</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="5047" available="true">
         <vendorCode>H1SH1WH0300HYOFN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>1071.66</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="5048" available="true">
         <vendorCode>H1SH1WH1500HYKNN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>3647.52</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="5049" available="true">
         <vendorCode>H1SH1BA0300HYOFN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>1071.66</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="5050" available="true">
         <vendorCode>H1SH1BA1500HYKNN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>3647.52</price>
         <currencyId>UAH</currencyId>
       </offer>
@@ -5622,7 +5622,7 @@
       </offer>
       <offer id="5052" available="true">
         <vendorCode>H2SH1AL0100NOKNN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>458.16</price>
         <currencyId>UAH</currencyId>
       </offer>
@@ -5634,7 +5634,7 @@
       </offer>
       <offer id="5055" available="true">
         <vendorCode>H2SH1AL0100HYKNN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>458.16</price>
         <currencyId>UAH</currencyId>
       </offer>
@@ -5646,31 +5646,31 @@
       </offer>
       <offer id="5057" available="true">
         <vendorCode>H2SH1AL0300HYKNN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>1071.66</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="5059" available="true">
         <vendorCode>H1SH1AL0300HYOFN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>1071.66</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="5060" available="true">
         <vendorCode>H1SH1AL1500HYKNN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>3647.52</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="5061" available="true">
         <vendorCode>H1SH1AL0300NOOFN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>1068.9</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="5062" available="true">
         <vendorCode>H1SH1AL1500NOKNN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>3647.52</price>
         <currencyId>UAH</currencyId>
       </offer>
@@ -5682,7 +5682,7 @@
       </offer>
       <offer id="5065" available="true">
         <vendorCode>H1CD4VL3800HYKNN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>5273.16</price>
         <currencyId>UAH</currencyId>
       </offer>
@@ -5694,139 +5694,139 @@
       </offer>
       <offer id="5067" available="true">
         <vendorCode>H1SH1BF0080HYKNN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>544.38</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="5068" available="true">
         <vendorCode>H1SH1RT0080HYKNN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>544.38</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="5069" available="true">
         <vendorCode>H1SH1BF0300HYKNN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>1275.78</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="5070" available="true">
         <vendorCode>H1SH1BF0500HYKNN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>1871.16</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="5071" available="true">
         <vendorCode>H1SH1RT1500HYKNN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>4082.46</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="5077" available="true">
         <vendorCode>H3DO1AL0100OCKNN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>323.22</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="5078" available="true">
         <vendorCode>H3DO1AL0100GLKNN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>323.22</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="5079" available="true">
         <vendorCode>H3RM1TS0120NOKNN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>1105.74</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="5080" available="true">
         <vendorCode>H2ER1AL0120NOKNN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>763.56</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="5081" available="true">
         <vendorCode>H1ER1AL0120NOKNN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>765.54</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="5082" available="true">
         <vendorCode>H3MI1AL0100HYKNN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>714.42</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="5083" available="true">
         <vendorCode>H3MI1AL0237HOKNN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>1241.76</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="5084" available="true">
         <vendorCode>H3MI1AL0237HYKNN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>1241.76</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="5085" available="true">
         <vendorCode>H3YP1CP0050ZZKNN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>339.42</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="5086" available="true">
         <vendorCode>H3PW1GC0024NOKNN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>884.58</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="5087" available="true">
         <vendorCode>H1MI1AL0055DSENN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>475.08</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="5088" available="true">
         <vendorCode>H3DO1AL0500OCKNN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>593.88</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="5090" available="true">
         <vendorCode>H3DO1AL0500GLKNN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>593.88</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="5093" available="true">
         <vendorCode>H3ER1AL0030NOKNN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>323.22</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="5094" available="true">
         <vendorCode>H1ER1AL0500NOKNN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>2041.26</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="5095" available="true">
         <vendorCode>H3MI1AL0055HYKNN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>374.22</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="5096" available="true">
         <vendorCode>H3MI1AL1000HYKNN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>3385.02</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="5097" available="true">
         <vendorCode>H3PW1GC0100NOKNN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>3477.84</price>
         <currencyId>UAH</currencyId>
       </offer>
@@ -5838,7 +5838,7 @@
       </offer>
       <offer id="5099" available="true">
         <vendorCode>H1MI1AL0237DSENN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>1323.3</price>
         <currencyId>UAH</currencyId>
       </offer>
@@ -5854,7 +5854,7 @@
       </offer>
       <offer id="5116" available="true">
         <vendorCode>ЗС000470</vendorCode>
-        <quantity_in_stock>36</quantity_in_stock>
+        <quantity_in_stock>34</quantity_in_stock>
       </offer>
       <offer id="5117" available="true">
         <vendorCode>ЗС000471</vendorCode>
@@ -5914,11 +5914,11 @@
       </offer>
       <offer id="5233" available="true">
         <vendorCode>ЗС000490</vendorCode>
-        <quantity_in_stock>9</quantity_in_stock>
+        <quantity_in_stock>6</quantity_in_stock>
       </offer>
       <offer id="5234" available="true">
         <vendorCode>ЗС000492</vendorCode>
-        <quantity_in_stock>50</quantity_in_stock>
+        <quantity_in_stock>49</quantity_in_stock>
       </offer>
       <offer id="5235" available="true">
         <vendorCode>ЗС000493</vendorCode>
@@ -5926,7 +5926,7 @@
       </offer>
       <offer id="5236" available="true">
         <vendorCode>ЗС000494</vendorCode>
-        <quantity_in_stock>46</quantity_in_stock>
+        <quantity_in_stock>44</quantity_in_stock>
       </offer>
       <offer id="5237" available="true">
         <vendorCode>ЗС000480</vendorCode>
@@ -6356,9 +6356,9 @@
         <vendorCode>5689_1.5</vendorCode>
         <quantity_in_stock>0</quantity_in_stock>
       </offer>
-      <offer id="4035" available="false">
+      <offer id="4035" available="true">
         <vendorCode>056750</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
         <price>3906.24</price>
         <currencyId>UAH</currencyId>
       </offer>
@@ -6374,9 +6374,9 @@
         <price>2807.7</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4138" available="false">
+      <offer id="4138" available="true">
         <vendorCode>740138 - 1220</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>521.34</price>
         <currencyId>UAH</currencyId>
       </offer>
@@ -6558,45 +6558,45 @@
         <vendorCode>70100_box9</vendorCode>
         <quantity_in_stock>0</quantity_in_stock>
       </offer>
-      <offer id="4724" available="false">
+      <offer id="4724" available="true">
         <vendorCode>0029 маска 20мл</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>101.28</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4896" available="false">
+      <offer id="4896" available="true">
         <vendorCode>4845 NVSHATT300</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>654.24</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4897" available="false">
+      <offer id="4897" available="true">
         <vendorCode>4722 VSHGIN0300</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
         <price>453.06</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4900" available="false">
+      <offer id="4900" available="true">
         <vendorCode>4746 VSHMAN0300</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
         <price>654.24</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4901" available="false">
+      <offer id="4901" available="true">
         <vendorCode>4807 NVBALERB5000</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>6228.78</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4903" available="false">
+      <offer id="4903" available="true">
         <vendorCode>4852 NVSHATT10000</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
         <price>6445.62</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4904" available="false">
+      <offer id="4904" available="true">
         <vendorCode>4654 NVSHERB10000</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>5870.7</price>
         <currencyId>UAH</currencyId>
       </offer>
@@ -6606,9 +6606,9 @@
         <price>5870.7</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4906" available="false">
+      <offer id="4906" available="true">
         <vendorCode>4647 NVSHMAN10000</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
         <price>6445.62</price>
         <currencyId>UAH</currencyId>
       </offer>
@@ -6618,69 +6618,69 @@
         <price>3580.86</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4912" available="false">
+      <offer id="4912" available="true">
         <vendorCode>0274 DERMSH1000</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
         <price>3367.98</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4913" available="false">
+      <offer id="4913" available="true">
         <vendorCode>9798 NK101</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
         <price>2640.24</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4914" available="false">
+      <offer id="4914" available="true">
         <vendorCode>1030 SIL</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
         <price>1629.78</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4915" available="false">
+      <offer id="4915" available="true">
         <vendorCode>9712 NPURSHA1000</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>1776.9</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4916" available="false">
+      <offer id="4916" available="true">
         <vendorCode>2200 NPURSHA5000</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>7517.94</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4917" available="false">
+      <offer id="4917" available="true">
         <vendorCode>2117 LOZH0150</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>2299.5</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4918" available="false">
+      <offer id="4918" available="true">
         <vendorCode>9614 SHAH3000</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
         <price>4146.12</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4919" available="false">
+      <offer id="4919" available="true">
         <vendorCode>0781 SHAH0250</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>915.6</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4920" available="false">
+      <offer id="4920" available="true">
         <vendorCode>9591 SHAPLUS3000</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>12221.46</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4921" available="false">
+      <offer id="4921" available="true">
         <vendorCode>0828 SHAPLUS0100</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
         <price>619.44</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4922" available="false">
+      <offer id="4922" available="true">
         <vendorCode>1135 SHAPLUS1000</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>5166.18</price>
         <currencyId>UAH</currencyId>
       </offer>
@@ -6690,87 +6690,87 @@
         <price>2456.4</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4924" available="false">
+      <offer id="4924" available="true">
         <vendorCode>9958 NSHAZOL250</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
         <price>1054.98</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4925" available="false">
+      <offer id="4925" available="true">
         <vendorCode>9676 GELSOS100</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>1533.06</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4926" available="false">
+      <offer id="4926" available="true">
         <vendorCode>9713 TONLAV300</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>1420.8</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4927" available="false">
+      <offer id="4927" available="true">
         <vendorCode>9690 TONLAV3000</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>7099.86</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4928" available="false">
+      <offer id="4928" available="true">
         <vendorCode>9751 TONNUT300</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>1420.8</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4929" available="false">
+      <offer id="4929" available="true">
         <vendorCode>9737 TONNUT3000</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
         <price>7099.86</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4930" available="false">
+      <offer id="4930" available="true">
         <vendorCode>9799 PELEXT300</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
         <price>1637.64</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4931" available="false">
+      <offer id="4931" available="true">
         <vendorCode>9775 PELEXT3000</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>8737.32</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4932" available="false">
+      <offer id="4932" available="true">
         <vendorCode>9812 SERUMSK150</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
         <price>1873.74</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4933" available="false">
+      <offer id="4933" available="true">
         <vendorCode>9836 SERUMSL150</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
         <price>1533.06</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4934" available="false">
+      <offer id="4934" available="true">
         <vendorCode>1105 PHASE 1</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>2744.7</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4935" available="false">
+      <offer id="4935" available="true">
         <vendorCode>1136 PHASE 2</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
         <price>2744.7</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4936" available="false">
+      <offer id="4936" available="true">
         <vendorCode>1150 PHASE 4</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
         <price>1533.06</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4952" available="false">
+      <offer id="4952" available="true">
         <vendorCode>0129 SHACO3000</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
         <price>3588.6</price>
         <currencyId>UAH</currencyId>
       </offer>
@@ -6780,51 +6780,51 @@
         <price>3588.6</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4955" available="false">
+      <offer id="4955" available="true">
         <vendorCode>9970 NMASK02100</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>561.36</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4956" available="false">
+      <offer id="4956" available="true">
         <vendorCode>9963 NSHA01100</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>542.04</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4957" available="false">
+      <offer id="4957" available="true">
         <vendorCode>9996 NSHA01250</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>1176.9</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4958" available="false">
+      <offer id="4958" available="true">
         <vendorCode>0015 NSHA011000</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>3145.44</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4959" available="false">
+      <offer id="4959" available="true">
         <vendorCode>0046 NSHA013000</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>7430.76</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4960" available="false">
+      <offer id="4960" available="true">
         <vendorCode>0060 NMASK02250</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>1403.34</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4961" available="false">
+      <offer id="4961" available="true">
         <vendorCode>0084 NMASK021000</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>3371.88</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4962" available="false">
+      <offer id="4962" available="true">
         <vendorCode>0107 NMASK023000</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>8145.06</price>
         <currencyId>UAH</currencyId>
       </offer>
@@ -6834,9 +6834,9 @@
         <price>1533.06</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4965" available="false">
+      <offer id="4965" available="true">
         <vendorCode>617// KITCOLL</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>3720.3</price>
         <currencyId>UAH</currencyId>
       </offer>
@@ -6852,21 +6852,21 @@
         <price>2605.44</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4970" available="false">
+      <offer id="4970" available="true">
         <vendorCode>6655 /10604</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>260.04</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4972" available="false">
+      <offer id="4972" available="true">
         <vendorCode>6617 / 1883933</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
         <price>481.5</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4973" available="false">
+      <offer id="4973" available="true">
         <vendorCode>6624/ 1883950</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
         <price>481.5</price>
         <currencyId>UAH</currencyId>
       </offer>
@@ -6876,189 +6876,189 @@
         <price>722.22</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4975" available="false">
+      <offer id="4975" available="true">
         <vendorCode>7577 POMP02</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>481.5</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4977" available="false">
+      <offer id="4977" available="true">
         <vendorCode>7584 POMPBIG</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
         <price>481.5</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4981" available="false">
+      <offer id="4981" available="true">
         <vendorCode>0151030//0535</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>2888.82</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4982" available="false">
+      <offer id="4982" available="true">
         <vendorCode>6686 / 31204134</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
         <price>568.14</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4983" available="false">
+      <offer id="4983" available="true">
         <vendorCode>1358 ACCAP/S</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>1608.12</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4984" available="false">
+      <offer id="4984" available="true">
         <vendorCode>841// 6600578/ROSA</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
         <price>722.22</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4985" available="false">
+      <offer id="4985" available="true">
         <vendorCode>198//6600626/SWAN</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>722.22</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4986" available="false">
+      <offer id="4986" available="true">
         <vendorCode>204//6600626/KISS</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
         <price>722.22</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4987" available="false">
+      <offer id="4987" available="true">
         <vendorCode>181//6600626/FAN</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
         <price>722.22</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4989" available="false">
+      <offer id="4989" available="true">
         <vendorCode>12982</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
         <price>13567.74</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4990" available="false">
+      <offer id="4990" available="true">
         <vendorCode>15660</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>22927.44</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4991" available="false">
+      <offer id="4991" available="true">
         <vendorCode>15661</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>22927.44</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4992" available="false">
+      <offer id="4992" available="true">
         <vendorCode>FA 35-85//9507</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>14675.16</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4993" available="false">
+      <offer id="4993" available="true">
         <vendorCode>12978</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>12999.6</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4994" available="false">
+      <offer id="4994" available="true">
         <vendorCode>12980</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>13567.74</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4995" available="false">
+      <offer id="4995" available="true">
         <vendorCode>SK2W-85//9569</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>13760.34</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4996" available="false">
+      <offer id="4996" available="true">
         <vendorCode>12985</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
         <price>13567.74</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4997" available="false">
+      <offer id="4997" available="true">
         <vendorCode>12966</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
         <price>5623.56</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4998" available="false">
+      <offer id="4998" available="true">
         <vendorCode>12988</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
         <price>10438.2</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="4999" available="false">
+      <offer id="4999" available="true">
         <vendorCode>12977</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
         <price>11478.18</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="5000" available="false">
+      <offer id="5000" available="true">
         <vendorCode>15654</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>16514.34</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="5001" available="false">
+      <offer id="5001" available="true">
         <vendorCode>15655</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>16966.92</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="5002" available="false">
+      <offer id="5002" available="true">
         <vendorCode>15656</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>17881.68</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="5003" available="false">
+      <offer id="5003" available="true">
         <vendorCode>15657</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>19258.68</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="5004" available="false">
+      <offer id="5004" available="true">
         <vendorCode>S0021</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
         <price>4342.86</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="5005" available="false">
+      <offer id="5005" available="true">
         <vendorCode>ST0010</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>6509.46</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="5006" available="false">
+      <offer id="5006" available="true">
         <vendorCode>12983</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
         <price>17178.78</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="5007" available="false">
+      <offer id="5007" available="true">
         <vendorCode>12993</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
         <price>12518.16</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="5008" available="false">
+      <offer id="5008" available="true">
         <vendorCode>15659</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>20183.1</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="5009" available="false">
+      <offer id="5009" available="true">
         <vendorCode>15658</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>20183.1</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="5010" available="false">
+      <offer id="5010" available="true">
         <vendorCode>642//1050-09</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>1757.4</price>
         <currencyId>UAH</currencyId>
       </offer>
@@ -7068,45 +7068,45 @@
         <price>1629</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="5012" available="false">
+      <offer id="5012" available="true">
         <vendorCode>666//1052-09</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>1380.24</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="5013" available="false">
+      <offer id="5013" available="true">
         <vendorCode>673//1053-09</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
         <price>1251.84</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="5014" available="false">
+      <offer id="5014" available="true">
         <vendorCode>598//1578-09</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>1508.64</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="5015" available="false">
+      <offer id="5015" available="true">
         <vendorCode>574//1510-09</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>1251.84</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="5016" available="false">
+      <offer id="5016" available="true">
         <vendorCode>581//6171-09</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>1508.64</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="5017" available="false">
+      <offer id="5017" available="true">
         <vendorCode>567//1575-09</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>1629</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="5018" available="false">
+      <offer id="5018" available="true">
         <vendorCode>550//5171-09</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>1251.84</price>
         <currencyId>UAH</currencyId>
       </offer>
@@ -7116,27 +7116,27 @@
         <price>2296.44</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="5037" available="false">
+      <offer id="5037" available="true">
         <vendorCode>H1SH2VL0100HYKNN</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>493.32</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="5042" available="false">
+      <offer id="5042" available="true">
         <vendorCode>H1SH1VL0500HYKNN</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
         <price>1442.1</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="5054" available="false">
+      <offer id="5054" available="true">
         <vendorCode>H2SH1AL0300NOKNN</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
         <price>1068.9</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="5058" available="false">
+      <offer id="5058" available="true">
         <vendorCode>H1SH1AL0010HYKNN</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>46.02</price>
         <currencyId>UAH</currencyId>
       </offer>
@@ -7146,45 +7146,45 @@
         <price>2806.68</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="5072" available="false">
+      <offer id="5072" available="true">
         <vendorCode>H3YP0BT0500ZZKNN</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>255.18</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="5073" available="false">
+      <offer id="5073" available="true">
         <vendorCode>H1YP0TW0000ZZKNN</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>2636.64</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="5074" available="false">
+      <offer id="5074" available="true">
         <vendorCode>H4PD0ZZ0000ZZKNN</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>4241.28</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="5075" available="false">
+      <offer id="5075" available="true">
         <vendorCode>H3YP0SP0300ZZKNN</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>816.54</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="5076" available="false">
+      <offer id="5076" available="true">
         <vendorCode>H3YP0BT0700ZZKNN</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
         <price>816.54</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="5089" available="false">
+      <offer id="5089" available="true">
         <vendorCode>H3DO1AL3800OCKNN</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
         <price>2968.86</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="5091" available="false">
+      <offer id="5091" available="true">
         <vendorCode>H3DO1AL3800GLKNN</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
         <price>2968.86</price>
         <currencyId>UAH</currencyId>
       </offer>
@@ -7194,21 +7194,21 @@
         <price>391.32</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="5100" available="false">
+      <offer id="5100" available="true">
         <vendorCode>H1MS1MX0006MNKNS</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>1445.88</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="5101" available="false">
+      <offer id="5101" available="true">
         <vendorCode>H1FS2MX0008STKNS</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>2415.48</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="5102" available="false">
+      <offer id="5102" available="true">
         <vendorCode>H1FS3MX0007STKNS</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>3021</price>
         <currencyId>UAH</currencyId>
       </offer>

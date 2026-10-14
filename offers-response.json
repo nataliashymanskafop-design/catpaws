@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T05:57:29Z",
+  "updatedAt": "2026-10-14T11:40:13Z",
   "total": 1693,
   "data": [
     {
@@ -175,11 +175,11 @@
       "price": 2307,
       "old_price": 2884,
       "availability": true,
-      "stock": 16,
+      "stock": 15,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 16
+          "stock": 15
         }
       ],
       "warranty_type": "no",
@@ -875,11 +875,11 @@
       "price": 3705,
       "old_price": null,
       "availability": true,
-      "stock": 2,
+      "stock": 1,
       "warehouses": [
         {
           "id": "SUPPLIER",
-          "stock": 2
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -1071,11 +1071,11 @@
       "price": 3152,
       "old_price": 3940,
       "availability": true,
-      "stock": 15,
+      "stock": 1,
       "warehouses": [
         {
-          "id": "HOME_FOOD",
-          "stock": 15
+          "id": "SUPPLIER",
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -1127,11 +1127,11 @@
       "price": 758,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "SUPPLIER",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -1211,11 +1211,11 @@
       "price": 3595,
       "old_price": 4229,
       "availability": true,
-      "stock": 1,
+      "stock": 20,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 1
+          "id": "HOME_FOOD",
+          "stock": 20
         }
       ],
       "warranty_type": "no",
@@ -4682,12 +4682,12 @@
       "code": "NPS45724",
       "price": 866,
       "old_price": null,
-      "availability": true,
-      "stock": 5,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 5
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -7623,11 +7623,11 @@
       "price": 990,
       "old_price": null,
       "availability": true,
-      "stock": 2,
+      "stock": 4,
       "warehouses": [
         {
           "id": "SUPPLIER",
-          "stock": 2
+          "stock": 4
         }
       ],
       "warranty_type": "no",
@@ -9453,7 +9453,7 @@
       "warranty_type": "no",
       "warranty_period": 0,
       "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
+      "days_to_dispatch": 1,
       "delivery_methods": [
         {
           "method": "nova-post:branch",
@@ -9481,7 +9481,7 @@
       "warranty_type": "no",
       "warranty_period": 0,
       "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
+      "days_to_dispatch": 1,
       "delivery_methods": [
         {
           "method": "nova-post:branch",
@@ -9509,7 +9509,7 @@
       "warranty_type": "no",
       "warranty_period": 0,
       "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
+      "days_to_dispatch": 1,
       "delivery_methods": [
         {
           "method": "nova-post:branch",
@@ -9537,7 +9537,7 @@
       "warranty_type": "no",
       "warranty_period": 0,
       "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
+      "days_to_dispatch": 1,
       "delivery_methods": [
         {
           "method": "nova-post:branch",
@@ -9565,7 +9565,7 @@
       "warranty_type": "no",
       "warranty_period": 0,
       "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
+      "days_to_dispatch": 1,
       "delivery_methods": [
         {
           "method": "nova-post:branch",
@@ -9593,7 +9593,7 @@
       "warranty_type": "no",
       "warranty_period": 0,
       "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
+      "days_to_dispatch": 1,
       "delivery_methods": [
         {
           "method": "nova-post:branch",
@@ -9649,7 +9649,7 @@
       "warranty_type": "no",
       "warranty_period": 0,
       "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
+      "days_to_dispatch": 1,
       "delivery_methods": [
         {
           "method": "nova-post:branch",
@@ -10087,17 +10087,17 @@
       "price": 630,
       "old_price": null,
       "availability": true,
-      "stock": 19,
+      "stock": 1,
       "warehouses": [
         {
-          "id": "DOMS",
-          "stock": 19
+          "id": "SUPPLIER",
+          "stock": 1
         }
       ],
       "warranty_type": "no",
       "warranty_period": 0,
       "max_pay_in_parts": 6,
-      "days_to_dispatch": 2,
+      "days_to_dispatch": 1,
       "delivery_methods": [
         {
           "method": "nova-post:branch",
@@ -10479,11 +10479,11 @@
       "price": 3294,
       "old_price": null,
       "availability": true,
-      "stock": 20,
+      "stock": 3,
       "warehouses": [
         {
-          "id": "HOME_FOOD",
-          "stock": 20
+          "id": "SUPPLIER",
+          "stock": 3
         }
       ],
       "warranty_type": "no",
@@ -11917,7 +11917,7 @@
       "warranty_type": "no",
       "warranty_period": 0,
       "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
+      "days_to_dispatch": 1,
       "delivery_methods": [
         {
           "method": "nova-post:branch",
@@ -11945,7 +11945,7 @@
       "warranty_type": "no",
       "warranty_period": 0,
       "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
+      "days_to_dispatch": 1,
       "delivery_methods": [
         {
           "method": "nova-post:branch",
@@ -13541,7 +13541,7 @@
       "warranty_type": "no",
       "warranty_period": 0,
       "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
+      "days_to_dispatch": 1,
       "delivery_methods": [
         {
           "method": "nova-post:branch",
@@ -13569,7 +13569,7 @@
       "warranty_type": "no",
       "warranty_period": 0,
       "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
+      "days_to_dispatch": 1,
       "delivery_methods": [
         {
           "method": "nova-post:branch",
@@ -13597,7 +13597,7 @@
       "warranty_type": "no",
       "warranty_period": 0,
       "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
+      "days_to_dispatch": 1,
       "delivery_methods": [
         {
           "method": "nova-post:branch",
@@ -15893,7 +15893,7 @@
       "warranty_type": "no",
       "warranty_period": 0,
       "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
+      "days_to_dispatch": 1,
       "delivery_methods": [
         {
           "method": "nova-post:branch",
@@ -17731,11 +17731,11 @@
       "price": 346,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -18319,11 +18319,11 @@
       "price": 5262,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -18403,11 +18403,11 @@
       "price": 1629,
       "old_price": 2173,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -18543,11 +18543,11 @@
       "price": 4972,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -18599,11 +18599,11 @@
       "price": 4202,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -18627,11 +18627,11 @@
       "price": 5426,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -18655,11 +18655,11 @@
       "price": 5995,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -18683,11 +18683,11 @@
       "price": 738,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -18711,11 +18711,11 @@
       "price": 1930,
       "old_price": 2573,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -18795,11 +18795,11 @@
       "price": 1683,
       "old_price": 2244,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -18879,11 +18879,11 @@
       "price": 593,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -19243,11 +19243,11 @@
       "price": 2701,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -19271,11 +19271,11 @@
       "price": 3131,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -19299,11 +19299,11 @@
       "price": 2683,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -19355,11 +19355,11 @@
       "price": 2808,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -19383,11 +19383,11 @@
       "price": 2808,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -19411,11 +19411,11 @@
       "price": 2843,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -19439,11 +19439,11 @@
       "price": 2858,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -19467,11 +19467,11 @@
       "price": 2886,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -19495,11 +19495,11 @@
       "price": 2886,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -19523,11 +19523,11 @@
       "price": 2701,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -19579,11 +19579,11 @@
       "price": 2808,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -19607,11 +19607,11 @@
       "price": 2666,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -19635,11 +19635,11 @@
       "price": 2886,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -19663,11 +19663,11 @@
       "price": 2876,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -19691,11 +19691,11 @@
       "price": 2808,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -20083,11 +20083,11 @@
       "price": 4100,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -20111,11 +20111,11 @@
       "price": 1368,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -20139,11 +20139,11 @@
       "price": 4212,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -20223,17 +20223,17 @@
       "price": 606,
       "old_price": null,
       "availability": true,
-      "stock": 17,
+      "stock": 16,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 17
+          "stock": 16
         }
       ],
       "warranty_type": "no",
       "warranty_period": 0,
       "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
+      "days_to_dispatch": 1,
       "delivery_methods": [
         {
           "method": "nova-post:branch",
@@ -20261,7 +20261,7 @@
       "warranty_type": "no",
       "warranty_period": 0,
       "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
+      "days_to_dispatch": 1,
       "delivery_methods": [
         {
           "method": "nova-post:branch",
@@ -20289,7 +20289,7 @@
       "warranty_type": "no",
       "warranty_period": 0,
       "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
+      "days_to_dispatch": 1,
       "delivery_methods": [
         {
           "method": "nova-post:branch",
@@ -20317,7 +20317,7 @@
       "warranty_type": "no",
       "warranty_period": 0,
       "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
+      "days_to_dispatch": 1,
       "delivery_methods": [
         {
           "method": "nova-post:branch",
@@ -22266,12 +22266,12 @@
       "code": "KIKNPSC47652",
       "price": 321,
       "old_price": null,
-      "availability": true,
-      "stock": 10,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 10
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -23275,17 +23275,17 @@
       "price": 516,
       "old_price": null,
       "availability": true,
-      "stock": 26,
+      "stock": 24,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 26
+          "stock": 24
         }
       ],
       "warranty_type": "no",
       "warranty_period": 0,
       "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
+      "days_to_dispatch": 1,
       "delivery_methods": [
         {
           "method": "nova-post:branch",
@@ -23313,7 +23313,7 @@
       "warranty_type": "no",
       "warranty_period": 0,
       "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
+      "days_to_dispatch": 1,
       "delivery_methods": [
         {
           "method": "nova-post:branch",
@@ -23331,17 +23331,17 @@
       "price": 564,
       "old_price": null,
       "availability": true,
-      "stock": 36,
+      "stock": 35,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 36
+          "stock": 35
         }
       ],
       "warranty_type": "no",
       "warranty_period": 0,
       "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
+      "days_to_dispatch": 1,
       "delivery_methods": [
         {
           "method": "nova-post:branch",
@@ -23369,7 +23369,7 @@
       "warranty_type": "no",
       "warranty_period": 0,
       "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
+      "days_to_dispatch": 1,
       "delivery_methods": [
         {
           "method": "nova-post:branch",
@@ -23397,7 +23397,7 @@
       "warranty_type": "no",
       "warranty_period": 0,
       "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
+      "days_to_dispatch": 1,
       "delivery_methods": [
         {
           "method": "nova-post:branch",
@@ -23583,11 +23583,11 @@
       "price": 801,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -23639,11 +23639,11 @@
       "price": 993,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -23667,11 +23667,11 @@
       "price": 1881,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -23723,11 +23723,11 @@
       "price": 453,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -23779,11 +23779,11 @@
       "price": 4990,
       "old_price": 5871,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -23835,11 +23835,11 @@
       "price": 3581,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -23863,11 +23863,11 @@
       "price": 2935,
       "old_price": 3914,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -23891,11 +23891,11 @@
       "price": 4956,
       "old_price": 6608,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -23919,11 +23919,11 @@
       "price": 898,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -23947,11 +23947,11 @@
       "price": 898,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -23975,11 +23975,11 @@
       "price": 898,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -24003,11 +24003,11 @@
       "price": 724,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -24031,11 +24031,11 @@
       "price": 724,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -24059,11 +24059,11 @@
       "price": 724,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -24087,11 +24087,11 @@
       "price": 1549,
       "old_price": 2065,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -24115,11 +24115,11 @@
       "price": 4582,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -24143,11 +24143,11 @@
       "price": 1549,
       "old_price": 2065,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -24171,11 +24171,11 @@
       "price": 4582,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -24227,11 +24227,11 @@
       "price": 1346,
       "old_price": 1794,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -24255,11 +24255,11 @@
       "price": 1079,
       "old_price": 1438,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -24283,11 +24283,11 @@
       "price": 3589,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -24311,11 +24311,11 @@
       "price": 1079,
       "old_price": 1438,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -24339,11 +24339,11 @@
       "price": 1079,
       "old_price": 1438,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -24367,11 +24367,11 @@
       "price": 1177,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -24395,11 +24395,11 @@
       "price": 829,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -24451,11 +24451,11 @@
       "price": 1127,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -24479,11 +24479,11 @@
       "price": 482,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -24535,11 +24535,11 @@
       "price": 482,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -24563,11 +24563,11 @@
       "price": 1204,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -24591,11 +24591,11 @@
       "price": 1050,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -24647,11 +24647,11 @@
       "price": 8335,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -24675,11 +24675,11 @@
       "price": 421,
       "old_price": 561,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -24703,11 +24703,11 @@
       "price": 1531,
       "old_price": 2041,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -24731,11 +24731,11 @@
       "price": 7229,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -24759,11 +24759,11 @@
       "price": 6464,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -24787,11 +24787,11 @@
       "price": 6464,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -24815,11 +24815,11 @@
       "price": 6464,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -24843,11 +24843,11 @@
       "price": 493,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -24871,11 +24871,11 @@
       "price": 1174,
       "old_price": 1565,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -24899,11 +24899,11 @@
       "price": 2977,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -24927,11 +24927,11 @@
       "price": 493,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -24955,11 +24955,11 @@
       "price": 1174,
       "old_price": 1565,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -24983,11 +24983,11 @@
       "price": 2977,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25011,11 +25011,11 @@
       "price": 1174,
       "old_price": 1565,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25039,11 +25039,11 @@
       "price": 2977,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25067,11 +25067,11 @@
       "price": 1446,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25095,11 +25095,11 @@
       "price": 1446,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25123,11 +25123,11 @@
       "price": 1446,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25151,11 +25151,11 @@
       "price": 1442,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25179,11 +25179,11 @@
       "price": 953,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25207,11 +25207,11 @@
       "price": 953,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25235,11 +25235,11 @@
       "price": 1072,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25263,11 +25263,11 @@
       "price": 3648,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25291,11 +25291,11 @@
       "price": 1072,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25319,11 +25319,11 @@
       "price": 2736,
       "old_price": 3648,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25375,11 +25375,11 @@
       "price": 458,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25403,11 +25403,11 @@
       "price": 458,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25431,11 +25431,11 @@
       "price": 1072,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25459,11 +25459,11 @@
       "price": 1072,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25487,11 +25487,11 @@
       "price": 2736,
       "old_price": 3648,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25515,11 +25515,11 @@
       "price": 1069,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25543,11 +25543,11 @@
       "price": 2736,
       "old_price": 3648,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25571,11 +25571,11 @@
       "price": 5273,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25599,11 +25599,11 @@
       "price": 544,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25627,11 +25627,11 @@
       "price": 544,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25655,11 +25655,11 @@
       "price": 1276,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25683,11 +25683,11 @@
       "price": 1871,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25711,11 +25711,11 @@
       "price": 4082,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25739,11 +25739,11 @@
       "price": 323,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25767,11 +25767,11 @@
       "price": 323,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25795,11 +25795,11 @@
       "price": 1106,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25823,11 +25823,11 @@
       "price": 764,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25851,11 +25851,11 @@
       "price": 766,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25879,11 +25879,11 @@
       "price": 714,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25907,11 +25907,11 @@
       "price": 931,
       "old_price": 1242,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25935,11 +25935,11 @@
       "price": 931,
       "old_price": 1242,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25963,11 +25963,11 @@
       "price": 339,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -25991,11 +25991,11 @@
       "price": 885,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -26019,11 +26019,11 @@
       "price": 475,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -26047,11 +26047,11 @@
       "price": 594,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -26075,11 +26075,11 @@
       "price": 594,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -26103,11 +26103,11 @@
       "price": 323,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -26131,11 +26131,11 @@
       "price": 1531,
       "old_price": 2041,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -26159,11 +26159,11 @@
       "price": 374,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -26187,11 +26187,11 @@
       "price": 3385,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -26215,11 +26215,11 @@
       "price": 3478,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -26243,11 +26243,11 @@
       "price": 992,
       "old_price": 1323,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -27905,7 +27905,7 @@
       "warranty_type": "no",
       "warranty_period": 0,
       "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
+      "days_to_dispatch": 1,
       "delivery_methods": [
         {
           "method": "nova-post:branch",
@@ -34390,12 +34390,12 @@
       "code": "056750",
       "price": 3906,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 1,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -34838,12 +34838,12 @@
       "code": "740138 - 1220",
       "price": 521,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -34933,7 +34933,7 @@
       "warranty_type": "no",
       "warranty_period": 0,
       "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
+      "days_to_dispatch": 1,
       "delivery_methods": [
         {
           "method": "nova-post:branch",
@@ -42566,12 +42566,12 @@
       "code": "4845 NVSHATT300",
       "price": 654,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -42594,12 +42594,12 @@
       "code": "4722 VSHGIN0300",
       "price": 453,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 1,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -42650,12 +42650,12 @@
       "code": "4746 VSHMAN0300",
       "price": 654,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 1,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -42678,12 +42678,12 @@
       "code": "4807 NVBALERB5000",
       "price": 5294,
       "old_price": 6229,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -42706,12 +42706,12 @@
       "code": "4852 NVSHATT10000",
       "price": 5479,
       "old_price": 6446,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 1,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -42734,12 +42734,12 @@
       "code": "4654 NVSHERB10000",
       "price": 4990,
       "old_price": 5871,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -42790,12 +42790,12 @@
       "code": "4647 NVSHMAN10000",
       "price": 5479,
       "old_price": 6446,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 1,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -42846,12 +42846,12 @@
       "code": "0274 DERMSH1000",
       "price": 2526,
       "old_price": 3368,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 1,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -42874,12 +42874,12 @@
       "code": "9798 NK101",
       "price": 2640,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 1,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -42902,12 +42902,12 @@
       "code": "1030 SIL",
       "price": 1630,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 1,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -42930,12 +42930,12 @@
       "code": "9712 NPURSHA1000",
       "price": 1777,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -42958,12 +42958,12 @@
       "code": "2200 NPURSHA5000",
       "price": 7518,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -43014,12 +43014,12 @@
       "code": "9614 SHAH3000",
       "price": 4146,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 1,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -43042,12 +43042,12 @@
       "code": "0781 SHAH0250",
       "price": 916,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -43070,12 +43070,12 @@
       "code": "9591 SHAPLUS3000",
       "price": 12221,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -43098,12 +43098,12 @@
       "code": "0828 SHAPLUS0100",
       "price": 619,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 1,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -43126,12 +43126,12 @@
       "code": "1135 SHAPLUS1000",
       "price": 5166,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -43182,12 +43182,12 @@
       "code": "9958 NSHAZOL250",
       "price": 1055,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 1,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -43210,12 +43210,12 @@
       "code": "9676 GELSOS100",
       "price": 1533,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -43238,12 +43238,12 @@
       "code": "9713 TONLAV300",
       "price": 1421,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -43266,12 +43266,12 @@
       "code": "9690 TONLAV3000",
       "price": 7100,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -43294,12 +43294,12 @@
       "code": "9751 TONNUT300",
       "price": 1421,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -43322,12 +43322,12 @@
       "code": "9737 TONNUT3000",
       "price": 7100,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 1,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -43350,12 +43350,12 @@
       "code": "9799 PELEXT300",
       "price": 1638,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 1,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -43378,12 +43378,12 @@
       "code": "9775 PELEXT3000",
       "price": 8737,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -43406,12 +43406,12 @@
       "code": "9812 SERUMSK150",
       "price": 1874,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 1,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -43434,12 +43434,12 @@
       "code": "9836 SERUMSL150",
       "price": 1533,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 1,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -43462,12 +43462,12 @@
       "code": "1105 PHASE 1",
       "price": 2745,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -43490,12 +43490,12 @@
       "code": "1136 PHASE 2",
       "price": 2745,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 1,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -43518,12 +43518,12 @@
       "code": "1150 PHASE 4",
       "price": 1533,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 1,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -43546,12 +43546,12 @@
       "code": "0129 SHACO3000",
       "price": 3589,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 1,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -43602,12 +43602,12 @@
       "code": "9970 NMASK02100",
       "price": 561,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -43630,12 +43630,12 @@
       "code": "9963 NSHA01100",
       "price": 542,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -43658,12 +43658,12 @@
       "code": "9996 NSHA01250",
       "price": 1177,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -43686,12 +43686,12 @@
       "code": "0015 NSHA011000",
       "price": 3145,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -43714,12 +43714,12 @@
       "code": "0046 NSHA013000",
       "price": 7431,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -43742,12 +43742,12 @@
       "code": "0060 NMASK02250",
       "price": 1403,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -43770,12 +43770,12 @@
       "code": "0084 NMASK021000",
       "price": 3372,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -43798,12 +43798,12 @@
       "code": "0107 NMASK023000",
       "price": 8145,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -43854,12 +43854,12 @@
       "code": "617// KITCOLL",
       "price": 3720,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -43938,12 +43938,12 @@
       "code": "6617 / 1883933",
       "price": 482,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 1,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -43966,12 +43966,12 @@
       "code": "6624/ 1883950",
       "price": 482,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 1,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -44022,12 +44022,12 @@
       "code": "7577 POMP02",
       "price": 482,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -44050,12 +44050,12 @@
       "code": "7584 POMPBIG",
       "price": 482,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 1,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -44078,12 +44078,12 @@
       "code": "0151030//0535",
       "price": 2889,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -44106,12 +44106,12 @@
       "code": "6686 / 31204134",
       "price": 568,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 1,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -44134,12 +44134,12 @@
       "code": "1358 ACCAP/S",
       "price": 1608,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -44162,12 +44162,12 @@
       "code": "841// 6600578/ROSA",
       "price": 722,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 1,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -44190,12 +44190,12 @@
       "code": "198//6600626/SWAN",
       "price": 722,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -44218,12 +44218,12 @@
       "code": "204//6600626/KISS",
       "price": 722,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 1,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -44246,12 +44246,12 @@
       "code": "181//6600626/FAN",
       "price": 722,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 1,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -44274,12 +44274,12 @@
       "code": "12982",
       "price": 10176,
       "old_price": 13568,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 1,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -44302,12 +44302,12 @@
       "code": "15660",
       "price": 17196,
       "old_price": 22927,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -44330,12 +44330,12 @@
       "code": "15661",
       "price": 17196,
       "old_price": 22927,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -44358,12 +44358,12 @@
       "code": "FA 35-85//9507",
       "price": 11006,
       "old_price": 14675,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -44386,12 +44386,12 @@
       "code": "12978",
       "price": 9750,
       "old_price": 13000,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -44414,12 +44414,12 @@
       "code": "12980",
       "price": 10176,
       "old_price": 13568,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -44442,12 +44442,12 @@
       "code": "SK2W-85//9569",
       "price": 10320,
       "old_price": 13760,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -44470,12 +44470,12 @@
       "code": "12985",
       "price": 10176,
       "old_price": 13568,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 1,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -44498,12 +44498,12 @@
       "code": "12966",
       "price": 4218,
       "old_price": 5624,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 1,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -44526,12 +44526,12 @@
       "code": "12988",
       "price": 7829,
       "old_price": 10438,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 1,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -44554,12 +44554,12 @@
       "code": "12977",
       "price": 8609,
       "old_price": 11478,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 1,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -44582,12 +44582,12 @@
       "code": "15654",
       "price": 12386,
       "old_price": 16514,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -44610,12 +44610,12 @@
       "code": "15655",
       "price": 12725,
       "old_price": 16967,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -44638,12 +44638,12 @@
       "code": "15656",
       "price": 13411,
       "old_price": 17882,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -44666,12 +44666,12 @@
       "code": "15657",
       "price": 14444,
       "old_price": 19259,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -44694,12 +44694,12 @@
       "code": "S0021",
       "price": 3257,
       "old_price": 4343,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 1,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -44722,12 +44722,12 @@
       "code": "ST0010",
       "price": 4882,
       "old_price": 6509,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -44750,12 +44750,12 @@
       "code": "12983",
       "price": 12884,
       "old_price": 17179,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 1,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -44778,12 +44778,12 @@
       "code": "12993",
       "price": 9389,
       "old_price": 12518,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 1,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -44806,12 +44806,12 @@
       "code": "15659",
       "price": 15137,
       "old_price": 20183,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -44834,12 +44834,12 @@
       "code": "15658",
       "price": 15137,
       "old_price": 20183,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -44862,12 +44862,12 @@
       "code": "642//1050-09",
       "price": 1757,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -44918,12 +44918,12 @@
       "code": "666//1052-09",
       "price": 1380,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -44946,12 +44946,12 @@
       "code": "673//1053-09",
       "price": 1252,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 1,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -44974,12 +44974,12 @@
       "code": "598//1578-09",
       "price": 1509,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -45002,12 +45002,12 @@
       "code": "574//1510-09",
       "price": 1252,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -45030,12 +45030,12 @@
       "code": "581//6171-09",
       "price": 1509,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -45058,12 +45058,12 @@
       "code": "567//1575-09",
       "price": 1629,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -45086,12 +45086,12 @@
       "code": "550//5171-09",
       "price": 1252,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -45142,12 +45142,12 @@
       "code": "H1SH2VL0100HYKNN",
       "price": 493,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -45170,12 +45170,12 @@
       "code": "H1SH1VL0500HYKNN",
       "price": 1442,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 1,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -45198,12 +45198,12 @@
       "code": "H2SH1AL0300NOKNN",
       "price": 1069,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 1,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -45254,12 +45254,12 @@
       "code": "H1YP0TW0000ZZKNN",
       "price": 2637,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -45282,12 +45282,12 @@
       "code": "H4PD0ZZ0000ZZKNN",
       "price": 4241,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -45310,12 +45310,12 @@
       "code": "H3YP0SP0300ZZKNN",
       "price": 817,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -45338,12 +45338,12 @@
       "code": "H3YP0BT0700ZZKNN",
       "price": 817,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 1,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -45366,12 +45366,12 @@
       "code": "H3DO1AL3800OCKNN",
       "price": 2969,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 1,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -45394,12 +45394,12 @@
       "code": "H3DO1AL3800GLKNN",
       "price": 2969,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 1,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -45450,12 +45450,12 @@
       "code": "H1MS1MX0006MNKNS",
       "price": 1446,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -45478,12 +45478,12 @@
       "code": "H1FS2MX0008STKNS",
       "price": 2415,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -45506,12 +45506,12 @@
       "code": "H1FS3MX0007STKNS",
       "price": 3021,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -46021,7 +46021,7 @@
       "warranty_type": "no",
       "warranty_period": 0,
       "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
+      "days_to_dispatch": 1,
       "delivery_methods": [
         {
           "method": "nova-post:branch",
@@ -47365,7 +47365,7 @@
       "warranty_type": "no",
       "warranty_period": 0,
       "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
+      "days_to_dispatch": 1,
       "delivery_methods": [
         {
           "method": "nova-post:branch",
@@ -47393,7 +47393,7 @@
       "warranty_type": "no",
       "warranty_period": 0,
       "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
+      "days_to_dispatch": 1,
       "delivery_methods": [
         {
           "method": "nova-post:branch",
