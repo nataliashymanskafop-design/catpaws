@@ -216,6 +216,16 @@ def main():
         download(PETIMPEX_XML_URL),
         load_state(PETIMPEX_STATE_FILE),
     )
+    with open("public/terravet-stock-state.json", encoding="utf-8") as handle:
+        terravet_state = json.load(handle)
+    josera_prices = terravet_state.get("retail_prices", {})
+    if not isinstance(josera_prices, dict):
+        raise RuntimeError("Invalid TERRAVET retail price state")
+    conflicts = set(retail_prices) & set(josera_prices)
+    if conflicts:
+        raise RuntimeError(f"PetImpex/Josera retail price conflict: {sorted(conflicts)}")
+    retail_prices.update(josera_prices)
+    print(f"Josera correctly sized retail prices loaded: {len(josera_prices)}")
     root, source_counts = build_feed(
         catalog_root,
         own_stock,

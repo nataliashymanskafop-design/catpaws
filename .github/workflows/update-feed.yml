@@ -11,9 +11,17 @@ on:
       - scripts/generate_kormax_stock.py
       - scripts/generate_site_stock_feed.py
       - scripts/normalize_feed_prices.py
+      - scripts/generate_terravet_stock.py
+      - scripts/josera_stock.py
+      - scripts/test_josera_stock.py
+      - .github/workflows/update-feed.yml
   workflow_dispatch:
   schedule:
     - cron: "*/30 * * * *"
+
+concurrency:
+  group: supplier-stock-feeds
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -127,8 +135,7 @@ jobs:
           SALESDRIVE_DARWIN_STOCK_ID: ${{ vars.SALESDRIVE_DARWIN_STOCK_ID }}
         run: python scripts/generate_darwin_stock.py
 
-      # Забираємо попередній стан TERRAVET. Поки склад наповнюється
-      # тільки точними залишками MODES; Josera буде другим джерелом пізніше.
+      # TERRAVET combines exact MODES stock and shared conditional Josera stock.
       - name: Download previous TERRAVET stock state
         continue-on-error: true
         run: |
@@ -137,8 +144,13 @@ jobs:
             "https://nataliashymanskafop-design.github.io/catpaws/terravet-stock-state.json" \
             -o public/terravet-stock-state.json
 
+      - name: Test Josera unit and bundle mappings
+        run: python -m unittest discover -s scripts -p test_josera_stock.py
+
       - name: Generate TERRAVET stock feed
         continue-on-error: true
+        env:
+          SALESDRIVE_API_KEY: ${{ secrets.SALESDRIVE_API_KEY }}
         run: python scripts/generate_terravet_stock.py
 
       # Забираємо попередній точний стан власного складу. Якщо SalesDrive

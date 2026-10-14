@@ -1,15 +1,17 @@
 import json
 import os
+from datetime import timedelta
 
 from lxml import etree
 
-from generate_home_food_stock import download
+from generate_home_food_stock import download, fetch_orders, now_kyiv, format_api_time, parse_api_time
+from josera_stock import JOSERA_URL, CATALOG_URL, read_supplier, map_catalog, calculate
 
 
 STATE_FILE = "public/terravet-stock-state.json"
 MIN_PRODUCTS = 150
 
-# Josera буде додана сюди другим джерелом, коли її фід буде готовий.
+# Exact MODES stock and conditional Josera stock share Mono warehouse TERRAVET.
 TERRAVET_SOURCES = (
     ("MODES", "https://media.modes.ua/feeds/ModesDnipro.xml"),
 )
@@ -50,10 +52,19 @@ def load_source(source_name, url):
 
         stock[sku] = quantity
 
+    if len(stock) < MIN_PRODUCTS:
+        raise RuntimeError(f"{source_name} stock feed incomplete: {len(stock)} products")
     return stock, duplicates
 
 
 def main():
+    previous = {}
+    try:
+        with open(STATE_FILE, encoding="utf-8") as handle:
+            previous = json.load(handle)
+    except (OSError, json.JSONDecodeError):
+        pass
+
     published_stock = {}
     duplicate_skus = set()
     source_counts = {}
@@ -73,6 +84,38 @@ def main():
 
             published_stock[sku] = quantity
 
+    print("Downloading Josera partner feed and full site catalog...")
+    supplier = read_supplier(download(JOSERA_URL))
+    rows, missing = map_catalog(download(CATALOG_URL), supplier)
+    api_key = os.environ.get("SALESDRIVE_API_KEY", "").strip()
+    if not api_key:
+        raise RuntimeError("SALESDRIVE_API_KEY is required for shared Josera bundle reservations")
+    finished_at = now_kyiv()
+    josera_previous = previous.get("josera")
+    initializing = not josera_previous
+    since = (finished_at - timedelta(days=30) if initializing
+             else parse_api_time(josera_previous["last_sync"]) - timedelta(minutes=2))
+    orders = fetch_orders(api_key, since, finished_at)
+    base_stock, snapshots, josera_stock = calculate(
+        rows, josera_previous, orders, initializing=initializing)
+    conflicts = set(published_stock) & set(josera_stock)
+    if conflicts:
+        raise RuntimeError(f"MODES/Josera SKU conflict: {sorted(conflicts)}")
+    published_stock.update(josera_stock)
+    source_counts["JOSERA"] = len(josera_stock)
+    retail_prices = {code: row["price"] for code, row in rows.items()
+                     if row["price"] is not None}
+    josera_state = {
+        "last_sync": format_api_time(finished_at),
+        "base_stock": base_stock,
+        "order_snapshots": snapshots,
+    }
+    print(f"Josera mapped: {len(rows) - len(missing)}/{len(rows)}; missing: {missing}")
+    print(f"Josera conditional stock: {sum(q > 0 for q in josera_stock.values())} available; "
+          f"{len(retail_prices)} correctly sized regular retail prices")
+    for code in ("50014710", "50014710р", "30001658", "30001658_box", "30001660", "30001660_box"):
+        print(f"Josera control {code}: stock={josera_stock.get(code)}; price={retail_prices.get(code)}")
+
     if len(published_stock) < MIN_PRODUCTS:
         raise RuntimeError(
             "TERRAVET stock feeds are empty or incomplete: "
@@ -85,7 +128,10 @@ def main():
     with open(temporary, "w", encoding="utf-8") as file:
         json.dump(
             {
-                "version": 1,
+                "version": 2,
+                "source_urls": {"MODES": TERRAVET_SOURCES[0][1], "JOSERA": JOSERA_URL},
+                "josera": josera_state,
+                "retail_prices": retail_prices,
                 "warehouse_id": "TERRAVET",
                 "sources": source_counts,
                 "duplicate_skus": sorted(duplicate_skus),
