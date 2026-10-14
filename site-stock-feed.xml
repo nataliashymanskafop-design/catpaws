@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-10-14 17:44">
+<yml_catalog date="2026-10-14 19:52">
   <shop>
     <offers>
       <offer id="1018100" available="true">
@@ -2926,15 +2926,15 @@
       </offer>
       <offer id="ЗС000135" available="true">
         <vendorCode>ЗС000135</vendorCode>
-        <quantity_in_stock>39</quantity_in_stock>
+        <quantity_in_stock>38</quantity_in_stock>
       </offer>
       <offer id="ЗС000137" available="true">
         <vendorCode>ЗС000137</vendorCode>
-        <quantity_in_stock>27</quantity_in_stock>
+        <quantity_in_stock>26</quantity_in_stock>
       </offer>
       <offer id="ЗС000139" available="true">
         <vendorCode>ЗС000139</vendorCode>
-        <quantity_in_stock>46</quantity_in_stock>
+        <quantity_in_stock>45</quantity_in_stock>
       </offer>
       <offer id="ЗС000138" available="true">
         <vendorCode>ЗС000138</vendorCode>
@@ -2942,7 +2942,7 @@
       </offer>
       <offer id="ЗС000136" available="true">
         <vendorCode>ЗС000136</vendorCode>
-        <quantity_in_stock>23</quantity_in_stock>
+        <quantity_in_stock>22</quantity_in_stock>
       </offer>
       <offer id="ЗС000362" available="true">
         <vendorCode>ЗС000362</vendorCode>
@@ -4960,7 +4960,7 @@
       </offer>
       <offer id="ЗС000436" available="true">
         <vendorCode>ЗС000436</vendorCode>
-        <quantity_in_stock>16</quantity_in_stock>
+        <quantity_in_stock>15</quantity_in_stock>
       </offer>
       <offer id="ЗС000437" available="true">
         <vendorCode>ЗС000437</vendorCode>
@@ -4972,7 +4972,7 @@
       </offer>
       <offer id="ЗС000433" available="true">
         <vendorCode>ЗС000433</vendorCode>
-        <quantity_in_stock>32</quantity_in_stock>
+        <quantity_in_stock>31</quantity_in_stock>
       </offer>
       <offer id="DN 85 (220)" available="true">
         <vendorCode>DN 85 (220)</vendorCode>
@@ -6856,7 +6856,7 @@
       </offer>
       <offer id="ЗС000494" available="true">
         <vendorCode>ЗС000494</vendorCode>
-        <quantity_in_stock>43</quantity_in_stock>
+        <quantity_in_stock>41</quantity_in_stock>
       </offer>
       <offer id="ЗС000480" available="true">
         <vendorCode>ЗС000480</vendorCode>
@@ -7508,9 +7508,9 @@
         <vendorCode>ЗС000458</vendorCode>
         <quantity_in_stock>0</quantity_in_stock>
       </offer>
-      <offer id="ЗС000460" available="false">
+      <offer id="ЗС000460" available="true">
         <vendorCode>ЗС000460</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
       </offer>
       <offer id="ЗС000461" available="false">
         <vendorCode>ЗС000461</vendorCode>
