@@ -11,6 +11,7 @@ on:
       - scripts/generate_kormax_stock.py
       - scripts/generate_site_stock_feed.py
       - scripts/normalize_feed_prices.py
+      - scripts/generate_petimpex_catalog.py
       - scripts/generate_terravet_stock.py
       - scripts/josera_stock.py
       - scripts/test_josera_stock.py
@@ -35,6 +36,9 @@ jobs:
           python-version: "3.11"
 
       - run: pip install -r requirements.txt
+
+      - name: Generate import-safe PetImpex retail catalog
+        run: python scripts/generate_petimpex_catalog.py
 
       # Забираємо попередній прайс Mono.
       # Він потрібен, щоб зберегти старий updatedAt,

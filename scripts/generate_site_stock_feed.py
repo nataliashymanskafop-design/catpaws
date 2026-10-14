@@ -9,6 +9,7 @@ from lxml import etree
 from generate_home_food_stock import download
 from generate_feed import FORCE_ZERO_SKUS, is_modes_bowl
 from normalize_feed_prices import normalize_price
+from generate_petimpex_catalog import OUTPUT_FILE as CLEAN_PETIMPEX_FILE
 
 
 # Актуальний фід каталогу сайту. На відміну від Mono-фідів, тут не
@@ -207,6 +208,13 @@ def build_feed(catalog_root, own_stock, supplier_stock, retail_prices=None):
     return root, source_counts
 
 
+def petimpex_payload():
+    if os.path.exists(CLEAN_PETIMPEX_FILE):
+        with open(CLEAN_PETIMPEX_FILE, "rb") as handle:
+            return handle.read()
+    return download(PETIMPEX_XML_URL)
+
+
 def main():
     print("Downloading current CatPaws catalog...")
     catalog_root = etree.fromstring(download(CATALOG_XML_URL))
@@ -214,7 +222,7 @@ def main():
     own_stock = load_state(OWN_STOCK_STATE_FILE)
     supplier_stock = load_supplier_stock()
     retail_prices = load_petimpex_prices(
-        download(PETIMPEX_XML_URL),
+        petimpex_payload(),
         load_state(PETIMPEX_STATE_FILE),
     )
     with open("public/terravet-stock-state.json", encoding="utf-8") as handle:

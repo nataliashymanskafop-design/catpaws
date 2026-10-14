@@ -3,6 +3,7 @@ import os
 from datetime import timedelta
 
 from lxml import etree
+from generate_petimpex_catalog import OUTPUT_FILE as CLEAN_CATALOG_FILE
 
 from generate_home_food_stock import (
     CATALOG_XML_URL,
@@ -44,7 +45,12 @@ def parse_quantity(value):
 
 
 def load_supplier_feed():
-    root = etree.fromstring(download(PETIMPEX_XML_URL))
+    if os.path.exists(CLEAN_CATALOG_FILE):
+        with open(CLEAN_CATALOG_FILE, "rb") as handle:
+            payload = handle.read()
+    else:
+        payload = download(PETIMPEX_XML_URL)
+    root = etree.fromstring(payload)
     products = {}
 
     for offer in root.xpath(".//offer"):
