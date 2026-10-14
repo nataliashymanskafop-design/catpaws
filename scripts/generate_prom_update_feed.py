@@ -1,4 +1,6 @@
 import os
+import math
+from datetime import datetime, timezone
 import time
 import requests
 from lxml import etree
@@ -61,7 +63,8 @@ def parse_price(value):
         return None
 
     try:
-        return float("".join(value.split()).replace(",", "."))
+        price = float("".join(value.split()).replace(",", "."))
+        return price if math.isfinite(price) else None
     except (ValueError, TypeError):
         return None
 
@@ -79,6 +82,7 @@ def get_prom_products():
 
     products = []
     last_id = None
+    seen_pages = set()
 
     print("Downloading products from Prom API...")
 
@@ -104,11 +108,17 @@ def get_prom_products():
 
         data = response.json()
 
-        batch = data.get("products", [])
+        if not isinstance(data, dict) or not isinstance(data.get("products"), list):
+            raise RuntimeError("Invalid Prom product list response")
+        batch = data["products"]
 
         if not batch:
             break
 
+        page_ids = tuple(p.get("id") for p in batch)
+        if page_ids in seen_pages:
+            raise RuntimeError("Prom pagination repeated a page")
+        seen_pages.add(page_ids)
         products.extend(batch)
 
         print(
@@ -122,7 +132,7 @@ def get_prom_products():
         last_id = batch[-1].get("id")
 
         if not last_id:
-            break
+            raise RuntimeError("Prom pagination cursor missing")
 
     return products
 
@@ -166,6 +176,9 @@ def get_horoshop_products():
         "Horoshop products:",
         len(products)
     )
+
+    if not products:
+        raise RuntimeError("Horoshop source contains no products; refusing synchronization")
 
     return products
 
@@ -431,7 +444,9 @@ def build_updates(
 
             item["oldprice"] = oldprice
         elif clear_discount:
-            item["discount"] = None
+            # Prom also documents equal price/oldprice as a reset.
+            # Use it for available goods, retaining null for unavailable goods.
+            item["oldprice"] = price
 
         updates.append(item)
 
@@ -479,108 +494,122 @@ def build_updates(
 # SEND UPDATES TO PROM
 # ============================================================
 
-def send_updates(updates):
+def prices_equal(left, right):
+    left, right = parse_price(left), parse_price(right)
+    return (left is not None and right is not None
+            and math.isfinite(left) and math.isfinite(right)
+            and abs(left - right) <= 0.011)
 
-    headers = {
-        "Authorization": f"Bearer {PROM_API_TOKEN}",
-        "Content-Type": "application/json",
-    }
 
-    total = len(updates)
+def discount_amount(product):
+    discount = product.get("discount")
+    if not discount:
+        return 0.0
+    value = parse_price(discount.get("value"))
+    if value is None:
+        return None
+    if discount.get("type") == "percent":
+        base = parse_price(product.get("price"))
+        return None if base is None else base * value / 100
+    if discount.get("type") == "amount":
+        return value
+    return None
 
-    processed = 0
 
-    successful_ids = []
-    errors = {}
+def state_mismatches(item, product):
+    if product is None:
+        return ["product missing from API readback"]
+    failures = []
+    if "presence" in item and product.get("presence") != item["presence"]:
+        failures.append("presence")
+    # Prom stores the regular price plus a discount, while oldprice requests
+    # contain a discounted price and the regular price separately.
+    expected_base = item.get("oldprice", item.get("price"))
+    if expected_base is not None and not prices_equal(product.get("price"), expected_base):
+        failures.append("price")
+    if "oldprice" in item:
+        expected_discount = item["oldprice"] - item["price"]
+        if not prices_equal(discount_amount(product), expected_discount):
+            failures.append("discount")
+    elif "discount" in item and item["discount"] is None:
+        if product.get("discount") is not None:
+            failures.append("discount")
+    return failures
 
-    print()
-    print("=" * 60)
-    print("SENDING UPDATES TO PROM")
-    print("=" * 60)
 
-    for start in range(
-        0,
-        total,
-        BATCH_SIZE
-    ):
+def post_batch(batch):
+    response = requests.post(
+        PROM_API_EDIT_URL,
+        headers={"Authorization": f"Bearer {PROM_API_TOKEN}",
+                 "Content-Type": "application/json"},
+        json=batch, timeout=60,
+    )
+    response.raise_for_status()
+    result = response.json()
+    if not isinstance(result, dict):
+        raise RuntimeError("Prom returned a non-object update response")
+    print("Prom acknowledgment:", len(result.get("processed_ids", [])),
+          "errors:", result.get("errors", {}),
+          "warnings:", result.get("warnings", {}))
+    return result
 
-        batch = updates[
-            start:start + BATCH_SIZE
-        ]
 
-        batch_number = (
-            start // BATCH_SIZE
-        ) + 1
+def readback(updates):
+    products = {str(p["id"]): p for p in get_prom_products()}
+    states = {str(item["id"]): state_mismatches(item, products.get(str(item["id"])))
+              for item in updates}
+    shown = 0
+    for item in updates:
+        product = products.get(str(item["id"]), {})
+        control = normalize_code(product.get("sku")) in {"653651", "5578", "018197", "7000008"}
+        if control or (states[str(item["id"])] and shown < 10):
+            print("Readback detail:", {"sku": product.get("sku"), "expected": item,
+                  "actual": {key: product.get(key) for key in ("id", "price", "presence", "discount")}})
+            shown += 1
+    return states
 
-        print()
-        print(
-            f"Sending batch #{batch_number}: "
-            f"{len(batch)} products"
-        )
 
-        response = requests.post(
-            PROM_API_EDIT_URL,
-            headers=headers,
-            json=batch,
-            timeout=60,
-        )
-
-        print(
-            "HTTP:",
-            response.status_code
-        )
-
-        try:
-            result = response.json()
-
-            print(
-                "Prom response:",
-                result
-            )
-
-        except ValueError:
-
-            print(
-                "Prom response text:",
-                response.text
-            )
-
-            response.raise_for_status()
-
-            result = {}
-
-        response.raise_for_status()
-
-        batch_processed = result.get(
-            "processed_ids",
-            []
-        )
-
-        batch_errors = result.get(
-            "errors",
-            {}
-        )
-
-        successful_ids.extend(
-            batch_processed
-        )
-
-        errors.update(
-            batch_errors
-        )
-
-        processed += len(batch)
-
-        print(
-            f"Progress: "
-            f"{processed}/{total}"
-        )
-
-        # Невелика пауза між пакетами,
-        # щоб не бити API занадто швидко.
+def send_updates(updates, initial_products):
+    initial = {str(p["id"]): p for p in initial_products}
+    changed = [item for item in updates
+               if state_mismatches(item, initial.get(str(item["id"])))]
+    print("Already matching:", len(updates) - len(changed))
+    print("Products needing changes:", len(changed))
+    for start in range(0, len(changed), BATCH_SIZE):
+        post_batch(changed[start:start + BATCH_SIZE])
         time.sleep(0.5)
 
-    return successful_ids, errors
+    # A 200 response is not proof of a write. Read actual states even when
+    # processed_ids is empty, and count already-matching goods separately.
+    states = readback(updates)
+    pending = [item for item in updates if states[str(item["id"])]]
+    if pending:
+        print("Readback mismatches, retrying:",
+              {str(item["id"]): states[str(item["id"])] for item in pending})
+        time.sleep(2)
+        for start in range(0, len(pending), BATCH_SIZE):
+            post_batch(pending[start:start + BATCH_SIZE])
+            time.sleep(0.5)
+        states = readback(updates)
+
+    errors = {pid: fields for pid, fields in states.items() if fields}
+    verified = [item["id"] for item in updates if not states[str(item["id"])]]
+    print("Verified actual Prom states:", len(verified), "/", len(updates))
+    for sku in ("653651", "5578", "018197", "7000008"):
+        for product in initial_products:
+            if normalize_code(product.get("sku")) == sku:
+                print("Control SKU", sku, "ID", product["id"],
+                      "readback:", states.get(str(product["id"]), "not in source"))
+    summary = os.environ.get("GITHUB_STEP_SUMMARY")
+    if summary:
+        with open(summary, "a", encoding="utf-8") as handle:
+            handle.write("## Prom synchronization\n")
+            handle.write(f"Verified: {len(verified)}/{len(updates)}. "
+                         f"Changed requests: {len(changed)}. "
+                         f"Mismatches: {len(errors)}.\n")
+            if errors:
+                handle.write(f"Unconfirmed product IDs/fields: {errors}\n")
+    return verified, errors
 
 
 # ============================================================
@@ -611,7 +640,7 @@ def main():
     )
 
     successful_ids, errors = (
-        send_updates(updates)
+        send_updates(updates, prom_products)
     )
 
     print()
@@ -646,6 +675,9 @@ def main():
                 error
             )
 
+    if errors:
+        raise RuntimeError(f"Prom state verification failed for {len(errors)} products")
+
     print()
     print("=" * 60)
 
@@ -672,3 +704,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
