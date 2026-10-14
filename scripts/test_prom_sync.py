@@ -82,6 +82,24 @@ class SyncTests(unittest.TestCase):
         self.assertEqual(sync.build_updates({'X': {'id': 1}}, {'X'},
                                            {'X': self.offer()}, set()), [])
 
+    def test_verified_identical_duplicate_cards_both_sync(self):
+        cards = [{'sku': '50013184', 'id': 3157113613, 'name': 'Сухий корм JosiDog Regular 2,7 кг'},
+                 {'sku': '50013184', 'id': 2979412910, 'name': 'Сухий корм JosiDog Regular 2.7 кг'}]
+        source = self.offer()
+        etree.SubElement(source, 'name_ua').text = cards[0]['name']
+        by_sku, duplicates = sync.prepare_prom_products(cards)
+        updates = sync.build_updates(by_sku, duplicates, {'50013184': source}, set())
+        self.assertEqual({item['id'] for item in updates}, {3157113613, 2979412910})
+        self.assertTrue(all(item['price'] == 630 for item in updates))
+
+    def test_duplicate_with_different_pack_stays_blocked(self):
+        cards = [{'sku': '50013184', 'id': 3157113613, 'name': 'Сухий корм JosiDog Regular 2,7 кг'},
+                 {'sku': '50013184', 'id': 2979412910, 'name': 'Сухий корм JosiDog Regular 20 кг'}]
+        source = self.offer()
+        etree.SubElement(source, 'name_ua').text = cards[0]['name']
+        by_sku, duplicates = sync.prepare_prom_products(cards)
+        self.assertEqual(sync.build_updates(by_sku, duplicates, {'50013184': source}, set()), [])
+
     def test_card_absent_from_complete_site_export_stops_selling(self):
         self.assertEqual(sync.build_updates({'OLD': {'id': 1, 'sku': 'OLD'}}, set(),
                                            {}, set()), [{'id': 1, 'presence': 'not_available'}])

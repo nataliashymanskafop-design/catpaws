@@ -32,6 +32,13 @@ PROM_API_TOKEN = os.environ["PROM_API_TOKEN"]
 
 BATCH_SIZE = 50
 MIN_SOURCE_PRODUCTS = 2000
+# Both cards were checked in the Prom cabinet on 2026-10-14: same feed SKU,
+# same JosiDog recipe and 2.7 kg pack. Unknown duplicate groups still stop.
+CONFIRMED_DUPLICATE_IDS = {
+    "50013180": {3157113607, 2980324957},
+    "50013181": {3157113608, 2985134061},
+    "50013184": {3157113613, 2979412910},
+}
 
 
 # ============================================================
@@ -251,6 +258,11 @@ def get_rafi_skus():
 # PREPARE PROM PRODUCTS
 # ============================================================
 
+def normalize_product_name(value):
+    # Normalize punctuation and 2,7/2.7 notation only; do not fuzzy-match titles.
+    return "".join(ch for ch in clean(value).casefold() if ch.isalnum())
+
+
 def prepare_prom_products(prom_products):
 
     prom_by_sku = {}
@@ -269,6 +281,7 @@ def prepare_prom_products(prom_products):
         if sku in prom_by_sku:
 
             duplicate_skus.add(sku)
+            prom_by_sku[sku].setdefault("_duplicate_cards", []).append(product)
 
             continue
 
@@ -313,6 +326,7 @@ def build_updates(
     missing_horoshop = 0
     skipped_duplicates = 0
     rafi_count = 0
+    verified_duplicate_groups = {}
     missing_items = []
 
     for sku, prom_product in prom_by_sku.items():
@@ -324,10 +338,22 @@ def build_updates(
         # ----------------------------------------------------
 
         if sku in duplicate_skus:
-
-            skipped_duplicates += 1
-
-            continue
+            cards = [prom_product] + prom_product.get("_duplicate_cards", [])
+            source = horoshop_products.get(sku)
+            source_names = set() if source is None else {
+                normalize_product_name(get_text(source, field))
+                for field in ("name", "name_ua")
+                if get_text(source, field)
+            }
+            verified = (
+                {p.get("id") for p in cards} == CONFIRMED_DUPLICATE_IDS.get(sku)
+                and len(cards) == len(CONFIRMED_DUPLICATE_IDS[sku])
+                and all(normalize_product_name(p.get("name")) in source_names for p in cards)
+            )
+            if not verified:
+                skipped_duplicates += 1
+                continue
+            verified_duplicate_groups[sku] = cards
 
         # ----------------------------------------------------
         # REAL PROM PRODUCT ID
@@ -481,6 +507,19 @@ def build_updates(
         updates.append(item)
 
         available_count += 1
+
+    by_id = {item["id"]: item for item in updates}
+    for sku, cards in verified_duplicate_groups.items():
+        template = by_id.get(cards[0]["id"])
+        if template is None:
+            continue
+        for card in cards[1:]:
+            updates.append({**template, "id": card["id"]})
+            if template["presence"] == "available":
+                available_count += 1
+            else:
+                unavailable_count += 1
+    print("Verified duplicate groups synchronized:", sorted(verified_duplicate_groups))
 
     print()
     print("=" * 60)
@@ -760,5 +799,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
