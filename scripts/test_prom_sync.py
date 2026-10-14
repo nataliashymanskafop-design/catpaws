@@ -51,6 +51,38 @@ class SyncTests(unittest.TestCase):
             self.assertNotIn('oldprice', item)
             self.assertNotIn('discount', item)
 
+    def test_numeric_sku_spacing_preserves_pack_suffixes(self):
+        for value in ('740197 - 1329', '740197\u00a0-\u00a01329', '740197- 1329', '740197 -1329'):
+            self.assertEqual(sync.normalize_code(value), '740197-1329')
+        self.assertNotEqual(sync.normalize_code('740197 - 1329-12'), '740197-1329')
+        self.assertEqual(sync.normalize_code('ASR(CB)-16 Oz'), 'ASR(CB)-16 OZ')
+        self.assertEqual(sync.normalize_code('018197'), '018197')
+
+    def test_spaced_site_sku_matches_prom_price_promotion_and_presence(self):
+        date = sync.datetime.now(sync.ZoneInfo('Europe/Kyiv')).strftime('%Y-%m-%d %H:%M')
+        for available in ('true', 'false'):
+            payload = f'<yml_catalog date="{date}"><offer available="{available}"><vendorCode>740197 - 1329</vendorCode><price>504</price><oldprice>630</oldprice></offer></yml_catalog>'
+            response = unittest.mock.Mock(content=payload.encode())
+            with patch.object(sync.requests, 'get', return_value=response), patch.object(sync, 'MIN_SOURCE_PRODUCTS', 1):
+                source = sync.get_horoshop_products()
+            cards, duplicates = sync.prepare_prom_products([{'id': 42, 'sku': '740197-1329'}])
+            item = sync.build_updates(cards, duplicates, source, set())[0]
+            self.assertEqual(item['presence'], 'available' if available == 'true' else 'not_available')
+            if available == 'true':
+                self.assertEqual((item['price'], item['oldprice']), (504, 630))
+
+    def test_source_spacing_collision_stops(self):
+        date = sync.datetime.now(sync.ZoneInfo('Europe/Kyiv')).strftime('%Y-%m-%d %H:%M')
+        response = unittest.mock.Mock(content=f'<yml_catalog date="{date}"><offer><vendorCode>740197 - 1329</vendorCode></offer><offer><vendorCode>740197-1329</vendorCode></offer></yml_catalog>'.encode())
+        with patch.object(sync.requests, 'get', return_value=response), patch.object(sync, 'MIN_SOURCE_PRODUCTS', 1):
+            with self.assertRaisesRegex(RuntimeError, 'normalize'):
+                sync.get_horoshop_products()
+
+    def test_normalized_prom_duplicate_is_blocked(self):
+        cards, duplicates = sync.prepare_prom_products([{'id': 1, 'sku': '740197 - 1329'}, {'id': 2, 'sku': '740197-1329'}])
+        self.assertEqual(duplicates, {'740197-1329'})
+        self.assertEqual(sync.build_updates(cards, duplicates, {'740197-1329': self.offer()}, set()), [])
+
     def test_spaces_in_price(self):
         self.assertEqual(sync.parse_price('1\u00a0278,48'), 1278.48)
 

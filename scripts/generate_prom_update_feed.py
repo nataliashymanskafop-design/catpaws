@@ -1,5 +1,6 @@
 import os
 import math
+import re
 from datetime import datetime
 from zoneinfo import ZoneInfo
 import time
@@ -52,7 +53,7 @@ def clean(value):
 
 
 def normalize_code(value):
-    return clean(value).upper()
+    return re.sub(r"(?<=\d)\s*-\s*(?=\d)", "-", clean(value).upper())
 
 
 def get_text(element, tag):
@@ -181,6 +182,10 @@ def get_horoshop_products():
             continue
 
         if sku in products:
+            previous_code = clean(get_text(products[sku], "vendorCode")).upper()
+            current_code = clean(get_text(offer, "vendorCode")).upper()
+            if previous_code != current_code:
+                raise RuntimeError(f"Different source SKUs normalize to {sku}; refusing ambiguous synchronization")
             duplicate_skus.add(sku)
         products[sku] = offer
 
@@ -656,7 +661,9 @@ def readback(updates):
     shown = 0
     for item in updates:
         product = products.get(str(item["id"]), {})
-        control = normalize_code(product.get("sku")) in {"653651", "5578", "018197", "7000008"}
+        code = normalize_code(product.get("sku"))
+        control = (code in {"653651", "5578", "018197", "7000008"}
+                   or bool(re.fullmatch(r"\d+-\d+(?:-\d+)*", code)))
         if control or (states[str(item["id"])] and shown < 10):
             print("Readback detail:", {"sku": product.get("sku"), "expected": item,
                   "actual": {key: product.get(key) for key in ("id", "price", "presence", "discount")}})
@@ -726,6 +733,15 @@ def main():
             prom_products
         )
     )
+
+    spacing_matches = [
+        {"prom_sku": p.get("sku"), "site_sku": get_text(horoshop_products[sku], "vendorCode"),
+         "id": p.get("id")}
+        for sku, p in prom_by_sku.items()
+        if sku in horoshop_products
+        and clean(p.get("sku")).upper() != clean(get_text(horoshop_products[sku], "vendorCode")).upper()
+    ]
+    print("Matched SKU spacing differences:", len(spacing_matches), spacing_matches)
 
     updates = build_updates(
         prom_by_sku,
