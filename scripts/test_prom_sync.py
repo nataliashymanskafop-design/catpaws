@@ -123,6 +123,10 @@ class SyncTests(unittest.TestCase):
                 with self.assertRaises(RuntimeError):
                     sync.apply_josera_source({'X': self.offer()})
 
+    def test_cosmetic_article_multiple_spaces_match(self):
+        self.assertEqual(sync.normalize_code('2117  LOZH0150'), sync.normalize_code('2117 LOZH0150'))
+        self.assertEqual(sync.normalize_code('2117\u00a0\u00a0LOZH0150'), '2117 LOZH0150')
+
     def test_spaces_in_price(self):
         self.assertEqual(sync.parse_price('1\u00a0278,48'), 1278.48)
 

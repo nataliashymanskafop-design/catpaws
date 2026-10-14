@@ -55,7 +55,7 @@ def clean(value):
 
 
 def normalize_code(value):
-    return re.sub(r"(?<=\d)\s*-\s*(?=\d)", "-", clean(value).upper())
+    return re.sub(r"(?<=\d)\s*-\s*(?=\d)", "-", " ".join(clean(value).upper().split()))
 
 
 def get_text(element, tag):

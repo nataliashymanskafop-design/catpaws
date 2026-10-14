@@ -192,7 +192,7 @@ def load_stock_sources(previous_feed):
         overridden = 0
 
         for sku, quantity in published_stock.items():
-            normalized_sku = str(sku).strip()
+            normalized_sku = " ".join(str(sku).split())
 
             if not normalized_sku:
                 continue
@@ -290,8 +290,8 @@ def build_offer(offer, stock_by_sku, own_stock):
     normalized_code = code.strip()
     if normalized_code == "NPS24432" or normalized_code in DISCONTINUED_SKUS:
         return None
-    stock_source = stock_by_sku.get(normalized_code)
-    own_quantity = own_stock.get(normalized_code, 0)
+    stock_source = stock_by_sku.get(" ".join(normalized_code.split()))
+    own_quantity = own_stock.get(normalized_code, own_stock.get(" ".join(normalized_code.split()), 0))
 
     if own_quantity > 0:
         # Викуплений або повернений товар фізично лежить на власному складі,

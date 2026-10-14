@@ -79,7 +79,7 @@ def load_tracked_skus():
             encoding="utf-8",
         ) as file:
             skus = {
-                line.strip()
+                clean(line)
                 for line in file
                 if line.strip()
                 and not line.lstrip().startswith("#")
