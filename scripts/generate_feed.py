@@ -202,6 +202,11 @@ def load_stock_sources(previous_feed):
                 if normalized_sku in FORCE_ZERO_SKUS:
                     continue
                 previous = stock_by_sku[normalized_sku]
+                if previous["warehouse_id"] == source["warehouse_id"]:
+                    # Legacy tracked aliases differed only by whitespace.
+                    # They are one allowance, never two independent stocks.
+                    previous["stock"] = max(previous["stock"], max(0, to_int(quantity)))
+                    continue
                 allowed_overrides = source.get(
                     "overrides_warehouses",
                     set(),
