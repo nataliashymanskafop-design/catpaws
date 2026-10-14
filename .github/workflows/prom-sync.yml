@@ -8,6 +8,7 @@ on:
       - scripts/generate_prom_update_feed.py
       - scripts/test_prom_sync.py
       - scripts/generate_feed.py
+      - scripts/josera_stock.py
       - .github/workflows/prom-sync.yml
   schedule:
     - cron: "7,37 * * * *"

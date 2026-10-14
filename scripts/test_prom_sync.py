@@ -83,6 +83,46 @@ class SyncTests(unittest.TestCase):
         self.assertEqual(duplicates, {'740197-1329'})
         self.assertEqual(sync.build_updates(cards, duplicates, {'740197-1329': self.offer()}, set()), [])
 
+    def test_josera_source_uses_single_pack_price_and_sale(self):
+        products = {'50014710': self.offer('999'), '50009044': self.offer('999')}
+        rows = {
+            '50014710': {'available': True, 'price': '320.40', 'sale_price': None},
+            '50009044': {'available': True, 'price': '2280.00', 'sale_price': '1520.00'},
+        }
+        state = {'josera': {'last_sync': sync.datetime.now(sync.ZoneInfo('Europe/Kyiv')).strftime('%Y-%m-%d %H:%M:%S')},
+                 'published_stock': {'50014710': 20, '50009044': 20}}
+        response = unittest.mock.Mock(content=b'feed')
+        response.json.return_value = state
+        with patch.object(sync.requests, 'get', return_value=response), patch.object(sync, 'read_supplier', return_value={}), patch.object(sync, 'map_catalog', return_value=(rows, [])):
+            result = sync.apply_josera_source(products)
+        self.assertEqual(result['50014710'].findtext('price'), '320.40')
+        self.assertIsNone(result['50014710'].findtext('oldprice'))
+        self.assertEqual(result['50009044'].findtext('price'), '1520.00')
+        self.assertEqual(result['50009044'].findtext('oldprice'), '2280.00')
+        self.assertEqual(products['50014710'].findtext('price'), '999')
+
+    def test_josera_zero_bundle_stock_and_supplier_unavailable(self):
+        products = {'BUNDLE': self.offer(), 'UNIT': self.offer()}
+        rows = {code: {'available': available, 'price': '630', 'sale_price': None}
+                for code, available in [('BUNDLE', True), ('UNIT', False)]}
+        state = {'josera': {'last_sync': sync.datetime.now(sync.ZoneInfo('Europe/Kyiv')).strftime('%Y-%m-%d %H:%M:%S')},
+                 'published_stock': {'BUNDLE': 0, 'UNIT': 20}}
+        response = unittest.mock.Mock(content=b'feed')
+        response.json.return_value = state
+        with patch.object(sync.requests, 'get', return_value=response), patch.object(sync, 'read_supplier', return_value={}), patch.object(sync, 'map_catalog', return_value=(rows, [])):
+            result = sync.apply_josera_source(products)
+        self.assertTrue(all(o.get('available') == 'false' for o in result.values()))
+
+    def test_josera_stale_or_incomplete_state_blocks_writes(self):
+        response = unittest.mock.Mock(content=b'feed')
+        for state in ({'josera': {'last_sync': '2000-01-01 00:00:00'}, 'published_stock': {'X': 20}},
+                      {'josera': {'last_sync': sync.datetime.now(sync.ZoneInfo('Europe/Kyiv')).strftime('%Y-%m-%d %H:%M:%S')}, 'published_stock': {}},
+                      {}):
+            response.json.return_value = state
+            with patch.object(sync.requests, 'get', return_value=response), patch.object(sync, 'read_supplier', return_value={}), patch.object(sync, 'map_catalog', return_value=({'X': {}}, [])):
+                with self.assertRaises(RuntimeError):
+                    sync.apply_josera_source({'X': self.offer()})
+
     def test_spaces_in_price(self):
         self.assertEqual(sync.parse_price('1\u00a0278,48'), 1278.48)
 

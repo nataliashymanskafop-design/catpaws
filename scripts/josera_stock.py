@@ -71,6 +71,7 @@ def read_supplier(payload):
             "available": status == "in stock",
             "unit_grams": unit, "pack_size": count,
             "price": money(offer.findtext("price")),
+            "sale_price": money(offer.findtext("sale_price")),
             "title": clean(offer.findtext("title")),
         }
     if len(products) < MIN_SOURCE_PRODUCTS:
@@ -108,11 +109,16 @@ def map_catalog(payload, supplier):
         if matched and source["price"] is not None:
             price = str((source["price"] / source["pack_size"] * count).quantize(
                 Decimal("0.01"), rounding=ROUND_HALF_UP))
+        sale_price = None
+        if matched and source.get("sale_price") is not None and source["price"] is not None:
+            if source["sale_price"] < source["price"]:
+                sale_price = str((source["sale_price"] / source["pack_size"] * count).quantize(
+                    Decimal("0.01"), rounding=ROUND_HALF_UP))
         rows[code] = {
             "base": base, "pack_size": count,
             "target": WET_STOCK if unit < 200 or "волог" in clean(offer.findtext("name_ua") or offer.findtext("name")).casefold() else DRY_STOCK,
             "available": bool(matched and source["available"]),
-            "price": price, "matched": matched,
+            "price": price, "sale_price": sale_price, "matched": matched,
         }
     return rows, missing
 
