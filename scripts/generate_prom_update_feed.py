@@ -291,6 +291,7 @@ def build_updates(
     missing_horoshop = 0
     skipped_duplicates = 0
     rafi_count = 0
+    missing_items = []
 
     for sku, prom_product in prom_by_sku.items():
 
@@ -349,6 +350,8 @@ def build_updates(
         if horoshop_offer is None:
 
             missing_horoshop += 1
+            missing_items.append({"sku": sku, "id": prom_id,
+                                  "external_id": prom_product.get("external_id")})
 
             continue
 
@@ -486,6 +489,14 @@ def build_updates(
         "Total products prepared:",
         len(updates)
     )
+    print("Products without Horoshop source (not overwritten):", missing_items)
+    summary = os.environ.get("GITHUB_STEP_SUMMARY")
+    if summary and (missing_items or duplicate_skus):
+        with open(summary, "a", encoding="utf-8") as handle:
+            handle.write(f"Source coverage: {missing_horoshop} unmatched SKUs; "
+                         f"{skipped_duplicates} duplicate SKUs skipped.\\n")
+            handle.write(f"Unmatched SKU/IDs: {missing_items}\\n")
+            handle.write(f"Duplicate SKUs: {sorted(duplicate_skus)}\\n")
 
     return updates
 
@@ -649,12 +660,12 @@ def main():
     print("=" * 60)
 
     print(
-        "Products sent:",
+        "Products checked:",
         len(updates)
     )
 
     print(
-        "Successfully processed:",
+        "Verified matching products:",
         len(successful_ids)
     )
 
