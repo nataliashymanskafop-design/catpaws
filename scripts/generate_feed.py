@@ -19,6 +19,7 @@ MIN_PRICE = 300
 DISCONTINUED_SKUS = {"017954"}
 # Confirmed unavailable; only restore after the supplier confirms stock.
 FORCE_ZERO_SKUS = {
+    "254181",  # Start & Go puppy/maternity 10 kg: confirmed unavailable 2026-10-14.
     "5578",  # happyOne Insect Protein 10 kg, Darwin
     "1021008",  # HOME FOOD: confirmed unavailable on 2026-10-12.
 }
