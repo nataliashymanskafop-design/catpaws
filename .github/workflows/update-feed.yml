@@ -15,6 +15,7 @@ on:
       - scripts/generate_terravet_stock.py
       - scripts/josera_stock.py
       - scripts/generate_josera_crm_stock.py
+      - data/josera-purchase-prices.json
       - scripts/test_josera_stock.py
       - .github/workflows/update-feed.yml
   workflow_dispatch:

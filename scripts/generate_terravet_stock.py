@@ -105,6 +105,8 @@ def main():
     source_counts["JOSERA"] = len(josera_stock)
     retail_prices = {code: row["price"] for code, row in rows.items()
                      if row["price"] is not None}
+    sale_prices = {code: row["sale_price"] for code, row in rows.items()
+                   if row.get("sale_price") is not None}
     josera_state = {
         "last_sync": format_api_time(finished_at),
         "base_stock": base_stock,
@@ -132,6 +134,7 @@ def main():
                 "source_urls": {"MODES": TERRAVET_SOURCES[0][1], "JOSERA": JOSERA_URL},
                 "josera": josera_state,
                 "retail_prices": retail_prices,
+                "sale_prices": sale_prices,
                 "warehouse_id": "TERRAVET",
                 "sources": source_counts,
                 "duplicate_skus": sorted(duplicate_skus),
@@ -166,3 +169,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

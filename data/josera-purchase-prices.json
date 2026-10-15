@@ -1,0 +1,1368 @@
+{
+  "source_file": "Price list PET_06.04.26 (9).xlsx",
+  "basis": "Базова/Розплідники, грн/шт з ПДВ",
+  "products": {
+    "50014712": {
+      "unit_cost": "2260.00",
+      "unit_grams": "1E+4",
+      "sheet": "JOSERA",
+      "cell": "I7"
+    },
+    "50014946": {
+      "unit_cost": "747.00",
+      "unit_grams": "3E+3",
+      "sheet": "JOSERA",
+      "cell": "I8"
+    },
+    "50014710": {
+      "unit_cost": "234.90",
+      "unit_grams": "9E+2",
+      "sheet": "JOSERA",
+      "cell": "I9"
+    },
+    "50014717": {
+      "unit_cost": "2470.00",
+      "unit_grams": "1E+4",
+      "sheet": "JOSERA",
+      "cell": "I10"
+    },
+    "50014949": {
+      "unit_cost": "819.00",
+      "unit_grams": "3E+3",
+      "sheet": "JOSERA",
+      "cell": "I11"
+    },
+    "50014713": {
+      "unit_cost": "255.60",
+      "unit_grams": "9E+2",
+      "sheet": "JOSERA",
+      "cell": "I12"
+    },
+    "50014715": {
+      "unit_cost": "2070.00",
+      "unit_grams": "1E+4",
+      "sheet": "JOSERA",
+      "cell": "I13"
+    },
+    "50014950": {
+      "unit_cost": "684.00",
+      "unit_grams": "3E+3",
+      "sheet": "JOSERA",
+      "cell": "I14"
+    },
+    "50014714": {
+      "unit_cost": "221.40",
+      "unit_grams": "9E+2",
+      "sheet": "JOSERA",
+      "cell": "I15"
+    },
+    "50014718": {
+      "unit_cost": "2260.00",
+      "unit_grams": "1E+4",
+      "sheet": "JOSERA",
+      "cell": "I16"
+    },
+    "50014951": {
+      "unit_cost": "747.00",
+      "unit_grams": "3E+3",
+      "sheet": "JOSERA",
+      "cell": "I17"
+    },
+    "50014716": {
+      "unit_cost": "234.90",
+      "unit_grams": "9E+2",
+      "sheet": "JOSERA",
+      "cell": "I18"
+    },
+    "50014957": {
+      "unit_cost": "702.00",
+      "unit_grams": "3E+3",
+      "sheet": "JOSERA",
+      "cell": "I19"
+    },
+    "50014719": {
+      "unit_cost": "225.00",
+      "unit_grams": "9E+2",
+      "sheet": "JOSERA",
+      "cell": "I20"
+    },
+    "50014723": {
+      "unit_cost": "2320.00",
+      "unit_grams": "1E+4",
+      "sheet": "JOSERA",
+      "cell": "I21"
+    },
+    "50014961": {
+      "unit_cost": "762.00",
+      "unit_grams": "3E+3",
+      "sheet": "JOSERA",
+      "cell": "I22"
+    },
+    "50014721": {
+      "unit_cost": "239.40",
+      "unit_grams": "9E+2",
+      "sheet": "JOSERA",
+      "cell": "I23"
+    },
+    "50014724": {
+      "unit_cost": "2430.00",
+      "unit_grams": "1E+4",
+      "sheet": "JOSERA",
+      "cell": "I24"
+    },
+    "50014963": {
+      "unit_cost": "801.00",
+      "unit_grams": "3E+3",
+      "sheet": "JOSERA",
+      "cell": "I25"
+    },
+    "50014722": {
+      "unit_cost": "251.10",
+      "unit_grams": "9E+2",
+      "sheet": "JOSERA",
+      "cell": "I26"
+    },
+    "50014966": {
+      "unit_cost": "726.00",
+      "unit_grams": "3E+3",
+      "sheet": "JOSERA",
+      "cell": "I27"
+    },
+    "50014726": {
+      "unit_cost": "227.70",
+      "unit_grams": "9E+2",
+      "sheet": "JOSERA",
+      "cell": "I28"
+    },
+    "50014778": {
+      "unit_cost": "2512.50",
+      "unit_grams": "1.25E+4",
+      "sheet": "JOSERA",
+      "cell": "I29"
+    },
+    "50014967": {
+      "unit_cost": "660.00",
+      "unit_grams": "3E+3",
+      "sheet": "JOSERA",
+      "cell": "I30"
+    },
+    "50014781": {
+      "unit_cost": "2675.00",
+      "unit_grams": "1.25E+4",
+      "sheet": "JOSERA",
+      "cell": "I31"
+    },
+    "50014969": {
+      "unit_cost": "702.00",
+      "unit_grams": "3E+3",
+      "sheet": "JOSERA",
+      "cell": "I32"
+    },
+    "50014779": {
+      "unit_cost": "225.00",
+      "unit_grams": "9E+2",
+      "sheet": "JOSERA",
+      "cell": "I33"
+    },
+    "50014783": {
+      "unit_cost": "2675.00",
+      "unit_grams": "1.25E+4",
+      "sheet": "JOSERA",
+      "cell": "I34"
+    },
+    "50014970": {
+      "unit_cost": "702.00",
+      "unit_grams": "3E+3",
+      "sheet": "JOSERA",
+      "cell": "I35"
+    },
+    "50014782": {
+      "unit_cost": "225.00",
+      "unit_grams": "9E+2",
+      "sheet": "JOSERA",
+      "cell": "I36"
+    },
+    "50014785": {
+      "unit_cost": "2675.00",
+      "unit_grams": "1.25E+4",
+      "sheet": "JOSERA",
+      "cell": "I37"
+    },
+    "50014971": {
+      "unit_cost": "702.00",
+      "unit_grams": "3E+3",
+      "sheet": "JOSERA",
+      "cell": "I38"
+    },
+    "50014784": {
+      "unit_cost": "225.00",
+      "unit_grams": "9E+2",
+      "sheet": "JOSERA",
+      "cell": "I39"
+    },
+    "50014787": {
+      "unit_cost": "2512.50",
+      "unit_grams": "1.25E+4",
+      "sheet": "JOSERA",
+      "cell": "I40"
+    },
+    "50014973": {
+      "unit_cost": "660.00",
+      "unit_grams": "3E+3",
+      "sheet": "JOSERA",
+      "cell": "I41"
+    },
+    "50014786": {
+      "unit_cost": "207.00",
+      "unit_grams": "9E+2",
+      "sheet": "JOSERA",
+      "cell": "I42"
+    },
+    "50014789": {
+      "unit_cost": "4400.00",
+      "unit_grams": "1.25E+4",
+      "sheet": "JOSERA",
+      "cell": "I43"
+    },
+    "50014974": {
+      "unit_cost": "1161.00",
+      "unit_grams": "3E+3",
+      "sheet": "JOSERA",
+      "cell": "I44"
+    },
+    "50014788": {
+      "unit_cost": "363.60",
+      "unit_grams": "9E+2",
+      "sheet": "JOSERA",
+      "cell": "I45"
+    },
+    "50014791": {
+      "unit_cost": "3362.50",
+      "unit_grams": "1.25E+4",
+      "sheet": "JOSERA",
+      "cell": "I46"
+    },
+    "50014977": {
+      "unit_cost": "888.00",
+      "unit_grams": "3E+3",
+      "sheet": "JOSERA",
+      "cell": "I47"
+    },
+    "50014790": {
+      "unit_cost": "279.00",
+      "unit_grams": "9E+2",
+      "sheet": "JOSERA",
+      "cell": "I48"
+    },
+    "50014799": {
+      "unit_cost": "2512.50",
+      "unit_grams": "1.25E+4",
+      "sheet": "JOSERA",
+      "cell": "I49"
+    },
+    "50014978": {
+      "unit_cost": "660.00",
+      "unit_grams": "3E+3",
+      "sheet": "JOSERA",
+      "cell": "I50"
+    },
+    "50014798": {
+      "unit_cost": "207.00",
+      "unit_grams": "9E+2",
+      "sheet": "JOSERA",
+      "cell": "I51"
+    },
+    "50014801": {
+      "unit_cost": "2387.50",
+      "unit_grams": "1.25E+4",
+      "sheet": "JOSERA",
+      "cell": "I52"
+    },
+    "50014979": {
+      "unit_cost": "630.00",
+      "unit_grams": "3E+3",
+      "sheet": "JOSERA",
+      "cell": "I53"
+    },
+    "50014800": {
+      "unit_cost": "198.00",
+      "unit_grams": "9E+2",
+      "sheet": "JOSERA",
+      "cell": "I54"
+    },
+    "50014804": {
+      "unit_cost": "2900.00",
+      "unit_grams": "1.25E+4",
+      "sheet": "JOSERA",
+      "cell": "I55"
+    },
+    "50014980": {
+      "unit_cost": "762.00",
+      "unit_grams": "3E+3",
+      "sheet": "JOSERA",
+      "cell": "I56"
+    },
+    "50014803": {
+      "unit_cost": "239.40",
+      "unit_grams": "9E+2",
+      "sheet": "JOSERA",
+      "cell": "I57"
+    },
+    "50014806": {
+      "unit_cost": "2350.00",
+      "unit_grams": "1.25E+4",
+      "sheet": "JOSERA",
+      "cell": "I58"
+    },
+    "50014982": {
+      "unit_cost": "618.00",
+      "unit_grams": "3E+3",
+      "sheet": "JOSERA",
+      "cell": "I59"
+    },
+    "50014805": {
+      "unit_cost": "193.50",
+      "unit_grams": "9E+2",
+      "sheet": "JOSERA",
+      "cell": "I60"
+    },
+    "50014808": {
+      "unit_cost": "2487.50",
+      "unit_grams": "1.25E+4",
+      "sheet": "JOSERA",
+      "cell": "I61"
+    },
+    "50014983": {
+      "unit_cost": "657.00",
+      "unit_grams": "3E+3",
+      "sheet": "JOSERA",
+      "cell": "I62"
+    },
+    "50014807": {
+      "unit_cost": "206.10",
+      "unit_grams": "9E+2",
+      "sheet": "JOSERA",
+      "cell": "I63"
+    },
+    "50014810": {
+      "unit_cost": "2487.50",
+      "unit_grams": "1.25E+4",
+      "sheet": "JOSERA",
+      "cell": "I64"
+    },
+    "50014984": {
+      "unit_cost": "657.00",
+      "unit_grams": "3E+3",
+      "sheet": "JOSERA",
+      "cell": "I65"
+    },
+    "50014809": {
+      "unit_cost": "206.10",
+      "unit_grams": "9E+2",
+      "sheet": "JOSERA",
+      "cell": "I66"
+    },
+    "50014812": {
+      "unit_cost": "2900.00",
+      "unit_grams": "1.25E+4",
+      "sheet": "JOSERA",
+      "cell": "I67"
+    },
+    "50014985": {
+      "unit_cost": "762.00",
+      "unit_grams": "3E+3",
+      "sheet": "JOSERA",
+      "cell": "I68"
+    },
+    "50014811": {
+      "unit_cost": "239.40",
+      "unit_grams": "9E+2",
+      "sheet": "JOSERA",
+      "cell": "I69"
+    },
+    "50014814": {
+      "unit_cost": "3037.50",
+      "unit_grams": "1.25E+4",
+      "sheet": "JOSERA",
+      "cell": "I70"
+    },
+    "50014986": {
+      "unit_cost": "801.00",
+      "unit_grams": "3E+3",
+      "sheet": "JOSERA",
+      "cell": "I71"
+    },
+    "50014813": {
+      "unit_cost": "251.10",
+      "unit_grams": "9E+2",
+      "sheet": "JOSERA",
+      "cell": "I72"
+    },
+    "50014816": {
+      "unit_cost": "2487.50",
+      "unit_grams": "1.25E+4",
+      "sheet": "JOSERA",
+      "cell": "I73"
+    },
+    "50014987": {
+      "unit_cost": "657.00",
+      "unit_grams": "3E+3",
+      "sheet": "JOSERA",
+      "cell": "I74"
+    },
+    "50014815": {
+      "unit_cost": "206.10",
+      "unit_grams": "9E+2",
+      "sheet": "JOSERA",
+      "cell": "I75"
+    },
+    "50014818": {
+      "unit_cost": "2387.50",
+      "unit_grams": "1.25E+4",
+      "sheet": "JOSERA",
+      "cell": "I76"
+    },
+    "50014988": {
+      "unit_cost": "630.00",
+      "unit_grams": "3E+3",
+      "sheet": "JOSERA",
+      "cell": "I77"
+    },
+    "50014817": {
+      "unit_cost": "198.00",
+      "unit_grams": "9E+2",
+      "sheet": "JOSERA",
+      "cell": "I78"
+    },
+    "50014820": {
+      "unit_cost": "2512.50",
+      "unit_grams": "1.25E+4",
+      "sheet": "JOSERA",
+      "cell": "I79"
+    },
+    "50014989": {
+      "unit_cost": "660.00",
+      "unit_grams": "3E+3",
+      "sheet": "JOSERA",
+      "cell": "I80"
+    },
+    "50014819": {
+      "unit_cost": "207.00",
+      "unit_grams": "9E+2",
+      "sheet": "JOSERA",
+      "cell": "I81"
+    },
+    "50014821": {
+      "unit_cost": "2387.50",
+      "unit_grams": "1.25E+4",
+      "sheet": "JOSERA",
+      "cell": "I82"
+    },
+    "50014990": {
+      "unit_cost": "630.00",
+      "unit_grams": "3E+3",
+      "sheet": "JOSERA",
+      "cell": "I83"
+    },
+    "50014832": {
+      "unit_cost": "2387.50",
+      "unit_grams": "1.25E+4",
+      "sheet": "JOSERA",
+      "cell": "I84"
+    },
+    "50014991": {
+      "unit_cost": "630.00",
+      "unit_grams": "3E+3",
+      "sheet": "JOSERA",
+      "cell": "I85"
+    },
+    "50014823": {
+      "unit_cost": "2550.00",
+      "unit_grams": "1.25E+4",
+      "sheet": "JOSERA",
+      "cell": "I86"
+    },
+    "50014992": {
+      "unit_cost": "672.00",
+      "unit_grams": "3E+3",
+      "sheet": "JOSERA",
+      "cell": "I87"
+    },
+    "50014822": {
+      "unit_cost": "210.60",
+      "unit_grams": "9E+2",
+      "sheet": "JOSERA",
+      "cell": "I88"
+    },
+    "50014833": {
+      "unit_cost": "2437.50",
+      "unit_grams": "1.25E+4",
+      "sheet": "JOSERA",
+      "cell": "I89"
+    },
+    "50014993": {
+      "unit_cost": "642.00",
+      "unit_grams": "3E+3",
+      "sheet": "JOSERA",
+      "cell": "I90"
+    },
+    "50014831": {
+      "unit_cost": "2550.00",
+      "unit_grams": "1.25E+4",
+      "sheet": "JOSERA",
+      "cell": "I91"
+    },
+    "50014994": {
+      "unit_cost": "672.00",
+      "unit_grams": "3E+3",
+      "sheet": "JOSERA",
+      "cell": "I92"
+    },
+    "50014830": {
+      "unit_cost": "210.60",
+      "unit_grams": "9E+2",
+      "sheet": "JOSERA",
+      "cell": "I93"
+    },
+    "50014836": {
+      "unit_cost": "3362.50",
+      "unit_grams": "1.25E+4",
+      "sheet": "JOSERA",
+      "cell": "I94"
+    },
+    "50015000": {
+      "unit_cost": "888.00",
+      "unit_grams": "3E+3",
+      "sheet": "JOSERA",
+      "cell": "I95"
+    },
+    "50014834": {
+      "unit_cost": "279.00",
+      "unit_grams": "9E+2",
+      "sheet": "JOSERA",
+      "cell": "I96"
+    },
+    "50014842": {
+      "unit_cost": "2750.00",
+      "unit_grams": "1.25E+4",
+      "sheet": "JOSERA",
+      "cell": "I97"
+    },
+    "50015001": {
+      "unit_cost": "726.00",
+      "unit_grams": "3E+3",
+      "sheet": "JOSERA",
+      "cell": "I98"
+    },
+    "50014841": {
+      "unit_cost": "227.70",
+      "unit_grams": "9E+2",
+      "sheet": "JOSERA",
+      "cell": "I99"
+    },
+    "50014845": {
+      "unit_cost": "2512.50",
+      "unit_grams": "1.25E+4",
+      "sheet": "JOSERA",
+      "cell": "I100"
+    },
+    "50014999": {
+      "unit_cost": "660.00",
+      "unit_grams": "3E+3",
+      "sheet": "JOSERA",
+      "cell": "I101"
+    },
+    "50014844": {
+      "unit_cost": "207.00",
+      "unit_grams": "9E+2",
+      "sheet": "JOSERA",
+      "cell": "I102"
+    },
+    "50012154": {
+      "unit_cost": "1905.00",
+      "unit_grams": "1.5E+4",
+      "sheet": "JOSERA",
+      "cell": "I104"
+    },
+    "50013179": {
+      "unit_cost": "446.00",
+      "unit_grams": "2.7E+3",
+      "sheet": "JOSERA",
+      "cell": "I105"
+    },
+    "50006797": {
+      "unit_cost": "155.00",
+      "unit_grams": "9E+2",
+      "sheet": "JOSERA",
+      "cell": "I106"
+    },
+    "50012158": {
+      "unit_cost": "1905.00",
+      "unit_grams": "1.5E+4",
+      "sheet": "JOSERA",
+      "cell": "I107"
+    },
+    "50013180": {
+      "unit_cost": "448.00",
+      "unit_grams": "2.7E+3",
+      "sheet": "JOSERA",
+      "cell": "I108"
+    },
+    "50006796": {
+      "unit_cost": "155.00",
+      "unit_grams": "9E+2",
+      "sheet": "JOSERA",
+      "cell": "I109"
+    },
+    "50012160": {
+      "unit_cost": "2295.00",
+      "unit_grams": "1.5E+4",
+      "sheet": "JOSERA",
+      "cell": "I110"
+    },
+    "50006774": {
+      "unit_cost": "1230.00",
+      "unit_grams": "1.5E+4",
+      "sheet": "JOSERA",
+      "cell": "I111"
+    },
+    "50014343": {
+      "unit_cost": "870.00",
+      "unit_grams": "1E+4",
+      "sheet": "JOSERA",
+      "cell": "I112"
+    },
+    "50015523": {
+      "unit_cost": "327.00",
+      "unit_grams": "2.7E+3",
+      "sheet": "JOSERA",
+      "cell": "I113"
+    },
+    "50012162": {
+      "unit_cost": "2295.00",
+      "unit_grams": "1.5E+4",
+      "sheet": "JOSERA",
+      "cell": "I114"
+    },
+    "50012163": {
+      "unit_cost": "1815.00",
+      "unit_grams": "1.5E+4",
+      "sheet": "JOSERA",
+      "cell": "I115"
+    },
+    "50012164": {
+      "unit_cost": "2175.00",
+      "unit_grams": "1.5E+4",
+      "sheet": "JOSERA",
+      "cell": "I116"
+    },
+    "50013181": {
+      "unit_cost": "464.00",
+      "unit_grams": "2.7E+3",
+      "sheet": "JOSERA",
+      "cell": "I117"
+    },
+    "50006794": {
+      "unit_cost": "157.00",
+      "unit_grams": "9E+2",
+      "sheet": "JOSERA",
+      "cell": "I118"
+    },
+    "50012165": {
+      "unit_cost": "2580.00",
+      "unit_grams": "1.5E+4",
+      "sheet": "JOSERA",
+      "cell": "I119"
+    },
+    "50012166": {
+      "unit_cost": "1815.00",
+      "unit_grams": "1.5E+4",
+      "sheet": "JOSERA",
+      "cell": "I120"
+    },
+    "50006793": {
+      "unit_cost": "140.00",
+      "unit_grams": "9E+2",
+      "sheet": "JOSERA",
+      "cell": "I121"
+    },
+    "50012167": {
+      "unit_cost": "1560.00",
+      "unit_grams": "1E+4",
+      "sheet": "JOSERA",
+      "cell": "I122"
+    },
+    "50013183": {
+      "unit_cost": "497.00",
+      "unit_grams": "2.7E+3",
+      "sheet": "JOSERA",
+      "cell": "I123"
+    },
+    "50006798": {
+      "unit_cost": "172.00",
+      "unit_grams": "9E+2",
+      "sheet": "JOSERA",
+      "cell": "I124"
+    },
+    "50011945": {
+      "unit_cost": "1770.00",
+      "unit_grams": "1.5E+4",
+      "sheet": "JOSERA",
+      "cell": "I125"
+    },
+    "50014342": {
+      "unit_cost": "1300.00",
+      "unit_grams": "1E+4",
+      "sheet": "JOSERA",
+      "cell": "I126"
+    },
+    "50013184": {
+      "unit_cost": "405.00",
+      "unit_grams": "2.7E+3",
+      "sheet": "JOSERA",
+      "cell": "I127"
+    },
+    "50006795": {
+      "unit_cost": "140.00",
+      "unit_grams": "9E+2",
+      "sheet": "JOSERA",
+      "cell": "I128"
+    },
+    "50014376": {
+      "unit_cost": "1665.00",
+      "unit_grams": "1.5E+4",
+      "sheet": "JOSERA",
+      "cell": "I129"
+    },
+    "50014374": {
+      "unit_cost": "136.00",
+      "unit_grams": "9E+2",
+      "sheet": "JOSERA",
+      "cell": "I130"
+    },
+    "50005178": {
+      "unit_cost": "1386.00",
+      "unit_grams": "1.8E+4",
+      "sheet": "JOSERA",
+      "cell": "I132"
+    },
+    "50005182": {
+      "unit_cost": "1602.00",
+      "unit_grams": "1.8E+4",
+      "sheet": "JOSERA",
+      "cell": "I133"
+    },
+    "50005184": {
+      "unit_cost": "1674.00",
+      "unit_grams": "1.8E+4",
+      "sheet": "JOSERA",
+      "cell": "I134"
+    },
+    "50005186": {
+      "unit_cost": "1908.00",
+      "unit_grams": "1.8E+4",
+      "sheet": "JOSERA",
+      "cell": "I135"
+    },
+    "30001922": {
+      "unit_cost": "120.00",
+      "unit_grams": "1.5E+2",
+      "sheet": "JOSERA",
+      "cell": "I137"
+    },
+    "30001923": {
+      "unit_cost": "120.00",
+      "unit_grams": "1.5E+2",
+      "sheet": "JOSERA",
+      "cell": "I138"
+    },
+    "30001924": {
+      "unit_cost": "120.00",
+      "unit_grams": "1.5E+2",
+      "sheet": "JOSERA",
+      "cell": "I139"
+    },
+    "50010350": {
+      "unit_cost": "2810.00",
+      "unit_grams": "1E+4",
+      "sheet": "JOSERA",
+      "cell": "I142"
+    },
+    "50011055": {
+      "unit_cost": "626.00",
+      "unit_grams": "2E+3",
+      "sheet": "JOSERA",
+      "cell": "I143"
+    },
+    "50011057": {
+      "unit_cost": "156.00",
+      "unit_grams": "4E+2",
+      "sheet": "JOSERA",
+      "cell": "I144"
+    },
+    "50005505": {
+      "unit_cost": "2660.00",
+      "unit_grams": "1E+4",
+      "sheet": "JOSERA",
+      "cell": "I145"
+    },
+    "50005506": {
+      "unit_cost": "596.00",
+      "unit_grams": "2E+3",
+      "sheet": "JOSERA",
+      "cell": "I146"
+    },
+    "50006966": {
+      "unit_cost": "184.00",
+      "unit_grams": "4E+2",
+      "sheet": "JOSERA",
+      "cell": "I147"
+    },
+    "50003228": {
+      "unit_cost": "2660.00",
+      "unit_grams": "1E+4",
+      "sheet": "JOSERA",
+      "cell": "I148"
+    },
+    "50004835": {
+      "unit_cost": "596.00",
+      "unit_grams": "2E+3",
+      "sheet": "JOSERA",
+      "cell": "I149"
+    },
+    "50004836": {
+      "unit_cost": "150.00",
+      "unit_grams": "4E+2",
+      "sheet": "JOSERA",
+      "cell": "I150"
+    },
+    "50008779": {
+      "unit_cost": "2810.00",
+      "unit_grams": "1E+4",
+      "sheet": "JOSERA",
+      "cell": "I151"
+    },
+    "50008780": {
+      "unit_cost": "626.00",
+      "unit_grams": "2E+3",
+      "sheet": "JOSERA",
+      "cell": "I152"
+    },
+    "50008782": {
+      "unit_cost": "180.00",
+      "unit_grams": "4E+2",
+      "sheet": "JOSERA",
+      "cell": "I153"
+    },
+    "50003277": {
+      "unit_cost": "2660.00",
+      "unit_grams": "1E+4",
+      "sheet": "JOSERA",
+      "cell": "I154"
+    },
+    "50004845": {
+      "unit_cost": "596.00",
+      "unit_grams": "2E+3",
+      "sheet": "JOSERA",
+      "cell": "I155"
+    },
+    "50004846": {
+      "unit_cost": "177.00",
+      "unit_grams": "4E+2",
+      "sheet": "JOSERA",
+      "cell": "I156"
+    },
+    "50005508": {
+      "unit_cost": "3870.00",
+      "unit_grams": "1E+4",
+      "sheet": "JOSERA",
+      "cell": "I157"
+    },
+    "50005509": {
+      "unit_cost": "832.00",
+      "unit_grams": "2E+3",
+      "sheet": "JOSERA",
+      "cell": "I158"
+    },
+    "50006968": {
+      "unit_cost": "186.00",
+      "unit_grams": "4E+2",
+      "sheet": "JOSERA",
+      "cell": "I159"
+    },
+    "50009986": {
+      "unit_cost": "3190.00",
+      "unit_grams": "1E+4",
+      "sheet": "JOSERA",
+      "cell": "I160"
+    },
+    "50011049": {
+      "unit_cost": "720.00",
+      "unit_grams": "2E+3",
+      "sheet": "JOSERA",
+      "cell": "I161"
+    },
+    "50011054": {
+      "unit_cost": "167.00",
+      "unit_grams": "4E+2",
+      "sheet": "JOSERA",
+      "cell": "I162"
+    },
+    "50003229": {
+      "unit_cost": "2660.00",
+      "unit_grams": "1E+4",
+      "sheet": "JOSERA",
+      "cell": "I163"
+    },
+    "50004837": {
+      "unit_cost": "596.00",
+      "unit_grams": "2E+3",
+      "sheet": "JOSERA",
+      "cell": "I164"
+    },
+    "50004838": {
+      "unit_cost": "166.00",
+      "unit_grams": "4E+2",
+      "sheet": "JOSERA",
+      "cell": "I165"
+    },
+    "50007695": {
+      "unit_cost": "3240.00",
+      "unit_grams": "1E+4",
+      "sheet": "JOSERA",
+      "cell": "I166"
+    },
+    "50007696": {
+      "unit_cost": "672.00",
+      "unit_grams": "2E+3",
+      "sheet": "JOSERA",
+      "cell": "I167"
+    },
+    "50007697": {
+      "unit_cost": "184.00",
+      "unit_grams": "4E+2",
+      "sheet": "JOSERA",
+      "cell": "I168"
+    },
+    "50005511": {
+      "unit_cost": "3240.00",
+      "unit_grams": "1E+4",
+      "sheet": "JOSERA",
+      "cell": "I169"
+    },
+    "50005512": {
+      "unit_cost": "672.00",
+      "unit_grams": "2E+3",
+      "sheet": "JOSERA",
+      "cell": "I170"
+    },
+    "50006967": {
+      "unit_cost": "184.00",
+      "unit_grams": "4E+2",
+      "sheet": "JOSERA",
+      "cell": "I171"
+    },
+    "50003279": {
+      "unit_cost": "2660.00",
+      "unit_grams": "1E+4",
+      "sheet": "JOSERA",
+      "cell": "I172"
+    },
+    "50004847": {
+      "unit_cost": "596.00",
+      "unit_grams": "2E+3",
+      "sheet": "JOSERA",
+      "cell": "I173"
+    },
+    "50004848": {
+      "unit_cost": "164.00",
+      "unit_grams": "4E+2",
+      "sheet": "JOSERA",
+      "cell": "I174"
+    },
+    "50009044": {
+      "unit_cost": "1680.00",
+      "unit_grams": "1E+4",
+      "sheet": "JOSERA",
+      "cell": "I176"
+    },
+    "50013188": {
+      "unit_cost": "428.00",
+      "unit_grams": "1.9E+3",
+      "sheet": "JOSERA",
+      "cell": "I177"
+    },
+    "50009211": {
+      "unit_cost": "150.00",
+      "unit_grams": "6.5E+2",
+      "sheet": "JOSERA",
+      "cell": "I178"
+    },
+    "50009025": {
+      "unit_cost": "1440.00",
+      "unit_grams": "1E+4",
+      "sheet": "JOSERA",
+      "cell": "I179"
+    },
+    "50013185": {
+      "unit_cost": "361.00",
+      "unit_grams": "1.9E+3",
+      "sheet": "JOSERA",
+      "cell": "I180"
+    },
+    "50009209": {
+      "unit_cost": "129.00",
+      "unit_grams": "6.5E+2",
+      "sheet": "JOSERA",
+      "cell": "I181"
+    },
+    "50012984": {
+      "unit_cost": "1440.00",
+      "unit_grams": "1E+4",
+      "sheet": "JOSERA",
+      "cell": "I182"
+    },
+    "50013186": {
+      "unit_cost": "361.00",
+      "unit_grams": "1.9E+3",
+      "sheet": "JOSERA",
+      "cell": "I183"
+    },
+    "50012991": {
+      "unit_cost": "129.00",
+      "unit_grams": "6.5E+2",
+      "sheet": "JOSERA",
+      "cell": "I184"
+    },
+    "50009001": {
+      "unit_cost": "2466.00",
+      "unit_grams": "1.8E+4",
+      "sheet": "JOSERA",
+      "cell": "I185"
+    },
+    "50008993": {
+      "unit_cost": "1440.00",
+      "unit_grams": "1E+4",
+      "sheet": "JOSERA",
+      "cell": "I186"
+    },
+    "50013189": {
+      "unit_cost": "361.00",
+      "unit_grams": "1.9E+3",
+      "sheet": "JOSERA",
+      "cell": "I187"
+    },
+    "50009045": {
+      "unit_cost": "129.00",
+      "unit_grams": "6.5E+2",
+      "sheet": "JOSERA",
+      "cell": "I188"
+    },
+    "50012492": {
+      "unit_cost": "1680.00",
+      "unit_grams": "1E+4",
+      "sheet": "JOSERA",
+      "cell": "I189"
+    },
+    "50013187": {
+      "unit_cost": "428.00",
+      "unit_grams": "1.9E+3",
+      "sheet": "JOSERA",
+      "cell": "I190"
+    },
+    "50012493": {
+      "unit_cost": "150.00",
+      "unit_grams": "6.5E+2",
+      "sheet": "JOSERA",
+      "cell": "I191"
+    },
+    "50011637": {
+      "unit_cost": "302.00",
+      "unit_grams": "9E+2",
+      "sheet": "Help",
+      "cell": "G5"
+    },
+    "50011638": {
+      "unit_cost": "2590.00",
+      "unit_grams": "1E+4",
+      "sheet": "Help",
+      "cell": "G6"
+    },
+    "50011644": {
+      "unit_cost": "257.00",
+      "unit_grams": "9E+2",
+      "sheet": "Help",
+      "cell": "G7"
+    },
+    "50011645": {
+      "unit_cost": "2410.00",
+      "unit_grams": "1E+4",
+      "sheet": "Help",
+      "cell": "G8"
+    },
+    "50011639": {
+      "unit_cost": "338.00",
+      "unit_grams": "9E+2",
+      "sheet": "Help",
+      "cell": "G9"
+    },
+    "50011640": {
+      "unit_cost": "3100.00",
+      "unit_grams": "1E+4",
+      "sheet": "Help",
+      "cell": "G10"
+    },
+    "50011634": {
+      "unit_cost": "243.00",
+      "unit_grams": "9E+2",
+      "sheet": "Help",
+      "cell": "G11"
+    },
+    "50011636": {
+      "unit_cost": "2410.00",
+      "unit_grams": "1E+4",
+      "sheet": "Help",
+      "cell": "G12"
+    },
+    "50011641": {
+      "unit_cost": "257.00",
+      "unit_grams": "9E+2",
+      "sheet": "Help",
+      "cell": "G13"
+    },
+    "50011755": {
+      "unit_cost": "2410.00",
+      "unit_grams": "1E+4",
+      "sheet": "Help",
+      "cell": "G14"
+    },
+    "50011642": {
+      "unit_cost": "302.00",
+      "unit_grams": "9E+2",
+      "sheet": "Help",
+      "cell": "G15"
+    },
+    "50011643": {
+      "unit_cost": "2590.00",
+      "unit_grams": "1E+4",
+      "sheet": "Help",
+      "cell": "G16"
+    },
+    "50011651": {
+      "unit_cost": "211.00",
+      "unit_grams": "4E+2",
+      "sheet": "Help",
+      "cell": "G18"
+    },
+    "50011652": {
+      "unit_cost": "752.00",
+      "unit_grams": "2E+3",
+      "sheet": "Help",
+      "cell": "G19"
+    },
+    "50011653": {
+      "unit_cost": "234.00",
+      "unit_grams": "4E+2",
+      "sheet": "Help",
+      "cell": "G20"
+    },
+    "50011654": {
+      "unit_cost": "802.00",
+      "unit_grams": "2E+3",
+      "sheet": "Help",
+      "cell": "G21"
+    },
+    "50011655": {
+      "unit_cost": "3500.00",
+      "unit_grams": "1E+4",
+      "sheet": "Help",
+      "cell": "G22"
+    },
+    "50011648": {
+      "unit_cost": "211.00",
+      "unit_grams": "4E+2",
+      "sheet": "Help",
+      "cell": "G23"
+    },
+    "50011649": {
+      "unit_cost": "752.00",
+      "unit_grams": "2E+3",
+      "sheet": "Help",
+      "cell": "G24"
+    },
+    "50011650": {
+      "unit_cost": "3270.00",
+      "unit_grams": "1E+4",
+      "sheet": "Help",
+      "cell": "G25"
+    },
+    "50011656": {
+      "unit_cost": "211.00",
+      "unit_grams": "4E+2",
+      "sheet": "Help",
+      "cell": "G26"
+    },
+    "50011657": {
+      "unit_cost": "710.00",
+      "unit_grams": "2E+3",
+      "sheet": "Help",
+      "cell": "G27"
+    },
+    "50011658": {
+      "unit_cost": "3100.00",
+      "unit_grams": "1E+4",
+      "sheet": "Help",
+      "cell": "G28"
+    },
+    "50011660": {
+      "unit_cost": "199.00",
+      "unit_grams": "4E+2",
+      "sheet": "Help",
+      "cell": "G29"
+    },
+    "50011773": {
+      "unit_cost": "710.00",
+      "unit_grams": "2E+3",
+      "sheet": "Help",
+      "cell": "G30"
+    },
+    "30001661": {
+      "unit_cost": "56.00",
+      "unit_grams": "7E+1",
+      "sheet": "WET",
+      "cell": "F4"
+    },
+    "30001663": {
+      "unit_cost": "56.00",
+      "unit_grams": "7E+1",
+      "sheet": "WET",
+      "cell": "F5"
+    },
+    "30001662": {
+      "unit_cost": "56.00",
+      "unit_grams": "7E+1",
+      "sheet": "WET",
+      "cell": "F6"
+    },
+    "30001660": {
+      "unit_cost": "56.00",
+      "unit_grams": "7E+1",
+      "sheet": "WET",
+      "cell": "F7"
+    },
+    "30001658": {
+      "unit_cost": "56.00",
+      "unit_grams": "7E+1",
+      "sheet": "WET",
+      "cell": "F8"
+    },
+    "30001652": {
+      "unit_cost": "47.60",
+      "unit_grams": "85",
+      "sheet": "WET",
+      "cell": "F9"
+    },
+    "30001651": {
+      "unit_cost": "47.60",
+      "unit_grams": "85",
+      "sheet": "WET",
+      "cell": "F10"
+    },
+    "30001650": {
+      "unit_cost": "47.60",
+      "unit_grams": "85",
+      "sheet": "WET",
+      "cell": "F11"
+    },
+    "30001654": {
+      "unit_cost": "47.60",
+      "unit_grams": "85",
+      "sheet": "WET",
+      "cell": "F12"
+    },
+    "30001653": {
+      "unit_cost": "47.60",
+      "unit_grams": "85",
+      "sheet": "WET",
+      "cell": "F13"
+    },
+    "30003657": {
+      "unit_cost": "82.00",
+      "unit_grams": "415",
+      "sheet": "WET",
+      "cell": "F15"
+    },
+    "30003656": {
+      "unit_cost": "82.00",
+      "unit_grams": "415",
+      "sheet": "WET",
+      "cell": "F16"
+    },
+    "30003650": {
+      "unit_cost": "82.00",
+      "unit_grams": "415",
+      "sheet": "WET",
+      "cell": "F17"
+    },
+    "30003661": {
+      "unit_cost": "90.00",
+      "unit_grams": "4E+2",
+      "sheet": "WET",
+      "cell": "F18"
+    },
+    "30003662": {
+      "unit_cost": "90.00",
+      "unit_grams": "4E+2",
+      "sheet": "WET",
+      "cell": "F19"
+    },
+    "50015138": {
+      "unit_cost": "3180.00",
+      "unit_grams": "1E+4",
+      "sheet": "GPF",
+      "cell": "G6"
+    },
+    "50015136": {
+      "unit_cost": "359.00",
+      "unit_grams": "9E+2",
+      "sheet": "GPF",
+      "cell": "G7"
+    },
+    "50015141": {
+      "unit_cost": "2870.00",
+      "unit_grams": "1E+4",
+      "sheet": "GPF",
+      "cell": "G8"
+    },
+    "50015139": {
+      "unit_cost": "319.00",
+      "unit_grams": "9E+2",
+      "sheet": "GPF",
+      "cell": "G9"
+    },
+    "50015155": {
+      "unit_cost": "2760.00",
+      "unit_grams": "1E+4",
+      "sheet": "GPF",
+      "cell": "G10"
+    },
+    "50015153": {
+      "unit_cost": "311.00",
+      "unit_grams": "9E+2",
+      "sheet": "GPF",
+      "cell": "G11"
+    },
+    "50015157": {
+      "unit_cost": "2660.00",
+      "unit_grams": "1E+4",
+      "sheet": "GPF",
+      "cell": "G12"
+    },
+    "50015156": {
+      "unit_cost": "299.00",
+      "unit_grams": "9E+2",
+      "sheet": "GPF",
+      "cell": "G13"
+    }
+  }
+}
