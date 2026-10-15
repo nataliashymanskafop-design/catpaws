@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T23:47:35Z",
+  "updatedAt": "2026-10-15T03:57:23Z",
   "total": 1693,
   "data": [
     {
@@ -200,7 +200,7 @@
     },
     {
       "code": "50014798р",
-      "price": 1420,
+      "price": 1418,
       "old_price": null,
       "availability": true,
       "stock": 4,
@@ -228,7 +228,7 @@
     },
     {
       "code": "50006797*5",
-      "price": 1055,
+      "price": 1053,
       "old_price": null,
       "availability": true,
       "stock": 4,
@@ -284,7 +284,7 @@
     },
     {
       "code": "50014374*5",
-      "price": 925,
+      "price": 927,
       "old_price": null,
       "availability": true,
       "stock": 4,
@@ -320,6 +320,34 @@
         {
           "id": "TERRAVET",
           "stock": 20
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 0,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "50006798*5",
+      "price": 1175,
+      "old_price": null,
+      "availability": true,
+      "stock": 4,
+      "warehouses": [
+        {
+          "id": "TERRAVET",
+          "stock": 4
         }
       ],
       "warranty_type": "no",
@@ -1292,7 +1320,7 @@
     },
     {
       "code": "50014710р",
-      "price": 1600,
+      "price": 1602,
       "old_price": null,
       "availability": true,
       "stock": 4,
@@ -1489,6 +1517,34 @@
     {
       "code": "50005506",
       "price": 778,
+      "old_price": null,
+      "availability": true,
+      "stock": 20,
+      "warehouses": [
+        {
+          "id": "TERRAVET",
+          "stock": 20
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 0,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "50011049",
+      "price": 936,
       "old_price": null,
       "availability": true,
       "stock": 20,
@@ -1824,7 +1880,7 @@
     },
     {
       "code": "50005508",
-      "price": 4770,
+      "price": 5250,
       "old_price": null,
       "availability": true,
       "stock": 20,
@@ -4679,34 +4735,6 @@
       "manufacture": null
     },
     {
-      "code": "NPS45724",
-      "price": 866,
-      "old_price": null,
-      "availability": false,
-      "stock": 0,
-      "warehouses": [
-        {
-          "id": "KORMAX",
-          "stock": 0
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
       "code": "NPS45725",
       "price": 2635,
       "old_price": null,
@@ -5436,7 +5464,7 @@
     },
     {
       "code": "50009045*7",
-      "price": 1225,
+      "price": 1224,
       "old_price": null,
       "availability": true,
       "stock": 2,
@@ -5464,7 +5492,7 @@
     },
     {
       "code": "50009209*7",
-      "price": 1225,
+      "price": 1224,
       "old_price": null,
       "availability": true,
       "stock": 2,
@@ -5520,7 +5548,7 @@
     },
     {
       "code": "50012991*7",
-      "price": 1225,
+      "price": 1224,
       "old_price": null,
       "availability": true,
       "stock": 2,
@@ -8684,7 +8712,7 @@
     },
     {
       "code": "50006796*5",
-      "price": 1055,
+      "price": 1053,
       "old_price": null,
       "availability": true,
       "stock": 4,
@@ -8992,7 +9020,7 @@
     },
     {
       "code": "50006966р",
-      "price": 1920,
+      "price": 1632,
       "old_price": null,
       "availability": true,
       "stock": 2,
@@ -9160,7 +9188,7 @@
     },
     {
       "code": "50014820",
-      "price": 4275,
+      "price": 3425,
       "old_price": null,
       "availability": true,
       "stock": 20,
@@ -10951,6 +10979,62 @@
       "manufacture": null
     },
     {
+      "code": "50013185",
+      "price": 492,
+      "old_price": null,
+      "availability": true,
+      "stock": 20,
+      "warehouses": [
+        {
+          "id": "TERRAVET",
+          "stock": 20
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 0,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "50013188",
+      "price": 581,
+      "old_price": null,
+      "availability": true,
+      "stock": 20,
+      "warehouses": [
+        {
+          "id": "TERRAVET",
+          "stock": 20
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 0,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
       "code": "50013186",
       "price": 492,
       "old_price": null,
@@ -11007,6 +11091,34 @@
       "manufacture": null
     },
     {
+      "code": "50013179",
+      "price": 610,
+      "old_price": null,
+      "availability": true,
+      "stock": 20,
+      "warehouses": [
+        {
+          "id": "TERRAVET",
+          "stock": 20
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 0,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
       "code": "50011945",
       "price": 2385,
       "old_price": null,
@@ -11016,6 +11128,118 @@
         {
           "id": "TERRAVET",
           "stock": 20
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 0,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "50013183",
+      "price": 678,
+      "old_price": null,
+      "availability": true,
+      "stock": 20,
+      "warehouses": [
+        {
+          "id": "TERRAVET",
+          "stock": 20
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 0,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "50013180",
+      "price": 613,
+      "old_price": null,
+      "availability": true,
+      "stock": 20,
+      "warehouses": [
+        {
+          "id": "TERRAVET",
+          "stock": 20
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 0,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "50014716",
+      "price": 320,
+      "old_price": null,
+      "availability": true,
+      "stock": 20,
+      "warehouses": [
+        {
+          "id": "TERRAVET",
+          "stock": 20
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 0,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "50014716р",
+      "price": 1602,
+      "old_price": null,
+      "availability": true,
+      "stock": 4,
+      "warehouses": [
+        {
+          "id": "TERRAVET",
+          "stock": 4
         }
       ],
       "warranty_type": "no",
@@ -15291,7 +15515,7 @@
       "manufacture": null
     },
     {
-      "code": "50014951",
+      "code": "50014946",
       "price": 1020,
       "old_price": null,
       "availability": true,
@@ -15319,71 +15543,15 @@
       "manufacture": null
     },
     {
-      "code": "50014719",
-      "price": 308,
+      "code": "50014951",
+      "price": 1020,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 20,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 0
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "50014719р",
-      "price": 1540,
-      "old_price": null,
-      "availability": false,
-      "stock": 0,
-      "warehouses": [
-        {
-          "id": "TERRAVET",
-          "stock": 0
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "50014957",
-      "price": 960,
-      "old_price": null,
-      "availability": false,
-      "stock": 0,
-      "warehouses": [
-        {
-          "id": "TERRAVET",
-          "stock": 0
+          "stock": 20
         }
       ],
       "warranty_type": "no",
@@ -15488,7 +15656,7 @@
     },
     {
       "code": "50014788p",
-      "price": 2490,
+      "price": 2489,
       "old_price": null,
       "availability": true,
       "stock": 4,
@@ -15544,7 +15712,7 @@
     },
     {
       "code": "50014844p",
-      "price": 1420,
+      "price": 1418,
       "old_price": null,
       "availability": true,
       "stock": 4,
@@ -15552,6 +15720,34 @@
         {
           "id": "TERRAVET",
           "stock": 4
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 0,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "50014999",
+      "price": 903,
+      "old_price": null,
+      "availability": true,
+      "stock": 20,
+      "warehouses": [
+        {
+          "id": "TERRAVET",
+          "stock": 20
         }
       ],
       "warranty_type": "no",
@@ -15628,7 +15824,7 @@
     },
     {
       "code": "50014834p",
-      "price": 1905,
+      "price": 1904,
       "old_price": null,
       "availability": true,
       "stock": 4,
@@ -15740,7 +15936,7 @@
     },
     {
       "code": "50014841p",
-      "price": 1555,
+      "price": 1557,
       "old_price": null,
       "availability": true,
       "stock": 4,
@@ -16131,6 +16327,146 @@
       "manufacture": null
     },
     {
+      "code": "30001658_box",
+      "price": 1168,
+      "old_price": null,
+      "availability": true,
+      "stock": 3,
+      "warehouses": [
+        {
+          "id": "TERRAVET",
+          "stock": 3
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 0,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "30001661_box",
+      "price": 1168,
+      "old_price": null,
+      "availability": true,
+      "stock": 3,
+      "warehouses": [
+        {
+          "id": "TERRAVET",
+          "stock": 3
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 0,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "30001662_box",
+      "price": 1168,
+      "old_price": null,
+      "availability": true,
+      "stock": 3,
+      "warehouses": [
+        {
+          "id": "TERRAVET",
+          "stock": 3
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 0,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "30001663_box",
+      "price": 1168,
+      "old_price": null,
+      "availability": true,
+      "stock": 3,
+      "warehouses": [
+        {
+          "id": "TERRAVET",
+          "stock": 3
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 0,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "30001654_box",
+      "price": 992,
+      "old_price": null,
+      "availability": true,
+      "stock": 3,
+      "warehouses": [
+        {
+          "id": "TERRAVET",
+          "stock": 3
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 0,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
       "code": "30001650_box",
       "price": 992,
       "old_price": null,
@@ -16146,6 +16482,90 @@
       "warranty_period": 0,
       "max_pay_in_parts": 6,
       "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "30001651_box",
+      "price": 992,
+      "old_price": null,
+      "availability": true,
+      "stock": 3,
+      "warehouses": [
+        {
+          "id": "TERRAVET",
+          "stock": 3
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 0,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "30001652_box",
+      "price": 992,
+      "old_price": null,
+      "availability": true,
+      "stock": 3,
+      "warehouses": [
+        {
+          "id": "TERRAVET",
+          "stock": 3
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 0,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "30001653_box",
+      "price": 992,
+      "old_price": null,
+      "availability": true,
+      "stock": 3,
+      "warehouses": [
+        {
+          "id": "TERRAVET",
+          "stock": 3
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 0,
       "delivery_methods": [
         {
           "method": "nova-post:branch",
@@ -19015,6 +19435,34 @@
       "manufacture": null
     },
     {
+      "code": "056750",
+      "price": 3906,
+      "old_price": null,
+      "availability": true,
+      "stock": 1,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 1
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
       "code": "056781 - 6726",
       "price": 562,
       "old_price": null,
@@ -20191,6 +20639,34 @@
       "manufacture": null
     },
     {
+      "code": "740138 - 1220",
+      "price": 521,
+      "old_price": null,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
       "code": "ЗС000434",
       "price": 479,
       "old_price": null,
@@ -20975,6 +21451,34 @@
       "manufacture": null
     },
     {
+      "code": "50014949",
+      "price": 1119,
+      "old_price": null,
+      "availability": true,
+      "stock": 20,
+      "warehouses": [
+        {
+          "id": "TERRAVET",
+          "stock": 20
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 0,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
       "code": "50014713",
       "price": 351,
       "old_price": null,
@@ -21088,7 +21592,7 @@
     },
     {
       "code": "50014714р",
-      "price": 1515,
+      "price": 1517,
       "old_price": null,
       "availability": true,
       "stock": 4,
@@ -21096,6 +21600,34 @@
         {
           "id": "TERRAVET",
           "stock": 4
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 0,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "50014969",
+      "price": 960,
+      "old_price": null,
+      "availability": true,
+      "stock": 20,
+      "warehouses": [
+        {
+          "id": "TERRAVET",
+          "stock": 20
         }
       ],
       "warranty_type": "no",
@@ -21144,7 +21676,7 @@
     },
     {
       "code": "50014779р",
-      "price": 1540,
+      "price": 1539,
       "old_price": null,
       "availability": true,
       "stock": 4,
@@ -21152,6 +21684,34 @@
         {
           "id": "TERRAVET",
           "stock": 4
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 0,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "50014970",
+      "price": 960,
+      "old_price": null,
+      "availability": true,
+      "stock": 20,
+      "warehouses": [
+        {
+          "id": "TERRAVET",
+          "stock": 20
         }
       ],
       "warranty_type": "no",
@@ -21200,7 +21760,7 @@
     },
     {
       "code": "50014782р",
-      "price": 1540,
+      "price": 1539,
       "old_price": null,
       "availability": true,
       "stock": 4,
@@ -21255,8 +21815,92 @@
       "manufacture": null
     },
     {
+      "code": "50014784",
+      "price": 308,
+      "old_price": null,
+      "availability": true,
+      "stock": 20,
+      "warehouses": [
+        {
+          "id": "TERRAVET",
+          "stock": 20
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 0,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "50014784р",
+      "price": 1539,
+      "old_price": null,
+      "availability": true,
+      "stock": 4,
+      "warehouses": [
+        {
+          "id": "TERRAVET",
+          "stock": 4
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 0,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "50014973",
+      "price": 903,
+      "old_price": null,
+      "availability": true,
+      "stock": 20,
+      "warehouses": [
+        {
+          "id": "TERRAVET",
+          "stock": 20
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 0,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
       "code": "50014786р",
-      "price": 1420,
+      "price": 1418,
       "old_price": null,
       "availability": true,
       "stock": 4,
@@ -21340,7 +21984,7 @@
     },
     {
       "code": "50014790р",
-      "price": 1905,
+      "price": 1904,
       "old_price": null,
       "availability": true,
       "stock": 4,
@@ -21348,6 +21992,34 @@
         {
           "id": "TERRAVET",
           "stock": 4
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 0,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "50014979",
+      "price": 864,
+      "old_price": null,
+      "availability": true,
+      "stock": 20,
+      "warehouses": [
+        {
+          "id": "TERRAVET",
+          "stock": 20
         }
       ],
       "warranty_type": "no",
@@ -21376,6 +22048,34 @@
         {
           "id": "TERRAVET",
           "stock": 4
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 0,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "50014988",
+      "price": 864,
+      "old_price": null,
+      "availability": true,
+      "stock": 20,
+      "warehouses": [
+        {
+          "id": "TERRAVET",
+          "stock": 20
         }
       ],
       "warranty_type": "no",
@@ -21452,7 +22152,7 @@
     },
     {
       "code": "50014819р",
-      "price": 1420,
+      "price": 1418,
       "old_price": null,
       "availability": true,
       "stock": 4,
@@ -21564,7 +22264,7 @@
     },
     {
       "code": "50006794*5",
-      "price": 1070,
+      "price": 1071,
       "old_price": null,
       "availability": true,
       "stock": 4,
@@ -21572,6 +22272,34 @@
         {
           "id": "TERRAVET",
           "stock": 4
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 0,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "50006793*5",
+      "price": 959,
+      "old_price": null,
+      "availability": false,
+      "stock": 0,
+      "warehouses": [
+        {
+          "id": "TERRAVET",
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -21620,7 +22348,7 @@
     },
     {
       "code": "50006795*5",
-      "price": 960,
+      "price": 959,
       "old_price": null,
       "availability": true,
       "stock": 4,
@@ -22244,34 +22972,6 @@
         {
           "id": "KORMAX",
           "stock": 20
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "KIKNPSC47652",
-      "price": 321,
-      "old_price": null,
-      "availability": false,
-      "stock": 0,
-      "warehouses": [
-        {
-          "id": "KORMAX",
-          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -23747,6 +24447,62 @@
       "manufacture": null
     },
     {
+      "code": "4845 NVSHATT300",
+      "price": 654,
+      "old_price": null,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "4722 VSHGIN0300",
+      "price": 453,
+      "old_price": null,
+      "availability": true,
+      "stock": 1,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 1
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
       "code": "4784 VSHERB0300",
       "price": 453,
       "old_price": null,
@@ -23775,6 +24531,62 @@
       "manufacture": null
     },
     {
+      "code": "4746 VSHMAN0300",
+      "price": 654,
+      "old_price": null,
+      "availability": true,
+      "stock": 1,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 1
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "4807 NVBALERB5000",
+      "price": 5294,
+      "old_price": 6229,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
       "code": "4678 NVSHALG10000",
       "price": 4990,
       "old_price": 5871,
@@ -23784,6 +24596,90 @@
         {
           "id": "PETIMPEX",
           "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "4852 NVSHATT10000",
+      "price": 5479,
+      "old_price": 6446,
+      "availability": true,
+      "stock": 1,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 1
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "4654 NVSHERB10000",
+      "price": 4990,
+      "old_price": 5871,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "4647 NVSHMAN10000",
+      "price": 5479,
+      "old_price": 6446,
+      "availability": true,
+      "stock": 1,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -23896,6 +24792,678 @@
         {
           "id": "PETIMPEX",
           "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "0274 DERMSH1000",
+      "price": 2526,
+      "old_price": 3368,
+      "availability": true,
+      "stock": 1,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 1
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "9798 NK101",
+      "price": 2640,
+      "old_price": null,
+      "availability": true,
+      "stock": 1,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 1
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "1030 SIL",
+      "price": 1630,
+      "old_price": null,
+      "availability": true,
+      "stock": 1,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 1
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "9712 NPURSHA1000",
+      "price": 1777,
+      "old_price": null,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "2200 NPURSHA5000",
+      "price": 7518,
+      "old_price": null,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "2117  LOZH0150",
+      "price": 2300,
+      "old_price": null,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "9614 SHAH3000",
+      "price": 4146,
+      "old_price": null,
+      "availability": true,
+      "stock": 1,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 1
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "0781 SHAH0250",
+      "price": 916,
+      "old_price": null,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "9591 SHAPLUS3000",
+      "price": 12221,
+      "old_price": null,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "0828 SHAPLUS0100",
+      "price": 619,
+      "old_price": null,
+      "availability": true,
+      "stock": 1,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 1
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "1135 SHAPLUS1000",
+      "price": 5166,
+      "old_price": null,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "9958 NSHAZOL250",
+      "price": 1055,
+      "old_price": null,
+      "availability": true,
+      "stock": 1,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 1
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "9676 GELSOS100",
+      "price": 1533,
+      "old_price": null,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "9713 TONLAV300",
+      "price": 1421,
+      "old_price": null,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "9690 TONLAV3000",
+      "price": 7100,
+      "old_price": null,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "9751 TONNUT300",
+      "price": 1421,
+      "old_price": null,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "9737 TONNUT3000",
+      "price": 7100,
+      "old_price": null,
+      "availability": true,
+      "stock": 1,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 1
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "9799 PELEXT300",
+      "price": 1638,
+      "old_price": null,
+      "availability": true,
+      "stock": 1,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 1
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "9775 PELEXT3000",
+      "price": 8737,
+      "old_price": null,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "9812 SERUMSK150",
+      "price": 1874,
+      "old_price": null,
+      "availability": true,
+      "stock": 1,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 1
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "9836 SERUMSL150",
+      "price": 1533,
+      "old_price": null,
+      "availability": true,
+      "stock": 1,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 1
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "1105 PHASE 1",
+      "price": 2745,
+      "old_price": null,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "1136 PHASE 2",
+      "price": 2745,
+      "old_price": null,
+      "availability": true,
+      "stock": 1,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 1
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "1150 PHASE 4",
+      "price": 1533,
+      "old_price": null,
+      "availability": true,
+      "stock": 1,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -24335,6 +25903,34 @@
       "manufacture": null
     },
     {
+      "code": "0129 SHACO3000",
+      "price": 3589,
+      "old_price": null,
+      "availability": true,
+      "stock": 1,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 1
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
       "code": "0297 SHACHE1000",
       "price": 1079,
       "old_price": 1438,
@@ -24363,8 +25959,260 @@
       "manufacture": null
     },
     {
+      "code": "9970 NMASK02100",
+      "price": 561,
+      "old_price": null,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "9963 NSHA01100",
+      "price": 542,
+      "old_price": null,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "9996 NSHA01250",
+      "price": 1177,
+      "old_price": null,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "0015 NSHA011000",
+      "price": 3145,
+      "old_price": null,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "0046 NSHA013000",
+      "price": 7431,
+      "old_price": null,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "0060 NMASK02250",
+      "price": 1403,
+      "old_price": null,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "0084 NMASK021000",
+      "price": 3372,
+      "old_price": null,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "0107 NMASK023000",
+      "price": 8145,
+      "old_price": null,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
       "code": "0176 NPRLUP150",
       "price": 1177,
+      "old_price": null,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "617// KITCOLL",
+      "price": 3720,
       "old_price": null,
       "availability": true,
       "stock": 2,
@@ -24475,6 +26323,90 @@
       "manufacture": null
     },
     {
+      "code": "6617 / 1883933",
+      "price": 482,
+      "old_price": null,
+      "availability": true,
+      "stock": 1,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 1
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "6624/ 1883950",
+      "price": 482,
+      "old_price": null,
+      "availability": true,
+      "stock": 1,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 1
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "7577 POMP02",
+      "price": 482,
+      "old_price": null,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
       "code": "6709 POMP01",
       "price": 482,
       "old_price": null,
@@ -24484,6 +26416,34 @@
         {
           "id": "PETIMPEX",
           "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "7584 POMPBIG",
+      "price": 482,
+      "old_price": null,
+      "availability": true,
+      "stock": 1,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -24559,8 +26519,1016 @@
       "manufacture": null
     },
     {
+      "code": "0151030//0535",
+      "price": 2889,
+      "old_price": null,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "6686 / 31204134",
+      "price": 568,
+      "old_price": null,
+      "availability": true,
+      "stock": 1,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 1
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "1358 ACCAP/S",
+      "price": 1608,
+      "old_price": null,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "841// 6600578/ROSA",
+      "price": 722,
+      "old_price": null,
+      "availability": true,
+      "stock": 1,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 1
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "198//6600626/SWAN",
+      "price": 722,
+      "old_price": null,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "204//6600626/KISS",
+      "price": 722,
+      "old_price": null,
+      "availability": true,
+      "stock": 1,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 1
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "181//6600626/FAN",
+      "price": 722,
+      "old_price": null,
+      "availability": true,
+      "stock": 1,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 1
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
       "code": "719// 31383/A",
       "price": 1204,
+      "old_price": null,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "12982",
+      "price": 10176,
+      "old_price": 13568,
+      "availability": true,
+      "stock": 1,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 1
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "15660",
+      "price": 17196,
+      "old_price": 22927,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "15661",
+      "price": 17196,
+      "old_price": 22927,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "FA 35-85//9507",
+      "price": 11006,
+      "old_price": 14675,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "12978",
+      "price": 9750,
+      "old_price": 13000,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "12980",
+      "price": 10176,
+      "old_price": 13568,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "SK2W-85//9569",
+      "price": 10320,
+      "old_price": 13760,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "12985",
+      "price": 10176,
+      "old_price": 13568,
+      "availability": true,
+      "stock": 1,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 1
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "12966",
+      "price": 4218,
+      "old_price": 5624,
+      "availability": true,
+      "stock": 1,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 1
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "12988",
+      "price": 7829,
+      "old_price": 10438,
+      "availability": true,
+      "stock": 1,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 1
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "12977",
+      "price": 8609,
+      "old_price": 11478,
+      "availability": true,
+      "stock": 1,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 1
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "15654",
+      "price": 12386,
+      "old_price": 16514,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "15655",
+      "price": 12725,
+      "old_price": 16967,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "15656",
+      "price": 13411,
+      "old_price": 17882,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "15657",
+      "price": 14444,
+      "old_price": 19259,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "S0021",
+      "price": 3257,
+      "old_price": 4343,
+      "availability": true,
+      "stock": 1,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 1
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "ST0010",
+      "price": 4882,
+      "old_price": 6509,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "12983",
+      "price": 12884,
+      "old_price": 17179,
+      "availability": true,
+      "stock": 1,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 1
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "12993",
+      "price": 9389,
+      "old_price": 12518,
+      "availability": true,
+      "stock": 1,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 1
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "15659",
+      "price": 15137,
+      "old_price": 20183,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "15658",
+      "price": 15137,
+      "old_price": 20183,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "642//1050-09",
+      "price": 1757,
+      "old_price": null,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "666//1052-09",
+      "price": 1380,
+      "old_price": null,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "673//1053-09",
+      "price": 1252,
+      "old_price": null,
+      "availability": true,
+      "stock": 1,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 1
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "598//1578-09",
+      "price": 1509,
+      "old_price": null,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "574//1510-09",
+      "price": 1252,
+      "old_price": null,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "581//6171-09",
+      "price": 1509,
+      "old_price": null,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "567//1575-09",
+      "price": 1629,
+      "old_price": null,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "550//5171-09",
+      "price": 1252,
       "old_price": null,
       "availability": true,
       "stock": 2,
@@ -25007,6 +27975,34 @@
       "manufacture": null
     },
     {
+      "code": "H1SH2VL0100HYKNN",
+      "price": 493,
+      "old_price": null,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
       "code": "H1SH2VL0530HYKNN",
       "price": 1174,
       "old_price": 1565,
@@ -25100,6 +28096,34 @@
         {
           "id": "PETIMPEX",
           "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "H1SH1VL0500HYKNN",
+      "price": 1442,
+      "old_price": null,
+      "availability": true,
+      "stock": 1,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -25380,6 +28404,34 @@
         {
           "id": "PETIMPEX",
           "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "H2SH1AL0300NOKNN",
+      "price": 1069,
+      "old_price": null,
+      "availability": true,
+      "stock": 1,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -25735,6 +28787,118 @@
       "manufacture": null
     },
     {
+      "code": "H1YP0TW0000ZZKNN",
+      "price": 2637,
+      "old_price": null,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "H4PD0ZZ0000ZZKNN",
+      "price": 4241,
+      "old_price": null,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "H3YP0SP0300ZZKNN",
+      "price": 817,
+      "old_price": null,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "H3YP0BT0700ZZKNN",
+      "price": 817,
+      "old_price": null,
+      "availability": true,
+      "stock": 1,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 1
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
       "code": "H3DO1AL0100OCKNN",
       "price": 323,
       "old_price": null,
@@ -26071,6 +29235,34 @@
       "manufacture": null
     },
     {
+      "code": "H3DO1AL3800OCKNN",
+      "price": 2969,
+      "old_price": null,
+      "availability": true,
+      "stock": 1,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 1
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
       "code": "H3DO1AL0500GLKNN",
       "price": 594,
       "old_price": null,
@@ -26080,6 +29272,34 @@
         {
           "id": "PETIMPEX",
           "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "H3DO1AL3800GLKNN",
+      "price": 2969,
+      "old_price": null,
+      "availability": true,
+      "stock": 1,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -26242,6 +29462,90 @@
       "code": "H1MI1AL0237DSENN",
       "price": 992,
       "old_price": 1323,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "H1MS1MX0006MNKNS",
+      "price": 1446,
+      "old_price": null,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "H1FS2MX0008STKNS",
+      "price": 2415,
+      "old_price": null,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "H1FS3MX0007STKNS",
+      "price": 3021,
+      "old_price": null,
       "availability": true,
       "stock": 2,
       "warehouses": [
@@ -26743,34 +30047,6 @@
       "manufacture": null
     },
     {
-      "code": "50006798*5",
-      "price": 1175,
-      "old_price": null,
-      "availability": true,
-      "stock": 4,
-      "warehouses": [
-        {
-          "id": "TERRAVET",
-          "stock": 4
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
       "code": "3108016",
       "price": 781,
       "old_price": null,
@@ -26786,34 +30062,6 @@
       "warranty_period": 0,
       "max_pay_in_parts": 6,
       "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "50011049",
-      "price": 936,
-      "old_price": null,
-      "availability": true,
-      "stock": 20,
-      "warehouses": [
-        {
-          "id": "TERRAVET",
-          "stock": 20
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
       "delivery_methods": [
         {
           "method": "nova-post:branch",
@@ -27639,6 +30887,34 @@
       "manufacture": null
     },
     {
+      "code": "NPS45724",
+      "price": 866,
+      "old_price": null,
+      "availability": false,
+      "stock": 0,
+      "warehouses": [
+        {
+          "id": "KORMAX",
+          "stock": 0
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
       "code": "NPB46026",
       "price": 5744,
       "old_price": null,
@@ -27962,202 +31238,6 @@
       "warranty_period": 0,
       "max_pay_in_parts": 6,
       "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "50013185",
-      "price": 492,
-      "old_price": null,
-      "availability": true,
-      "stock": 20,
-      "warehouses": [
-        {
-          "id": "TERRAVET",
-          "stock": 20
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "50013188",
-      "price": 581,
-      "old_price": null,
-      "availability": true,
-      "stock": 20,
-      "warehouses": [
-        {
-          "id": "TERRAVET",
-          "stock": 20
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "50013179",
-      "price": 610,
-      "old_price": null,
-      "availability": true,
-      "stock": 20,
-      "warehouses": [
-        {
-          "id": "TERRAVET",
-          "stock": 20
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "50013183",
-      "price": 678,
-      "old_price": null,
-      "availability": true,
-      "stock": 20,
-      "warehouses": [
-        {
-          "id": "TERRAVET",
-          "stock": 20
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "50013180",
-      "price": 613,
-      "old_price": null,
-      "availability": true,
-      "stock": 20,
-      "warehouses": [
-        {
-          "id": "TERRAVET",
-          "stock": 20
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "50014716",
-      "price": 320,
-      "old_price": null,
-      "availability": true,
-      "stock": 20,
-      "warehouses": [
-        {
-          "id": "TERRAVET",
-          "stock": 20
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "50014716р",
-      "price": 1600,
-      "old_price": null,
-      "availability": true,
-      "stock": 4,
-      "warehouses": [
-        {
-          "id": "TERRAVET",
-          "stock": 4
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
       "delivery_methods": [
         {
           "method": "nova-post:branch",
@@ -29235,15 +32315,15 @@
       "manufacture": null
     },
     {
-      "code": "50014946",
-      "price": 1020,
+      "code": "50014719",
+      "price": 308,
       "old_price": null,
-      "availability": true,
-      "stock": 20,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 20
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -29263,15 +32343,43 @@
       "manufacture": null
     },
     {
-      "code": "50014999",
-      "price": 903,
+      "code": "50014719р",
+      "price": 1540,
       "old_price": null,
-      "availability": true,
-      "stock": 20,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 20
+          "stock": 0
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 0,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "50014957",
+      "price": 960,
+      "old_price": null,
+      "availability": false,
+      "stock": 0,
+      "warehouses": [
+        {
+          "id": "TERRAVET",
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -31391,34 +34499,6 @@
       "manufacture": null
     },
     {
-      "code": "30001658_box",
-      "price": 1168,
-      "old_price": null,
-      "availability": true,
-      "stock": 3,
-      "warehouses": [
-        {
-          "id": "TERRAVET",
-          "stock": 3
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
       "code": "30001660_box",
       "price": 1168,
       "old_price": null,
@@ -31428,202 +34508,6 @@
         {
           "id": "TERRAVET",
           "stock": 0
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "30001661_box",
-      "price": 1168,
-      "old_price": null,
-      "availability": true,
-      "stock": 3,
-      "warehouses": [
-        {
-          "id": "TERRAVET",
-          "stock": 3
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "30001662_box",
-      "price": 1168,
-      "old_price": null,
-      "availability": true,
-      "stock": 3,
-      "warehouses": [
-        {
-          "id": "TERRAVET",
-          "stock": 3
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "30001663_box",
-      "price": 1168,
-      "old_price": null,
-      "availability": true,
-      "stock": 3,
-      "warehouses": [
-        {
-          "id": "TERRAVET",
-          "stock": 3
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "30001654_box",
-      "price": 992,
-      "old_price": null,
-      "availability": true,
-      "stock": 3,
-      "warehouses": [
-        {
-          "id": "TERRAVET",
-          "stock": 3
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "30001651_box",
-      "price": 992,
-      "old_price": null,
-      "availability": true,
-      "stock": 3,
-      "warehouses": [
-        {
-          "id": "TERRAVET",
-          "stock": 3
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "30001652_box",
-      "price": 992,
-      "old_price": null,
-      "availability": true,
-      "stock": 3,
-      "warehouses": [
-        {
-          "id": "TERRAVET",
-          "stock": 3
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "30001653_box",
-      "price": 992,
-      "old_price": null,
-      "availability": true,
-      "stock": 3,
-      "warehouses": [
-        {
-          "id": "TERRAVET",
-          "stock": 3
         }
       ],
       "warranty_type": "no",
@@ -34387,34 +37271,6 @@
       "manufacture": null
     },
     {
-      "code": "056750",
-      "price": 3906,
-      "old_price": null,
-      "availability": true,
-      "stock": 1,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 1
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
       "code": "023090",
       "price": 2851,
       "old_price": null,
@@ -34835,34 +37691,6 @@
       "manufacture": null
     },
     {
-      "code": "740138 - 1220",
-      "price": 521,
-      "old_price": null,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
       "code": "GGV(BL)",
       "price": 457,
       "old_price": null,
@@ -34921,258 +37749,6 @@
     {
       "code": "ЗС000435",
       "price": 622,
-      "old_price": null,
-      "availability": false,
-      "stock": 0,
-      "warehouses": [
-        {
-          "id": "TERRAVET",
-          "stock": 0
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "50014949",
-      "price": 1119,
-      "old_price": null,
-      "availability": true,
-      "stock": 20,
-      "warehouses": [
-        {
-          "id": "TERRAVET",
-          "stock": 20
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "50014969",
-      "price": 960,
-      "old_price": null,
-      "availability": true,
-      "stock": 20,
-      "warehouses": [
-        {
-          "id": "TERRAVET",
-          "stock": 20
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "50014970",
-      "price": 960,
-      "old_price": null,
-      "availability": true,
-      "stock": 20,
-      "warehouses": [
-        {
-          "id": "TERRAVET",
-          "stock": 20
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "50014784",
-      "price": 308,
-      "old_price": null,
-      "availability": true,
-      "stock": 20,
-      "warehouses": [
-        {
-          "id": "TERRAVET",
-          "stock": 20
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "50014784р",
-      "price": 1540,
-      "old_price": null,
-      "availability": true,
-      "stock": 4,
-      "warehouses": [
-        {
-          "id": "TERRAVET",
-          "stock": 4
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "50014973",
-      "price": 903,
-      "old_price": null,
-      "availability": true,
-      "stock": 20,
-      "warehouses": [
-        {
-          "id": "TERRAVET",
-          "stock": 20
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "50014979",
-      "price": 864,
-      "old_price": null,
-      "availability": true,
-      "stock": 20,
-      "warehouses": [
-        {
-          "id": "TERRAVET",
-          "stock": 20
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "50014988",
-      "price": 864,
-      "old_price": null,
-      "availability": true,
-      "stock": 20,
-      "warehouses": [
-        {
-          "id": "TERRAVET",
-          "stock": 20
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "50006793*5",
-      "price": 960,
       "old_price": null,
       "availability": false,
       "stock": 0,
@@ -35285,6 +37861,34 @@
     {
       "code": "NPSC47779",
       "price": 391,
+      "old_price": null,
+      "availability": false,
+      "stock": 0,
+      "warehouses": [
+        {
+          "id": "KORMAX",
+          "stock": 0
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "KIKNPSC47652",
+      "price": 321,
       "old_price": null,
       "availability": false,
       "stock": 0,
@@ -42563,62 +45167,6 @@
       "manufacture": null
     },
     {
-      "code": "4845 NVSHATT300",
-      "price": 654,
-      "old_price": null,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "4722 VSHGIN0300",
-      "price": 453,
-      "old_price": null,
-      "availability": true,
-      "stock": 1,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 1
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
       "code": "4760 VSHMID0300",
       "price": 362,
       "old_price": null,
@@ -42628,118 +45176,6 @@
         {
           "id": "SUPPLIER",
           "stock": 0
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "4746 VSHMAN0300",
-      "price": 654,
-      "old_price": null,
-      "availability": true,
-      "stock": 1,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 1
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "4807 NVBALERB5000",
-      "price": 5294,
-      "old_price": 6229,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "4852 NVSHATT10000",
-      "price": 5479,
-      "old_price": 6446,
-      "availability": true,
-      "stock": 1,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 1
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "4654 NVSHERB10000",
-      "price": 4990,
-      "old_price": 5871,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -42787,34 +45223,6 @@
       "manufacture": null
     },
     {
-      "code": "4647 NVSHMAN10000",
-      "price": 5479,
-      "old_price": 6446,
-      "availability": true,
-      "stock": 1,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 1
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
       "code": "4851 BNSHAFRU10000",
       "price": 3581,
       "old_price": null,
@@ -42824,314 +45232,6 @@
         {
           "id": "PETIMPEX",
           "stock": 0
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "0274 DERMSH1000",
-      "price": 2526,
-      "old_price": 3368,
-      "availability": true,
-      "stock": 1,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 1
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "9798 NK101",
-      "price": 2640,
-      "old_price": null,
-      "availability": true,
-      "stock": 1,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 1
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "1030 SIL",
-      "price": 1630,
-      "old_price": null,
-      "availability": true,
-      "stock": 1,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 1
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "9712 NPURSHA1000",
-      "price": 1777,
-      "old_price": null,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "2200 NPURSHA5000",
-      "price": 7518,
-      "old_price": null,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "2117  LOZH0150",
-      "price": 2300,
-      "old_price": null,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "9614 SHAH3000",
-      "price": 4146,
-      "old_price": null,
-      "availability": true,
-      "stock": 1,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 1
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "0781 SHAH0250",
-      "price": 916,
-      "old_price": null,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "9591 SHAPLUS3000",
-      "price": 12221,
-      "old_price": null,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "0828 SHAPLUS0100",
-      "price": 619,
-      "old_price": null,
-      "availability": true,
-      "stock": 1,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 1
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "1135 SHAPLUS1000",
-      "price": 5166,
-      "old_price": null,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -43179,398 +45279,6 @@
       "manufacture": null
     },
     {
-      "code": "9958 NSHAZOL250",
-      "price": 1055,
-      "old_price": null,
-      "availability": true,
-      "stock": 1,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 1
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "9676 GELSOS100",
-      "price": 1533,
-      "old_price": null,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "9713 TONLAV300",
-      "price": 1421,
-      "old_price": null,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "9690 TONLAV3000",
-      "price": 7100,
-      "old_price": null,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "9751 TONNUT300",
-      "price": 1421,
-      "old_price": null,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "9737 TONNUT3000",
-      "price": 7100,
-      "old_price": null,
-      "availability": true,
-      "stock": 1,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 1
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "9799 PELEXT300",
-      "price": 1638,
-      "old_price": null,
-      "availability": true,
-      "stock": 1,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 1
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "9775 PELEXT3000",
-      "price": 8737,
-      "old_price": null,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "9812 SERUMSK150",
-      "price": 1874,
-      "old_price": null,
-      "availability": true,
-      "stock": 1,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 1
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "9836 SERUMSL150",
-      "price": 1533,
-      "old_price": null,
-      "availability": true,
-      "stock": 1,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 1
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "1105 PHASE 1",
-      "price": 2745,
-      "old_price": null,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "1136 PHASE 2",
-      "price": 2745,
-      "old_price": null,
-      "availability": true,
-      "stock": 1,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 1
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "1150 PHASE 4",
-      "price": 1533,
-      "old_price": null,
-      "availability": true,
-      "stock": 1,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 1
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "0129 SHACO3000",
-      "price": 3589,
-      "old_price": null,
-      "availability": true,
-      "stock": 1,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 1
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
       "code": "0310 SHACHE3000",
       "price": 3589,
       "old_price": null,
@@ -43599,230 +45307,6 @@
       "manufacture": null
     },
     {
-      "code": "9970 NMASK02100",
-      "price": 561,
-      "old_price": null,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "9963 NSHA01100",
-      "price": 542,
-      "old_price": null,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "9996 NSHA01250",
-      "price": 1177,
-      "old_price": null,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "0015 NSHA011000",
-      "price": 3145,
-      "old_price": null,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "0046 NSHA013000",
-      "price": 7431,
-      "old_price": null,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "0060 NMASK02250",
-      "price": 1403,
-      "old_price": null,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "0084 NMASK021000",
-      "price": 3372,
-      "old_price": null,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "0107 NMASK023000",
-      "price": 8145,
-      "old_price": null,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
       "code": "9638 MOU04300",
       "price": 1533,
       "old_price": null,
@@ -43832,34 +45316,6 @@
         {
           "id": "PETIMPEX",
           "stock": 0
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "617// KITCOLL",
-      "price": 3720,
-      "old_price": null,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -43935,62 +45391,6 @@
       "manufacture": null
     },
     {
-      "code": "6617 / 1883933",
-      "price": 482,
-      "old_price": null,
-      "availability": true,
-      "stock": 1,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 1
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "6624/ 1883950",
-      "price": 482,
-      "old_price": null,
-      "availability": true,
-      "stock": 1,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 1
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
       "code": "4210800",
       "price": 722,
       "old_price": null,
@@ -44000,874 +45400,6 @@
         {
           "id": "PETIMPEX",
           "stock": 0
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "7577 POMP02",
-      "price": 482,
-      "old_price": null,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "7584 POMPBIG",
-      "price": 482,
-      "old_price": null,
-      "availability": true,
-      "stock": 1,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 1
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "0151030//0535",
-      "price": 2889,
-      "old_price": null,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "6686 / 31204134",
-      "price": 568,
-      "old_price": null,
-      "availability": true,
-      "stock": 1,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 1
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "1358 ACCAP/S",
-      "price": 1608,
-      "old_price": null,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "841// 6600578/ROSA",
-      "price": 722,
-      "old_price": null,
-      "availability": true,
-      "stock": 1,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 1
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "198//6600626/SWAN",
-      "price": 722,
-      "old_price": null,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "204//6600626/KISS",
-      "price": 722,
-      "old_price": null,
-      "availability": true,
-      "stock": 1,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 1
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "181//6600626/FAN",
-      "price": 722,
-      "old_price": null,
-      "availability": true,
-      "stock": 1,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 1
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "12982",
-      "price": 10176,
-      "old_price": 13568,
-      "availability": true,
-      "stock": 1,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 1
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "15660",
-      "price": 17196,
-      "old_price": 22927,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "15661",
-      "price": 17196,
-      "old_price": 22927,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "FA 35-85//9507",
-      "price": 11006,
-      "old_price": 14675,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "12978",
-      "price": 9750,
-      "old_price": 13000,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "12980",
-      "price": 10176,
-      "old_price": 13568,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "SK2W-85//9569",
-      "price": 10320,
-      "old_price": 13760,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "12985",
-      "price": 10176,
-      "old_price": 13568,
-      "availability": true,
-      "stock": 1,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 1
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "12966",
-      "price": 4218,
-      "old_price": 5624,
-      "availability": true,
-      "stock": 1,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 1
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "12988",
-      "price": 7829,
-      "old_price": 10438,
-      "availability": true,
-      "stock": 1,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 1
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "12977",
-      "price": 8609,
-      "old_price": 11478,
-      "availability": true,
-      "stock": 1,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 1
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "15654",
-      "price": 12386,
-      "old_price": 16514,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "15655",
-      "price": 12725,
-      "old_price": 16967,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "15656",
-      "price": 13411,
-      "old_price": 17882,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "15657",
-      "price": 14444,
-      "old_price": 19259,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "S0021",
-      "price": 3257,
-      "old_price": 4343,
-      "availability": true,
-      "stock": 1,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 1
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "ST0010",
-      "price": 4882,
-      "old_price": 6509,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "12983",
-      "price": 12884,
-      "old_price": 17179,
-      "availability": true,
-      "stock": 1,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 1
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "12993",
-      "price": 9389,
-      "old_price": 12518,
-      "availability": true,
-      "stock": 1,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 1
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "15659",
-      "price": 15137,
-      "old_price": 20183,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "15658",
-      "price": 15137,
-      "old_price": 20183,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "642//1050-09",
-      "price": 1757,
-      "old_price": null,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -44915,202 +45447,6 @@
       "manufacture": null
     },
     {
-      "code": "666//1052-09",
-      "price": 1380,
-      "old_price": null,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "673//1053-09",
-      "price": 1252,
-      "old_price": null,
-      "availability": true,
-      "stock": 1,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 1
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "598//1578-09",
-      "price": 1509,
-      "old_price": null,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "574//1510-09",
-      "price": 1252,
-      "old_price": null,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "581//6171-09",
-      "price": 1509,
-      "old_price": null,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "567//1575-09",
-      "price": 1629,
-      "old_price": null,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "550//5171-09",
-      "price": 1252,
-      "old_price": null,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
       "code": "H1CD3AL0500HYKNN",
       "price": 2296,
       "old_price": null,
@@ -45120,90 +45456,6 @@
         {
           "id": "PETIMPEX",
           "stock": 0
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "H1SH2VL0100HYKNN",
-      "price": 493,
-      "old_price": null,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "H1SH1VL0500HYKNN",
-      "price": 1442,
-      "old_price": null,
-      "availability": true,
-      "stock": 1,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 1
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "H2SH1AL0300NOKNN",
-      "price": 1069,
-      "old_price": null,
-      "availability": true,
-      "stock": 1,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -45251,174 +45503,6 @@
       "manufacture": null
     },
     {
-      "code": "H1YP0TW0000ZZKNN",
-      "price": 2637,
-      "old_price": null,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "H4PD0ZZ0000ZZKNN",
-      "price": 4241,
-      "old_price": null,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "H3YP0SP0300ZZKNN",
-      "price": 817,
-      "old_price": null,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "H3YP0BT0700ZZKNN",
-      "price": 817,
-      "old_price": null,
-      "availability": true,
-      "stock": 1,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 1
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "H3DO1AL3800OCKNN",
-      "price": 2969,
-      "old_price": null,
-      "availability": true,
-      "stock": 1,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 1
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "H3DO1AL3800GLKNN",
-      "price": 2969,
-      "old_price": null,
-      "availability": true,
-      "stock": 1,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 1
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
       "code": "H3RM1TS0030NOKNN",
       "price": 391,
       "old_price": null,
@@ -45428,90 +45512,6 @@
         {
           "id": "PETIMPEX",
           "stock": 0
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "H1MS1MX0006MNKNS",
-      "price": 1446,
-      "old_price": null,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "H1FS2MX0008STKNS",
-      "price": 2415,
-      "old_price": null,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "H1FS3MX0007STKNS",
-      "price": 3021,
-      "old_price": null,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 2
         }
       ],
       "warranty_type": "no",
