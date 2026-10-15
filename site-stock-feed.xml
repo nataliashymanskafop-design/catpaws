@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-10-15 17:20">
+<yml_catalog date="2026-10-15 21:32">
   <shop>
     <offers>
       <offer id="1018100" available="true">
@@ -20,7 +20,7 @@
       </offer>
       <offer id="1038100" available="true">
         <vendorCode>1038100</vendorCode>
-        <quantity_in_stock>4</quantity_in_stock>
+        <quantity_in_stock>3</quantity_in_stock>
       </offer>
       <offer id="3038100" available="true">
         <vendorCode>3038100</vendorCode>
@@ -606,9 +606,9 @@
         <vendorCode>NPLS45800</vendorCode>
         <quantity_in_stock>20</quantity_in_stock>
       </offer>
-      <offer id="NPLS45953" available="true">
+      <offer id="NPLS45953" available="false">
         <vendorCode>NPLS45953</vendorCode>
-        <quantity_in_stock>5</quantity_in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
       </offer>
       <offer id="NPLS45954" available="true">
         <vendorCode>NPLS45954</vendorCode>
@@ -732,7 +732,7 @@
       </offer>
       <offer id="KIKNPSC47272" available="true">
         <vendorCode>KIKNPSC47272</vendorCode>
-        <quantity_in_stock>20</quantity_in_stock>
+        <quantity_in_stock>10</quantity_in_stock>
       </offer>
       <offer id="KIKNPSC47273" available="true">
         <vendorCode>KIKNPSC47273</vendorCode>
@@ -766,9 +766,9 @@
         <vendorCode>NPSC47232</vendorCode>
         <quantity_in_stock>20</quantity_in_stock>
       </offer>
-      <offer id="NPSC47234" available="true">
+      <offer id="NPSC47234" available="false">
         <vendorCode>NPSC47234</vendorCode>
-        <quantity_in_stock>5</quantity_in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
       </offer>
       <offer id="NPSC47235" available="true">
         <vendorCode>NPSC47235</vendorCode>
@@ -838,9 +838,9 @@
         <vendorCode>SNK46152</vendorCode>
         <quantity_in_stock>20</quantity_in_stock>
       </offer>
-      <offer id="SNK46121" available="true">
+      <offer id="SNK46121" available="false">
         <vendorCode>SNK46121</vendorCode>
-        <quantity_in_stock>10</quantity_in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
       </offer>
       <offer id="NPLS45952" available="true">
         <vendorCode>NPLS45952</vendorCode>
@@ -880,7 +880,7 @@
       </offer>
       <offer id="SNK46129" available="true">
         <vendorCode>SNK46129</vendorCode>
-        <quantity_in_stock>20</quantity_in_stock>
+        <quantity_in_stock>5</quantity_in_stock>
       </offer>
       <offer id="SNK46144" available="true">
         <vendorCode>SNK46144</vendorCode>
@@ -942,9 +942,9 @@
         <vendorCode>SNK46146</vendorCode>
         <quantity_in_stock>20</quantity_in_stock>
       </offer>
-      <offer id="SNK46087" available="true">
+      <offer id="SNK46087" available="false">
         <vendorCode>SNK46087</vendorCode>
-        <quantity_in_stock>20</quantity_in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
       </offer>
       <offer id="TPL63799" available="true">
         <vendorCode>TPL63799</vendorCode>
@@ -1180,7 +1180,7 @@
       </offer>
       <offer id="NPS45729" available="true">
         <vendorCode>NPS45729</vendorCode>
-        <quantity_in_stock>20</quantity_in_stock>
+        <quantity_in_stock>10</quantity_in_stock>
       </offer>
       <offer id="1008010" available="true">
         <vendorCode>1008010</vendorCode>
@@ -1428,7 +1428,7 @@
       </offer>
       <offer id="KIK45087" available="true">
         <vendorCode>KIK45087</vendorCode>
-        <quantity_in_stock>5</quantity_in_stock>
+        <quantity_in_stock>40</quantity_in_stock>
       </offer>
       <offer id="KIK45088" available="true">
         <vendorCode>KIK45088</vendorCode>
@@ -2246,7 +2246,7 @@
       </offer>
       <offer id="653651" available="true">
         <vendorCode>653651</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>17</quantity_in_stock>
       </offer>
       <offer id="653644" available="true">
         <vendorCode>653644</vendorCode>
@@ -3248,7 +3248,7 @@
       </offer>
       <offer id="ЗС000295" available="true">
         <vendorCode>ЗС000295</vendorCode>
-        <quantity_in_stock>45</quantity_in_stock>
+        <quantity_in_stock>41</quantity_in_stock>
       </offer>
       <offer id="ЗС000298" available="true">
         <vendorCode>ЗС000298</vendorCode>
@@ -3268,7 +3268,7 @@
       </offer>
       <offer id="ЗС000300" available="true">
         <vendorCode>ЗС000300</vendorCode>
-        <quantity_in_stock>49</quantity_in_stock>
+        <quantity_in_stock>48</quantity_in_stock>
       </offer>
       <offer id="ЗС000299" available="true">
         <vendorCode>ЗС000299</vendorCode>
@@ -3588,7 +3588,7 @@
       </offer>
       <offer id="7010019" available="true">
         <vendorCode>7010019</vendorCode>
-        <quantity_in_stock>28</quantity_in_stock>
+        <quantity_in_stock>24</quantity_in_stock>
       </offer>
       <offer id="7010015" available="true">
         <vendorCode>7010015</vendorCode>
@@ -3856,11 +3856,11 @@
       </offer>
       <offer id="7010023" available="true">
         <vendorCode>7010023</vendorCode>
-        <quantity_in_stock>12</quantity_in_stock>
+        <quantity_in_stock>8</quantity_in_stock>
       </offer>
       <offer id="7010024" available="true">
         <vendorCode>7010024</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>55</quantity_in_stock>
       </offer>
       <offer id="7010025" available="true">
         <vendorCode>7010025</vendorCode>
@@ -6124,7 +6124,7 @@
       </offer>
       <offer id="KIKNPSC47655" available="true">
         <vendorCode>KIKNPSC47655</vendorCode>
-        <quantity_in_stock>5</quantity_in_stock>
+        <quantity_in_stock>20</quantity_in_stock>
       </offer>
       <offer id="KIKNPSC47657" available="true">
         <vendorCode>KIKNPSC47657</vendorCode>
@@ -6174,9 +6174,9 @@
         <vendorCode>NPS45736</vendorCode>
         <quantity_in_stock>20</quantity_in_stock>
       </offer>
-      <offer id="NPS45783" available="true">
+      <offer id="NPS45783" available="false">
         <vendorCode>NPS45783</vendorCode>
-        <quantity_in_stock>5</quantity_in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
       </offer>
       <offer id="SNK46116" available="true">
         <vendorCode>SNK46116</vendorCode>
@@ -7670,7 +7670,7 @@
       </offer>
       <offer id="ЗС000494" available="true">
         <vendorCode>ЗС000494</vendorCode>
-        <quantity_in_stock>26</quantity_in_stock>
+        <quantity_in_stock>24</quantity_in_stock>
       </offer>
       <offer id="ЗС000480" available="true">
         <vendorCode>ЗС000480</vendorCode>
@@ -8200,13 +8200,13 @@
         <vendorCode>NPSC47779</vendorCode>
         <quantity_in_stock>0</quantity_in_stock>
       </offer>
-      <offer id="KIKNPSC47652" available="false">
+      <offer id="KIKNPSC47652" available="true">
         <vendorCode>KIKNPSC47652</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>5</quantity_in_stock>
       </offer>
-      <offer id="NPSC70465-K2" available="false">
+      <offer id="NPSC70465-K2" available="true">
         <vendorCode>NPSC70465-K2</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>60</quantity_in_stock>
       </offer>
       <offer id="АКЦ_NPSC47439" available="false">
         <vendorCode>АКЦ_NPSC47439</vendorCode>
@@ -8220,33 +8220,33 @@
         <vendorCode>NPSC47601</vendorCode>
         <quantity_in_stock>0</quantity_in_stock>
       </offer>
-      <offer id="NPSC47647" available="false">
+      <offer id="NPSC47647" available="true">
         <vendorCode>NPSC47647</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>20</quantity_in_stock>
       </offer>
       <offer id="АКЦ_NPSC45834" available="false">
         <vendorCode>АКЦ_NPSC45834</vendorCode>
         <quantity_in_stock>0</quantity_in_stock>
       </offer>
-      <offer id="NPSC47646" available="false">
+      <offer id="NPSC47646" available="true">
         <vendorCode>NPSC47646</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>20</quantity_in_stock>
       </offer>
       <offer id="АКЦ_NPSC45829" available="false">
         <vendorCode>АКЦ_NPSC45829</vendorCode>
         <quantity_in_stock>0</quantity_in_stock>
       </offer>
-      <offer id="NPSC47598" available="false">
+      <offer id="NPSC47598" available="true">
         <vendorCode>NPSC47598</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>20</quantity_in_stock>
       </offer>
       <offer id="АКЦ_NPSC45663" available="false">
         <vendorCode>АКЦ_NPSC45663</vendorCode>
         <quantity_in_stock>0</quantity_in_stock>
       </offer>
-      <offer id="NPS45755" available="false">
+      <offer id="NPS45755" available="true">
         <vendorCode>NPS45755</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>20</quantity_in_stock>
       </offer>
       <offer id="NPS48024" available="false">
         <vendorCode>NPS48024</vendorCode>
@@ -8460,9 +8460,9 @@
         <vendorCode>5214001832521</vendorCode>
         <quantity_in_stock>0</quantity_in_stock>
       </offer>
-      <offer id="NPSC70465-K2-12" available="false">
+      <offer id="NPSC70465-K2-12" available="true">
         <vendorCode>NPSC70465-K2-12</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>5</quantity_in_stock>
       </offer>
     </offers>
   </shop>
