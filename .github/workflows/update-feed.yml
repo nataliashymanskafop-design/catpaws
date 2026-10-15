@@ -14,6 +14,7 @@ on:
       - scripts/generate_petimpex_catalog.py
       - scripts/generate_terravet_stock.py
       - scripts/josera_stock.py
+      - scripts/generate_josera_crm_stock.py
       - scripts/test_josera_stock.py
       - .github/workflows/update-feed.yml
   workflow_dispatch:
@@ -166,6 +167,18 @@ jobs:
           SALESDRIVE_API_KEY: ${{ secrets.SALESDRIVE_API_KEY }}
         run: python scripts/generate_terravet_stock.py
 
+      # Preserve the last successful Josera CRM feed if an upstream source is unavailable.
+      - name: Download previous Josera CRM stock feed
+        continue-on-error: true
+        run: |
+          curl -fL \
+            "https://nataliashymanskafop-design.github.io/catpaws/josera-crm-stock.xml" \
+            -o public/josera-crm-stock.xml
+
+      - name: Generate separate Josera CRM stock feed
+        continue-on-error: true
+        run: python scripts/generate_josera_crm_stock.py
+
       # Забираємо попередній точний стан власного складу. Якщо SalesDrive
       # тимчасово недоступний, Mono збереже останні успішні залишки.
       - name: Download previous own stock state
@@ -213,3 +226,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+
