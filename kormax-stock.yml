@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-10-16 14:01">
+<yml_catalog date="2026-10-16 18:28">
   <shop>
     <name>CatPaws Kormax stock</name>
     <company>CatPaws</company>
@@ -722,14 +722,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="KIKNPSC47272" available="true">
+      <offer id="KIKNPSC47272" available="false">
         <name>Беззернові ласощі для дорослих собак всіх порід з рудим окрасом шерсті Nature's Protection Superior Care Red Coat Hypoallergenic &amp; Intestinal Care з лососем, 150г</name>
         <vendorCode>KIKNPSC47272</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>10</quantity_in_stock>
-        <stock>10</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="KIKNPSC47273" available="true">
         <name>Беззернові ласощі для дорослих собак всіх порід з рудим окрасом шерсті Nature's Protection Superior Care Red Coat Healthy Skin &amp; Coat з лососем, 160г</name>
@@ -749,14 +749,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="KIKNPSC47652" available="true">
+      <offer id="KIKNPSC47652" available="false">
         <name>Беззернові ласощі для дорослих собак із білим забарвленням з протеїном комах, 150 г Nature's Protection Superior Care White Dogs Daily Oral Care</name>
         <vendorCode>KIKNPSC47652</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="KIKNPSC47653" available="true">
         <name>Ласощі для дорослих собак із білим забарвленням з протеїном комах і рисом, 150 г Nature's Protection Superior Care White Dogs Endurance</name>
@@ -847,15 +847,6 @@
         <quantity_in_stock>20</quantity_in_stock>
         <stock>20</stock>
         <in_stock>1</in_stock>
-      </offer>
-      <offer id="KIKNPSC47714" available="false">
-        <name>Ласощі з птицею для дорослих котів Superior Care with Poultry Adult Urinary cat, 75 г</name>
-        <vendorCode>KIKNPSC47714</vendorCode>
-        <currencyId>UAH</currencyId>
-        <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
       </offer>
       <offer id="KIKNPSC63360" available="true">
         <name>Суп для собак з білим забарвленням шерсті NP Superior Care White Dogs All Breeds Adult Salmon and Tuna з лососем та тунцем, 140мл</name>
@@ -2932,8 +2923,8 @@
         <vendorCode>NPSCVET47578</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPSCVET47579" available="true">
@@ -3125,14 +3116,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="SNK46129" available="true">
+      <offer id="SNK46129" available="false">
         <name>Ласощі для собак, рулети з качки і тріски, Nature's Protection Lifestyle snacks for dogs, duck and cod rolls, 75г</name>
         <vendorCode>SNK46129</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="SNK46132" available="false">
         <name>Ласощі для собак, роли з качки і тріски, Nature's Protection Lifestyle Snack For Dogs Rawhide Sticks With Duck And Cod Rolls 75г</name>
@@ -3247,8 +3238,8 @@
         <vendorCode>TPL47408</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>10</quantity_in_stock>
-        <stock>10</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="TPL47409" available="true">
@@ -3256,8 +3247,8 @@
         <vendorCode>TPL47409</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>10</quantity_in_stock>
-        <stock>10</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="TPL47410" available="true">
@@ -3503,14 +3494,14 @@
         <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="TPL63600" available="true">
+      <offer id="TPL63600" available="false">
         <name>Делікатний шампунь-скраб для шерсті та шкіри собак та котів TAURO PRO LINE Ultra Natural Care Gentle Scrub Shampoo, 3785 мл</name>
         <vendorCode>TPL63600</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="TPL63601" available="true">
         <name>Незмивний кондиціонер для шерсті собак і котів, що розплутує шерсть TAURO PRO LINE Ultra Natural Care Detangling Leave-In Conditioner, 250 мл</name>
