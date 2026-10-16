@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-10-16 18:28">
+<yml_catalog date="2026-10-16 21:58">
   <shop>
     <offers>
       <offer id="1018100" available="true">
@@ -20,7 +20,7 @@
       </offer>
       <offer id="1038100" available="true">
         <vendorCode>1038100</vendorCode>
-        <quantity_in_stock>3</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
       </offer>
       <offer id="3038100" available="true">
         <vendorCode>3038100</vendorCode>
@@ -7716,9 +7716,9 @@
         <vendorCode>3108016</vendorCode>
         <quantity_in_stock>0</quantity_in_stock>
       </offer>
-      <offer id="NPS45763" available="false">
+      <offer id="NPS45763" available="true">
         <vendorCode>NPS45763</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>5</quantity_in_stock>
       </offer>
       <offer id="NPLS45681" available="false">
         <vendorCode>NPLS45681</vendorCode>
@@ -7756,9 +7756,9 @@
         <vendorCode>SNK46154</vendorCode>
         <quantity_in_stock>0</quantity_in_stock>
       </offer>
-      <offer id="SNK46121" available="false">
+      <offer id="SNK46121" available="true">
         <vendorCode>SNK46121</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>5</quantity_in_stock>
       </offer>
       <offer id="SNK46096" available="false">
         <vendorCode>SNK46096</vendorCode>
@@ -7864,9 +7864,9 @@
         <vendorCode>UNINPSC70010</vendorCode>
         <quantity_in_stock>0</quantity_in_stock>
       </offer>
-      <offer id="UNINPSC63999" available="false">
+      <offer id="UNINPSC63999" available="true">
         <vendorCode>UNINPSC63999</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>5</quantity_in_stock>
       </offer>
       <offer id="UNINPSC63750" available="false">
         <vendorCode>UNINPSC63750</vendorCode>
