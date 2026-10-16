@@ -9,6 +9,8 @@ on:
       - scripts/test_prom_sync.py
       - scripts/generate_feed.py
       - scripts/josera_stock.py
+      - scripts/generate_terravet_stock.py
+      - scripts/generate_home_food_stock.py
       - .github/workflows/prom-sync.yml
   schedule:
     - cron: "7,37 * * * *"
@@ -32,7 +34,23 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Test promotion and availability synchronization
         run: python -m unittest discover -s scripts -p test_prom_sync.py
+      - name: Test Josera unit and bundle mappings
+        run: python -m unittest discover -s scripts -p test_josera_stock.py
+      # Start from the shared reservation history, then recalculate using current
+      # supplier availability and SalesDrive orders. This local result is only
+      # used by Prom; the feed workflow remains the publisher of shared state.
+      - name: Download shared TERRAVET reservation history
+        run: |
+          mkdir -p public
+          curl -fL --retry 3 --connect-timeout 20 --max-time 120 \
+            "https://nataliashymanskafop-design.github.io/catpaws/terravet-stock-state.json" \
+            -o public/terravet-stock-state.json
+      - name: Refresh TERRAVET stock for Prom
+        env:
+          SALESDRIVE_API_KEY: ${{ secrets.SALESDRIVE_API_KEY }}
+        run: python scripts/generate_terravet_stock.py
       - name: Synchronize and verify actual Prom states
         env:
           PROM_API_TOKEN: ${{ secrets.PROM_API_TOKEN }}
+          PROM_TERRAVET_STATE_FILE: public/terravet-stock-state.json
         run: python scripts/generate_prom_update_feed.py

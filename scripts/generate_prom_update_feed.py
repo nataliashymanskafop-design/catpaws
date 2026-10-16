@@ -1,4 +1,5 @@
 import os
+import json
 import math
 import re
 from copy import deepcopy
@@ -93,9 +94,16 @@ def apply_josera_source(products):
         catalog.append(deepcopy(offer))
     rows, missing = map_catalog(etree.tostring(catalog), supplier)
 
-    response = requests.get(TERRAVET_STATE_URL, timeout=60)
-    response.raise_for_status()
-    state = response.json()
+    # Prom's workflow calculates a fresh reservation-aware snapshot itself.
+    # Do not depend on the timing or Pages cache of the separate feed workflow.
+    state_file = os.environ.get("PROM_TERRAVET_STATE_FILE")
+    if state_file:
+        with open(state_file, encoding="utf-8") as handle:
+            state = json.load(handle)
+    else:
+        response = requests.get(TERRAVET_STATE_URL, timeout=60)
+        response.raise_for_status()
+        state = response.json()
     snapshot = state.get("josera") or {}
     try:
         generated = datetime.strptime(snapshot["last_sync"], "%Y-%m-%d %H:%M:%S").replace(

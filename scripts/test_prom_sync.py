@@ -2,6 +2,8 @@ import os
 import sys
 import types
 import unittest
+import json
+import tempfile
 from unittest.mock import patch
 from lxml import etree
 
@@ -121,6 +123,33 @@ class SyncTests(unittest.TestCase):
             response.json.return_value = state
             with patch.object(sync.requests, 'get', return_value=response), patch.object(sync, 'read_supplier', return_value={}), patch.object(sync, 'map_catalog', return_value=({'X': {}}, [])):
                 with self.assertRaises(RuntimeError):
+                    sync.apply_josera_source({'X': self.offer()})
+
+    def test_josera_local_snapshot_avoids_published_state_cache(self):
+        state = {'josera': {'last_sync': sync.datetime.now(sync.ZoneInfo('Europe/Kyiv')).strftime('%Y-%m-%d %H:%M:%S')},
+                 'published_stock': {'X': 0}}
+        rows = {'X': {'available': True, 'price': '630', 'sale_price': None}}
+        with tempfile.NamedTemporaryFile(mode='w+', suffix='.json') as handle:
+            json.dump(state, handle)
+            handle.flush()
+            with patch.dict(os.environ, {'PROM_TERRAVET_STATE_FILE': handle.name}), \
+                    patch.object(sync.requests, 'get', return_value=unittest.mock.Mock(content=b'feed')) as get, \
+                    patch.object(sync, 'read_supplier', return_value={}), \
+                    patch.object(sync, 'map_catalog', return_value=(rows, [])):
+                result = sync.apply_josera_source({'X': self.offer()})
+            self.assertEqual(result['X'].get('available'), 'false')
+            get.assert_called_once_with(sync.JOSERA_URL, timeout=60)
+
+    def test_josera_stale_local_snapshot_still_blocks_writes(self):
+        state = {'josera': {'last_sync': '2000-01-01 00:00:00'}, 'published_stock': {'X': 20}}
+        with tempfile.NamedTemporaryFile(mode='w+', suffix='.json') as handle:
+            json.dump(state, handle)
+            handle.flush()
+            with patch.dict(os.environ, {'PROM_TERRAVET_STATE_FILE': handle.name}), \
+                    patch.object(sync.requests, 'get', return_value=unittest.mock.Mock(content=b'feed')), \
+                    patch.object(sync, 'read_supplier', return_value={}), \
+                    patch.object(sync, 'map_catalog', return_value=({'X': {}}, [])):
+                with self.assertRaisesRegex(RuntimeError, 'stale or incomplete'):
                     sync.apply_josera_source({'X': self.offer()})
 
     def test_cosmetic_article_multiple_spaces_match(self):
