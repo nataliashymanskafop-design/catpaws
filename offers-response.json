@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T22:01:44Z",
+  "updatedAt": "2026-10-16T05:38:11Z",
   "total": 1693,
   "data": [
     {
@@ -22686,12 +22686,12 @@
       "code": "NPSC47780",
       "price": 391,
       "old_price": null,
-      "availability": true,
-      "stock": 20,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 20
+          "stock": 0
         }
       ],
       "warranty_type": "no",
