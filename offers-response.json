@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T13:07:25Z",
+  "updatedAt": "2026-10-17T16:37:20Z",
   "total": 1693,
   "data": [
     {
@@ -6642,12 +6642,12 @@
       "code": "TPL63616",
       "price": 1326,
       "old_price": null,
-      "availability": true,
-      "stock": 5,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 5
+          "stock": 0
         }
       ],
       "warranty_type": "no",
