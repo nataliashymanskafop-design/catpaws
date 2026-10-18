@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-10-18 11:43">
+<yml_catalog date="2026-10-18 14:46">
   <shop>
     <name>CatPaws Kormax stock</name>
     <company>CatPaws</company>
@@ -11,6 +11,267 @@
       <category id="1">Kormax</category>
     </categories>
     <offers>
+      <offer id="041004" available="false">
+        <name>Високозволожуючий шампунь для довгошерстих порід. Sugar shampoo 250мл</name>
+        <vendorCode>041004</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
+      <offer id="041009" available="true">
+        <name>Високозволожуюча крем-маска для довгошерстих порід. Sugar Mask 250мл</name>
+        <vendorCode>041009</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="041013" available="true">
+        <name>Карамельно-фруктові парфуми для собак Nogga Caramel Fruit, 50 мл</name>
+        <vendorCode>041013</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="041014" available="true">
+        <name>Парфуми для собак з ароматом дині Nogga Melon, 150 мл</name>
+        <vendorCode>041014</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="041015" available="true">
+        <name>Парфуми для собак з ароматом мандарина Nogga Mandarin, 150 мл</name>
+        <vendorCode>041015</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="041018" available="true">
+        <name>При бактеріальних і грибкових ураженнях шкіри Revital RV Shampoo 150мл</name>
+        <vendorCode>041018</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="041019" available="true">
+        <name>Маска для додання екстра обсягу. Bulky Mask 250мл</name>
+        <vendorCode>041019</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="041020" available="true">
+        <name>Маска для відновлення пошкодженої вовни. Keratin Mask 250мл</name>
+        <vendorCode>041020</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="041026" available="true">
+        <name>Натуральний ефективний захист від бліх, кліщів і комарів. Quassia shampoo 250мл</name>
+        <vendorCode>041026</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="041040" available="true">
+        <name>При дисфункції сальних залоз (себорея) Revital SB Shampoo 150мл</name>
+        <vendorCode>041040</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="041041" available="true">
+        <name>Для догляду за чутливою, гіперактивної шкірою і шкірою з атопічний дерматит Revital PR Shampoo 150мл</name>
+        <vendorCode>041041</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="041042" available="true">
+        <name>Використовується для догляду за чутливою, гіперактивної шкірою Revital Balsam 150мл</name>
+        <vendorCode>041042</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="041043" available="true">
+        <name>Лосьйон для гіперактивної шкіри Revital Rescue Lotion 150мл</name>
+        <vendorCode>041043</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="041050" available="false">
+        <name>Високоживильний шампунь з маслом кокума для цуценят/кошенят і тварин в процесі линьки. Omega Kokum shampoo 250мл</name>
+        <vendorCode>041050</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
+      <offer id="041051" available="true">
+        <name>Використовується переважно у порід з підшерстям. Надає шерсті природний обсяг. Omega Olive shampoo 250мл</name>
+        <vendorCode>041051</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="041052" available="false">
+        <name>Високоживильний шампунь з маслом лаванди для гладкошерстних і голих порід. Omega Lavender shampoo 250мл</name>
+        <vendorCode>041052</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
+      <offer id="041053" available="false">
+        <name>Високоживильний шампунь з маслом Аргана для довгошерстих порід. Omega Argan shampoo 250мл</name>
+        <vendorCode>041053</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
+      <offer id="041054" available="false">
+        <name>Високоживильний бальзам з маслом кокума для цуценят / кошенят і тварин в процесі линьки. Omega Kokum balsam 250мл</name>
+        <vendorCode>041054</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
+      <offer id="041055" available="true">
+        <name>Високоживильний бальзам з маслом оливи. Omega Olive balsam 250мл</name>
+        <vendorCode>041055</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="041056" available="true">
+        <name>Високоживильний бальзам з маслом лаванди для гладкошерстних і голих порід. Omega Lavender balsam 250мл</name>
+        <vendorCode>041056</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="041057" available="true">
+        <name>Високозволожуючий і високоживильний бальзам зроблений на основі масла Аргана. Omega Argan balsam 250мл</name>
+        <vendorCode>041057</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="041061" available="true">
+        <name>Заспокійливий і зволожувальний шампунь Nogga CBD ZENshampoo, 200 мл</name>
+        <vendorCode>041061</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="041062" available="false">
+        <name>Знеболювальний і протизапальний спрей Nogga CBD CALMixir, 200 мл</name>
+        <vendorCode>041062</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
+      <offer id="041063" available="true">
+        <name>Заспокійливий спрей-міст для собак і котів Nogga CBD RELAXing, 200 мл</name>
+        <vendorCode>041063</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="045002" available="false">
+        <name>Зволожуючий шампунь призначений для порід, вовни яких необхідний додатковий обсяг. Fine Shampoo 250мл</name>
+        <vendorCode>045002</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
+      <offer id="045003" available="true">
+        <name>Базовий повсякденний шампунь з алое для всіх типів шерсті. Purifying shampoo 250мл</name>
+        <vendorCode>045003</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="045006" available="false">
+        <name>Спрей-кондиціонер для щоденного догляду за шерстю, що не вимагає змивання. Biphasic 250мл</name>
+        <vendorCode>045006</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
+      </offer>
+      <offer id="045007" available="true">
+        <name>Спрей для укладання з ефектом пам'яті. Styling Spray 250мл</name>
+        <vendorCode>045007</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="045008" available="true">
+        <name>Розроблений спеціально для догляду за найбільш чутливою шкірою, такий як у цуценят / кошенят або у тварин з дерматологічними проблемами. Hypoallergenic shampoo 250мл</name>
+        <vendorCode>045008</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
+        <in_stock>1</in_stock>
+      </offer>
       <offer id="CAN451418" available="true">
         <name>Харчова добавка для підтримки здоров'я зубів, суглобів та кісток собак та котів, 250 г Nature's Protection Healthy Growth</name>
         <vendorCode>CAN451418</vendorCode>
