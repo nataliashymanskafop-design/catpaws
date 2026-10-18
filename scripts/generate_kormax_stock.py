@@ -51,6 +51,7 @@ ALLOWED_BRANDS = {
     "Nature's Protection Lifestyle",
     "Nature's Protection Prime",
     "Tauro Pro Line",
+    "Nogga",
 }
 
 DEFAULT_TARGET = 20
