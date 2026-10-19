@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-10-19 07:30">
+<yml_catalog date="2026-10-19 13:14">
   <shop>
     <offers>
       <offer id="30001650" available="true">
@@ -149,7 +149,7 @@
       <offer id="30001662" available="true">
         <vendorCode>30001662</vendorCode>
         <name>Вологий корм для дорослих котів Філе Курка з лососем Josera Filet Huhn mit Lachs 70 г</name>
-        <quantity_in_stock>60</quantity_in_stock>
+        <quantity_in_stock>44</quantity_in_stock>
         <price>73.00</price>
         <oldprice>73.00</oldprice>
         <currencyId>UAH</currencyId>
@@ -158,7 +158,7 @@
       <offer id="30001662_box" available="true">
         <vendorCode>30001662_box</vendorCode>
         <name>Вологий корм для дорослих котів Філе Курка з лососем Josera Filet Huhn mit Lachs 70 г * 16 шт</name>
-        <quantity_in_stock>3</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
         <price>1168.00</price>
         <oldprice>1168.00</oldprice>
         <currencyId>UAH</currencyId>
@@ -347,7 +347,7 @@
       <offer id="50005178" available="true">
         <vendorCode>50005178</vendorCode>
         <name>Сухий корм BAVARO Solid 20/8, 18 кг</name>
-        <quantity_in_stock>20</quantity_in_stock>
+        <quantity_in_stock>19</quantity_in_stock>
         <price>1548.00</price>
         <oldprice>1818.00</oldprice>
         <currencyId>UAH</currencyId>

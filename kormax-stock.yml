@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-10-19 07:29">
+<yml_catalog date="2026-10-19 13:13">
   <shop>
     <name>CatPaws Kormax stock</name>
     <company>CatPaws</company>
@@ -349,8 +349,8 @@
         <vendorCode>CAN63297</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="CAN63298" available="true">
@@ -358,8 +358,8 @@
         <vendorCode>CAN63298</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>10</quantity_in_stock>
-        <stock>10</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="CAN63299" available="false">
@@ -394,8 +394,8 @@
         <vendorCode>CAN63304</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>10</quantity_in_stock>
-        <stock>10</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="CAN63551" available="true">
@@ -862,8 +862,8 @@
         <vendorCode>KIKNPLF63358</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="KIKNPLF63359" available="true">
@@ -974,14 +974,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="KIKNPSC47271" available="true">
+      <offer id="KIKNPSC47271" available="false">
         <name>Беззернові ласощі для дорослих собак всіх порід з рудим окрасом шерсті Nature's Protection Superior Care Red Coat Hypoallergenic Oral Care з лососем, 150г</name>
         <vendorCode>KIKNPSC47271</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="KIKNPSC47272" available="false">
         <name>Беззернові ласощі для дорослих собак всіх порід з рудим окрасом шерсті Nature's Protection Superior Care Red Coat Hypoallergenic &amp; Intestinal Care з лососем, 150г</name>
@@ -2225,14 +2225,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPS45763" available="true">
+      <offer id="NPS45763" available="false">
         <name>Сухий корм для дорослих котів мешкаючих у будинку Nature's Protection Indoor 400г</name>
         <vendorCode>NPS45763</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="NPS45764" available="true">
         <name>Сухий корм для дорослих котів мешкаючих у будинку Nature's Protection Indoor 2кг</name>
@@ -3085,8 +3085,8 @@
         <vendorCode>NPSC47910</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>48</quantity_in_stock>
-        <stock>48</stock>
+        <quantity_in_stock>36</quantity_in_stock>
+        <stock>36</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPSC47910_box" available="true">
@@ -3094,8 +3094,8 @@
         <vendorCode>NPSC47910_box</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>4</quantity_in_stock>
-        <stock>4</stock>
+        <quantity_in_stock>3</quantity_in_stock>
+        <stock>3</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPSC47911" available="true">
@@ -3184,8 +3184,8 @@
         <vendorCode>NPSCVET47578</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>10</quantity_in_stock>
-        <stock>10</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPSCVET47579" available="true">
@@ -4246,8 +4246,8 @@
         <vendorCode>UNINPSC70012</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>40</quantity_in_stock>
-        <stock>40</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="АКЦ_NPSC45663" available="false">
