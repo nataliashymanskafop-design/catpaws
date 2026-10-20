@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T15:48:28Z",
+  "updatedAt": "2026-10-20T19:55:54Z",
   "total": 1668,
   "data": [
     {
@@ -3871,11 +3871,11 @@
       "price": 5922,
       "old_price": 7403,
       "availability": true,
-      "stock": 10,
+      "stock": 5,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 10
+          "stock": 5
         }
       ],
       "warranty_type": "no",
@@ -5718,12 +5718,12 @@
       "code": "NPSC45992",
       "price": 7462,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 5,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 0
+          "stock": 5
         }
       ],
       "warranty_type": "no",
