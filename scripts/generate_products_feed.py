@@ -1,22 +1,12 @@
 import os
 import requests
 from lxml import etree
-from generate_feed import DISCONTINUED_SKUS, FORCE_ZERO_SKUS
+from generate_feed import DISCONTINUED_SKUS, FORCE_ZERO_SKUS, is_mono_excluded
 from normalize_feed_prices import normalize_feed_prices
 
 
 XML_URL = "https://catpaws.com.ua/content/export/5d007701b07c6dab399214f2c0d6743c.xml"
 MIN_PRICE = 300
-
-
-def is_modes_bowl(offer):
-    vendor = " ".join((offer.findtext("vendor") or "").split()).casefold()
-    name = " ".join((offer.findtext("name") or "").split()).casefold()
-
-    return vendor == "modes" and any(
-        keyword in name
-        for keyword in ("миска", "миски", "bowl")
-    )
 
 
 def main():
@@ -31,13 +21,7 @@ def main():
     updated = 0
 
     for offer in root.xpath(".//offer"):
-        vendor = " ".join((offer.findtext("vendor") or "").split()).casefold()
-
-        if vendor == "rafi":
-            offer.getparent().remove(offer)
-            continue
-
-        if is_modes_bowl(offer):
+        if is_mono_excluded(offer):
             offer.getparent().remove(offer)
             continue
 

@@ -25,6 +25,26 @@ FORCE_ZERO_SKUS = {
 }
 
 
+# Mono-only exclusions: delivery costs make these products unprofitable.
+MONO_EXCLUDED_BRANDS = {"rafi", "gattino", "clearcat", "catroyale", "catroyal"}
+
+
+def is_mono_excluded(offer):
+    vendor = "".join((offer.findtext("vendor") or "").split()).casefold()
+    name = " ".join((offer.findtext("name") or "").split()).casefold()
+
+    if vendor in MONO_EXCLUDED_BRANDS:
+        return True
+
+    return vendor in {"modes", "модес"} and (
+        is_modes_bowl(offer)
+        or any(keyword in name for keyword in (
+            "пелюш", "пелен", "pee pad", "training pad", "puppy pad",
+            "absorbent pad", "diaper",
+        ))
+    )
+
+
 def is_modes_bowl(offer):
     vendor = " ".join((offer.findtext("vendor") or "").split()).casefold()
     name = " ".join((offer.findtext("name") or "").split()).casefold()
@@ -269,12 +289,7 @@ def load_own_stock():
 
 
 def build_offer(offer, stock_by_sku, own_stock):
-    vendor = " ".join((offer.findtext("vendor") or "").split()).casefold()
-
-    if vendor == "rafi":
-        return None
-
-    if is_modes_bowl(offer):
+    if is_mono_excluded(offer):
         return None
 
     code = offer.findtext("vendorCode")
