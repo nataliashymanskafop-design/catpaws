@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-19T21:42:39Z",
-  "total": 1693,
+  "updatedAt": "2026-10-20T08:02:34Z",
+  "total": 1668,
   "data": [
     {
       "code": "1018100",
@@ -7959,11 +7959,11 @@
       "price": 990,
       "old_price": null,
       "availability": true,
-      "stock": 19,
+      "stock": 18,
       "warehouses": [
         {
           "id": "DOMS",
-          "stock": 19
+          "stock": 18
         }
       ],
       "warranty_type": "no",
@@ -10143,11 +10143,11 @@
       "price": 3231,
       "old_price": null,
       "availability": true,
-      "stock": 13,
+      "stock": 12,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 13
+          "stock": 12
         }
       ],
       "warranty_type": "no",
@@ -10182,398 +10182,6 @@
       "warranty_period": 0,
       "max_pay_in_parts": 6,
       "days_to_dispatch": 0,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "76144100",
-      "price": 330,
-      "old_price": null,
-      "availability": true,
-      "stock": 18,
-      "warehouses": [
-        {
-          "id": "DOMS",
-          "stock": 18
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "144117",
-      "price": 585,
-      "old_price": null,
-      "availability": true,
-      "stock": 18,
-      "warehouses": [
-        {
-          "id": "DOMS",
-          "stock": 18
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "76144148",
-      "price": 330,
-      "old_price": null,
-      "availability": true,
-      "stock": 20,
-      "warehouses": [
-        {
-          "id": "DOMS",
-          "stock": 20
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "144155",
-      "price": 497,
-      "old_price": 585,
-      "availability": true,
-      "stock": 19,
-      "warehouses": [
-        {
-          "id": "DOMS",
-          "stock": 19
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "76144124",
-      "price": 330,
-      "old_price": null,
-      "availability": true,
-      "stock": 20,
-      "warehouses": [
-        {
-          "id": "DOMS",
-          "stock": 20
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "144131",
-      "price": 585,
-      "old_price": null,
-      "availability": true,
-      "stock": 20,
-      "warehouses": [
-        {
-          "id": "DOMS",
-          "stock": 20
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "76144162",
-      "price": 330,
-      "old_price": null,
-      "availability": true,
-      "stock": 20,
-      "warehouses": [
-        {
-          "id": "DOMS",
-          "stock": 20
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "144179",
-      "price": 497,
-      "old_price": 585,
-      "availability": true,
-      "stock": 17,
-      "warehouses": [
-        {
-          "id": "DOMS",
-          "stock": 17
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "653651",
-      "price": 630,
-      "old_price": null,
-      "availability": true,
-      "stock": 17,
-      "warehouses": [
-        {
-          "id": "DOMS",
-          "stock": 17
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "653644",
-      "price": 630,
-      "old_price": null,
-      "availability": true,
-      "stock": 20,
-      "warehouses": [
-        {
-          "id": "DOMS",
-          "stock": 20
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "653637",
-      "price": 630,
-      "old_price": null,
-      "availability": true,
-      "stock": 19,
-      "warehouses": [
-        {
-          "id": "DOMS",
-          "stock": 19
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "653620",
-      "price": 630,
-      "old_price": null,
-      "availability": true,
-      "stock": 19,
-      "warehouses": [
-        {
-          "id": "DOMS",
-          "stock": 19
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "653613",
-      "price": 504,
-      "old_price": 630,
-      "availability": true,
-      "stock": 17,
-      "warehouses": [
-        {
-          "id": "DOMS",
-          "stock": 17
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "653606",
-      "price": 504,
-      "old_price": 630,
-      "availability": true,
-      "stock": 20,
-      "warehouses": [
-        {
-          "id": "DOMS",
-          "stock": 20
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
       "delivery_methods": [
         {
           "method": "nova-post:branch",
@@ -11039,11 +10647,11 @@
       "price": 542,
       "old_price": 677,
       "availability": true,
-      "stock": 13,
+      "stock": 12,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 13
+          "stock": 12
         }
       ],
       "warranty_type": "no",
@@ -11212,34 +10820,6 @@
         {
           "id": "SUPPLIER",
           "stock": 1
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "244215",
-      "price": 497,
-      "old_price": 585,
-      "availability": true,
-      "stock": 20,
-      "warehouses": [
-        {
-          "id": "DOMS",
-          "stock": 20
         }
       ],
       "warranty_type": "no",
@@ -19914,12 +19494,12 @@
       "code": "045486",
       "price": 416,
       "old_price": null,
-      "availability": true,
-      "stock": 2,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 2
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -20055,11 +19635,11 @@
       "price": 2886,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 2,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 1
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -20419,11 +19999,11 @@
       "price": 2808,
       "old_price": null,
       "availability": true,
-      "stock": 2,
+      "stock": 1,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 2
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -20934,146 +20514,6 @@
       "warranty_period": 0,
       "max_pay_in_parts": 6,
       "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "ЗС000434",
-      "price": 479,
-      "old_price": null,
-      "availability": true,
-      "stock": 1,
-      "warehouses": [
-        {
-          "id": "SUPPLIER",
-          "stock": 1
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "ЗС000436",
-      "price": 606,
-      "old_price": null,
-      "availability": true,
-      "stock": 1,
-      "warehouses": [
-        {
-          "id": "TERRAVET",
-          "stock": 1
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "ЗС000437",
-      "price": 467,
-      "old_price": null,
-      "availability": true,
-      "stock": 9,
-      "warehouses": [
-        {
-          "id": "TERRAVET",
-          "stock": 9
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "ЗС000432",
-      "price": 412,
-      "old_price": null,
-      "availability": true,
-      "stock": 23,
-      "warehouses": [
-        {
-          "id": "TERRAVET",
-          "stock": 23
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "ЗС000433",
-      "price": 535,
-      "old_price": null,
-      "availability": true,
-      "stock": 28,
-      "warehouses": [
-        {
-          "id": "TERRAVET",
-          "stock": 28
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
       "delivery_methods": [
         {
           "method": "nova-post:branch",
@@ -24171,11 +23611,11 @@
       "price": 1056,
       "old_price": null,
       "availability": true,
-      "stock": 5,
+      "stock": 4,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 5
+          "stock": 4
         }
       ],
       "warranty_type": "no",
@@ -27643,11 +27083,11 @@
       "price": 4882,
       "old_price": 6509,
       "availability": true,
-      "stock": 2,
+      "stock": 1,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 2
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -28735,11 +28175,11 @@
       "price": 3648,
       "old_price": null,
       "availability": true,
-      "stock": 2,
+      "stock": 1,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 2
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -29715,11 +29155,11 @@
       "price": 594,
       "old_price": null,
       "availability": true,
-      "stock": 2,
+      "stock": 1,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 2
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -31363,34 +30803,6 @@
       "manufacture": null
     },
     {
-      "code": "76144193",
-      "price": 585,
-      "old_price": null,
-      "availability": false,
-      "stock": 0,
-      "warehouses": [
-        {
-          "id": "DOMS",
-          "stock": 0
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
       "code": "1057016",
       "price": 580,
       "old_price": null,
@@ -31673,90 +31085,6 @@
     {
       "code": "5469",
       "price": 1294,
-      "old_price": null,
-      "availability": false,
-      "stock": 0,
-      "warehouses": [
-        {
-          "id": "SUPPLIER",
-          "stock": 0
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "ЗС000303",
-      "price": 392,
-      "old_price": null,
-      "availability": false,
-      "stock": 0,
-      "warehouses": [
-        {
-          "id": "SUPPLIER",
-          "stock": 0
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "ЗС000304",
-      "price": 493,
-      "old_price": null,
-      "availability": false,
-      "stock": 0,
-      "warehouses": [
-        {
-          "id": "SUPPLIER",
-          "stock": 0
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "ЗС000305",
-      "price": 644,
       "old_price": null,
       "availability": false,
       "stock": 0,
@@ -37930,34 +37258,6 @@
       "warranty_period": 0,
       "max_pay_in_parts": 6,
       "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "ЗС000435",
-      "price": 622,
-      "old_price": null,
-      "availability": false,
-      "stock": 0,
-      "warehouses": [
-        {
-          "id": "TERRAVET",
-          "stock": 0
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
       "delivery_methods": [
         {
           "method": "nova-post:branch",
@@ -45282,12 +44582,12 @@
       "code": "0213 NSHAZOL1000",
       "price": 2456,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 1,
       "warehouses": [
         {
           "id": "PETIMPEX",
-          "stock": 0
+          "stock": 1
         }
       ],
       "warranty_type": "no",
