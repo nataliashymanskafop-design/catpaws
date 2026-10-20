@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-10-20 22:55">
+<yml_catalog date="2026-10-21 02:03">
   <shop>
     <offers>
       <offer id="30001650" available="true">
@@ -482,7 +482,7 @@
       <offer id="50006795" available="true">
         <vendorCode>50006795</vendorCode>
         <name>Сухий корм JosiDog Regular 900 г</name>
-        <quantity_in_stock>20</quantity_in_stock>
+        <quantity_in_stock>15</quantity_in_stock>
         <price>191.80</price>
         <oldprice>191.80</oldprice>
         <currencyId>UAH</currencyId>
@@ -491,7 +491,7 @@
       <offer id="50006795*5" available="true">
         <vendorCode>50006795*5</vendorCode>
         <name>Сухий корм JosiDog Regular 900 г*5</name>
-        <quantity_in_stock>4</quantity_in_stock>
+        <quantity_in_stock>3</quantity_in_stock>
         <price>959.00</price>
         <oldprice>959.00</oldprice>
         <currencyId>UAH</currencyId>

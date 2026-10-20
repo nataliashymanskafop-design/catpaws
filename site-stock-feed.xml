@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-10-20 22:55">
+<yml_catalog date="2026-10-21 02:03">
   <shop>
     <offers>
       <offer id="1018100" available="true">
@@ -1594,7 +1594,7 @@
       </offer>
       <offer id="TPL63580" available="true">
         <vendorCode>TPL63580</vendorCode>
-        <quantity_in_stock>10</quantity_in_stock>
+        <quantity_in_stock>5</quantity_in_stock>
       </offer>
       <offer id="TPL63579" available="true">
         <vendorCode>TPL63579</vendorCode>
@@ -3158,7 +3158,7 @@
       </offer>
       <offer id="ЗС000156" available="true">
         <vendorCode>ЗС000156</vendorCode>
-        <quantity_in_stock>4</quantity_in_stock>
+        <quantity_in_stock>3</quantity_in_stock>
       </offer>
       <offer id="ЗС000157" available="true">
         <vendorCode>ЗС000157</vendorCode>
@@ -5902,13 +5902,13 @@
       </offer>
       <offer id="50006795" available="true">
         <vendorCode>50006795</vendorCode>
-        <quantity_in_stock>20</quantity_in_stock>
+        <quantity_in_stock>15</quantity_in_stock>
         <price>191.80</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="50006795*5" available="true">
         <vendorCode>50006795*5</vendorCode>
-        <quantity_in_stock>4</quantity_in_stock>
+        <quantity_in_stock>3</quantity_in_stock>
         <price>959.00</price>
         <currencyId>UAH</currencyId>
       </offer>
