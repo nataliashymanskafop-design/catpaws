@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-10-20 14:11">
+<yml_catalog date="2026-10-20 18:47">
   <shop>
     <name>CatPaws Kormax stock</name>
     <company>CatPaws</company>
@@ -1325,14 +1325,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPB46039" available="true">
+      <offer id="NPB46039" available="false">
         <name>Сухий корм для дорослих собак всіх порід з лососем Extra Salmon Adult All Breeds 18кг</name>
         <vendorCode>NPB46039</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="NPB46041" available="true">
         <name>Сухий корм для цуценят всіх порід Junior All Breeds 18кг</name>
@@ -1555,8 +1555,8 @@
         <vendorCode>NPLS45800</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPLS45801" available="true">
@@ -2738,14 +2738,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPSC47232" available="true">
+      <offer id="NPSC47232" available="false">
         <name>Сухий беззерновий корм для дорослих собак з рудим забарвленням шерсті, для малих порід Superior Care Red Coat Grain Free Adult Small Breeds with Lamb 1,5 кг</name>
         <vendorCode>NPSC47232</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="NPSC47233" available="true">
         <name>Сухий беззерновий корм для дорослих собак з рудим забарвленням шерсті, для малих порід Superior Care Red Coat Grain Free Adult Small Breeds with Lamb 10кг</name>
@@ -3215,14 +3215,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="SNK46087" available="true">
+      <offer id="SNK46087" available="false">
         <name>Ласощі для собак з куркою у формі гантелі Nature's Protection snack for dogs with chicken 75g</name>
         <vendorCode>SNK46087</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="SNK46095" available="true">
         <name>Ласощі для собак, роли з кролика і тріски, Nature's Protection snack for dogs rabbit and cod rolls, 75г</name>
