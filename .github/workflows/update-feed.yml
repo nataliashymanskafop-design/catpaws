@@ -39,7 +39,20 @@ jobs:
 
       - run: pip install -r requirements.txt
 
+      # Keep a validated previous catalog if PetImpex returns truncated XML.
+      # Supplier catalog availability must not block Mono stock updates.
+      - name: Download previous PetImpex retail catalog
+        continue-on-error: true
+        run: |
+          mkdir -p public
+          curl -fL --retry 3 \
+            "https://nataliashymanskafop-design.github.io/catpaws/petimpex-clean.xml" \
+            -o petimpex-clean.xml.previous
+          python -c "from lxml import etree; root = etree.parse('petimpex-clean.xml.previous'); assert len(root.findall('.//offer')) >= 1000"
+          mv petimpex-clean.xml.previous public/petimpex-clean.xml
+
       - name: Generate import-safe PetImpex retail catalog
+        continue-on-error: true
         run: python scripts/generate_petimpex_catalog.py
 
       # Забираємо попередній прайс Mono.
