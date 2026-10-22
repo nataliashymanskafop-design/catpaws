@@ -26,7 +26,10 @@ FORCE_ZERO_SKUS = {
 
 
 # Mono-only exclusions: delivery costs make these products unprofitable.
-# Private customer product; exclude from both Mono feeds.\nMONO_EXCLUDED_SKUS = {"3158100"}\n\nMONO_EXCLUDED_BRANDS = {"rafi", "gattino", "clearcat", "catroyale", "catroyal"}
+# Private customer product; exclude from both Mono feeds.
+MONO_EXCLUDED_SKUS = {"3158100"}
+
+MONO_EXCLUDED_BRANDS = {"rafi", "gattino", "clearcat", "catroyale", "catroyal"}
 
 
 def is_mono_excluded(offer):
