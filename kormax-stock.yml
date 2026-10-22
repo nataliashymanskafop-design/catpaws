@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-10-22 08:52">
+<yml_catalog date="2026-10-22 14:26">
   <shop>
     <name>CatPaws Kormax stock</name>
     <company>CatPaws</company>
@@ -362,14 +362,14 @@
         <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="CAN63299" available="false">
+      <offer id="CAN63299" available="true">
         <name>Харчова добавка для зміцнення імунітету та покращення травлення у котів, 120 таблеток Nature's Protection Daily Vitamin Formula</name>
         <vendorCode>CAN63299</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="CAN63302" available="false">
         <name>Замінник молока для цуценят, 200 г Nature's Protection Puppy-milk</name>
@@ -857,14 +857,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="KIKNPLF63358" available="true">
+      <offer id="KIKNPLF63358" available="false">
         <name>Суп для стерилізованих котів з лососем NP Lifestyle Sterilised Salmon, 140мл</name>
         <vendorCode>KIKNPLF63358</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="KIKNPLF63359" available="true">
         <name>Суп для котів з чутливим травленням, з тунцем NP Lifestyle Sensitive Digestion, 140мл</name>
@@ -988,8 +988,8 @@
         <vendorCode>KIKNPSC47272</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="KIKNPSC47273" available="true">
@@ -1009,15 +1009,6 @@
         <quantity_in_stock>20</quantity_in_stock>
         <stock>20</stock>
         <in_stock>1</in_stock>
-      </offer>
-      <offer id="KIKNPSC47652" available="false">
-        <name>Беззернові ласощі для дорослих собак із білим забарвленням з протеїном комах, 150 г Nature's Protection Superior Care White Dogs Daily Oral Care</name>
-        <vendorCode>KIKNPSC47652</vendorCode>
-        <currencyId>UAH</currencyId>
-        <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
       </offer>
       <offer id="KIKNPSC47653" available="true">
         <name>Ласощі для дорослих собак із білим забарвленням з протеїном комах і рисом, 150 г Nature's Protection Superior Care White Dogs Endurance</name>
@@ -1258,8 +1249,8 @@
         <vendorCode>NPB46031</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPB46032" available="true">
@@ -1595,14 +1586,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPLS45953" available="false">
+      <offer id="NPLS45953" available="true">
         <name>Сухий беззерновий корм для кошенят з лососем Lifestyle Grain Free Salmon Kitten 1,5кг</name>
         <vendorCode>NPLS45953</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="NPLS45954" available="true">
         <name>Сухий беззерновий корм для кошенят з лососем Lifestyle Grain Free Salmon Kitten 7кг</name>
@@ -1924,8 +1915,8 @@
         <vendorCode>NPS45728</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>10</quantity_in_stock>
-        <stock>10</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPS45729" available="false">
@@ -2171,14 +2162,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPS45757" available="true">
+      <offer id="NPS45757" available="false">
         <name>Сухий корм для кошенят Nature's Protection Kitten 400г</name>
         <vendorCode>NPS45757</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="NPS45758" available="true">
         <name>Сухий корм для кошенят Nature's Protection Kitten 2кг</name>
@@ -2540,14 +2531,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPSC45794" available="true">
+      <offer id="NPSC45794" available="false">
         <name>Сухий корм для дорослих собак малих порід із чутливим травленням з ягням, 1,5 кг Nature's Protection Superior Care Sensitive Skin&amp;Stomach Adult Small Breeds</name>
         <vendorCode>NPSC45794</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="NPSC45795" available="true">
         <name>Сухий корм для дорослих собак малих порід з чутливим травленням та проблемною шкірою Superior Care Sensitive Skin&amp;Stomach Adult Small Breeds 10кг</name>
@@ -3053,24 +3044,6 @@
         <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPSC47909" available="false">
-        <name>Вологий беззерновий корм Nature's Protection Superior Care Urinary для дорослих котів, філе у соусі з качкою, курячою грудкою та журавлиною, 85 г</name>
-        <vendorCode>NPSC47909</vendorCode>
-        <currencyId>UAH</currencyId>
-        <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
-      </offer>
-      <offer id="NPSC47909_box" available="false">
-        <name>Вологий беззерновий корм Nature's Protection Superior Care Urinary для дорослих котів, філе у соусі з качкою, курячою грудкою та журавлиною, 85 г * 12 шт</name>
-        <vendorCode>NPSC47909_box</vendorCode>
-        <currencyId>UAH</currencyId>
-        <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
-      </offer>
       <offer id="NPSC47910" available="true">
         <name>Вологий беззерновий корм Nature's Protection Superior Care Kitten для кошенят, філе у соусі з індичкою та курячою грудкою, 85 г</name>
         <vendorCode>NPSC47910</vendorCode>
@@ -3169,15 +3142,6 @@
         <quantity_in_stock>20</quantity_in_stock>
         <stock>20</stock>
         <in_stock>1</in_stock>
-      </offer>
-      <offer id="NPSCVET47578" available="false">
-        <name>Ветеринарний дієтичний гіпоалергенний корм для собак NP Superior Care Veterinary Diet Hypoallergenic Insect Adult All Breed Dogs з білком комах, 1,5кг</name>
-        <vendorCode>NPSCVET47578</vendorCode>
-        <currencyId>UAH</currencyId>
-        <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
       </offer>
       <offer id="NPSCVET47579" available="true">
         <name>Ветеринарний дієтичний гіпоалергенний корм для собак NP Superior Care Veterinary Diet Hypoallergenic Insect Adult All Breed Dogs з білком комах, 10кг</name>
