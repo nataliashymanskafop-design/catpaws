@@ -26,10 +26,14 @@ FORCE_ZERO_SKUS = {
 
 
 # Mono-only exclusions: delivery costs make these products unprofitable.
-MONO_EXCLUDED_BRANDS = {"rafi", "gattino", "clearcat", "catroyale", "catroyal"}
+# Private customer product; exclude from both Mono feeds.\nMONO_EXCLUDED_SKUS = {"3158100"}\n\nMONO_EXCLUDED_BRANDS = {"rafi", "gattino", "clearcat", "catroyale", "catroyal"}
 
 
 def is_mono_excluded(offer):
+    sku = (offer.findtext("vendorCode") or "").strip()
+    if sku in MONO_EXCLUDED_SKUS:
+        return True
+
     vendor = "".join((offer.findtext("vendor") or "").split()).casefold()
     name = " ".join((offer.findtext("name") or "").split()).casefold()
 
