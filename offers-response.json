@@ -5435,34 +5435,6 @@
       "manufacture": null
     },
     {
-      "code": "NPS45729",
-      "price": 3380,
-      "old_price": null,
-      "availability": false,
-      "stock": 0,
-      "warehouses": [
-        {
-          "id": "KORMAX",
-          "stock": 0
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
       "code": "1011010",
       "price": 372,
       "old_price": null,
@@ -5640,34 +5612,6 @@
         {
           "id": "KORMAX",
           "stock": 20
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "NPSC45992",
-      "price": 7462,
-      "old_price": null,
-      "availability": false,
-      "stock": 0,
-      "warehouses": [
-        {
-          "id": "KORMAX",
-          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -30411,8 +30355,64 @@
       "manufacture": null
     },
     {
+      "code": "NPS45729",
+      "price": 3380,
+      "old_price": null,
+      "availability": false,
+      "stock": 0,
+      "warehouses": [
+        {
+          "id": "KORMAX",
+          "stock": 0
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
       "code": "NPB46036",
       "price": 4960,
+      "old_price": null,
+      "availability": false,
+      "stock": 0,
+      "warehouses": [
+        {
+          "id": "KORMAX",
+          "stock": 0
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "NPSC45992",
+      "price": 7462,
       "old_price": null,
       "availability": false,
       "stock": 0,
