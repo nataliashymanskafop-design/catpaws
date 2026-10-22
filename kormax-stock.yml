@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-10-22 14:26">
+<yml_catalog date="2026-10-22 17:45">
   <shop>
     <name>CatPaws Kormax stock</name>
     <company>CatPaws</company>
@@ -1172,14 +1172,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="KIKNPSP47240" available="true">
+      <offer id="KIKNPSP47240" available="false">
         <name>Ласощі для собак з м'ясом птиці Nature's Protection Healthy Comfort Calm, 160г</name>
         <vendorCode>KIKNPSP47240</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="KIKNPSP47241" available="true">
         <name>Ласощі для собак з м'ясом птиці Nature's Protection Healthy Healthy Digestion, 110г</name>
@@ -1546,8 +1546,8 @@
         <vendorCode>NPLS45800</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>10</quantity_in_stock>
-        <stock>10</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPLS45801" available="true">
@@ -1654,8 +1654,8 @@
         <vendorCode>NPLS45960</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>10</quantity_in_stock>
-        <stock>10</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPPR47914-K2" available="true">
@@ -2158,8 +2158,8 @@
         <vendorCode>NPS45756</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPS45757" available="false">
@@ -2530,15 +2530,6 @@
         <quantity_in_stock>20</quantity_in_stock>
         <stock>20</stock>
         <in_stock>1</in_stock>
-      </offer>
-      <offer id="NPSC45794" available="false">
-        <name>Сухий корм для дорослих собак малих порід із чутливим травленням з ягням, 1,5 кг Nature's Protection Superior Care Sensitive Skin&amp;Stomach Adult Small Breeds</name>
-        <vendorCode>NPSC45794</vendorCode>
-        <currencyId>UAH</currencyId>
-        <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
       </offer>
       <offer id="NPSC45795" available="true">
         <name>Сухий корм для дорослих собак малих порід з чутливим травленням та проблемною шкірою Superior Care Sensitive Skin&amp;Stomach Adult Small Breeds 10кг</name>
