@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T14:46:06Z",
+  "updatedAt": "2026-10-22T20:00:08Z",
   "total": 1667,
   "data": [
     {
@@ -875,11 +875,11 @@
       "price": 677,
       "old_price": null,
       "availability": true,
-      "stock": 19,
+      "stock": 18,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 19
+          "stock": 18
         }
       ],
       "warranty_type": "no",
@@ -3927,11 +3927,11 @@
       "price": 915,
       "old_price": 1144,
       "availability": true,
-      "stock": 18,
+      "stock": 17,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 18
+          "stock": 17
         }
       ],
       "warranty_type": "no",
@@ -6447,11 +6447,11 @@
       "price": 585,
       "old_price": null,
       "availability": true,
-      "stock": 10,
+      "stock": 5,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 10
+          "stock": 5
         }
       ],
       "warranty_type": "no",
@@ -11151,11 +11151,11 @@
       "price": 558,
       "old_price": 930,
       "availability": true,
-      "stock": 19,
+      "stock": 17,
       "warehouses": [
         {
           "id": "DOMS",
-          "stock": 19
+          "stock": 17
         }
       ],
       "warranty_type": "no",
@@ -23247,11 +23247,11 @@
       "price": 1448,
       "old_price": null,
       "availability": true,
-      "stock": 10,
+      "stock": 5,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 10
+          "stock": 5
         }
       ],
       "warranty_type": "no",
