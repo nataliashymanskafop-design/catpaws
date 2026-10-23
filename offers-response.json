@@ -2551,6 +2551,34 @@
       "manufacture": null
     },
     {
+      "code": "NPLS45953",
+      "price": 868,
+      "old_price": null,
+      "availability": true,
+      "stock": 5,
+      "warehouses": [
+        {
+          "id": "KORMAX",
+          "stock": 5
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 3,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
       "code": "NPLS45954",
       "price": 3437,
       "old_price": null,
@@ -23439,6 +23467,34 @@
       "manufacture": null
     },
     {
+      "code": "CAN63299",
+      "price": 823,
+      "old_price": null,
+      "availability": true,
+      "stock": 5,
+      "warehouses": [
+        {
+          "id": "KORMAX",
+          "stock": 5
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 3,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
       "code": "CAN63304",
       "price": 1056,
       "old_price": null,
@@ -24232,34 +24288,6 @@
         {
           "id": "PETIMPEX",
           "stock": 1
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 3,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "4746 VSHMAN0300",
-      "price": 654,
-      "old_price": null,
-      "availability": false,
-      "stock": 0,
-      "warehouses": [
-        {
-          "id": "PETIMPEX",
-          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -30056,34 +30084,6 @@
         {
           "id": "KORMAX",
           "stock": 0
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 3,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "NPLS45953",
-      "price": 868,
-      "old_price": null,
-      "availability": true,
-      "stock": 5,
-      "warehouses": [
-        {
-          "id": "KORMAX",
-          "stock": 5
         }
       ],
       "warranty_type": "no",
@@ -37775,34 +37775,6 @@
       "manufacture": null
     },
     {
-      "code": "CAN63299",
-      "price": 823,
-      "old_price": null,
-      "availability": true,
-      "stock": 5,
-      "warehouses": [
-        {
-          "id": "KORMAX",
-          "stock": 5
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 3,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
       "code": "CAN63303",
       "price": 1014,
       "old_price": null,
@@ -44503,6 +44475,34 @@
       "warehouses": [
         {
           "id": "SUPPLIER",
+          "stock": 0
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 3,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "4746 VSHMAN0300",
+      "price": 654,
+      "old_price": null,
+      "availability": false,
+      "stock": 0,
+      "warehouses": [
+        {
+          "id": "PETIMPEX",
           "stock": 0
         }
       ],
