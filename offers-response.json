@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T12:48:15Z",
+  "updatedAt": "2026-10-23T17:48:27Z",
   "total": 1669,
   "data": [
     {
@@ -2079,11 +2079,11 @@
       "price": 5465,
       "old_price": null,
       "availability": true,
-      "stock": 20,
+      "stock": 10,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 20
+          "stock": 10
         }
       ],
       "warranty_type": "no",
@@ -2471,11 +2471,11 @@
       "price": 3073,
       "old_price": 3615,
       "availability": true,
-      "stock": 20,
+      "stock": 10,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 20
+          "stock": 10
         }
       ],
       "warranty_type": "no",
@@ -2526,12 +2526,12 @@
       "code": "NPLS45800",
       "price": 3615,
       "old_price": null,
-      "availability": true,
-      "stock": 5,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 5
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -2555,11 +2555,11 @@
       "price": 868,
       "old_price": null,
       "availability": true,
-      "stock": 20,
+      "stock": 10,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 20
+          "stock": 10
         }
       ],
       "warranty_type": "no",
@@ -2751,11 +2751,11 @@
       "price": 5982,
       "old_price": null,
       "availability": true,
-      "stock": 20,
+      "stock": 5,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 20
+          "stock": 5
         }
       ],
       "warranty_type": "no",
@@ -4094,12 +4094,12 @@
       "code": "NPB46042",
       "price": 5964,
       "old_price": 7455,
-      "availability": true,
-      "stock": 20,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 20
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -9554,12 +9554,12 @@
       "code": "NPSC47630",
       "price": 1103,
       "old_price": null,
-      "availability": true,
-      "stock": 5,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 5
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -9695,11 +9695,11 @@
       "price": 387,
       "old_price": null,
       "availability": true,
-      "stock": 49,
+      "stock": 48,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 49
+          "stock": 48
         }
       ],
       "warranty_type": "no",
@@ -11823,11 +11823,11 @@
       "price": 591,
       "old_price": null,
       "availability": true,
-      "stock": 6,
+      "stock": 4,
       "warehouses": [
         {
           "id": "SUPPLIER",
-          "stock": 6
+          "stock": 4
         }
       ],
       "warranty_type": "no",
@@ -13559,11 +13559,11 @@
       "price": 335,
       "old_price": null,
       "availability": true,
-      "stock": 43,
+      "stock": 37,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 43
+          "stock": 37
         }
       ],
       "warranty_type": "no",
@@ -16582,12 +16582,12 @@
       "code": "NPSC47910_box",
       "price": 792,
       "old_price": null,
-      "availability": true,
-      "stock": 3,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 3
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -29826,12 +29826,12 @@
       "code": "NPSC70465-K2-12",
       "price": 634,
       "old_price": 792,
-      "availability": true,
-      "stock": 5,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 5
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -29855,11 +29855,11 @@
       "price": 500,
       "old_price": null,
       "availability": true,
-      "stock": 25,
+      "stock": 21,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 25
+          "stock": 21
         }
       ],
       "warranty_type": "no",
@@ -29883,11 +29883,11 @@
       "price": 500,
       "old_price": null,
       "availability": true,
-      "stock": 46,
+      "stock": 44,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 46
+          "stock": 44
         }
       ],
       "warranty_type": "no",
@@ -34054,12 +34054,12 @@
       "code": "NPB46244",
       "price": 5324,
       "old_price": null,
-      "availability": true,
-      "stock": 20,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 20
+          "stock": 0
         }
       ],
       "warranty_type": "no",

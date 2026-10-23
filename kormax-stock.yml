@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-10-23 15:47">
+<yml_catalog date="2026-10-23 20:47">
   <shop>
     <name>CatPaws Kormax stock</name>
     <company>CatPaws</company>
@@ -1334,14 +1334,14 @@
         <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPB46042" available="true">
+      <offer id="NPB46042" available="false">
         <name>Сухий корм для дорослих котів з чутливим травленням Nature's Protection Sensitive Digestion 18кг</name>
         <vendorCode>NPB46042</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="NPB46043" available="true">
         <name>Сухий корм для кошенят Nature's Protection Kitten 18кг</name>
@@ -1379,14 +1379,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPB46244" available="true">
+      <offer id="NPB46244" available="false">
         <name>Сухий корм для дорослих собак великих порід з ягням Nature's Protection Lamb Adult Maxi Breeds 18 кг</name>
         <vendorCode>NPB46244</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="NPB46245" available="true">
         <name>Сухий корм для дорослих собак малих порід з ягнятиною Mini Adult Lamb Small Breeds 18кг</name>
@@ -1541,14 +1541,14 @@
         <stock>19</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPLS45800" available="true">
+      <offer id="NPLS45800" available="false">
         <name>Сухий беззерновий корм для стерілізованих дорослих котів з лососем Lifestyle Grain Free Salmon with krill Sterilised Adult Cat 7кг</name>
         <vendorCode>NPLS45800</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="NPLS45801" available="true">
         <name>Сухий беззерновий корм для стерілізованих дорослих котів з білою рибою Lifestyle Grain Free White Fish Sterilised Adult Cat 400г</name>
@@ -1573,8 +1573,8 @@
         <vendorCode>NPLS45803</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPLS45952" available="true">
@@ -1591,8 +1591,8 @@
         <vendorCode>NPLS45953</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPLS45954" available="true">
@@ -2536,8 +2536,8 @@
         <vendorCode>NPSC45795</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPSC45796" available="true">
@@ -2599,8 +2599,8 @@
         <vendorCode>NPSC45835</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPSC45992" available="true">
@@ -2927,14 +2927,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPSC47630" available="true">
+      <offer id="NPSC47630" available="false">
         <name>Сухий беззерновий корм з оселедцем для дорослих котів усіх порід із білим забарвленням шерсті Superior Care White Cats Grain Free with Herring Adult all breeds 1.5 кг</name>
         <vendorCode>NPSC47630</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="NPSC47631" available="true">
         <name>Сухий беззерновий корм з оселедцем для дорослих котів усіх порід із рудим і коричневим забарвленням шерсті Superior Care Red Cats Grain Free with Herring Adult all breeds 1.5 кг</name>
@@ -3040,18 +3040,18 @@
         <vendorCode>NPSC47910</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>36</quantity_in_stock>
-        <stock>36</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPSC47910_box" available="true">
+      <offer id="NPSC47910_box" available="false">
         <name>Вологий беззерновий корм Nature's Protection Superior Care Kitten для кошенят, філе у соусі з індичкою та курячою грудкою, 85 г * 12 шт</name>
         <vendorCode>NPSC47910_box</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>3</quantity_in_stock>
-        <stock>3</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="NPSC47911" available="true">
         <name>Вологий беззерновий корм Nature's Protection Superior Care для дорослих котів, філе у соусі з оселедцем та курячою грудкою, для контролю ваги, 85 г</name>
@@ -3094,18 +3094,18 @@
         <vendorCode>NPSC70465-K2</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>60</quantity_in_stock>
-        <stock>60</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPSC70465-K2-12" available="true">
+      <offer id="NPSC70465-K2-12" available="false">
         <name>Вологий корм для собак з білим забарвленням з білою рибою і крилем, 85 г Nature's Protection Superior Care White Dogs Grain Free Adult All White Fish and Krill 85 г * 12 шт</name>
         <vendorCode>NPSC70465-K2-12</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="NPSC70466-K2" available="true">
         <name>Вологий корм для собак з рудим забарвленням з лососем і крилем, 85 г Nature's Protection Superior Care Red Coat Grain Free Adult Salmon and Krill 85 г</name>
