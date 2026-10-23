@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-10-23 10:12">
+<yml_catalog date="2026-10-23 13:40">
   <shop>
     <name>CatPaws Kormax stock</name>
     <company>CatPaws</company>
@@ -2270,14 +2270,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPS45769" available="true">
+      <offer id="NPS45769" available="false">
         <name>Сухий корм для дорослих стерилізованих котів та кішок для профілактики та лікування СКХ Nature's Protection Urinary Formula-S 400г</name>
         <vendorCode>NPS45769</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="NPS45770" available="true">
         <name>Сухий корм для дорослих стерилізованих котів та кішок для профілактики та лікування СКХ Nature's Protection Urinary Formula-S 2 кг</name>
@@ -3193,8 +3193,8 @@
         <vendorCode>SNK46102</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="SNK46103" available="false">
