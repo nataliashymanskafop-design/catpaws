@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-10-24 16:31">
+<yml_catalog date="2026-10-24 20:17">
   <shop>
     <offers>
       <offer id="1018100" available="true">
@@ -36,7 +36,7 @@
       </offer>
       <offer id="2028100" available="true">
         <vendorCode>2028100</vendorCode>
-        <quantity_in_stock>20</quantity_in_stock>
+        <quantity_in_stock>19</quantity_in_stock>
       </offer>
       <offer id="3118004" available="true">
         <vendorCode>3118004</vendorCode>
@@ -44,7 +44,7 @@
       </offer>
       <offer id="1019100" available="true">
         <vendorCode>1019100</vendorCode>
-        <quantity_in_stock>20</quantity_in_stock>
+        <quantity_in_stock>19</quantity_in_stock>
       </offer>
       <offer id="1357101" available="true">
         <vendorCode>1357101</vendorCode>
@@ -56,7 +56,7 @@
       </offer>
       <offer id="1029100" available="true">
         <vendorCode>1029100</vendorCode>
-        <quantity_in_stock>8</quantity_in_stock>
+        <quantity_in_stock>6</quantity_in_stock>
       </offer>
       <offer id="50014798р" available="true">
         <vendorCode>50014798р</vendorCode>
@@ -258,7 +258,7 @@
       </offer>
       <offer id="3058110" available="true">
         <vendorCode>3058110</vendorCode>
-        <quantity_in_stock>15</quantity_in_stock>
+        <quantity_in_stock>14</quantity_in_stock>
       </offer>
       <offer id="3108100" available="true">
         <vendorCode>3108100</vendorCode>
@@ -1032,7 +1032,7 @@
       </offer>
       <offer id="NPS45771" available="true">
         <vendorCode>NPS45771</vendorCode>
-        <quantity_in_stock>20</quantity_in_stock>
+        <quantity_in_stock>19</quantity_in_stock>
       </offer>
       <offer id="NPB46038" available="true">
         <vendorCode>NPB46038</vendorCode>
@@ -6028,9 +6028,9 @@
         <vendorCode>KIKNPSC47653</vendorCode>
         <quantity_in_stock>20</quantity_in_stock>
       </offer>
-      <offer id="NPSC70465-K2" available="true">
+      <offer id="NPSC70465-K2" available="false">
         <vendorCode>NPSC70465-K2</vendorCode>
-        <quantity_in_stock>5</quantity_in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
       </offer>
       <offer id="NPSC47647" available="true">
         <vendorCode>NPSC47647</vendorCode>
@@ -7602,7 +7602,7 @@
       </offer>
       <offer id="TPL63689" available="true">
         <vendorCode>TPL63689</vendorCode>
-        <quantity_in_stock>10</quantity_in_stock>
+        <quantity_in_stock>5</quantity_in_stock>
       </offer>
       <offer id="TPLRAN70402" available="true">
         <vendorCode>TPLRAN70402</vendorCode>

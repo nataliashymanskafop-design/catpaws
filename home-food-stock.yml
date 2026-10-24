@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-10-24 16:30">
+<yml_catalog date="2026-10-24 20:16">
   <shop>
     <name>CatPaws HOME FOOD stock</name>
     <company>CatPaws</company>
@@ -196,8 +196,8 @@
         <vendorCode>1019100</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>19</quantity_in_stock>
+        <stock>19</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="1021008" available="false">
@@ -268,8 +268,8 @@
         <vendorCode>1029100</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>8</quantity_in_stock>
-        <stock>8</stock>
+        <quantity_in_stock>6</quantity_in_stock>
+        <stock>6</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="1037077" available="true">
@@ -601,8 +601,8 @@
         <vendorCode>2028100</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>19</quantity_in_stock>
+        <stock>19</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="2127100" available="true">
@@ -808,8 +808,8 @@
         <vendorCode>3058110</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>15</quantity_in_stock>
-        <stock>15</stock>
+        <quantity_in_stock>14</quantity_in_stock>
+        <stock>14</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="3058116" available="true">
