@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-10-25 03:28">
+<yml_catalog date="2026-10-25 07:10">
   <shop>
     <offers>
       <offer id="1018100" available="true">
@@ -6028,10 +6028,6 @@
         <vendorCode>KIKNPSC47653</vendorCode>
         <quantity_in_stock>20</quantity_in_stock>
       </offer>
-      <offer id="NPSC70465-K2" available="false">
-        <vendorCode>NPSC70465-K2</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-      </offer>
       <offer id="NPSC47647" available="true">
         <vendorCode>NPSC47647</vendorCode>
         <quantity_in_stock>20</quantity_in_stock>
@@ -8272,6 +8268,10 @@
       </offer>
       <offer id="NPSC47779" available="false">
         <vendorCode>NPSC47779</vendorCode>
+        <quantity_in_stock>0</quantity_in_stock>
+      </offer>
+      <offer id="NPSC70465-K2" available="false">
+        <vendorCode>NPSC70465-K2</vendorCode>
         <quantity_in_stock>0</quantity_in_stock>
       </offer>
       <offer id="АКЦ_NPSC47439" available="false">
