@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-10-26 16:59">
+<yml_catalog date="2026-10-26 22:26">
   <shop>
     <offers>
       <offer id="30001650" available="true">
@@ -347,7 +347,7 @@
       <offer id="50005178" available="true">
         <vendorCode>50005178</vendorCode>
         <name>Сухий корм BAVARO Solid 20/8, 18 кг</name>
-        <quantity_in_stock>18</quantity_in_stock>
+        <quantity_in_stock>17</quantity_in_stock>
         <price>1548.00</price>
         <oldprice>1818.00</oldprice>
         <currencyId>UAH</currencyId>
@@ -698,7 +698,7 @@
       <offer id="50009044" available="true">
         <vendorCode>50009044</vendorCode>
         <name>Сухий корм JosiCat Sterilised Classic 10 кг</name>
-        <quantity_in_stock>20</quantity_in_stock>
+        <quantity_in_stock>19</quantity_in_stock>
         <price>2280.00</price>
         <oldprice>2280.00</oldprice>
         <currencyId>UAH</currencyId>
@@ -923,7 +923,7 @@
       <offer id="50012492" available="true">
         <vendorCode>50012492</vendorCode>
         <name>Сухий корм для кошенятJosiCat Kitten 10 кг</name>
-        <quantity_in_stock>20</quantity_in_stock>
+        <quantity_in_stock>19</quantity_in_stock>
         <price>1970.00</price>
         <oldprice>2320.00</oldprice>
         <currencyId>UAH</currencyId>
