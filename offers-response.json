@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T16:18:02Z",
+  "updatedAt": "2026-10-27T20:52:56Z",
   "total": 1669,
   "data": [
     {
@@ -875,11 +875,11 @@
       "price": 677,
       "old_price": null,
       "availability": true,
-      "stock": 18,
+      "stock": 17,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 18
+          "stock": 17
         }
       ],
       "warranty_type": "no",
@@ -5719,11 +5719,11 @@
       "price": 454,
       "old_price": null,
       "availability": true,
-      "stock": 10,
+      "stock": 5,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 10
+          "stock": 5
         }
       ],
       "warranty_type": "no",
