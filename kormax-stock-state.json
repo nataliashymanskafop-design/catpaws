@@ -442,7 +442,7 @@
     "TPLRAN70403": 5,
     "TPLRAN70404": 5,
     "UNINPSC63749": 60,
-    "UNINPSC63750": 0,
+    "UNINPSC63750": 120,
     "UNINPSC63751": 120,
     "UNINPSC63930": 120,
     "UNINPSC63999": 0,
@@ -459,7 +459,7 @@
     "АКЦ_NPSC47439": 0,
     "АКЦ_NPSC47441": 0
   },
-  "last_sync": "2026-10-27 07:26:00",
+  "last_sync": "2026-10-27 12:49:59",
   "order_snapshots": {
     "1771": {},
     "1794": {},
@@ -1802,7 +1802,10 @@
     "3174": {},
     "3175": {},
     "3176": {},
-    "3177": {}
+    "3177": {},
+    "3179": {},
+    "3180": {},
+    "3181": {}
   },
   "published_stock": {
     "041004": 0,
@@ -2259,8 +2262,8 @@
     "TPLRAN70403": 5,
     "TPLRAN70404": 5,
     "UNINPSC63749": 60,
-    "UNINPSC63750": 0,
-    "UNINPSC63750_box": 0,
+    "UNINPSC63750": 120,
+    "UNINPSC63750_box": 5,
     "UNINPSC63751": 120,
     "UNINPSC63751_box": 5,
     "UNINPSC63930": 120,
@@ -2722,7 +2725,7 @@
     "TPLRAN70403": "low",
     "TPLRAN70404": "low",
     "UNINPSC63749": "high",
-    "UNINPSC63750": "zero",
+    "UNINPSC63750": "high",
     "UNINPSC63751": "high",
     "UNINPSC63930": "high",
     "UNINPSC63999": "zero",
