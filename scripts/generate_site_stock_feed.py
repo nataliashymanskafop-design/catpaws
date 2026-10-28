@@ -31,7 +31,10 @@ SUPPLIER_STATE_FILES = (
 )
 FORCE_ZERO_BRANDS = {"rafi"}
 # Keep the inquiry status selected manually in Horoshop, even if stock returns.
-PRESERVE_INQUIRY_STATUS_SKUS = {"ЗС000375"}  # Анавірин, eye/nasal drops 10 ml, MODES.
+PRESERVE_INQUIRY_STATUS_SKUS = {
+    "ЗС000375",  # Анавірин, eye/nasal drops 10 ml, MODES.
+    "ЗС000338",  # Вівадерм, medicinal ointment 25 g, MODES.
+}
 PETIMPEX_XML_URL = "https://files.petimpex.com/shimanskay/Shimanskaya.xml.yml"
 PETIMPEX_STATE_FILE = "public/petimpex-stock-state.json"
 
