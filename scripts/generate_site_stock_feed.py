@@ -30,6 +30,8 @@ SUPPLIER_STATE_FILES = (
     "public/darwin-stock-state.json",
 )
 FORCE_ZERO_BRANDS = {"rafi"}
+# Keep the inquiry status selected manually in Horoshop, even if stock returns.
+PRESERVE_INQUIRY_STATUS_SKUS = {"ЗС000375"}  # Анавірин, eye/nasal drops 10 ml, MODES.
 PETIMPEX_XML_URL = "https://files.petimpex.com/shimanskay/Shimanskaya.xml.yml"
 PETIMPEX_STATE_FILE = "public/petimpex-stock-state.json"
 
@@ -158,9 +160,9 @@ def build_feed(catalog_root, own_stock, supplier_stock, retail_prices=None):
         # Never select an arbitrary card when several IDs share the same SKU.
         if sku in duplicate_skus:
             continue
-        # Site-only MODES bowls keep the manually selected inquiry status.
+        # MODES bowls and inquiry-only medicines keep the manually selected status.
         # No stock/availability row may overwrite it during a site import.
-        if is_modes_bowl(source_offer):
+        if is_modes_bowl(source_offer) or sku in PRESERVE_INQUIRY_STATUS_SKUS:
             continue
 
         if sku in FORCE_ZERO_SKUS:
