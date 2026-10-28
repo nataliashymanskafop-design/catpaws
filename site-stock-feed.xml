@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-10-28 08:07">
+<yml_catalog date="2026-10-28 15:24">
   <shop>
     <offers>
       <offer id="1018100" available="true">
@@ -480,11 +480,11 @@
       </offer>
       <offer id="NPS45785" available="true">
         <vendorCode>NPS45785</vendorCode>
-        <quantity_in_stock>20</quantity_in_stock>
+        <quantity_in_stock>10</quantity_in_stock>
       </offer>
       <offer id="NPS45760" available="true">
         <vendorCode>NPS45760</vendorCode>
-        <quantity_in_stock>20</quantity_in_stock>
+        <quantity_in_stock>10</quantity_in_stock>
       </offer>
       <offer id="NPS45766" available="true">
         <vendorCode>NPS45766</vendorCode>
@@ -640,7 +640,7 @@
       </offer>
       <offer id="NPS45781" available="true">
         <vendorCode>NPS45781</vendorCode>
-        <quantity_in_stock>20</quantity_in_stock>
+        <quantity_in_stock>5</quantity_in_stock>
       </offer>
       <offer id="NPS45778" available="true">
         <vendorCode>NPS45778</vendorCode>
@@ -694,9 +694,9 @@
         <vendorCode>KIKNPLS47205</vendorCode>
         <quantity_in_stock>20</quantity_in_stock>
       </offer>
-      <offer id="KIKNPLS47206" available="true">
+      <offer id="KIKNPLS47206" available="false">
         <vendorCode>KIKNPLS47206</vendorCode>
-        <quantity_in_stock>5</quantity_in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
       </offer>
       <offer id="KIKNPLS47207" available="true">
         <vendorCode>KIKNPLS47207</vendorCode>
@@ -1056,7 +1056,7 @@
       </offer>
       <offer id="NPLS45685" available="true">
         <vendorCode>NPLS45685</vendorCode>
-        <quantity_in_stock>20</quantity_in_stock>
+        <quantity_in_stock>10</quantity_in_stock>
       </offer>
       <offer id="NPLS45687" available="true">
         <vendorCode>NPLS45687</vendorCode>
@@ -1298,9 +1298,9 @@
         <vendorCode>KIK45093</vendorCode>
         <quantity_in_stock>40</quantity_in_stock>
       </offer>
-      <offer id="KIK45094" available="true">
+      <offer id="KIK45094" available="false">
         <vendorCode>KIK45094</vendorCode>
-        <quantity_in_stock>5</quantity_in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
       </offer>
       <offer id="NPS45751" available="true">
         <vendorCode>NPS45751</vendorCode>
@@ -1380,9 +1380,9 @@
         <vendorCode>NPS45661</vendorCode>
         <quantity_in_stock>20</quantity_in_stock>
       </offer>
-      <offer id="NPS45744" available="true">
+      <offer id="NPS45744" available="false">
         <vendorCode>NPS45744</vendorCode>
-        <quantity_in_stock>5</quantity_in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
       </offer>
       <offer id="NPB46032" available="true">
         <vendorCode>NPB46032</vendorCode>
@@ -2308,7 +2308,7 @@
       </offer>
       <offer id="UNINPSC70012" available="true">
         <vendorCode>UNINPSC70012</vendorCode>
-        <quantity_in_stock>40</quantity_in_stock>
+        <quantity_in_stock>5</quantity_in_stock>
       </offer>
       <offer id="UNINPSC70011" available="true">
         <vendorCode>UNINPSC70011</vendorCode>
@@ -2374,11 +2374,11 @@
       </offer>
       <offer id="2127100" available="true">
         <vendorCode>2127100</vendorCode>
-        <quantity_in_stock>13</quantity_in_stock>
+        <quantity_in_stock>12</quantity_in_stock>
       </offer>
       <offer id="2028016" available="true">
         <vendorCode>2028016</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>17</quantity_in_stock>
       </offer>
       <offer id="244215" available="true">
         <vendorCode>244215</vendorCode>
@@ -6790,7 +6790,7 @@
       </offer>
       <offer id="0411 PRUBOX150" available="true">
         <vendorCode>0411 PRUBOX150</vendorCode>
-        <quantity_in_stock>2</quantity_in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
         <price>828.54</price>
         <currencyId>UAH</currencyId>
       </offer>
@@ -6856,7 +6856,7 @@
       </offer>
       <offer id="6716 POMPE" available="true">
         <vendorCode>6716 POMPE</vendorCode>
-        <quantity_in_stock>2</quantity_in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
         <price>481.5</price>
         <currencyId>UAH</currencyId>
       </offer>

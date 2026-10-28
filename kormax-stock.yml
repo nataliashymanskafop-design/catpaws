@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-10-28 08:06">
+<yml_catalog date="2026-10-28 15:24">
   <shop>
     <name>CatPaws Kormax stock</name>
     <company>CatPaws</company>
@@ -704,14 +704,14 @@
         <stock>40</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="KIK45094" available="true">
+      <offer id="KIK45094" available="false">
         <name>Вологий корм для дорослих собак всіх порід з дичиною Nature's Protection Adult Game 800г</name>
         <vendorCode>KIK45094</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="KIK45095" available="true">
         <name>Вологий корм для собак малих порід з телятиною і качкою, 200 г Nature's Protection Adult Small Breeds Veal &amp; Duck</name>
@@ -902,14 +902,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="KIKNPLS47206" available="true">
+      <offer id="KIKNPLS47206" available="false">
         <name>Беззернові ласощі з лососем для молодих собак всіх порід Nature's Protection Lifestyle Grain Free Salmon Healthy Skin &amp; Coat Support, 160г</name>
         <vendorCode>KIKNPLS47206</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="KIKNPLS47207" available="true">
         <name>Беззернові ласощі з білою рибою для активних дорослих собак всіх порід Nature's Protection Lifestyle Grain Free White fish Healthy Motion, 110г</name>
@@ -1501,8 +1501,8 @@
         <vendorCode>NPLS45685</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPLS45686" available="true">
@@ -2045,14 +2045,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPS45744" available="true">
+      <offer id="NPS45744" available="false">
         <name>Сухий корм для дорослих спортивних, мисливських та службових собак Active Sport Adult All Breeds 12кг</name>
         <vendorCode>NPS45744</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="NPS45745" available="true">
         <name>Сухий корм для цуценят всіх порід з ягнятиною Junior Lamb All Breeds 500г</name>
@@ -2194,8 +2194,8 @@
         <vendorCode>NPS45760</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPS45761" available="true">
@@ -2383,8 +2383,8 @@
         <vendorCode>NPS45781</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPS45782" available="true">
@@ -2419,8 +2419,8 @@
         <vendorCode>NPS45785</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPS47739" available="true">
@@ -4183,8 +4183,8 @@
         <vendorCode>UNINPSC70012</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>40</quantity_in_stock>
-        <stock>40</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="АКЦ_NPSC45663" available="false">
