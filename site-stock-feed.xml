@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-10-28 02:20">
+<yml_catalog date="2026-10-28 08:07">
   <shop>
     <offers>
       <offer id="1018100" available="true">
@@ -745,10 +745,6 @@
       <offer id="KIKNPSP47242" available="true">
         <vendorCode>KIKNPSP47242</vendorCode>
         <quantity_in_stock>20</quantity_in_stock>
-      </offer>
-      <offer id="NPSC45996" available="false">
-        <vendorCode>NPSC45996</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
       </offer>
       <offer id="NPSC47229" available="true">
         <vendorCode>NPSC47229</vendorCode>
@@ -3126,7 +3122,7 @@
       </offer>
       <offer id="ЗС000156" available="true">
         <vendorCode>ЗС000156</vendorCode>
-        <quantity_in_stock>5</quantity_in_stock>
+        <quantity_in_stock>4</quantity_in_stock>
       </offer>
       <offer id="ЗС000157" available="true">
         <vendorCode>ЗС000157</vendorCode>
@@ -4754,12 +4750,6 @@
         <price>416.34</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="045486" available="false">
-        <vendorCode>045486</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
-        <price>416.34</price>
-        <currencyId>UAH</currencyId>
-      </offer>
       <offer id="045786" available="true">
         <vendorCode>045786</vendorCode>
         <quantity_in_stock>2</quantity_in_stock>
@@ -5435,6 +5425,12 @@
       <offer id="DN 185 (434)" available="true">
         <vendorCode>DN 185 (434)</vendorCode>
         <quantity_in_stock>2</quantity_in_stock>
+        <price>162</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="DN 185 (410)" available="true">
+        <vendorCode>DN 185 (410)</vendorCode>
+        <quantity_in_stock>1</quantity_in_stock>
         <price>162</price>
         <currencyId>UAH</currencyId>
       </offer>
@@ -7176,6 +7172,12 @@
         <price>2976.84</price>
         <currencyId>UAH</currencyId>
       </offer>
+      <offer id="H1SH2VL0100HYKNN" available="true">
+        <vendorCode>H1SH2VL0100HYKNN</vendorCode>
+        <quantity_in_stock>1</quantity_in_stock>
+        <price>493.32</price>
+        <currencyId>UAH</currencyId>
+      </offer>
       <offer id="H1SH2VL0530HYKNN" available="true">
         <vendorCode>H1SH2VL0530HYKNN</vendorCode>
         <quantity_in_stock>2</quantity_in_stock>
@@ -7744,6 +7746,10 @@
         <vendorCode>NPSC45835</vendorCode>
         <quantity_in_stock>0</quantity_in_stock>
       </offer>
+      <offer id="NPSC45996" available="false">
+        <vendorCode>NPSC45996</vendorCode>
+        <quantity_in_stock>0</quantity_in_stock>
+      </offer>
       <offer id="KIKNPLF63358" available="false">
         <vendorCode>KIKNPLF63358</vendorCode>
         <quantity_in_stock>0</quantity_in_stock>
@@ -8168,6 +8174,12 @@
         <price>3906.24</price>
         <currencyId>UAH</currencyId>
       </offer>
+      <offer id="045486" available="false">
+        <vendorCode>045486</vendorCode>
+        <quantity_in_stock>0</quantity_in_stock>
+        <price>416.34</price>
+        <currencyId>UAH</currencyId>
+      </offer>
       <offer id="023090" available="false">
         <vendorCode>023090</vendorCode>
         <quantity_in_stock>0</quantity_in_stock>
@@ -8223,12 +8235,6 @@
       <offer id="ЗС000436" available="false">
         <vendorCode>ЗС000436</vendorCode>
         <quantity_in_stock>0</quantity_in_stock>
-      </offer>
-      <offer id="DN 185 (410)" available="true">
-        <vendorCode>DN 185 (410)</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
-        <price>162</price>
-        <currencyId>UAH</currencyId>
       </offer>
       <offer id="50006793" available="false">
         <vendorCode>50006793</vendorCode>
@@ -8424,12 +8430,6 @@
         <vendorCode>H1CD3AL0500HYKNN</vendorCode>
         <quantity_in_stock>0</quantity_in_stock>
         <price>2296.44</price>
-        <currencyId>UAH</currencyId>
-      </offer>
-      <offer id="H1SH2VL0100HYKNN" available="true">
-        <vendorCode>H1SH2VL0100HYKNN</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
-        <price>493.32</price>
         <currencyId>UAH</currencyId>
       </offer>
       <offer id="H1CD4VL1500HYKNN" available="false">
