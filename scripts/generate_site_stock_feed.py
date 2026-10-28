@@ -30,6 +30,8 @@ SUPPLIER_STATE_FILES = (
     "public/darwin-stock-state.json",
 )
 FORCE_ZERO_BRANDS = {"rafi"}
+# Site-only override requested by Natalia on 2026-10-28 for MODES Tofu litter.
+SITE_FORCE_ZERO_SKUS = {"ЗС000355", "ЗС000356", "ЗС000357", "ЗС000358", "ЗС000359"}
 # Keep the inquiry status selected manually in Horoshop, even if stock returns.
 PRESERVE_INQUIRY_STATUS_SKUS = {
     "ЗС000375",  # Анавірин, eye/nasal drops 10 ml, MODES.
@@ -168,7 +170,7 @@ def build_feed(catalog_root, own_stock, supplier_stock, retail_prices=None):
         if is_modes_bowl(source_offer) or sku in PRESERVE_INQUIRY_STATUS_SKUS:
             continue
 
-        if sku in FORCE_ZERO_SKUS:
+        if sku in FORCE_ZERO_SKUS or sku in SITE_FORCE_ZERO_SKUS:
             # A stale catalog or stock state must not restore this product.
             quantity, source = 0, "none"
         elif vendor in FORCE_ZERO_BRANDS:
