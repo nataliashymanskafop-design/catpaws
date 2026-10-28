@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-10-28 17:47">
+<yml_catalog date="2026-10-28 21:01">
   <shop>
     <offers>
       <offer id="1018100" available="true">
@@ -44,7 +44,7 @@
       </offer>
       <offer id="1019100" available="true">
         <vendorCode>1019100</vendorCode>
-        <quantity_in_stock>17</quantity_in_stock>
+        <quantity_in_stock>16</quantity_in_stock>
       </offer>
       <offer id="1357101" available="true">
         <vendorCode>1357101</vendorCode>
@@ -616,7 +616,7 @@
       </offer>
       <offer id="NPLS45956" available="true">
         <vendorCode>NPLS45956</vendorCode>
-        <quantity_in_stock>10</quantity_in_stock>
+        <quantity_in_stock>5</quantity_in_stock>
       </offer>
       <offer id="NPLS45957" available="true">
         <vendorCode>NPLS45957</vendorCode>
@@ -1092,7 +1092,7 @@
       </offer>
       <offer id="TPL47411" available="true">
         <vendorCode>TPL47411</vendorCode>
-        <quantity_in_stock>10</quantity_in_stock>
+        <quantity_in_stock>5</quantity_in_stock>
       </offer>
       <offer id="TPL63796" available="true">
         <vendorCode>TPL63796</vendorCode>
@@ -1450,7 +1450,7 @@
       </offer>
       <offer id="TPL63792" available="true">
         <vendorCode>TPL63792</vendorCode>
-        <quantity_in_stock>5</quantity_in_stock>
+        <quantity_in_stock>4</quantity_in_stock>
       </offer>
       <offer id="TPL47408" available="true">
         <vendorCode>TPL47408</vendorCode>
