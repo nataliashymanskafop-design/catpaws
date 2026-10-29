@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-10-29 04:42">
+<yml_catalog date="2026-10-29 11:39">
   <shop>
     <name>CatPaws Kormax stock</name>
     <company>CatPaws</company>
@@ -389,14 +389,14 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="CAN63304" available="true">
+      <offer id="CAN63304" available="false">
         <name>Харчова добавка для відучування собак від поїдання фекалій, 200 г Nature's Protection Stop Stool Eating</name>
         <vendorCode>CAN63304</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>4</quantity_in_stock>
-        <stock>4</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="CAN63551" available="true">
         <name>Харчова добавка для підтримки харчових потреб вагітних і лактуючих собак і котів, 60 таблеток Nature's Protection Healthy Pregnancy</name>
@@ -4178,14 +4178,14 @@
         <stock>40</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="UNINPSC70012" available="true">
+      <offer id="UNINPSC70012" available="false">
         <name>NATURE'S PROTECTION SUPERIOR CARE White Dogs Adult All Breeds with Tuna and Sea Bass, вологий корм з тунцем та морським окунем для дорослих собак усіх порід з білою шерстю, 70 г у пакетику</name>
         <vendorCode>UNINPSC70012</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="АКЦ_NPSC45663" available="false">
         <name>Сухий корм для дорослих собак малих порід з ягням, 1,5 кг + Nature's Protection Superior Care White Dogs Grain Free Adult All</name>

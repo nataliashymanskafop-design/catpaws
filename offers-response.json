@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T23:26:35Z",
+  "updatedAt": "2026-10-29T09:40:07Z",
   "total": 1669,
   "data": [
     {
@@ -35,11 +35,11 @@
       "price": 2746,
       "old_price": 3231,
       "availability": true,
-      "stock": 4,
+      "stock": 3,
       "warehouses": [
         {
           "id": "SUPPLIER",
-          "stock": 4
+          "stock": 3
         }
       ],
       "warranty_type": "no",
@@ -11823,11 +11823,11 @@
       "price": 348,
       "old_price": null,
       "availability": true,
-      "stock": 6,
+      "stock": 5,
       "warehouses": [
         {
           "id": "SUPPLIER",
-          "stock": 6
+          "stock": 5
         }
       ],
       "warranty_type": "no",
@@ -21203,11 +21203,11 @@
       "price": 308,
       "old_price": null,
       "availability": true,
-      "stock": 20,
+      "stock": 15,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 20
+          "stock": 15
         }
       ],
       "warranty_type": "no",
@@ -21231,11 +21231,11 @@
       "price": 1539,
       "old_price": null,
       "availability": true,
-      "stock": 4,
+      "stock": 3,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 4
+          "stock": 3
         }
       ],
       "warranty_type": "no",
@@ -23414,12 +23414,12 @@
       "code": "CAN63304",
       "price": 1056,
       "old_price": null,
-      "availability": true,
-      "stock": 4,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 4
+          "stock": 0
         }
       ],
       "warranty_type": "no",
