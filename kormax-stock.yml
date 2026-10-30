@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-10-30 17:13">
+<yml_catalog date="2026-10-30 22:01">
   <shop>
     <name>CatPaws Kormax stock</name>
     <company>CatPaws</company>
@@ -502,8 +502,8 @@
         <vendorCode>KIK24519</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>40</quantity_in_stock>
-        <stock>40</stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="KIK24520" available="true">
@@ -1334,14 +1334,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPB46042" available="false">
+      <offer id="NPB46042" available="true">
         <name>Сухий корм для дорослих котів з чутливим травленням Nature's Protection Sensitive Digestion 18кг</name>
         <vendorCode>NPB46042</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="NPB46043" available="true">
         <name>Сухий корм для кошенят Nature's Protection Kitten 18кг</name>
@@ -1568,14 +1568,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPLS45803" available="true">
+      <offer id="NPLS45803" available="false">
         <name>Сухий беззерновий корм для стерілізованих дорослих котів з білою рибою Lifestyle Grain Free White Fish Sterilised Adult Cat 7кг</name>
         <vendorCode>NPLS45803</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>10</quantity_in_stock>
-        <stock>10</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="NPLS45952" available="true">
         <name>Сухий беззерновий корм для кошенят з лососем Lifestyle Grain Free Salmon Kitten 400г</name>
@@ -2248,8 +2248,8 @@
         <vendorCode>NPS45766</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPS45767" available="true">
@@ -2770,8 +2770,8 @@
         <vendorCode>NPSC47439</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPSC47440" available="true">
@@ -2950,8 +2950,8 @@
         <vendorCode>NPSC47633</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPSC47634" available="true">

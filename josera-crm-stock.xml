@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-10-30 17:14">
+<yml_catalog date="2026-10-30 22:02">
   <shop>
     <offers>
       <offer id="30001650" available="true">
@@ -389,10 +389,10 @@
         <currencyId>UAH</currencyId>
         <vendorprice>2660.00</vendorprice>
       </offer>
-      <offer id="50005506" available="false">
+      <offer id="50005506" available="true">
         <vendorCode>50005506</vendorCode>
         <name>Сухий корм JOSERA Catelux 2 кг</name>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>20</quantity_in_stock>
         <price>778.00</price>
         <oldprice>778.00</oldprice>
         <currencyId>UAH</currencyId>
