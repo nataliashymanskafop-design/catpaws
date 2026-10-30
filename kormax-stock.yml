@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-10-30 22:01">
+<yml_catalog date="2026-10-31 01:58">
   <shop>
     <name>CatPaws Kormax stock</name>
     <company>CatPaws</company>
@@ -2765,14 +2765,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPSC47439" available="true">
+      <offer id="NPSC47439" available="false">
         <name>Сухий беззерновий корм з оселедцем для дорослих собак малих порід Superior Care White Dogs Grain Free with Herring Adult Small Breeds 1.5кг</name>
         <vendorCode>NPSC47439</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="NPSC47440" available="true">
         <name>Сухий беззерновий корм для дорослих собак малих порід з білою шерстю Superior Care White Dogs Grain Free with Herring Adult Small Breeds 10кг</name>
