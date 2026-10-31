@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-10-31 13:05">
+<yml_catalog date="2026-10-31 18:15">
   <shop>
     <offers>
       <offer id="30001650" available="true">
@@ -884,10 +884,10 @@
         <currencyId>UAH</currencyId>
         <vendorprice>1815.00</vendorprice>
       </offer>
-      <offer id="50012164" available="false">
+      <offer id="50012164" available="true">
         <vendorCode>50012164</vendorCode>
         <name>Сухий корм JosiDog Junior Sensitive 15 кг</name>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>20</quantity_in_stock>
         <price>2925.00</price>
         <oldprice>2925.00</oldprice>
         <currencyId>UAH</currencyId>

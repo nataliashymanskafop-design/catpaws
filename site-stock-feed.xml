@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-10-31 13:05">
+<yml_catalog date="2026-10-31 18:15">
   <shop>
     <offers>
       <offer id="1018100" available="true">
@@ -492,7 +492,7 @@
       </offer>
       <offer id="NPS45760" available="true">
         <vendorCode>NPS45760</vendorCode>
-        <quantity_in_stock>10</quantity_in_stock>
+        <quantity_in_stock>5</quantity_in_stock>
       </offer>
       <offer id="NPS45766" available="true">
         <vendorCode>NPS45766</vendorCode>
@@ -1010,9 +1010,9 @@
         <vendorCode>NPS45768</vendorCode>
         <quantity_in_stock>20</quantity_in_stock>
       </offer>
-      <offer id="NPB46042" available="true">
+      <offer id="NPB46042" available="false">
         <vendorCode>NPB46042</vendorCode>
-        <quantity_in_stock>5</quantity_in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
       </offer>
       <offer id="NPS45770" available="true">
         <vendorCode>NPS45770</vendorCode>
@@ -2252,7 +2252,7 @@
       </offer>
       <offer id="653651" available="true">
         <vendorCode>653651</vendorCode>
-        <quantity_in_stock>14</quantity_in_stock>
+        <quantity_in_stock>13</quantity_in_stock>
       </offer>
       <offer id="653644" available="true">
         <vendorCode>653644</vendorCode>
@@ -6054,7 +6054,7 @@
       </offer>
       <offer id="NPSC47597" available="true">
         <vendorCode>NPSC47597</vendorCode>
-        <quantity_in_stock>10</quantity_in_stock>
+        <quantity_in_stock>5</quantity_in_stock>
       </offer>
       <offer id="NPSC47646" available="true">
         <vendorCode>NPSC47646</vendorCode>
@@ -7846,9 +7846,9 @@
         <vendorCode>KIK45094</vendorCode>
         <quantity_in_stock>0</quantity_in_stock>
       </offer>
-      <offer id="50012164" available="false">
+      <offer id="50012164" available="true">
         <vendorCode>50012164</vendorCode>
-        <quantity_in_stock>0</quantity_in_stock>
+        <quantity_in_stock>20</quantity_in_stock>
         <price>2925.00</price>
         <currencyId>UAH</currencyId>
       </offer>

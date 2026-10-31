@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T11:06:01Z",
+  "updatedAt": "2026-10-31T16:15:57Z",
   "total": 1671,
   "data": [
     {
@@ -4122,12 +4122,12 @@
       "code": "NPB46042",
       "price": 7455,
       "old_price": null,
-      "availability": true,
-      "stock": 5,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 5
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -22911,11 +22911,11 @@
       "price": 5424,
       "old_price": null,
       "availability": true,
-      "stock": 10,
+      "stock": 5,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 10
+          "stock": 5
         }
       ],
       "warranty_type": "no",
@@ -30554,12 +30554,12 @@
       "code": "50012164",
       "price": 2925,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 20,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 0
+          "stock": 20
         }
       ],
       "warranty_type": "no",
