@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-11-01 13:59">
+<yml_catalog date="2026-11-01 19:53">
   <shop>
     <offers>
       <offer id="1018100" available="true">
@@ -494,9 +494,9 @@
         <vendorCode>NPS45760</vendorCode>
         <quantity_in_stock>5</quantity_in_stock>
       </offer>
-      <offer id="NPS45766" available="true">
+      <offer id="NPS45766" available="false">
         <vendorCode>NPS45766</vendorCode>
-        <quantity_in_stock>5</quantity_in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
       </offer>
       <offer id="NPS45775" available="true">
         <vendorCode>NPS45775</vendorCode>
@@ -774,9 +774,9 @@
         <vendorCode>NPSC47237</vendorCode>
         <quantity_in_stock>20</quantity_in_stock>
       </offer>
-      <offer id="NPSC47439" available="true">
+      <offer id="NPSC47439" available="false">
         <vendorCode>NPSC47439</vendorCode>
-        <quantity_in_stock>5</quantity_in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
       </offer>
       <offer id="NPSC47440" available="true">
         <vendorCode>NPSC47440</vendorCode>
@@ -1418,7 +1418,7 @@
       </offer>
       <offer id="KIK45096" available="true">
         <vendorCode>KIK45096</vendorCode>
-        <quantity_in_stock>40</quantity_in_stock>
+        <quantity_in_stock>10</quantity_in_stock>
       </offer>
       <offer id="KIK24629" available="true">
         <vendorCode>KIK24629</vendorCode>
@@ -1578,7 +1578,7 @@
       </offer>
       <offer id="TPL63590" available="true">
         <vendorCode>TPL63590</vendorCode>
-        <quantity_in_stock>10</quantity_in_stock>
+        <quantity_in_stock>5</quantity_in_stock>
       </offer>
       <offer id="TPL63592" available="true">
         <vendorCode>TPL63592</vendorCode>
@@ -6164,9 +6164,9 @@
         <vendorCode>KIK45092</vendorCode>
         <quantity_in_stock>40</quantity_in_stock>
       </offer>
-      <offer id="KIK24519" available="true">
+      <offer id="KIK24519" available="false">
         <vendorCode>KIK24519</vendorCode>
-        <quantity_in_stock>10</quantity_in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
       </offer>
       <offer id="KIK45095" available="true">
         <vendorCode>KIK45095</vendorCode>

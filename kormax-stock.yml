@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-11-01 13:58">
+<yml_catalog date="2026-11-01 19:52">
   <shop>
     <name>CatPaws Kormax stock</name>
     <company>CatPaws</company>
@@ -497,14 +497,14 @@
         <stock>40</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="KIK24519" available="true">
+      <offer id="KIK24519" available="false">
         <name>Вологий корм для собак схильних повноти з індичкою і ягням, 200 г Nature's Protection Adult Light Turkey &amp; Lamb</name>
         <vendorCode>KIK24519</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>10</quantity_in_stock>
-        <stock>10</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="KIK24520" available="true">
         <name>Вологий корм для собак малих порід з індичкою і яблуками, 200 г Nature's Protection Adult Small BreedsTurkey &amp; Apples</name>
@@ -727,8 +727,8 @@
         <vendorCode>KIK45096</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>40</quantity_in_stock>
-        <stock>40</stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="KIK45097" available="true">
@@ -2243,14 +2243,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPS45766" available="true">
+      <offer id="NPS45766" available="false">
         <name>Сухий корм для дорослих котів з чутливим травленням Nature's Protection Sensitive Digestion 400г</name>
         <vendorCode>NPS45766</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="NPS45767" available="true">
         <name>Сухий корм для дорослих котів з чутливим травленням Nature's Protection Sensitive Digestion 2кг</name>
@@ -2765,14 +2765,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPSC47439" available="true">
+      <offer id="NPSC47439" available="false">
         <name>Сухий беззерновий корм з оселедцем для дорослих собак малих порід Superior Care White Dogs Grain Free with Herring Adult Small Breeds 1.5кг</name>
         <vendorCode>NPSC47439</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="NPSC47440" available="true">
         <name>Сухий беззерновий корм для дорослих собак малих порід з білою шерстю Superior Care White Dogs Grain Free with Herring Adult Small Breeds 10кг</name>
@@ -3625,8 +3625,8 @@
         <vendorCode>TPL63590</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>10</quantity_in_stock>
-        <stock>10</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="TPL63592" available="true">

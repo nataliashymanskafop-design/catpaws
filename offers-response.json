@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T11:59:03Z",
+  "updatedAt": "2026-11-01T17:53:31Z",
   "total": 1668,
   "data": [
     {
@@ -3002,12 +3002,12 @@
       "code": "NPSC47439",
       "price": 991,
       "old_price": null,
-      "availability": true,
-      "stock": 5,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 5
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -7343,11 +7343,11 @@
       "price": 1326,
       "old_price": null,
       "availability": true,
-      "stock": 10,
+      "stock": 5,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 10
+          "stock": 5
         }
       ],
       "warranty_type": "no",
