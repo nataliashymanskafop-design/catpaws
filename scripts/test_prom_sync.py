@@ -178,8 +178,34 @@ class SyncTests(unittest.TestCase):
         self.assertEqual(set(products), {'A', 'B'})
         self.assertEqual(products['A'].findtext('price'), '10')
 
-    def test_discontinued_and_rafi(self):
-        for sku, rafi in [('GONE', set()), ('FORCE', set()), ('RAFI', {'RAFI'})]:
+    def test_rafi_exclusions_reuse_catalog_without_extra_download(self):
+        rafi = self.offer()
+        etree.SubElement(rafi, 'vendor').text = '  RaFi  '
+        etree.SubElement(rafi, 'vendorCode').text = '740197 - 1329'
+        other = self.offer()
+        etree.SubElement(other, 'vendor').text = 'Dolina Noteci'
+        etree.SubElement(other, 'vendorCode').text = 'OTHER'
+        with patch.object(sync.requests, 'get', side_effect=AssertionError('No standalone RAFI request')):
+            excluded = sync.get_rafi_skus({'740197-1329': rafi, 'OTHER': other})
+        self.assertEqual(excluded, {'740197-1329'})
+
+    def test_rafi_cards_are_completely_omitted_from_prom_updates(self):
+        offer = self.offer()
+        etree.SubElement(offer, 'vendor').text = 'RAFI'
+        etree.SubElement(offer, 'vendorCode').text = 'RAFI-1'
+        catalog = {'RAFI-1': offer}
+        excluded = sync.get_rafi_skus(catalog)
+        cards = {'RAFI-1': {'id': 1, 'sku': 'RAFI-1'},
+                 'REMOVED-RAFI': {'id': 2, 'sku': 'REMOVED-RAFI', 'name': 'Dolina Noteci RAFI Adult 400 г'},
+                 'OTHER': {'id': 3, 'sku': 'OTHER', 'name': 'Grafit'}}
+        catalog['OTHER'] = self.offer()
+        updates = sync.build_updates(cards, set(), catalog, excluded)
+        self.assertEqual(updates, [
+            {'id': 3, 'presence': 'available', 'price': 630, 'oldprice': 630},
+        ])
+
+    def test_discontinued_products_are_disabled(self):
+        for sku, rafi in [('GONE', set()), ('FORCE', set())]:
             self.assertEqual(self.build(self.offer(), sku, rafi),
                              {'id': 1, 'presence': 'not_available'})
 
@@ -269,3 +295,4 @@ class SyncTests(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+

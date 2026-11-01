@@ -24,11 +24,6 @@ SITE_ONLY_MODES_SKUS = {"ACRC(W)-1 bronze","ACRC(W)-4 bronze","ACRC(W)-4 golden"
 # All currently exported brands use one authoritative source.
 HOROSHOP_URL = "https://catpaws.com.ua/content/export/9ba864d51aeb3249ffc3b374be058b88.xml"
 
-RAFI_SOURCE_URL = (
-    "https://catpaws.com.ua/content/export/"
-    "3e9c244f28ee6d1e572f92646e76f6bb.xml"
-)
-
 PROM_API_LIST_URL = "https://my.prom.ua/api/v1/products/list"
 PROM_API_EDIT_URL = "https://my.prom.ua/api/v1/products/edit"
 
@@ -270,24 +265,15 @@ def validate_source_freshness(root):
         raise RuntimeError("Horoshop export is stale or future-dated; refusing outdated prices/promotions")
 
 
-def get_rafi_skus():
-
-    print("Downloading RAFI exclusion list...")
-
-    response = requests.get(
-        RAFI_SOURCE_URL,
-        timeout=60,
-    )
-
-    response.raise_for_status()
-
-    root = etree.fromstring(
-        response.content
-    )
+def get_rafi_skus(horoshop_products):
+    # Reuse the complete, freshness-validated catalog. The old standalone
+    # RAFI export was removed; a 404 there must not block all Prom updates.
+    # RAFI cards are omitted entirely; the owner removes them on Prom manually.
+    print("Reading RAFI exclusions from the validated Horoshop catalog...")
 
     rafi_skus = set()
 
-    for offer in root.xpath(".//offer"):
+    for offer in horoshop_products.values():
 
         vendor = get_text(
             offer,
@@ -307,7 +293,7 @@ def get_rafi_skus():
         if sku:
             rafi_skus.add(sku)
 
-    print("RAFI products to disable:", len(rafi_skus))
+    print("RAFI products excluded from Prom updates:", len(rafi_skus))
 
     return rafi_skus
 
@@ -389,6 +375,12 @@ def build_updates(
 
     for sku, prom_product in prom_by_sku.items():
 
+        # Never send RAFI in update payloads, including obsolete cards that
+        # are already absent from the site. Do not delete Prom cards here.
+        if sku in rafi_skus or re.search(r"\brafi\b", clean(prom_product.get("name")), re.IGNORECASE):
+            rafi_count += 1
+            continue
+
         # ----------------------------------------------------
         # DUPLICATE SKU
         #
@@ -429,20 +421,6 @@ def build_updates(
         ):
             updates.append({"id": prom_id, "presence": "not_available"})
             unavailable_count += 1
-            continue
-
-        # RAFI прибираємо з продажу на Prom, навіть якщо позиція вже
-        # відсутня в основному Horoshop-фіді. Ціну при цьому не змінюємо.
-        if sku in rafi_skus:
-
-            updates.append({
-                "id": prom_id,
-                "presence": "not_available",
-            })
-
-            unavailable_count += 1
-            rafi_count += 1
-
             continue
 
         # ----------------------------------------------------
@@ -605,7 +583,7 @@ def build_updates(
     )
 
     print(
-        "RAFI products disabled:",
+        "RAFI products omitted from synchronization:",
         rafi_count
     )
 
@@ -781,7 +759,7 @@ def main():
 
     horoshop_products = apply_josera_source(horoshop_products)
 
-    rafi_skus = get_rafi_skus()
+    rafi_skus = get_rafi_skus(horoshop_products)
 
     prom_by_sku, duplicate_skus = (
         prepare_prom_products(
@@ -870,6 +848,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
