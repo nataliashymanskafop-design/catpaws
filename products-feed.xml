@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE yml_catalog SYSTEM "shops.dtd">
-<yml_catalog date="2026-10-31 03:42">
+<yml_catalog date="2026-11-01 03:37">
  <shop>
   <name>catpaws.com.ua</name>
   <company>Интернет-магазин catpaws.com.ua</company>
@@ -67,7 +67,8 @@
    </offer>
    <offer id="532" available="true">
     <code>1038100</code><url>https://catpaws.com.ua/bezzernovyi-hipoalerhennyi-sukhyi-korm-home-food-dlia-doroslykh-sobak-serednikh-i-velykykh-porid-miaso-kachky-z-nutom-hypoallergenic-grain-free-10-kh/</url>
-    <price>3231.00</price>
+    <price>2746.00</price>
+    <oldprice>3231</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1084</categoryId>
     <picture>https://catpaws.com.ua/content/images/33/bezzernovyi-hipoalerhennyi-sukhyi-korm-home-food-dlia-doroslykh-sobak-serednikh-i-velykykh-porid-miaso-kachky-z-nutom-hypoallergenic-grain-free-10-kh-76378943852254_+60c87290ef.jpg</picture>
@@ -397,7 +398,8 @@
    </offer>
    <offer id="726" available="true">
     <code>3028016</code><url>https://catpaws.com.ua/sukhyi-korm-home-food-zdorova-shkira-ta-blysk-shersti-dlia-doroslykh-kotiv-indychka-ta-losos-healthy-skin-and-shiny-coat-1.6-kh/</url>
-    <price>677.00</price>
+    <price>542.00</price>
+    <oldprice>677</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1086</categoryId>
     <picture>https://catpaws.com.ua/content/images/27/sukhyi-korm-home-food-zdorova-shkira-ta-blysk-shersti-dlia-doroslykh-kotiv-indychka-ta-losos-healthy-skin-and-shiny-coat-1.6-kh-73373986827439_+453bd53628.png</picture>
@@ -408,7 +410,8 @@
    </offer>
    <offer id="727" available="true">
     <code>3128100</code><url>https://catpaws.com.ua/sukhyi-korm-home-food-zdorova-shkira-ta-blysk-shersti-dlia-doroslykh-kotiv-indychka-ta-losos-healthy-skin-and-shiny-coat-10-kh/</url>
-    <price>3705.00</price>
+    <price>3149.00</price>
+    <oldprice>3705</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1086</categoryId>
     <picture>https://catpaws.com.ua/content/images/28/sukhyi-korm-home-food-zdorova-shkira-ta-blysk-shersti-dlia-doroslykh-kotiv-indychka-ta-losos-healthy-skin-and-shiny-coat-10-kh-12616315965097_+ceaacf68af.jpg</picture>
@@ -452,7 +455,8 @@
    </offer>
    <offer id="734" available="true">
     <code>3068016</code><url>https://catpaws.com.ua/hipoalerhennyi-sukhyi-korm-home-food-dlia-sterylizovanykh-kastrovanykh-doroslykh-kotiv-morskyi-kokteil-hypoallergenic-for-sterilised-neutered-1.6-kh/</url>
-    <price>761.00</price>
+    <price>609.00</price>
+    <oldprice>761</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1086</categoryId>
     <picture>https://catpaws.com.ua/content/images/35/hipoalerhennyi-sukhyi-korm-home-food-dlia-sterylizovanykh-kastrovanykh-doroslykh-kotiv-morskyi-kokteil-hypoallergenic-for-sterilised-neutered-cats-1.6-kh-80973828184813_+cd610624e1.png</picture>
@@ -540,7 +544,8 @@
    </offer>
    <offer id="744" available="true">
     <code>3088100</code><url>https://catpaws.com.ua/sukhyi-korm-home-food-dlia-sterylizovanykh-kastrovanykh-doroslykh-kotiv-z-chutlyvym-travlenniam-yahniatyna-ta-losos-for-sterilised-neutered-with-sensitive-digestion-10-kh/</url>
-    <price>4229.00</price>
+    <price>3595.00</price>
+    <oldprice>4229</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1086</categoryId>
     <picture>https://catpaws.com.ua/content/images/45/sukhyi-korm-home-food-dlia-sterylizovanykh-kastrovanykh-doroslykh-kotiv-z-chutlyvym-travlenniam-yahniatyna-ta-losos-for-sterilised-neutered-with-sensitive-digestion-10-kh-50314777646262_+d09a8df0cd.png</picture>
@@ -3152,7 +3157,8 @@
    </offer>
    <offer id="2157" available="true">
     <code>018036</code><url>https://catpaws.com.ua/sukhyi-korm-dlia-doroslykh-kotiv-chicopee-cnl-cat-adult-sensible-lamb-hipoalerhennyi-15-kh/</url>
-    <price>870.00</price>
+    <price>609.00</price>
+    <oldprice>870</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1086</categoryId>
     <picture>https://catpaws.com.ua/content/images/8/94366935138596_+3718e2915b.jpeg</picture>
@@ -3185,7 +3191,8 @@
    </offer>
    <offer id="2162" available="true">
     <code>017947</code><url>https://catpaws.com.ua/sukhyi-korm-dlia-doroslykh-kotiv-chicopee-cnl-beauty-z-lososem-15-kh/</url>
-    <price>870.00</price>
+    <price>609.00</price>
+    <oldprice>870</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1086</categoryId>
     <picture>https://catpaws.com.ua/content/images/13/17574885562662_+e5c12ff1c7.jpeg</picture>
@@ -3196,7 +3203,8 @@
    </offer>
    <offer id="2164" available="true">
     <code>017978</code><url>https://catpaws.com.ua/sukhyi-korm-dlia-doroslykh-kotiv-chicopee-cnl-indoor-z-yalovychynoiu-15-kh/</url>
-    <price>870.00</price>
+    <price>609.00</price>
+    <oldprice>870</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1086</categoryId>
     <picture>https://catpaws.com.ua/content/images/15/69797021739858_+bb6b3ffb24.jpeg</picture>
@@ -3218,7 +3226,8 @@
    </offer>
    <offer id="2166" available="true">
     <code>020718</code><url>https://catpaws.com.ua/sukhyi-korm-chicopee-hnl-kitten-dlia-kosheniat-vahitnykh-abo-hoduiuchykh-kishok-8-kh/</url>
-    <price>4500.00</price>
+    <price>3150.00</price>
+    <oldprice>4500</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1086</categoryId>
     <picture>https://catpaws.com.ua/content/images/17/chicopee-hnl-kitten-45974571866637_+7e18b36f74.jpeg</picture>
@@ -3317,7 +3326,8 @@
    </offer>
    <offer id="2198" available="true">
     <code>015516</code><url>https://catpaws.com.ua/sukhyi-korm-dlia-tsutseniat-yahnia-ta-kartoplia-chicopee-hnl-puppy-lamb-potato-2-kh/</url>
-    <price>1350.00</price>
+    <price>1013.00</price>
+    <oldprice>1350</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1084</categoryId>
     <picture>https://catpaws.com.ua/content/images/49/suxoy-korm-dlja-shenkov-jagnenok-i-kartofel-chicopee-hnl-puppy-lamb-potato-2-kg-97778872839467_+68f5b7f945.png</picture>
@@ -3328,7 +3338,8 @@
    </offer>
    <offer id="2199" available="true">
     <code>015530</code><url>https://catpaws.com.ua/sukhyi-korm-dlia-tsutseniat-yahnia-ta-kartoplia-chicopee-hnl-puppy-lamb-potato-12-kh/</url>
-    <price>5400.00</price>
+    <price>4050.00</price>
+    <oldprice>5400</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1084</categoryId>
     <picture>https://catpaws.com.ua/content/images/50/suxoy-korm-dlja-shenkov-jagnenok-i-kartofel-chicopee-hnl-puppy-lamb-potato-12-kg-54015928282949_+491d8b3901.png</picture>
@@ -3339,7 +3350,8 @@
    </offer>
    <offer id="2200" available="true">
     <code>015592</code><url>https://catpaws.com.ua/sukhyi-korm-dlia-doroslykh-sobak-yahnia-ta-kartoplia-chicopee-hnl-adult-lamb-potato-2-kh/</url>
-    <price>1350.00</price>
+    <price>945.00</price>
+    <oldprice>1350</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1084</categoryId>
     <picture>https://catpaws.com.ua/content/images/1/suxoy-korm-dlja-vzroslyx-sobak-jagnenok-i-kartofel-chicopee-hnl-adult-lamb-potato-2-kg-79186578749214_+88e72e38dd.png</picture>
@@ -3460,7 +3472,8 @@
    </offer>
    <offer id="2212" available="true">
     <code>015110</code><url>https://catpaws.com.ua/sukhyi-korm-dlia-tsutseniat-vsikh-porid-yahnia-rys-chicopee-cnl-puppy-lamb-rice-2-kh/</url>
-    <price>930.00</price>
+    <price>651.00</price>
+    <oldprice>930</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1084</categoryId>
     <picture>https://catpaws.com.ua/content/images/13/suxoy-korm-dlja-shenkov-vsex-porod-jagnenok-ris-chicopee-cnl-puppy-lamb-rice-2-kg-58477855892785_+215851ffa7.png</picture>
@@ -3471,7 +3484,8 @@
    </offer>
    <offer id="2213" available="true">
     <code>015134</code><url>https://catpaws.com.ua/sukhyi-korm-dlia-tsutseniat-vsikh-porid-yahnia-rys-chicopee-cnl-puppy-lamb-rice-15-kh/</url>
-    <price>4500.00</price>
+    <price>3150.00</price>
+    <oldprice>4500</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1084</categoryId>
     <picture>https://catpaws.com.ua/content/images/14/suxoy-korm-dlja-shenkov-vsex-porod-jagnenok-ris-chicopee-cnl-puppy-lamb-rice-15-kg-30575609434372_+f7f61d405c.png</picture>
@@ -3504,7 +3518,8 @@
    </offer>
    <offer id="2216" available="true">
     <code>015318</code><url>https://catpaws.com.ua/sukhyi-korm-dlia-doroslykh-sobak-losos-rys-chicopee-cnl-adult-soft-salmon-rice-2-kh/</url>
-    <price>930.00</price>
+    <price>651.00</price>
+    <oldprice>930</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1084</categoryId>
     <picture>https://catpaws.com.ua/content/images/17/suxoy-korm-dlja-vzroslyx-sobak-losos-ris-chicopee-cnl-adult-soft-salmon-rice-2-kg-35300181945969_+b347e2ea60.png</picture>
@@ -3515,7 +3530,8 @@
    </offer>
    <offer id="2217" available="true">
     <code>015332</code><url>https://catpaws.com.ua/sukhyi-korm-dlia-doroslykh-sobak-losos-rys-chicopee-cnl-adult-soft-salmon-rice-15-kh/</url>
-    <price>4650.00</price>
+    <price>3953.00</price>
+    <oldprice>4650</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1084</categoryId>
     <picture>https://catpaws.com.ua/content/images/18/suxoy-korm-dlja-vzroslyx-sobak-losos-ris-chicopee-cnl-adult-soft-salmon-rice-15-kg-58755404218629_+d7bcfd892c.png</picture>
@@ -3537,7 +3553,8 @@
    </offer>
    <offer id="2220" available="true">
     <code>015196</code><url>https://catpaws.com.ua/sukhyi-korm-dlia-doroslykh-sobak-malykh-porid-yahnia-rys-chicopee-cnl-mini-adult-lamb-rice-2-kh/</url>
-    <price>930.00</price>
+    <price>651.00</price>
+    <oldprice>930</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1084</categoryId>
     <picture>https://catpaws.com.ua/content/images/21/sukhyi-korm-dlia-doroslykh-sobak-malykh-porid-yahnia-rys-chicopee-cnl-mini-adult-lamb-rice-2-kh-99776329203411_+b24c509e41.png</picture>
@@ -3559,7 +3576,8 @@
    </offer>
    <offer id="2222" available="true">
     <code>015394</code><url>https://catpaws.com.ua/sukhyi-korm-dlia-doroslykh-sobak-lait-yahnia-rys-chicopee-cnl-adult-light-lamb-rice-2-kh/</url>
-    <price>930.00</price>
+    <price>651.00</price>
+    <oldprice>930</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1084</categoryId>
     <picture>https://catpaws.com.ua/content/images/23/suxoy-korm-dlja-vzroslyx-sobak-layt-jagnenok-ris-chicopee-cnl-adult-light-lamb-rice-2-kg-84290526494878_+520589db19.png</picture>
@@ -3581,7 +3599,8 @@
    </offer>
    <offer id="2224" available="true">
     <code>015233</code><url>https://catpaws.com.ua/sukhyi-korm-dlia-doroslykh-sobak-yahnia-rys-chicopee-cnl-adult-lamb-rice-2-kh/</url>
-    <price>930.00</price>
+    <price>651.00</price>
+    <oldprice>930</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1084</categoryId>
     <picture>https://catpaws.com.ua/content/images/25/suxoy-korm-dlja-vzroslyx-sobak-jagnenok-ris-chicopee-cnl-adult-lamb-rice-2-kg-88098879948153_+254bca0d47.png</picture>
@@ -3647,7 +3666,8 @@
    </offer>
    <offer id="2232" available="true">
     <code>023078</code><url>https://catpaws.com.ua/smakolyky-dlia-sobak-chicopee-joint-bites-z-moliuskamy-ta-krevetkamy-dlia-pidtrymky-khriashchiv-ta-suhlobiv-350-h/</url>
-    <price>420.00</price>
+    <price>315.00</price>
+    <oldprice>420</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1088</categoryId>
     <picture>https://catpaws.com.ua/content/images/33/89519224543733_+bbf62963d5.jpeg</picture>
@@ -3655,17 +3675,6 @@
     <vendor>CHICOPEE</vendor>
     <name>Смаколики для собак Chicopee JOINT BITES з МОЛЮСКАМИ ТА КРЕВЕТКАМИ для підтримки хрящів та суглобів 350 г</name>
     <description>JOINT BITES лінійки Holistic Nature Line від Chicopee для активної підтримки хрящів та суглобів дорослої собаки. Апетитні кусочки, за регулярного вживання уповільнюють процес руйнування суглобових хрящів і покращують їхню здатність до регенерації. Завдяки своїй напіввологій консистенції ласощі швидко перетравлюються в шлунку та відмінно засвоюються. Рецепт з низьким вмістом жиру та важливами вітамінами группи А - для підтримки зору, D- міцних кісток та зубів, E - зміцнення імунної системи собаки   Склад: Зернові культури (серед іншого рис, 17%), м’ясо та субпродукти тваринного походження (серед іншого дегідратований білок птиці, 22%), продукти рослинного походження, молюски та ракоподібні сушені (зеленогубчаті мідії, 1%, креветки, 1%), овочі.  Хімічний склад: сирий протеїн-22,0%; сирий жир-2,5%; сира клітковина-1,5%; сира зола-4,6%, волога-28,0% Основні добавки: харчові добавки на 1 кг корму: Вітамін А-5000 МО, вітамін D3-500 МО, вітамін Е 40 мг, мідь (міді сульфат, пентагідрат) 12 мг.   Норми голування:      Вага собаки (кг)   Рекомендовані порції вказані на один день в шт.     2,5-15  1-6    15-30   6-10     30-60  10-18   </description>
-   </offer>
-   <offer id="2233" available="true">
-    <code>023061</code><url>https://catpaws.com.ua/smakolyky-dlia-sobak-chicopee-dental-sticks-z-kaltsiiem-dlia-pidtrymky-hihiieny-pashchi-300-h/</url>
-    <price>420.00</price>
-    <currencyId>UAH</currencyId>
-    <categoryId>1088</categoryId>
-    <picture>https://catpaws.com.ua/content/images/34/46533046572452_+05ec214ffe.jpeg</picture>
-    <vendorCode>023061</vendorCode>
-    <vendor>CHICOPEE</vendor>
-    <name>Смаколики для собак Chicopee DENTAL STICKS з КАЛЬЦІЄМ для підтримки гігієни пащі 300 г</name>
-    <description>DENTAL STICKS лінійки Holistic Nature Line від Chicopee для гігієни пащі та профілактики зубного каменю у собаки.    Апетитні палички, сприяють підтриманню зубів улюбленця в доброму стані.    У процесі жування усувають наліт, масажують ясна та видаляють залишки їжі.     За регулярного жування запобігають розвитку зубного каменю.    Евкаліптова олія та алое вера запобігає виникненню неприємного запаху з пащі собаки.    Яблука та гранат, які містять важливу клітковину, допоможуть підтримувати кишкову флору.    Беззерновий рецепт з низьким вмістом жиру.           Склад: Похідні рослинного походження (серед іншого 45% сушеної картоплі), мінерали, яблука (сушені, 0.3%), гранати (сушені, 0,3%), чорниця (сушена, 0,3%), кокосова олія (0,1%), алое вера (сушена, 0,05%)    Хімічний склад: сирий протеїн-3,0%; сирий жир-1%; сира клітковина-4,5%; сира зола-4,5%; кальцій-0,5%; фосфор-0,9%, волога-18,0%    Основні добавки: харчові добавки на 1 кг корму: ароматичні речовини (олія мяти перцевої 400 мг, олія евкаліптова 400мг).         Норми годування:                      Вага собаки (кг)               Рекомендовані порції вказані на один день в шт.                       5-15          0,5-1                  15-30               1-2                       30-60          2-4           </description>
    </offer>
    <offer id="2247" available="true">
     <code>50006796*5</code><url>https://catpaws.com.ua/sukhyi-korm-josidog-adult-sensitive-900-h5/</url>
@@ -4139,22 +4148,10 @@
     <name>Сухий корм для собак з чутливим травленням JOSERA SensiPlus Adult All Sizes 12,5 кг</name>
     <description>JOSERA SensiPlus особливо легкозасвоюваним дієтичним кормом для собак усіх порід. Завдяки добірним інгредієнтам цей повнораціонний корм підходить для всіх собак з чутливим травленням. Легкозасвоювані, високоякісні інгредієнти знижують навантаження на чутливу травну систему.    Смачний білок качки та рис роблять наш безглютеновий корм для собак з чутливим травленням поживним раціоном. Цінний біотин також сприяє здоровій шкірі та блискучій шерсті. Завдяки помірному вмісту енергії Josera SensiPlus чудово підходить для собак із нормальною активністю.       Німецька якість   Корм містить високоякісні, здорові та натуральні інгредієнти, які не є генетично модифікованими.   БЕЗ додавання консервантів, штучних барвників та ароматизаторів.   Сухий корм для собак Josera не випробовується на тваринах.   БЕЗ додавання пшениці, сої, цукру і молочних продуктів.      Повноцінний сухий корм для дорослих собак.        Легкоперетравний    Якість супер-преміум класу та ретельна обробка відбірних компонентів гарантують високу перетравність та забезпечують оптимальною щадною дієтою собак із чутливою травною системою.        Шкіра та шерсть    Блискуча шерсть, як і здорова шкіра, є знаком оптимального харчування Вашого собаки. Його забезпечують цінні жирні кислоти, вітаміни, а також цинк та мідь у легкозасвоюваній, органічно зв’язаній формі.        Помірний вміст енергії    Ця рецептура має помірний вміст жиру та особливо підходить для собак із нормальною активністю.    Складові: Білок домашньої птиці, сушений (домашня птиця 24,0 %, качка 4,0 %); Зерна кукурудзи; Рис; Жир домашньої птиці; Бурякова клітковина; Білок домашньої птиці, гідролізований; Мінерали; Корінь цикорію, мелений (природнє джерело інуліну).    Аналітичні складові: Протеїн 24,0 %; Жир 12,0 %; Сира клітковина 2,3 %; Сира зола 6,5 %; Кальцій 1,40 %; Фосфор 0,90 %; Натрій 0,40 %.    Харчові добавки в 1 кг: 22 600 М.О. Вітамін A; 1700 М.О. Вітамін D3; 200 мг Вітамін E; 15 мг Вітамін B1; 20 мг Вітамін B2; 20 мг Вітамін B6; 100 мкг Вітамін B12; 50 мг Кальцій-D-Пантотенат; 85 мг Ніацинамід; 5 мг Фолієва кислота (3a316); 950 мкг Біотин; 110 мг Залізо (сульфат (ІІ) заліза, моногідрат); 130 мг Цинк (Гліцин-хелат цинку-гідрат (твердий)); 9,00 мг Марганець (Марганець-(II)-оксид); 12,00 мг Мідь (Мідь (II)-гліцин-хелат-гідрат (твердий)); 1,40 мг Йод (Кальцію йодат, безводний); 0,10 мг Селен (Селеніт натрію).    Енергетична цінність: 15.3 Кдж/кг, 3660 Ккал/кг.    Технологічні добавки: Антиоксиданти: екстракти, що містять токоферол та є природного походження.    Рекомендації щодо годування (г день)                Вага собаки     Активність в день до 1 години     Активність в день до 3 годин             5 кг     85 г     100 г             10 кг     145 г     170 г             20 кг     245 г     285 г             30 кг     330 г     385 г             40 кг     410 г     475 г             60 кг     555 г     645 г             80 кг     690 г     800 г             Вказані норми є орієнтовними. Кількість корму залежить від індивідуальних потреб тварини. Забезпечте постійний доступ до свіжої води. При використанні ласощів або додаткового харчування кількість основного корму потрібно зменшити.  </description>
    </offer>
-   <offer id="2513" available="true">
-    <code>011111</code><url>https://catpaws.com.ua/kylymok-dvosharovyi-dlia-kotiachoho-lotka-40kh60-siryi/</url>
-    <price>540.00</price>
-    <currencyId>UAH</currencyId>
-    <categoryId>1119</categoryId>
-    <picture>https://catpaws.com.ua/content/images/14/kylymok-dvosharovyi-dlia-kotiachoho-lotka-40kh60-siryi-46486681027180_+9a46625bc8.jpg</picture>
-    <vendorCode>011111</vendorCode>
-    <vendor>CAT MAT </vendor>
-    <name>Килимок двошаровий для котячого лотка 40х60 - сірий</name>
-    <description>Двошаровий, гнучкий та довговічний гігієнічний килимок для котячого туалету та зони прийому їжі. Килимок складається з двох шарів, верхній шар виглядає у вигляді сітки, а нижній шар цільний з полотна. Завдяки такій конструкції, часточки наповнювача, бруду або їжі просипаються через верхній шар і залишаються на нижньому, що дозволяє забезпечити максимальну чистоту навколо котячого туалету чи зони прийому їжі домашніх вихованців. Переваги: • чистота в будинку, позбавляє необхідності постійно підмітати та мити підлогу навколо котячого туалету; • знижує витрати наповнювача (з килимка наповнювач легко перемістити назад в лоток); • еластичний, вологостійкий, легкий та міцний матеріал (ПВХ); • безпечний, відсутній різкий запах; • довгий час зберігає первинний вигляд і якість; • випускаються у різних кольорах.   Використання: Покладіть килимок поруч з котячим лотком. Частинки наповнювача прилиплого до лап кота, залишаться на килимку і будуть просипатися крізь верхній шар, при цьому залишаючись на нижньому. За необхідності, залишки наповнювача на килимку можна буде легко витрусити назад у лоток. По мірі забруднення килимок можна помити під проточною водою або витерти вологою серветкою. Також килимок можна використовувати в зоні прийому їжі домашніх вихованців Країна виробник : Туреччина</description>
-    <manufacturer_warranty>true</manufacturer_warranty>
-    <param name="Цвет">Сірий</param>
-   </offer>
    <offer id="2514" available="true">
     <code>011112</code><url>https://catpaws.com.ua/kylymok-dvosharovyi-dlia-kotiachoho-lotka-40kh60-chornyi/</url>
-    <price>480.00</price>
+    <price>360.00</price>
+    <oldprice>480</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1119</categoryId>
     <picture>https://catpaws.com.ua/content/images/15/kylymok-dvosharovyi-dlia-kotiachoho-lotka-40kh60-chornyi-31507143464526_+3a202f0a05.jpg</picture>
@@ -4165,22 +4162,10 @@
     <manufacturer_warranty>true</manufacturer_warranty>
     <param name="Цвет">Чорний</param>
    </offer>
-   <offer id="2515" available="true">
-    <code>011110</code><url>https://catpaws.com.ua/kylymok-dvosharovyi-dlia-kotiachoho-lotka-40kh60-synii/</url>
-    <price>540.00</price>
-    <currencyId>UAH</currencyId>
-    <categoryId>1119</categoryId>
-    <picture>https://catpaws.com.ua/content/images/16/kylymok-dvosharovyi-dlia-kotiachoho-lotka-40kh60-synii-40478252927496_+e357af7d11.jpg</picture>
-    <vendorCode>011110</vendorCode>
-    <vendor>CAT MAT </vendor>
-    <name>Килимок двошаровий для котячого лотка 40х60 - синій</name>
-    <description>Двошаровий, гнучкий та довговічний гігієнічний килимок для котячого туалету та зони прийому їжі. Килимок складається з двох шарів, верхній шар виглядає у вигляді сітки, а нижній шар цільний з полотна. Завдяки такій конструкції, часточки наповнювача, бруду або їжі просипаються через верхній шар і залишаються на нижньому, що дозволяє забезпечити максимальну чистоту навколо котячого туалету чи зони прийому їжі домашніх вихованців. Переваги: • чистота в будинку, позбавляє необхідності постійно підмітати та мити підлогу навколо котячого туалету; • знижує витрати наповнювача (з килимка наповнювач легко перемістити назад в лоток); • еластичний, вологостійкий, легкий та міцний матеріал (ПВХ); • безпечний, відсутній різкий запах; • довгий час зберігає первинний вигляд і якість; • випускаються у різних кольорах.   Використання: Покладіть килимок поруч з котячим лотком. Частинки наповнювача прилиплого до лап кота, залишаться на килимку і будуть просипатися крізь верхній шар, при цьому залишаючись на нижньому. За необхідності, залишки наповнювача на килимку можна буде легко витрусити назад у лоток. По мірі забруднення килимок можна помити під проточною водою або витерти вологою серветкою. Також килимок можна використовувати в зоні прийому їжі домашніх вихованців Країна виробник : Туреччина</description>
-    <manufacturer_warranty>true</manufacturer_warranty>
-    <param name="Цвет">Синій</param>
-   </offer>
    <offer id="2516" available="true">
     <code>011115</code><url>https://catpaws.com.ua/kylymok-dvosharovyi-dlia-kotiachoho-lotka-60kh80-siryi/</url>
-    <price>870.00</price>
+    <price>435.00</price>
+    <oldprice>870</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1119</categoryId>
     <picture>https://catpaws.com.ua/content/images/17/kylymok-dvosharovyi-dlia-kotiachoho-lotka-60kh80-siryi-35440263875812_+62fe4ea038.jpg</picture>
@@ -4241,7 +4226,8 @@
    </offer>
    <offer id="2684" available="true">
     <code>1017100</code><url>https://catpaws.com.ua/cukhyi-korm-home-food-zdorova-shkira-ta-blysk-shersti-dlia-doroslykh-sobak-malykh-porid-indychka-ta-losos-healthy-skin-and-shiny-coat-10-kh/</url>
-    <price>2938.00</price>
+    <price>2497.00</price>
+    <oldprice>2938</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1084</categoryId>
     <picture>https://catpaws.com.ua/content/images/35/sukhyi-korm-zdorova-shkira-ta-blysk-shersti-dlia-doroslykh-sobak-malykh-porid-indychka-ta-losos-healthy-skin-and-shiny-coat-10-kh-48368681795612_+e8e33617d7.png</picture>
@@ -4285,7 +4271,8 @@
    </offer>
    <offer id="2697" available="true">
     <code>1137016</code><url>https://catpaws.com.ua/bezzernovyi-hipoalerhennyi-sukhyi-korm-home-food-dlia-doroslykh-sobak-malykh-porid-kachka-ta-indychka-grain-free-hypoallergenic-16-kh/</url>
-    <price>593.00</price>
+    <price>474.00</price>
+    <oldprice>593</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1084</categoryId>
     <picture>https://catpaws.com.ua/content/images/48/bezzernovyi-hipoalerhennyi-sukhyi-korm-dlia-doroslykh-sobak-malykh-porid-kachka-ta-indychka-grain-free-hypoallergenic-16-kh-55316676756805_+7125ce4d96.png</picture>
@@ -4362,7 +4349,8 @@
    </offer>
    <offer id="2709" available="true">
     <code>1018330</code><url>https://catpaws.com.ua/sukhyi-korm-home-food-zdorova-shkira-ta-blysk-shersti-dlia-doroslykh-sobak-velykykh-porid-indychka-ta-losos-healthy-skin-and-shiny-coat-3-kh/</url>
-    <price>953.00</price>
+    <price>715.00</price>
+    <oldprice>953</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1084</categoryId>
     <picture>https://catpaws.com.ua/content/images/10/sukhyi-korm-home-food-zdorova-shkira-ta-blysk-shersti-dlia-doroslykh-sobak-velykykh-porid-indychka-ta-losos-healthy-skin-and-shiny-coat-3-kh-51186251310013_+693eea4adc.jpg</picture>
@@ -4384,7 +4372,8 @@
    </offer>
    <offer id="2723" available="true">
     <code>1138016</code><url>https://catpaws.com.ua/bezzernovyi-hipoalerhennyi-sukhyi-korm-home-food-dlia-doroslykh-sobak-serednikh-i-velykykh-porid-miaso-kachky-z-nutom-hypoallergenic-grain-free-16-kh/</url>
-    <price>580.00</price>
+    <price>464.00</price>
+    <oldprice>580</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1084</categoryId>
     <picture>https://catpaws.com.ua/content/images/24/bezzernovyi-hipoalerhennyi-sukhyi-korm-home-food-dlia-doroslykh-sobak-serednikh-i-velykykh-porid-miaso-kachky-z-nutom-hypoallergenic-grain-free-16-kh-15910492456154_+021618080b.jpg</picture>
@@ -4582,7 +4571,8 @@
    </offer>
    <offer id="2914" available="true">
     <code>024952</code><url>https://catpaws.com.ua/sukhyi-korm-dlia-doroslykh-sobak-kurka-ta-rys-chicopee-cnl-adult-soft-chicken-rice-2-kh/</url>
-    <price>930.00</price>
+    <price>651.00</price>
+    <oldprice>930</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1084</categoryId>
     <picture>https://catpaws.com.ua/content/images/15/sukhyi-korm-dlia-doroslykh-sobak-kurka-ta-rys-chicopee-cnl-adult-soft-chicken-rice-2-kh-36782315643700_+b5773484c0.png</picture>
@@ -4626,7 +4616,8 @@
    </offer>
    <offer id="2927" available="true">
     <code>3117000</code><url>https://catpaws.com.ua/cukhyi-korm-dlia-kosheniat-home-food-fresh-chicken-for-kittens-1-12-months-10-kh/</url>
-    <price>3705.00</price>
+    <price>3149.00</price>
+    <oldprice>3705</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1086</categoryId>
     <picture>https://catpaws.com.ua/content/images/28/cukhyi-korm-dlia-kosheniat-home-food-fresh-chicken-for-kittens-1-12-months-10-kh-94021921859014_+537d2e4a97.jpg</picture>
@@ -4670,7 +4661,8 @@
    </offer>
    <offer id="2939" available="true">
     <code>019149</code><url>https://catpaws.com.ua/konserva-dlia-tsutseniat-z-ptytseiu-ta-kachkoiu-chicopee-dog-junior-pure-chicken-duck-400-h6sht/</url>
-    <price>810.00</price>
+    <price>608.00</price>
+    <oldprice>810</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1085</categoryId>
     <picture>https://catpaws.com.ua/content/images/40/34088921979338_+8af4dbe6c6.jpg</picture>
@@ -6788,7 +6780,8 @@
    </offer>
    <offer id="3829" available="true">
     <code>378652</code><url>https://catpaws.com.ua/sukhyi-nyzkozernovyi-korm-homie-super-premium-z-lososem-dlia-doroslykh-sobak-375-kh/</url>
-    <price>978.00</price>
+    <price>734.00</price>
+    <oldprice>978</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1084</categoryId>
     <picture>https://catpaws.com.ua/content/images/30/sukhyi-nyzkozernovyi-korm-homie-super-premium-z-lososem-dlia-doroslykh-sobak-375-kh-31019319734305_+2b9590b338.jpg</picture>
@@ -6799,7 +6792,8 @@
    </offer>
    <offer id="3830" available="true">
     <code>378645</code><url>https://catpaws.com.ua/sukhyi-nyzkozernovyi-korm-homie-super-premium-z-lososem-dlia-doroslykh-sobak-12-kh/</url>
-    <price>2922.00</price>
+    <price>2338.00</price>
+    <oldprice>2922</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1084</categoryId>
     <picture>https://catpaws.com.ua/content/images/31/sukhyi-nyzkozernovyi-korm-homie-super-premium-z-lososem-dlia-doroslykh-sobak-12-kh-45279142956011_+75a3c7e7e2.jpg</picture>
@@ -6810,7 +6804,8 @@
    </offer>
    <offer id="3832" available="true">
     <code>378812</code><url>https://catpaws.com.ua/sukhyi-korm-homie-super-premium-z-kurkoiu-dlia-doroslykh-sobak-575-kh/</url>
-    <price>1218.00</price>
+    <price>914.00</price>
+    <oldprice>1218</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1084</categoryId>
     <picture>https://catpaws.com.ua/content/images/33/sukhyi-korm-homie-super-premium-z-kurkoiu-dlia-doroslykh-sobak-575-kh-72786377262805_+3498942a93.png</picture>
@@ -6832,7 +6827,8 @@
    </offer>
    <offer id="3835" available="true">
     <code>378058</code><url>https://catpaws.com.ua/sukhyi-korm-homie-premium-z-kurkoiu-dlia-doroslykh-sobak-575-kh/</url>
-    <price>1176.00</price>
+    <price>882.00</price>
+    <oldprice>1176</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1084</categoryId>
     <picture>https://catpaws.com.ua/content/images/36/sukhyi-korm-homie-premium-z-kurkoiu-dlia-doroslykh-sobak-575-kh-80715438440343_+d9749fb37f.png</picture>
@@ -6843,7 +6839,8 @@
    </offer>
    <offer id="3836" available="true">
     <code>378041</code><url>https://catpaws.com.ua/sukhyi-korm-homie-premium-z-kurkoiu-dlia-doroslykh-sobak-15-kh/</url>
-    <price>2898.00</price>
+    <price>2318.00</price>
+    <oldprice>2898</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1084</categoryId>
     <picture>https://catpaws.com.ua/content/images/37/sukhyi-korm-homie-premium-z-kurkoiu-dlia-doroslykh-sobak-15-kh-61986758498901_+d85fbbd5ec.png</picture>
@@ -6854,7 +6851,8 @@
    </offer>
    <offer id="3837" available="true">
     <code>378010</code><url>https://catpaws.com.ua/sukhyi-korm-homie-premium-z-kurkoiu-dlia-doroslykh-kotiv-275-kh/</url>
-    <price>654.00</price>
+    <price>491.00</price>
+    <oldprice>654</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1086</categoryId>
     <picture>https://catpaws.com.ua/content/images/38/sukhyi-korm-homie-premium-z-kurkoiu-dlia-doroslykh-kotiv-275-kh-66799725633162_+0e987a2731.jpeg</picture>
@@ -6865,7 +6863,8 @@
    </offer>
    <offer id="3838" available="true">
     <code>378003</code><url>https://catpaws.com.ua/sukhyi-korm-homie-premium-z-kurkoiu-dlia-doroslykh-kotiv-15-kh/</url>
-    <price>3306.00</price>
+    <price>2645.00</price>
+    <oldprice>3306</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1086</categoryId>
     <picture>https://catpaws.com.ua/content/images/39/sukhyi-korm-homie-premium-z-kurkoiu-dlia-doroslykh-kotiv-15-kh-48249799181321_+67dbeff0a7.png</picture>
@@ -6876,7 +6875,8 @@
    </offer>
    <offer id="3894" available="true">
     <code>378379</code><url>https://catpaws.com.ua/sukhyi-nyzkozernovyi-korm-homie-super-premium-z-kurkoiu-dlia-doroslykh-kotiv-375-kh/</url>
-    <price>1014.00</price>
+    <price>761.00</price>
+    <oldprice>1014</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1086</categoryId>
     <picture>https://catpaws.com.ua/content/images/45/sukhyi-nyzkozernovyi-korm-homie-super-premium-z-kurkoiu-dlia-doroslykh-kotiv-375-kh-26854978453295_+a4d3d2e98f.jpeg</picture>
@@ -6887,7 +6887,8 @@
    </offer>
    <offer id="3895" available="true">
     <code>378454</code><url>https://catpaws.com.ua/sukhyi-korm-homie-super-premium-z-lososem-dlia-doroslykh-kotiv-375-kh/</url>
-    <price>1002.00</price>
+    <price>752.00</price>
+    <oldprice>1002</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1086</categoryId>
     <picture>https://catpaws.com.ua/content/images/46/sukhyi-korm-homie-super-premium-z-lososem-dlia-doroslykh-kotiv-375-kh-56041348585505_+01847d5c21.jpeg</picture>
@@ -6898,7 +6899,8 @@
    </offer>
    <offer id="3896" available="true">
     <code>378492</code><url>https://catpaws.com.ua/sukhyi-korm-homie-super-premium-z-kurkoiu-dlia-doroslykh-kotiv-275-kh/</url>
-    <price>720.00</price>
+    <price>540.00</price>
+    <oldprice>720</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1086</categoryId>
     <picture>https://catpaws.com.ua/content/images/47/sukhyi-korm-homie-super-premium-z-kurkoiu-dlia-doroslykh-kotiv-275-kh-76529259068954_+6b277a070c.jpeg</picture>
@@ -6909,7 +6911,8 @@
    </offer>
    <offer id="3897" available="true">
     <code>378522</code><url>https://catpaws.com.ua/sukhyi-korm-homie-super-premium-z-kurkoiu-ta-riznokolorovymy-hranulamy-dlia-doroslykh-kotiv-15-kh/</url>
-    <price>3612.00</price>
+    <price>2890.00</price>
+    <oldprice>3612</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1086</categoryId>
     <picture>https://catpaws.com.ua/content/images/48/sukhyi-korm-homie-super-premium-z-kurkoiu-ta-riznokolorovymy-hranulamy-dlia-doroslykh-kotiv-15-kh-51808693748912_+18b0e6b357.jpeg</picture>
@@ -6942,7 +6945,8 @@
    </offer>
    <offer id="3900" available="true">
     <code>378362</code><url>https://catpaws.com.ua/sukhyi-nyzkozernovyi-korm-homie-super-premium-z-kurkoiu-dlia-doroslykh-kotiv-12-kh/</url>
-    <price>3060.00</price>
+    <price>2448.00</price>
+    <oldprice>3060</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1086</categoryId>
     <picture>https://catpaws.com.ua/content/images/1/sukhyi-nyzkozernovyi-korm-homie-super-premium-z-kurkoiu-dlia-doroslykh-kotiv-12-kh-17547340489672_+4b02640d9a.jpeg</picture>
@@ -6964,7 +6968,8 @@
    </offer>
    <offer id="3902" available="true">
     <code>378485</code><url>https://catpaws.com.ua/sukhyi-korm-homie-super-premium-z-kurkoiu-dlia-doroslykh-kotiv-15-kh/</url>
-    <price>3612.00</price>
+    <price>2890.00</price>
+    <oldprice>3612</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1086</categoryId>
     <picture>https://catpaws.com.ua/content/images/3/sukhyi-korm-homie-super-premium-z-kurkoiu-dlia-doroslykh-kotiv-15-kh-24357335678200_+14787d9cf8.jpeg</picture>
