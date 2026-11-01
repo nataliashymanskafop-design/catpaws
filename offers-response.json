@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T05:15:08Z",
+  "updatedAt": "2026-11-01T11:59:03Z",
   "total": 1668,
   "data": [
     {
@@ -35,11 +35,11 @@
       "price": 2746,
       "old_price": 3231,
       "availability": true,
-      "stock": 2,
+      "stock": 1,
       "warehouses": [
         {
           "id": "SUPPLIER",
-          "stock": 2
+          "stock": 1
         }
       ],
       "warranty_type": "no",
@@ -3002,12 +3002,12 @@
       "code": "NPSC47439",
       "price": 991,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 5,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 0
+          "stock": 5
         }
       ],
       "warranty_type": "no",
@@ -6811,11 +6811,11 @@
       "price": 713,
       "old_price": null,
       "availability": true,
-      "stock": 20,
+      "stock": 10,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 20
+          "stock": 10
         }
       ],
       "warranty_type": "no",
@@ -10535,11 +10535,11 @@
       "price": 758,
       "old_price": null,
       "availability": true,
-      "stock": 15,
+      "stock": 14,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 15
+          "stock": 14
         }
       ],
       "warranty_type": "no",
@@ -16107,11 +16107,11 @@
       "price": 451,
       "old_price": null,
       "availability": true,
-      "stock": 5,
+      "stock": 4,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 5
+          "stock": 4
         }
       ],
       "warranty_type": "no",
@@ -29435,11 +29435,11 @@
       "price": 2003,
       "old_price": null,
       "availability": true,
-      "stock": 20,
+      "stock": 14,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 20
+          "stock": 14
         }
       ],
       "warranty_type": "no",
