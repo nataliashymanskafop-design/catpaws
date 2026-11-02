@@ -2999,34 +2999,6 @@
       "manufacture": null
     },
     {
-      "code": "NPSC47439",
-      "price": 991,
-      "old_price": null,
-      "availability": false,
-      "stock": 0,
-      "warehouses": [
-        {
-          "id": "KORMAX",
-          "stock": 0
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
       "code": "NPSC47440",
       "price": 5874,
       "old_price": null,
@@ -4100,34 +4072,6 @@
         {
           "id": "KORMAX",
           "stock": 20
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "NPB46042",
-      "price": 7455,
-      "old_price": null,
-      "availability": false,
-      "stock": 0,
-      "warehouses": [
-        {
-          "id": "KORMAX",
-          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -5702,6 +5646,34 @@
       "warranty_period": 0,
       "max_pay_in_parts": 6,
       "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "50012164",
+      "price": 2925,
+      "old_price": null,
+      "availability": true,
+      "stock": 20,
+      "warehouses": [
+        {
+          "id": "TERRAVET",
+          "stock": 20
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 0,
       "delivery_methods": [
         {
           "method": "nova-post:branch",
@@ -30271,8 +30243,64 @@
       "manufacture": null
     },
     {
+      "code": "NPSC47439",
+      "price": 991,
+      "old_price": null,
+      "availability": false,
+      "stock": 0,
+      "warehouses": [
+        {
+          "id": "KORMAX",
+          "stock": 0
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
       "code": "041004",
       "price": 759,
+      "old_price": null,
+      "availability": false,
+      "stock": 0,
+      "warehouses": [
+        {
+          "id": "KORMAX",
+          "stock": 0
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "NPB46042",
+      "price": 7455,
       "old_price": null,
       "availability": false,
       "stock": 0,
@@ -30454,34 +30482,6 @@
       "warranty_period": 0,
       "max_pay_in_parts": 6,
       "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "50012164",
-      "price": 2925,
-      "old_price": null,
-      "availability": true,
-      "stock": 20,
-      "warehouses": [
-        {
-          "id": "TERRAVET",
-          "stock": 20
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
       "delivery_methods": [
         {
           "method": "nova-post:branch",
