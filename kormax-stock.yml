@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-11-02 10:03">
+<yml_catalog date="2026-11-02 20:43">
   <shop>
     <name>CatPaws Kormax stock</name>
     <company>CatPaws</company>
@@ -587,14 +587,14 @@
         <stock>40</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="KIK24632" available="true">
+      <offer id="KIK24632" available="false">
         <name>Вологий корм для дорослих собак всіх порід з ягнятиною Nature's Protection Adult Lamb 800г</name>
         <vendorCode>KIK24632</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>40</quantity_in_stock>
-        <stock>40</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="KIK24633" available="true">
         <name>Вологий корм для дорослих собак всіх порід з телятиною Nature's Protection Adult Veal 800г</name>
@@ -722,14 +722,14 @@
         <stock>40</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="KIK45096" available="true">
+      <offer id="KIK45096" available="false">
         <name>Вологий корм для дорослих собак малих порід з телятиною та качкою Nature's Protection Adult small breed Veal &amp; Duck 400г</name>
         <vendorCode>KIK45096</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>10</quantity_in_stock>
-        <stock>10</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="KIK45097" available="true">
         <name>Вологий корм для дорослих собак всіх порід з яловичиною та індичкою Nature's Protection Adult Beef&amp;Turkey 400г</name>
@@ -758,14 +758,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="KIK45515" available="true">
+      <offer id="KIK45515" available="false">
         <name>Мус для кошенят Nature's Protection Kitten Starter Mousse Chicken 200 г</name>
         <vendorCode>KIK45515</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="KIK45601" available="true">
         <name>Вологий корм для дорослих собак з індичкою Nature's Protection Nature’s Protection with Turkey 400 г</name>
@@ -830,14 +830,14 @@
         <stock>60</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="KIK45610" available="true">
+      <offer id="KIK45610" available="false">
         <name>Вологий корм для кошенят з яловичиною та серцем індички Nature's Protection Kitten with Beef &amp; Turkey hearts 400 г</name>
         <vendorCode>KIK45610</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="KIK45611" available="true">
         <name>Вологий корм для дорослих котів після стерилізації з куркою і качкою Nature's Protection with Chicken &amp; Duck 400 г</name>
@@ -929,14 +929,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="KIKNPSC47198" available="true">
+      <offer id="KIKNPSC47198" available="false">
         <name>Беззернові ласощі для молодих собак всіх порід з білим окрасом шерсті Nature's Protection Superior Care White Dogs Brain Development з лососем, 110г</name>
         <vendorCode>KIKNPSC47198</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>10</quantity_in_stock>
-        <stock>10</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="KIKNPSC47199" available="true">
         <name>Беззернові ласощі для дорослих собак всіх порід з білим окрасом шерсті Nature's Protection Superior Care White Dogs Hypoallergenic &amp; Digestive Care з лососем, 110г</name>
@@ -1681,8 +1681,8 @@
         <vendorCode>NPPR47918</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>40</quantity_in_stock>
-        <stock>40</stock>
+        <quantity_in_stock>39</quantity_in_stock>
+        <stock>39</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPPR47918_box" available="true">
@@ -1690,8 +1690,8 @@
         <vendorCode>NPPR47918_box</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
+        <quantity_in_stock>4</quantity_in_stock>
+        <stock>4</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPPR47920" available="true">
@@ -1699,8 +1699,8 @@
         <vendorCode>NPPR47920</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>60</quantity_in_stock>
-        <stock>60</stock>
+        <quantity_in_stock>59</quantity_in_stock>
+        <stock>59</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPPR47923" available="false">
@@ -1762,8 +1762,8 @@
         <vendorCode>NPPR47952</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>32</quantity_in_stock>
-        <stock>32</stock>
+        <quantity_in_stock>31</quantity_in_stock>
+        <stock>31</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPPR47952_box" available="true">
@@ -1771,8 +1771,8 @@
         <vendorCode>NPPR47952_box</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>4</quantity_in_stock>
-        <stock>4</stock>
+        <quantity_in_stock>3</quantity_in_stock>
+        <stock>3</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPPR47954" available="true">
@@ -2041,8 +2041,8 @@
         <vendorCode>NPS45742</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPS45744" available="false">
@@ -2378,14 +2378,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPS45781" available="true">
+      <offer id="NPS45781" available="false">
         <name>Сухий корм для літніх котів Nature's Protection Senior 400г</name>
         <vendorCode>NPS45781</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="NPS45782" available="true">
         <name>Сухий корм для літніх котів Nature's Protection Senior 2кг</name>
@@ -2986,8 +2986,8 @@
         <vendorCode>NPSC47646</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPSC47647" available="true">
@@ -3004,8 +3004,8 @@
         <vendorCode>NPSC47779</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPSC47780" available="false">
@@ -3022,8 +3022,8 @@
         <vendorCode>NPSC47781</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>19</quantity_in_stock>
+        <stock>19</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPSC47910" available="false">
@@ -3049,8 +3049,8 @@
         <vendorCode>NPSC47911</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>60</quantity_in_stock>
-        <stock>60</stock>
+        <quantity_in_stock>59</quantity_in_stock>
+        <stock>59</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPSC47911_box" available="true">
@@ -3058,8 +3058,8 @@
         <vendorCode>NPSC47911_box</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
+        <quantity_in_stock>4</quantity_in_stock>
+        <stock>4</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPSC47912-K2" available="false">
@@ -3494,14 +3494,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="TPL63396" available="true">
+      <offer id="TPL63396" available="false">
         <name>Рушник для домашніх тварин з мікрофібри Tauro Pro Line, grey 60*90 cм</name>
         <vendorCode>TPL63396</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="TPL63397" available="true">
         <name>Рушник для домашніх тварин з мікрофібри Tauro Pro Line, purple 60*90 cм</name>
@@ -4093,8 +4093,8 @@
         <vendorCode>UNINPSC63749</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>60</quantity_in_stock>
-        <stock>60</stock>
+        <quantity_in_stock>45</quantity_in_stock>
+        <stock>45</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="UNINPSC63750" available="false">
@@ -4120,8 +4120,8 @@
         <vendorCode>UNINPSC63751</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>120</quantity_in_stock>
-        <stock>120</stock>
+        <quantity_in_stock>107</quantity_in_stock>
+        <stock>107</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="UNINPSC63751_box" available="true">
@@ -4129,27 +4129,27 @@
         <vendorCode>UNINPSC63751_box</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
+        <quantity_in_stock>4</quantity_in_stock>
+        <stock>4</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="UNINPSC63930" available="true">
+      <offer id="UNINPSC63930" available="false">
         <name>Вологий корм Nature's Protection Superior Care для кошенят усіх порід, шматочки у соусі з тунцем та морським окунем, для підтримки імунної системи, 70 г</name>
         <vendorCode>UNINPSC63930</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>120</quantity_in_stock>
-        <stock>120</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
-      <offer id="UNINPSC63930_box" available="true">
+      <offer id="UNINPSC63930_box" available="false">
         <name>Вологий корм Nature's Protection Superior Care для кошенят усіх порід, шматочки у соусі з тунцем та морським окунем, для підтримки імунної системи, 70 г * 24 шт</name>
         <vendorCode>UNINPSC63930_box</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="UNINPSC63999" available="false">
         <name>NATURE'S PROTECTION SUPERIOR CARE White Dogs Adult All Breeds with Tuna and Salmon, вологий корм з тунцем та лососем для дорослих собак усіх порід з білою шерстю, 70 г у пакетику</name>
