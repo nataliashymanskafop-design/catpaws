@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-11-03 10:30">
+<yml_catalog date="2026-11-03 18:17">
   <shop>
     <name>CatPaws Kormax stock</name>
     <company>CatPaws</company>
@@ -2005,8 +2005,8 @@
         <vendorCode>NPS45738</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPS45739" available="true">
@@ -2707,8 +2707,8 @@
         <vendorCode>NPSC47231</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPSC47233" available="true">
@@ -3575,14 +3575,14 @@
         <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="TPL63585" available="true">
+      <offer id="TPL63585" available="false">
         <name>Шампунь для надання об'єму шерсті собак та котів TAURO PRO LINE Ultra Natural Care Volume Boost Shampoo, 3785 мл</name>
         <vendorCode>TPL63585</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="TPL63586" available="true">
         <name>Маска для надання об'єму шерсті собак і котів TAURO PRO LINE Ultra Natural Care Volume Boost Mask, 1000 мл</name>
