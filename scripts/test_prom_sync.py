@@ -37,6 +37,42 @@ class SyncTests(unittest.TestCase):
         self.assertEqual(item['oldprice'] - item['price'], 126)
         self.assertNotIn('discount', item)
 
+    def test_bavaro_task_supplier_sale_is_cleared_at_regular_price(self):
+        item = self.build(self.offer('1760', '2070'), sku='50005182')
+        self.assertEqual(item, {'id': 1, 'presence': 'available',
+                                'price': 2070, 'oldprice': 2070})
+
+    def test_bavaro_task_regular_price_keeps_updating(self):
+        item = self.build(self.offer('2199'), sku='50005182')
+        self.assertEqual((item['price'], item['oldprice']), (2199, 2199))
+
+    def test_bavaro_task_unavailable_clears_discount_without_repricing(self):
+        item = self.build(self.offer('1760', '2070', available='false'), sku='50005182')
+        self.assertEqual(item, {'id': 1, 'presence': 'not_available', 'discount': None})
+
+    def test_other_bavaro_promotions_remain_unchanged(self):
+        item = self.build(self.offer('1545', '1818'), sku='50005178')
+        self.assertEqual((item['price'], item['oldprice']), (1545, 1818))
+
+    def test_bavaro_task_readback_rejects_any_remaining_discount(self):
+        item = self.build(self.offer('1760', '2070'), sku='50005182')
+        product = {'price': 2070, 'presence': 'available', 'discount': None}
+        self.assertEqual(sync.state_mismatches(item, product), [])
+        for discount in ({'type': 'amount', 'value': 310}, {'type': 'percent', 'value': 15}):
+            self.assertEqual(sync.state_mismatches(item, {**product, 'discount': discount}),
+                             ['discount'])
+
+    @patch.object(sync.time, 'sleep')
+    def test_repeated_sync_does_not_restore_bavaro_task_promotion(self, sleep):
+        product = {'id': 1, 'sku': '50005182', 'price': 2070,
+                   'presence': 'available', 'discount': None}
+        with patch.object(sync, 'post_batch') as post, \
+                patch.object(sync, 'readback', return_value={'1': []}):
+            for _ in range(2):
+                item = self.build(self.offer('1760', '2070'), sku='50005182')
+                self.assertEqual(sync.send_updates([item], [product]), ([1], {}))
+            post.assert_not_called()
+
     def test_unavailable_clears_discount_without_repricing(self):
         self.assertEqual(self.build(self.offer(available='false')),
                          {'id': 1, 'presence': 'not_available', 'discount': None})

@@ -31,6 +31,9 @@ PROM_API_TOKEN = os.environ["PROM_API_TOKEN"]
 
 BATCH_SIZE = 50
 MIN_SOURCE_PRODUCTS = 2000
+# Natalia removed this promotion on Prom twice. Keep the supplier's regular
+# retail price, but never recreate its sale_price for this exact 18 kg SKU.
+NO_PROMOTION_SKUS = {"50005182"}  # BAVARO Task 23/9, 18 kg (2026-11-03).
 # Both cards were checked in the Prom cabinet on 2026-10-14: same feed SKU,
 # same JosiDog recipe and 2.7 kg pack. Unknown duplicate groups still stop.
 CONFIRMED_DUPLICATE_IDS = {
@@ -466,6 +469,13 @@ def build_updates(
         oldprice_text = get_text(horoshop_offer, "oldprice")
         oldprice = parse_price(oldprice_text)
         valid_price = price is not None and price > 0
+        if sku in NO_PROMOTION_SKUS and valid_price:
+            # apply_josera_source puts sale_price in price and the regular
+            # price in oldprice. Restore the regular price before clearing the
+            # Prom discount, rather than retaining a silently reduced price.
+            if oldprice is not None and oldprice > price:
+                price = oldprice
+            oldprice_text, oldprice = "", None
         has_discount = (
             valid_price and oldprice is not None and oldprice > price
         )
@@ -693,7 +703,7 @@ def readback(updates):
     for item in updates:
         product = products.get(str(item["id"]), {})
         code = normalize_code(product.get("sku"))
-        control = (code in {"653651", "5578", "018197", "7000008", "50014710", "50014710Р", "30001660_BOX", "50009044"}
+        control = (code in {"653651", "5578", "018197", "7000008", "50014710", "50014710Р", "30001660_BOX", "50009044", "50005182"}
                    or bool(re.fullmatch(r"\d+-\d+(?:-\d+)*", code)))
         if control or (states[str(item["id"])] and shown < 10):
             print("Readback detail:", {"sku": product.get("sku"), "expected": item,
