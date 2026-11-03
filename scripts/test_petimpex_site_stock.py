@@ -19,10 +19,10 @@ class PetimpexSiteAvailabilityTests(unittest.TestCase):
         etree.SubElement(offer, "vendor").text = vendor
         return offer
 
-    def build(self, own=None, supplier=None, prices=None):
+    def build(self, own=None, supplier=None, prices=None, public_catalog=None):
         with contextlib.redirect_stdout(io.StringIO()):
             root, _ = site.build_feed(self.catalog, own or {}, supplier or {},
-                                      prices or {})
+                                      prices or {}, public_catalog)
         return {o.get("id"): o for o in root.findall(".//offer")}
 
     def test_public_site_status_overrides_both_stale_xml_directions(self):
@@ -76,6 +76,31 @@ class PetimpexSiteAvailabilityTests(unittest.TestCase):
         rows = self.build(supplier={brand: 0 for brand in site.PETIMPEX_SITE_VENDORS})
         self.assertTrue(all(rows[brand].get("available") == "true"
                             for brand in site.PETIMPEX_SITE_VENDORS))
+
+    def public_petimpex_catalog(self):
+        root = etree.Element("offers")
+        for i in range(500):
+            offer = etree.SubElement(root, "offer", id=f"new-pet-{i}", available="true")
+            etree.SubElement(offer, "vendorCode").text = f"new-pet-{i}"
+            etree.SubElement(offer, "vendor").text = "MERA"
+        return root
+
+    def test_fresh_catalog_adds_petimpex_cards_and_preserves_other_suppliers(self):
+        self.add_offer("homefood", "HOME FOOD", available="false")
+        self.add_offer("old-pet", available="true")
+        public = self.public_petimpex_catalog()
+        other = etree.SubElement(public, "offer", id="other", available="true")
+        etree.SubElement(other, "vendorCode").text = "homefood"
+        etree.SubElement(other, "vendor").text = "HOME FOOD"
+        rows = self.build(supplier={"homefood": 8}, public_catalog=public)
+        self.assertEqual(rows["homefood"].findtext("quantity_in_stock"), "8")
+        self.assertEqual(rows["new-pet-0"].get("available"), "true")
+        self.assertEqual(len(rows), 501)
+        self.assertNotIn("old-pet", rows)
+
+    def test_incomplete_current_catalog_cannot_erase_previous_petimpex_cards(self):
+        with self.assertRaises(RuntimeError):
+            self.build(public_catalog=etree.Element("offers"))
 
 
 if __name__ == "__main__":

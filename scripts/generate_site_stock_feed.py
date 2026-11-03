@@ -39,6 +39,9 @@ PRESERVE_INQUIRY_STATUS_SKUS = {
 }
 PETIMPEX_XML_URL = "https://files.petimpex.com/shimanskay/Shimanskaya.xml.yml"
 PETIMPEX_STATE_FILE = "public/petimpex-stock-state.json"
+PETIMPEX_SITE_CATALOG_XML_URL = (
+    "https://catpaws.com.ua/content/export/662cd88f90355628d5b10786f126be34.xml"
+)
 # These public site brands are supplied by PETIMPEX. The November warehouse
 # workbook has already been applied in Horoshop. Preserve the site's confirmed
 # binary availability instead of restoring the older October supplier XML.
@@ -141,7 +144,8 @@ def resolve_quantity(sku, own_stock, supplier_stock):
     return None, "none"
 
 
-def build_feed(catalog_root, own_stock, supplier_stock, retail_prices=None):
+def build_feed(catalog_root, own_stock, supplier_stock, retail_prices=None,
+               petimpex_catalog_root=None):
     retail_prices = retail_prices or {}
     root = etree.Element(
         "yml_catalog",
@@ -156,6 +160,20 @@ def build_feed(catalog_root, own_stock, supplier_stock, retail_prices=None):
     source_counts = {"SUPPLIER": 0, "supplier": 0, "none": 0, "petimpex_site": 0}
 
     catalog_offers = catalog_root.xpath(".//offer")
+    if petimpex_catalog_root is not None:
+        # The current general YML includes PETIMPEX cards missing from the older
+        # export. Refresh only those public brands; retain every other supplier's
+        # original catalog rows and stock rules unchanged.
+        current_petimpex = [
+            offer for offer in petimpex_catalog_root.xpath(".//offer")
+            if clean(offer.findtext("vendor")).casefold() in PETIMPEX_SITE_VENDORS
+        ]
+        if len(current_petimpex) < 500:
+            raise RuntimeError("Current public PETIMPEX site catalog is incomplete")
+        catalog_offers = [
+            offer for offer in catalog_offers
+            if clean(offer.findtext("vendor")).casefold() not in PETIMPEX_SITE_VENDORS
+        ] + current_petimpex
     sku_counts = Counter(clean(item.findtext("vendorCode")) for item in catalog_offers)
     duplicate_skus = {sku for sku, count in sku_counts.items() if sku and count > 1}
     if duplicate_skus:
@@ -243,6 +261,7 @@ def petimpex_payload():
 def main():
     print("Downloading current CatPaws catalog...")
     catalog_root = etree.fromstring(download(CATALOG_XML_URL))
+    petimpex_catalog_root = etree.fromstring(download(PETIMPEX_SITE_CATALOG_XML_URL))
 
     own_stock = load_state(OWN_STOCK_STATE_FILE)
     supplier_stock = load_supplier_stock()
@@ -265,6 +284,7 @@ def main():
         own_stock,
         supplier_stock,
         retail_prices,
+        petimpex_catalog_root,
     )
 
     os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
