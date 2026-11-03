@@ -39,6 +39,13 @@ PRESERVE_INQUIRY_STATUS_SKUS = {
 }
 PETIMPEX_XML_URL = "https://files.petimpex.com/shimanskay/Shimanskaya.xml.yml"
 PETIMPEX_STATE_FILE = "public/petimpex-stock-state.json"
+# These public site brands are supplied by PETIMPEX. The November warehouse
+# workbook has already been applied in Horoshop. Preserve the site's confirmed
+# binary availability instead of restoring the older October supplier XML.
+PETIMPEX_SITE_VENDORS = {
+    "camon", "dolina noteci", "hyponic", "iv san bernard", "mera",
+    "maxi paws", "nuevo",
+}
 
 
 def load_petimpex_prices(payload, tracked_skus):
@@ -146,7 +153,7 @@ def build_feed(catalog_root, own_stock, supplier_stock, retail_prices=None):
     offers = etree.SubElement(shop, "offers")
 
     seen_skus = set()
-    source_counts = {"SUPPLIER": 0, "supplier": 0, "none": 0}
+    source_counts = {"SUPPLIER": 0, "supplier": 0, "none": 0, "petimpex_site": 0}
 
     catalog_offers = catalog_root.xpath(".//offer")
     sku_counts = Counter(clean(item.findtext("vendorCode")) for item in catalog_offers)
@@ -170,6 +177,7 @@ def build_feed(catalog_root, own_stock, supplier_stock, retail_prices=None):
         if is_modes_bowl(source_offer) or sku in PRESERVE_INQUIRY_STATUS_SKUS:
             continue
 
+        availability = None
         if sku in FORCE_ZERO_SKUS or sku in SITE_FORCE_ZERO_SKUS:
             # A stale catalog or stock state must not restore this product.
             quantity, source = 0, "none"
@@ -177,6 +185,15 @@ def build_feed(catalog_root, own_stock, supplier_stock, retail_prices=None):
             # З RAFI більше не працюємо. Товар залишається прихованим у
             # Horoshop, а фід додатково не дозволить повернути наявність.
             quantity, source = 0, "none"
+        elif vendor in PETIMPEX_SITE_VENDORS and own_stock.get(sku, 0) <= 0:
+            # Read only availability already published in the public site catalog.
+            # Do not upload a private warehouse snapshot or invent exact stock
+            # from the workbook's <10/>10 buckets. A missing flag preserves the
+            # manual site status by omitting the row.
+            published_available = source_offer.get("available")
+            if published_available in {"true", "false"}:
+                availability = published_available == "true"
+            quantity, source = None, "petimpex_site"
         else:
             quantity, source = resolve_quantity(
                 sku,
@@ -184,7 +201,7 @@ def build_feed(catalog_root, own_stock, supplier_stock, retail_prices=None):
                 supplier_stock,
             )
         source_counts[source] += 1
-        if quantity is None:
+        if quantity is None and availability is None:
             # Omit the entire row so Horoshop preserves its existing status.
             continue
 
@@ -192,11 +209,12 @@ def build_feed(catalog_root, own_stock, supplier_stock, retail_prices=None):
             offers,
             "offer",
             id=str(source_offer.findtext("vendorCode") or ""),
-            available="true" if quantity > 0 else "false",
+            available="true" if (availability if availability is not None else quantity > 0) else "false",
         )
         # Horoshop matches the literal article: keep internal spaces from its catalog.
         etree.SubElement(offer, "vendorCode").text = str(source_offer.findtext("vendorCode") or "")
-        etree.SubElement(offer, "quantity_in_stock").text = str(quantity)
+        if quantity is not None:
+            etree.SubElement(offer, "quantity_in_stock").text = str(quantity)
         if sku in retail_prices:
             etree.SubElement(offer, "price").text = normalize_price(retail_prices[sku])
             etree.SubElement(offer, "currencyId").text = "UAH"
