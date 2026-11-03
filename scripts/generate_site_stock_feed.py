@@ -206,10 +206,11 @@ def build_feed(catalog_root, own_stock, supplier_stock, retail_prices=None,
         elif vendor in PETIMPEX_SITE_VENDORS and own_stock.get(sku, 0) <= 0:
             # Read only availability already published in the public site catalog.
             # Do not upload a private warehouse snapshot or invent exact stock
-            # from the workbook's <10/>10 buckets. A missing flag preserves the
-            # manual site status by omitting the row.
+            # from the workbook's <10/>10 buckets. This Horoshop export writes
+            # available="" for out-of-stock cards. A missing attribute or an
+            # unknown status still preserves the manual site status.
             published_available = source_offer.get("available")
-            if published_available in {"true", "false"}:
+            if published_available in {"true", "false", ""}:
                 availability = published_available == "true"
             quantity, source = None, "petimpex_site"
         else:

@@ -70,6 +70,15 @@ class PetimpexSiteAvailabilityTests(unittest.TestCase):
         self.add_offer("unknown", available="inquiry")
         self.assertNotIn("unknown", self.build(supplier={"unknown": 9}))
 
+    def test_empty_horoshop_flag_is_explicitly_out_of_stock_but_missing_is_omitted(self):
+        self.add_offer("empty", available="")
+        missing = self.add_offer("missing")
+        del missing.attrib["available"]
+        rows = self.build(supplier={"empty": 20, "missing": 20})
+        self.assertEqual(rows["empty"].get("available"), "false")
+        self.assertIsNone(rows["empty"].find("quantity_in_stock"))
+        self.assertNotIn("missing", rows)
+
     def test_every_petimpex_public_brand_keeps_its_status(self):
         for brand in site.PETIMPEX_SITE_VENDORS:
             self.add_offer(brand, brand.upper(), available="true")
