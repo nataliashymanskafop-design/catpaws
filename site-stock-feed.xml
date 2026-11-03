@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-11-03 18:24">
+<yml_catalog date="2026-11-03 18:31">
   <shop>
     <offers>
       <offer id="1018100" available="true">
@@ -9282,6 +9282,1763 @@
       </offer>
       <offer id="A956/A" available="true">
         <vendorCode>A956/A</vendorCode>
+      </offer>
+      <offer id="5179" available="false">
+        <vendorCode>5179</vendorCode>
+      </offer>
+      <offer id="5544" available="false">
+        <vendorCode>5544</vendorCode>
+      </offer>
+      <offer id="5193" available="false">
+        <vendorCode>5193</vendorCode>
+      </offer>
+      <offer id="056750" available="false">
+        <vendorCode>056750</vendorCode>
+        <price>3906.24</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="023090" available="false">
+        <vendorCode>023090</vendorCode>
+        <price>2851.38</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="043790" available="false">
+        <vendorCode>043790</vendorCode>
+        <price>2807.7</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="043490" available="false">
+        <vendorCode>043490</vendorCode>
+        <price>2807.7</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="040890" available="false">
+        <vendorCode>040890</vendorCode>
+      </offer>
+      <offer id="044090" available="false">
+        <vendorCode>044090</vendorCode>
+        <price>2807.7</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="740197 - 1329" available="false">
+        <vendorCode>740197 - 1329</vendorCode>
+        <price>1483.44</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="740138 - 1220" available="false">
+        <vendorCode>740138 - 1220</vendorCode>
+        <price>521.34</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="DN 185 (410)" available="false">
+        <vendorCode>DN 185 (410)</vendorCode>
+        <price>162</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="DN 185 (794)_box" available="false">
+        <vendorCode>DN 185 (794)_box</vendorCode>
+      </offer>
+      <offer id="DN 185 (787)_box" available="false">
+        <vendorCode>DN 185 (787)_box</vendorCode>
+      </offer>
+      <offer id="DN 185 (770)-12" available="false">
+        <vendorCode>DN 185 (770)-12</vendorCode>
+      </offer>
+      <offer id="DN 185 (800)_box" available="false">
+        <vendorCode>DN 185 (800)_box</vendorCode>
+      </offer>
+      <offer id="DN 185 (817)_box" available="false">
+        <vendorCode>DN 185 (817)_box</vendorCode>
+      </offer>
+      <offer id="DN 400 (786)-12" available="false">
+        <vendorCode>DN 400 (786)-12</vendorCode>
+      </offer>
+      <offer id="DN 400 (288)-12" available="false">
+        <vendorCode>DN 400 (288)-12</vendorCode>
+      </offer>
+      <offer id="DN 400 (295)-12" available="false">
+        <vendorCode>DN 400 (295)-12</vendorCode>
+      </offer>
+      <offer id="DN 400 (731)-12" available="false">
+        <vendorCode>DN 400 (731)-12</vendorCode>
+      </offer>
+      <offer id="DN 400 (793)-12" available="false">
+        <vendorCode>DN 400 (793)-12</vendorCode>
+      </offer>
+      <offer id="DN 400 (318)-12" available="false">
+        <vendorCode>DN 400 (318)-12</vendorCode>
+      </offer>
+      <offer id="DN 400 (670)-12" available="false">
+        <vendorCode>DN 400 (670)-12</vendorCode>
+      </offer>
+      <offer id="DN 400 (809)-12" available="false">
+        <vendorCode>DN 400 (809)-12</vendorCode>
+      </offer>
+      <offer id="DN 400 (301)-12" available="false">
+        <vendorCode>DN 400 (301)-12</vendorCode>
+      </offer>
+      <offer id="DN 400 (325)-12" available="false">
+        <vendorCode>DN 400 (325)-12</vendorCode>
+      </offer>
+      <offer id="DN 400 (066)-12" available="false">
+        <vendorCode>DN 400 (066)-12</vendorCode>
+      </offer>
+      <offer id="DN 185 (458)_box" available="false">
+        <vendorCode>DN 185 (458)_box</vendorCode>
+      </offer>
+      <offer id="DN 185 (427)_box" available="false">
+        <vendorCode>DN 185 (427)_box</vendorCode>
+      </offer>
+      <offer id="DN 185 (434)_box" available="false">
+        <vendorCode>DN 185 (434)_box</vendorCode>
+      </offer>
+      <offer id="DN 185 (410)_box" available="false">
+        <vendorCode>DN 185 (410)_box</vendorCode>
+      </offer>
+      <offer id="DN 185 (465)-12" available="false">
+        <vendorCode>DN 185 (465)-12</vendorCode>
+      </offer>
+      <offer id="DN 185 (441)_box" available="false">
+        <vendorCode>DN 185 (441)_box</vendorCode>
+      </offer>
+      <offer id="DN 185 (472)_box" available="false">
+        <vendorCode>DN 185 (472)_box</vendorCode>
+      </offer>
+      <offer id="DN 185 (489)_box" available="false">
+        <vendorCode>DN 185 (489)_box</vendorCode>
+      </offer>
+      <offer id="DN 400 (555)-12" available="false">
+        <vendorCode>DN 400 (555)-12</vendorCode>
+      </offer>
+      <offer id="DN 400 (562)-12" available="false">
+        <vendorCode>DN 400 (562)-12</vendorCode>
+      </offer>
+      <offer id="DN 400 (397)-12" available="false">
+        <vendorCode>DN 400 (397)-12</vendorCode>
+      </offer>
+      <offer id="DN 400 (380)-12" available="false">
+        <vendorCode>DN 400 (380)-12</vendorCode>
+      </offer>
+      <offer id="DN 400 (403)-12" available="false">
+        <vendorCode>DN 400 (403)-12</vendorCode>
+      </offer>
+      <offer id="DN 185 (230)_box" available="false">
+        <vendorCode>DN 185 (230)_box</vendorCode>
+      </offer>
+      <offer id="DN 185 (254)_box" available="false">
+        <vendorCode>DN 185 (254)_box</vendorCode>
+      </offer>
+      <offer id="DN 400 (602)_box" available="false">
+        <vendorCode>DN 400 (602)_box</vendorCode>
+      </offer>
+      <offer id="DN 800 (596)_box" available="false">
+        <vendorCode>DN 800 (596)_box</vendorCode>
+      </offer>
+      <offer id="DN 400 (589)_box" available="false">
+        <vendorCode>DN 400 (589)_box</vendorCode>
+      </offer>
+      <offer id="DN 800 (572)_box" available="false">
+        <vendorCode>DN 800 (572)_box</vendorCode>
+      </offer>
+      <offer id="DN 400 (688)_box" available="false">
+        <vendorCode>DN 400 (688)_box</vendorCode>
+      </offer>
+      <offer id="DN 400 (664)_box" available="false">
+        <vendorCode>DN 400 (664)_box</vendorCode>
+      </offer>
+      <offer id="5117" available="false">
+        <vendorCode>5117</vendorCode>
+      </offer>
+      <offer id="4998" available="false">
+        <vendorCode>4998</vendorCode>
+      </offer>
+      <offer id="5216" available="false">
+        <vendorCode>5216</vendorCode>
+      </offer>
+      <offer id="4950" available="false">
+        <vendorCode>4950</vendorCode>
+      </offer>
+      <offer id="2163" available="false">
+        <vendorCode>2163</vendorCode>
+      </offer>
+      <offer id="1401" available="false">
+        <vendorCode>1401</vendorCode>
+      </offer>
+      <offer id="5407" available="false">
+        <vendorCode>5407</vendorCode>
+      </offer>
+      <offer id="5575" available="false">
+        <vendorCode>5575</vendorCode>
+      </offer>
+      <offer id="5421" available="false">
+        <vendorCode>5421</vendorCode>
+      </offer>
+      <offer id="1579" available="false">
+        <vendorCode>1579</vendorCode>
+      </offer>
+      <offer id="1500" available="false">
+        <vendorCode>1500</vendorCode>
+      </offer>
+      <offer id="1456" available="false">
+        <vendorCode>1456</vendorCode>
+      </offer>
+      <offer id="1463" available="false">
+        <vendorCode>1463</vendorCode>
+      </offer>
+      <offer id="1531" available="false">
+        <vendorCode>1531</vendorCode>
+      </offer>
+      <offer id="1548" available="false">
+        <vendorCode>1548</vendorCode>
+      </offer>
+      <offer id="1555" available="false">
+        <vendorCode>1555</vendorCode>
+      </offer>
+      <offer id="8423" available="false">
+        <vendorCode>8423</vendorCode>
+      </offer>
+      <offer id="7461" available="false">
+        <vendorCode>7461</vendorCode>
+      </offer>
+      <offer id="1098" available="false">
+        <vendorCode>1098</vendorCode>
+      </offer>
+      <offer id="9095" available="false">
+        <vendorCode>9095</vendorCode>
+      </offer>
+      <offer id="8951" available="false">
+        <vendorCode>8951</vendorCode>
+      </offer>
+      <offer id="8692" available="false">
+        <vendorCode>8692</vendorCode>
+      </offer>
+      <offer id="664" available="false">
+        <vendorCode>664</vendorCode>
+      </offer>
+      <offer id="8089" available="false">
+        <vendorCode>8089</vendorCode>
+      </offer>
+      <offer id="2187" available="false">
+        <vendorCode>2187</vendorCode>
+      </offer>
+      <offer id="8883" available="false">
+        <vendorCode>8883</vendorCode>
+      </offer>
+      <offer id="8456" available="false">
+        <vendorCode>8456</vendorCode>
+      </offer>
+      <offer id="8432" available="false">
+        <vendorCode>8432</vendorCode>
+      </offer>
+      <offer id="8470" available="false">
+        <vendorCode>8470</vendorCode>
+      </offer>
+      <offer id="5422" available="false">
+        <vendorCode>5422</vendorCode>
+      </offer>
+      <offer id="4721" available="false">
+        <vendorCode>4721</vendorCode>
+      </offer>
+      <offer id="5385" available="false">
+        <vendorCode>5385</vendorCode>
+      </offer>
+      <offer id="5392" available="false">
+        <vendorCode>5392</vendorCode>
+      </offer>
+      <offer id="5323" available="false">
+        <vendorCode>5323</vendorCode>
+      </offer>
+      <offer id="8676" available="false">
+        <vendorCode>8676</vendorCode>
+      </offer>
+      <offer id="8683" available="false">
+        <vendorCode>8683</vendorCode>
+      </offer>
+      <offer id="8690" available="false">
+        <vendorCode>8690</vendorCode>
+      </offer>
+      <offer id="5613" available="false">
+        <vendorCode>5613</vendorCode>
+      </offer>
+      <offer id="5590" available="false">
+        <vendorCode>5590</vendorCode>
+      </offer>
+      <offer id="5569" available="false">
+        <vendorCode>5569</vendorCode>
+      </offer>
+      <offer id="5606" available="false">
+        <vendorCode>5606</vendorCode>
+      </offer>
+      <offer id="5583" available="false">
+        <vendorCode>5583</vendorCode>
+      </offer>
+      <offer id="5576" available="false">
+        <vendorCode>5576</vendorCode>
+      </offer>
+      <offer id="5286" available="false">
+        <vendorCode>5286</vendorCode>
+      </offer>
+      <offer id="9132" available="false">
+        <vendorCode>9132</vendorCode>
+      </offer>
+      <offer id="4845 NVSHATT300" available="false">
+        <vendorCode>4845 NVSHATT300</vendorCode>
+        <price>654.24</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="4722 VSHGIN0300" available="false">
+        <vendorCode>4722 VSHGIN0300</vendorCode>
+        <price>453.06</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="4760 VSHMID0300" available="false">
+        <vendorCode>4760 VSHMID0300</vendorCode>
+      </offer>
+      <offer id="4746 VSHMAN0300" available="false">
+        <vendorCode>4746 VSHMAN0300</vendorCode>
+        <price>654.24</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="4807 NVBALERB5000" available="false">
+        <vendorCode>4807 NVBALERB5000</vendorCode>
+        <price>6228.78</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="4852 NVSHATT10000" available="false">
+        <vendorCode>4852 NVSHATT10000</vendorCode>
+        <price>6445.62</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="4630 NVSHMID10000" available="false">
+        <vendorCode>4630 NVSHMID10000</vendorCode>
+        <price>5870.7</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="4647 NVSHMAN10000" available="false">
+        <vendorCode>4647 NVSHMAN10000</vendorCode>
+        <price>6445.62</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="4851 BNSHAFRU10000" available="false">
+        <vendorCode>4851 BNSHAFRU10000</vendorCode>
+        <price>3580.86</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="0274 DERMSH1000" available="false">
+        <vendorCode>0274 DERMSH1000</vendorCode>
+        <price>3367.98</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="9798 NK101" available="false">
+        <vendorCode>9798 NK101</vendorCode>
+        <price>2640.24</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="1030 SIL" available="false">
+        <vendorCode>1030 SIL</vendorCode>
+        <price>1629.78</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="9712 NPURSHA1000" available="false">
+        <vendorCode>9712 NPURSHA1000</vendorCode>
+        <price>1776.9</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="2200 NPURSHA5000" available="false">
+        <vendorCode>2200 NPURSHA5000</vendorCode>
+        <price>7517.94</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="2117  LOZH0150" available="false">
+        <vendorCode>2117  LOZH0150</vendorCode>
+        <price>2299.5</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="9614 SHAH3000" available="false">
+        <vendorCode>9614 SHAH3000</vendorCode>
+        <price>4146.12</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="0781 SHAH0250" available="false">
+        <vendorCode>0781 SHAH0250</vendorCode>
+        <price>915.6</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="9591 SHAPLUS3000" available="false">
+        <vendorCode>9591 SHAPLUS3000</vendorCode>
+        <price>12221.46</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="0828 SHAPLUS0100" available="false">
+        <vendorCode>0828 SHAPLUS0100</vendorCode>
+        <price>619.44</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="1135 SHAPLUS1000" available="false">
+        <vendorCode>1135 SHAPLUS1000</vendorCode>
+        <price>5166.18</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="0213 NSHAZOL1000" available="false">
+        <vendorCode>0213 NSHAZOL1000</vendorCode>
+        <price>2456.4</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="9958 NSHAZOL250" available="false">
+        <vendorCode>9958 NSHAZOL250</vendorCode>
+        <price>1054.98</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="9676 GELSOS100" available="false">
+        <vendorCode>9676 GELSOS100</vendorCode>
+        <price>1533.06</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="9713 TONLAV300" available="false">
+        <vendorCode>9713 TONLAV300</vendorCode>
+        <price>1420.8</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="9690 TONLAV3000" available="false">
+        <vendorCode>9690 TONLAV3000</vendorCode>
+        <price>7099.86</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="9751 TONNUT300" available="false">
+        <vendorCode>9751 TONNUT300</vendorCode>
+        <price>1420.8</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="9737 TONNUT3000" available="false">
+        <vendorCode>9737 TONNUT3000</vendorCode>
+        <price>7099.86</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="9799 PELEXT300" available="false">
+        <vendorCode>9799 PELEXT300</vendorCode>
+        <price>1637.64</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="9775 PELEXT3000" available="false">
+        <vendorCode>9775 PELEXT3000</vendorCode>
+        <price>8737.32</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="9812 SERUMSK150" available="false">
+        <vendorCode>9812 SERUMSK150</vendorCode>
+        <price>1873.74</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="9836 SERUMSL150" available="false">
+        <vendorCode>9836 SERUMSL150</vendorCode>
+        <price>1533.06</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="1105 PHASE 1" available="false">
+        <vendorCode>1105 PHASE 1</vendorCode>
+        <price>2744.7</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="1136 PHASE 2" available="false">
+        <vendorCode>1136 PHASE 2</vendorCode>
+        <price>2744.7</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="1150 PHASE 4" available="false">
+        <vendorCode>1150 PHASE 4</vendorCode>
+        <price>1533.06</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="0129 SHACO3000" available="false">
+        <vendorCode>0129 SHACO3000</vendorCode>
+        <price>3588.6</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="0310 SHACHE3000" available="false">
+        <vendorCode>0310 SHACHE3000</vendorCode>
+        <price>3588.6</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="9970 NMASK02100" available="false">
+        <vendorCode>9970 NMASK02100</vendorCode>
+        <price>561.36</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="9963 NSHA01100" available="false">
+        <vendorCode>9963 NSHA01100</vendorCode>
+        <price>542.04</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="9996 NSHA01250" available="false">
+        <vendorCode>9996 NSHA01250</vendorCode>
+        <price>1176.9</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="0015 NSHA011000" available="false">
+        <vendorCode>0015 NSHA011000</vendorCode>
+        <price>3145.44</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="0046 NSHA013000" available="false">
+        <vendorCode>0046 NSHA013000</vendorCode>
+        <price>7430.76</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="0060 NMASK02250" available="false">
+        <vendorCode>0060 NMASK02250</vendorCode>
+        <price>1403.34</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="0084 NMASK021000" available="false">
+        <vendorCode>0084 NMASK021000</vendorCode>
+        <price>3371.88</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="0107 NMASK023000" available="false">
+        <vendorCode>0107 NMASK023000</vendorCode>
+        <price>8145.06</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="9638 MOU04300" available="false">
+        <vendorCode>9638 MOU04300</vendorCode>
+        <price>1533.06</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="617// KITCOLL" available="false">
+        <vendorCode>617// KITCOLL</vendorCode>
+        <price>3720.3</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="8066 ZEOTHERMASK" available="false">
+        <vendorCode>8066 ZEOTHERMASK</vendorCode>
+        <price>3031.2</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="8059 ZEOTHERMSH" available="false">
+        <vendorCode>8059 ZEOTHERMSH</vendorCode>
+        <price>2605.44</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="6655 /10604" available="false">
+        <vendorCode>6655 /10604</vendorCode>
+        <price>260.04</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="6617 / 1883933" available="false">
+        <vendorCode>6617 / 1883933</vendorCode>
+        <price>481.5</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="6624/ 1883950" available="false">
+        <vendorCode>6624/ 1883950</vendorCode>
+        <price>481.5</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="4210800" available="false">
+        <vendorCode>4210800</vendorCode>
+        <price>722.22</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="7577 POMP02" available="false">
+        <vendorCode>7577 POMP02</vendorCode>
+        <price>481.5</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="7584 POMPBIG" available="false">
+        <vendorCode>7584 POMPBIG</vendorCode>
+        <price>481.5</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="6716 POMPE" available="false">
+        <vendorCode>6716 POMPE</vendorCode>
+        <price>481.5</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="0151030//0535" available="false">
+        <vendorCode>0151030//0535</vendorCode>
+        <price>2888.82</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="6686 / 31204134" available="false">
+        <vendorCode>6686 / 31204134</vendorCode>
+        <price>568.14</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="1358 ACCAP/S" available="false">
+        <vendorCode>1358 ACCAP/S</vendorCode>
+        <price>1608.12</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="841// 6600578/ROSA" available="false">
+        <vendorCode>841// 6600578/ROSA</vendorCode>
+        <price>722.22</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="198//6600626/SWAN" available="false">
+        <vendorCode>198//6600626/SWAN</vendorCode>
+        <price>722.22</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="204//6600626/KISS" available="false">
+        <vendorCode>204//6600626/KISS</vendorCode>
+        <price>722.22</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="181//6600626/FAN" available="false">
+        <vendorCode>181//6600626/FAN</vendorCode>
+        <price>722.22</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="12982" available="false">
+        <vendorCode>12982</vendorCode>
+        <price>13567.74</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="15660" available="false">
+        <vendorCode>15660</vendorCode>
+        <price>22927.44</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="15661" available="false">
+        <vendorCode>15661</vendorCode>
+        <price>22927.44</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="FA 35-85//9507" available="false">
+        <vendorCode>FA 35-85//9507</vendorCode>
+        <price>14675.16</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="12978" available="false">
+        <vendorCode>12978</vendorCode>
+        <price>12999.6</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="12980" available="false">
+        <vendorCode>12980</vendorCode>
+        <price>13567.74</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="SK2W-85//9569" available="false">
+        <vendorCode>SK2W-85//9569</vendorCode>
+        <price>13760.34</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="12985" available="false">
+        <vendorCode>12985</vendorCode>
+        <price>13567.74</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="12966" available="false">
+        <vendorCode>12966</vendorCode>
+        <price>5623.56</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="12988" available="false">
+        <vendorCode>12988</vendorCode>
+        <price>10438.2</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="12977" available="false">
+        <vendorCode>12977</vendorCode>
+        <price>11478.18</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="15654" available="false">
+        <vendorCode>15654</vendorCode>
+        <price>16514.34</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="15655" available="false">
+        <vendorCode>15655</vendorCode>
+        <price>16966.92</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="15656" available="false">
+        <vendorCode>15656</vendorCode>
+        <price>17881.68</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="15657" available="false">
+        <vendorCode>15657</vendorCode>
+        <price>19258.68</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="S0021" available="false">
+        <vendorCode>S0021</vendorCode>
+        <price>4342.86</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="ST0010" available="false">
+        <vendorCode>ST0010</vendorCode>
+        <price>6509.46</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="12983" available="false">
+        <vendorCode>12983</vendorCode>
+        <price>17178.78</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="12993" available="false">
+        <vendorCode>12993</vendorCode>
+        <price>12518.16</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="15659" available="false">
+        <vendorCode>15659</vendorCode>
+        <price>20183.1</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="15658" available="false">
+        <vendorCode>15658</vendorCode>
+        <price>20183.1</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="642//1050-09" available="false">
+        <vendorCode>642//1050-09</vendorCode>
+        <price>1757.4</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="659//1051-09" available="false">
+        <vendorCode>659//1051-09</vendorCode>
+        <price>1629</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="666//1052-09" available="false">
+        <vendorCode>666//1052-09</vendorCode>
+        <price>1380.24</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="673//1053-09" available="false">
+        <vendorCode>673//1053-09</vendorCode>
+        <price>1251.84</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="598//1578-09" available="false">
+        <vendorCode>598//1578-09</vendorCode>
+        <price>1508.64</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="574//1510-09" available="false">
+        <vendorCode>574//1510-09</vendorCode>
+        <price>1251.84</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="581//6171-09" available="false">
+        <vendorCode>581//6171-09</vendorCode>
+        <price>1508.64</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="567//1575-09" available="false">
+        <vendorCode>567//1575-09</vendorCode>
+        <price>1629</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="550//5171-09" available="false">
+        <vendorCode>550//5171-09</vendorCode>
+        <price>1251.84</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="H1CD3AL0500HYKNN" available="false">
+        <vendorCode>H1CD3AL0500HYKNN</vendorCode>
+        <price>2296.44</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="H1SH2VL0100HYKNN" available="false">
+        <vendorCode>H1SH2VL0100HYKNN</vendorCode>
+        <price>493.32</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="H1SH1VL0500HYKNN" available="false">
+        <vendorCode>H1SH1VL0500HYKNN</vendorCode>
+        <price>1442.1</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="H2SH1AL0300NOKNN" available="false">
+        <vendorCode>H2SH1AL0300NOKNN</vendorCode>
+        <price>1068.9</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="H1SH1AL0010HYKNN" available="false">
+        <vendorCode>H1SH1AL0010HYKNN</vendorCode>
+        <price>46.02</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="H1CD4VL1500HYKNN" available="false">
+        <vendorCode>H1CD4VL1500HYKNN</vendorCode>
+        <price>2806.68</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="H3YP0BT0500ZZKNN" available="false">
+        <vendorCode>H3YP0BT0500ZZKNN</vendorCode>
+        <price>255.18</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="H1YP0TW0000ZZKNN" available="false">
+        <vendorCode>H1YP0TW0000ZZKNN</vendorCode>
+        <price>2636.64</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="H4PD0ZZ0000ZZKNN" available="false">
+        <vendorCode>H4PD0ZZ0000ZZKNN</vendorCode>
+        <price>4241.28</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="H3YP0SP0300ZZKNN" available="false">
+        <vendorCode>H3YP0SP0300ZZKNN</vendorCode>
+        <price>816.54</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="H3YP0BT0700ZZKNN" available="false">
+        <vendorCode>H3YP0BT0700ZZKNN</vendorCode>
+        <price>816.54</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="H3DO1AL3800OCKNN" available="false">
+        <vendorCode>H3DO1AL3800OCKNN</vendorCode>
+        <price>2968.86</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="H3DO1AL3800GLKNN" available="false">
+        <vendorCode>H3DO1AL3800GLKNN</vendorCode>
+        <price>2968.86</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="H3RM1TS0030NOKNN" available="false">
+        <vendorCode>H3RM1TS0030NOKNN</vendorCode>
+        <price>391.32</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="H1MS1MX0006MNKNS" available="false">
+        <vendorCode>H1MS1MX0006MNKNS</vendorCode>
+        <price>1445.88</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="H1FS2MX0008STKNS" available="false">
+        <vendorCode>H1FS2MX0008STKNS</vendorCode>
+        <price>2415.48</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="H1FS3MX0007STKNS" available="false">
+        <vendorCode>H1FS3MX0007STKNS</vendorCode>
+        <price>3021</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="Набір 5230+5018-1" available="false">
+        <vendorCode>Набір 5230+5018-1</vendorCode>
+      </offer>
+      <offer id="Набір 5339+5094-1" available="false">
+        <vendorCode>Набір 5339+5094-1</vendorCode>
+      </offer>
+      <offer id="Набір 5056+5292-1" available="false">
+        <vendorCode>Набір 5056+5292-1</vendorCode>
+      </offer>
+      <offer id="Набір 5254+5032 -1" available="false">
+        <vendorCode>Набір 5254+5032 -1</vendorCode>
+      </offer>
+      <offer id="Набір 5070+5315-1" available="false">
+        <vendorCode>Набір 5070+5315-1</vendorCode>
+      </offer>
+      <offer id="Набір 8265+8579-1" available="false">
+        <vendorCode>Набір 8265+8579-1</vendorCode>
+      </offer>
+      <offer id="Набір 8869+8937-1" available="false">
+        <vendorCode>Набір 8869+8937-1</vendorCode>
+      </offer>
+      <offer id="Набір 8289+8593-1" available="false">
+        <vendorCode>Набір 8289+8593-1</vendorCode>
+      </offer>
+      <offer id="Набір 8302+8616-1" available="false">
+        <vendorCode>Набір 8302+8616-1</vendorCode>
+      </offer>
+      <offer id="Набір 8340+8630-1" available="false">
+        <vendorCode>Набір 8340+8630-1</vendorCode>
+      </offer>
+      <offer id="Набір 8326+8807-1" available="false">
+        <vendorCode>Набір 8326+8807-1</vendorCode>
+      </offer>
+      <offer id="95114" available="false">
+        <vendorCode>95114</vendorCode>
+      </offer>
+      <offer id="95114-6" available="false">
+        <vendorCode>95114-6</vendorCode>
+      </offer>
+      <offer id="95108" available="false">
+        <vendorCode>95108</vendorCode>
+      </offer>
+      <offer id="95108-6" available="false">
+        <vendorCode>95108-6</vendorCode>
+      </offer>
+      <offer id="95102" available="false">
+        <vendorCode>95102</vendorCode>
+      </offer>
+      <offer id="95102-6" available="false">
+        <vendorCode>95102-6</vendorCode>
+      </offer>
+      <offer id="95111-6" available="false">
+        <vendorCode>95111-6</vendorCode>
+      </offer>
+      <offer id="95200-16" available="false">
+        <vendorCode>95200-16</vendorCode>
+      </offer>
+      <offer id="95208-16" available="false">
+        <vendorCode>95208-16</vendorCode>
+      </offer>
+      <offer id="95206-16" available="false">
+        <vendorCode>95206-16</vendorCode>
+      </offer>
+      <offer id="95207-16" available="false">
+        <vendorCode>95207-16</vendorCode>
+      </offer>
+      <offer id="95205-16" available="false">
+        <vendorCode>95205-16</vendorCode>
+      </offer>
+      <offer id="95202-16" available="false">
+        <vendorCode>95202-16</vendorCode>
+      </offer>
+      <offer id="95201-16" available="false">
+        <vendorCode>95201-16</vendorCode>
+      </offer>
+      <offer id="95204-16" available="false">
+        <vendorCode>95204-16</vendorCode>
+      </offer>
+      <offer id="95203-16" available="false">
+        <vendorCode>95203-16</vendorCode>
+      </offer>
+      <offer id="95014" available="false">
+        <vendorCode>95014</vendorCode>
+      </offer>
+      <offer id="95014-6" available="false">
+        <vendorCode>95014-6</vendorCode>
+      </offer>
+      <offer id="95011" available="false">
+        <vendorCode>95011</vendorCode>
+      </offer>
+      <offer id="95011-6" available="false">
+        <vendorCode>95011-6</vendorCode>
+      </offer>
+      <offer id="95017" available="false">
+        <vendorCode>95017</vendorCode>
+      </offer>
+      <offer id="95017-6" available="false">
+        <vendorCode>95017-6</vendorCode>
+      </offer>
+      <offer id="95001" available="false">
+        <vendorCode>95001</vendorCode>
+      </offer>
+      <offer id="95001-6" available="false">
+        <vendorCode>95001-6</vendorCode>
+      </offer>
+      <offer id="95004" available="false">
+        <vendorCode>95004</vendorCode>
+      </offer>
+      <offer id="95004-6" available="false">
+        <vendorCode>95004-6</vendorCode>
+      </offer>
+      <offer id="95016" available="false">
+        <vendorCode>95016</vendorCode>
+      </offer>
+      <offer id="95016-6" available="false">
+        <vendorCode>95016-6</vendorCode>
+      </offer>
+      <offer id="95160-6" available="false">
+        <vendorCode>95160-6</vendorCode>
+      </offer>
+      <offer id="95151" available="false">
+        <vendorCode>95151</vendorCode>
+      </offer>
+      <offer id="95151-6" available="false">
+        <vendorCode>95151-6</vendorCode>
+      </offer>
+      <offer id="L077" available="false">
+        <vendorCode>L077</vendorCode>
+        <price>361.98</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="C030/1" available="false">
+        <vendorCode>C030/1</vendorCode>
+        <price>174.66</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="B905" available="false">
+        <vendorCode>B905</vendorCode>
+        <price>166.74</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="B729/A" available="false">
+        <vendorCode>B729/A</vendorCode>
+        <price>298.5</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AC005/G" available="false">
+        <vendorCode>AC005/G</vendorCode>
+        <price>630.3</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="B852/E" available="false">
+        <vendorCode>B852/E</vendorCode>
+        <price>727.14</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="G133/A" available="false">
+        <vendorCode>G133/A</vendorCode>
+        <price>374.7</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="B904" available="false">
+        <vendorCode>B904</vendorCode>
+        <price>179.46</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="B331" available="false">
+        <vendorCode>B331</vendorCode>
+        <price>743.04</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="B852/F" available="false">
+        <vendorCode>B852/F</vendorCode>
+        <price>779.52</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="B338" available="false">
+        <vendorCode>B338</vendorCode>
+        <price>928.8</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="G133/B" available="false">
+        <vendorCode>G133/B</vendorCode>
+        <price>496.98</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AD053" available="false">
+        <vendorCode>AD053</vendorCode>
+        <price>374.7</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="H101/A" available="false">
+        <vendorCode>H101/A</vendorCode>
+        <price>125.46</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AD057/G" available="false">
+        <vendorCode>AD057/G</vendorCode>
+        <price>335.04</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AD533" available="false">
+        <vendorCode>AD533</vendorCode>
+        <price>238.14</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AD065/C" available="false">
+        <vendorCode>AD065/C</vendorCode>
+        <price>249.3</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AG0108" available="false">
+        <vendorCode>AG0108</vendorCode>
+        <price>131.82</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AD045/B" available="false">
+        <vendorCode>AD045/B</vendorCode>
+        <price>279.42</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AD534" available="false">
+        <vendorCode>AD534</vendorCode>
+        <price>228.66</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AD112/C" available="false">
+        <vendorCode>AD112/C</vendorCode>
+        <price>241.32</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="B720/A" available="false">
+        <vendorCode>B720/A</vendorCode>
+        <price>635.04</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AD0540" available="false">
+        <vendorCode>AD0540</vendorCode>
+        <price>976.44</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="B720/B" available="false">
+        <vendorCode>B720/B</vendorCode>
+        <price>725.58</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AG0389" available="false">
+        <vendorCode>AG0389</vendorCode>
+        <price>100.08</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AH4167" available="false">
+        <vendorCode>AH4167</vendorCode>
+        <price>549.36</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AG013/B" available="false">
+        <vendorCode>AG013/B</vendorCode>
+        <price>114.36</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AD0501" available="false">
+        <vendorCode>AD0501</vendorCode>
+        <price>325.5</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AH4177" available="false">
+        <vendorCode>AH4177</vendorCode>
+        <price>422.34</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AD0819" available="false">
+        <vendorCode>AD0819</vendorCode>
+        <price>427.08</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AD059/A" available="false">
+        <vendorCode>AD059/A</vendorCode>
+        <price>131.82</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AD057/F" available="false">
+        <vendorCode>AD057/F</vendorCode>
+        <price>463.62</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="B523/U" available="false">
+        <vendorCode>B523/U</vendorCode>
+        <price>215.94</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AD065/A" available="false">
+        <vendorCode>AD065/A</vendorCode>
+        <price>112.74</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AD0543" available="false">
+        <vendorCode>AD0543</vendorCode>
+        <price>1124.04</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="B523/O" available="false">
+        <vendorCode>B523/O</vendorCode>
+        <price>212.76</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AD705" available="false">
+        <vendorCode>AD705</vendorCode>
+        <price>627.12</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="B720/C" available="false">
+        <vendorCode>B720/C</vendorCode>
+        <price>520.74</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AD701" available="false">
+        <vendorCode>AD701</vendorCode>
+        <price>252.48</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="B523/L" available="false">
+        <vendorCode>B523/L</vendorCode>
+        <price>39.72</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="B189/C" available="false">
+        <vendorCode>B189/C</vendorCode>
+        <price>455.7</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="B152" available="false">
+        <vendorCode>B152</vendorCode>
+        <price>487.44</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="B150/B" available="false">
+        <vendorCode>B150/B</vendorCode>
+        <price>300.12</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="B523/N" available="false">
+        <vendorCode>B523/N</vendorCode>
+        <price>201.66</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="B523/P" available="false">
+        <vendorCode>B523/P</vendorCode>
+        <price>249.3</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AF240" available="false">
+        <vendorCode>AF240</vendorCode>
+        <price>115.92</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AE805" available="false">
+        <vendorCode>AE805</vendorCode>
+        <price>123.84</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="L075/A" available="false">
+        <vendorCode>L075/A</vendorCode>
+        <price>212.76</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="B125" available="false">
+        <vendorCode>B125</vendorCode>
+        <price>135</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="B812" available="false">
+        <vendorCode>B812</vendorCode>
+        <price>90.54</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="B921" available="false">
+        <vendorCode>B921</vendorCode>
+        <price>201.66</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="B189/E" available="false">
+        <vendorCode>B189/E</vendorCode>
+        <price>273.12</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="B189/D" available="false">
+        <vendorCode>B189/D</vendorCode>
+        <price>274.68</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="C034/1" available="false">
+        <vendorCode>C034/1</vendorCode>
+        <price>214.38</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="B811/B" available="false">
+        <vendorCode>B811/B</vendorCode>
+        <price>52.44</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="B920" available="false">
+        <vendorCode>B920</vendorCode>
+        <price>168.3</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AH4006" available="false">
+        <vendorCode>AH4006</vendorCode>
+        <price>292.14</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="H300" available="false">
+        <vendorCode>H300</vendorCode>
+      </offer>
+      <offer id="AC005/C" available="false">
+        <vendorCode>AC005/C</vendorCode>
+        <price>406.44</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AG043" available="false">
+        <vendorCode>AG043</vendorCode>
+        <price>136.56</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AG129" available="false">
+        <vendorCode>AG129</vendorCode>
+        <price>146.1</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="CW205" available="false">
+        <vendorCode>CW205</vendorCode>
+        <price>408.06</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AH052" available="false">
+        <vendorCode>AH052</vendorCode>
+        <price>306.48</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="H330/B" available="false">
+        <vendorCode>H330/B</vendorCode>
+      </offer>
+      <offer id="AD117/A" available="false">
+        <vendorCode>AD117/A</vendorCode>
+        <price>265.2</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="CW217" available="false">
+        <vendorCode>CW217</vendorCode>
+        <price>616.02</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AH043" available="false">
+        <vendorCode>AH043</vendorCode>
+        <price>215.94</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AG120" available="false">
+        <vendorCode>AG120</vendorCode>
+        <price>233.4</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AD0723" available="false">
+        <vendorCode>AD0723</vendorCode>
+        <price>196.92</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AD053/N" available="false">
+        <vendorCode>AD053/N</vendorCode>
+        <price>165.12</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AG109" available="false">
+        <vendorCode>AG109</vendorCode>
+        <price>101.64</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AD0500" available="false">
+        <vendorCode>AD0500</vendorCode>
+        <price>312.78</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AE332" available="false">
+        <vendorCode>AE332</vendorCode>
+        <price>150.84</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AD057/D" available="false">
+        <vendorCode>AD057/D</vendorCode>
+        <price>274.68</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AD056/B" available="false">
+        <vendorCode>AD056/B</vendorCode>
+        <price>147.66</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AD112/A" available="false">
+        <vendorCode>AD112/A</vendorCode>
+        <price>166.74</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AH012" available="false">
+        <vendorCode>AH012</vendorCode>
+        <price>185.82</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AG031" available="false">
+        <vendorCode>AG031</vendorCode>
+        <price>166.74</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="B150/A" available="false">
+        <vendorCode>B150/A</vendorCode>
+        <price>242.94</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AE365/A" available="false">
+        <vendorCode>AE365/A</vendorCode>
+        <price>274.68</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AD0542" available="false">
+        <vendorCode>AD0542</vendorCode>
+        <price>974.82</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AH4166" available="false">
+        <vendorCode>AH4166</vendorCode>
+        <price>549.36</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AH452" available="false">
+        <vendorCode>AH452</vendorCode>
+        <price>169.92</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AD0535" available="false">
+        <vendorCode>AD0535</vendorCode>
+        <price>555.66</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AH038" available="false">
+        <vendorCode>AH038</vendorCode>
+        <price>363.6</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AH408/A" available="false">
+        <vendorCode>AH408/A</vendorCode>
+        <price>465.18</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="C0271" available="false">
+        <vendorCode>C0271</vendorCode>
+        <price>287.4</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AD702" available="false">
+        <vendorCode>AD702</vendorCode>
+        <price>290.58</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AG0368" available="false">
+        <vendorCode>AG0368</vendorCode>
+        <price>109.56</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AD112/B" available="false">
+        <vendorCode>AD112/B</vendorCode>
+        <price>192.12</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AH232" available="false">
+        <vendorCode>AH232</vendorCode>
+        <price>262.02</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AD520/A" available="false">
+        <vendorCode>AD520/A</vendorCode>
+        <price>187.38</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AH450" available="false">
+        <vendorCode>AH450</vendorCode>
+        <price>212.76</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="B521/5" available="false">
+        <vendorCode>B521/5</vendorCode>
+        <price>154.08</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AH433" available="false">
+        <vendorCode>AH433</vendorCode>
+        <price>489</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AD703" available="false">
+        <vendorCode>AD703</vendorCode>
+        <price>315.96</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AG008/D" available="false">
+        <vendorCode>AG008/D</vendorCode>
+        <price>30.18</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="B521/2" available="false">
+        <vendorCode>B521/2</vendorCode>
+        <price>154.08</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AH013" available="false">
+        <vendorCode>AH013</vendorCode>
+        <price>228.66</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AE730" available="false">
+        <vendorCode>AE730</vendorCode>
+        <price>138.18</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AD116" available="false">
+        <vendorCode>AD116</vendorCode>
+        <price>158.82</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AD528" available="false">
+        <vendorCode>AD528</vendorCode>
+        <price>158.82</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AG102" available="false">
+        <vendorCode>AG102</vendorCode>
+        <price>157.2</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AH037" available="false">
+        <vendorCode>AH037</vendorCode>
+        <price>430.26</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AG100" available="false">
+        <vendorCode>AG100</vendorCode>
+        <price>138.18</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AD700/C" available="false">
+        <vendorCode>AD700/C</vendorCode>
+        <price>557.28</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AH4171" available="false">
+        <vendorCode>AH4171</vendorCode>
+        <price>339.78</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AD531" available="false">
+        <vendorCode>AD531</vendorCode>
+        <price>252.48</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AG030" available="false">
+        <vendorCode>AG030</vendorCode>
+        <price>82.62</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AD520/B" available="false">
+        <vendorCode>AD520/B</vendorCode>
+        <price>276.24</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AD530" available="false">
+        <vendorCode>AD530</vendorCode>
+        <price>161.94</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AH4162" available="false">
+        <vendorCode>AH4162</vendorCode>
+        <price>403.26</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AH4176" available="false">
+        <vendorCode>AH4176</vendorCode>
+        <price>422.34</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AH4178" available="false">
+        <vendorCode>AH4178</vendorCode>
+        <price>342.96</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AD045/A" available="false">
+        <vendorCode>AD045/A</vendorCode>
+        <price>231.84</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AE132" available="false">
+        <vendorCode>AE132</vendorCode>
+        <price>266.76</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AD0432" available="false">
+        <vendorCode>AD0432</vendorCode>
+        <price>104.82</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AH040" available="false">
+        <vendorCode>AH040</vendorCode>
+        <price>195.3</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AH4179" available="false">
+        <vendorCode>AH4179</vendorCode>
+        <price>355.68</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AH313" available="false">
+        <vendorCode>AH313</vendorCode>
+        <price>114.36</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AG115" available="false">
+        <vendorCode>AG115</vendorCode>
+        <price>115.92</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AE512" available="false">
+        <vendorCode>AE512</vendorCode>
+        <price>136.56</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AH4026" available="false">
+        <vendorCode>AH4026</vendorCode>
+        <price>425.52</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AD700/B" available="false">
+        <vendorCode>AD700/B</vendorCode>
+        <price>447.72</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="B521/3" available="false">
+        <vendorCode>B521/3</vendorCode>
+        <price>154.08</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AD0533" available="false">
+        <vendorCode>AD0533</vendorCode>
+        <price>555.66</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AG008/C" available="false">
+        <vendorCode>AG008/C</vendorCode>
+        <price>27.06</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AH4120" available="false">
+        <vendorCode>AH4120</vendorCode>
+        <price>165.12</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AH4170" available="false">
+        <vendorCode>AH4170</vendorCode>
+        <price>325.5</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AD520/C" available="false">
+        <vendorCode>AD520/C</vendorCode>
+        <price>396.9</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AH4029" available="false">
+        <vendorCode>AH4029</vendorCode>
+        <price>430.26</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AH031" available="false">
+        <vendorCode>AH031</vendorCode>
+        <price>384.24</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AG029/D" available="false">
+        <vendorCode>AG029/D</vendorCode>
+        <price>190.56</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AD112/D" available="false">
+        <vendorCode>AD112/D</vendorCode>
+        <price>257.22</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AH4138" available="false">
+        <vendorCode>AH4138</vendorCode>
+        <price>255.66</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AH4169" available="false">
+        <vendorCode>AH4169</vendorCode>
+        <price>446.16</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="A958" available="false">
+        <vendorCode>A958</vendorCode>
+        <price>212.76</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AD0847" available="false">
+        <vendorCode>AD0847</vendorCode>
+        <price>273.12</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AH4174" available="false">
+        <vendorCode>AH4174</vendorCode>
+        <price>469.92</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AH2014" available="false">
+        <vendorCode>AH2014</vendorCode>
+        <price>268.32</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AH4180" available="false">
+        <vendorCode>AH4180</vendorCode>
+        <price>404.88</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AH451" available="false">
+        <vendorCode>AH451</vendorCode>
+        <price>227.1</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AD009/A" available="false">
+        <vendorCode>AD009/A</vendorCode>
+        <price>195.3</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AH233" available="false">
+        <vendorCode>AH233</vendorCode>
+        <price>208.02</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="B521/4" available="false">
+        <vendorCode>B521/4</vendorCode>
+        <price>154.08</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AD0468" available="false">
+        <vendorCode>AD0468</vendorCode>
+        <price>195.3</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AE905" available="false">
+        <vendorCode>AE905</vendorCode>
+        <price>195.3</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AH4161" available="false">
+        <vendorCode>AH4161</vendorCode>
+        <price>446.16</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AH4172" available="false">
+        <vendorCode>AH4172</vendorCode>
+        <price>333.42</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AD700/A" available="false">
+        <vendorCode>AD700/A</vendorCode>
+        <price>357.24</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AD529" available="false">
+        <vendorCode>AD529</vendorCode>
+        <price>233.4</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="C031/L" available="false">
+        <vendorCode>C031/L</vendorCode>
+        <price>255.66</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AH449" available="false">
+        <vendorCode>AH449</vendorCode>
+        <price>204.84</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AD0469" available="false">
+        <vendorCode>AD0469</vendorCode>
+        <price>195.3</price>
+        <currencyId>UAH</currencyId>
+      </offer>
+      <offer id="AE705" available="false">
+        <vendorCode>AE705</vendorCode>
+      </offer>
+      <offer id="AE366/A" available="false">
+        <vendorCode>AE366/A</vendorCode>
+      </offer>
+      <offer id="AE384/C" available="false">
+        <vendorCode>AE384/C</vendorCode>
+      </offer>
+      <offer id="AE502" available="false">
+        <vendorCode>AE502</vendorCode>
+      </offer>
+      <offer id="AE560" available="false">
+        <vendorCode>AE560</vendorCode>
+      </offer>
+      <offer id="AE380" available="false">
+        <vendorCode>AE380</vendorCode>
+      </offer>
+      <offer id="H101/E" available="false">
+        <vendorCode>H101/E</vendorCode>
+      </offer>
+      <offer id="A956/B" available="false">
+        <vendorCode>A956/B</vendorCode>
       </offer>
     </offers>
   </shop>
