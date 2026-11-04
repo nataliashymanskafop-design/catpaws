@@ -1,6 +1,7 @@
 import json
 import os
 from datetime import timedelta
+from decimal import Decimal, InvalidOperation
 
 from lxml import etree
 
@@ -16,6 +17,29 @@ TERRAVET_SOURCES = (
     ("MODES", "https://media.modes.ua/feeds/ModesDnipro.xml"),
 )
 
+# Shop-created sets contain three identical single-tablet MODES packages.
+# Only these explicit codes are bundles; a generic '-3' suffix is not enough.
+QUADROMIDAS_BASE_SKUS = (
+    "ЗС000339", "ЗС000340", "ЗС000341", "ЗС000342",
+    "ЗС000383", "ЗС000404", "ЗС000405", "ЗС000406",
+)
+QUADROMIDAS_PACK_SIZE = 3
+
+
+def quadromidas_bundles(stock, unit_prices):
+    quantities = {}
+    prices = {}
+    for base in QUADROMIDAS_BASE_SKUS:
+        bundle = f"{base}-3"
+        quantities[bundle] = parse_quantity(stock.get(base, 0)) // QUADROMIDAS_PACK_SIZE
+        try:
+            price = Decimal(str(unit_prices.get(base)))
+        except (InvalidOperation, ValueError):
+            continue
+        if price.is_finite() and price > 0:
+            prices[bundle] = float(price * QUADROMIDAS_PACK_SIZE)
+    return quantities, prices
+
 
 def clean(value):
     return " ".join(str(value or "").split())
@@ -30,11 +54,12 @@ def parse_quantity(value):
         return 0
 
 
-def load_source(source_name, url):
+def load_source(source_name, url, bundle_prices=None):
     print(f"Downloading {source_name} stock...")
     root = etree.fromstring(download(url))
     stock = {}
     duplicates = set()
+    unit_prices = {}
 
     for offer in root.xpath(".//offer"):
         sku = clean(offer.findtext("vendorCode"))
@@ -51,9 +76,19 @@ def load_source(source_name, url):
             quantity = max(stock[sku], quantity)
 
         stock[sku] = quantity
+        if source_name == "MODES" and sku in QUADROMIDAS_BASE_SKUS:
+            unit_prices[sku] = offer.findtext("price")
 
     if len(stock) < MIN_PRODUCTS:
         raise RuntimeError(f"{source_name} stock feed incomplete: {len(stock)} products")
+    if source_name == "MODES":
+        quantities, prices = quadromidas_bundles(stock, unit_prices)
+        conflicts = set(stock) & set(quantities)
+        if conflicts:
+            raise RuntimeError(f"MODES source now contains shop bundle SKUs: {sorted(conflicts)}")
+        stock.update(quantities)
+        if bundle_prices is not None:
+            bundle_prices.update(prices)
     return stock, duplicates
 
 
@@ -68,11 +103,13 @@ def main():
     published_stock = {}
     duplicate_skus = set()
     source_counts = {}
+    quadromidas_prices = {}
 
     for source_name, url in TERRAVET_SOURCES:
         source_stock, source_duplicates = load_source(
             source_name,
             url,
+            quadromidas_prices,
         )
         source_counts[source_name] = len(source_stock)
         duplicate_skus.update(source_duplicates)
@@ -105,6 +142,7 @@ def main():
     source_counts["JOSERA"] = len(josera_stock)
     retail_prices = {code: row["price"] for code, row in rows.items()
                      if row["price"] is not None}
+    retail_prices.update(quadromidas_prices)
     sale_prices = {code: row["sale_price"] for code, row in rows.items()
                    if row.get("sale_price") is not None}
     josera_state = {

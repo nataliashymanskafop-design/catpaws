@@ -17,6 +17,7 @@ on:
       - scripts/generate_josera_crm_stock.py
       - data/josera-purchase-prices.json
       - scripts/test_josera_stock.py
+      - scripts/test_quadromidas_stock.py
       - .github/workflows/update-feed.yml
   workflow_dispatch:
   schedule:
@@ -175,6 +176,9 @@ jobs:
       - name: Test Josera unit and bundle mappings
         run: python -m unittest discover -s scripts -p test_josera_stock.py
 
+      - name: Test Quadromidas three-tablet bundles
+        run: python -m unittest discover -s scripts -p test_quadromidas_stock.py
+
       - name: Generate TERRAVET stock feed
         continue-on-error: true
         env:
@@ -240,4 +244,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+
 
