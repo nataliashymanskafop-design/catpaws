@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T10:44:04Z",
+  "updatedAt": "2026-11-04T12:03:05Z",
   "total": 1664,
   "data": [
     {
@@ -1155,11 +1155,11 @@
       "price": 758,
       "old_price": null,
       "availability": true,
-      "stock": 17,
+      "stock": 15,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 17
+          "stock": 15
         }
       ],
       "warranty_type": "no",
@@ -1267,11 +1267,11 @@
       "price": 781,
       "old_price": null,
       "availability": true,
-      "stock": 16,
+      "stock": 15,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 16
+          "stock": 15
         }
       ],
       "warranty_type": "no",
@@ -9779,11 +9779,11 @@
       "price": 384,
       "old_price": null,
       "availability": true,
-      "stock": 32,
+      "stock": 31,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 32
+          "stock": 31
         }
       ],
       "warranty_type": "no",
