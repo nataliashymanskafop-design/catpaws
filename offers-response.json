@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-04T12:03:05Z",
-  "total": 1664,
+  "updatedAt": "2026-11-04T12:11:44Z",
+  "total": 1672,
   "data": [
     {
       "code": "1018100",
@@ -23555,11 +23555,11 @@
       "price": 557,
       "old_price": null,
       "availability": true,
-      "stock": 26,
+      "stock": 25,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 26
+          "stock": 25
         }
       ],
       "warranty_type": "no",
@@ -23583,11 +23583,11 @@
       "price": 564,
       "old_price": null,
       "availability": true,
-      "stock": 32,
+      "stock": 31,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 32
+          "stock": 31
         }
       ],
       "warranty_type": "no",
@@ -23639,11 +23639,11 @@
       "price": 544,
       "old_price": null,
       "availability": true,
-      "stock": 8,
+      "stock": 6,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 8
+          "stock": 6
         }
       ],
       "warranty_type": "no",
@@ -31764,6 +31764,230 @@
         {
           "id": "SUPPLIER",
           "stock": 1
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "ЗС000339-3",
+      "price": 534,
+      "old_price": null,
+      "availability": true,
+      "stock": 16,
+      "warehouses": [
+        {
+          "id": "TERRAVET",
+          "stock": 16
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "ЗС000340-3",
+      "price": 570,
+      "old_price": null,
+      "availability": true,
+      "stock": 16,
+      "warehouses": [
+        {
+          "id": "TERRAVET",
+          "stock": 16
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "ЗС000341-3",
+      "price": 693,
+      "old_price": null,
+      "availability": true,
+      "stock": 16,
+      "warehouses": [
+        {
+          "id": "TERRAVET",
+          "stock": 16
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "ЗС000342-3",
+      "price": 792,
+      "old_price": null,
+      "availability": true,
+      "stock": 16,
+      "warehouses": [
+        {
+          "id": "TERRAVET",
+          "stock": 16
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "ЗС000383-3",
+      "price": 1269,
+      "old_price": null,
+      "availability": true,
+      "stock": 16,
+      "warehouses": [
+        {
+          "id": "TERRAVET",
+          "stock": 16
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "ЗС000404-3",
+      "price": 423,
+      "old_price": null,
+      "availability": true,
+      "stock": 16,
+      "warehouses": [
+        {
+          "id": "TERRAVET",
+          "stock": 16
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "ЗС000405-3",
+      "price": 504,
+      "old_price": null,
+      "availability": true,
+      "stock": 16,
+      "warehouses": [
+        {
+          "id": "TERRAVET",
+          "stock": 16
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "ЗС000406-3",
+      "price": 630,
+      "old_price": null,
+      "availability": true,
+      "stock": 16,
+      "warehouses": [
+        {
+          "id": "TERRAVET",
+          "stock": 16
         }
       ],
       "warranty_type": "no",
