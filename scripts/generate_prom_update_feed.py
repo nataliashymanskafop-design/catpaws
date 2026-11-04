@@ -704,10 +704,17 @@ def readback(updates):
         product = products.get(str(item["id"]), {})
         code = normalize_code(product.get("sku"))
         control = (code in {"653651", "5578", "018197", "7000008", "50014710", "50014710Р", "30001660_BOX", "50009044", "50005182"}
+                   or code.split("*", 1)[0] in {"50009045", "50009211", "50012991", "50009209", "50012493"}
+                   or "homie" in clean(product.get("name")).casefold()
                    or bool(re.fullmatch(r"\d+-\d+(?:-\d+)*", code)))
         if control or (states[str(item["id"])] and shown < 10):
             print("Readback detail:", {"sku": product.get("sku"), "expected": item,
                   "actual": {key: product.get(key) for key in ("id", "price", "presence", "discount")}})
+            if "homie" in clean(product.get("name")).casefold():
+                gift_fields = [key for key, value in product.items()
+                               if re.search(r"подар|gift", json.dumps(value, ensure_ascii=False), re.IGNORECASE)]
+                print("Homie gift content audit:", {"sku": product.get("sku"),
+                      "id": product.get("id"), "gift_mentions_in_fields": gift_fields})
             shown += 1
     return states
 
@@ -858,6 +865,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 

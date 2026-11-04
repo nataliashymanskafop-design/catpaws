@@ -8,12 +8,12 @@ class JoseraTests(unittest.TestCase):
     def supplier_payload(self, status="in stock", title="Корм Josera 5 * 900 г", weight="4.500", price="1602.00", code="50014710"):
         return f'<partners_offers><offer><vendor_code>{code}</vendor_code><availability>{status}</availability><currency>UAH</currency><title>{title}</title><weight>{weight}</weight><price>{price}</price></offer></partners_offers>'.encode()
 
-    def catalog(self, rows):
+    def catalog(self, rows, vendor="JOSERA"):
         root = etree.Element("yml_catalog")
         for code, weight, name in rows:
             o = etree.SubElement(root, "offer")
             etree.SubElement(o, "vendorCode").text = code
-            etree.SubElement(o, "vendor").text = "JOSERA"
+            etree.SubElement(o, "vendor").text = vendor
             etree.SubElement(o, "name_ua").text = name
             etree.SubElement(o, "param", name="Вага").text = weight
         return etree.tostring(root)
@@ -33,6 +33,40 @@ class JoseraTests(unittest.TestCase):
         self.assertEqual(rows["50014710р"]["price"], "1602.00")
         _, _, stock = j.calculate(rows, None, [], True)
         self.assertEqual(stock, {"50014710": 20, "50014710р": 4})
+
+    def test_josicat_650_single_and_seven_pack_retail_prices(self):
+        for code, box_price, single_price in (
+            ("50009045", "1224", "175.00"),
+            ("50012991", "1224", "175.00"),
+            ("50009209", "1224", "175.00"),
+            ("50012493", "1428", "204.00"),
+            ("50009211", "1428", "204.00"),
+        ):
+            with self.subTest(code=code), patch.object(j, "MIN_SOURCE_PRODUCTS", 1), patch.object(j, "MIN_SITE_PRODUCTS", 1):
+                source = j.read_supplier(self.supplier_payload(
+                    title="JosiCat 7 * 650 г", weight="4.550", price=box_price, code=code))
+                rows, missing = j.map_catalog(self.catalog([
+                    (code, "650 г", "JosiCat 650 г"),
+                    (code + "*7", "650 г * 7", "JosiCat 650 г * 7"),
+                ], vendor="JosiCat"), source)
+                self.assertEqual(missing, [])
+                self.assertEqual(rows[code]["price"], single_price)
+                self.assertEqual(rows[code + "*7"]["price"], box_price + ".00")
+                self.assertEqual(j.calculate(rows, None, [], True)[2],
+                                 {code: 20, code + "*7": 2})
+
+    def test_josicat_rounding_does_not_change_other_retail_prices(self):
+        for vendor, title, weight, site_weight, price, expected in (
+            ("JosiDog", "7 * 650 г", "4.550", "650 г", "1224", "174.86"),
+            ("JosiCat", "5 * 900 г", "4.500", "900 г", "1602", "320.40"),
+            ("JosiCat", "650 г", "0.650", "650 г", "174.86", "174.86"),
+        ):
+            with self.subTest(vendor=vendor, title=title), patch.object(j, "MIN_SOURCE_PRODUCTS", 1), patch.object(j, "MIN_SITE_PRODUCTS", 1):
+                source = j.read_supplier(self.supplier_payload(
+                    title=title, weight=weight, price=price))
+                rows, _ = j.map_catalog(self.catalog([
+                    ("50014710", site_weight, title)], vendor=vendor), source)
+                self.assertEqual(rows["50014710"]["price"], expected)
 
     def test_unavailable_disables_both(self):
         _, _, stock = j.calculate(self.mapped("out of stock"), None, [], True)
@@ -122,3 +156,4 @@ class JoseraTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+

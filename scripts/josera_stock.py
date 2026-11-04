@@ -107,8 +107,16 @@ def map_catalog(payload, supplier):
             missing.append(code)
         price = None
         if matched and source["price"] is not None:
-            price = str((source["price"] / source["pack_size"] * count).quantize(
-                Decimal("0.01"), rounding=ROUND_HALF_UP))
+            retail = source["price"] / source["pack_size"] * count
+            # JosiCat 650 g singles use whole-hryvnia retail prices: the
+            # supplier sells seven packs for 1224 UAH, while one pack is 175.
+            # Keep the exact supplier total for a seven-pack and retain cents
+            # for every other brand, size and directly priced single pack.
+            if (clean(offer.findtext("vendor")).casefold() == "josicat"
+                    and unit == Decimal("650") and count == 1
+                    and source["pack_size"] > 1):
+                retail = retail.quantize(Decimal("1"), rounding=ROUND_HALF_UP)
+            price = str(retail.quantize(Decimal("0.01"), rounding=ROUND_HALF_UP))
         sale_price = None
         if matched and source.get("sale_price") is not None and source["price"] is not None:
             if source["sale_price"] < source["price"]:
@@ -181,3 +189,4 @@ def calculate(rows, previous, orders, initializing=False):
     published = {code: base_stock[row["base"]] // row["pack_size"]
                  for code, row in rows.items()}
     return base_stock, snapshots, published
+
