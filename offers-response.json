@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T16:37:46Z",
+  "updatedAt": "2026-11-04T17:15:07Z",
   "total": 1672,
   "data": [
     {
@@ -35,11 +35,11 @@
       "price": 2746,
       "old_price": 3231,
       "availability": true,
-      "stock": 19,
+      "stock": 18,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 19
+          "stock": 18
         }
       ],
       "warranty_type": "no",
@@ -14255,36 +14255,8 @@
       "manufacture": null
     },
     {
-      "code": "5648",
-      "price": 1029,
-      "old_price": null,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "DARWIN",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
       "code": "5649",
-      "price": 2479,
+      "price": 2727,
       "old_price": null,
       "availability": true,
       "stock": 2,
@@ -14339,36 +14311,8 @@
       "manufacture": null
     },
     {
-      "code": "5656",
-      "price": 1029,
-      "old_price": null,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "DARWIN",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
       "code": "5657",
-      "price": 4649,
+      "price": 5114,
       "old_price": null,
       "availability": true,
       "stock": 2,
@@ -14396,7 +14340,7 @@
     },
     {
       "code": "5658",
-      "price": 1079,
+      "price": 1187,
       "old_price": null,
       "availability": true,
       "stock": 2,
@@ -14424,35 +14368,7 @@
     },
     {
       "code": "5659",
-      "price": 4879,
-      "old_price": null,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "DARWIN",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "5660",
-      "price": 1089,
+      "price": 5367,
       "old_price": null,
       "availability": true,
       "stock": 2,
@@ -14480,7 +14396,7 @@
     },
     {
       "code": "5661",
-      "price": 4889,
+      "price": 5378,
       "old_price": null,
       "availability": true,
       "stock": 2,
@@ -14508,7 +14424,7 @@
     },
     {
       "code": "5662",
-      "price": 999,
+      "price": 1099,
       "old_price": null,
       "availability": true,
       "stock": 2,
@@ -14536,7 +14452,7 @@
     },
     {
       "code": "5663",
-      "price": 4499,
+      "price": 4949,
       "old_price": null,
       "availability": true,
       "stock": 2,
@@ -14564,7 +14480,7 @@
     },
     {
       "code": "5664",
-      "price": 1039,
+      "price": 1143,
       "old_price": null,
       "availability": true,
       "stock": 2,
@@ -14592,7 +14508,7 @@
     },
     {
       "code": "5665",
-      "price": 4669,
+      "price": 5136,
       "old_price": null,
       "availability": true,
       "stock": 2,
@@ -14647,36 +14563,8 @@
       "manufacture": null
     },
     {
-      "code": "5669",
-      "price": 4329,
-      "old_price": null,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "DARWIN",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
       "code": "5670",
-      "price": 889,
+      "price": 1099,
       "old_price": null,
       "availability": true,
       "stock": 2,
@@ -14704,7 +14592,35 @@
     },
     {
       "code": "5671",
-      "price": 2399,
+      "price": 2639,
+      "old_price": null,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "DARWIN",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "5672",
+      "price": 1132,
       "old_price": null,
       "availability": true,
       "stock": 2,
@@ -14732,7 +14648,7 @@
     },
     {
       "code": "5673",
-      "price": 2869,
+      "price": 3156,
       "old_price": null,
       "availability": true,
       "stock": 2,
@@ -14760,7 +14676,7 @@
     },
     {
       "code": "5674",
-      "price": 839,
+      "price": 923,
       "old_price": null,
       "availability": true,
       "stock": 2,
@@ -14788,7 +14704,7 @@
     },
     {
       "code": "5675",
-      "price": 2219,
+      "price": 2441,
       "old_price": null,
       "availability": true,
       "stock": 2,
@@ -15068,7 +14984,7 @@
     },
     {
       "code": "5676",
-      "price": 999,
+      "price": 1099,
       "old_price": null,
       "availability": true,
       "stock": 2,
@@ -15096,7 +15012,7 @@
     },
     {
       "code": "5677",
-      "price": 2799,
+      "price": 3079,
       "old_price": null,
       "availability": true,
       "stock": 2,
@@ -15124,7 +15040,35 @@
     },
     {
       "code": "5678",
-      "price": 889,
+      "price": 978,
+      "old_price": null,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "DARWIN",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "5679",
+      "price": 2639,
       "old_price": null,
       "availability": true,
       "stock": 2,
@@ -15152,7 +15096,35 @@
     },
     {
       "code": "5680",
-      "price": 949,
+      "price": 1044,
+      "old_price": null,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "DARWIN",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "5681",
+      "price": 2859,
       "old_price": null,
       "availability": true,
       "stock": 2,
@@ -15180,7 +15152,35 @@
     },
     {
       "code": "5682",
-      "price": 949,
+      "price": 1044,
+      "old_price": null,
+      "availability": true,
+      "stock": 2,
+      "warehouses": [
+        {
+          "id": "DARWIN",
+          "stock": 2
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "5683",
+      "price": 2859,
       "old_price": null,
       "availability": true,
       "stock": 2,
@@ -15208,7 +15208,7 @@
     },
     {
       "code": "5684",
-      "price": 959,
+      "price": 1055,
       "old_price": null,
       "availability": true,
       "stock": 2,
@@ -15236,7 +15236,7 @@
     },
     {
       "code": "5685",
-      "price": 2599,
+      "price": 2914,
       "old_price": null,
       "availability": true,
       "stock": 2,
@@ -17280,35 +17280,7 @@
     },
     {
       "code": "5688",
-      "price": 1159,
-      "old_price": null,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "DARWIN",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "5689",
-      "price": 3239,
+      "price": 1275,
       "old_price": null,
       "availability": true,
       "stock": 2,
@@ -17336,7 +17308,7 @@
     },
     {
       "code": "5690",
-      "price": 1169,
+      "price": 1286,
       "old_price": null,
       "availability": true,
       "stock": 2,
@@ -17364,7 +17336,7 @@
     },
     {
       "code": "5691",
-      "price": 3349,
+      "price": 3684,
       "old_price": null,
       "availability": true,
       "stock": 2,
@@ -17392,35 +17364,7 @@
     },
     {
       "code": "5692",
-      "price": 1069,
-      "old_price": null,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "DARWIN",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "5693",
-      "price": 2949,
+      "price": 1176,
       "old_price": null,
       "availability": true,
       "stock": 2,
@@ -17448,7 +17392,7 @@
     },
     {
       "code": "5694",
-      "price": 1119,
+      "price": 1231,
       "old_price": null,
       "availability": true,
       "stock": 2,
@@ -17476,7 +17420,7 @@
     },
     {
       "code": "5695",
-      "price": 979,
+      "price": 1077,
       "old_price": null,
       "availability": true,
       "stock": 2,
@@ -17504,63 +17448,7 @@
     },
     {
       "code": "5696",
-      "price": 2699,
-      "old_price": null,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "DARWIN",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "5688_5",
-      "price": 3289,
-      "old_price": null,
-      "availability": true,
-      "stock": 2,
-      "warehouses": [
-        {
-          "id": "DARWIN",
-          "stock": 2
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "5694_5",
-      "price": 3159,
+      "price": 2969,
       "old_price": null,
       "availability": true,
       "stock": 2,
@@ -33435,8 +33323,36 @@
       "manufacture": null
     },
     {
+      "code": "5648",
+      "price": 1132,
+      "old_price": null,
+      "availability": false,
+      "stock": 0,
+      "warehouses": [
+        {
+          "id": "DARWIN",
+          "stock": 0
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
       "code": "5650",
-      "price": 999,
+      "price": 1099,
       "old_price": null,
       "availability": false,
       "stock": 0,
@@ -33464,7 +33380,7 @@
     },
     {
       "code": "5652",
-      "price": 839,
+      "price": 923,
       "old_price": null,
       "availability": false,
       "stock": 0,
@@ -33492,7 +33408,7 @@
     },
     {
       "code": "5653",
-      "price": 3559,
+      "price": 3915,
       "old_price": null,
       "availability": false,
       "stock": 0,
@@ -33520,7 +33436,7 @@
     },
     {
       "code": "5654",
-      "price": 999,
+      "price": 1099,
       "old_price": null,
       "availability": false,
       "stock": 0,
@@ -33548,7 +33464,63 @@
     },
     {
       "code": "5655",
-      "price": 4499,
+      "price": 4949,
+      "old_price": null,
+      "availability": false,
+      "stock": 0,
+      "warehouses": [
+        {
+          "id": "DARWIN",
+          "stock": 0
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "5656",
+      "price": 1132,
+      "old_price": null,
+      "availability": false,
+      "stock": 0,
+      "warehouses": [
+        {
+          "id": "DARWIN",
+          "stock": 0
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "5660",
+      "price": 1198,
       "old_price": null,
       "availability": false,
       "stock": 0,
@@ -33576,7 +33548,7 @@
     },
     {
       "code": "5666",
-      "price": 1029,
+      "price": 1132,
       "old_price": null,
       "availability": false,
       "stock": 0,
@@ -33604,7 +33576,7 @@
     },
     {
       "code": "5667",
-      "price": 4649,
+      "price": 5114,
       "old_price": null,
       "availability": false,
       "stock": 0,
@@ -33631,8 +33603,8 @@
       "manufacture": null
     },
     {
-      "code": "5672",
-      "price": 1029,
+      "code": "5669",
+      "price": 4762,
       "old_price": null,
       "availability": false,
       "stock": 0,
@@ -33773,90 +33745,6 @@
     {
       "code": "5311",
       "price": 2201,
-      "old_price": null,
-      "availability": false,
-      "stock": 0,
-      "warehouses": [
-        {
-          "id": "DARWIN",
-          "stock": 0
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "5679",
-      "price": 2399,
-      "old_price": null,
-      "availability": false,
-      "stock": 0,
-      "warehouses": [
-        {
-          "id": "DARWIN",
-          "stock": 0
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "5681",
-      "price": 2599,
-      "old_price": null,
-      "availability": false,
-      "stock": 0,
-      "warehouses": [
-        {
-          "id": "DARWIN",
-          "stock": 0
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "5683",
-      "price": 2599,
       "old_price": null,
       "availability": false,
       "stock": 0,
@@ -38867,8 +38755,120 @@
       "manufacture": null
     },
     {
+      "code": "5689",
+      "price": 3563,
+      "old_price": null,
+      "availability": false,
+      "stock": 0,
+      "warehouses": [
+        {
+          "id": "DARWIN",
+          "stock": 0
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "5693",
+      "price": 3244,
+      "old_price": null,
+      "availability": false,
+      "stock": 0,
+      "warehouses": [
+        {
+          "id": "DARWIN",
+          "stock": 0
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "5688_5",
+      "price": 3618,
+      "old_price": null,
+      "availability": false,
+      "stock": 0,
+      "warehouses": [
+        {
+          "id": "DARWIN",
+          "stock": 0
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
       "code": "5689_1.5",
-      "price": 1139,
+      "price": 1253,
+      "old_price": null,
+      "availability": false,
+      "stock": 0,
+      "warehouses": [
+        {
+          "id": "DARWIN",
+          "stock": 0
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "5694_5",
+      "price": 3475,
       "old_price": null,
       "availability": false,
       "stock": 0,
@@ -46596,7 +46596,7 @@
     },
     {
       "code": "5214000583790",
-      "price": 4499,
+      "price": 4949,
       "old_price": null,
       "availability": false,
       "stock": 0,
@@ -46624,7 +46624,7 @@
     },
     {
       "code": "5214001832521",
-      "price": 989,
+      "price": 1088,
       "old_price": null,
       "availability": false,
       "stock": 0,
