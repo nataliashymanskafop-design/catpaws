@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-11-05 09:13">
+<yml_catalog date="2026-11-05 17:42">
   <shop>
     <name>CatPaws PETIMPEX stock</name>
     <company>CatPaws</company>
@@ -677,15 +677,6 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="0310 SHACHE3000" available="false">
-        <name>Шампунь KERATIN для котів,всіх типів шерсті та голих порід, зміцнюючий та захищаючий 3000 ml. (2шт/уп)</name>
-        <vendorCode>0310 SHACHE3000</vendorCode>
-        <currencyId>UAH</currencyId>
-        <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
-      </offer>
       <offer id="0334 BALCHE300" available="true">
         <name>Кондиціонер KERATIN для котів,всіх типів шерсті та голих порід, зміцнюючий та захищаючий 300 ml. (12шт/уп)</name>
         <vendorCode>0334 BALCHE300</vendorCode>
@@ -722,14 +713,14 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="040790" available="true">
+      <offer id="040790" available="false">
         <name>MERA Taler великі монети для собак (8см), 10 кг</name>
         <vendorCode>040790</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="041090" available="true">
         <name>MERA Meaty Rolls м'ясні рулетики для собак (3см), 10 кг</name>
@@ -790,8 +781,8 @@
         <vendorCode>041690</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="041890" available="true">
@@ -821,14 +812,14 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="043490" available="true">
+      <offer id="043490" available="false">
         <name>MERA Puppy Knochen кісточки для цуценят (2,2см), 10 кг</name>
         <vendorCode>043490</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="043690" available="true">
         <name>MERA Lammknöchli кісточки з ягням для собак (4,5см), 10 кг</name>
@@ -880,8 +871,8 @@
         <vendorCode>044490</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="045486" available="false">
@@ -1321,8 +1312,8 @@
         <vendorCode>056350</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="056381 - 6326" available="true">
@@ -1730,14 +1721,14 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="10.39EBL22" available="true">
+      <offer id="10.39EBL22" available="false">
         <name>Переноска GIPSY XS smal Light Blue , пластикові дверцята, 39х26х25 cм (16 шт в кор)</name>
         <vendorCode>10.39EBL22</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="10.40EGL08" available="false">
         <name>Переноска GIPSY 1 small Yellow, пластикові дверцята, 46x31x32h см (15 шт в кор)</name>
@@ -2315,14 +2306,14 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="20070370 PRESTIGE" available="false">
+      <offer id="20070370 PRESTIGE" available="true">
         <name>Вольєр для хом'яка BERNIE PRESTIGE, 53x38x27cm (2 шт в ящ) синій або сірий піддон</name>
         <vendorCode>20070370 PRESTIGE</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="204//6600626/KISS" available="true">
         <name>Гребінець IvSanBernard DERMOBRUSH,поцілунок</name>
@@ -2343,7 +2334,7 @@
         <in_stock>1</in_stock>
       </offer>
       <offer id="2187 NMOUS250" available="false">
-        <name>Мус Iv San Bernard Moussette сухий шампунь для очищення шерсті, 250мл (12 шт/уп)</name>
+        <name>2187 NMOUS250</name>
         <vendorCode>2187 NMOUS250</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
@@ -2360,22 +2351,22 @@
         <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="222,03" available="true">
+      <offer id="222,03" available="false">
         <name>Поїлка для птахів Dodo пласт ,30 мл/11 см (24шт.уп.)</name>
         <vendorCode>222,03</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="222,05" available="true">
         <name>Поїлка для птахів Dodo пласт ,125 мл/15,5 см (24шт.уп.)</name>
         <vendorCode>222,05</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="222,11" available="false">
@@ -2396,14 +2387,14 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="222,14" available="true">
+      <offer id="222,14" available="false">
         <name>Поїлка для птахів Dodo пласт ,200 мл (12шт.уп.)</name>
         <vendorCode>222,14</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="223,07" available="false">
         <name>Годівниця для птахів Dodo пласт , 65 мл/7см (12шт.уп.)</name>
@@ -2810,14 +2801,14 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="246,62" available="true">
+      <offer id="246,62" available="false">
         <name>Мінеральний камінь для птахів Fantasia з панцеря каракатиці (з утримувачем), 9-12 см (50 шт/уп.)</name>
         <vendorCode>246,62</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="246,63" available="false">
         <name>Мінеральний камінь для птахів Fantasia з панцеря каракатиці (з утримувачем), 12-15 см(50 шт/уп.)</name>
@@ -2900,14 +2891,14 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="26.5KDK.00290" available="true">
+      <offer id="26.5KDK.00290" available="false">
         <name>Бентонітовий наповнювач KOTIX Baby Powder рожевий, 5л</name>
         <vendorCode>26.5KDK.00290</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="26.5KDK.00291" available="true">
         <name>Бентонітовий наповнювач KOTIX марсельске мило, бірюзові гранули, 5л</name>
@@ -2995,8 +2986,8 @@
         <vendorCode>30.09BE0502</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="30000-8" available="true">
@@ -3148,18 +3139,18 @@
         <vendorCode>30050-8</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="30052-8" available="false">
+      <offer id="30052-8" available="true">
         <name>Іграшка м'яка "AGILITY"для котів з кошачою м'ятою,огірок 8 см</name>
         <vendorCode>30052-8</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="30054-8" available="true">
         <name>Іграшка м'яка "AGILITY"для котів з кошачою м'ятою,яблуко 4 см</name>
@@ -3170,23 +3161,23 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="30056-8" available="false">
+      <offer id="30056-8" available="true">
         <name>Іграшка м'яка "AGILITY"для котів з кошачою м'ятою,морква</name>
         <vendorCode>30056-8</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
+        <in_stock>1</in_stock>
       </offer>
-      <offer id="30058-8" available="false">
+      <offer id="30058-8" available="true">
         <name>Іграшка м'яка "AGILITY"для котів з кошачою м'ятою,рибка 7 см</name>
         <vendorCode>30058-8</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="3006" available="true">
         <name>Pure Nurture Daily Power of 3 Turkey with Rice Small &amp; Mini Adult, для дор. собак малих та дрібних порід з індичкою та рисом, 2кг</name>
@@ -3206,14 +3197,14 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="30061-8" available="false">
+      <offer id="30061-8" available="true">
         <name>Іграшка м'яка "AGILITY"для котів з кошачою м'ятою, мишка 6 см (різні кольори)</name>
         <vendorCode>30061-8</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="3008" available="true">
         <name>Pure Nurture Daily Power of 3 Turkey with Barley, Medium &amp; Large Adult, для дорослих собак середніх та великих порід з індичкою та ячменем, 3кг</name>
@@ -3233,14 +3224,14 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="30100-8" available="false">
+      <offer id="30100-8" available="true">
         <name>Іграшка "AGILITY"для котів вудочка дерев'яна з джгутом,бубонами та дзвіночком 40 см</name>
         <vendorCode>30100-8</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="30101-8" available="true">
         <name>Іграшка "AGILITY"для котів вудочка дерев'яна з пір'ям та шкіряними смужками 40 см</name>
@@ -3251,14 +3242,14 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="30102-8" available="false">
+      <offer id="30102-8" available="true">
         <name>Іграшка "AGILITY"для котів вудочка дерев'яна бантик з бубонами та дзвіночком 40 см</name>
         <vendorCode>30102-8</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="30103-8" available="true">
         <name>Іграшка "AGILITY"для котів вудочка пластик метелик з пір'ям та дзвіночком 35 см</name>
@@ -3269,22 +3260,22 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="30104-8" available="false">
+      <offer id="30104-8" available="true">
         <name>Іграшка "AGILITY"для котів вудочка пластик котик з пір'ям та дзвіночком 35 см</name>
         <vendorCode>30104-8</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="30105-8" available="true">
         <name>Іграшка "AGILITY"для котів вудочка пластик жучок з дзвіночком 35 см</name>
         <vendorCode>30105-8</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="3012" available="true">
@@ -3863,14 +3854,14 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="340,45" available="true">
+      <offer id="340,45" available="false">
         <name>Ласощі для гризунів Fantasia Miky ,200 гр (10шт.уп.)</name>
         <vendorCode>340,45</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="340,47" available="false">
         <name>Ласощі для гризунів Fantasia Teddy ,250 гр (12шт.уп.)</name>
@@ -3922,8 +3913,8 @@
         <vendorCode>346,43</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="346,46" available="true">
@@ -3931,8 +3922,8 @@
         <vendorCode>346,46</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="351,21" available="false">
@@ -4219,8 +4210,8 @@
         <vendorCode>417,61</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="417,68" available="true">
@@ -4309,12 +4300,12 @@
         <vendorCode>419,85</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="4210800" available="false">
-        <name>Підставка під ножиці з плексігасу, прозора</name>
+        <name>Підставка для ножиць із плексигласу Iv San Bernard, прозора</name>
         <vendorCode>4210800</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
@@ -4493,14 +4484,14 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="430,34" available="true">
+      <offer id="430,34" available="false">
         <name>Рулетка Benny Classic 1 стрічка 5 м 20 кг (10шт.уп.)</name>
         <vendorCode>430,34</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="430,35" available="false">
         <name>Рулетка Benny Classic 2 стрічка 5 м 20 кг(чорна/синя) (10шт.уп.)</name>
@@ -4750,8 +4741,8 @@
         <vendorCode>449,06</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="449,08" available="true">
@@ -4768,8 +4759,8 @@
         <vendorCode>449,09</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="449,11" available="false">
@@ -5029,18 +5020,18 @@
         <vendorCode>4678 NVSHALG10000</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="4685 VBALERB0300" available="true">
+      <offer id="4685 VBALERB0300" available="false">
         <name>Кондиціонер Iv San Bernard Herb ,трав'яний освіжаючий для всіх типів шерсті котів і собак,300мл ( 12 шт/уп)</name>
         <vendorCode>4685 VBALERB0300</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="4707 DOSHAMED300" available="true">
         <name>Шампунь Iv San Bernard Pelo Medio, для середньошерстих котів і собак, 300мл ( 12 шт/уп)</name>
@@ -5065,8 +5056,8 @@
         <vendorCode>4721 DOSHAMAN300</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="4722 VSHGIN0300" available="true">
@@ -5079,7 +5070,7 @@
         <in_stock>1</in_stock>
       </offer>
       <offer id="4746 VSHMAN0300" available="false">
-        <name>Шампунь Iv San Bernard White Coat ,для білої шерсті (усуває жовтий колір) собак і котів, 300мл ( 12 шт/уп)</name>
+        <name>Шампунь White Coat Iv San Bernard для білої шерсті котів і собак, усуває жовтий відтінок</name>
         <vendorCode>4746 VSHMAN0300</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
@@ -5087,14 +5078,14 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="4784 VSHERB0300" available="true">
+      <offer id="4784 VSHERB0300" available="false">
         <name>Шампунь Iv San Bernard Herb ,трав'яний освіжаючий для всіх типів шерсті котів і собак, 300мл ( 12 шт/уп)</name>
         <vendorCode>4784 VSHERB0300</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="480,01" available="true">
         <name>Пелюшки для собак York,45*60 см (6шт) - 84 уп/ящ</name>
@@ -5164,8 +5155,8 @@
         <vendorCode>481,43</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="481,45" available="true">
@@ -5636,14 +5627,14 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="483,08" available="true">
+      <offer id="483,08" available="false">
         <name>Миска з нержавіючої сталі з прогумованим дном, 0,55л /11 см (12шт.уп.)</name>
         <vendorCode>483,08</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="483,09" available="false">
         <name>Миска з нержавіючої сталі з прогумованим дном, 0,9л /17 см (12шт.уп.)</name>
@@ -5906,14 +5897,14 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="484,08" available="true">
+      <offer id="484,08" available="false">
         <name>Іграшка для собак Dental Gum м'ячик гумовий,пищалка,6 см (різні кольори) кісточки (6 шт/уп)</name>
         <vendorCode>484,08</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="484,09" available="false">
         <name>Іграшка для собак Dental Gum м'ячик гумовий з шипами, 6,5 см (різні кольори) (6 шт/уп)</name>
@@ -6329,22 +6320,22 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="4844 BNSHACAM10000" available="true">
+      <offer id="4844 BNSHACAM10000" available="false">
         <name>Шампунь Iv San Bernard BIANCO &amp; NERO Camomilla, універсальний з ромашкою,10л (1 шт/уп)</name>
         <vendorCode>4844 BNSHACAM10000</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="4845 NVSHATT300" available="true">
         <name>Шампунь Iv San Bernard Anti Parassitario Tea Tree, з чайним деревом антипаразитарний для котів і собак, 300мл ( 12 шт/уп)</name>
         <vendorCode>4845 NVSHATT300</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="485,02" available="true">
@@ -6545,14 +6536,14 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="4852 NVSHATT10000" available="true">
+      <offer id="4852 NVSHATT10000" available="false">
         <name>Шампунь Iv San Bernard Anti Parassitario Tea Tree, з чайним деревом антипаразитарний для котів і собак, 10л ( 1 шт/уп)</name>
         <vendorCode>4852 NVSHATT10000</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="4868 BNBALAVO10000" available="false">
         <name>Кондиціонер Iv San Bernard BIANCO &amp; NERO Avocado, універсальний з авокадо,10л (1 шт/уп)</name>
@@ -6694,8 +6685,8 @@
         <vendorCode>487,49</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="487,51" available="true">
@@ -6712,8 +6703,8 @@
         <vendorCode>487,52</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="487,53" available="true">
@@ -6901,8 +6892,8 @@
         <vendorCode>487,89</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="487,90" available="true">
@@ -6932,14 +6923,14 @@
         <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="487,93" available="true">
+      <offer id="487,93" available="false">
         <name>Іграшка для собак York латексні динозаврики,7-8 см (різні кольори) (12 шт/уп)</name>
         <vendorCode>487,93</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="487,94" available="true">
         <name>Іграшка для собак York латексна зірочка ,8 см (різні кольори) (12 шт/уп)</name>
@@ -7697,14 +7688,14 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="5606 PRHYD50" available="true">
-        <name>Парфум Iv San Bernard HYDRA 50 мл ( 6 шт/уп)</name>
+      <offer id="5606 PRHYD50" available="false">
+        <name>5606 PRHYD50</name>
         <vendorCode>5606 PRHYD50</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="5613 PRAND50" available="false">
         <name>Парфум Iv San Bernard ANDROMEDA 50 мл ( 6 шт/уп)</name>
@@ -8417,14 +8408,14 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="6716 POMPE" available="true">
+      <offer id="6716 POMPE" available="false">
         <name>Помпа Iv San Bernard для Фрукты грумера 3л (110мм)</name>
         <vendorCode>6716 POMPE</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="673//1053-09" available="true">
         <name>Пуходерка IvSanBernard Slicker,міні (червона)</name>
@@ -9218,14 +9209,14 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="95010 (407)" available="true">
+      <offer id="95010 (407)" available="false">
         <name>Корм конс. NUEVO ADULT з ягням та картоплею, для собак, 400г (6шт у пак.) *</name>
         <vendorCode>95010 (407)</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="95013 (409)" available="true">
         <name>Корм конс. NUEVO JUNIOR з куркою, яловичиною та рисом + кальцій, для цуценят, 400г(6шт у пак.) *</name>
@@ -9754,8 +9745,8 @@
         <vendorCode>A2005634</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="A2005635" available="true">
@@ -10802,14 +10793,14 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="A8011400" available="true">
+      <offer id="A8011400" available="false">
         <name>Рослина REPLICA ANUBIAS, штучна., 15см (6шт/уп)</name>
         <vendorCode>A8011400</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="A8011401" available="true">
         <name>Рослина REPLICA ANUBIAS, штучна., 20см (6шт/уп) *</name>
@@ -11450,14 +11441,14 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="AC005/C" available="true">
+      <offer id="AC005/C" available="false">
         <name>Драпак Cardboard MAXI, гофрований картон з мишкою, 47х24 см, 12 шт/ящ, (ціна за 1 шт.)</name>
         <vendorCode>AC005/C</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="AC005/G" available="true">
         <name>Драпак Cardboard плоский, гофрований, 45,5 x 27 x 8,5 h см, 6 шт/ящ, (ціна за 1 шт.)</name>
@@ -12720,7 +12711,7 @@
         <in_stock>1</in_stock>
       </offer>
       <offer id="AE561" available="true">
-        <name>Ласощі печиво з різними смаками, 75 гр,7*1 см, (флоупак) 14 упак./короб. (ціна за упак)</name>
+        <name>Ласощі печиво з різними смаками, 75 гр,7*1 см, (флоупак) 12 упак./короб. (ціна за упак)</name>
         <vendorCode>AE561</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
@@ -14191,8 +14182,8 @@
         <vendorCode>B720/A</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="B720/B" available="true">
@@ -14740,8 +14731,8 @@
         <vendorCode>BW333А</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="BW335" available="true">
@@ -14753,14 +14744,14 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="BW366" available="true">
+      <offer id="BW366" available="false">
         <name>Ласощі для собак "Bow wow" 80 гр, снеки з яловичини у вигляді кісточки (15шт в кор)</name>
         <vendorCode>BW366</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="BW369" available="false">
         <name>BW369</name>
@@ -14924,14 +14915,14 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="BW823" available="true">
+      <offer id="BW823" available="false">
         <name>Ласощі для собак "Bow wow" 60гр, Mobility снеки,покращує опорно-рухову систему,шкіру та шерсть (15 шт в кор)</name>
         <vendorCode>BW823</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="BW824" available="true">
         <name>Ласощі для собак "Bow wow" 60гр, Weight снеки,з проблемами надлишкової ваги (15 шт в кор)</name>
@@ -15005,14 +14996,14 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="C1003070" available="true">
-        <name>Кістка жилована вузлова KingBone Chicken, з кур, 11см, 30гр, 2шт/ в уп (ціна за упаков.)(6 в кор )</name>
+      <offer id="C1003070" available="false">
+        <name>C1003070</name>
         <vendorCode>C1003070</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="C1003218" available="false">
         <name>Кістка King Bone Bacon, 25см, 240гр, 1шт/уп (12у пак)</name>
@@ -15024,7 +15015,7 @@
         <in_stock>0</in_stock>
       </offer>
       <offer id="C1003223" available="false">
-        <name>Кістка King Bone Chicken, 13см, 60гр, 3шт/ в упак(12 у кор)</name>
+        <name>C1003223</name>
         <vendorCode>C1003223</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
@@ -15050,23 +15041,23 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="C1003445" available="true">
+      <offer id="C1003445" available="false">
         <name>Кістка жилована вузлова BBQ PARTY King Bone Chicken, з кур , 15см, 45гр, 1шт/ в уп (ціна за упаков.)(6 в кор )</name>
         <vendorCode>C1003445</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
-      <offer id="C1003448" available="true">
+      <offer id="C1003448" available="false">
         <name>Кістка жилована вузлова KingBone Beef, з ялович , 6см, 10гр, 5 шт/уп (ціна за пак.)(6 у кор)</name>
         <vendorCode>C1003448</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="C1003455" available="false">
         <name>Кістка жилована вузлова BBQ PARTY King Bone Duck, з качкою, 5см, 10гр, 5шт/уп (ціна за упаков.)(6 в кор )</name>
@@ -15113,14 +15104,14 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="C1018079" available="true">
+      <offer id="C1018079" available="false">
         <name>Конc. для кот. VIBRISSE MENU, тунець з морепродуктами, 70г</name>
         <vendorCode>C1018079</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="C1018083" available="false">
         <name>Конc. для кот. VIBRISSE MENU, тунець з качкою в соусі, 70г</name>
@@ -15518,14 +15509,14 @@
         <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="C2020562" available="true">
+      <offer id="C2020562" available="false">
         <name>Драпак-пуф CROCI з будиночком Nutshell, 50х45см</name>
         <vendorCode>C2020562</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="C2020782" available="true">
         <name>Лежак для тварини MORFEO, пластик, синій, 49х34х21см</name>
@@ -15568,8 +15559,8 @@
         <vendorCode>C2058447</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="C2058884+" available="true">
@@ -15743,14 +15734,14 @@
         <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="C2178684" available="false">
+      <offer id="C2178684" available="true">
         <name>Будиночок для тварин Піраміда ,AMAZZONIA, 43х43см</name>
         <vendorCode>C2178684</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="C2BI0102" available="true">
         <name>Клітка-переноска набір №2 і №3, фарбована, 32,5x30x40см і 36,5x33x42,5см</name>
@@ -15820,8 +15811,8 @@
         <vendorCode>C3052061</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="C3052062" available="false">
@@ -15923,14 +15914,14 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="C3052263" available="false">
+      <offer id="C3052263" available="true">
         <name>Шампунь GILL'S OILCARE з маслом вербени (шерсть стає м'якою, шовковистою і легко розчісується), 300мл, 3шт / уп</name>
         <vendorCode>C3052263</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="C3052264" available="false">
         <name>Шампунь GILL'S OILCARE з екстрактом оливкового масла (живить і пом'якшує шерсть), 300мл, 3шт / уп</name>
@@ -16112,14 +16103,14 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="C3052983" available="true">
+      <offer id="C3052983" available="false">
         <name>Шампунь-кондиціонер GILL'S З норковим маслом, для блискучою шерсті, 200мл, 6шт/уп (ЙОРК!)</name>
         <vendorCode>C3052983</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="C3052984" available="true">
         <name>Шампунь GILL'S Для болонок,мальтезів (стимулює забарвлення, полегшує груммінг) 200мл, 6шт/уп</name>
@@ -16148,14 +16139,14 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="C3052987" available="true">
+      <offer id="C3052987" available="false">
         <name>Шампунь GILL'S Для золотого окрасу, універ., Стимуляція природного окрасу 200мл, 6шт/уп</name>
         <vendorCode>C3052987</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="C3052988" available="true">
         <name>Шампунь GILL'S Для чорної шерсті, універ., Стимул. окрас, 200мл, 6шт/уп</name>
@@ -16211,14 +16202,14 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="C3052996" available="true">
+      <offer id="C3052996" available="false">
         <name>Шампунь GILL'S Супер дезінфікуючий, для пошкодженої шкіри, 200мл, 6шт/уп</name>
         <vendorCode>C3052996</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="C3052997" available="false">
         <name>Шампунь GILL'S З зеленим чаєм, від дерматиту, 200мл, 6шт/уп</name>
@@ -16247,14 +16238,14 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="C5020187" available="true">
+      <offer id="C5020187" available="false">
         <name>Намордник пластиковий №3 для бассета 47х5х7см</name>
         <vendorCode>C5020187</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="C5020188" available="false">
         <name>Намордник пластиковий №4 для тер'єр, спанієль, джек рассел 50х5х7см</name>
@@ -16400,14 +16391,14 @@
         <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="C5079707" available="true">
+      <offer id="C5079707" available="false">
         <name>Шлея GLOSSY , (глянцева штучна шкіра лак +нейлон), салатова 50-75х2см (3шт/уп)</name>
         <vendorCode>C5079707</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="C5079711" available="true">
         <name>Повідець GLOSSY, (глянцева штучна шкіра лак +нейлон), помаранчевий 120x1см (3шт/уп)</name>
@@ -16518,7 +16509,7 @@
         <in_stock>1</in_stock>
       </offer>
       <offer id="C5079921" available="false">
-        <name>Набір нашийник + поводок BANDANA SAILOR, з банданою, блакитний, нейлон, 20-30х0,8см / 0,8х120см</name>
+        <name>C5079921</name>
         <vendorCode>C5079921</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
@@ -16580,14 +16571,14 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="C5080241" available="true">
+      <offer id="C5080241" available="false">
         <name>Нашийник д / кота CUOR, зі дзвіночком, нейлон, регульований, 4 кольори, 22-33x1см</name>
         <vendorCode>C5080241</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="C5080263" available="true">
         <name>Нашийник KALIKA TEXTURE, шкірозамінник, 2x40 см (3шт/уп)</name>
@@ -16760,14 +16751,14 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="C5179723" available="true">
+      <offer id="C5179723" available="false">
         <name>Шлея SOFT REFLECTIVE, світловідбиваюча, м'який, ало-червоний, нейлон, 25-40х1см (3шт/уп)</name>
         <vendorCode>C5179723</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="C5179741" available="true">
         <name>Повідець SOFT REFLECTIVE світловідбиваючий, м'який, бордо, нейлон, 120х1см (3шт уп)</name>
@@ -16778,14 +16769,14 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="C5179745" available="true">
+      <offer id="C5179745" available="false">
         <name>Шлея SOFT REFLECTIVE, світловідбиваюча, м'який, бордо, нейлон, 25-40х1см (3шт/уп)</name>
         <vendorCode>C5179745</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="C5AS0505" available="false">
         <name>Нашийник самозатягується, хром, 50см х 2,5 мм (4 шт/уп)</name>
@@ -16891,8 +16882,8 @@
         <vendorCode>C5MZ0294</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="C6002315" available="true">
@@ -17242,18 +17233,18 @@
         <vendorCode>C6020383</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="C6020384" available="true">
+      <offer id="C6020384" available="false">
         <name>Намордник пластиковий,S для фокстер'єра, 9х5х5,5х37см</name>
         <vendorCode>C6020384</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="C6020386" available="false">
         <name>Намордник пластиковий,L для сетера, 3х6,5х6,5х43см</name>
@@ -17318,14 +17309,14 @@
         <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="C6020451" available="true">
+      <offer id="C6020451" available="false">
         <name>Драпак CROCI з будиночком Blossom, 50x50x87,5 см</name>
         <vendorCode>C6020451</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="C6020452" available="true">
         <name>Драпак CROCI Lilium, 40x40x52 см</name>
@@ -17467,8 +17458,8 @@
         <vendorCode>C6020799</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="C6020855" available="true">
@@ -17516,14 +17507,14 @@
         <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="C6020978" available="true">
+      <offer id="C6020978" available="false">
         <name>Драпак CROCI Хвиля, гофрований картон, 50x22x8см (ціна за 1шт) (12 шт/ящ)</name>
         <vendorCode>C6020978</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="C6020985" available="true">
         <name>Пакети для собачих фекалій ЕКО, розкладаються, 4*15 см 60 шт</name>
@@ -17606,14 +17597,14 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="C6028171" available="true">
+      <offer id="C6028171" available="false">
         <name>Пелюшки для собак з активованим вугіллям 84х57, 14шт / уп (8уп. В ящ.) (ціна за упаков.)</name>
         <vendorCode>C6028171</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="C6028269" available="false">
         <name>Туалет-рамка під пелюшку, 60х60см (6 шт/ящ)</name>
@@ -17804,14 +17795,14 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="C6052935" available="true">
+      <offer id="C6052935" available="false">
         <name>Серветки гігієнічні ECO ALMOND/SHEA BUTTER,(миндаль+масло ши) 30шт / уп (12шт / кор.) ціна за уп.</name>
         <vendorCode>C6052935</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="C6058056" available="true">
         <name>Накидка на сидіння в авто з бортиками, нейлон, 125х120см</name>
@@ -18025,8 +18016,8 @@
         <vendorCode>C6060638</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="C6060889" available="true">
@@ -18092,14 +18083,14 @@
         <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="C6066268//2683" available="true">
-        <name>Пластикові двері для дріб. собаки / круп. кота на вхідних дверях, до 10 кг, біла, 200х180мм</name>
+      <offer id="C6066268//2683" available="false">
+        <name>C6066268//2683</name>
         <vendorCode>C6066268//2683</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="C6066367//8463" available="true">
         <name>Пластикові двері для кота на вхідних дверях, до 7 кг, 4 режиму, біла, 224х224мм,(з тунелем)</name>
@@ -18345,7 +18336,7 @@
         <in_stock>1</in_stock>
       </offer>
       <offer id="C6067432" available="false">
-        <name>Щітка масажна, 10,5х15,5см 3шт/уп</name>
+        <name>C6067432</name>
         <vendorCode>C6067432</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
@@ -18358,8 +18349,8 @@
         <vendorCode>C6067433</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="C6067434" available="true">
@@ -18385,8 +18376,8 @@
         <vendorCode>C6067436</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="C6067437" available="true">
@@ -18741,7 +18732,7 @@
         <in_stock>1</in_stock>
       </offer>
       <offer id="C6098128" available="false">
-        <name>Іграшка для соб. CROCI Flying animals ,казкові тварини,латекс, пищалка, в асортім.16 см, 4шт/уп (ціна за 1шт)</name>
+        <name>C6098128</name>
         <vendorCode>C6098128</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
@@ -18767,14 +18758,14 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="C6098207" available="true">
+      <offer id="C6098207" available="false">
         <name>Іграшка для котів. CROCI STICK дразнилка лісові звірі., 46 см, 6 шт / уп (ціна за 1шт)</name>
         <vendorCode>C6098207</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="C6098216" available="false">
         <name>Іграшка для котів. CROCI JAR Миша колір., Нейлон, 5 см, 132шт / уп (ціна за 1шт)</name>
@@ -18799,18 +18790,18 @@
         <vendorCode>C6098220</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="C6098255" available="true">
+      <offer id="C6098255" available="false">
         <name>Іграшка для котів. CROCI EUPHORIA Лупоглазі з котячої м'ятою, м'які, 7см, 12шт/уп (ціна за 1шт)</name>
         <vendorCode>C6098255</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="C6098299" available="true">
         <name>Іграшка для соб. CROCI канат грейфер з вузлами, рожевий, 15см (ціна за 1шт)</name>
@@ -19181,14 +19172,14 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="C6098617" available="true">
+      <offer id="C6098617" available="false">
         <name>Іграшка для котів. CROCI М'яч футбольний, зефір., Д = 3,5 см, 42шт / уп (ціна за 1шт)</name>
         <vendorCode>C6098617</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="C6098623" available="true">
         <name>Іграшка для котів. CROCI Гримуча змійка., Плюш, 13 см, 8шт / уп (ціна за 1шт)</name>
@@ -19433,14 +19424,14 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="C6098846" available="true">
+      <offer id="C6098846" available="false">
         <name>Іграшка для соб. CROCI ROPE Мотузковий чоловічок зелений, 30 / 15см, 3шт / уп (ціна за 1шт)</name>
         <vendorCode>C6098846</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="C6098854" available="true">
         <name>Іграшка для котів. CROCI М'яч тенісний з дзвінком, 3,8см, 200шт / уп (ціна за 1шт)</name>
@@ -19496,14 +19487,14 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="C6098895" available="true">
+      <offer id="C6098895" available="false">
         <name>Іграшка для соб. CROCI м'яч тенісний в упаковці, пищалка, 6,5 см, 3шт / уп (ціна уп)</name>
         <vendorCode>C6098895</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="C6098901" available="true">
         <name>Іграшка для соб. CROCI м'яч тенісний, пищалка, 10см, 3шт / уп (ціна за 1шт)</name>
@@ -19550,14 +19541,14 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="C6120194" available="true">
+      <offer id="C6120194" available="false">
         <name>Міні-сумка з пакетами для фекалій Easy 10*8 cм (3 шт/уп)</name>
         <vendorCode>C6120194</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="C6120196" available="false">
         <name>Міні-сумка з пакетами для фекалій Jar (різні кольори) 7.5*4 cм 3шт/уп (ціна за 1шт)</name>
@@ -19573,8 +19564,8 @@
         <vendorCode>C6120211</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="C6120222" available="false">
@@ -19605,7 +19596,7 @@
         <in_stock>0</in_stock>
       </offer>
       <offer id="C6159026" available="false">
-        <name>Миска CROCI Bamboo, бамбукове волокно / нерж., жовта, 0,47л, 14см (4 шт/уп)</name>
+        <name>C6159026</name>
         <vendorCode>C6159026</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
@@ -19613,14 +19604,14 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="C6159279" available="true">
+      <offer id="C6159279" available="false">
         <name>Миска CROCI BULLDOG LOVERS, спинка метал, 0,4л, (6шт/уп)</name>
         <vendorCode>C6159279</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="C6159282" available="false">
         <name>Миска CROCI BULLDOG LOVERS, біла метал, 0,4л, (6шт/уп)</name>
@@ -19740,7 +19731,7 @@
         <in_stock>1</in_stock>
       </offer>
       <offer id="C6198590" available="false">
-        <name>Іграшка для соб. CROCI Spiky ,шиповані фігурки латекс, пищалка, в асортім.10-14см, 6шт/уп (ціна за 1шт)</name>
+        <name>C6198590</name>
         <vendorCode>C6198590</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
@@ -19811,14 +19802,14 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="C6198684" available="true">
+      <offer id="C6198684" available="false">
         <name>Іграшка для соб. CROCI JUICE канат з ручкою і кісточки, колір ягід, 50см, 3шт / уп (ціна за 1шт)</name>
         <vendorCode>C6198684</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="C6198686" available="true">
         <name>Іграшка для соб. CROCI JUICE канат-плетінка з ручкою, колір яблуко, 33см, 3шт / уп (ціна за 1шт)</name>
@@ -20198,14 +20189,14 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="C6AS0515" available="true">
+      <offer id="C6AS0515" available="false">
         <name>Іграшка для соб. CROCI м'яч м'який кольоровий, Д = 5 см, 24шт / уп (ціна за 1шт)</name>
         <vendorCode>C6AS0515</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="C6AS0518" available="true">
         <name>Іграшка для соб. CaniAMici м'яч футбольний м'який, 9см, 12шт / уп (ціна за 1шт)</name>
@@ -20293,8 +20284,8 @@
         <vendorCode>C6BI0133</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="C6BI0134" available="true">
@@ -20306,14 +20297,14 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="C6BI0136" available="true">
-        <name>Пуходерка з дер. ручкою велика,11,5х5,5см 12шт/уп</name>
+      <offer id="C6BI0136" available="false">
+        <name>C6BI0136</name>
         <vendorCode>C6BI0136</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="C6BI0141" available="true">
         <name>Пуходерка з дер. ручкою екстра велика, 11,2х7,5см 12шт/уп</name>
@@ -21728,14 +21719,14 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="EU127" available="true">
+      <offer id="EU127" available="false">
         <name>Ласощі INABA "Churu" для котів, вершковий мус в стіках, "Різновиди курки" * 14 гр (20 шт.уп.) продаж УПАК. (16шт. в ящ.)</name>
         <vendorCode>EU127</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="EU131" available="true">
         <name>Ласощі INABA "Churu" SKIN&amp;COAT для котів, вершковий мус в стіках, "Різновиди тунець/морський гребінець", 14 гр (20 шт.уп.) продаж УПАК.(16шт/ящ.)</name>
@@ -21953,14 +21944,14 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="EU711" available="true">
+      <offer id="EU711" available="false">
         <name>Ласощі INABA "Churu Pops" для котів, з тунцем 4*15 гр (12 шт.уп.) (48 шт в ящ.)</name>
         <vendorCode>EU711</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="EU712" available="true">
         <name>Ласощі INABA "Churu Pops" для котів, з куркою 4*15 гр (12 шт.уп.) (48 шт в ящ.)</name>
@@ -21971,23 +21962,23 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="EU713" available="true">
+      <offer id="EU713" available="false">
         <name>Ласощі INABA "Churu Pops" для котів, тунець з куркою 4*15 гр (12 шт.уп.) (48 шт в ящ.)</name>
         <vendorCode>EU713</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
-      <offer id="EU716" available="true">
+      <offer id="EU716" available="false">
         <name>Ласощі INABA "Churu" Tidbits для котів, запечені кульки, з тунцем 3*12 гр (6 шт.уп.) (48 шт в ящ.)</name>
         <vendorCode>EU716</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="EU717" available="false">
         <name>Ласощі INABA "Churu" Tidbits для котів, запечені кульки, з тунцем та лососем, 3*12 гр (6 шт.уп.) (48 шт в ящ.)</name>
@@ -21998,22 +21989,22 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="EU718" available="true">
+      <offer id="EU718" available="false">
         <name>Ласощі INABA "Churu" Tidbits для котів, запечені кульки, з куркою, 3*12 гр (6 шт.уп.) (48 шт в ящ.)</name>
         <vendorCode>EU718</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="EU719" available="true">
         <name>Ласощі INABA "Churu" Tidbits для котів, запечені кульки, з куркою та даши бульоном, 3*12 гр (6 шт.уп.) (48 шт в ящ.)</name>
         <vendorCode>EU719</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="EU721" available="true">
@@ -22457,14 +22448,14 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="EUD613-1" available="false">
+      <offer id="EUD613-1" available="true">
         <name>Ласощі INABA "Churu" для собак, вершковий мус в стіках, курка/лосось 1 стік/ 14 гр</name>
         <vendorCode>EUD613-1</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="EUD614-1" available="false">
         <name>Ласощі INABA "Churu" для собак, вершковий мус в стіках, курка з сиром 1 стік/ 14 гр</name>
@@ -22511,14 +22502,14 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="EUD724-1" available="true">
+      <offer id="EUD724-1" available="false">
         <name>Ласощі INABA "Churu Bites" для собак, куркою з сиром 1стік /12 гр</name>
         <vendorCode>EUD724-1</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="EUD731-1" available="true">
         <name>Ласощі INABA "Churu Rolls" для собак, з куркою 1стік /12 гр</name>
@@ -22529,14 +22520,14 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="EUD732-1" available="true">
+      <offer id="EUD732-1" available="false">
         <name>Ласощі INABA "Churu Rolls" для собак, курка з лососем 1стік /12 гр</name>
         <vendorCode>EUD732-1</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="EUD733-1" available="true">
         <name>Ласощі INABA "Churu Rolls" для собак, курка з сиром 1стік /12 гр</name>
@@ -22718,14 +22709,14 @@
         <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="G152.42 BALDO 120" available="true">
+      <offer id="G152.42 BALDO 120" available="false">
         <name>Клітка для кроля BALDO 120, хром, 118x59x46см (3шт/корб) синій піддон</name>
         <vendorCode>G152.42 BALDO 120</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="G153.42" available="false">
         <name>Клітка для кроля BALDO 80, 80x45x42см (3шт/корб) синій піддон</name>
@@ -22894,8 +22885,8 @@
         <vendorCode>H1ER1AL0500NOKNN</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="H1FS2MX0008STKNS" available="true">
@@ -22926,7 +22917,7 @@
         <in_stock>1</in_stock>
       </offer>
       <offer id="H1MI1AL0237DSENN" available="true">
-        <name>Hyponic, спрей DE-SKUNK ефективно нейтралізує та усуває неприємні запахи, д/домаш.тварин,237 мл</name>
+        <name>Hyponic, спрей DE-SKUNK ефективно нейтралізує та усуває неприємні запахи, д/домаш.тварин,237 мл(6шт/уп)</name>
         <vendorCode>H1MI1AL0237DSENN</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
@@ -22993,8 +22984,8 @@
         <vendorCode>H1SH1AL1500HYKNN</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="H1SH1AL1500NOKNN" available="true">
@@ -23146,8 +23137,8 @@
         <vendorCode>H1SH1WH1500HYKNN</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="H1SH2DV0100HYKNN" available="true">
@@ -23222,14 +23213,14 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="H1SH2VL0100HYKNN" available="true">
+      <offer id="H1SH2VL0100HYKNN" available="false">
         <name>Hyponic Grooming Artist, шампунь - майстер по догляду за волоссям,для ручної стрижки та об'єму, 100 мл. (12 шт/уп)</name>
         <vendorCode>H1SH2VL0100HYKNN</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="H1SH2VL0530HYKNN" available="true">
         <name>Hyponic Grooming Artist, шампунь - майстер по догляду за волоссям,для ручної стрижки та об'єму, 530 мл. (6 шт/уп)</name>
@@ -23281,8 +23272,8 @@
         <vendorCode>H1SH3VL3800HYKNN</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="H1SH4VL0010HYKNN" available="true">
@@ -23564,14 +23555,14 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="H3YP0BT0700ZZKNN" available="true">
+      <offer id="H3YP0BT0700ZZKNN" available="false">
         <name>Флакон із піноутворювальним дозатором, для розведення шампуню"Hyponic" ,700 мл</name>
         <vendorCode>H3YP0BT0700ZZKNN</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="H3YP0SP0300ZZKNN" available="true">
         <name>Флакон для спрею "Hyponic",300 мл</name>
@@ -23704,8 +23695,8 @@
         <vendorCode>HR09-002</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="HR09-003" available="true">
@@ -23915,14 +23906,14 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="LSC-28" available="true">
+      <offer id="LSC-28" available="false">
         <name>Ласощі "Селянські Смаколики"для собак,кальцієва кісточка з куркою та рисом, 3,5-4,5см, 500г</name>
         <vendorCode>LSC-28</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="LSC-29" available="true">
         <name>Ласощі "Селянські Смаколики" для собак,курячі шашлички,ніжні, 6-10см, 500г (20уп./ящ)</name>
@@ -24014,14 +24005,14 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="LSC-62" available="true">
+      <offer id="LSC-62" available="false">
         <name>Ласощі "Селянські Смаколики" для собак,пенне з куркою та тріскою , 6-7 см ,500г</name>
         <vendorCode>LSC-62</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="LSD-02 (972)" available="false">
         <name>Ласощі "Селянські Смаколики"для собак,качині стріпси м'які, 11-14 см, 500г</name>
@@ -24046,8 +24037,8 @@
         <vendorCode>LSD-07 (325)</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="LSD-10" available="false">
@@ -24104,14 +24095,14 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="LSD-25" available="true">
+      <offer id="LSD-25" available="false">
         <name>Ласощі "Селянські Смаколики" для собак,качині слайси з куркою , 12х 2х 0,4см , 500г (20уп./ящ)</name>
         <vendorCode>LSD-25</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="LSD-26" available="true">
         <name>Ласощі "Селянські Смаколики" для собак,кальцієві кісточки з качкою та куркою, 7 см, 500г (20уп./ящ)</name>
@@ -24212,14 +24203,14 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="LSDC-12 (479)" available="true">
+      <offer id="LSDC-12 (479)" available="false">
         <name>Ласощі "Селянські Смаколики" для собак,зубна щітка молочна, 8-8,5 см, 500г (20уп./ящ)</name>
         <vendorCode>LSDC-12 (479)</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="LSDC-43" available="true">
         <name>Ласощі "Селянські Смаколики" для собак, морські тварини догляд за зубами, 500г (20уп./ящ)</name>
@@ -24352,8 +24343,8 @@
         <vendorCode>O6072412</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="PC 1401 A - 1987" available="true">
@@ -24437,14 +24428,14 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="PI0034" available="true">
+      <offer id="PI0034" available="false">
         <name>Іграшка "AGILITY" для собак кістка 15см, блакитна, 60шт/ящ</name>
         <vendorCode>PI0034</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="PI0044" available="true">
         <name>Іграшка "AGILITY" для собак кістка з отвором 12 см блакитна, 100шт/ящ</name>
@@ -24901,8 +24892,8 @@
         <vendorCode>PI1433</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="PM604010" available="true">
@@ -25022,14 +25013,14 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="R1AS0068" available="true">
+      <offer id="R1AS0068" available="false">
         <name>LINDO Спрей 2 в 1 лосьйон і шампунь для гризунів, 250мл</name>
         <vendorCode>R1AS0068</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="R2075880" available="false">
         <name>Дерев'яний дім для гризуна Корнер, 42х15х30см</name>
@@ -25670,14 +25661,14 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="К-724 (0,415)" available="true">
+      <offer id="К-724 (0,415)" available="false">
         <name>Корм Добрий Кіт, д/дорослих котів шматочки з індичкою в соусі, 415 гр. ж/б (8шт в уп)</name>
         <vendorCode>К-724 (0,415)</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="К-731 (0,415)" available="true">
         <name>Корм Добрий Кіт, д/дорослих котів паштет м'ясне асорті, 415 гр. ж/б (8шт в уп)</name>
@@ -25765,8 +25756,8 @@
         <vendorCode>ММ-24</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
+        <quantity_in_stock>1</quantity_in_stock>
+        <stock>1</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="ММ-30" available="true">
@@ -25832,14 +25823,14 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="ММ-51" available="true">
+      <offer id="ММ-51" available="false">
         <name>Диван для тварин Agility Софа сірий, знімний чохол на блискавці, 60х50х20 см</name>
         <vendorCode>ММ-51</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="ММ-52" available="true">
         <name>Лежак для тварин Agility Колізей S бежевий 50х50х20 см</name>
@@ -26058,7 +26049,7 @@
         <in_stock>0</in_stock>
       </offer>
       <offer id="НФ-00002026" available="false">
-        <name>Шампунь FIPROMAX від бліх (з пропоксуром) для соб. серед.і вел.порід, 250 мл - 10шт.уп</name>
+        <name>НФ-00002026</name>
         <vendorCode>НФ-00002026</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
@@ -26192,14 +26183,14 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="НФ-00002586" available="true">
+      <offer id="НФ-00002586" available="false">
         <name>Лосьйон-спрей FIPROMAX БІО д/зубів гігієнічні ,для котів і собак 30мл - 10шт/уп</name>
         <vendorCode>НФ-00002586</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="НФ-00002587" available="false">
         <name>Лосьйон-спрей FIPROMAX БІО д/вух гігієнічні для котів і собак 30мл - 10шт/уп</name>
@@ -26544,7 +26535,7 @@
         <in_stock>0</in_stock>
       </offer>
       <offer id="НФ-00005091" available="false">
-        <name>Шампунь ZOO-ZOO для собак (пропоскур+пірипроксифен) 250 мл</name>
+        <name>НФ-00005091</name>
         <vendorCode>НФ-00005091</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
@@ -26553,7 +26544,7 @@
         <in_stock>0</in_stock>
       </offer>
       <offer id="НФ-00005092" available="false">
-        <name>НФ-00005092</name>
+        <name>Шампунь ZOO-ZOO універсальний для собак/котів/гризунів (пропоскур+піріпроксіфен) 400 мл</name>
         <vendorCode>НФ-00005092</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
@@ -26579,14 +26570,14 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="НФ-00005103" available="true">
+      <offer id="НФ-00005103" available="false">
         <name>Нашийник ZOO-ZOO для котів та собак дрібних порід, (Діазинон,Пірипроксифен) 35 см - 10шт.уп ,Синій, захист від параз. 4 міс.</name>
         <vendorCode>НФ-00005103</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="НФ-00005104" available="true">
         <name>Нашийник ZOO-ZOO для собак , (Діазинон,Пірипроксифен) 70 см - 10шт.уп ,Чорний, захист від параз. 4 міс.</name>
@@ -26633,14 +26624,14 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="НФ-00005135" available="true">
-        <name>Спрей ZOO - ZOO для гризунів та птахів (Пропоксур) 150мл./уп.10 шт</name>
+      <offer id="НФ-00005135" available="false">
+        <name>НФ-00005135</name>
         <vendorCode>НФ-00005135</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="НФ-00005141" available="true">
         <name>Суспензія антигельмінтна ZOO-ZOO для собак дрібних порід, (Празел) 10 мл. (12шт в упак)</name>
@@ -26948,14 +26939,14 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="НФ-00005773" available="true">
+      <offer id="НФ-00005773" available="false">
         <name>Фітопаста MAXI PAWS для виведення шерсті котів, 100 гр (6шт/уп)</name>
         <vendorCode>НФ-00005773</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="НФ-00005774" available="true">
         <name>Фітопаста MAXI PAWS для стерилізованих котів, 100 гр (6шт/уп)</name>
@@ -27533,14 +27524,14 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="СС-40" available="true">
+      <offer id="СС-40" available="false">
         <name>Ласощі для собак Куряча лапка кальцінована 10 шт. в упак.</name>
         <vendorCode>СС-40</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="СС-41" available="true">
         <name>Ласощі для собак Телячий ніс</name>
@@ -27677,14 +27668,14 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="Тофу 2,6кг класичний" available="true">
+      <offer id="Тофу 2,6кг класичний" available="false">
         <name>Наповнювач Тофу "Пухнастики", класичний, без аромату 2,6 кг(6л) 4шт/уп</name>
         <vendorCode>Тофу 2,6кг класичний</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>2</quantity_in_stock>
-        <stock>2</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="Тофу 2,6кг лаванда" available="true">
         <name>Наповнювач Тофу "Пухнастики", з ароматом лаванди, 2,6 кг(6л) 4шт/уп</name>
@@ -27794,41 +27785,41 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="ШП-41" available="true">
+      <offer id="ШП-41" available="false">
         <name>Шлея з повідцем "Пухнастики" (червона) 1,2 м</name>
         <vendorCode>ШП-41</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>1</quantity_in_stock>
-        <stock>1</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
-      <offer id="ЮП-1" available="false">
+      <offer id="ЮП-1" available="true">
         <name>Будиночок-Юрта "Пухнастики" (бежевий) 40*40*35</name>
         <vendorCode>ЮП-1</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
+        <in_stock>1</in_stock>
       </offer>
-      <offer id="ЮП-2" available="false">
+      <offer id="ЮП-2" available="true">
         <name>Будиночок-Юрта "Пухнастики" (шоколад) 40*40*35</name>
         <vendorCode>ЮП-2</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
+        <in_stock>1</in_stock>
       </offer>
-      <offer id="ЮП-3" available="false">
+      <offer id="ЮП-3" available="true">
         <name>Будиночок-Юрта "Пухнастики" (сіра) 40*40*35</name>
         <vendorCode>ЮП-3</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="дерев 800гр" available="true">
         <name>Наповнювач д/гриз.дерев. "Пухнастики", 800 гр (2,5л) 10 шт/уп</name>
@@ -27848,14 +27839,14 @@
         <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="кукуруза 2,5л" available="false">
+      <offer id="кукуруза 2,5л" available="true">
         <name>Кукурудзяний наповнювач д/гриз. "Пухнастики ECOcorn", 2,5л, 10 шт/уп</name>
         <vendorCode>кукуруза 2,5л</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="опилки 500гр" available="false">
         <name>Тирса д/гриз.древ."Пухнастики", 500гр (6л) 10 шт/уп</name>
@@ -27866,14 +27857,14 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="сено 6л" available="false">
+      <offer id="сено 6л" available="true">
         <name>Сіно д/гриз. "Пухнастики. Магія Карпат", 6л 10 шт/уп</name>
         <vendorCode>сено 6л</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
+        <in_stock>1</in_stock>
       </offer>
     </offers>
   </shop>
