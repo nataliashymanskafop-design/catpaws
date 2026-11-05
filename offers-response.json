@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T15:43:10Z",
+  "updatedAt": "2026-11-05T21:51:23Z",
   "total": 1672,
   "data": [
     {
@@ -3591,11 +3591,11 @@
       "price": 1191,
       "old_price": null,
       "availability": true,
-      "stock": 20,
+      "stock": 5,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 20
+          "stock": 5
         }
       ],
       "warranty_type": "no",
@@ -8883,11 +8883,11 @@
       "price": 651,
       "old_price": 930,
       "availability": true,
-      "stock": 18,
+      "stock": 16,
       "warehouses": [
         {
           "id": "DOMS",
-          "stock": 18
+          "stock": 16
         }
       ],
       "warranty_type": "no",
@@ -11963,11 +11963,11 @@
       "price": 348,
       "old_price": null,
       "availability": true,
-      "stock": 11,
+      "stock": 10,
       "warehouses": [
         {
           "id": "SUPPLIER",
-          "stock": 11
+          "stock": 10
         }
       ],
       "warranty_type": "no",
@@ -16554,12 +16554,12 @@
       "code": "NPB46244",
       "price": 5324,
       "old_price": null,
-      "availability": true,
-      "stock": 20,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 20
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -21315,11 +21315,11 @@
       "price": 1539,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 3,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 1
+          "id": "TERRAVET",
+          "stock": 3
         }
       ],
       "warranty_type": "no",
@@ -22015,11 +22015,11 @@
       "price": 1545,
       "old_price": 1818,
       "availability": true,
-      "stock": 1,
+      "stock": 17,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 1
+          "id": "TERRAVET",
+          "stock": 17
         }
       ],
       "warranty_type": "no",
@@ -31871,11 +31871,11 @@
       "price": 500,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 50,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 1
+          "id": "TERRAVET",
+          "stock": 50
         }
       ],
       "warranty_type": "no",
