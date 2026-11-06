@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-11-06 11:42">
+<yml_catalog date="2026-11-06 19:15">
   <shop>
     <name>CatPaws Kormax stock</name>
     <company>CatPaws</company>
@@ -3512,14 +3512,14 @@
         <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="TPL63398" available="true">
+      <offer id="TPL63398" available="false">
         <name>Рушник для домашніх тварин з мікрофібри Tauro Pro Line, grey 80*120 cм</name>
         <vendorCode>TPL63398</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="TPL63399" available="true">
         <name>Рушник для домашніх тварин з мікрофібри Tauro Pro Line, purple 80*120 cm</name>
@@ -3553,8 +3553,8 @@
         <vendorCode>TPL63582</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>10</quantity_in_stock>
-        <stock>10</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="TPL63583" available="true">
@@ -3746,14 +3746,14 @@
         <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="TPL63608" available="true">
+      <offer id="TPL63608" available="false">
         <name>Кератиновий шампунь для шерсті собак та котів TAURO PRO LINE Ultra Natural Care Keratin &amp; Gloss Shampoo, 3785 мл</name>
         <vendorCode>TPL63608</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="TPL63609" available="true">
         <name>Кератиновий кондиціонер для шерсті собак та котів TAURO PRO LINE Ultra Natural Care Keratin &amp; Gloss Conditioner, 400 мл</name>
@@ -3841,8 +3841,8 @@
         <vendorCode>TPL63618</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="TPL63619" available="true">
