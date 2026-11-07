@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T22:16:34Z",
+  "updatedAt": "2026-11-07T09:06:15Z",
   "total": 1672,
   "data": [
     {
@@ -9807,11 +9807,11 @@
       "price": 387,
       "old_price": null,
       "availability": true,
-      "stock": 37,
+      "stock": 35,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 37
+          "stock": 35
         }
       ],
       "warranty_type": "no",
@@ -9863,11 +9863,11 @@
       "price": 392,
       "old_price": null,
       "availability": true,
-      "stock": 38,
+      "stock": 36,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 38
+          "stock": 36
         }
       ],
       "warranty_type": "no",
@@ -9919,11 +9919,11 @@
       "price": 384,
       "old_price": null,
       "availability": true,
-      "stock": 50,
+      "stock": 48,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 50
+          "stock": 48
         }
       ],
       "warranty_type": "no",
@@ -13587,11 +13587,11 @@
       "price": 335,
       "old_price": null,
       "availability": true,
-      "stock": 28,
+      "stock": 26,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 28
+          "stock": 26
         }
       ],
       "warranty_type": "no",
@@ -13615,11 +13615,11 @@
       "price": 541,
       "old_price": null,
       "availability": true,
-      "stock": 21,
+      "stock": 19,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 21
+          "stock": 19
         }
       ],
       "warranty_type": "no",
@@ -35818,12 +35818,12 @@
       "code": "ЗС000406-3",
       "price": 630,
       "old_price": null,
-      "availability": true,
-      "stock": 16,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 16
+          "stock": 0
         }
       ],
       "warranty_type": "no",
