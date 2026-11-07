@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T09:06:15Z",
+  "updatedAt": "2026-11-07T15:51:15Z",
   "total": 1672,
   "data": [
     {
@@ -8015,11 +8015,11 @@
       "price": 990,
       "old_price": null,
       "availability": true,
-      "stock": 1,
+      "stock": 19,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 1
+          "id": "DOMS",
+          "stock": 19
         }
       ],
       "warranty_type": "no",
@@ -9807,11 +9807,11 @@
       "price": 387,
       "old_price": null,
       "availability": true,
-      "stock": 35,
+      "stock": 50,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 35
+          "stock": 50
         }
       ],
       "warranty_type": "no",
@@ -9835,11 +9835,11 @@
       "price": 331,
       "old_price": null,
       "availability": true,
-      "stock": 47,
+      "stock": 50,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 47
+          "stock": 50
         }
       ],
       "warranty_type": "no",
@@ -9863,11 +9863,11 @@
       "price": 392,
       "old_price": null,
       "availability": true,
-      "stock": 36,
+      "stock": 50,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 36
+          "stock": 50
         }
       ],
       "warranty_type": "no",
@@ -9919,11 +9919,11 @@
       "price": 384,
       "old_price": null,
       "availability": true,
-      "stock": 48,
+      "stock": 50,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 48
+          "stock": 50
         }
       ],
       "warranty_type": "no",
@@ -10143,11 +10143,11 @@
       "price": 3231,
       "old_price": null,
       "availability": true,
-      "stock": 18,
+      "stock": 17,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 18
+          "stock": 17
         }
       ],
       "warranty_type": "no",
@@ -11151,11 +11151,11 @@
       "price": 3263,
       "old_price": null,
       "availability": true,
-      "stock": 20,
+      "stock": 19,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 20
+          "stock": 19
         }
       ],
       "warranty_type": "no",
@@ -13587,11 +13587,11 @@
       "price": 335,
       "old_price": null,
       "availability": true,
-      "stock": 26,
+      "stock": 28,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 26
+          "stock": 28
         }
       ],
       "warranty_type": "no",
@@ -13615,11 +13615,11 @@
       "price": 541,
       "old_price": null,
       "availability": true,
-      "stock": 19,
+      "stock": 22,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 19
+          "stock": 22
         }
       ],
       "warranty_type": "no",
@@ -19635,11 +19635,11 @@
       "price": 2890,
       "old_price": 3612,
       "availability": true,
-      "stock": 20,
+      "stock": 19,
       "warehouses": [
         {
           "id": "DOMS",
-          "stock": 20
+          "stock": 19
         }
       ],
       "warranty_type": "no",
@@ -35595,11 +35595,11 @@
       "price": 500,
       "old_price": null,
       "availability": true,
-      "stock": 50,
+      "stock": 10,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 50
+          "stock": 10
         }
       ],
       "warranty_type": "no",
@@ -35623,11 +35623,11 @@
       "price": 500,
       "old_price": null,
       "availability": true,
-      "stock": 50,
+      "stock": 16,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 50
+          "stock": 16
         }
       ],
       "warranty_type": "no",
@@ -35818,12 +35818,12 @@
       "code": "ЗС000406-3",
       "price": 630,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 1,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 0
+          "stock": 1
         }
       ],
       "warranty_type": "no",
