@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-11-09 03:51">
+<yml_catalog date="2026-11-09 11:25">
   <shop>
     <name>CatPaws Kormax stock</name>
     <company>CatPaws</company>
@@ -3733,8 +3733,8 @@
         <vendorCode>TPL63606</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="TPL63607" available="true">
@@ -4012,8 +4012,8 @@
         <vendorCode>TPLPN63381</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>19</quantity_in_stock>
+        <stock>19</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="TPLPN63382" available="true">

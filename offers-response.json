@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T22:22:47Z",
+  "updatedAt": "2026-11-09T09:26:44Z",
   "total": 1672,
   "data": [
     {
@@ -791,11 +791,11 @@
       "price": 3091,
       "old_price": null,
       "availability": true,
-      "stock": 4,
+      "stock": 3,
       "warehouses": [
         {
           "id": "SUPPLIER",
-          "stock": 4
+          "stock": 3
         }
       ],
       "warranty_type": "no",
@@ -875,11 +875,11 @@
       "price": 542,
       "old_price": 677,
       "availability": true,
-      "stock": 15,
+      "stock": 14,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 15
+          "stock": 14
         }
       ],
       "warranty_type": "no",
@@ -903,11 +903,11 @@
       "price": 3149,
       "old_price": 3705,
       "availability": true,
-      "stock": 19,
+      "stock": 18,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 19
+          "stock": 18
         }
       ],
       "warranty_type": "no",
@@ -3199,11 +3199,11 @@
       "price": 405,
       "old_price": null,
       "availability": true,
-      "stock": 20,
+      "stock": 19,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 20
+          "stock": 19
         }
       ],
       "warranty_type": "no",
@@ -7063,11 +7063,11 @@
       "price": 919,
       "old_price": null,
       "availability": true,
-      "stock": 20,
+      "stock": 10,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 20
+          "stock": 10
         }
       ],
       "warranty_type": "no",
@@ -8015,17 +8015,17 @@
       "price": 990,
       "old_price": null,
       "availability": true,
-      "stock": 19,
+      "stock": 1,
       "warehouses": [
         {
-          "id": "DOMS",
-          "stock": 19
+          "id": "SUPPLIER",
+          "stock": 1
         }
       ],
       "warranty_type": "no",
       "warranty_period": 0,
       "max_pay_in_parts": 6,
-      "days_to_dispatch": 2,
+      "days_to_dispatch": 1,
       "delivery_methods": [
         {
           "method": "nova-post:branch",
@@ -11767,11 +11767,11 @@
       "price": 2041,
       "old_price": null,
       "availability": true,
-      "stock": 12,
+      "stock": 11,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 12
+          "stock": 11
         }
       ],
       "warranty_type": "no",
@@ -13587,11 +13587,11 @@
       "price": 335,
       "old_price": null,
       "availability": true,
-      "stock": 26,
+      "stock": 24,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 26
+          "stock": 24
         }
       ],
       "warranty_type": "no",
@@ -27475,11 +27475,11 @@
       "price": 544,
       "old_price": null,
       "availability": true,
-      "stock": 13,
+      "stock": 12,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 13
+          "stock": 12
         }
       ],
       "warranty_type": "no",
@@ -35595,11 +35595,11 @@
       "price": 500,
       "old_price": null,
       "availability": true,
-      "stock": 10,
+      "stock": 3,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 10
+          "stock": 3
         }
       ],
       "warranty_type": "no",
@@ -35623,11 +35623,11 @@
       "price": 500,
       "old_price": null,
       "availability": true,
-      "stock": 16,
+      "stock": 13,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 16
+          "stock": 13
         }
       ],
       "warranty_type": "no",
