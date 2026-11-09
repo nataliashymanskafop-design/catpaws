@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-11-09 11:25">
+<yml_catalog date="2026-11-09 21:58">
   <shop>
     <name>CatPaws Kormax stock</name>
     <company>CatPaws</company>
@@ -515,14 +515,14 @@
         <stock>40</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="KIK24521" available="true">
+      <offer id="KIK24521" available="false">
         <name>Вологий корм для цуценят з ягням, 200 г Nature's Protection Puppy Lamb</name>
         <vendorCode>KIK24521</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>40</quantity_in_stock>
-        <stock>40</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="KIK24522" available="true">
         <name>Вологий корм для собак з куркою та індичкою, 200 г Nature's Protection Adult Chicken &amp; Turkey</name>
@@ -1379,14 +1379,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPB46244" available="false">
+      <offer id="NPB46244" available="true">
         <name>Сухий корм для дорослих собак великих порід з ягням Nature's Protection Lamb Adult Maxi Breeds 18 кг</name>
         <vendorCode>NPB46244</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="NPB46245" available="true">
         <name>Сухий корм для дорослих собак малих порід з ягнятиною Mini Adult Lamb Small Breeds 18кг</name>
@@ -2041,8 +2041,8 @@
         <vendorCode>NPS45742</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>10</quantity_in_stock>
-        <stock>10</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPS45744" available="false">
@@ -2239,8 +2239,8 @@
         <vendorCode>NPS45765</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>10</quantity_in_stock>
-        <stock>10</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPS45766" available="true">
@@ -2765,15 +2765,6 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPSC47439" available="false">
-        <name>Сухий беззерновий корм з оселедцем для дорослих собак малих порід Superior Care White Dogs Grain Free with Herring Adult Small Breeds 1.5кг</name>
-        <vendorCode>NPSC47439</vendorCode>
-        <currencyId>UAH</currencyId>
-        <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
-      </offer>
       <offer id="NPSC47440" available="true">
         <name>Сухий беззерновий корм для дорослих собак малих порід з білою шерстю Superior Care White Dogs Grain Free with Herring Adult Small Breeds 10кг</name>
         <vendorCode>NPSC47440</vendorCode>
@@ -2782,15 +2773,6 @@
         <quantity_in_stock>10</quantity_in_stock>
         <stock>10</stock>
         <in_stock>1</in_stock>
-      </offer>
-      <offer id="NPSC47441" available="false">
-        <name>Сухий беззерновий корм для дорослих собак малих порід з білою шерстю Superior Care White Dogs Grain Free with Insect Adult Small Breeds 1.5кг</name>
-        <vendorCode>NPSC47441</vendorCode>
-        <currencyId>UAH</currencyId>
-        <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
       </offer>
       <offer id="NPSC47590" available="true">
         <name>Сухий корм для собак усіх розмірів і стадій життя з білою рибою, 4 кг Nature's Protection Superior Care White Dogs White Fish All Sizes&amp;Life Stages</name>
@@ -3004,8 +2986,8 @@
         <vendorCode>NPSC47779</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>10</quantity_in_stock>
-        <stock>10</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPSC47780" available="false">
@@ -3022,8 +3004,8 @@
         <vendorCode>NPSC47781</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>19</quantity_in_stock>
-        <stock>19</stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPSC47910" available="false">
@@ -3121,8 +3103,8 @@
         <vendorCode>NPSCVET47577</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPSCVET47579" available="true">
