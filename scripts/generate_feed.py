@@ -22,6 +22,7 @@ FORCE_ZERO_SKUS = {
     "254181",  # Start & Go puppy/maternity 10 kg: confirmed unavailable 2026-10-14.
     "5578",  # happyOne Insect Protein 10 kg, Darwin
     "1021008",  # HOME FOOD: confirmed unavailable on 2026-10-12.
+    "ЗС000410",  # MODES VetSmile anti-inflammatory gum gel 25 ml: unavailable 2026-11-10.
 }
 
 
