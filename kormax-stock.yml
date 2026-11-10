@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-11-10 12:54">
+<yml_catalog date="2026-11-10 20:31">
   <shop>
     <name>CatPaws Kormax stock</name>
     <company>CatPaws</company>
@@ -317,14 +317,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="CAN63293" available="true">
+      <offer id="CAN63293" available="false">
         <name>Харчова добавка для покращення стану шкіри і шерсті дорослих котів, 120 таблеток Nature's Protection Beauty Formula</name>
         <vendorCode>CAN63293</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>10</quantity_in_stock>
-        <stock>10</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="CAN63294" available="false">
         <name>Замінник молока для кошенят, 200 г Nature's Protection Kitty-milk</name>
@@ -826,8 +826,8 @@
         <vendorCode>KIK45608</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>60</quantity_in_stock>
-        <stock>60</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="KIK45610" available="false">
@@ -1379,14 +1379,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPB46244" available="true">
+      <offer id="NPB46244" available="false">
         <name>Сухий корм для дорослих собак великих порід з ягням Nature's Protection Lamb Adult Maxi Breeds 18 кг</name>
         <vendorCode>NPB46244</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="NPB46245" available="true">
         <name>Сухий корм для дорослих собак малих порід з ягнятиною Mini Adult Lamb Small Breeds 18кг</name>
@@ -1702,24 +1702,6 @@
         <quantity_in_stock>59</quantity_in_stock>
         <stock>59</stock>
         <in_stock>1</in_stock>
-      </offer>
-      <offer id="NPPR47923" available="false">
-        <name>Вологий корм для активних собак з куркою і яловичиною Nature's Protection Prime Active Adult Dogs Chicken and Beef, 85 г</name>
-        <vendorCode>NPPR47923</vendorCode>
-        <currencyId>UAH</currencyId>
-        <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
-      </offer>
-      <offer id="NPPR47923_box" available="false">
-        <name>Вологий корм для активних собак з куркою і яловичиною Nature's Protection Prime Active Adult Dogs Chicken and Beef, 85 г * 12 шт</name>
-        <vendorCode>NPPR47923_box</vendorCode>
-        <currencyId>UAH</currencyId>
-        <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
       </offer>
       <offer id="NPPR47924" available="true">
         <name>Вологий корм для собак для контролю ваги з куркою і білою рибою Nature's Protection Prime Weight Control Adult Dogs Chicken and White Fish, 85 г</name>
@@ -2986,8 +2968,8 @@
         <vendorCode>NPSC47779</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
+        <quantity_in_stock>4</quantity_in_stock>
+        <stock>4</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPSC47780" available="false">
@@ -3967,8 +3949,8 @@
         <vendorCode>TPL63797</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="TPL63798" available="true">
