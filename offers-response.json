@@ -9915,6 +9915,34 @@
       "manufacture": null
     },
     {
+      "code": "ЗС000314",
+      "price": 619,
+      "old_price": null,
+      "availability": true,
+      "stock": 5,
+      "warehouses": [
+        {
+          "id": "TERRAVET",
+          "stock": 5
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 0,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
       "code": "ЗС000217",
       "price": 384,
       "old_price": null,
@@ -18072,34 +18100,6 @@
         {
           "id": "KORMAX",
           "stock": 20
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "NPB46244",
-      "price": 5324,
-      "old_price": null,
-      "availability": false,
-      "stock": 0,
-      "warehouses": [
-        {
-          "id": "KORMAX",
-          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -27275,34 +27275,6 @@
       "manufacture": null
     },
     {
-      "code": "CAN63293",
-      "price": 833,
-      "old_price": null,
-      "availability": false,
-      "stock": 0,
-      "warehouses": [
-        {
-          "id": "KORMAX",
-          "stock": 0
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
       "code": "CAN63299",
       "price": 823,
       "old_price": null,
@@ -27402,6 +27374,34 @@
       "warranty_period": 0,
       "max_pay_in_parts": 6,
       "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "ЗС000475",
+      "price": 516,
+      "old_price": null,
+      "availability": true,
+      "stock": 47,
+      "warehouses": [
+        {
+          "id": "TERRAVET",
+          "stock": 47
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 0,
       "delivery_methods": [
         {
           "method": "nova-post:branch",
@@ -35843,34 +35843,6 @@
       "manufacture": null
     },
     {
-      "code": "ЗС000406-3",
-      "price": 630,
-      "old_price": null,
-      "availability": false,
-      "stock": 0,
-      "warehouses": [
-        {
-          "id": "TERRAVET",
-          "stock": 0
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
       "code": "3108016",
       "price": 781,
       "old_price": null,
@@ -36614,34 +36586,6 @@
       "warranty_period": 0,
       "max_pay_in_parts": 6,
       "days_to_dispatch": 2,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "ЗС000314",
-      "price": 619,
-      "old_price": null,
-      "availability": true,
-      "stock": 5,
-      "warehouses": [
-        {
-          "id": "TERRAVET",
-          "stock": 5
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
       "delivery_methods": [
         {
           "method": "nova-post:branch",
@@ -38210,6 +38154,34 @@
       "warranty_period": 0,
       "max_pay_in_parts": 6,
       "days_to_dispatch": 0,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "NPB46244",
+      "price": 5324,
+      "old_price": null,
+      "availability": false,
+      "stock": 0,
+      "warehouses": [
+        {
+          "id": "KORMAX",
+          "stock": 0
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
       "delivery_methods": [
         {
           "method": "nova-post:branch",
@@ -39903,6 +39875,34 @@
       "manufacture": null
     },
     {
+      "code": "CAN63293",
+      "price": 833,
+      "old_price": null,
+      "availability": false,
+      "stock": 0,
+      "warehouses": [
+        {
+          "id": "KORMAX",
+          "stock": 0
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 1,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
       "code": "CAN63304",
       "price": 1056,
       "old_price": null,
@@ -39974,34 +39974,6 @@
       "warranty_period": 0,
       "max_pay_in_parts": 6,
       "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "ЗС000475",
-      "price": 516,
-      "old_price": null,
-      "availability": true,
-      "stock": 47,
-      "warehouses": [
-        {
-          "id": "TERRAVET",
-          "stock": 47
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
       "delivery_methods": [
         {
           "method": "nova-post:branch",
@@ -46737,6 +46709,34 @@
     {
       "code": "ЗС000405-3",
       "price": 504,
+      "old_price": null,
+      "availability": false,
+      "stock": 0,
+      "warehouses": [
+        {
+          "id": "TERRAVET",
+          "stock": 0
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 0,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "ЗС000406-3",
+      "price": 630,
       "old_price": null,
       "availability": false,
       "stock": 0,
