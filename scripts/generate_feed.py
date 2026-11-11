@@ -23,6 +23,17 @@ FORCE_ZERO_SKUS = {
     "5578",  # happyOne Insect Protein 10 kg, Darwin
     "1021008",  # HOME FOOD: confirmed unavailable on 2026-10-12.
     "ЗС000410",  # MODES VetSmile anti-inflammatory gum gel 25 ml: unavailable 2026-11-10.
+    # Exclusion cat food 300 g: confirmed unavailable on 2026-11-11.
+    "5191",  # Exclusion Kitten Chicken, 300 g.
+    "04543",  # Exclusion Kitten Beef, 0.3 kg, 300 g.
+    "5194",  # Exclusion Adult Beef, 300 g.
+    "5196",  # Exclusion Adult Tuna, 300 g.
+    "5545",  # Exclusion Adult Chicken, 300 g.
+    "5198",  # Exclusion Sterilized Beef, 300 g.
+    "5201",  # Exclusion Sterilized Tuna, 300 g.
+    "6062",  # Exclusion Sterilized Chicken, 300 g.
+    "6025",  # Exclusion Sterilized 7+ Chicken, 300 g.
+    "6027",  # Exclusion Sterilized Giant Chicken, 300 g.
 }
 
 
