@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T13:51:24Z",
+  "updatedAt": "2026-11-11T21:08:51Z",
   "total": 1672,
   "data": [
     {
@@ -3422,12 +3422,12 @@
       "code": "NPSC47228",
       "price": 1164,
       "old_price": null,
-      "availability": true,
-      "stock": 10,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 10
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -7370,12 +7370,12 @@
       "code": "TPL63580",
       "price": 1125,
       "old_price": null,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 5,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 0
+          "stock": 5
         }
       ],
       "warranty_type": "no",
@@ -10395,11 +10395,11 @@
       "price": 2497,
       "old_price": 2938,
       "availability": true,
-      "stock": 19,
+      "stock": 18,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 19
+          "stock": 18
         }
       ],
       "warranty_type": "no",
@@ -10703,11 +10703,11 @@
       "price": 715,
       "old_price": 953,
       "availability": true,
-      "stock": 14,
+      "stock": 12,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 14
+          "stock": 12
         }
       ],
       "warranty_type": "no",
@@ -17703,11 +17703,11 @@
       "price": 564,
       "old_price": null,
       "availability": true,
-      "stock": 3,
+      "stock": 2,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 3
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -17759,11 +17759,11 @@
       "price": 564,
       "old_price": null,
       "availability": true,
-      "stock": 3,
+      "stock": 2,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 3
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -17787,11 +17787,11 @@
       "price": 564,
       "old_price": null,
       "availability": true,
-      "stock": 4,
+      "stock": 3,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 4
+          "stock": 3
         }
       ],
       "warranty_type": "no",
@@ -17815,11 +17815,11 @@
       "price": 451,
       "old_price": null,
       "availability": true,
-      "stock": 3,
+      "stock": 2,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 3
+          "stock": 2
         }
       ],
       "warranty_type": "no",
@@ -26606,12 +26606,12 @@
       "code": "NPSC47646",
       "price": 8146,
       "old_price": null,
-      "availability": true,
-      "stock": 5,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 5
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -34727,11 +34727,11 @@
       "price": 2003,
       "old_price": null,
       "availability": true,
-      "stock": 14,
+      "stock": 13,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 14
+          "stock": 13
         }
       ],
       "warranty_type": "no",

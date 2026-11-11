@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-11-11 15:50">
+<yml_catalog date="2026-11-11 23:08">
   <shop>
     <name>CatPaws HOME FOOD stock</name>
     <company>CatPaws</company>
@@ -160,8 +160,8 @@
         <vendorCode>1017100</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>19</quantity_in_stock>
-        <stock>19</stock>
+        <quantity_in_stock>18</quantity_in_stock>
+        <stock>18</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="1018100" available="true">
@@ -178,8 +178,8 @@
         <vendorCode>1018330</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>14</quantity_in_stock>
-        <stock>14</stock>
+        <quantity_in_stock>12</quantity_in_stock>
+        <stock>12</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="1019004" available="false">
@@ -529,8 +529,8 @@
         <vendorCode>1367101</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>14</quantity_in_stock>
-        <stock>14</stock>
+        <quantity_in_stock>13</quantity_in_stock>
+        <stock>13</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="1367102" available="true">
@@ -853,8 +853,8 @@
         <vendorCode>3079004</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>18</quantity_in_stock>
-        <stock>18</stock>
+        <quantity_in_stock>15</quantity_in_stock>
+        <stock>15</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="3079016" available="true">
@@ -871,8 +871,8 @@
         <vendorCode>3088004</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>16</quantity_in_stock>
-        <stock>16</stock>
+        <quantity_in_stock>13</quantity_in_stock>
+        <stock>13</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="3088016" available="true">
@@ -1285,8 +1285,8 @@
         <vendorCode>7010019</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>40</quantity_in_stock>
-        <stock>40</stock>
+        <quantity_in_stock>30</quantity_in_stock>
+        <stock>30</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7010019_box" available="true">
@@ -1294,8 +1294,8 @@
         <vendorCode>7010019_box</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>3</quantity_in_stock>
-        <stock>3</stock>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7010022" available="true">
@@ -1312,8 +1312,8 @@
         <vendorCode>7010023</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>38</quantity_in_stock>
-        <stock>38</stock>
+        <quantity_in_stock>28</quantity_in_stock>
+        <stock>28</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7010023_box" available="true">
@@ -1321,8 +1321,8 @@
         <vendorCode>7010023_box</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>3</quantity_in_stock>
-        <stock>3</stock>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7010024" available="true">
@@ -1330,8 +1330,8 @@
         <vendorCode>7010024</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>50</quantity_in_stock>
-        <stock>50</stock>
+        <quantity_in_stock>40</quantity_in_stock>
+        <stock>40</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7010024_box" available="true">
@@ -1339,8 +1339,8 @@
         <vendorCode>7010024_box</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>4</quantity_in_stock>
-        <stock>4</stock>
+        <quantity_in_stock>3</quantity_in_stock>
+        <stock>3</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7010025" available="true">
@@ -1348,8 +1348,8 @@
         <vendorCode>7010025</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>37</quantity_in_stock>
-        <stock>37</stock>
+        <quantity_in_stock>27</quantity_in_stock>
+        <stock>27</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7010025_box" available="true">
@@ -1357,8 +1357,8 @@
         <vendorCode>7010025_box</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>3</quantity_in_stock>
-        <stock>3</stock>
+        <quantity_in_stock>2</quantity_in_stock>
+        <stock>2</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7010026" available="true">
