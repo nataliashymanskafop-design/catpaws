@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-11-12 12:07">
+<yml_catalog date="2026-11-12 20:31">
   <shop>
     <name>CatPaws Kormax stock</name>
     <company>CatPaws</company>
@@ -497,14 +497,14 @@
         <stock>40</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="KIK24519" available="false">
+      <offer id="KIK24519" available="true">
         <name>Вологий корм для собак схильних повноти з індичкою і ягням, 200 г Nature's Protection Adult Light Turkey &amp; Lamb</name>
         <vendorCode>KIK24519</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>40</quantity_in_stock>
+        <stock>40</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="KIK24520" available="true">
         <name>Вологий корм для собак малих порід з індичкою і яблуками, 200 г Nature's Protection Adult Small BreedsTurkey &amp; Apples</name>
@@ -857,23 +857,23 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="KIKNPLF63358" available="false">
+      <offer id="KIKNPLF63358" available="true">
         <name>Суп для стерилізованих котів з лососем NP Lifestyle Sterilised Salmon, 140мл</name>
         <vendorCode>KIKNPLF63358</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
       </offer>
-      <offer id="KIKNPLF63359" available="false">
+      <offer id="KIKNPLF63359" available="true">
         <name>Суп для котів з чутливим травленням, з тунцем NP Lifestyle Sensitive Digestion, 140мл</name>
         <vendorCode>KIKNPLF63359</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="KIKNPLS47203" available="true">
         <name>Беззернові ласощі з білою рибою для активних молодих собак всіх порід Nature's Protection Lifestyle Grain Free White fish Active &amp; Fresh, 150г</name>
@@ -1145,14 +1145,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="KIKNPSC70542" available="true">
+      <offer id="KIKNPSC70542" available="false">
         <name>Ласощі для собак кролячі вушка з начинкою з кролика, 75 г Nature's Protection Superior Care Rabbit Ears with Rabbit Filling</name>
         <vendorCode>KIKNPSC70542</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>10</quantity_in_stock>
-        <stock>10</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="KIKNPSP47238" available="true">
         <name>Ласощі для цуценят з м'ясом птиці Nature's Protection Poultry Healthy Growth, 150г</name>
@@ -1379,14 +1379,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPB46244" available="false">
+      <offer id="NPB46244" available="true">
         <name>Сухий корм для дорослих собак великих порід з ягням Nature's Protection Lamb Adult Maxi Breeds 18 кг</name>
         <vendorCode>NPB46244</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="NPB46245" available="true">
         <name>Сухий корм для дорослих собак малих порід з ягнятиною Mini Adult Lamb Small Breeds 18кг</name>
@@ -1568,14 +1568,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPLS45803" available="false">
+      <offer id="NPLS45803" available="true">
         <name>Сухий беззерновий корм для стерілізованих дорослих котів з білою рибою Lifestyle Grain Free White Fish Sterilised Adult Cat 7кг</name>
         <vendorCode>NPLS45803</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="NPLS45952" available="true">
         <name>Сухий беззерновий корм для кошенят з лососем Lifestyle Grain Free Salmon Kitten 400г</name>
@@ -1586,14 +1586,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPLS45953" available="false">
+      <offer id="NPLS45953" available="true">
         <name>Сухий беззерновий корм для кошенят з лососем Lifestyle Grain Free Salmon Kitten 1,5кг</name>
         <vendorCode>NPLS45953</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="NPLS45954" available="true">
         <name>Сухий беззерновий корм для кошенят з лососем Lifestyle Grain Free Salmon Kitten 7кг</name>
@@ -1888,8 +1888,8 @@
         <vendorCode>NPS45727</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPS45728" available="true">
@@ -3062,14 +3062,14 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="NPSC70466-K2" available="false">
+      <offer id="NPSC70466-K2" available="true">
         <name>Вологий корм для собак з рудим забарвленням з лососем і крилем, 85 г Nature's Protection Superior Care Red Coat Grain Free Adult Salmon and Krill 85 г</name>
         <vendorCode>NPSC70466-K2</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="NPSC70467" available="true">
         <name>Вологий корм для собак з темним забарвленням з форелью і крилем, 85 г Nature's Protection Superior Care Dark Coat Grain Free Adult Trout and Krill 85 г</name>
@@ -3134,23 +3134,23 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="SNK46096" available="false">
+      <offer id="SNK46096" available="true">
         <name>Ласощі для собак, снеки з курки, Nature's Protection snack for dogs with chicken, 75г</name>
         <vendorCode>SNK46096</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
       </offer>
-      <offer id="SNK46102" available="false">
+      <offer id="SNK46102" available="true">
         <name>Ласощі для собак, смужки з курки з кунжутом, Nature's Protection snack for dogs chicken strips with sesame, 75г</name>
         <vendorCode>SNK46102</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="SNK46103" available="false">
         <name>Ласощі для собак, снеки з качки, Nature's Protection snack for dogs duck breast meat, 75г</name>
@@ -3242,23 +3242,23 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="SNK46121" available="false">
+      <offer id="SNK46121" available="true">
         <name>Ласощі для собак серце кролика шматочками c куркою, Nature's Protection Superior Care Snacks For Dogs Rabbit Heart Bites 75г</name>
         <vendorCode>SNK46121</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
       </offer>
-      <offer id="SNK46122" available="false">
+      <offer id="SNK46122" available="true">
         <name>Ласощі для собак, сушена качка, смужки, Nature's Protection Superior Care Snacks For Dogs Soft Duck Slices 75г</name>
         <vendorCode>SNK46122</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="SNK46124" available="true">
         <name>Ласощі для собак, стіки з кролика, Nature's Protection Lifestyle snacks for dogs, rabbit sticks, 75г</name>
@@ -3296,14 +3296,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="SNK46143" available="false">
+      <offer id="SNK46143" available="true">
         <name>Ласощі для собак, скибочки качки з морською капустою, Nature's Protection Lifestyle snack for dogs soft duck dices with seaweed, 75г</name>
         <vendorCode>SNK46143</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="SNK46144" available="false">
         <name>Ласощі для собак, скибочки кролятини з насінням Чіа, Nature's Protection Lifestyle snack for dogs soft rabbit dices with chia seeds, 75г</name>
@@ -3458,14 +3458,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="TPL63396" available="false">
+      <offer id="TPL63396" available="true">
         <name>Рушник для домашніх тварин з мікрофібри Tauro Pro Line, grey 60*90 cм</name>
         <vendorCode>TPL63396</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="TPL63397" available="true">
         <name>Рушник для домашніх тварин з мікрофібри Tauro Pro Line, purple 60*90 cм</name>
@@ -3922,8 +3922,8 @@
         <vendorCode>TPL63794</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="TPL63795" available="true">
