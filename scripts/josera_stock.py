@@ -13,6 +13,15 @@ DRY_STOCK = 20
 WET_STOCK = 60
 THRESHOLD = 5
 
+# On 2026-11-12 the supplier reused these existing SKUs/barcodes for new
+# LargeCat and Senior Grainfree offers, including different package sizes.
+# The original recipes were checked against the site's title, weight and GTIN.
+# Only a single matching identity may resolve these two known collisions.
+VERIFIED_DUPLICATE_IDENTITIES = {
+    "50003279": ("корм для котів josera sensicat 10 кг", "4032254749219", "josera"),
+    "50009986": ("корм для котів josera kitten grainfree 10 кг", "4032254754992", "josera"),
+}
+
 
 def clean(value):
     return " ".join(str(value or "").split())
@@ -48,13 +57,30 @@ def pack_weight(text):
 
 def read_supplier(payload):
     root = etree.fromstring(payload)
-    products = {}
+    offers_by_code = {}
     for offer in root.xpath(".//offer"):
         code = clean(offer.findtext("vendor_code"))
         if not code:
             raise RuntimeError("Josera offer has no vendor_code")
-        if code in products:
-            raise RuntimeError(f"Duplicate Josera source SKU: {code}")
+        offers_by_code.setdefault(code, []).append(offer)
+
+    products = {}
+    for code, offers in offers_by_code.items():
+        if len(offers) > 1:
+            identity = VERIFIED_DUPLICATE_IDENTITIES.get(code)
+            matches = [offer for offer in offers if (
+                clean(offer.findtext("title")).casefold(),
+                clean(offer.findtext("barcode")),
+                clean(offer.findtext("brand")).casefold(),
+            ) == identity]
+            if len(matches) != 1:
+                raise RuntimeError(f"Duplicate Josera source SKU: {code}; no single verified identity")
+            offer = matches[0]
+            print(f"Resolved Josera source SKU collision: {code}; "
+                  f"selected {clean(offer.findtext('title'))}; "
+                  f"ignored {len(offers) - 1} conflicting offers")
+        else:
+            offer = offers[0]
         status = clean(offer.findtext("availability")).casefold()
         if status not in {"in stock", "out of stock"}:
             raise RuntimeError(f"Unknown Josera availability: {code}: {status}")

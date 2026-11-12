@@ -8,6 +8,103 @@ class JoseraTests(unittest.TestCase):
     def supplier_payload(self, status="in stock", title="Корм Josera 5 * 900 г", weight="4.500", price="1602.00", code="50014710"):
         return f'<partners_offers><offer><vendor_code>{code}</vendor_code><availability>{status}</availability><currency>UAH</currency><title>{title}</title><weight>{weight}</weight><price>{price}</price></offer></partners_offers>'.encode()
 
+    def collision_payload(self, rows):
+        root = etree.Element("partners_offers")
+        for row in rows:
+            values = dict(row)
+            barcode = values.pop("barcode", "4032254749219")
+            brand = values.pop("brand", "Josera")
+            sale_price = values.pop("sale_price", None)
+            offer = etree.fromstring(self.supplier_payload(**values)).find("offer")
+            etree.SubElement(offer, "barcode").text = barcode
+            etree.SubElement(offer, "brand").text = brand
+            if sale_price is not None:
+                etree.SubElement(offer, "sale_price").text = sale_price
+            root.append(offer)
+        return etree.tostring(root)
+
+    def known_collisions(self):
+        return [
+            {"code": "50003279", "title": "Корм для котів Josera SensiCat 10 кг", "weight": "10.000", "price": "3610.00", "sale_price": "3610.00"},
+            {"code": "50003279", "title": "Корм для котів 10 кг", "weight": "10.000", "price": "3610.00"},
+            {"code": "50003279", "title": "Корм для котів 400 г", "weight": "0.400", "price": "230.00"},
+            {"code": "50003279", "title": "Корм для котів 2 кг", "weight": "2.000", "price": "778.00"},
+            {"code": "50009986", "title": "Корм для котів Josera Kitten grainfree 10 кг", "weight": "10.000", "price": "4320.00", "barcode": "4032254754992"},
+            {"code": "50009986", "title": "Корм для котів 10 кг", "weight": "10.000", "price": "4390.00", "barcode": "4032254754992"},
+            {"code": "50009986", "title": "Корм для котів 400 г", "weight": "0.400", "price": "240.00", "barcode": "4032254754992"},
+            {"code": "50009986", "title": "Корм для котів 2 кг", "weight": "2.000", "price": "876.00", "barcode": "4032254754992"},
+            {"code": "50009986", "title": "Корм для котів 2 x 10 кг", "weight": "20.000", "price": "8780.00", "sale_price": "7902.00", "barcode": "4032254754992"},
+        ]
+
+    def test_known_supplier_collisions_select_verified_recipes_not_other_sizes(self):
+        with patch.object(j, "MIN_SOURCE_PRODUCTS", 2):
+            supplier = j.read_supplier(self.collision_payload(self.known_collisions()))
+        self.assertEqual(set(supplier), {"50003279", "50009986"})
+        self.assertEqual(supplier["50003279"]["price"], j.Decimal("3610"))
+        self.assertEqual(supplier["50009986"]["price"], j.Decimal("4320"))
+        for product in supplier.values():
+            self.assertEqual(product["unit_grams"], j.Decimal("10000"))
+            self.assertEqual(product["pack_size"], 1)
+            self.assertTrue(product["available"])
+        self.assertIsNone(supplier["50009986"]["sale_price"])
+
+    def test_known_collision_selection_does_not_depend_on_feed_order(self):
+        rows = self.known_collisions()
+        for ordered in (rows, list(reversed(rows)), rows[4:] + rows[:4]):
+            with self.subTest(first=ordered[0]["title"]), patch.object(j, "MIN_SOURCE_PRODUCTS", 2):
+                supplier = j.read_supplier(self.collision_payload(ordered))
+            self.assertEqual(supplier["50003279"]["title"], "Корм для котів Josera SensiCat 10 кг")
+            self.assertEqual(supplier["50009986"]["title"], "Корм для котів Josera Kitten grainfree 10 кг")
+
+    def test_verified_collision_retains_current_supplier_price_sale_and_stock(self):
+        rows = self.known_collisions()[:4]
+        rows[0].update(price="3700.00", sale_price="3500.00", status="out of stock")
+        with patch.object(j, "MIN_SOURCE_PRODUCTS", 1):
+            supplier = j.read_supplier(self.collision_payload(rows))
+        product = supplier["50003279"]
+        self.assertEqual(product["price"], j.Decimal("3700"))
+        self.assertEqual(product["sale_price"], j.Decimal("3500"))
+        self.assertFalse(product["available"])
+
+    def test_known_collision_without_verified_recipe_still_rejected(self):
+        with patch.object(j, "MIN_SOURCE_PRODUCTS", 1), self.assertRaisesRegex(RuntimeError, "Duplicate Josera source SKU"):
+            j.read_supplier(self.collision_payload(self.known_collisions()[1:4]))
+
+    def test_two_matching_verified_offers_are_not_arbitrarily_selected(self):
+        rows = self.known_collisions()[:4]
+        rows.append(dict(rows[0], price="5000.00"))
+        with patch.object(j, "MIN_SOURCE_PRODUCTS", 1), self.assertRaisesRegex(RuntimeError, "Duplicate Josera source SKU"):
+            j.read_supplier(self.collision_payload(rows))
+
+    def test_collision_requires_verified_barcode_and_brand(self):
+        for changed in ({"barcode": "0000000000000"}, {"brand": "Other"}):
+            rows = self.known_collisions()[:4]
+            rows[0].update(changed)
+            with self.subTest(changed=changed), patch.object(j, "MIN_SOURCE_PRODUCTS", 1), self.assertRaisesRegex(RuntimeError, "Duplicate Josera source SKU"):
+                j.read_supplier(self.collision_payload(rows))
+
+    def test_selected_collision_still_requires_valid_pack_weight(self):
+        rows = self.known_collisions()[:4]
+        rows[0]["weight"] = "0.400"
+        with patch.object(j, "MIN_SOURCE_PRODUCTS", 1), self.assertRaisesRegex(RuntimeError, "Inconsistent Josera pack weight"):
+            j.read_supplier(self.collision_payload(rows))
+
+    def test_duplicate_rows_do_not_satisfy_minimum_unique_source_size(self):
+        with patch.object(j, "MIN_SOURCE_PRODUCTS", 9), self.assertRaisesRegex(RuntimeError, "Josera source incomplete: 2"):
+            j.read_supplier(self.collision_payload(self.known_collisions()))
+
+    def test_verified_recipes_map_correct_prices_to_site_cards(self):
+        with patch.object(j, "MIN_SOURCE_PRODUCTS", 2), patch.object(j, "MIN_SITE_PRODUCTS", 2):
+            supplier = j.read_supplier(self.collision_payload(self.known_collisions()))
+            rows, missing = j.map_catalog(self.catalog([
+                ("50003279", "10 кг", "Сухий корм JOSERA SensiCat 10 кг"),
+                ("50009986", "10 кг", "Сухий корм JOSERA Kitten grainfree 10 кг"),
+            ]), supplier)
+        self.assertEqual(missing, [])
+        self.assertEqual(rows["50003279"]["price"], "3610.00")
+        self.assertEqual(rows["50009986"]["price"], "4320.00")
+        self.assertIsNone(rows["50009986"]["sale_price"])
+
     def catalog(self, rows, vendor="JOSERA"):
         root = etree.Element("yml_catalog")
         for code, weight, name in rows:
