@@ -30,6 +30,8 @@ RETIRED = [
     ("1016008", "Ласощі для собак HOME FOOD Легені яловичі, 80 г", "HOME FOOD"),
     ("3016004_", "Ласощі для котів HOME FOOD Легені яловичі, 40 г", "HOME FOOD"),
     ("70100_box7", "Набір ласощів HOME FOOD Яловичий мікс", "HOME FOOD"),
+    ("1090018", "Ласощі для собак HOME FOOD Легені кролика, 80 г", "HOME FOOD"),
+    ("70100_box9", "Набір ласощів HOME FOOD Преміальний мікс", "HOME FOOD"),
 ]
 ACTIVE = [
     ("011115", "Килимок двошаровий для котячого лотка 60х80 - сірий", "CAT MAT"),
@@ -75,7 +77,7 @@ class DiscontinuedProductsTests(unittest.TestCase):
                 self.assertFalse(is_discontinued(*row))
 
     def test_lung_boxes_and_lung_bundle_remain_blocked_with_stale_stock(self):
-        for sku in ["1016008_box", "1016008-10", "1016008*10шт", "3016004_", "70100_box7", "70100_BOX7", "1016008_BOX"]:
+        for sku in ["1016008_box", "1016008-10", "1016008*10шт", "3016004_", "1090018", "70100_box7", "70100_BOX7", "70100_box9", "1016008_BOX"]:
             with self.subTest(sku=sku):
                 self.assertTrue(is_discontinued(sku))
         self.assertEqual(home_food.calculate_stock("1016008", {"1016008": 999}), 0)

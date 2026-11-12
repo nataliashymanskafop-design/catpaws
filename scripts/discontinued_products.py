@@ -15,8 +15,11 @@ DOMS_DISCONTINUED_SKUS = {
     "015417",  # Chicopee CNL Dog Adult Light Lamb & Rice, 15 kg.
     "017954",  # Chicopee CNL Cat Adult Beauty Salmon, 15 kg.
 }
-HOME_FOOD_LUNG_SKUS = {"1016008", "3016004", "3016004_"}
-HOME_FOOD_LUNG_BUNDLE_SKUS = {"70100_box7"}  # Beef Mix includes 1016008.
+HOME_FOOD_LUNG_SKUS = {"1016008", "3016004", "3016004_", "1090018"}
+HOME_FOOD_LUNG_BUNDLE_SKUS = {
+    "70100_box7",  # Beef Mix includes beef lung, 1016008.
+    "70100_box9",  # Premium Mix includes rabbit lung, 1090018.
+}
 DISCONTINUED_SKUS = (
     DOMS_DISCONTINUED_SKUS
     | HOME_FOOD_LUNG_SKUS
