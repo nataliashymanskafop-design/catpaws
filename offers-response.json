@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T02:24:52Z",
+  "updatedAt": "2026-11-12T07:55:08Z",
   "total": 1672,
   "data": [
     {
@@ -875,11 +875,11 @@
       "price": 542,
       "old_price": 677,
       "availability": true,
-      "stock": 14,
+      "stock": 13,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 14
+          "stock": 13
         }
       ],
       "warranty_type": "no",
@@ -9835,11 +9835,11 @@
       "price": 476,
       "old_price": null,
       "availability": true,
-      "stock": 44,
+      "stock": 46,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 44
+          "stock": 46
         }
       ],
       "warranty_type": "no",
@@ -9863,11 +9863,11 @@
       "price": 619,
       "old_price": null,
       "availability": true,
-      "stock": 5,
+      "stock": 7,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 5
+          "stock": 7
         }
       ],
       "warranty_type": "no",
@@ -13559,11 +13559,11 @@
       "price": 335,
       "old_price": null,
       "availability": true,
-      "stock": 24,
+      "stock": 25,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 24
+          "stock": 25
         }
       ],
       "warranty_type": "no",
@@ -27307,11 +27307,11 @@
       "price": 516,
       "old_price": null,
       "availability": true,
-      "stock": 42,
+      "stock": 40,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 42
+          "stock": 40
         }
       ],
       "warranty_type": "no",
@@ -27363,11 +27363,11 @@
       "price": 564,
       "old_price": null,
       "availability": true,
-      "stock": 24,
+      "stock": 23,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 24
+          "stock": 23
         }
       ],
       "warranty_type": "no",
