@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-12T19:08:29Z",
-  "total": 1667,
+  "updatedAt": "2026-11-12T19:12:13Z",
+  "total": 1666,
   "data": [
     {
       "code": "1018100",
@@ -39933,34 +39933,6 @@
     {
       "code": "70100_box6",
       "price": 619,
-      "old_price": null,
-      "availability": false,
-      "stock": 0,
-      "warehouses": [
-        {
-          "id": "HOME_FOOD",
-          "stock": 0
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "70100_box9",
-      "price": 699,
       "old_price": null,
       "availability": false,
       "stock": 0,
