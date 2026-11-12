@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE yml_catalog SYSTEM "shops.dtd">
-<yml_catalog date="2026-11-11 03:51">
+<yml_catalog date="2026-11-12 03:30">
  <shop>
   <name>catpaws.com.ua</name>
   <company>Интернет-магазин catpaws.com.ua</company>
@@ -9,6 +9,7 @@
    <currency id="UAH" rate="1"/>
   </currencies>
   <categories>
+   <category id="1120">ЧОРНА П'ЯТНИЦЯ</category>
    <category id="1055">АКЦІЙНІ ПРОПОЗИЦІЇ</category>
    <category id="1100">ТОВАРИ ДЛЯ СОБАК</category>
    <category id="1084" parentId="1100">Сухий корм для собак</category>
@@ -156,7 +157,8 @@
    </offer>
    <offer id="638" available="true">
     <code>50006774</code><url>https://catpaws.com.ua/sukhyi-korm-josidog-economy-15-kh/</url>
-    <price>1665.00</price>
+    <price>1249.00</price>
+    <oldprice>1665</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1084</categoryId>
     <picture>https://catpaws.com.ua/content/images/39/sukhyi-korm-josidog-economy-15-kh-63464208962569_+2001a6a382.png</picture>
@@ -178,7 +180,8 @@
    </offer>
    <offer id="643" available="true">
     <code>50014781</code><url>https://catpaws.com.ua/sukhyi-bezzernovoi-korm-dlia-tsutseniat-ta-yunioriv-vsikh-porid-josera-youngstar-junior-all-sizes-125-kh/</url>
-    <price>3650.00</price>
+    <price>2738.00</price>
+    <oldprice>3650</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1084</categoryId>
     <picture>https://catpaws.com.ua/content/images/44/sukhyi-bezzernovoi-korm-dlia-tsutseniat-ta-yunioriv-vsikh-porid-josera-youngstar-junior-all-sizes-125-kh-90509389979821_+f398c7415e.png</picture>
@@ -223,7 +226,8 @@
    </offer>
    <offer id="662" available="true">
     <code>50009986</code><url>https://catpaws.com.ua/sukhyi-korm-josera-kitten-grainfree-10-kh/</url>
-    <price>4320.00</price>
+    <price>3240.00</price>
+    <oldprice>4320</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1086</categoryId>
     <picture>https://catpaws.com.ua/content/images/13/sukhyi-korm-josera-kitten-grainfree-10-kh-47915880274706_+a875d010e1.png</picture>
@@ -245,14 +249,15 @@
    </offer>
    <offer id="666" available="true">
     <code>50005511</code><url>https://catpaws.com.ua/sukhyi-korm-josera-naturecat-10-kh/</url>
-    <price>4390.00</price>
+    <price>3293.00</price>
+    <oldprice>4390</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1086</categoryId>
     <picture>https://catpaws.com.ua/content/images/17/sukhyi-korm-josera-naturecat-10-kh-26911821591578_+a6cc77b70d.png</picture>
     <vendorCode>50005511</vendorCode>
     <vendor>JOSERA</vendor>
     <name>Сухий корм JOSERA NatureCat 10 кг</name>
-    <description>JOSERA NatureCat це справжня насолода для всіх шукачів пригод. Без зернових та з додатковою порцією смачного м’яса птиці та лосося.  Виготовляється в Німеччині та проходить ретельну перевірку у власній акредитованій лабораторії. Корм містить високоякісні, здорові та натуральні інгредієнти, які не є генетично модифікованими. БЕЗ додавання консервантів, штучних барвників та ароматизаторів. Сухий корм для котів Josera не випробовується на тваринах. БЕЗ додавання пшениці, сої, цукру і молочних продуктів.  Повноцінний сухий корм для дорослих котів.  Беззернових Рецепт не містить зернових та підходить для щоденної годівлі, вільної від зернових, здорових та чутливих котів.  Проти клубків шерсті Дієтична клітковина підтримує транспортування шерсті, що проковтнула тварина, через шлунково-кишковий тракт і таким чином запобігає утворенню шерстяних клубків у ньому.  рН сечі 6,0-6,5 Цілеспрямований вибір складових і найкращі рецептури забезпечують оптимальне співвідношення кальцію і фосфору та знижений вміст магнію. Таким чином ми сприяємо рівню рН 6,0-6,5, що запобігає утворенню сечових каменів. Складові: Білок домашньої птиці, сушений 30,0 %; Жир домашньої птиці; Батат, сушений; Картопля, сушена; Лосось сушений 10,0 %; Горохове борошно; Бурякова клітковина; Тваринний білок, гідролізований; Мінерали; Дріжджі; Корінь цикорію, мелений (природнє джерело інуліну); Трави, Фрукти.</description>
+    <description>JOSERA NatureCat це справжня насолода для всіх шукачів пригод. Без зернових та з додатковою порцією смачного м’яса птиці та лосося.       Виготовляється в Німеччині та проходить ретельну перевірку у власній акредитованій лабораторії.   Корм містить високоякісні, здорові та натуральні інгредієнти, які не є генетично модифікованими.   БЕЗ додавання консервантів, штучних барвників та ароматизаторів.   Сухий корм для котів Josera не випробовується на тваринах.   БЕЗ додавання пшениці, сої, цукру і молочних продуктів.      Повноцінний сухий корм для дорослих котів.        Беззернових    Рецепт не містить зернових та підходить для щоденної годівлі, вільної від зернових, здорових та чутливих котів.        Проти клубків шерсті    Дієтична клітковина підтримує транспортування шерсті, що проковтнула тварина, через шлунково-кишковий тракт і таким чином запобігає утворенню шерстяних клубків у ньому.        рН сечі 6,0-6,5    Цілеспрямований вибір складових і найкращі рецептури забезпечують оптимальне співвідношення кальцію і фосфору та знижений вміст магнію. Таким чином ми сприяємо рівню рН 6,0-6,5, що запобігає утворенню сечових каменів.    Складові: Білок домашньої птиці, сушений 30,0 %; Жир домашньої птиці; Батат, сушений; Картопля, сушена; Лосось сушений 10,0 %; Горохове борошно; Бурякова клітковина; Тваринний білок, гідролізований; Мінерали; Дріжджі; Корінь цикорію, мелений (природнє джерело інуліну); Трави, Фрукти.  </description>
    </offer>
    <offer id="670" available="true">
     <code>50009025</code><url>https://catpaws.com.ua/sukhyi-korm-josicat-crispy-duck-10-kh./</url>
@@ -279,7 +284,8 @@
    </offer>
    <offer id="678" available="true">
     <code>50008779</code><url>https://catpaws.com.ua/sukhyi-korm-josera-dailycat-10-kh./</url>
-    <price>3810.00</price>
+    <price>2858.00</price>
+    <oldprice>3810</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1086</categoryId>
     <picture>https://catpaws.com.ua/content/images/29/sukhyi-korm-josera-dailycat-10-kh.-19742365226517_+f3b2f45404.png</picture>
@@ -302,7 +308,8 @@
    </offer>
    <offer id="681" available="true">
     <code>50005505</code><url>https://catpaws.com.ua/sukhyi-korm-josera-catelux-10-kh./</url>
-    <price>3610.00</price>
+    <price>2708.00</price>
+    <oldprice>3610</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1086</categoryId>
     <picture>https://catpaws.com.ua/content/images/32/sukhyi-korm-josera-catelux-10-kh.-15625889367044_+e0b1bf303a.png</picture>
@@ -592,7 +599,8 @@
    </offer>
    <offer id="762" available="true">
     <code>50012154</code><url>https://catpaws.com.ua/sukhyi-korm-josidog-active-18-kh/</url>
-    <price>2550.00</price>
+    <price>1913.00</price>
+    <oldprice>2550</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1084</categoryId>
     <picture>https://catpaws.com.ua/content/images/13/sukhyi-korm-josidog-active-18-kh-83034631850823_+60adf4d24b.png</picture>
@@ -603,7 +611,8 @@
    </offer>
    <offer id="763" available="true">
     <code>50014376</code><url>https://catpaws.com.ua/sukhyi-korm-josidog-senior-light-15-kh/</url>
-    <price>2235.00</price>
+    <price>1676.00</price>
+    <oldprice>2235</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1084</categoryId>
     <picture>https://catpaws.com.ua/content/images/14/suxiy-korm-josidog-senior-light-15-kg-20060501218094_+0abc82fc21.jpg</picture>
@@ -614,29 +623,32 @@
    </offer>
    <offer id="765" available="true">
     <code>50012167</code><url>https://catpaws.com.ua/sukhyi-korm-josidog-mini-10-kh/</url>
-    <price>2100.00</price>
+    <price>1575.00</price>
+    <oldprice>2100</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1084</categoryId>
     <picture>https://catpaws.com.ua/content/images/16/sukhyi-korm-josidog-mini-10-kh-70616809808349_+23e4686417.png</picture>
     <vendorCode>50012167</vendorCode>
     <vendor>JOSIDOG</vendor>
     <name>Сухий корм JosiDog Mini 10 кг</name>
-    <description>JOSERA JosiDog Mini маленькі крокети дарують більше задоволення для собак маленьких порід. Безглютенова формула містить найкращі поживні речовини, які підтримують здорову шкіру та блискучу шерсть.  Висока пропорція цінних антиоксидантів допомагає захистити клітини від вільних радикалів. Таурин допомагає підтримувати серцеву функцію, зір та репродуктивну функцію. Пребіотик інулін підсилює кишкову мікрофлору. Забезпечення необхідного рівня глікозаміногліканів (ГАГ) в суглобових хрящах.  Повноцінний сухий корм для дорослих собак малих порід.   Складові: Кукурудза; Білок домашньої птиці, сушений; Рис; Бурякова клітковина; Жир домашньої птиці; Білок качки, сушений; Білок домашньої птиці, гідролізований; Мінерали; Дріжджі; Корінь цикорію, мелений (природнє джерело інуліну); Білок новозеландських зелених мідій (Perna canaliculus), сушений.</description>
+    <description>JOSERA JosiDog Mini маленькі крокети дарують більше задоволення для собак маленьких порід. Безглютенова формула містить найкращі поживні речовини, які підтримують здорову шкіру та блискучу шерсть.       Висока пропорція цінних антиоксидантів допомагає захистити клітини від вільних радикалів.   Таурин допомагає підтримувати серцеву функцію, зір та репродуктивну функцію.   Пребіотик інулін підсилює кишкову мікрофлору.   Забезпечення необхідного рівня глікозаміногліканів (ГАГ) в суглобових хрящах.      Повноцінний сухий корм для дорослих собак малих порід.         Складові: Кукурудза; Білок домашньої птиці, сушений; Рис; Бурякова клітковина; Жир домашньої птиці; Білок качки, сушений; Білок домашньої птиці, гідролізований; Мінерали; Дріжджі; Корінь цикорію, мелений (природнє джерело інуліну); Білок новозеландських зелених мідій (Perna canaliculus), сушений.  </description>
    </offer>
    <offer id="767" available="true">
     <code>50012166</code><url>https://catpaws.com.ua/sukhyi-korm-josidog-master-mix-18-kh/</url>
-    <price>2460.00</price>
+    <price>1845.00</price>
+    <oldprice>2460</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1084</categoryId>
     <picture>https://catpaws.com.ua/content/images/18/37170843156304_+950ebc1888.png</picture>
     <vendorCode>50012166</vendorCode>
     <vendor>JOSIDOG</vendor>
     <name>Сухий корм JosiDog Master Mix 15 кг</name>
-    <description>JOSERA JosiDog Master Mix поєднує в собі хрусткі кукурудзяні пластівці зі смачними шматочками м'яса.  Висока пропорція цінних антиоксидантів допомагає захистити клітини від вільних радикалів. Таурин допомагає підтримувати серцеву функцію, зір та репродуктивну функцію. Пребіотик інулін підсилює кишкову мікрофлору. Забезпечення необхідного рівня глікозаміногліканів (ГАГ) в суглобових хрящах.  Повноцінний сухий корм для дорослих собак. Складові: Кукурудза; Ячмінь; Білок домашньої птиці, сушений; М’ясо-кісткове борошно; Бурякова клітковина; Жир домашньої птиці; Рис; Тваринний жир, гідролізований; Білок домашньої птиці, гідролізований; Білок тваринний, гідролізований; Кукурудзяний білок; Мінерали; Корінь цикорію, мелений (природнє джерело інуліну); Порошок столового буряку 0,10%; Білок новозеландських зелених мідій (Perna canaliculus), сушений.</description>
+    <description>JOSERA JosiDog Master Mix поєднує в собі хрусткі кукурудзяні пластівці зі смачними шматочками м'яса.       Висока пропорція цінних антиоксидантів допомагає захистити клітини від вільних радикалів.   Таурин допомагає підтримувати серцеву функцію, зір та репродуктивну функцію.   Пребіотик інулін підсилює кишкову мікрофлору.   Забезпечення необхідного рівня глікозаміногліканів (ГАГ) в суглобових хрящах.      Повноцінний сухий корм для дорослих собак.    Складові: Кукурудза; Ячмінь; Білок домашньої птиці, сушений; М’ясо-кісткове борошно; Бурякова клітковина; Жир домашньої птиці; Рис; Тваринний жир, гідролізований; Білок домашньої птиці, гідролізований; Білок тваринний, гідролізований; Кукурудзяний білок; Мінерали; Корінь цикорію, мелений (природнє джерело інуліну); Порошок столового буряку 0,10%; Білок новозеландських зелених мідій (Perna canaliculus), сушений.  </description>
    </offer>
    <offer id="770" available="true">
     <code>50003279</code><url>https://catpaws.com.ua/sukhyi-korm-josera-sensicat-10-kh/</url>
-    <price>3610.00</price>
+    <price>2708.00</price>
+    <oldprice>3610</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1086</categoryId>
     <picture>https://catpaws.com.ua/content/images/21/sukhyi-korm-josera-sensicat-10-kh-48915225677603_+259ef33314.png</picture>
@@ -680,7 +692,8 @@
    </offer>
    <offer id="778" available="true">
     <code>50007695</code><url>https://catpaws.com.ua/sukhyi-korm-josera-naturelle-bez-zernovykh-10-kh/</url>
-    <price>4390.00</price>
+    <price>3293.00</price>
+    <oldprice>4390</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1086</categoryId>
     <picture>https://catpaws.com.ua/content/images/29/sukhyi-korm-josera-naturelle-bez-zernovykh-10-kh-66124401175551_+0cf541f0ab.png</picture>
@@ -714,7 +727,8 @@
    </offer>
    <offer id="786" available="true">
     <code>50009044</code><url>https://catpaws.com.ua/sukhyi-korm-josicat-sterilised-classic-10-kh/</url>
-    <price>2280.00</price>
+    <price>1710.00</price>
+    <oldprice>2280</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1086</categoryId>
     <picture>https://catpaws.com.ua/content/images/37/sukhyi-korm-josicat-sterilised-classic-10-kh-64058283499733_+7a6a1dc4d6.png</picture>
@@ -736,7 +750,8 @@
    </offer>
    <offer id="788" available="true">
     <code>50010350</code><url>https://catpaws.com.ua/sukhyi-korm-josera-senior-10-kh/</url>
-    <price>3810.00</price>
+    <price>2858.00</price>
+    <oldprice>3810</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1086</categoryId>
     <picture>https://catpaws.com.ua/content/images/39/sukhyi-korm-josera-senior-10-kh-15342925107800_+17f8d0932d.png</picture>
@@ -767,7 +782,8 @@
    </offer>
    <offer id="792" available="true">
     <code>50003228</code><url>https://catpaws.com.ua/sukhyi-korm-josera-culinesse-10-kh/</url>
-    <price>3610.00</price>
+    <price>2708.00</price>
+    <oldprice>3610</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1086</categoryId>
     <picture>https://catpaws.com.ua/content/images/43/suxiy-korm-josera-culinesse-10-kg-17489669510470_+475e815ec1.jpg</picture>
@@ -801,7 +817,8 @@
    </offer>
    <offer id="796" available="true">
     <code>50005508</code><url>https://catpaws.com.ua/sukhyi-korm-josera-marinesse-10-kh/</url>
-    <price>5250.00</price>
+    <price>3938.00</price>
+    <oldprice>5250</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1086</categoryId>
     <picture>https://catpaws.com.ua/content/images/47/suxiy-korm-josera-marinesse-10-kg-95367742690641_+c826cbcabf.jpg</picture>
@@ -1414,17 +1431,6 @@
     <name>Вологий корм для дорослих собак з яловичиною та серцем індички Nature's Protection with Beef &amp; Turkey Hearts 800 г</name>
     <description>Консерви для собак Nature's Protection with Beef &amp; Turkey Hearts - це суперпреміальні, легкозасвоювані консерви, які особливо подобаються собакам. Ці консерви зроблені з використанням інгредієнтів найвищої якості, мінералів і вітамінів. М'які, легкі для пережовування шматочки м'яса подаються в чудовому бульйоні.   Відмінний склад  Містить багато м'яса - 55% яловичини. Яловичина - нежирне м'ясо, багате білком і вітаміном В, приправлена сердечками індички - справжні ласощі для собак. З додаванням мінералів  Містить природний мінерал - MicroZeoGen - динамічно мікронізірованний клиноптилоліт, який активно стимулює мікрофлору кишечника і засвоєння поживних речовин. Завдяки своїй особливій мікроструктурі він допомагає виводити токсини з організму і зміцнює імунну систему. З лляною олією  Ця олія багата жирними кислотами Омега-3 і Омега-6, які корисні для собак і важливі для підтримки функції мозку і забезпечення відмінного стану шкіри і шерсті. Підходить для чутливих домашніх тварин Консерви особливо рекомендуються собакам з чутливою травною системою для підтримки гарного самопочуття. Крім цього, вони ідеально підходять для алергіків і тих, хто не переносить зернові культури. Зручна упаковка  Легко відкривається, легко використовувати під час подорожей.   Особливості:  Для дорослих собак з чутливою травною системою. Загальний вміст м'яса становить 55%.   Склад:  м'ясо та продукти тваринного походження (55% яловичини, 15% індичих сердечок), мінерали 1% (в т. Ч. 0,1% клиноптилоліт осадового походження (1г568)), масла і жири (0,1% лляне масло). Добавки/1 кг  Харчові добавки:  віт. D3 (3a671) - 200 ME, безводний йодат кальцію (3б202) - 0,75 мг, марганець сульфат моногідрат (3б503) - 1,4 мг, сульфат цинку моногідрат (3б605) - 25 мг.   Інструкція по годівлі:  Консервований корм подавайте при кімнатній температурі. Відкриту банку необхідно тримати в прохолодному місці і використати протягом 3-х днів.   Зроблено в Європейському Союзі. </description>
    </offer>
-   <offer id="1308" available="true">
-    <code>NPSC47228</code><url>https://catpaws.com.ua/sukhyi-bezzernovyi-korm-dlia-yunioriv-z-rudym-zabarvlenniam-shersti-dlia-malykh-porid-superior-care-red-coat-grain-free-junior-mini-breeds-15-kh/</url>
-    <price>1164.00</price>
-    <currencyId>UAH</currencyId>
-    <categoryId>1084</categoryId>
-    <picture>https://catpaws.com.ua/content/images/9/99554064130743_+55f0b1e21f.jpeg</picture>
-    <vendorCode>NPSC47228</vendorCode>
-    <vendor>Nature's Protection Superior Care</vendor>
-    <name>Сухий беззерновий корм для юніорів з рудим забарвленням шерсті, для малих порід Superior Care Red Coat Grain Free Junior Mini Breeds 1,5 кг</name>
-    <description>Nature's Protection Superior Care Red Coat Grain Free Salmon - це повноцінний беззерновий корм високого класу з лососем для молодих (2-12 міс) собак дрібних порід (розмір гранули 6-8мм). Корм створений на основі ексклюзивної формули, що ґрунтується на дослідженнях, тому він допомагає захистити та підкреслити рудий пігмент шерсті, а також живить шкіру та шерсть зсередини. БЕЗЗЕРНОВІ ІНГРЕДІЄНТИ Підходить для чутливих і алергічних улюбленців. Крім інгредієнтів зернового походження, які можуть викликати алергічні реакції. Підходить для вихованців з чутливою травною системою, не навантажує травний тракт. ІНГРЕДІЄНТИ ТВАРИННОГО ПОХОДЖЕННЯ З лососем і крилем Склад доповнено ексклюзивним елементом - крилем. Це маленьке, схоже на креветку ракоподібне, що вирізняється багатофункціональною користю для організму улюбленця. Незамінні жирні кислоти Омега-3, що містяться в дрібному крилі, засвоюються в 2,5 раза краще, ніж зі звичайного риб'ячого жиру. Крім того, натуральний компонент криля - вітамін холін, особливо важливий для безперебійної роботи мозку, у 12 разів активніший, ніж доданий. Сертифікований лосось вищого сорту є основним джерелом високоякісного білка. Всі інгредієнти підібрані з урахуванням рекомендацій ветеринарів і експертів з харчування, відповідно до природних потреб вашого вихованця. РОЗРОБЛЕНИЙ ДЛЯ СОБАК ІЗ РУДОЮ ШЕРСТЮ Спеціальна формула Виготовляється відповідно до спеціальної формули RCE (RCE (Red Coat Enhancer), тому допомагає захистити та підкреслити рудий пігмент шерсті. ЗАХИЩЕНІ КЛІТИНИ Природні антиоксиданти Вітамін Е та екстракт розмарину допомагають захистити клітини від шкідливого впливу вільних радикалів. З МІНЕРАЛАМИ MicroZeoGen Для здорової імунної системи Доповнений натуральним мінералом, динамічно мікронізованим клинооптилолітом, який активно стимулює мікрофлору кишківника та засвоєння поживних речовин. Завдяки своїй особливій мікроструктурі, він може використовуватися для виведення токсинів з організму і зміцнення імунної системи. Цей корм унікального складу спеціально адаптований для молодих собак дрібних порід, допомагає захистити і виділити рудий пігмент хутра та живить шкіру і шерсть зсередини. NATURE'S PROTECTION Superior Care - лінія сухих кормів супер-преміум класу, що характеризується інноваційними інгредієнтами та відображає здорове харчування домашніх тварин, засноване на останніх тенденціях і технологіях. Корм містить тільки самі високоякісні джерела білка та інші інноваційні інгредієнти.</description>
-   </offer>
    <offer id="1309" available="true">
     <code>NPSC47231</code><url>https://catpaws.com.ua/sukhyi-bezzernovyi-korm-dlia-doroslykh-sobak-z-rudym-zabarvlenniam-shersti-dlia-malykh-porid-superior-care-red-coat-grain-free-adult-small-breeds-with-salmon-10kh/</url>
     <price>6028.00</price>
@@ -1564,17 +1570,6 @@
     <vendorCode>NPS45764</vendorCode>
     <vendor>Nature's Protection</vendor>
     <name>Сухий корм для дорослих котів мешкаючих у будинку Nature's Protection Indoor 2кг</name>
-    <description>„Nature's Protection Indoor Adult“ – сухий повнораціонний корм для дорослих домашніх котів. Підтримує життєву енергію, сприяє здоровому та тривалому життю вихованця. Знижена кількість жирів та L-карнітин допомагають врегулювати та підтримати оптимальну вагу тіла кішки. Збалансоване поєднання мінералів допомагає уникнути проблеми утворення уратних каменів у нирках та підтримати загальне здоров'я сечовидільної системи вихованця. Натуральні харчові волокна допомагають виводити грудки вовни зі шлункового тракту домашньої кішки безпечним і природним чином.   Мінерал „MICROZEOGEN“ Корм містить натуральний мінерал, динамічно мікронізований кліноптилоліт, який активно стимулює мікрофлору кишечника і таким чином покращує засвоюваність поживних речовин. Завдяки особливій мікроструктурі, мінерал допомагає виводити з організму токсини та зміцнює імунну систему, а також сприяє регенерації суглобів та покращенню їхньої рухливості.   Для здоров'я шкіри та шерсті Ретельно підібране поєднання високоякісних білків тваринного та морського походження, а також поліненасичена жирна кислота Омега забезпечать організм Вашої кішки оптимальною кількістю амінокислот для здоров'я шкіри, блиску та густини шерсті.   Комплекс HAIRBALL CONTROL Допомагає виводити грудки шерсті зі шлункового тракту кішки Сухий корм містить харчові волокна, що допомагають виводити грудки шерсті зі шлункового тракту кішки безпечним і природним чином.  Знижена кількість жирів та L-карнітин Л-карнітин, що знаходиться в складі корму, покращує обмін речовин, допомагає перетворити жир в енергію, таким чином, запобігаючи його накопиченню в організмі.  Збалансоване поєднання мінералів Збалансоване поєднання мінералів допомагає уникнути проблеми утворення уратних каменів у нирках та підтримати загальне здоров'я сечовидільної системи вихованця.   Унікальний за складом сухий корм, призначений для підтримки здоров'я шкіри та шерсті, а також запобігання ожирінню та набору надмірної ваги у дорослих домашніх кішок.  NATURE'S PROTECTION - сухі корми Super Premium класу, до складу яких входять інноваційні інгредієнти. Корми засновані на ідеї правильного та збалансованого харчування домашніх тварин, а також на останніх тенденціях та науково-технічних розробках у цій сфері. До складу корму входять високоякісні білок та інші інгредієнти високої якості.   Виробник: спеціалізований завод з виробництва кормів для домашніх тварин  Акватера , Литва.</description>
-   </offer>
-   <offer id="1392" available="true">
-    <code>NPS45765</code><url>https://catpaws.com.ua/sukhyi-korm-dlia-doroslykh-kotiv-meshkaiuchykh-u-budynku-natures-protection-indoor-7-kh/</url>
-    <price>2734.00</price>
-    <currencyId>UAH</currencyId>
-    <categoryId>1086</categoryId>
-    <picture>https://catpaws.com.ua/content/images/43/53128010252447_+f20c706105.jpg</picture>
-    <vendorCode>NPS45765</vendorCode>
-    <vendor>Nature's Protection</vendor>
-    <name>Сухий корм для дорослих котів мешкаючих у будинку Nature's Protection Indoor 7кг</name>
     <description>„Nature's Protection Indoor Adult“ – сухий повнораціонний корм для дорослих домашніх котів. Підтримує життєву енергію, сприяє здоровому та тривалому життю вихованця. Знижена кількість жирів та L-карнітин допомагають врегулювати та підтримати оптимальну вагу тіла кішки. Збалансоване поєднання мінералів допомагає уникнути проблеми утворення уратних каменів у нирках та підтримати загальне здоров'я сечовидільної системи вихованця. Натуральні харчові волокна допомагають виводити грудки вовни зі шлункового тракту домашньої кішки безпечним і природним чином.   Мінерал „MICROZEOGEN“ Корм містить натуральний мінерал, динамічно мікронізований кліноптилоліт, який активно стимулює мікрофлору кишечника і таким чином покращує засвоюваність поживних речовин. Завдяки особливій мікроструктурі, мінерал допомагає виводити з організму токсини та зміцнює імунну систему, а також сприяє регенерації суглобів та покращенню їхньої рухливості.   Для здоров'я шкіри та шерсті Ретельно підібране поєднання високоякісних білків тваринного та морського походження, а також поліненасичена жирна кислота Омега забезпечать організм Вашої кішки оптимальною кількістю амінокислот для здоров'я шкіри, блиску та густини шерсті.   Комплекс HAIRBALL CONTROL Допомагає виводити грудки шерсті зі шлункового тракту кішки Сухий корм містить харчові волокна, що допомагають виводити грудки шерсті зі шлункового тракту кішки безпечним і природним чином.  Знижена кількість жирів та L-карнітин Л-карнітин, що знаходиться в складі корму, покращує обмін речовин, допомагає перетворити жир в енергію, таким чином, запобігаючи його накопиченню в організмі.  Збалансоване поєднання мінералів Збалансоване поєднання мінералів допомагає уникнути проблеми утворення уратних каменів у нирках та підтримати загальне здоров'я сечовидільної системи вихованця.   Унікальний за складом сухий корм, призначений для підтримки здоров'я шкіри та шерсті, а також запобігання ожирінню та набору надмірної ваги у дорослих домашніх кішок.  NATURE'S PROTECTION - сухі корми Super Premium класу, до складу яких входять інноваційні інгредієнти. Корми засновані на ідеї правильного та збалансованого харчування домашніх тварин, а також на останніх тенденціях та науково-технічних розробках у цій сфері. До складу корму входять високоякісні білок та інші інгредієнти високої якості.   Виробник: спеціалізований завод з виробництва кормів для домашніх тварин  Акватера , Литва.</description>
    </offer>
    <offer id="1393" available="true">
@@ -2393,14 +2388,15 @@
    </offer>
    <offer id="1718" available="true">
     <code>50012164</code><url>https://catpaws.com.ua/sukhyi-korm-josidog-junior-sensitive-15-kh/</url>
-    <price>2925.00</price>
+    <price>2194.00</price>
+    <oldprice>2925</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1084</categoryId>
     <picture>https://catpaws.com.ua/content/images/19/sukhyi-korm-josidog-junior-sensitive-15-kh-64156914999180_+bffe97b07c.png</picture>
     <vendorCode>50012164</vendorCode>
     <vendor>JOSIDOG</vendor>
     <name>Сухий корм JosiDog Junior Sensitive 15 кг</name>
-    <description>JOSERA JosiDog Junior Sensitive завдяки збалансованому співвідношенню кальцію та фосфору, підходить для чутливих собак з 8-го тижня життя. Рецептура, що не містить глютену, сприяє помірному зростанню та міцній структурі кісток.  Висока пропорція цінних антиоксидантів допомагає захистити клітини від вільних радикалів. Таурин допомагає підтримувати серцеву функцію, зір та репродуктивну функцію. Пребіотик інулін підсилює кишкову мікрофлору. Забезпечення необхідного рівня глікозаміногліканів (ГАГ) в суглобових хрящах.  Повноцінний сухий корм для підростаючих собак. Складові: Кукурудза; Білок домашньої птиці, сушений; Жир домашньої птиці; Рис; Бурякова клітковина; Борошно плодів ріжкового дерева; Білок домашньої птиці, гідролізований; Мінерали; Корінь цикорію, мелений (природнє джерело інуліну); Білок новозеландських зелених мідій (Perna canaliculus), сушений.</description>
+    <description>JOSERA JosiDog Junior Sensitive завдяки збалансованому співвідношенню кальцію та фосфору, підходить для чутливих собак з 8-го тижня життя. Рецептура, що не містить глютену, сприяє помірному зростанню та міцній структурі кісток.       Висока пропорція цінних антиоксидантів допомагає захистити клітини від вільних радикалів.   Таурин допомагає підтримувати серцеву функцію, зір та репродуктивну функцію.   Пребіотик інулін підсилює кишкову мікрофлору.   Забезпечення необхідного рівня глікозаміногліканів (ГАГ) в суглобових хрящах.      Повноцінний сухий корм для підростаючих собак.    Складові: Кукурудза; Білок домашньої птиці, сушений; Жир домашньої птиці; Рис; Бурякова клітковина; Борошно плодів ріжкового дерева; Білок домашньої птиці, гідролізований; Мінерали; Корінь цикорію, мелений (природнє джерело інуліну); Білок новозеландських зелених мідій (Perna canaliculus), сушений.  </description>
    </offer>
    <offer id="1721" available="true">
     <code>NPS45752</code><url>https://catpaws.com.ua/sukhyi-korm-dlia-doroslykh-sobak-vsikh-porid-z-lososem-extra-salmon-adult-all-breeds-12-kh/</url>
@@ -3852,7 +3848,8 @@
    </offer>
    <offer id="2293" available="true">
     <code>50014783</code><url>https://catpaws.com.ua/sukhyi-korm-dlia-sobak-z-normalnoiu-abo-znyzhenoiu-potreboiu-v-enerhii-lamb-rice-adult-all-sizes-12.5-kh/</url>
-    <price>3650.00</price>
+    <price>2738.00</price>
+    <oldprice>3650</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1084</categoryId>
     <picture>https://catpaws.com.ua/content/images/44/sukhyi-korm-dlia-sobak-z-normalnoiu-abo-znyzhenoiu-potreboiu-v-enerhii-lamb-rice-adult-all-sizes-12.5-kh-20932544512198_+8930730ea3.jpeg</picture>
@@ -3863,7 +3860,8 @@
    </offer>
    <offer id="2294" available="true">
     <code>50014801</code><url>https://catpaws.com.ua/sukhyi-korm-dlia-litnikh-ta-spokiinykh-sobak-josera-balance-senior-all-sizes-125-kh/</url>
-    <price>3263.00</price>
+    <price>2447.00</price>
+    <oldprice>3263</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1084</categoryId>
     <picture>https://catpaws.com.ua/content/images/45/sukhyi-korm-dlia-starykh-ta-spokiinykh-sobak-josera-balance-125-kh-60607690381937_+0331e1128e.png</picture>
@@ -3885,7 +3883,8 @@
    </offer>
    <offer id="2297" available="true">
     <code>50014785</code><url>https://catpaws.com.ua/sukhyi-korm-dlia-doroslykh-vybahlyvykh-sobak-josera-festival-adult-all-sizes-125-kh/</url>
-    <price>3650.00</price>
+    <price>2738.00</price>
+    <oldprice>3650</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1084</categoryId>
     <picture>https://catpaws.com.ua/content/images/48/sukhyi-korm-dlia-doroslykh-vybahlyvykh-sobak-josera-festival-adult-all-sizes-125-kh-60438864738105_+addbe2ea09.jpeg</picture>
@@ -3896,7 +3895,8 @@
    </offer>
    <offer id="2300" available="true">
     <code>50014820</code><url>https://catpaws.com.ua/sukhyi-bezzernovyi-korm-dlia-doroslykh-sobak-josera-chicken-sweet-potato-adult-all-sizes-nature-energetic-125-kh/</url>
-    <price>3425.00</price>
+    <price>2569.00</price>
+    <oldprice>3425</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1084</categoryId>
     <picture>https://catpaws.com.ua/content/images/1/sukhyi-bezzernovyi-korm-dlia-doroslykh-sobak-josera-nature-energetic-125-kh-74368695789562_+78f3dd4bdd.jpeg</picture>
@@ -3907,7 +3907,8 @@
    </offer>
    <offer id="2302" available="true">
     <code>50014799</code><url>https://catpaws.com.ua/sukhyi-korm-dlia-doroslykh-sobak-dlia-znyzhennia-ta-utrymannia-vahy-josera-light-vital-adult-all-sizes-125-kh/</url>
-    <price>3425.00</price>
+    <price>2569.00</price>
+    <oldprice>3425</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1084</categoryId>
     <picture>https://catpaws.com.ua/content/images/3/sukhyi-korm-dlia-doroslykh-sobak-dlia-znyzhennia-ta-utrymannia-vahy-josera-light-vital-125-kh-55096631817689_+47dbd9fd22.jpeg</picture>
@@ -3918,7 +3919,8 @@
    </offer>
    <offer id="2303" available="true">
     <code>50014717</code><url>https://catpaws.com.ua/sukhyi-bezzernovyi-korm-dlia-doroslykh-sobak-malykh-porid-josera-minideluxe-10-kh/</url>
-    <price>3380.00</price>
+    <price>2535.00</price>
+    <oldprice>3380</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1084</categoryId>
     <picture>https://catpaws.com.ua/content/images/4/sukhyi-bezzernovyi-korm-dlia-doroslykh-sobak-malykh-porid-josera-minideluxe-10-kh-13449729123720_+fadb6b10ca.jpeg</picture>
@@ -4127,7 +4129,8 @@
    </offer>
    <offer id="2441" available="true">
     <code>50014818</code><url>https://catpaws.com.ua/sukhyi-korm-dlia-tsutseniat-serednikh-ta-velykykh-porid-sobak-josera-kids-125-kh/</url>
-    <price>3263.00</price>
+    <price>2447.00</price>
+    <oldprice>3263</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1084</categoryId>
     <picture>https://catpaws.com.ua/content/images/42/sukhyi-korm-dlia-tsutseniat-serednikh-ta-velykykh-porid-sobak-josera-kids-125-kh-26773253733805_+46121ad60d.png</picture>
@@ -4138,7 +4141,8 @@
    </offer>
    <offer id="2442" available="true">
     <code>50014778</code><url>https://catpaws.com.ua/sukhyi-korm-dlia-suk-ta-tsutseniat-josera-mother-puppy-salmon-rice-all-sizes-family-plus-125-kh/</url>
-    <price>3425.00</price>
+    <price>2569.00</price>
+    <oldprice>3425</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1084</categoryId>
     <picture>https://catpaws.com.ua/content/images/43/sukhyi-korm-dlia-suk-ta-tsutseniat-josera-mother-puppy-salmon-rice-all-sizes-family-plus-125-kh-52265959690552_+e0ef1de6bb.jpeg</picture>
@@ -4149,14 +4153,15 @@
    </offer>
    <offer id="2443" available="true">
     <code>50012163</code><url>https://catpaws.com.ua/sukhyi-korm-josidog-junior-15-kh/</url>
-    <price>2460.00</price>
+    <price>1845.00</price>
+    <oldprice>2460</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1084</categoryId>
     <picture>https://catpaws.com.ua/content/images/44/sukhyi-korm-josidog-junior-15-kh-44474918455491_+a46973aad8.png</picture>
     <vendorCode>50012163</vendorCode>
     <vendor>JOSIDOG</vendor>
     <name>Сухий корм JosiDog Junior 15 кг</name>
-    <description>JOSERA JosiDog Junior для вирощування собак усіх порід починаючи з 8-го тижня життя. Збалансований вміст білка у формулі, що не містить глютену, а також поживні речовини - забезпечують все, що необхідно молодим собакам для росту та розвитку.  Висока пропорція цінних антиоксидантів допомагає захистити клітини від вільних радикалів. Таурин допомагає підтримувати серцеву функцію, зір та репродуктивну функцію. Пребіотик інулін підсилює кишкову мікрофлору. Забезпечення необхідного рівня глікозаміногліканів (ГАГ) в суглобових хрящах.  Повноцінний сухий корм для підростаючих собак. Складові: Кукурудза; Білок домашньої птиці, сушений; Рис; Жир домашньої птиці; Бурякова клітковина; Білок домашньої птиці, гідролізований; Мінерали; Корінь цикорію, мелений (природнє джерело інуліну); Білок новозеландських зелених мідій (Perna canaliculus), сушений.</description>
+    <description>JOSERA JosiDog Junior для вирощування собак усіх порід починаючи з 8-го тижня життя. Збалансований вміст білка у формулі, що не містить глютену, а також поживні речовини - забезпечують все, що необхідно молодим собакам для росту та розвитку.       Висока пропорція цінних антиоксидантів допомагає захистити клітини від вільних радикалів.   Таурин допомагає підтримувати серцеву функцію, зір та репродуктивну функцію.   Пребіотик інулін підсилює кишкову мікрофлору.   Забезпечення необхідного рівня глікозаміногліканів (ГАГ) в суглобових хрящах.      Повноцінний сухий корм для підростаючих собак.    Складові: Кукурудза; Білок домашньої птиці, сушений; Рис; Жир домашньої птиці; Бурякова клітковина; Білок домашньої птиці, гідролізований; Мінерали; Корінь цикорію, мелений (природнє джерело інуліну); Білок новозеландських зелених мідій (Perna canaliculus), сушений.  </description>
    </offer>
    <offer id="2481" available="true">
     <code>1057100</code><url>https://catpaws.com.ua/hipoalerhennyi-sukhyi-korm-home-food-dlia-doroslykh-sobak-malykh-ta-serednikh-porid-teliatyna-z-ovochamy-ta-dukhmianymy-travamy-hypoallergenic-10-kh/</url>
@@ -4237,7 +4242,8 @@
    </offer>
    <offer id="2682" available="true">
     <code>50014791</code><url>https://catpaws.com.ua/sukhyi-bezzernovyi-korm-dlia-doroslykh-ta-sobak-pokhylomu-vitsi-josera-salmon-potato-adult-all-sizes-lachs-kartoffel-125-kh/</url>
-    <price>4600.00</price>
+    <price>3450.00</price>
+    <oldprice>4600</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1084</categoryId>
     <picture>https://catpaws.com.ua/content/images/33/sukhyi-bezzernovyi-korm-dlia-doroslykh-ta-sobak-pokhylomu-vitsi-josera-salmon-potato-adult-all-sizes-lachs-kartoffel-125-kh-46894482653840_+2bce5d50ff.png</picture>
@@ -4248,7 +4254,8 @@
    </offer>
    <offer id="2683" available="true">
     <code>50014712</code><url>https://catpaws.com.ua/sukhyi-korm-dlia-tsutseniat-ta-yunioriv-malykh-porid-sobak-josera-minijunior-10-kh/</url>
-    <price>3090.00</price>
+    <price>2318.00</price>
+    <oldprice>3090</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1084</categoryId>
     <picture>https://catpaws.com.ua/content/images/34/sukhyi-korm-dlia-tsutseniat-ta-yunioriv-malykh-porid-sobak-josera-minijunior-10-kh-14231588866244_+7862e4a637.png</picture>
@@ -4293,7 +4300,8 @@
    </offer>
    <offer id="2696" available="true">
     <code>50014845</code><url>https://catpaws.com.ua/sukhyi-korm-dlia-doroslykh-sobak-vsikh-porid-z-pidvyshchenoiu-potreboiu-v-enerhii-josera-high-protein-adult-chicken-high-energy-12.5-kh/</url>
-    <price>3425.00</price>
+    <price>2569.00</price>
+    <oldprice>3425</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1084</categoryId>
     <picture>https://catpaws.com.ua/content/images/47/sukhyi-korm-dlia-doroslykh-sobak-vsikh-porid-z-pidvyshchenoiu-potreboiu-v-enerhii-josera-high-protein-adult-chicken-high-energy-12.5-kh-67133486470397_+ba12746667.png</picture>
@@ -4505,7 +4513,8 @@
    </offer>
    <offer id="2752" available="true">
     <code>50011945</code><url>https://catpaws.com.ua/sukhyi-korm-josidog-regular-15-kh/</url>
-    <price>2385.00</price>
+    <price>1789.00</price>
+    <oldprice>2385</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1084</categoryId>
     <picture>https://catpaws.com.ua/content/images/3/sukhyi-korm-josidog-regular-15-kh-58815365269232_+4e56362ce0.png</picture>
@@ -4560,7 +4569,8 @@
    </offer>
    <offer id="2760" available="true">
     <code>50014718</code><url>https://catpaws.com.ua/sukhyi-korm-dlia-doroslykh-vybahlyvykh-sobak-malykh-porid-josera-mini-salmon-chicken-10-kh/</url>
-    <price>3090.00</price>
+    <price>2318.00</price>
+    <oldprice>3090</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1084</categoryId>
     <picture>https://catpaws.com.ua/content/images/11/sukhyi-korm-dlia-doroslykh-vybahlyvykh-sobak-malykh-porid-josera-mini-salmon-chicken-10-kh-71441179122927_+61fede800a.jpeg</picture>
@@ -4571,7 +4581,8 @@
    </offer>
    <offer id="2761" available="true">
     <code>50014832</code><url>https://catpaws.com.ua/sukhyi-korm-dlia-sobak-serednikh-ta-velykykh-porid-josera-medi-maxi-chicken-rice-large-breed-125-kh/</url>
-    <price>3263.00</price>
+    <price>2447.00</price>
+    <oldprice>3263</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1084</categoryId>
     <picture>https://catpaws.com.ua/content/images/12/sukhyi-korm-dlia-sobak-serednikh-ta-velykykh-porid-josera-medi-maxi-chicken-rice-large-breed-125-kh-95508615543570_+a1187be602.jpeg</picture>
@@ -4582,7 +4593,8 @@
    </offer>
    <offer id="2762" available="true">
     <code>50014789</code><url>https://catpaws.com.ua/bezzernovyi-sukhyi-korm-dlia-doroslykh-sobak-josera-hypoallergenic-125-kh/</url>
-    <price>6025.00</price>
+    <price>4519.00</price>
+    <oldprice>6025</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1084</categoryId>
     <picture>https://catpaws.com.ua/content/images/13/bezzernovyi-sukhyi-korm-dlia-doroslykh-sobak-josera-hypoallergenic-125-kh-44860332903593_+c75f143533.png</picture>
@@ -6365,7 +6377,8 @@
    </offer>
    <offer id="3554" available="true">
     <code>50014836</code><url>https://catpaws.com.ua/bezzernovyi-sukhyi-korm-dlia-aktyvnykh-tsutseniat-usikh-porid-vid-6-tyzhniv-josera-high-protein-junior-sea-fish-12.5-kh/</url>
-    <price>4600.00</price>
+    <price>3450.00</price>
+    <oldprice>4600</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1084</categoryId>
     <picture>https://catpaws.com.ua/content/images/5/bezzernovyi-sukhyi-korm-dlia-aktyvnykh-tsutseniat-usikh-porid-vid-6-tyzhniv-josera-high-protein-junior-sea-fish-12.5-kh-32539455694915_+d0af098e6c.jpeg</picture>
@@ -6409,7 +6422,8 @@
    </offer>
    <offer id="3559" available="true">
     <code>50014842</code><url>https://catpaws.com.ua/sukhyi-korm-dlia-doroslykh-sobak-vsikh-porid-z-pidvyshchenoiu-potreboiu-v-enerhii-josera-high-protein-adult-sea-fish-12.5-kh/</url>
-    <price>3763.00</price>
+    <price>2822.00</price>
+    <oldprice>3763</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1084</categoryId>
     <picture>https://catpaws.com.ua/content/images/10/sukhyi-korm-dlia-doroslykh-sobak-vsikh-porid-z-pidvyshchenoiu-potreboiu-v-enerhii-josera-high-protein-adult-sea-fish-12.5-kh-61523585245970_+5f0ff653a9.jpeg</picture>
@@ -10279,14 +10293,15 @@
    </offer>
    <offer id="4470" available="true">
     <code>50014821</code><url>https://catpaws.com.ua/sukhyi-korm-dlia-doroslykh-sobak-serednikh-ta-velykykh-porid-josera-optiness-adult-medi-maxi-125-kh/</url>
-    <price>3263.00</price>
+    <price>2447.00</price>
+    <oldprice>3263</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1084</categoryId>
     <picture>https://catpaws.com.ua/content/images/21/suxiy-korm-dlja-doroslix-sobak-serednx-ta-velikix-pord-josera-optiness-adult-medimaxi-125-kg-84054318407079_+c6a411b22a.jpg</picture>
     <vendorCode>50014821</vendorCode>
     <vendor>JOSERA</vendor>
     <name>Сухий корм для дорослих собак середніх та великих порід JOSERA Optiness Adult Medi/Maxi 12,5 кг</name>
-    <description>JOSERA Optiness Adult Medi/Maxi — повнораціонний сухий корм для дорослих собак середніх і великих порід. Великі крокети сприяють повільнішому поїданню, а помірний вміст енергії підходить собакам із нормальною активністю.  Зменшений вміст протеїну для зниження навантаження на органи. L-карнітин і таурин підтримують роботу серця. Цінні жирні кислоти підтримують здоров’я шкіри та блиск шерсті. Без додавання кукурудзи, пшениці, сої, цукру та молочних продуктів.  Склад: сушений білок домашньої птиці; рис; ячмінь; сушена картопля; бурякова клітковина; жир домашньої птиці; сушений білок ягняти 4,0%; гідролізований білок домашньої птиці; мінерали; мелений корінь цикорію; сушений білок новозеландських зелених мідій. Аналітичні складові: протеїн 22,0%; жири 12,0%; сира клітковина 3,0%; сира зола 6,6%; кальцій 1,40%; фосфор 0,90%; натрій 0,40%; таурин 1000 мг. Енергетична цінність: 3619 ккал/кг.</description>
+    <description>JOSERA Optiness Adult Medi/Maxi — повнораціонний сухий корм для дорослих собак середніх і великих порід. Великі крокети сприяють повільнішому поїданню, а помірний вміст енергії підходить собакам із нормальною активністю.       Зменшений вміст протеїну для зниження навантаження на органи.   L-карнітин і таурин підтримують роботу серця.   Цінні жирні кислоти підтримують здоров’я шкіри та блиск шерсті.   Без додавання кукурудзи, пшениці, сої, цукру та молочних продуктів.      Склад: сушений білок домашньої птиці; рис; ячмінь; сушена картопля; бурякова клітковина; жир домашньої птиці; сушений білок ягняти 4,0%; гідролізований білок домашньої птиці; мінерали; мелений корінь цикорію; сушений білок новозеландських зелених мідій.    Аналітичні складові: протеїн 22,0%; жири 12,0%; сира клітковина 3,0%; сира зола 6,6%; кальцій 1,40%; фосфор 0,90%; натрій 0,40%; таурин 1000 мг.    Енергетична цінність: 3619 ккал/кг.  </description>
    </offer>
    <offer id="4471" available="true">
     <code>50014990</code><url>https://catpaws.com.ua/sukhyi-korm-dlia-doroslykh-sobak-serednikh-ta-velykykh-porid-josera-optiness-adult-medi-maxi-3-kh/</url>
@@ -10356,7 +10371,8 @@
    </offer>
    <offer id="4482" available="true">
     <code>50012160</code><url>https://catpaws.com.ua/sukhyi-korm-josidog-agilo-sport-15-kh/</url>
-    <price>3090.00</price>
+    <price>2318.00</price>
+    <oldprice>3090</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1084</categoryId>
     <picture>https://catpaws.com.ua/content/images/33/suxiy-korm-josidog-agilo-sport-15-kg-94045055384819_+19c5ffcbd8.jpg</picture>
@@ -10367,7 +10383,8 @@
    </offer>
    <offer id="4483" available="true">
     <code>50012162</code><url>https://catpaws.com.ua/sukhyi-korm-josidog-family-15-kh/</url>
-    <price>3120.00</price>
+    <price>2340.00</price>
+    <oldprice>3120</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1084</categoryId>
     <picture>https://catpaws.com.ua/content/images/34/sukhyi-korm-josidog-family-15-kh-30968202845439_+2c3119c9c0.png</picture>
@@ -10378,7 +10395,8 @@
    </offer>
    <offer id="4484" available="true">
     <code>50012165</code><url>https://catpaws.com.ua/sukhyi-korm-josidog-lamb-basic-15-kh/</url>
-    <price>3480.00</price>
+    <price>2610.00</price>
+    <oldprice>3480</oldprice>
     <currencyId>UAH</currencyId>
     <categoryId>1084</categoryId>
     <picture>https://catpaws.com.ua/content/images/35/sukhyi-korm-josidog-lamb-basic-15-kh-23744505530453_+23ff2a4ac4.png</picture>
@@ -10694,17 +10712,6 @@
     <vendorCode>NPSC47597</vendorCode>
     <vendor>Nature's Protection Superior Care</vendor>
     <name>Сухий беззерновий корм для юніорів усіх розмірів з білою рибою, 10 кг Nature's Protection Superior Care White Dogs Grain Free White Fish Junior All Sizes</name>
-    <description>Розмір гранул 13 - 15 мм Сухий корм Nature's Protection Superior Care з білою рибою для зростаючих собак усіх розмірів – це повноцінний і збалансований корм Супер Преміум сегменту з джерелом білка та сировини найвищої якості, що допомагає боротися з коричневими плямами від сліз та підтримувати шкіру й шерсть здоровими. Підходить для великих порід, які надають перевагу дрібному корму, та для молодих собак, які полюбляють їсти більший корм. Містить формулу Tear Stains off – ретельно підібраний комплекс амінокислот і добре збалансованих інгредієнтів у складі. Корм не містить зернових і підходить для тварин з чутливою травною системою, оскільки не обтяжує травний тракт. Повноцінний склад сухого корму не тільки забезпечить вашого улюбленця всіма необхідними поживними речовинами, але й гарантує ідеальну засвоюваність та смакові якості. Біла риба як джерело білка Основне джерело білка в цьому повноцінному сухому кормі для зростаючих собак усіх розмірів – біла риба. Це гіпоалергенний, легкозасвоюваний, багатий поживними речовинами білок, який забезпечує незамінними амінокислотами, а також є хорошим джерелом цинку. Склад збагачений вітамінами А і D, що є ще кориснішими для імунної системи собак. До його складу входять чудові відмінні Омега-3 та Омега-6 жирних кислот, які допомагають підтримувати інтенсивний колір шерсті та ідеальний стан шкіри. Біла риба також є джерелом нежирного білка, що робить її хорошим варіантом для домашніх улюбленців, які потребують дієти з низьким вмістом жиру.  Гіпоалергенний Легко засвоюється Багата на вітаміни та мінерали Джерело незамінних жирних кислот Джерело нежирного білка  Повноцінний і збалансований склад цього сухого корму для зростаючих собак усіх розмірів – збагачений кліноптилолітом природного вулканічного походження, MicroZeoGen. Він сприяє виведенню токсинів з організму вихованця, та після детоксикації цінні поживні речовини, вітаміни та мінерали легко абсорбуються організмом. Одна гранула корм для собак усіх розмірів Цей корм розроблений для собак усіх порід і розмірів, тому є чудовим продуктом, якщо маєте декількох улюбленцв різних порід. Універсальний розмір гранули спрощує годування домашніх улюбленців і допомагає забезпечити кожного з них достатню кількість корисних речовин – білків, жирів, вуглеводів, вітамінів і мінералів. Високозасвоюваний Цей корм збагачений інгредієнтами, які ідеально підходять для покращення травлення та для чутливих улюбленців. Високозасвоюваний корм забезпечує більшу частку засвоюваних поживних речовин. Гіпоалергенний Тріску, путасу та сайду цінують за гіпоалергенні властивості. Крім того, біла риба містить більше вітамінів А і D, ніж інші види риби, що є життєво важливими для собак. Формула Tear Stains off Ретельно підібрані інгредієнти та лише правильна збалансована формула – щоб підтримувати чистим склад слини та сліз, що сприяє усуненню коричневих плям навколо очей, мордочки та лап. Корми з лінійки Nature’s Protection Superior Care White Dogs підходять усім собакам, незалежно від забарвлення шерсті та не впливають на її колір. Ця серія кормів була розроблена спеціально для усунення коричневих плям від сліз, які найпомітніші саме на білій і світлій шерсті вихованців. Проте включення цього корму до раціону собак із темним забарвленням шерсті не призводить до її висвітлення або зміни кольору. Переваги корму:  Один корм для собак усіх розмірів Гіпоалергенний Формула «без сліз» Легко засвоюється Інгредієнти найвищої якості Природні антиоксиданти Збалансоване харчування Без зернових  Основні інгредієнти: Джерело білка – біла риба: легко засвоюваний, корисна для шкіри. MicroZeoGen: кліноптилоліт природного вулканічного походження для детоксикації організму, засвоєння поживних речовин та зміцнення імунної системи. Збалансований комплекс амінокислот: допомагає боротися з появою коричневих плям від сліз і підтримувати здоров’я шкіри та шерсті. MicroZeoGen – унікальний компонент у складі  MicroZeoGen – природний мінерал, динамічно мікронізований кліноптилоліт. Сприяє розвитку міцних кісток і зубів завдяки вмісту кремнію Сприяє виведенню токсинів, важких металів, аміаку та патогенних бактерій з організму Корисний для засвоєння поживних речовин Позитивно впливає на структуру шерсті, завдяки чому вона виглядає густою та блискучою. Сприяє зміцненню імунної системи.  Nature’s Protection Superior Care – лінійка сухих кормів для собак Супер Преміум класу, відома інноваційними інгредієнтами та розроблена з застосуванням провідних технологій для здорового харчування домашніх тварин. Цей повноцінний корм для собак містить джерела білка та інгредієнти тільки найвищої якості. Розроблено без:  Штучних барвників та ароматизаторів Консервантів  Рекомендації щодо годування: Корм подавати сухим. Свіжа вода повинна бути завжди доступна. Вироблено в ЄС.</description>
-   </offer>
-   <offer id="4536" available="true">
-    <code>NPSC47646</code><url>https://catpaws.com.ua/sukhyi-bezzernovyi-korm-dlia-iunioriv-usikh-rozmiriv-z-biloiu-ryboiu-17-kh-natures-protection-superior-care-white-dogs-grain-free-white-fish-junior-all-sizes/</url>
-    <price>8146.00</price>
-    <currencyId>UAH</currencyId>
-    <categoryId>1084</categoryId>
-    <picture>https://catpaws.com.ua/content/images/37/45450220067089_+53bbe31c6a.jpg</picture>
-    <vendorCode>NPSC47646</vendorCode>
-    <vendor>Nature's Protection Superior Care</vendor>
-    <name>Сухий беззерновий корм для юніорів усіх розмірів з білою рибою, 17 кг Nature's Protection Superior Care White Dogs Grain Free White Fish Junior All Sizes</name>
     <description>Розмір гранул 13 - 15 мм Сухий корм Nature's Protection Superior Care з білою рибою для зростаючих собак усіх розмірів – це повноцінний і збалансований корм Супер Преміум сегменту з джерелом білка та сировини найвищої якості, що допомагає боротися з коричневими плямами від сліз та підтримувати шкіру й шерсть здоровими. Підходить для великих порід, які надають перевагу дрібному корму, та для молодих собак, які полюбляють їсти більший корм. Містить формулу Tear Stains off – ретельно підібраний комплекс амінокислот і добре збалансованих інгредієнтів у складі. Корм не містить зернових і підходить для тварин з чутливою травною системою, оскільки не обтяжує травний тракт. Повноцінний склад сухого корму не тільки забезпечить вашого улюбленця всіма необхідними поживними речовинами, але й гарантує ідеальну засвоюваність та смакові якості. Біла риба як джерело білка Основне джерело білка в цьому повноцінному сухому кормі для зростаючих собак усіх розмірів – біла риба. Це гіпоалергенний, легкозасвоюваний, багатий поживними речовинами білок, який забезпечує незамінними амінокислотами, а також є хорошим джерелом цинку. Склад збагачений вітамінами А і D, що є ще кориснішими для імунної системи собак. До його складу входять чудові відмінні Омега-3 та Омега-6 жирних кислот, які допомагають підтримувати інтенсивний колір шерсті та ідеальний стан шкіри. Біла риба також є джерелом нежирного білка, що робить її хорошим варіантом для домашніх улюбленців, які потребують дієти з низьким вмістом жиру.  Гіпоалергенний Легко засвоюється Багата на вітаміни та мінерали Джерело незамінних жирних кислот Джерело нежирного білка  Повноцінний і збалансований склад цього сухого корму для зростаючих собак усіх розмірів – збагачений кліноптилолітом природного вулканічного походження, MicroZeoGen. Він сприяє виведенню токсинів з організму вихованця, та після детоксикації цінні поживні речовини, вітаміни та мінерали легко абсорбуються організмом. Одна гранула корм для собак усіх розмірів Цей корм розроблений для собак усіх порід і розмірів, тому є чудовим продуктом, якщо маєте декількох улюбленцв різних порід. Універсальний розмір гранули спрощує годування домашніх улюбленців і допомагає забезпечити кожного з них достатню кількість корисних речовин – білків, жирів, вуглеводів, вітамінів і мінералів. Високозасвоюваний Цей корм збагачений інгредієнтами, які ідеально підходять для покращення травлення та для чутливих улюбленців. Високозасвоюваний корм забезпечує більшу частку засвоюваних поживних речовин. Гіпоалергенний Тріску, путасу та сайду цінують за гіпоалергенні властивості. Крім того, біла риба містить більше вітамінів А і D, ніж інші види риби, що є життєво важливими для собак. Формула Tear Stains off Ретельно підібрані інгредієнти та лише правильна збалансована формула – щоб підтримувати чистим склад слини та сліз, що сприяє усуненню коричневих плям навколо очей, мордочки та лап. Корми з лінійки Nature’s Protection Superior Care White Dogs підходять усім собакам, незалежно від забарвлення шерсті та не впливають на її колір. Ця серія кормів була розроблена спеціально для усунення коричневих плям від сліз, які найпомітніші саме на білій і світлій шерсті вихованців. Проте включення цього корму до раціону собак із темним забарвленням шерсті не призводить до її висвітлення або зміни кольору. Переваги корму:  Один корм для собак усіх розмірів Гіпоалергенний Формула «без сліз» Легко засвоюється Інгредієнти найвищої якості Природні антиоксиданти Збалансоване харчування Без зернових  Основні інгредієнти: Джерело білка – біла риба: легко засвоюваний, корисна для шкіри. MicroZeoGen: кліноптилоліт природного вулканічного походження для детоксикації організму, засвоєння поживних речовин та зміцнення імунної системи. Збалансований комплекс амінокислот: допомагає боротися з появою коричневих плям від сліз і підтримувати здоров’я шкіри та шерсті. MicroZeoGen – унікальний компонент у складі  MicroZeoGen – природний мінерал, динамічно мікронізований кліноптилоліт. Сприяє розвитку міцних кісток і зубів завдяки вмісту кремнію Сприяє виведенню токсинів, важких металів, аміаку та патогенних бактерій з організму Корисний для засвоєння поживних речовин Позитивно впливає на структуру шерсті, завдяки чому вона виглядає густою та блискучою. Сприяє зміцненню імунної системи.  Nature’s Protection Superior Care – лінійка сухих кормів для собак Супер Преміум класу, відома інноваційними інгредієнтами та розроблена з застосуванням провідних технологій для здорового харчування домашніх тварин. Цей повноцінний корм для собак містить джерела білка та інгредієнти тільки найвищої якості. Розроблено без:  Штучних барвників та ароматизаторів Консервантів  Рекомендації щодо годування: Корм подавати сухим. Свіжа вода повинна бути завжди доступна. Вироблено в ЄС.</description>
    </offer>
    <offer id="4537" available="true">
@@ -14271,6 +14278,18 @@
     <name>Сухий корм HOME FOOD для активних дорослих собак середніх порід “Яловичина” For Active Dogs 10 кг</name>
     <description>Смачний і поживний раціон для активних собак середніх порід, створений на основі яловичини — джерела високоякісного білка та природної енергії. Завдяки вмісту Омега-3 і -6 жирних кислот, корм позитивно впливає на стан шкіри та забезпечує природний блиск шерсті.         Основні інгредієнти та показання:       Поживна яловичина у формі м’ясного борошна та дегідратованого м’яса насичує організм легкозасвоюваними протеїнами й амінокислотами — саме тим, що потрібно активним собакам для підтримки м’язової маси та витривалості.   Цільнозерновий рис і гречка — джерела складних вуглеводів — забезпечують тварину тривалою енергією та підтримують стабільну роботу травної системи.   Пшеничні висівки й бурякова клітковина покращують роботу кишківника, сприяючи здоровому травленню та всмоктуванню поживних речовин.   Корінь цикорію містить інулін — природний пребіотик, що зміцнює кишкову мікрофлору.   Олія лосося та насіння льону багаті на Омега-3 і -6 жирні кислоти, які зміцнюють серцево-судинну систему, дарують блиск шерсті та допомагають зменшити запалення.   Суміш лікарських рослин (люцерна, чебрець, подорожник, кропива) підтримує імунітет, покращує обмін речовин і зменшує ризик проблем зі шкірою.           Для кого підходить?    Корм ідеально підійде для дорослих собак середніх порід, особливо з активним способом життя. Стане чудовою основою щоденного раціону та підтримкою здоров’я у будь-яку пору року.           Склад: борошно м’ясне з яловичини 25%, рис цільнозерновий, дегідратоване м'ясо яловичини 8%, яловичий жир 7%, крупа гречана ядриця, висівки пшеничні, яловичина (м’ясо, обрізь та субпродукти) 5%, борошно м'ясо-кісткове, гемоглобін, бурякова клітковина, насіння льону, олія лосося (джерело Омега-3, Омега-6), люцерна, корінь цикорію (природне джерело інуліну), мананоолігосахариди (пребіотик), листя подорожника, чебрець, листя кропиви.    Харчові добавки на 1 кг корму: вітамін A 9000 МО, вітамін D3 500 МО, вітамін Е 350 мг, вітамін C 180 мг, біотин 0.7 мг, вітамін В1 4 мг, вітамін В2 0.06 мг, вітамін В3 30 мг, вітамін В5 27 мг, вітамін В6 3 мг, вітамін В9 0.5 мг, вітамін В12 0.04 мг, цинк 80 мг, залізо 70 мг, марганець 28 мг, йод 3.2 мг, мідь 15 мг, селен 0.2 мг. Антиоксиданти природного походження: екстракти цитруса, чорної смородини, винограду.    Поживні речовини: сирий білок 25%, сирий жир 13%, сира клітковина 5%, сира зола 5%, кальцій 1.7%, фосфор 1.1%, калій 0.7%, вологість 10%.    Енергетична цінність (калорійність) 100 г корму: 1487 кДж (355 ккал).    </description>
    </offer>
+   <offer id="5154" available="true">
+    <code>ЗС000455</code><url>https://catpaws.com.ua/suspenziia-stop-sverbizh-fito-kontrol-fito-control-dlia-sobak-ta-kotiv-45-ml-modes-fitokompleks/</url>
+    <price>305.00</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>1125</categoryId>
+    <picture>https://catpaws.com.ua/content/images/5/suspenziia-stop-sverbizh-fito-kontrol-fito-control-dlia-sobak-ta-kotiv-45-ml-modes-fitokompleks-82218260477729_+6439b839eb.png</picture>
+    <vendorCode>ЗС000455</vendorCode>
+    <vendor>ModeS</vendor>
+    <name>Суспензія Стоп-Свербіж Фіто контроль (Fito Control) для собак та котів 45 мл, MODES, (фітокомплекс)</name>
+    <description>Суспензія СТОП-СВЕРБІЖ для собак та котів, складається із рослинних компонентів, які у комплексі сприяють зменшенню алергічних проявів, загоєнню пошкоджень шкіри і підвищенню опірності організму до різних чинників зовнішнього впливу (алергени, токсини). Засіб має протизапальну, антиоксидантну, детоксикуючу, протиалергійну та загальнозміцнювальну властивості, зменшує свербіж і подразнення у тварин. Материнка має антиоксидантну, седативну, протизапальну, знеболювальну, антисептичну дії. Ромашка має у своєму складі вітамін C, тому живить і насичує шкіру, знімає почервоніння та набряк, знижує алергічні реакції у собак та котів. Ромашка є протизапальним, заспокійливим, кровоспинним і знеболювальним засобом, прискорює регенерацію епітелію, зупиняє процеси гниття і бродіння у кишечнику, стимулює травлення, має дезінфекційні властивості. Кропива захищає шкіру тварин від негативного впливу вільних радикалів, сприяє покращенню циркуляції крові, що підвищує пружність та еластичність шкіри, стимулює регенерацію тканин, покращує імунітет. Череда має протизапальну, протиалергічну, антибактеріальну дії, завдяки своїм властивостями знижує прояв висипань і усуває їх причину, оскільки має антигістамінні властивості. Череда підсушує пошкоджену поверхню й запобігає поширенню бактерій, які можуть спровокувати свербіж і запальні процеси на шкірі тварин. Алое вера надає шкірі зволоження, живлення, усуває подразнення, допомагає швидкому загоєнню ран і заспокоює шкіру. Ніацинамід підтримує гідроліпідний бар’єр шкіри собак та котів, збільшує кількість колагену, покращує мікроциркуляцію шкіри, регулює роботу сальних залоз, а також помітно зменшує кількість запалень, пригнічує розмноження бактерій. Суспензію рекомендовано застосовувати у комплексній терапії при алергічних та запальних захворюваннях шкіри, таких як екзема, атопічний дерматит, кропив’янка, розчухи, алопеції, інфіковані дерматити, наслідки укусів комах. Діюча речовина Материнка звичайна; ромашка лікарська; кропива дводомна; череда тридільна; екстракт алое вера; ніацинамід; сахарин; допоміжні речовини. Показання Суспензію рекомендовано застосовувати у комплексній терапії при алергічних та запальних захворюваннях шкіри, таких як екзема, атопічний дерматит, кропив’янка, розчухи, алопеції, інфіковані дерматити, наслідки укусів комах. Дозування та спосіб застосування Засіб давати тварині з невеликою кількістю корму або одразу до ротової порожнини за допомогою шприца-дозатора. Давати засіб 1 раз на день, протягом 7-10 днів у дозах, вказаних у таблиці:     Вид тварини   Вага тварини   Кількість засобу     Коти   1 – 3 кг   0,5 мл     Коти   більше 3 кг   1,0 мл     Собаки   до 10 кг   1,0 мл     Собаки   10 – 20 кг   1,5 мл     Собаки   20 – 30 кг   2,0 мл     Собаки   30 – 40 кг   2,5 мл     Собаки   більше 40 кг   3,0 мл     Перед застосуванням збовтати! Протипоказання Застереження: не застосовувати тваринам при підвищеній індивідуальній чутливості тварини до компонентів засобу. Засіб давати тваринам віком від 3 місяців. Застосовувати засіб вагітним та лактуючим тваринам під наглядом лікаря ветеринарної медицини.</description>
+    <manufacturer_warranty>true</manufacturer_warranty>
+   </offer>
    <offer id="5158" available="true">
     <code>95113-6</code><url>https://catpaws.com.ua/konserva-dlia-kosheniat-nuevo-kitten-chicken-z-kurkoiu-rysom-ta-zhyrom-lososia-200-h-6-sht/</url>
     <price>539.00</price>
@@ -14500,7 +14519,7 @@
     <vendorCode>ЗС000466</vendorCode>
     <vendor>ModeS</vendor>
     <name>Сухе молоко для кошенят MODES MILK for CAT, 300 г</name>
-    <description>Сухе молоко для кошенят MODES MILK for CAT, 300 г    Сухий замінник материнського молока для кошенят. Для вигодовування за нестачі материнського молока, а також додаткового харчування під час відлучення. Підходить для доповнення раціону вагітних і лактуючих самок.    Містить молочні білки та жири, кокосове молоко, таурин, вітаміни й мінерали. Протеїн — 33,5%, жир — 38%, зола — 6,7%, волога — 3,6%.    Готуйте та використовуйте за інструкцією виробника. Фасування: 300 г. Вироблено в Україні.    Інформація та інструкція виробника  </description>
+    <description>Сухе молоко для кошенят MODES MILK for CAT, 300 г    Молочна суміш для вигодовування кошенят, які не отримують материнського молока або потребують догодовування. Її також використовують під час відлучення та переходу на основний корм, для доповнення раціону вагітних і лактуючих кішок та в період відновлення після хвороби. У складі є молочні білки й жири, таурин, вітаміни та мінерали.    Як приготувати молочну суміш    Пропорція: 30 г порошку на 100 мл води. Одна мірна ложка містить 5 г, тобто на 100 мл води потрібно 6 мірних ложок.       Простерилізуйте пляшечку, соску та інше приладдя для приготування й годування.   Відміряйте чисту питну воду, нагріту приблизно до 50 °C. Налийте її у пляшечку.   Додайте порошок у зазначеній пропорції, закрийте пляшечку та збовтайте до однорідності.   Перед годуванням охолодіть суміш приблизно до 38 °C. Перевірте температуру кількома краплями на тильному боці руки.      100 мл у пропорції — це кількість води до додавання порошку.    Скільки разів на день годувати                Вік, дні     Кількість годувань на добу                   2–7     8–12; кожні 2–3 години, також уночі             8–21     8; кожні 3 години, також уночі             22–28     6–8; кожні 3–4 години, також уночі             29–35     4–6, зокрема одне годування вночі             36–42     3             Максимальний добовий об’єм для осиротілих кошенят                Маса тіла, г     Максимум готового молока за добу, мл                   100     50             200     80             400     135             600     180             1000     250             У таблиці наведено об’єм за всю добу, а не за одне годування. Розподіляйте його між годуваннями відповідно до віку. Це максимальні значення з інструкції виробника; індивідуальна потреба залежить від віку, породи й розміру тварини. Регулярно зважуйте кожне кошеня та контролюйте щоденний приріст маси.    З 36-го дня життя виробник рекомендує поступово вводити більш тверду їжу.    Використання як додаткового харчування    За інструкцією виробника, до 6-тижневого віку як доповнення до основного харчування застосовують до 40 мл готової суміші на 1 кг маси тіла. Після 6 тижнів, а також для дорослих тварин у період вагітності, лактації, хвороби або відновлення — до 13 мл на 1 кг маси тіла. Ці норми стосуються додаткового харчування, а не повного вигодовування осиротілих малят.    Склад і поживна цінність    Сироватковий протеїн, молочний концентрат, молочні жири, кокосове молоко, полісахариди (бета-глюкан), альбумін, лецитин, таурин, фруктоолігосахариди, мінеральні речовини, вітаміни.    Аналітичний склад: сирий протеїн — 33,5%; сирий жир — 38%; сира зола — 6,7%; волога — 3,6%.    Вміст в 1 кг:       Вітаміни: A — 22 500 МО; D3 — 1 800 МО; E — 100 МО; C — 53 мг; B1 — 9,5 мг; B2 — 14 мг; B3 — 51 мг; B6 — 6,5 мг; B12 — 59 мкг; біотин — 220 мкг; фолієва кислота — 4 мг; K3 — 0,17 мг.   Мінерали: залізо — 80 мг; мідь — 0,29 мг; марганець — 4,5 мг; йод — 0,2 мг; цинк — 40 мг; селен — 0,22 мг; калій — 0,14 мг.   Інші компоненти: таурин — 1 300 мг; фруктоолігосахариди — 0,12 г; амінокислоти — 1,2 г; омега-3 — 0,14 г; омега-6 — 1,5 г.      Зберігання    Готова суміш: у холодильнику не довше 24 годин. Перед наступним використанням підігрійте та перевірте температуру перед годуванням.    Сухий порошок: тримайте в оригінальній щільно закритій банці, у сухому прохолодному місці, захищеному від світла й недоступному для дітей, за температури 5–25 °C. Після відкриття використайте протягом 3 місяців.    Термін придатності — 12 місяців. Фасування — 300 г. Країна виробництва — Україна.  </description>
    </offer>
    <offer id="5680" available="true">
     <code>ЗС000467</code><url>https://catpaws.com.ua/sukhe-moloko-dlia-tsutseniat-modes-milk-for-dog-300-h/</url>
@@ -14511,7 +14530,7 @@
     <vendorCode>ЗС000467</vendorCode>
     <vendor>ModeS</vendor>
     <name>Сухе молоко для цуценят MODES MILK for DOG, 300 г</name>
-    <description>Сухе молоко для цуценят MODES MILK for DOG, 300 г    Сухий замінник материнського молока для цуценят. Для вигодовування за нестачі материнського молока, а також додаткового харчування під час відлучення. Підходить для доповнення раціону вагітних і лактуючих самок.    Містить молочні білки та жири, соєве молоко, таурин, вітаміни й мінерали. Протеїн — 33,5%, жир — 38%, зола — 6,7%, волога — 3,6%.    Готуйте та використовуйте за інструкцією виробника. Фасування: 300 г. Вироблено в Україні.    Інформація та інструкція виробника  </description>
+    <description>Сухе молоко для цуценят MODES MILK for DOG, 300 г    Молочна суміш для вигодовування цуценят, які не отримують материнського молока або потребують догодовування. Її також використовують під час відлучення та переходу на основний корм, для доповнення раціону вагітних і лактуючих собак та в період відновлення після хвороби. У складі є молочні білки й жири, таурин, вітаміни та мінерали.    Як приготувати молочну суміш    Пропорція: 30 г порошку на 100 мл води. Одна мірна ложка містить 5 г, тобто на 100 мл води потрібно 6 мірних ложок.       Простерилізуйте пляшечку, соску та інше приладдя для приготування й годування.   Відміряйте чисту питну воду, нагріту приблизно до 50 °C. Налийте її у пляшечку.   Додайте порошок у зазначеній пропорції, закрийте пляшечку та збовтайте до однорідності.   Перед годуванням охолодіть суміш приблизно до 38 °C. Перевірте температуру кількома краплями на тильному боці руки.      100 мл у пропорції — це кількість води до додавання порошку.    Скільки разів на день годувати                Вік, дні     Кількість годувань на добу                   2–14     6–8; кожні 3–4 години, також уночі             15–21     6; кожні 4 години, також уночі             22–28     6, зокрема одне годування вночі             29–35     4–6             36–42     2–4             43–49     0–3             Максимальний добовий об’єм для осиротілих цуценят                Маса тіла, г     Максимум готового молока за добу, мл                   250     100             500     160             1000     250             2000     400             5000     900             У таблиці наведено об’єм за всю добу, а не за одне годування. Розподіляйте його між годуваннями відповідно до віку. Це максимальні значення з інструкції виробника; індивідуальна потреба залежить від віку, породи й розміру тварини. Регулярно зважуйте кожне цуценя та контролюйте щоденний приріст маси.    З 36-го дня життя виробник рекомендує поступово вводити більш тверду їжу.    Використання як додаткового харчування    За інструкцією виробника, до 6-тижневого віку як доповнення до основного харчування застосовують до 40 мл готової суміші на 1 кг маси тіла. Після 6 тижнів, а також для дорослих тварин у період вагітності, лактації, хвороби або відновлення — до 13 мл на 1 кг маси тіла. Ці норми стосуються додаткового харчування, а не повного вигодовування осиротілих малят.    Склад і поживна цінність    Сироватковий протеїн, молочний концентрат, молочні жири, соєве молоко, полісахариди (бета-глюкан), альбумін, лецитин, таурин, фруктоолігосахариди, мінеральні речовини, вітаміни.    Аналітичний склад: сирий протеїн — 33,5%; сирий жир — 38%; сира зола — 6,7%; волога — 3,6%.    Вміст в 1 кг:       Вітаміни: A — 23 000 МО; D3 — 1 800 МО; E — 95 МО; C — 50 мг; B1 — 10,5 мг; B2 — 14 мг; B3 — 52 мг; B6 — 7 мг; B12 — 58 мкг; біотин — 210 мкг; фолієва кислота — 4,2 мг; K3 — 0,18 мг.   Мінерали: залізо — 80 мг; мідь — 0,28 мг; марганець — 4,7 мг; йод — 0,2 мг; цинк — 41 мг; селен — 0,21 мг; калій — 0,13 мг.   Інші компоненти: таурин — 1 200 мг; фруктоолігосахариди — 0,12 г; амінокислоти — 1,2 г; омега-3 — 0,13 г; омега-6 — 1,5 г.      Зберігання    Готова суміш: у холодильнику не довше 24 годин. Перед наступним використанням підігрійте та перевірте температуру перед годуванням.    Сухий порошок: тримайте в оригінальній щільно закритій банці, у сухому прохолодному місці, захищеному від світла й недоступному для дітей, за температури 5–25 °C. Після відкриття використайте протягом 3 місяців.    Термін придатності — 12 місяців. Фасування — 300 г. Країна виробництва — Україна.  </description>
    </offer>
    <offer id="5682" available="true">
     <code>ЗС000339-3</code><url>https://catpaws.com.ua/protyparazytarni-tabletky-kvadromidas-dlia-sobak-2-4-kh-02-h-modes-vid-blikh-klishchiv-helmintiv-nabir-3-tabletky/</url>
@@ -14685,6 +14704,17 @@
     <description>ВИСОКОЗВОЛОЖУЮЧИЙ ШАМПУНЬ ДЛЯ ДОВГОШЕРСТИХ ПОРІД     Високозволожуючий шампунь для довгошерстих порід, а також для відновлення сухої, неслухняної, пошкодженої вовни. Надає натуральний презентабельний вигляд, а також блиск і шовковистість. Має збільшуючим і розгладжуючим ефектом. Ідеальний для підготовки тварини до виставки.          АКТИВНІ ІНГРЕДІЄНТИ:        КВАТЕРНІЗОВАННИЙ МЕД: Відомий своїми властивостями, такими як кондиціювання, зволоження, надання яскравості і блиску волоссю в поєднанні з можливістю проникати в його кутикулу і відновлювати пошкоджену структуру. Створює захисну плівку при сушінні феном. Завдяки його кватернізованної похідної, сприяє зняттю статичної електрики і полегшує розчісування вологої вовни.    ВІТАМІННИЙ КОМПЛЕКС: Завдяки високому вмісту ретинолу, токоферолу і вітамінів групи В, а також додаванню до них екстрактів індійського каштана і фукуса, сприяє збереженню здоров'я шкіри тварини і зростанню вовни.    ЗЛАКОВІ ПРОТЕЇНИ: Гідролізат з протеїнів кукурудзи, сої та пшениці. Джерело вітамінів, незамінних жирних кислот, білків і мінеральних речовин для зволоження, реструктуризації та кондиціонування вовни.    КВАТЕРНІЗОВАНІ ОЛІГОСАХАРИДИ: Цукровий очерет сприяє обваженню вовни.    КВАТЕРНІЗОВАНА КАСТОРОВА ОЛІЯ: Надає блиск, зволожує, утворює захисну плівку на шерсті тварин, полегшує розчісування.    РОСЛИННИЙ КЕРАТИН: Багатий жирними кислотами, амінокислотами і вітамінами. Живить і відновлює шерсть.    ЕКСТРАКТ ХЛОПКА: Рослинний білок. Надає м'якість.            ІНСТРУКЦІЯ ПО ЗАСТОСУВАННЮ:        Може бути розведений теплою водою у співвідношенні до 1:10.    Нанести на вологу шерсть масажними рухами. Змити теплою водою. Повторити при необхідності.    Уникати контакту з очима.     </description>
     <manufacturer_warranty>true</manufacturer_warranty>
    </offer>
+   <offer id="1308" available="">
+    <code>NPSC47228</code><url>https://catpaws.com.ua/sukhyi-bezzernovyi-korm-dlia-yunioriv-z-rudym-zabarvlenniam-shersti-dlia-malykh-porid-superior-care-red-coat-grain-free-junior-mini-breeds-15-kh/</url>
+    <price>1164.00</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>1084</categoryId>
+    <picture>https://catpaws.com.ua/content/images/9/99554064130743_+55f0b1e21f.jpeg</picture>
+    <vendorCode>NPSC47228</vendorCode>
+    <vendor>Nature's Protection Superior Care</vendor>
+    <name>Сухий беззерновий корм для юніорів з рудим забарвленням шерсті, для малих порід Superior Care Red Coat Grain Free Junior Mini Breeds 1,5 кг</name>
+    <description>Nature's Protection Superior Care Red Coat Grain Free Salmon - це повноцінний беззерновий корм високого класу з лососем для молодих (2-12 міс) собак дрібних порід (розмір гранули 6-8мм). Корм створений на основі ексклюзивної формули, що ґрунтується на дослідженнях, тому він допомагає захистити та підкреслити рудий пігмент шерсті, а також живить шкіру та шерсть зсередини. БЕЗЗЕРНОВІ ІНГРЕДІЄНТИ Підходить для чутливих і алергічних улюбленців. Крім інгредієнтів зернового походження, які можуть викликати алергічні реакції. Підходить для вихованців з чутливою травною системою, не навантажує травний тракт. ІНГРЕДІЄНТИ ТВАРИННОГО ПОХОДЖЕННЯ З лососем і крилем Склад доповнено ексклюзивним елементом - крилем. Це маленьке, схоже на креветку ракоподібне, що вирізняється багатофункціональною користю для організму улюбленця. Незамінні жирні кислоти Омега-3, що містяться в дрібному крилі, засвоюються в 2,5 раза краще, ніж зі звичайного риб'ячого жиру. Крім того, натуральний компонент криля - вітамін холін, особливо важливий для безперебійної роботи мозку, у 12 разів активніший, ніж доданий. Сертифікований лосось вищого сорту є основним джерелом високоякісного білка. Всі інгредієнти підібрані з урахуванням рекомендацій ветеринарів і експертів з харчування, відповідно до природних потреб вашого вихованця. РОЗРОБЛЕНИЙ ДЛЯ СОБАК ІЗ РУДОЮ ШЕРСТЮ Спеціальна формула Виготовляється відповідно до спеціальної формули RCE (RCE (Red Coat Enhancer), тому допомагає захистити та підкреслити рудий пігмент шерсті. ЗАХИЩЕНІ КЛІТИНИ Природні антиоксиданти Вітамін Е та екстракт розмарину допомагають захистити клітини від шкідливого впливу вільних радикалів. З МІНЕРАЛАМИ MicroZeoGen Для здорової імунної системи Доповнений натуральним мінералом, динамічно мікронізованим клинооптилолітом, який активно стимулює мікрофлору кишківника та засвоєння поживних речовин. Завдяки своїй особливій мікроструктурі, він може використовуватися для виведення токсинів з організму і зміцнення імунної системи. Цей корм унікального складу спеціально адаптований для молодих собак дрібних порід, допомагає захистити і виділити рудий пігмент хутра та живить шкіру і шерсть зсередини. NATURE'S PROTECTION Superior Care - лінія сухих кормів супер-преміум класу, що характеризується інноваційними інгредієнтами та відображає здорове харчування домашніх тварин, засноване на останніх тенденціях і технологіях. Корм містить тільки самі високоякісні джерела білка та інші інноваційні інгредієнти.</description>
+   </offer>
    <offer id="1349" available="">
     <code>NPSC47441</code><url>https://catpaws.com.ua/sukhyi-bezzernovyi-korm-dlia-doroslykh-sobak-malykh-porid-z-biloiu-sherstiu-superior-care-white-dogs-grain-free-with-insect-adult-small-breeds-1.5kh/</url>
     <price>1191.00</price>
@@ -14695,6 +14725,17 @@
     <vendor>Nature's Protection Superior Care</vendor>
     <name>Сухий беззерновий корм для дорослих собак малих порід з білою шерстю Superior Care White Dogs Grain Free with Insect Adult Small Breeds 1.5кг</name>
     <description>розмір гранули 6-8 мм    Nature's Protection White Dog Grain Free with Insect Adult Small Breed – корм cупер-преміум класу з протеїнами комах, розроблений спеціально для дорослих собак малих та декоративних порід з білим забарвленням шерсті.    До складу сухого корму входять інгредієнти, що позитивно впливають на чутливу шкіру та травну систему білошерстих собак. Високоцінний продукт не тільки забезпечить організм вихованця всіма необхідними поживними речовинами, а й гарантує бездоганний стан шерсті.         БЕЗЗЕРНОВИЙ СКЛАД    Підходить для домашніх тварин, схильних до харчової алергії    Не містить інгредієнтів зернового походження, які можуть спричинити алергічні реакції. Підходить для вихованців, які мають чутливу систему травлення, позитивно впливає на роботу шлунково-кишкового тракту.    ВИСОКИЙ ВМІСТ БІЛКІВ ТВАРИННОГО ПОХОДЖЕННЯ    З протеїнами комах    Комахи – цінне джерело високоякісного легкозасвоюваного білка та інших поживних речовин. Протеїни комах містять лауринові кислоти, які мають ефективні протимікробні властивості.    ЗДОРОВА ШКІРА І БЛИСКУЧА ШЕРСТЬ    Містить жирні кислоти Омега-3 та Омега-6    У кормі містяться незамінні жирні кислоти, які допомагають підтримувати інтенсивність природного забарвлення шерсті та здоровий стан шкіри.    МІЦНА ІМУННА СИСТЕМА    З мононенасиченими та поліненасиченими жирними кислотами    Корм містить моно- та поліненасичені жирні кислоти, що зміцнюють імунну систему собаки, а також насичені жирні кислоти, що надають вихованцю енергійності.         NATURE'S PROTECTION Superior care – лінійка сухих кормів супер-преміум класу, до складу яких входять інноваційні інгредієнти. Корми засновані на ідеї правильного та збалансованого харчування домашніх тварин, а також на останніх тенденціях та науково-технічних розробках у даній сфері. До складу кормів входять високоякісні білки та унікальні інноваційні інгредієнти.         Вироблено в ЄС.         Інгредієнти  Настав час харчуватися розумніше. Nature's Protection допоможе вам, як найкраще годувати вашого улюбленця.  Корм для собак, створений фахівцями, що містить лише ті інгредієнти, які потрібні вашому собаці (і нічого з того, що не потрібно вам)      MicroZeoGen  Природний мінерал, динамічно мікронізований кліноптилоліт активно стимулює мікрофлору кишечника та засвоєння поживних речовин. Завдяки особливій мікроструктурі допомагає виводити токсини з організму та зміцнювати імунітет.      Без пшениці  Усі корми цієї лінійки розроблені без вмісту пшениці. Це допомагає знизити ризики виникнення алергії, подразнення шкіри та різних інфекцій. Це також запобігає будь-якому можливому забрудненню корму, яке зазвичай спричиняє пшениця.       Природні антиоксиданти  Природні антиоксиданти - вітамін Е та екстракт розмарину допомагають захистити клітини від негативного впливу вільних радикалів у цілком природний спосіб.         Без глютену  Раціон, що складається з інгредієнтів без глютену, допомагає уникнути розладів травної системи, різних алергічних реакцій і робить вашого собаку менш схильним до захворювань.       </description>
+   </offer>
+   <offer id="1392" available="">
+    <code>NPS45765</code><url>https://catpaws.com.ua/sukhyi-korm-dlia-doroslykh-kotiv-meshkaiuchykh-u-budynku-natures-protection-indoor-7-kh/</url>
+    <price>2734.00</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>1086</categoryId>
+    <picture>https://catpaws.com.ua/content/images/43/53128010252447_+f20c706105.jpg</picture>
+    <vendorCode>NPS45765</vendorCode>
+    <vendor>Nature's Protection</vendor>
+    <name>Сухий корм для дорослих котів мешкаючих у будинку Nature's Protection Indoor 7кг</name>
+    <description>„Nature's Protection Indoor Adult“ – сухий повнораціонний корм для дорослих домашніх котів. Підтримує життєву енергію, сприяє здоровому та тривалому життю вихованця. Знижена кількість жирів та L-карнітин допомагають врегулювати та підтримати оптимальну вагу тіла кішки. Збалансоване поєднання мінералів допомагає уникнути проблеми утворення уратних каменів у нирках та підтримати загальне здоров'я сечовидільної системи вихованця. Натуральні харчові волокна допомагають виводити грудки вовни зі шлункового тракту домашньої кішки безпечним і природним чином.   Мінерал „MICROZEOGEN“ Корм містить натуральний мінерал, динамічно мікронізований кліноптилоліт, який активно стимулює мікрофлору кишечника і таким чином покращує засвоюваність поживних речовин. Завдяки особливій мікроструктурі, мінерал допомагає виводити з організму токсини та зміцнює імунну систему, а також сприяє регенерації суглобів та покращенню їхньої рухливості.   Для здоров'я шкіри та шерсті Ретельно підібране поєднання високоякісних білків тваринного та морського походження, а також поліненасичена жирна кислота Омега забезпечать організм Вашої кішки оптимальною кількістю амінокислот для здоров'я шкіри, блиску та густини шерсті.   Комплекс HAIRBALL CONTROL Допомагає виводити грудки шерсті зі шлункового тракту кішки Сухий корм містить харчові волокна, що допомагають виводити грудки шерсті зі шлункового тракту кішки безпечним і природним чином.  Знижена кількість жирів та L-карнітин Л-карнітин, що знаходиться в складі корму, покращує обмін речовин, допомагає перетворити жир в енергію, таким чином, запобігаючи його накопиченню в організмі.  Збалансоване поєднання мінералів Збалансоване поєднання мінералів допомагає уникнути проблеми утворення уратних каменів у нирках та підтримати загальне здоров'я сечовидільної системи вихованця.   Унікальний за складом сухий корм, призначений для підтримки здоров'я шкіри та шерсті, а також запобігання ожирінню та набору надмірної ваги у дорослих домашніх кішок.  NATURE'S PROTECTION - сухі корми Super Premium класу, до складу яких входять інноваційні інгредієнти. Корми засновані на ідеї правильного та збалансованого харчування домашніх тварин, а також на останніх тенденціях та науково-технічних розробках у цій сфері. До складу корму входять високоякісні білок та інші інгредієнти високої якості.   Виробник: спеціалізований завод з виробництва кормів для домашніх тварин  Акватера , Литва.</description>
    </offer>
    <offer id="1407" available="">
     <code>NPB46042</code><url>https://catpaws.com.ua/sukhyi-korm-dlia-doroslykh-kotiv-z-chutlyvym-travlenniam-natures-protection-sensitive-digestion-18kh/</url>
@@ -16123,6 +16164,17 @@
     <vendor>Nature's Protection Superior Care</vendor>
     <name>Сухий беззерновий корм для юніорів усіх порід з лососем, 1,5 кг + Nature's Protection Superior Care Junior Grain Free Rabbit and Krill Nature's Protection Superior Care White Dogs Grain Free Salmon Junior All Breeds</name>
     <description>Акційний набір сухого та вологого корму для улюбленців зі світлим забарвленням шерсті. Це турбота про щоденний раціон хвостика з урахуванням особливих потреб організму та користь у кожному шматочку: високий вміст високоякісного тваринного білка та необхідні поживні речовини для підтримки шкіри, шерсті, травлення, чистого складу слини та сліз і загального здоров’я. Який корм входить до акційного набору: 1. Сухий беззерновий корм для юніорів усіх порід з лососем – Nature's Protection Superior Care White Dogs Grain Free Salmon Junior All Breeds, 1,5 кг Сухий беззерновий корм з лососем для юніорів усіх порід – це повноцінний і збалансований корм супер преміум сегменту з джерелом білка та сировини найвищої якості, що допомагає боротися з коричневими плямами від сліз та підтримувати шкіру й шерсть здоровими. Збагачений компонентами, що забезпечують відмінну продуктивність для доброго самопочуття вихованця. Повноцінний склад сухого корму не тільки забезпечить вашого улюбленця всіма необхідними поживними речовинами, але й має відмінні смакові якості та засвоюваність.  Лосось як джерело білка – збагачений Омега кислотами, що сприяють зміцненню імунної системи та підтримці здорового розвитку; гіпоалергенний і легко засвоюється, має відмінний смак; Ретельно підібрані інгредієнти та лише правильна збалансована формула – щоб підтримувати чистим склад слини та сліз, що сприяє усуненню коричневих плям навколо очей, мордочки та лап; Продукт не містить штучних барвників, ароматизаторів або консервантів, які можуть спровокувати алергічні реакції в собак.  Підходить юніорам усіх порід. 2. Вологий корм для юніорів з кроликом і крилем – Nature's Protection Superior Care Junior Grain Free Rabbit and Krill, 85 г х 2 шт. Повноцінний беззерновий вологий корм з кролятиною та крилем створений для юніорів усіх порід. Це турбота про щоденний раціон із урахуванням потреб зростаючого організму: формула з високим вмістом якісного тваринного білка, доповнена Microzeogen і спеціальними активними компонентами, що забезпечують комплексну підтримку імунітету, правильного росту, травлення та загального здоров’я.  Кролятина та криль – легкозасвоювані джерела білка, підходять для чутливих собак або тварин із алергіями. Лососева олія – джерело омега-3 жирних кислот (EPA та DHA), підтримує здоров’я суглобів і імунну систему, підвищує смакові властивості корму. Мінерали (цинк, марганець, мідь) – підтримують правильний розвиток м’язів, зубів і всього організму. Пребіотики та рослинні компоненти – допомагають підтримувати мікрофлору кишечника та покращують травлення. Вологий корм підтримує належну гідратацію організму та роботу нирок. Беззернова формула без поширених алергенів – підходить для чутливих улюбленців.  Основні характеристики:  Фасування: сухий корм – 1,5 кг; вологий корм у паучах – 85 г х 2 шт. Для юніорів усіх порід  Виготовлено в Литві</description>
+   </offer>
+   <offer id="4536" available="">
+    <code>NPSC47646</code><url>https://catpaws.com.ua/sukhyi-bezzernovyi-korm-dlia-iunioriv-usikh-rozmiriv-z-biloiu-ryboiu-17-kh-natures-protection-superior-care-white-dogs-grain-free-white-fish-junior-all-sizes/</url>
+    <price>8146.00</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>1084</categoryId>
+    <picture>https://catpaws.com.ua/content/images/37/45450220067089_+53bbe31c6a.jpg</picture>
+    <vendorCode>NPSC47646</vendorCode>
+    <vendor>Nature's Protection Superior Care</vendor>
+    <name>Сухий беззерновий корм для юніорів усіх розмірів з білою рибою, 17 кг Nature's Protection Superior Care White Dogs Grain Free White Fish Junior All Sizes</name>
+    <description>Розмір гранул 13 - 15 мм Сухий корм Nature's Protection Superior Care з білою рибою для зростаючих собак усіх розмірів – це повноцінний і збалансований корм Супер Преміум сегменту з джерелом білка та сировини найвищої якості, що допомагає боротися з коричневими плямами від сліз та підтримувати шкіру й шерсть здоровими. Підходить для великих порід, які надають перевагу дрібному корму, та для молодих собак, які полюбляють їсти більший корм. Містить формулу Tear Stains off – ретельно підібраний комплекс амінокислот і добре збалансованих інгредієнтів у складі. Корм не містить зернових і підходить для тварин з чутливою травною системою, оскільки не обтяжує травний тракт. Повноцінний склад сухого корму не тільки забезпечить вашого улюбленця всіма необхідними поживними речовинами, але й гарантує ідеальну засвоюваність та смакові якості. Біла риба як джерело білка Основне джерело білка в цьому повноцінному сухому кормі для зростаючих собак усіх розмірів – біла риба. Це гіпоалергенний, легкозасвоюваний, багатий поживними речовинами білок, який забезпечує незамінними амінокислотами, а також є хорошим джерелом цинку. Склад збагачений вітамінами А і D, що є ще кориснішими для імунної системи собак. До його складу входять чудові відмінні Омега-3 та Омега-6 жирних кислот, які допомагають підтримувати інтенсивний колір шерсті та ідеальний стан шкіри. Біла риба також є джерелом нежирного білка, що робить її хорошим варіантом для домашніх улюбленців, які потребують дієти з низьким вмістом жиру.  Гіпоалергенний Легко засвоюється Багата на вітаміни та мінерали Джерело незамінних жирних кислот Джерело нежирного білка  Повноцінний і збалансований склад цього сухого корму для зростаючих собак усіх розмірів – збагачений кліноптилолітом природного вулканічного походження, MicroZeoGen. Він сприяє виведенню токсинів з організму вихованця, та після детоксикації цінні поживні речовини, вітаміни та мінерали легко абсорбуються організмом. Одна гранула корм для собак усіх розмірів Цей корм розроблений для собак усіх порід і розмірів, тому є чудовим продуктом, якщо маєте декількох улюбленцв різних порід. Універсальний розмір гранули спрощує годування домашніх улюбленців і допомагає забезпечити кожного з них достатню кількість корисних речовин – білків, жирів, вуглеводів, вітамінів і мінералів. Високозасвоюваний Цей корм збагачений інгредієнтами, які ідеально підходять для покращення травлення та для чутливих улюбленців. Високозасвоюваний корм забезпечує більшу частку засвоюваних поживних речовин. Гіпоалергенний Тріску, путасу та сайду цінують за гіпоалергенні властивості. Крім того, біла риба містить більше вітамінів А і D, ніж інші види риби, що є життєво важливими для собак. Формула Tear Stains off Ретельно підібрані інгредієнти та лише правильна збалансована формула – щоб підтримувати чистим склад слини та сліз, що сприяє усуненню коричневих плям навколо очей, мордочки та лап. Корми з лінійки Nature’s Protection Superior Care White Dogs підходять усім собакам, незалежно від забарвлення шерсті та не впливають на її колір. Ця серія кормів була розроблена спеціально для усунення коричневих плям від сліз, які найпомітніші саме на білій і світлій шерсті вихованців. Проте включення цього корму до раціону собак із темним забарвленням шерсті не призводить до її висвітлення або зміни кольору. Переваги корму:  Один корм для собак усіх розмірів Гіпоалергенний Формула «без сліз» Легко засвоюється Інгредієнти найвищої якості Природні антиоксиданти Збалансоване харчування Без зернових  Основні інгредієнти: Джерело білка – біла риба: легко засвоюваний, корисна для шкіри. MicroZeoGen: кліноптилоліт природного вулканічного походження для детоксикації організму, засвоєння поживних речовин та зміцнення імунної системи. Збалансований комплекс амінокислот: допомагає боротися з появою коричневих плям від сліз і підтримувати здоров’я шкіри та шерсті. MicroZeoGen – унікальний компонент у складі  MicroZeoGen – природний мінерал, динамічно мікронізований кліноптилоліт. Сприяє розвитку міцних кісток і зубів завдяки вмісту кремнію Сприяє виведенню токсинів, важких металів, аміаку та патогенних бактерій з організму Корисний для засвоєння поживних речовин Позитивно впливає на структуру шерсті, завдяки чому вона виглядає густою та блискучою. Сприяє зміцненню імунної системи.  Nature’s Protection Superior Care – лінійка сухих кормів для собак Супер Преміум класу, відома інноваційними інгредієнтами та розроблена з застосуванням провідних технологій для здорового харчування домашніх тварин. Цей повноцінний корм для собак містить джерела білка та інгредієнти тільки найвищої якості. Розроблено без:  Штучних барвників та ароматизаторів Консервантів  Рекомендації щодо годування: Корм подавати сухим. Свіжа вода повинна бути завжди доступна. Вироблено в ЄС.</description>
    </offer>
    <offer id="4539" available="">
     <code>АКЦ_NPSC45829</code><url>https://catpaws.com.ua/sukhyi-bezzernovyi-korm-dlia-iunioriv-malykh-porid-z-biloiu-ryboiu-1-5-kh-natures-protection-superior-care-junior-grain-free-rabbit-and-krill-natures-protection-superior-care-white/</url>
@@ -18703,18 +18755,6 @@
     <vendor>Exclusion</vendor>
     <name>Exclusion Kitten Beef корм для кошенят з яловичиною 12 кг</name>
     <description>Повнораціонний сухий корм для кошенят віком від 2 до 12 місяців усіх порід із яловичиною.    Exclusion Monoprotein Mediterraneo Formula SuperFood — це повноцінний і збалансований корм, виготовлений з одного джерела високоякісного тваринного білка. Формула збагачена натуральними суперфудами, що сприяють підтримці здоров'я сечовидільної системи, а також містить псиліум для природного виведення грудочок шерсті. Корм не містить глютену, кукурудзи, пшениці та сої, що робить його чудовим вибором для щоденного харчування кошенят.    Переваги:       єдине джерело тваринного білка — дегідратована яловичина;   комплекс натуральних суперфудів для підтримки здоров'я сечовидільної системи;   псиліум сприяє природному виведенню шерсті зі шлунка;   лососева олія підтримує здоров'я шкіри та блиск шерсті;   пребіотики FOS і MOS допомагають підтримувати здорову мікрофлору кишечника;   натуральні антиоксиданти для збереження свіжості продукту;   без глютену, кукурудзи, пшениці та сої.      Склад: дегідратований білок яловичини (30%), горох, свинячий жир, рис, дріжджі, гідролізований тваринний білок з низькою молекулярною масою, сушений жом цикорію, лососева олія (1%), лушпиння та насіння псиліуму (1%), хлорид натрію, карбонат кальцію, лігноцелюлоза, фруктоолігосахариди (FOS) (0,5%), мананоолігосахариди (MOS) (0,3%), сушений гранат (0,1%), сушена чорниця (0,1%), сушена ожина (0,1%), сушена червона малина (0,1%), юка Мохаве.    Харчові добавки (на 1 кг): вітамін А — 25 400 МО, вітамін D₃ — 1 000 МО, вітамін Е — 800 мг, вітамін С — 255 мг, вітамін В₁ — 13,5 мг, вітамін В₂ — 27 мг, ніацинамід — 25 мг, вітамін В₆ — 6,3 мг, вітамін В₁₂ — 0,12 мг, фолієва кислота — 2,5 мг, біотин — 0,12 мг, бетаїн гідрохлорид — 2 400 мг, таурин — 2 260 мг, мідь (хелат міді з гідратом гліцину) — 15 мг, цинк (хелат цинку з гідратом гліцину) — 150 мг, марганець (хелат марганцю з гідратом гліцину) — 65 мг, залізо (хелат заліза(II) з гідратом гліцину) — 50 мг, йод (йодид калію) — 3,5 мг, селен (селенізовані дріжджі Saccharomyces cerevisiae CNCM I-3060, інактивовані) — 0,25 мг, натуральні антиоксиданти (екстракти токоферолів із рослинних олій).    Аналітичний склад: сирий білок — 36%, сирий жир — 18%, сира клітковина — 2,5%, сира зола — 5,8%, вологість — 8%, кальцій — 0,8%, фосфор — 0,7%, магній — 0,09%, омега-3 жирні кислоти — 0,5%, омега-6 жирні кислоти — 2,6%.  </description>
-   </offer>
-   <offer id="5154" available="">
-    <code>ЗС000455</code><url>https://catpaws.com.ua/suspenziia-stop-sverbizh-fito-kontrol-fito-control-dlia-sobak-ta-kotiv-45-ml-modes-fitokompleks/</url>
-    <price>305.00</price>
-    <currencyId>UAH</currencyId>
-    <categoryId>1125</categoryId>
-    <picture>https://catpaws.com.ua/content/images/5/suspenziia-stop-sverbizh-fito-kontrol-fito-control-dlia-sobak-ta-kotiv-45-ml-modes-fitokompleks-82218260477729_+6439b839eb.png</picture>
-    <vendorCode>ЗС000455</vendorCode>
-    <vendor>ModeS</vendor>
-    <name>Суспензія Стоп-Свербіж Фіто контроль (Fito Control) для собак та котів 45 мл, MODES, (фітокомплекс)</name>
-    <description>Суспензія СТОП-СВЕРБІЖ для собак та котів, складається із рослинних компонентів, які у комплексі сприяють зменшенню алергічних проявів, загоєнню пошкоджень шкіри і підвищенню опірності організму до різних чинників зовнішнього впливу (алергени, токсини). Засіб має протизапальну, антиоксидантну, детоксикуючу, протиалергійну та загальнозміцнювальну властивості, зменшує свербіж і подразнення у тварин. Материнка має антиоксидантну, седативну, протизапальну, знеболювальну, антисептичну дії. Ромашка має у своєму складі вітамін C, тому живить і насичує шкіру, знімає почервоніння та набряк, знижує алергічні реакції у собак та котів. Ромашка є протизапальним, заспокійливим, кровоспинним і знеболювальним засобом, прискорює регенерацію епітелію, зупиняє процеси гниття і бродіння у кишечнику, стимулює травлення, має дезінфекційні властивості. Кропива захищає шкіру тварин від негативного впливу вільних радикалів, сприяє покращенню циркуляції крові, що підвищує пружність та еластичність шкіри, стимулює регенерацію тканин, покращує імунітет. Череда має протизапальну, протиалергічну, антибактеріальну дії, завдяки своїм властивостями знижує прояв висипань і усуває їх причину, оскільки має антигістамінні властивості. Череда підсушує пошкоджену поверхню й запобігає поширенню бактерій, які можуть спровокувати свербіж і запальні процеси на шкірі тварин. Алое вера надає шкірі зволоження, живлення, усуває подразнення, допомагає швидкому загоєнню ран і заспокоює шкіру. Ніацинамід підтримує гідроліпідний бар’єр шкіри собак та котів, збільшує кількість колагену, покращує мікроциркуляцію шкіри, регулює роботу сальних залоз, а також помітно зменшує кількість запалень, пригнічує розмноження бактерій. Суспензію рекомендовано застосовувати у комплексній терапії при алергічних та запальних захворюваннях шкіри, таких як екзема, атопічний дерматит, кропив’янка, розчухи, алопеції, інфіковані дерматити, наслідки укусів комах. Діюча речовина Материнка звичайна; ромашка лікарська; кропива дводомна; череда тридільна; екстракт алое вера; ніацинамід; сахарин; допоміжні речовини. Показання Суспензію рекомендовано застосовувати у комплексній терапії при алергічних та запальних захворюваннях шкіри, таких як екзема, атопічний дерматит, кропив’янка, розчухи, алопеції, інфіковані дерматити, наслідки укусів комах. Дозування та спосіб застосування Засіб давати тварині з невеликою кількістю корму або одразу до ротової порожнини за допомогою шприца-дозатора. Давати засіб 1 раз на день, протягом 7-10 днів у дозах, вказаних у таблиці:     Вид тварини   Вага тварини   Кількість засобу     Коти   1 – 3 кг   0,5 мл     Коти   більше 3 кг   1,0 мл     Собаки   до 10 кг   1,0 мл     Собаки   10 – 20 кг   1,5 мл     Собаки   20 – 30 кг   2,0 мл     Собаки   30 – 40 кг   2,5 мл     Собаки   більше 40 кг   3,0 мл     Перед застосуванням збовтати! Протипоказання Застереження: не застосовувати тваринам при підвищеній індивідуальній чутливості тварини до компонентів засобу. Засіб давати тваринам віком від 3 місяців. Застосовувати засіб вагітним та лактуючим тваринам під наглядом лікаря ветеринарної медицини.</description>
-    <manufacturer_warranty>true</manufacturer_warranty>
    </offer>
    <offer id="5170" available="">
     <code>95114-6</code><url>https://catpaws.com.ua/konserva-dlia-kosheniat-nuevo-kitten-chicken-z-kurkoiu-rysom-ta-zhyrom-lososia-400-h-6-sht/</url>
