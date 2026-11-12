@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-12T18:32:15Z",
-  "total": 1672,
+  "updatedAt": "2026-11-12T19:08:29Z",
+  "total": 1667,
   "data": [
     {
       "code": "1018100",
@@ -7899,34 +7899,6 @@
       "manufacture": null
     },
     {
-      "code": "020695",
-      "price": 990,
-      "old_price": null,
-      "availability": true,
-      "stock": 19,
-      "warehouses": [
-        {
-          "id": "DOMS",
-          "stock": 19
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
       "code": "018180",
       "price": 990,
       "old_price": null,
@@ -8571,34 +8543,6 @@
       "manufacture": null
     },
     {
-      "code": "015370",
-      "price": 4500,
-      "old_price": null,
-      "availability": true,
-      "stock": 20,
-      "warehouses": [
-        {
-          "id": "DOMS",
-          "stock": 20
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
       "code": "015318",
       "price": 651,
       "old_price": 930,
@@ -8742,34 +8686,6 @@
       "code": "015394",
       "price": 651,
       "old_price": 930,
-      "availability": true,
-      "stock": 20,
-      "warehouses": [
-        {
-          "id": "DOMS",
-          "stock": 20
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "015417",
-      "price": 4500,
-      "old_price": null,
       "availability": true,
       "stock": 20,
       "warehouses": [
@@ -10232,34 +10148,6 @@
         {
           "id": "DOMS",
           "stock": 19
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "011117",
-      "price": 870,
-      "old_price": null,
-      "availability": true,
-      "stock": 20,
-      "warehouses": [
-        {
-          "id": "DOMS",
-          "stock": 20
         }
       ],
       "warranty_type": "no",
@@ -40045,34 +39933,6 @@
     {
       "code": "70100_box6",
       "price": 619,
-      "old_price": null,
-      "availability": false,
-      "stock": 0,
-      "warehouses": [
-        {
-          "id": "HOME_FOOD",
-          "stock": 0
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 1,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "70100_box7",
-      "price": 609,
       "old_price": null,
       "availability": false,
       "stock": 0,
