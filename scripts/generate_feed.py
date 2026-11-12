@@ -5,6 +5,7 @@ from zoneinfo import ZoneInfo
 
 import requests
 from lxml import etree
+from discontinued_products import DISCONTINUED_SKUS, is_discontinued_offer
 
 
 XML_URL = "https://catpaws.com.ua/content/export/5d007701b07c6dab399214f2c0d6743c.xml"
@@ -16,7 +17,6 @@ PREVIOUS_FEED_FILE = "previous-offers-response.json"
 DEFAULT_WAREHOUSE_ID = "SUPPLIER"
 OWN_STOCK_STATE_FILE = "public/own-stock-state.json"
 MIN_PRICE = 300
-DISCONTINUED_SKUS = {"017954"}
 # Confirmed unavailable; only restore after the supplier confirms stock.
 FORCE_ZERO_SKUS = {
     "254181",  # Start & Go puppy/maternity 10 kg: confirmed unavailable 2026-10-14.
@@ -308,7 +308,7 @@ def load_own_stock():
 
 
 def build_offer(offer, stock_by_sku, own_stock):
-    if is_mono_excluded(offer):
+    if is_discontinued_offer(offer) or is_mono_excluded(offer):
         return None
 
     code = offer.findtext("vendorCode")
@@ -593,3 +593,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

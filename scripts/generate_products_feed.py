@@ -3,6 +3,7 @@ import requests
 from lxml import etree
 from generate_feed import DISCONTINUED_SKUS, FORCE_ZERO_SKUS, is_mono_excluded
 from normalize_feed_prices import normalize_feed_prices
+from discontinued_products import is_discontinued_offer
 
 
 XML_URL = "https://catpaws.com.ua/content/export/5d007701b07c6dab399214f2c0d6743c.xml"
@@ -40,7 +41,7 @@ def main():
 
         if not vendor_code:
             continue
-        if vendor_code.strip() == "NPS24432" or vendor_code.strip() in DISCONTINUED_SKUS:
+        if vendor_code.strip() == "NPS24432" or is_discontinued_offer(offer):
             offer.getparent().remove(offer)
             continue
 
@@ -75,3 +76,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

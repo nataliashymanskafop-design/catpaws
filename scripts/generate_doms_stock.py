@@ -3,6 +3,7 @@ import os
 from datetime import timedelta
 
 from lxml import etree
+from discontinued_products import DOMS_DISCONTINUED_SKUS, is_discontinued
 
 from generate_home_food_stock import (
     PRODUCT_UPDATE_URL,
@@ -174,7 +175,7 @@ def base_skus(products):
 
 
 def stock_policy(sku, item):
-    if sku in FORCE_ZERO_SKUS:
+    if sku in FORCE_ZERO_SKUS or is_discontinued(sku, item["name"], item["brand"]):
         return 0, 0, "zero"
 
     if supplier_sku(sku) not in SUPPLIER_SKUS:
@@ -541,6 +542,8 @@ def build_yml(products, published_stock):
     )
 
     for sku, item in sorted(products.items()):
+        if is_discontinued(sku, item["name"], item["brand"]):
+            continue
         quantity = int(
             published_stock.get(
                 sku,
@@ -760,6 +763,7 @@ def main():
     forced_sync_skus = (
         set(SUPPLIER_SKU_ALIASES)
         | FORCE_ZERO_SKUS
+        | DOMS_DISCONTINUED_SKUS
     )
 
     for sku in forced_sync_skus:
@@ -861,3 +865,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

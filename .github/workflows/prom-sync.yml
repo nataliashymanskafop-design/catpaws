@@ -5,6 +5,8 @@ on:
   push:
     branches: [main]
     paths:
+      - scripts/discontinued_products.py
+      - scripts/test_discontinued_products.py
       - scripts/generate_prom_update_feed.py
       - scripts/test_prom_sync.py
       - scripts/generate_feed.py
@@ -54,3 +56,4 @@ jobs:
           PROM_API_TOKEN: ${{ secrets.PROM_API_TOKEN }}
           PROM_TERRAVET_STATE_FILE: public/terravet-stock-state.json
         run: python scripts/generate_prom_update_feed.py
+

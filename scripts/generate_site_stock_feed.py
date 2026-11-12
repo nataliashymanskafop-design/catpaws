@@ -10,6 +10,7 @@ from generate_home_food_stock import download
 from generate_feed import FORCE_ZERO_SKUS, is_modes_bowl
 from normalize_feed_prices import normalize_price
 from generate_petimpex_catalog import OUTPUT_FILE as CLEAN_PETIMPEX_FILE
+from discontinued_products import is_discontinued_offer
 
 
 # Актуальний фід каталогу сайту. На відміну від Mono-фідів, тут не
@@ -187,6 +188,9 @@ def build_feed(catalog_root, own_stock, supplier_stock, retail_prices=None,
             continue
 
         seen_skus.add(sku)
+        # Manual removal in Horoshop must not be undone by a later import.
+        if is_discontinued_offer(source_offer):
+            continue
         # Never select an arbitrary card when several IDs share the same SKU.
         if sku in duplicate_skus:
             continue
@@ -313,3 +317,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

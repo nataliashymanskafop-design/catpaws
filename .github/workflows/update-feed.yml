@@ -4,6 +4,8 @@ on:
   push:
     branches: [main]
     paths:
+      - scripts/discontinued_products.py
+      - scripts/test_discontinued_products.py
       - scripts/generate_feed.py
       - scripts/generate_products_feed.py
       - scripts/generate_doms_stock.py
@@ -39,6 +41,9 @@ jobs:
           python-version: "3.11"
 
       - run: pip install -r requirements.txt
+
+      - name: Verify discontinued product exclusions
+        run: python -m unittest discover -s scripts -p test_discontinued_products.py
 
       # Keep a validated previous catalog if PetImpex returns truncated XML.
       # Supplier catalog availability must not block Mono stock updates.
@@ -244,5 +249,6 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+
 
 

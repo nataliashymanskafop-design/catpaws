@@ -9,6 +9,7 @@ from urllib.request import Request, urlopen
 from zoneinfo import ZoneInfo
 
 from lxml import etree
+from discontinued_products import DISCONTINUED_SKUS, is_discontinued
 
 
 CATALOG_XML_URL = "https://catpaws.com.ua/content/export/5d007701b07c6dab399214f2c0d6743c.xml"
@@ -450,7 +451,7 @@ def save_state(state):
 
 
 def stock_policy(sku, name):
-    if sku in FORCE_ZERO_SKUS:
+    if sku in FORCE_ZERO_SKUS or is_discontinued(sku, name, "HOME FOOD"):
         return 0, 0
     if sku in CAT_CAN_SKUS:
         return CAT_CAN_STOCK, CAT_CAN_THRESHOLD
@@ -474,7 +475,7 @@ def initial_base_stock(products):
 
 
 def calculate_stock(sku, base_stock):
-    if sku in FORCE_ZERO_SKUS:
+    if sku in FORCE_ZERO_SKUS or sku in DISCONTINUED_SKUS:
         return 0
 
     if sku in SIMPLE_BOXES:
@@ -637,6 +638,8 @@ def build_yml(products, published_stock):
     offers = etree.SubElement(shop, "offers")
 
     for sku, name in sorted(products.items()):
+        if is_discontinued(sku, name, "HOME FOOD"):
+            continue
         quantity = int(published_stock.get(sku, 0))
 
         offer = etree.SubElement(
@@ -775,3 +778,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
