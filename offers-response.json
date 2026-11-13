@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T00:00:17Z",
+  "updatedAt": "2026-11-13T06:27:16Z",
   "total": 1666,
   "data": [
     {
@@ -788,8 +788,8 @@
     },
     {
       "code": "1028100",
-      "price": 3091,
-      "old_price": null,
+      "price": 2627,
+      "old_price": 3091,
       "availability": true,
       "stock": 2,
       "warehouses": [
@@ -3000,8 +3000,8 @@
     },
     {
       "code": "NPSC47230",
-      "price": 1153,
-      "old_price": null,
+      "price": 1038,
+      "old_price": 1153,
       "availability": false,
       "stock": 0,
       "warehouses": [
@@ -3756,8 +3756,8 @@
     },
     {
       "code": "NPB46035",
-      "price": 6508,
-      "old_price": null,
+      "price": 5532,
+      "old_price": 6508,
       "availability": true,
       "stock": 20,
       "warehouses": [
@@ -5520,8 +5520,8 @@
     },
     {
       "code": "NPB46034",
-      "price": 5684,
-      "old_price": null,
+      "price": 5116,
+      "old_price": 5684,
       "availability": true,
       "stock": 20,
       "warehouses": [
@@ -17924,8 +17924,8 @@
     },
     {
       "code": "NPS47739",
-      "price": 6731,
-      "old_price": null,
+      "price": 5721,
+      "old_price": 6731,
       "availability": true,
       "stock": 20,
       "warehouses": [
@@ -26016,8 +26016,8 @@
     },
     {
       "code": "NPSC45796",
-      "price": 1015,
-      "old_price": null,
+      "price": 914,
+      "old_price": 1015,
       "availability": true,
       "stock": 20,
       "warehouses": [
@@ -26884,8 +26884,8 @@
     },
     {
       "code": "CAN63551",
-      "price": 1057,
-      "old_price": null,
+      "price": 898,
+      "old_price": 1057,
       "availability": true,
       "stock": 10,
       "warehouses": [
@@ -26912,8 +26912,8 @@
     },
     {
       "code": "CAN63295",
-      "price": 1448,
-      "old_price": null,
+      "price": 1231,
+      "old_price": 1448,
       "availability": true,
       "stock": 5,
       "warehouses": [
@@ -26940,8 +26940,8 @@
     },
     {
       "code": "CAN63297",
-      "price": 1914,
-      "old_price": null,
+      "price": 1627,
+      "old_price": 1914,
       "availability": true,
       "stock": 10,
       "warehouses": [
@@ -26968,8 +26968,8 @@
     },
     {
       "code": "CAN63552",
-      "price": 828,
-      "old_price": null,
+      "price": 704,
+      "old_price": 828,
       "availability": true,
       "stock": 5,
       "warehouses": [
@@ -26996,8 +26996,8 @@
     },
     {
       "code": "CAN451418",
-      "price": 850,
-      "old_price": null,
+      "price": 723,
+      "old_price": 850,
       "availability": true,
       "stock": 10,
       "warehouses": [
@@ -27052,8 +27052,8 @@
     },
     {
       "code": "CAN63292",
-      "price": 786,
-      "old_price": null,
+      "price": 668,
+      "old_price": 786,
       "availability": true,
       "stock": 20,
       "warehouses": [
@@ -27108,8 +27108,8 @@
     },
     {
       "code": "CAN63298",
-      "price": 1451,
-      "old_price": null,
+      "price": 1233,
+      "old_price": 1451,
       "availability": true,
       "stock": 5,
       "warehouses": [
@@ -35956,8 +35956,8 @@
     },
     {
       "code": "NPSC47441",
-      "price": 1191,
-      "old_price": null,
+      "price": 1072,
+      "old_price": 1191,
       "availability": false,
       "stock": 0,
       "warehouses": [
@@ -38084,8 +38084,8 @@
     },
     {
       "code": "NPPR47921_box",
-      "price": 792,
-      "old_price": null,
+      "price": 461,
+      "old_price": 576,
       "availability": false,
       "stock": 0,
       "warehouses": [
@@ -38168,8 +38168,8 @@
     },
     {
       "code": "NPPR47923_box",
-      "price": 792,
-      "old_price": null,
+      "price": 461,
+      "old_price": 576,
       "availability": false,
       "stock": 0,
       "warehouses": [
@@ -38196,8 +38196,8 @@
     },
     {
       "code": "NPPR47916_box",
-      "price": 576,
-      "old_price": null,
+      "price": 461,
+      "old_price": 576,
       "availability": false,
       "stock": 0,
       "warehouses": [
@@ -38224,8 +38224,8 @@
     },
     {
       "code": "NPPR479136_box",
-      "price": 576,
-      "old_price": null,
+      "price": 461,
+      "old_price": 576,
       "availability": false,
       "stock": 0,
       "warehouses": [
@@ -38252,8 +38252,8 @@
     },
     {
       "code": "NPPR47914_box",
-      "price": 576,
-      "old_price": null,
+      "price": 461,
+      "old_price": 576,
       "availability": false,
       "stock": 0,
       "warehouses": [
@@ -38336,8 +38336,8 @@
     },
     {
       "code": "NPPR47915_box",
-      "price": 576,
-      "old_price": null,
+      "price": 461,
+      "old_price": 576,
       "availability": false,
       "stock": 0,
       "warehouses": [
@@ -38364,8 +38364,8 @@
     },
     {
       "code": "NPSC47908_box",
-      "price": 792,
-      "old_price": null,
+      "price": 634,
+      "old_price": 792,
       "availability": false,
       "stock": 0,
       "warehouses": [
@@ -38448,8 +38448,8 @@
     },
     {
       "code": "NPSC47911_box",
-      "price": 792,
-      "old_price": null,
+      "price": 634,
+      "old_price": 792,
       "availability": false,
       "stock": 0,
       "warehouses": [
@@ -38504,8 +38504,8 @@
     },
     {
       "code": "NPSC47912-K2_box",
-      "price": 792,
-      "old_price": null,
+      "price": 634,
+      "old_price": 792,
       "availability": false,
       "stock": 0,
       "warehouses": [
@@ -39792,8 +39792,8 @@
     },
     {
       "code": "CAN63293",
-      "price": 833,
-      "old_price": null,
+      "price": 708,
+      "old_price": 833,
       "availability": false,
       "stock": 0,
       "warehouses": [
@@ -39820,8 +39820,8 @@
     },
     {
       "code": "CAN63304",
-      "price": 1056,
-      "old_price": null,
+      "price": 898,
+      "old_price": 1056,
       "availability": false,
       "stock": 0,
       "warehouses": [
@@ -46512,8 +46512,8 @@
     },
     {
       "code": "NPSC70467-12",
-      "price": 792,
-      "old_price": null,
+      "price": 634,
+      "old_price": 792,
       "availability": false,
       "stock": 0,
       "warehouses": [
