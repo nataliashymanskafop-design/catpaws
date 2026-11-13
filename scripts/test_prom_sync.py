@@ -139,6 +139,48 @@ class SyncTests(unittest.TestCase):
         self.assertEqual(result['50009044'].findtext('oldprice'), '2280.00')
         self.assertEqual(products['50014710'].findtext('price'), '999')
 
+    def apply_supplier(self, sku, offer, regular, sale=None, stock=20):
+        rows = {sku: {'available': True, 'price': regular, 'sale_price': sale}}
+        state = {'josera': {'last_sync': sync.datetime.now(sync.ZoneInfo('Europe/Kyiv')).strftime('%Y-%m-%d %H:%M:%S')},
+                 'published_stock': {sku: stock}}
+        response = unittest.mock.Mock(content=b'feed')
+        response.json.return_value = state
+        with patch.object(sync.requests, 'get', return_value=response), patch.object(sync, 'read_supplier', return_value={}), patch.object(sync, 'map_catalog', return_value=(rows, [])):
+            return sync.apply_josera_source({sku: offer})[sku]
+
+    def test_black_friday_josicat_keeps_site_15_when_supplier_has_no_sale(self):
+        result = self.apply_supplier('50009044', self.offer('1938', '2280'), '2280')
+        self.assertEqual((result.findtext('price'), result.findtext('oldprice')), ('1938', '2280'))
+        item = self.build(result, sku='50009044')
+        self.assertEqual((item['price'], item['oldprice']), (1938, 2280))
+
+    def test_black_friday_josidog_keeps_site_15_over_supplier_discount(self):
+        result = self.apply_supplier('50012165', self.offer('2958', '3480'), '3480', '2610')
+        self.assertEqual((result.findtext('price'), result.findtext('oldprice')), ('2958', '3480'))
+
+    def test_black_friday_josera_keeps_site_25_over_supplier_15(self):
+        result = self.apply_supplier('50014781', self.offer('2250', '3000'), '3000', '2550')
+        self.assertEqual((result.findtext('price'), result.findtext('oldprice')), ('2250', '3000'))
+
+    def test_cleared_site_promotion_is_not_recreated_from_old_site_value(self):
+        result = self.apply_supplier('50009044', self.offer('2280'), '2280')
+        self.assertEqual(result.findtext('price'), '2280')
+        self.assertIsNone(result.findtext('oldprice'))
+
+    def test_stale_site_base_price_falls_back_to_current_supplier(self):
+        result = self.apply_supplier('50009044', self.offer('1938', '2280'), '2400', '2040')
+        self.assertEqual((result.findtext('price'), result.findtext('oldprice')), ('2040', '2400'))
+
+    def test_unselected_supplier_promotions_are_unchanged(self):
+        result = self.apply_supplier('UNSELECTED', self.offer('2250', '3000'), '3000', '2550')
+        self.assertEqual((result.findtext('price'), result.findtext('oldprice')), ('2550', '3000'))
+
+    def test_black_friday_zero_stock_still_blocks_sales(self):
+        result = self.apply_supplier('50009044', self.offer('1938', '2280'), '2280', stock=0)
+        self.assertEqual(result.get('available'), 'false')
+        self.assertEqual(self.build(result, sku='50009044'),
+                         {'id': 1, 'presence': 'not_available'})
+
     def test_josera_zero_bundle_stock_and_supplier_unavailable(self):
         products = {'BUNDLE': self.offer(), 'UNIT': self.offer()}
         rows = {code: {'available': available, 'price': '630', 'sale_price': None}
@@ -331,4 +373,5 @@ class SyncTests(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
 

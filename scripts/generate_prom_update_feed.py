@@ -35,6 +35,21 @@ MIN_SOURCE_PRODUCTS = 2000
 # Natalia removed this promotion on Prom twice. Keep the supplier's regular
 # retail price, but never recreate its sale_price for this exact 18 kg SKU.
 NO_PROMOTION_SKUS = {"50005182"}  # BAVARO Task 23/9, 18 kg (2026-11-03).
+# The Black Friday selection is managed on the site: Josera 25%,
+# JosiDog/JosiCat 15%. Keep its active site price instead of replacing it
+# with the supplier's unrelated promotion. A cleared site promotion falls
+# back to the normal supplier source, and a changed regular price is checked.
+SITE_PROMOTION_SKUS = {
+    "50006774", "50012154", "50014376", "50012167", "50012166",
+    "50012164", "50012163", "50011945", "50012160", "50012162",
+    "50012165", "50009044",
+    "50014781", "50014783", "50014801", "50014785", "50014820",
+    "50014799", "50014717", "50014818", "50014778", "50014791",
+    "50014712", "50014845", "50014718", "50014832", "50014789",
+    "50014836", "50014842", "50014821", "50009986", "50005511",
+    "50008779", "50005505", "50003279", "50007695", "50010350",
+    "50003228", "50005508",
+}
 # Both cards were checked in the Prom cabinet on 2026-10-14: same feed SKU,
 # same JosiDog recipe and 2.7 kg pack. Unknown duplicate groups still stop.
 CONFIRMED_DUPLICATE_IDS = {
@@ -119,12 +134,23 @@ def apply_josera_source(products):
         key = normalize_code(code)
         offer = deepcopy(products[key])
         offer.set("available", "true" if row["available"] and int(stock[code]) > 0 else "false")
-        for old in list(offer.findall("price")) + list(offer.findall("oldprice")):
-            offer.remove(old)
-        if row["price"] is not None:
-            etree.SubElement(offer, "price").text = row["sale_price"] or row["price"]
-            if row["sale_price"]:
-                etree.SubElement(offer, "oldprice").text = row["price"]
+        site_price = parse_price(get_text(offer, "price"))
+        site_oldprice = parse_price(get_text(offer, "oldprice"))
+        keep_site_promotion = (
+            key in SITE_PROMOTION_SKUS
+            and site_price is not None and site_price > 0
+            and site_oldprice is not None and site_oldprice > site_price
+            and prices_equal(site_oldprice, row["price"])
+        )
+        if keep_site_promotion:
+            print("Preserved site promotion:", code, site_price, site_oldprice)
+        else:
+            for old in list(offer.findall("price")) + list(offer.findall("oldprice")):
+                offer.remove(old)
+            if row["price"] is not None:
+                etree.SubElement(offer, "price").text = row["sale_price"] or row["price"]
+                if row["sale_price"]:
+                    etree.SubElement(offer, "oldprice").text = row["price"]
         result[key] = offer
     print("Josera direct Prom source:", len(rows), "site cards; missing:", missing)
     return result
