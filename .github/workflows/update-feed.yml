@@ -8,6 +8,9 @@ on:
       - scripts/test_discontinued_products.py
       - scripts/generate_feed.py
       - scripts/generate_products_feed.py
+      # Keep Mono's catalog refreshed alongside promotion synchronization changes.
+      - scripts/generate_prom_update_feed.py
+      - scripts/test_prom_sync.py
       - scripts/generate_doms_stock.py
       - scripts/generate_home_food_stock.py
       - scripts/generate_kormax_stock.py
