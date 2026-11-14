@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-11-14 17:40">
+<yml_catalog date="2026-11-14 22:31">
   <shop>
     <offers>
       <offer id="1018100" available="true">
@@ -2326,7 +2326,7 @@
       </offer>
       <offer id="1017100" available="true">
         <vendorCode>1017100</vendorCode>
-        <quantity_in_stock>16</quantity_in_stock>
+        <quantity_in_stock>15</quantity_in_stock>
       </offer>
       <offer id="1037100" available="true">
         <vendorCode>1037100</vendorCode>
@@ -3734,7 +3734,7 @@
       </offer>
       <offer id="7000019" available="true">
         <vendorCode>7000019</vendorCode>
-        <quantity_in_stock>6</quantity_in_stock>
+        <quantity_in_stock>5</quantity_in_stock>
       </offer>
       <offer id="7010017_box" available="true">
         <vendorCode>7010017_box</vendorCode>
