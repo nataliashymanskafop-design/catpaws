@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T08:46:54Z",
+  "updatedAt": "2026-11-14T15:40:21Z",
   "total": 1666,
   "data": [
     {
@@ -35,11 +35,11 @@
       "price": 2746,
       "old_price": 3231,
       "availability": true,
-      "stock": 17,
+      "stock": 16,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 17
+          "stock": 16
         }
       ],
       "warranty_type": "no",
@@ -6251,11 +6251,11 @@
       "price": 3490,
       "old_price": null,
       "availability": true,
-      "stock": 10,
+      "stock": 9,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 10
+          "stock": 9
         }
       ],
       "warranty_type": "no",
@@ -7707,11 +7707,11 @@
       "price": 2079,
       "old_price": null,
       "availability": true,
-      "stock": 16,
+      "stock": 15,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 16
+          "stock": 15
         }
       ],
       "warranty_type": "no",
@@ -8631,11 +8631,11 @@
       "price": 3953,
       "old_price": 4650,
       "availability": true,
-      "stock": 19,
+      "stock": 18,
       "warehouses": [
         {
           "id": "DOMS",
-          "stock": 19
+          "stock": 18
         }
       ],
       "warranty_type": "no",
@@ -9471,11 +9471,11 @@
       "price": 2569,
       "old_price": 3425,
       "availability": true,
-      "stock": 20,
+      "stock": 19,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 20
+          "stock": 19
         }
       ],
       "warranty_type": "no",
@@ -10507,11 +10507,11 @@
       "price": 677,
       "old_price": null,
       "availability": true,
-      "stock": 9,
+      "stock": 8,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 9
+          "stock": 8
         }
       ],
       "warranty_type": "no",
@@ -15687,11 +15687,11 @@
       "price": 2822,
       "old_price": 3763,
       "availability": true,
-      "stock": 20,
+      "stock": 19,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 20
+          "stock": 19
         }
       ],
       "warranty_type": "no",
@@ -17982,12 +17982,12 @@
       "code": "NPS47739",
       "price": 5721,
       "old_price": 6731,
-      "availability": true,
-      "stock": 10,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 10
+          "stock": 0
         }
       ],
       "warranty_type": "no",
