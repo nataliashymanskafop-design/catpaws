@@ -15,11 +15,9 @@ DOMS_DISCONTINUED_SKUS = {
     "015417",  # Chicopee CNL Dog Adult Light Lamb & Rice, 15 kg.
     "017954",  # Chicopee CNL Cat Adult Beauty Salmon, 15 kg.
 }
-HOME_FOOD_LUNG_SKUS = {"1016008", "3016004", "3016004_", "1090018"}
-HOME_FOOD_LUNG_BUNDLE_SKUS = {
-    "70100_box7",  # Beef Mix includes beef lung, 1016008.
-    "70100_box9",  # Premium Mix includes rabbit lung, 1090018.
-}
+HOME_FOOD_LUNG_SKUS = {"1016008", "3016004", "3016004_"}
+# Recipes now use the available 60 g beef lungs and the restored rabbit lungs.
+HOME_FOOD_LUNG_BUNDLE_SKUS = set()
 DISCONTINUED_SKUS = (
     DOMS_DISCONTINUED_SKUS
     | HOME_FOOD_LUNG_SKUS
@@ -60,6 +58,8 @@ def is_discontinued(sku, name="", vendor=""):
         # Match the standalone lung treats, not food ingredients or braids.
         return (
             bool(re.search(r"\b(?:леген\w*|легк(?:ие|ое|их)|lungs?)\b", name))
+            and contains(name, "ялович", "говяж", "beef")
+            and pack_grams(name) in {40, 80}
             and not contains(name, "косич", "braid", "сухий корм", "сухой корм", "dry food")
         )
 

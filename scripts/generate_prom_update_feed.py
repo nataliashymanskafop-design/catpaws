@@ -1,3 +1,4 @@
+from home_food_treats import restore_confirmed_treats
 import os
 import json
 import math
@@ -242,6 +243,7 @@ def get_horoshop_products():
     root = etree.fromstring(
         response.content
     )
+    restore_confirmed_treats(root)
     validate_source_freshness(root)
 
     products = {}

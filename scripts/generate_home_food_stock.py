@@ -10,6 +10,9 @@ from zoneinfo import ZoneInfo
 
 from lxml import etree
 from discontinued_products import DISCONTINUED_SKUS, is_discontinued
+from home_food_treats import TREAT_CATALOG, restore_confirmed_treats
+
+SOURCE_CATALOG_SKUS = None
 
 
 CATALOG_XML_URL = "https://catpaws.com.ua/content/export/5d007701b07c6dab399214f2c0d6743c.xml"
@@ -36,23 +39,7 @@ DOG_CAN_THRESHOLD = 16
 BUNDLE_RESERVE = 1
 
 # Р¦С– С‚РѕРІР°СЂРё С‚РёРјС‡Р°СЃРѕРІРѕ РІС–РґСЃСѓС‚РЅС–.
-FORCE_ZERO_SKUS = {
-    "7000008",  # Temporarily unavailable; do not replenish automatically.
-    "1021008",  # Confirmed unavailable on 2026-10-12.
-    "3108016",
-    "1057016",
-    "1013008",
-    "1019004",
-    "1014008",
-    "1012008",
-    "1026008",
-    "1017008",
-    "1010008",
-    "1090018",
-    "1038018",
-    "1024008",
-    "1022008",
-}
+FORCE_ZERO_SKUS = {"7000008", "3108016", "1057016"}
 
 
 # РўС–Р»СЊРєРё С‚РѕРІР°СЂРё HOME FOOD, СЏРєС– РІР¶Рµ С” РІ РєР°С‚Р°Р»РѕР·С– SalesDrive.
@@ -71,7 +58,7 @@ CRM_HOME_FOOD_SKUS = {
     "7010010", "7000003", "7000010", "7000009", "7000008", "7000011",
     "7000012", "7010014", "1006010", "1010010", "1008010", "1007010",
     "1013010", "1011010", "1005010", "1001010", "1002010", "1003010",
-    "1004010", "1013008", "1019004", "1016008", "1014008", "1012008",
+    "1004010", "1013008", "1019004", "1016060", "1038028", "1038018", "1014008", "1012008",
     "1026008", "1017008", "1010008", "1090018", "1024008", "1070008",
     "1011008", "1011088", "1022008", "1050008", "1080008", "1039008",
     "1039088", "1040008", "1060008", "1025004", "7000001", "7010021",
@@ -176,7 +163,7 @@ BUNDLES = {
     },
     "70100_box7": {
         "1013008": 1,
-        "1016008": 1,
+        "1016060": 1,
         "1024008": 1,
         "1022008": 1,
         "1014008": 1,
@@ -188,11 +175,10 @@ BUNDLES = {
         "7010034": 1,
         "7010047": 1,
     },
-    # РђСЂС‚РёРєСѓР»Р° РєРѕСЃРёС‡РєРё Р·С– С€РєС–СЂРё Р»РѕСЃРѕСЃСЏ РЅРµРјР°С” Сѓ РєР°С‚Р°Р»РѕР·С–.
-    # РќР°Р±С–СЂ Р·Р°Р»РёС€Р°С”С‚СЊСЃСЏ Р· РЅСѓР»СЊРѕРІРёРј Р·Р°Р»РёС€РєРѕРј.
+    # Premium Mix: the salmon skin braid is SKU 1038018.
     "70100_box9": {
         "1090018": 1,
-        "__SALMON_SKIN_BRAID_SKU_REQUIRED__": 1,
+        "1038018": 1,
         "7010028": 1,
         "7010026": 1,
     },
@@ -229,6 +215,7 @@ def normalize_name(name):
 def is_treat(name):
     normalized = normalize_name(name)
     keywords = (
+        "ласощ", "снек", "соломк", "косичк", "печив",
         "Р»Р°СЃРѕС‰",
         "СЃРЅРµРє",
         "snack",
@@ -246,7 +233,10 @@ def is_water(name):
 
 
 def load_home_food_catalog():
+    global SOURCE_CATALOG_SKUS
     root = etree.fromstring(download(CATALOG_XML_URL))
+    SOURCE_CATALOG_SKUS = {str(o.findtext("vendorCode") or "").strip() for o in root.xpath(".//offer")}
+    restore_confirmed_treats(root)
     catalog_names = {}
 
     for offer in root.xpath(".//offer"):
@@ -604,6 +594,7 @@ def update_salesdrive_stock(api_key, warehouse_id, updates):
             },
         }
         for sku, quantity in sorted(updates.items())
+        if SOURCE_CATALOG_SKUS is None or sku in SOURCE_CATALOG_SKUS
     ]
 
     for offset in range(0, len(items), 100):
@@ -734,14 +725,20 @@ def main():
             sku: quantity
             for sku, quantity in published_stock.items()
             if sku in DERIVED_SKUS
+            or (sku in state.get("export_only_skus", []) and sku in (SOURCE_CATALOG_SKUS or set()))
             or int(automatic_stock.get(sku, 0)) != int(quantity)
         }
 
-    if updates:
-        update_salesdrive_stock(api_key, warehouse_id, updates)
+    crm_updates = {
+        sku: quantity for sku, quantity in updates.items()
+        if SOURCE_CATALOG_SKUS is None or sku in SOURCE_CATALOG_SKUS
+    }
+    if crm_updates:
+        update_salesdrive_stock(api_key, warehouse_id, crm_updates)
 
     state = {
         "version": 2,
+        "export_only_skus": sorted(set(products) - (SOURCE_CATALOG_SKUS or set(products))),
         "warehouse_id": warehouse_id,
         "last_sync": format_api_time(run_finished_at),
         "base_stock": base_stock,
@@ -768,7 +765,7 @@ def main():
     print(f"HOME FOOD products in catalog: {len(products)}")
     print(f"SalesDrive warehouse ID: {warehouse_id}")
     print(f"Updated orders read: {len(orders)}")
-    print(f"Products sent to SalesDrive: {len(updates)}")
+    print(f"Products sent to SalesDrive: {len(crm_updates)}")
     print(f"Products replenished by threshold: {len(replenished)}")
     print(f"Products with positive stock: {positive}")
     print(f"Products with zero stock: {zero}")

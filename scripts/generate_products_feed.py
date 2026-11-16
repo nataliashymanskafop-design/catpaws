@@ -1,3 +1,4 @@
+from home_food_treats import restore_confirmed_treats
 import os
 import requests
 from lxml import etree
@@ -17,6 +18,7 @@ def main():
     response.raise_for_status()
 
     root = etree.fromstring(response.content)
+    restore_confirmed_treats(root)
     normalize_feed_prices(root)
 
     updated = 0

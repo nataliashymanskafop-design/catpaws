@@ -9,6 +9,7 @@ from unittest.mock import patch
 from lxml import etree
 
 from discontinued_products import is_discontinued, is_discontinued_offer
+from home_food_treats import TREAT_CATALOG, restore_confirmed_treats
 import generate_feed as mono
 import generate_products_feed as products_feed
 import generate_doms_stock as doms
@@ -29,9 +30,6 @@ RETIRED = [
     ("old-ostrich", "Chicopee HNL Dog Soft Adult Ostrich & Potato 2 кг", "CHICOPEE"),
     ("1016008", "Ласощі для собак HOME FOOD Легені яловичі, 80 г", "HOME FOOD"),
     ("3016004_", "Ласощі для котів HOME FOOD Легені яловичі, 40 г", "HOME FOOD"),
-    ("70100_box7", "Набір ласощів HOME FOOD Яловичий мікс", "HOME FOOD"),
-    ("1090018", "Ласощі для собак HOME FOOD Легені кролика, 80 г", "HOME FOOD"),
-    ("70100_box9", "Набір ласощів HOME FOOD Преміальний мікс", "HOME FOOD"),
 ]
 ACTIVE = [
     ("011115", "Килимок двошаровий для котячого лотка 60х80 - сірий", "CAT MAT"),
@@ -48,6 +46,10 @@ ACTIVE = [
     ("70100_box6", "Набір HOME FOOD Довгожуйка", "HOME FOOD"),
     ("other-brand", "Легені яловичі, 80 г", "Another brand"),
     ("different-maxi", "Chicopee CNL Dog Maxi Adult Salmon & Rice 15 кг", "CHICOPEE"),
+    ("1016060", "Ласощі HOME FOOD Легені яловичі, 60 г", "HOME FOOD"),
+    ("1090018", "Ласощі HOME FOOD Легені кролика, 80 г", "HOME FOOD"),
+    ("70100_box7", "Набір HOME FOOD Яловичий мікс", "HOME FOOD"),
+    ("70100_box9", "Набір HOME FOOD Преміальний мікс", "HOME FOOD"),
     ("1148016", "Сухий корм HOME FOOD Ягнятина з рисом, 1,6 кг", "HOME FOOD"),
 ]
 
@@ -61,6 +63,55 @@ def offer(row, price="1000"):
 
 
 class DiscontinuedProductsTests(unittest.TestCase):
+    def test_current_lung_packs_and_all_six_repaired_bundles_are_available(self):
+        for sku, item in TREAT_CATALOG.items():
+            with self.subTest(sku=sku):
+                self.assertFalse(is_discontinued(sku, item['name'], 'HOME FOOD'))
+                self.assertIn(sku, home_food.CRM_HOME_FOOD_SKUS)
+                self.assertNotIn(sku, home_food.FORCE_ZERO_SKUS)
+                self.assertNotIn(sku, mono.FORCE_ZERO_SKUS)
+        self.assertIn('1016060', home_food.BUNDLES['70100_box7'])
+        self.assertNotIn('1016008', home_food.BUNDLES['70100_box7'])
+        self.assertIn('1038018', home_food.BUNDLES['70100_box9'])
+        self.assertEqual(home_food.calculate_stock('70100_box7', {s:21 for s in home_food.BUNDLES['70100_box7']}),20)
+        self.assertEqual(home_food.calculate_stock('70100_box9', {s:21 for s in home_food.BUNDLES['70100_box9']}),20)
+
+    def test_new_pack_is_exported_before_the_site_import_without_writing_unknown_crm_ids(self):
+        root=etree.Element('yml_catalog')
+        offers=etree.SubElement(root,'offers')
+        offers.append(offer(('1017008','Ласощі HOME FOOD Жила, 80 г','HOME FOOD')))
+        with patch.object(home_food,'download',return_value=etree.tostring(root)), patch.object(home_food,'SOURCE_CATALOG_SKUS',None):
+            products=home_food.load_home_food_catalog()
+            stock=home_food.materialize_stock(products,home_food.initial_base_stock(products))
+            for sku in TREAT_CATALOG:
+                self.assertGreater(stock[sku],0)
+            yml=home_food.build_yml(products,stock)
+            self.assertIn('1016060',yml.xpath('.//vendorCode/text()'))
+            self.assertNotIn('1016008',yml.xpath('.//vendorCode/text()'))
+            with patch.object(home_food,'api_json',return_value={'success':True}) as api:
+                home_food.update_salesdrive_stock('test',1,{'1017008':21,'1016060':21})
+                self.assertEqual([p['id'] for p in api.call_args.kwargs['payload']['product']],['1017008'])
+
+    def test_restoration_preserves_other_products_and_existing_unit_promotions(self):
+        root=etree.Element('yml_catalog')
+        offers=etree.SubElement(root,'offers')
+        current=offer(('7010043','Ласощі HOME FOOD Курка, 80 г','HOME FOOD'),price='128')
+        etree.SubElement(current,'oldprice').text='151'
+        offers.append(current)
+        other=offer(('unrelated','Other product','Other brand'),price='77')
+        other.set('available','false')
+        offers.append(other)
+        restore_confirmed_treats(root)
+        self.assertEqual(current.findtext('price'),'128')
+        self.assertEqual(current.findtext('oldprice'),'151')
+        self.assertEqual(other.get('available'),'false')
+        restored={o.findtext('vendorCode'):o for o in root.findall('.//offer')}
+        self.assertEqual(len(set(restored)&set(TREAT_CATALOG)),34)
+        self.assertEqual(restored['70100_box7'].findtext('weight'),'0.38')
+        self.assertEqual(restored['70100_box7'].findtext('price'),'587.02')
+        self.assertNotIn('Легені яловичі, 80 г',restored['70100_box7'].findtext('description'))
+        self.assertNotIn('1016008',restored)
+
     def test_all_ten_doms_notice_rows_and_lung_products_are_blocked(self):
         for row in RETIRED:
             with self.subTest(row=row):
@@ -77,11 +128,11 @@ class DiscontinuedProductsTests(unittest.TestCase):
                 self.assertFalse(is_discontinued(*row))
 
     def test_lung_boxes_and_lung_bundle_remain_blocked_with_stale_stock(self):
-        for sku in ["1016008_box", "1016008-10", "1016008*10шт", "3016004_", "1090018", "70100_box7", "70100_BOX7", "70100_box9", "1016008_BOX"]:
+        for sku in ["1016008_box", "1016008-10", "1016008*10шт", "3016004_", "1016008_BOX"]:
             with self.subTest(sku=sku):
                 self.assertTrue(is_discontinued(sku))
         self.assertEqual(home_food.calculate_stock("1016008", {"1016008": 999}), 0)
-        self.assertEqual(home_food.calculate_stock("70100_box7", {s:999 for s in home_food.BUNDLES['70100_box7']}), 0)
+        self.assertEqual(home_food.calculate_stock("70100_box7", {s:21 for s in home_food.BUNDLES['70100_box7']}), 20)
 
     def test_doms_stale_stock_is_zeroed_and_not_replenished_or_exported(self):
         rows = RETIRED[:10] + [ACTIVE[0]]
@@ -119,7 +170,7 @@ class DiscontinuedProductsTests(unittest.TestCase):
             old=os.getcwd()
             try:
                 os.chdir(tmp)
-                with patch.object(products_feed.requests,'get',return_value=Response()), contextlib.redirect_stdout(io.StringIO()):
+                with patch.object(products_feed.requests,'get',return_value=Response()), patch.object(products_feed,'restore_confirmed_treats',side_effect=lambda root:root), contextlib.redirect_stdout(io.StringIO()):
                     products_feed.main()
                 codes=etree.parse('public/products-feed.xml').xpath('.//vendorCode/text()')
             finally:

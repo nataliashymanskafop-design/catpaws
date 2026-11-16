@@ -1,3 +1,4 @@
+from home_food_treats import restore_confirmed_treats
 import json
 import os
 from datetime import datetime, timezone
@@ -21,7 +22,6 @@ MIN_PRICE = 300
 FORCE_ZERO_SKUS = {
     "254181",  # Start & Go puppy/maternity 10 kg: confirmed unavailable 2026-10-14.
     "5578",  # happyOne Insect Protein 10 kg, Darwin
-    "1021008",  # HOME FOOD: confirmed unavailable on 2026-10-12.
     "ЗС000410",  # MODES VetSmile anti-inflammatory gum gel 25 ml: unavailable 2026-11-10.
     # Exclusion cat food 300 g: confirmed unavailable on 2026-11-11.
     "5191",  # Exclusion Kitten Chicken, 300 g.
@@ -536,6 +536,7 @@ def main():
     root = etree.fromstring(
         response.content
     )
+    restore_confirmed_treats(root)
 
     previous_feed = load_previous_feed()
     stock_by_sku = load_stock_sources(previous_feed)

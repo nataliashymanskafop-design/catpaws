@@ -1,3 +1,4 @@
+from home_food_treats import restore_confirmed_treats
 import json
 import os
 from collections import Counter
@@ -266,6 +267,7 @@ def petimpex_payload():
 def main():
     print("Downloading current CatPaws catalog...")
     catalog_root = etree.fromstring(download(CATALOG_XML_URL))
+    restore_confirmed_treats(catalog_root)
     petimpex_catalog_root = etree.fromstring(download(PETIMPEX_SITE_CATALOG_XML_URL))
 
     own_stock = load_state(OWN_STOCK_STATE_FILE)
