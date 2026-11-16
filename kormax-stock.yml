@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-11-16 13:59">
+<yml_catalog date="2026-11-16 20:17">
   <shop>
     <name>CatPaws Kormax stock</name>
     <company>CatPaws</company>
@@ -403,8 +403,8 @@
         <vendorCode>CAN63551</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>10</quantity_in_stock>
-        <stock>10</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="CAN63552" available="true">
@@ -1051,8 +1051,8 @@
         <vendorCode>KIKNPSC47657</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="KIKNPSC47658" available="true">
@@ -2018,14 +2018,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPS45742" available="true">
+      <offer id="NPS45742" available="false">
         <name>Сухий корм для дорослих собак великих порід Maxi Adult Large Breeds 12кг</name>
         <vendorCode>NPS45742</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="NPS45744" available="false">
         <name>Сухий корм для дорослих спортивних, мисливських та службових собак Active Sport Adult All Breeds 12кг</name>
@@ -2500,8 +2500,8 @@
         <vendorCode>NPSC45792</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPSC45793" available="true">
@@ -2810,14 +2810,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPSC47597" available="true">
+      <offer id="NPSC47597" available="false">
         <name>Сухий беззерновий корм для юніорів усіх розмірів з білою рибою, 10 кг Nature's Protection Superior Care White Dogs Grain Free White Fish Junior All Sizes</name>
         <vendorCode>NPSC47597</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="NPSC47598" available="true">
         <name>Сухий корм для собак усіх розмірів і стадій життя з протеїном комах, 4 кг Nature's Protection Superior Care White Dogs Insect All Sizes&amp;Life Stages</name>
@@ -2950,8 +2950,8 @@
         <vendorCode>NPSC47647</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPSC47779" available="true">
@@ -3040,8 +3040,8 @@
         <vendorCode>NPSCVET47577</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>10</quantity_in_stock>
-        <stock>10</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPSCVET47579" available="true">
@@ -3427,8 +3427,8 @@
         <vendorCode>TPL63397</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>10</quantity_in_stock>
-        <stock>10</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="TPL63398" available="false">
