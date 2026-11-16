@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-11-16 09:45">
+<yml_catalog date="2026-11-16 13:59">
   <shop>
     <name>CatPaws HOME FOOD stock</name>
     <company>CatPaws</company>
@@ -83,14 +83,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="1010008" available="false">
+      <offer id="1010008" available="true">
         <name>Ласощі для собак HOME FOOD Косичка з рубця яловичого For DOG 80 г</name>
         <vendorCode>1010008</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>21</quantity_in_stock>
+        <stock>21</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="1010010" available="true">
         <name>Фітомін для собак HOME FOOD олія "Сезам" для нормалізації роботи ШКТ 100 мл</name>
@@ -110,14 +110,23 @@
         <stock>19</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="1013008" available="false">
+      <offer id="1012008" available="true">
+        <name>Ласощі для собак HOME FOOD Аорта яловича, 80 г</name>
+        <vendorCode>1012008</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>21</quantity_in_stock>
+        <stock>21</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="1013008" available="true">
         <name>Ласощі для собак HOME FOOD Вим'я яловиче For DOG 80 г</name>
         <vendorCode>1013008</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>21</quantity_in_stock>
+        <stock>21</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="1013010" available="true">
         <name>Фітомін для собак HOME FOOD олія "Антиверм" Антипаразитний засіб 100 мл</name>
@@ -128,14 +137,23 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="1014008" available="false">
+      <offer id="1014008" available="true">
         <name>Ласощі для собак HOME FOOD Жила станова яловича, 80 г</name>
         <vendorCode>1014008</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>21</quantity_in_stock>
+        <stock>21</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="1016060" available="true">
+        <name>Ласощі для собак HOME FOOD Легені яловичі, 60 г</name>
+        <vendorCode>1016060</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>21</quantity_in_stock>
+        <stock>21</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="1017007" available="true">
         <name>Cухий корм HOME FOOD здорова шкіра та блиск шерсті для дорослих собак малих порід Індичка та лосось Healthy skin and shiny coat 700 г</name>
@@ -146,14 +164,14 @@
         <stock>14</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="1017008" available="false">
+      <offer id="1017008" available="true">
         <name>Ласощі для собак HOME FOOD М’ясна жила For DOG 80 г</name>
         <vendorCode>1017008</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>21</quantity_in_stock>
+        <stock>21</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="1017100" available="true">
         <name>Cухий корм HOME FOOD здорова шкіра та блиск шерсті для дорослих собак малих порід Індичка та лосось Healthy skin and shiny coat 10 кг</name>
@@ -182,14 +200,14 @@
         <stock>12</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="1019004" available="false">
+      <offer id="1019004" available="true">
         <name>Ласощі для собак HOME FOOD М’ясні чіпси For DOG 40 г</name>
         <vendorCode>1019004</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>21</quantity_in_stock>
+        <stock>21</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="1019100" available="true">
         <name>Сухий корм HOME FOOD здорова шкіра та блиск шерсті для дорослих собак великих порід “Індичка та лосось” Healthy Skin And Shiny Coat 10 кг</name>
@@ -200,32 +218,41 @@
         <stock>15</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="1021008" available="false">
+      <offer id="1021008" available="true">
         <name>Ласощі для собак HOME FOOD Пеніс яловичий For DOG 80 г</name>
         <vendorCode>1021008</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>21</quantity_in_stock>
+        <stock>21</stock>
+        <in_stock>1</in_stock>
       </offer>
-      <offer id="1022008" available="false">
+      <offer id="1022008" available="true">
         <name>Ласощі для собак HOME FOOD Печінка яловича For DOG 80 г</name>
         <vendorCode>1022008</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>21</quantity_in_stock>
+        <stock>21</stock>
+        <in_stock>1</in_stock>
       </offer>
-      <offer id="1024008" available="false">
+      <offer id="1024008" available="true">
         <name>Ласощі для собак HOME FOOD Рубець яловичий For DOG 80 г</name>
         <vendorCode>1024008</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>21</quantity_in_stock>
+        <stock>21</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="1026008" available="true">
+        <name>Ласощі для собак HOME FOOD Трахея яловича For DOG 80 г</name>
+        <vendorCode>1026008</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>21</quantity_in_stock>
+        <stock>21</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="1027007" available="true">
         <name>Гіпоалергенний сухий корм HOME FOOD для дорослих собак малих порід "Форель з рисом" Hypoallergenic 700 г</name>
@@ -288,6 +315,24 @@
         <categoryId>1</categoryId>
         <quantity_in_stock>20</quantity_in_stock>
         <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="1038018" available="true">
+        <name>Ласощі для собак HOME FOOD Косичка із сушеної шкіри лосося, 80 г</name>
+        <vendorCode>1038018</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>21</quantity_in_stock>
+        <stock>21</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="1038028" available="true">
+        <name>Ласощі для собак HOME FOOD Кручені палички із сушеної шкіри лосося, 80 г</name>
+        <vendorCode>1038028</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>21</quantity_in_stock>
+        <stock>21</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="1038100" available="true">
@@ -360,6 +405,15 @@
         <categoryId>1</categoryId>
         <quantity_in_stock>15</quantity_in_stock>
         <stock>15</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="1090018" available="true">
+        <name>Ласощі для собак HOME FOOD Легені кролика, 80 г</name>
+        <vendorCode>1090018</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>21</quantity_in_stock>
+        <stock>21</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="1108003" available="true">
@@ -1641,7 +1695,7 @@
         <in_stock>1</in_stock>
       </offer>
       <offer id="70100_box10" available="true">
-        <name>Набір протеїнового печива для собак HOME FOOD «Протеїнове тріо», 3 шт</name>
+        <name>Набір протеїнового печива для собак HOME FOOD «Протеїнове тріо», 3 шт, 240 г</name>
         <vendorCode>70100_box10</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
@@ -1676,31 +1730,49 @@
         <stock>8</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="70100_box5" available="false">
-        <name>Набір ласощів для собак HOME FOOD «Для тренувань», 5 шт</name>
+      <offer id="70100_box5" available="true">
+        <name>Набір ласощів для собак HOME FOOD «Для тренувань», 5 шт, 360 г</name>
         <vendorCode>70100_box5</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>9</quantity_in_stock>
+        <stock>9</stock>
+        <in_stock>1</in_stock>
       </offer>
-      <offer id="70100_box6" available="false">
-        <name>Набір натуральних ласощів для собак HOME FOOD «Довгожуйка», 5 шт</name>
+      <offer id="70100_box6" available="true">
+        <name>Набір натуральних ласощів для собак HOME FOOD «Довгожуйка», 5 шт, 400 г</name>
         <vendorCode>70100_box6</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="70100_box7" available="true">
+        <name>Набір натуральних ласощів для собак HOME FOOD «Яловичий мікс», 5 шт, 380 г</name>
+        <vendorCode>70100_box7</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>20</quantity_in_stock>
+        <stock>20</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="70100_box8" available="true">
-        <name>Набір ласощів для собак HOME FOOD «М’ясна соломка MIX», 5 шт</name>
+        <name>Набір ласощів для собак HOME FOOD «М’ясна соломка MIX», 5 шт, 400 г</name>
         <vendorCode>70100_box8</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <quantity_in_stock>9</quantity_in_stock>
         <stock>9</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="70100_box9" available="true">
+        <name>Набір ласощів для собак HOME FOOD «Преміальний мікс», 4 шт, 320 г</name>
+        <vendorCode>70100_box9</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>18</quantity_in_stock>
+        <stock>18</stock>
         <in_stock>1</in_stock>
       </offer>
     </offers>
