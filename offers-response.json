@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T01:59:13Z",
+  "updatedAt": "2026-11-17T07:51:48Z",
   "total": 1668,
   "data": [
     {
@@ -38478,12 +38478,12 @@
       "code": "NPSC47908_box",
       "price": 634,
       "old_price": 792,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 5,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 0
+          "id": "KORMAX",
+          "stock": 5
         }
       ],
       "warranty_type": "no",
@@ -38562,12 +38562,12 @@
       "code": "NPSC47911_box",
       "price": 634,
       "old_price": 792,
-      "availability": false,
-      "stock": 0,
+      "availability": true,
+      "stock": 5,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 0
+          "id": "KORMAX",
+          "stock": 5
         }
       ],
       "warranty_type": "no",

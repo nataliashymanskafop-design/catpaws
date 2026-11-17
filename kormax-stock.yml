@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-11-17 03:58">
+<yml_catalog date="2026-11-17 09:51">
   <shop>
     <name>CatPaws Kormax stock</name>
     <company>CatPaws</company>
@@ -2979,6 +2979,42 @@
         <categoryId>1</categoryId>
         <quantity_in_stock>10</quantity_in_stock>
         <stock>10</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="NPSC47908" available="true">
+        <name>Вологий корм для стерилізованих котів з кроликом, куркою і журавлиною Nature's Protection Superior Care Sterilised Grain Free Adult Cats with Rabbit, Chicken Breast and Cranberries , 85 г</name>
+        <vendorCode>NPSC47908</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>60</quantity_in_stock>
+        <stock>60</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="NPSC47908_box" available="true">
+        <name>Вологий корм для стерилізованих котів з кроликом, куркою і журавлиною Nature's Protection Superior Care Sterilised Grain Free Adult Cats with Rabbit, Chicken Breast and Cranberries , 85 г * 12 шт</name>
+        <vendorCode>NPSC47908_box</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="NPSC47911" available="true">
+        <name>Вологий беззерновий корм Nature's Protection Superior Care для дорослих котів, філе у соусі з оселедцем та курячою грудкою, для контролю ваги, 85 г</name>
+        <vendorCode>NPSC47911</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>60</quantity_in_stock>
+        <stock>60</stock>
+        <in_stock>1</in_stock>
+      </offer>
+      <offer id="NPSC47911_box" available="true">
+        <name>Вологий беззерновий корм Nature's Protection Superior Care для дорослих котів, філе у соусі з оселедцем та курячою грудкою, для контролю ваги, 85 г * 12 шт</name>
+        <vendorCode>NPSC47911_box</vendorCode>
+        <currencyId>UAH</currencyId>
+        <categoryId>1</categoryId>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPSC47912-K2" available="false">

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-11-17 03:59">
+<yml_catalog date="2026-11-17 09:51">
   <shop>
     <offers>
       <offer id="1018100" available="true">
@@ -3212,7 +3212,7 @@
       </offer>
       <offer id="ЗС000233" available="true">
         <vendorCode>ЗС000233</vendorCode>
-        <quantity_in_stock>50</quantity_in_stock>
+        <quantity_in_stock>47</quantity_in_stock>
       </offer>
       <offer id="ЗС000230" available="true">
         <vendorCode>ЗС000230</vendorCode>
@@ -3232,7 +3232,7 @@
       </offer>
       <offer id="ЗС000231" available="true">
         <vendorCode>ЗС000231</vendorCode>
-        <quantity_in_stock>13</quantity_in_stock>
+        <quantity_in_stock>12</quantity_in_stock>
       </offer>
       <offer id="ЗС000232" available="true">
         <vendorCode>ЗС000232</vendorCode>
@@ -5643,6 +5643,22 @@
       <offer id="NPB46244" available="false">
         <vendorCode>NPB46244</vendorCode>
         <quantity_in_stock>0</quantity_in_stock>
+      </offer>
+      <offer id="NPSC47908" available="true">
+        <vendorCode>NPSC47908</vendorCode>
+        <quantity_in_stock>60</quantity_in_stock>
+      </offer>
+      <offer id="NPSC47911" available="true">
+        <vendorCode>NPSC47911</vendorCode>
+        <quantity_in_stock>60</quantity_in_stock>
+      </offer>
+      <offer id="NPSC47908_box" available="true">
+        <vendorCode>NPSC47908_box</vendorCode>
+        <quantity_in_stock>5</quantity_in_stock>
+      </offer>
+      <offer id="NPSC47911_box" available="true">
+        <vendorCode>NPSC47911_box</vendorCode>
+        <quantity_in_stock>5</quantity_in_stock>
       </offer>
       <offer id="UNINPSC63750_box" available="false">
         <vendorCode>UNINPSC63750_box</vendorCode>
