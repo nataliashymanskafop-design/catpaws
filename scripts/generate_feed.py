@@ -1,4 +1,4 @@
-from home_food_treats import restore_confirmed_treats
+from home_food_treats import UNAVAILABLE_TREAT_SKUS, restore_confirmed_treats
 import json
 import os
 from datetime import datetime, timezone
@@ -34,7 +34,7 @@ FORCE_ZERO_SKUS = {
     "6062",  # Exclusion Sterilized Chicken, 300 g.
     "6025",  # Exclusion Sterilized 7+ Chicken, 300 g.
     "6027",  # Exclusion Sterilized Giant Chicken, 300 g.
-}
+} | UNAVAILABLE_TREAT_SKUS
 
 
 # Mono-only exclusions: delivery costs make these products unprofitable.

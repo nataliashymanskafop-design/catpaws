@@ -10,7 +10,7 @@ from zoneinfo import ZoneInfo
 
 from lxml import etree
 from discontinued_products import DISCONTINUED_SKUS, is_discontinued
-from home_food_treats import TREAT_CATALOG, restore_confirmed_treats
+from home_food_treats import TREAT_CATALOG, UNAVAILABLE_TREAT_SKUS, restore_confirmed_treats
 
 SOURCE_CATALOG_SKUS = None
 
@@ -39,7 +39,7 @@ DOG_CAN_THRESHOLD = 16
 BUNDLE_RESERVE = 1
 
 # Р¦С– С‚РѕРІР°СЂРё С‚РёРјС‡Р°СЃРѕРІРѕ РІС–РґСЃСѓС‚РЅС–.
-FORCE_ZERO_SKUS = {"7000008", "3108016", "1057016"}
+FORCE_ZERO_SKUS = {"7000008", "3108016", "1057016"} | UNAVAILABLE_TREAT_SKUS
 
 
 # РўС–Р»СЊРєРё С‚РѕРІР°СЂРё HOME FOOD, СЏРєС– РІР¶Рµ С” РІ РєР°С‚Р°Р»РѕР·С– SalesDrive.

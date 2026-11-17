@@ -1,4 +1,4 @@
-"""HOME FOOD treats confirmed available by Natalia on 2026-11-16.
+"""HOME FOOD packaging and availability confirmed by Natalia.
 
 Keep the current packaging and bundle recipes available while the full Horoshop
 import catches up. Other brands and the discontinued 1016008 pack are untouched.
@@ -13,6 +13,15 @@ from lxml import etree
 CATALOG_FILE = Path(__file__).resolve().parents[1] / "data/home-food-treats.json"
 with CATALOG_FILE.open(encoding="utf-8") as source:
     TREAT_CATALOG = json.load(source)
+
+# Temporary unavailability confirmed on 2026-11-17. Keep these cards, but do
+# not let the previous all-available confirmation restore them on the next run.
+TEMPORARILY_UNAVAILABLE_TREATS = {"1090018", "1038028", "7010028"}
+UNAVAILABLE_TREAT_SKUS = TEMPORARILY_UNAVAILABLE_TREATS | {
+    sku for sku, record in TREAT_CATALOG.items()
+    if any(component in TEMPORARILY_UNAVAILABLE_TREATS
+           for component in record.get("components") or [])
+}
 
 
 def restore_confirmed_treats(root):
@@ -31,7 +40,7 @@ def restore_confirmed_treats(root):
             continue
         missing = not matching
         offer = matching[0] if matching else etree.SubElement(offers, "offer", id=sku)
-        offer.set("available", "true")
+        offer.set("available", "false" if sku in UNAVAILABLE_TREAT_SKUS else "true")
 
         def put(tag, value):
             node = offer.find(tag)

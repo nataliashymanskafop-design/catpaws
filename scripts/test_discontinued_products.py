@@ -9,7 +9,7 @@ from unittest.mock import patch
 from lxml import etree
 
 from discontinued_products import is_discontinued, is_discontinued_offer
-from home_food_treats import TREAT_CATALOG, restore_confirmed_treats
+from home_food_treats import TREAT_CATALOG, UNAVAILABLE_TREAT_SKUS, restore_confirmed_treats
 import generate_feed as mono
 import generate_products_feed as products_feed
 import generate_doms_stock as doms
@@ -63,18 +63,18 @@ def offer(row, price="1000"):
 
 
 class DiscontinuedProductsTests(unittest.TestCase):
-    def test_current_lung_packs_and_all_six_repaired_bundles_are_available(self):
+    def test_current_pack_recipes_respect_temporary_unavailability(self):
         for sku, item in TREAT_CATALOG.items():
             with self.subTest(sku=sku):
                 self.assertFalse(is_discontinued(sku, item['name'], 'HOME FOOD'))
                 self.assertIn(sku, home_food.CRM_HOME_FOOD_SKUS)
-                self.assertNotIn(sku, home_food.FORCE_ZERO_SKUS)
-                self.assertNotIn(sku, mono.FORCE_ZERO_SKUS)
+                self.assertEqual(sku in home_food.FORCE_ZERO_SKUS, sku in UNAVAILABLE_TREAT_SKUS)
+                self.assertEqual(sku in mono.FORCE_ZERO_SKUS, sku in UNAVAILABLE_TREAT_SKUS)
         self.assertIn('1016060', home_food.BUNDLES['70100_box7'])
         self.assertNotIn('1016008', home_food.BUNDLES['70100_box7'])
         self.assertIn('1038018', home_food.BUNDLES['70100_box9'])
         self.assertEqual(home_food.calculate_stock('70100_box7', {s:21 for s in home_food.BUNDLES['70100_box7']}),20)
-        self.assertEqual(home_food.calculate_stock('70100_box9', {s:21 for s in home_food.BUNDLES['70100_box9']}),20)
+        self.assertEqual(home_food.calculate_stock('70100_box9', {s:21 for s in home_food.BUNDLES['70100_box9']}),0)
 
     def test_new_pack_is_exported_before_the_site_import_without_writing_unknown_crm_ids(self):
         root=etree.Element('yml_catalog')
@@ -84,7 +84,10 @@ class DiscontinuedProductsTests(unittest.TestCase):
             products=home_food.load_home_food_catalog()
             stock=home_food.materialize_stock(products,home_food.initial_base_stock(products))
             for sku in TREAT_CATALOG:
-                self.assertGreater(stock[sku],0)
+                if sku in UNAVAILABLE_TREAT_SKUS:
+                    self.assertEqual(stock[sku],0)
+                else:
+                    self.assertGreater(stock[sku],0)
             yml=home_food.build_yml(products,stock)
             self.assertIn('1016060',yml.xpath('.//vendorCode/text()'))
             self.assertNotIn('1016008',yml.xpath('.//vendorCode/text()'))
@@ -111,6 +114,34 @@ class DiscontinuedProductsTests(unittest.TestCase):
         self.assertEqual(restored['70100_box7'].findtext('price'),'587.02')
         self.assertNotIn('Легені яловичі, 80 г',restored['70100_box7'].findtext('description'))
         self.assertNotIn('1016008',restored)
+
+    def test_three_unavailable_treats_and_premium_mix_cannot_be_restored_by_stale_stock(self):
+        self.assertEqual(UNAVAILABLE_TREAT_SKUS,{'1090018','1038028','7010028','70100_box9'})
+        root=etree.Element('yml_catalog')
+        offers=etree.SubElement(root,'offers')
+        for i in range(2000):
+            offers.append(offer((f'control-{i}',f'Control {i}','Untracked')))
+        for sku in TREAT_CATALOG:
+            offers.append(offer((sku,TREAT_CATALOG[sku]['name'],'HOME FOOD')))
+        restore_confirmed_treats(root)
+        restored={o.findtext('vendorCode'):o for o in root.findall('.//offer')}
+        for sku in TREAT_CATALOG:
+            self.assertEqual(restored[sku].get('available'),'false' if sku in UNAVAILABLE_TREAT_SKUS else 'true')
+        base={sku:999 for sku in home_food.base_skus({s:d['name'] for s,d in TREAT_CATALOG.items()})}
+        home_food.replenish_low_stock({s:d['name'] for s,d in TREAT_CATALOG.items()},base)
+        for sku in UNAVAILABLE_TREAT_SKUS:
+            self.assertEqual(home_food.calculate_stock(sku,base),0)
+        stale={sku:999 for sku in TREAT_CATALOG}
+        with contextlib.redirect_stdout(io.StringIO()):
+            site_feed,_=site.build_feed(root,stale,stale)
+        site_rows={o.findtext('vendorCode'):o for o in site_feed.findall('.//offer')}
+        for sku in UNAVAILABLE_TREAT_SKUS:
+            self.assertEqual(site_rows[sku].get('available'),'false')
+            self.assertEqual(site_rows[sku].findtext('quantity_in_stock'),'0')
+            mono_offer=mono.build_offer(restored[sku],{},stale)
+            self.assertFalse(mono_offer['availability'])
+            self.assertEqual(mono_offer['stock'],0)
+        self.assertEqual(home_food.calculate_stock('70100_box7',base),998)
 
     def test_all_ten_doms_notice_rows_and_lung_products_are_blocked(self):
         for row in RETIRED:
