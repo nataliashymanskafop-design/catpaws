@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-11-17 10:22">
+<yml_catalog date="2026-11-17 11:00">
   <shop>
     <name>CatPaws HOME FOOD stock</name>
     <company>CatPaws</company>
@@ -1442,14 +1442,14 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="7010029" available="true">
+      <offer id="7010029" available="false">
         <name>Ласощі для котів HOME FOOD М’ясна соломка з лосося, 40 г</name>
         <vendorCode>7010029</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="7010030" available="true">
         <name>Ласощі для собак HOME FOOD М’ясна соломка з індички та в’ялених томатів, 80 г</name>
@@ -1712,23 +1712,23 @@
         <stock>7</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="70100_box3" available="true">
+      <offer id="70100_box3" available="false">
         <name>Набір беззернових ласощів для котів HOME FOOD «Котячий гурман», м'ясна соломка асорті, 6 шт × 40 г</name>
         <vendorCode>70100_box3</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>7</quantity_in_stock>
-        <stock>7</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
-      <offer id="70100_box4" available="true">
+      <offer id="70100_box4" available="false">
         <name>Набір беззернових ласощів для котів HOME FOOD «Спробуй усі смаки», м'ясна соломка асорті, 12 шт × 40 г</name>
         <vendorCode>70100_box4</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>7</quantity_in_stock>
-        <stock>7</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="70100_box5" available="true">
         <name>Набір ласощів для собак HOME FOOD «Для тренувань», 5 шт, 360 г</name>

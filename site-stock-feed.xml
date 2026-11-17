@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-11-17 10:23">
+<yml_catalog date="2026-11-17 11:02">
   <shop>
     <offers>
       <offer id="1018100" available="true">
@@ -3962,9 +3962,9 @@
         <vendorCode>7010035</vendorCode>
         <quantity_in_stock>21</quantity_in_stock>
       </offer>
-      <offer id="7010029" available="true">
+      <offer id="7010029" available="false">
         <vendorCode>7010029</vendorCode>
-        <quantity_in_stock>20</quantity_in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
       </offer>
       <offer id="7010027" available="true">
         <vendorCode>7010027</vendorCode>
@@ -4942,13 +4942,13 @@
         <vendorCode>SNK46115</vendorCode>
         <quantity_in_stock>20</quantity_in_stock>
       </offer>
-      <offer id="70100_box3" available="true">
+      <offer id="70100_box3" available="false">
         <vendorCode>70100_box3</vendorCode>
-        <quantity_in_stock>7</quantity_in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
       </offer>
-      <offer id="70100_box4" available="true">
+      <offer id="70100_box4" available="false">
         <vendorCode>70100_box4</vendorCode>
-        <quantity_in_stock>7</quantity_in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
       </offer>
       <offer id="ЗС000475" available="true">
         <vendorCode>ЗС000475</vendorCode>

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T08:23:58Z",
+  "updatedAt": "2026-11-17T09:02:13Z",
   "total": 1668,
   "data": [
     {
@@ -27110,12 +27110,12 @@
       "code": "70100_box3",
       "price": 599,
       "old_price": null,
-      "availability": true,
-      "stock": 7,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 7
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -27138,12 +27138,12 @@
       "code": "70100_box4",
       "price": 1060,
       "old_price": null,
-      "availability": true,
-      "stock": 7,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 7
+          "stock": 0
         }
       ],
       "warranty_type": "no",
