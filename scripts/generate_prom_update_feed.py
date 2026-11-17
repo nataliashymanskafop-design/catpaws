@@ -161,6 +161,33 @@ def apply_josera_source(products):
 # PROM API
 # ============================================================
 
+def get_prom_page(headers, params):
+    for attempt in range(4):
+        try:
+            response = requests.get(
+                PROM_API_LIST_URL,
+                headers=headers,
+                params=params,
+                timeout=30,
+            )
+            print("Prom API HTTP:", response.status_code)
+            response.raise_for_status()
+            return response.json()
+        except requests.RequestException as error:
+            status = getattr(error.response, "status_code", None)
+            transient = isinstance(error, (
+                requests.ConnectionError, requests.Timeout,
+                requests.exceptions.ChunkedEncodingError,
+                requests.exceptions.ContentDecodingError,
+                requests.exceptions.JSONDecodeError,
+            )) or status in {429, 500, 502, 503, 504}
+            if not transient or attempt == 3:
+                raise
+            print("Retrying Prom API page:", {"last_id": params.get("last_id"),
+                  "attempt": attempt + 2, "error": type(error).__name__, "status": status})
+            time.sleep(2 ** attempt)
+
+
 def get_prom_products():
 
     headers = {
@@ -183,18 +210,7 @@ def get_prom_products():
         if last_id is not None:
             params["last_id"] = last_id
 
-        response = requests.get(
-            PROM_API_LIST_URL,
-            headers=headers,
-            params=params,
-            timeout=30,
-        )
-
-        print("Prom API HTTP:", response.status_code)
-
-        response.raise_for_status()
-
-        data = response.json()
+        data = get_prom_page(headers, params)
 
         if not isinstance(data, dict) or not isinstance(data.get("products"), list):
             raise RuntimeError("Invalid Prom product list response")
@@ -733,7 +749,6 @@ def readback(updates):
     products = {str(p["id"]): p for p in get_prom_products()}
     states = {str(item["id"]): state_mismatches(item, products.get(str(item["id"])))
               for item in updates}
-    shown = 0
     for item in updates:
         product = products.get(str(item["id"]), {})
         code = normalize_code(product.get("sku"))
@@ -743,13 +758,12 @@ def readback(updates):
                    or bool(re.fullmatch(r"\d+-\d+(?:-\d+)*", code)))
         if control or states[str(item["id"])]:
             print("Readback detail:", {"sku": product.get("sku"), "expected": item,
-                  "actual": {key: product.get(key) for key in ("id", "price", "presence", "discount")}})
+                  "actual": {key: product.get(key) for key in ("id", "price", "presence", "discount", "quantity_in_stock", "in_stock", "status")}})
             if "homie" in clean(product.get("name")).casefold():
                 gift_fields = [key for key, value in product.items()
                                if re.search(r"подар|gift", json.dumps(value, ensure_ascii=False), re.IGNORECASE)]
                 print("Homie gift content audit:", {"sku": product.get("sku"),
                       "id": product.get("id"), "gift_mentions_in_fields": gift_fields})
-            shown += 1
     return states
 
 

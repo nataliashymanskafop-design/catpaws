@@ -17,6 +17,43 @@ import generate_prom_update_feed as sync
 
 
 class SyncTests(unittest.TestCase):
+    def test_interrupted_second_page_retries_the_same_cursor_without_losing_products(self):
+        first=unittest.mock.Mock(status_code=200)
+        first.json.return_value={'products':[{'id':i} for i in range(1,101)]}
+        last=unittest.mock.Mock(status_code=200)
+        last.json.return_value={'products':[{'id':101}]}
+        with patch.object(sync.requests,'get',side_effect=[first,sync.requests.exceptions.ChunkedEncodingError('Response ended prematurely'),last]) as get, patch.object(sync.time,'sleep'):
+            products=sync.get_prom_products()
+        self.assertEqual([p['id'] for p in products],list(range(1,102)))
+        self.assertEqual([call.kwargs['params'].get('last_id') for call in get.call_args_list],[None,100,100])
+
+    def test_transient_prom_http_error_retries(self):
+        failed=unittest.mock.Mock(status_code=503)
+        failed.raise_for_status.side_effect=sync.requests.HTTPError(response=failed)
+        recovered=unittest.mock.Mock(status_code=200)
+        recovered.json.return_value={'products':[]}
+        with patch.object(sync.requests,'get',side_effect=[failed,recovered]) as get, patch.object(sync.time,'sleep'):
+            self.assertEqual(sync.get_prom_products(),[])
+        self.assertEqual(get.call_count,2)
+
+    def test_unauthorized_prom_api_is_not_retried(self):
+        response=unittest.mock.Mock(status_code=401)
+        response.raise_for_status.side_effect=sync.requests.HTTPError(response=response)
+        with patch.object(sync.requests,'get',return_value=response) as get, patch.object(sync.time,'sleep') as sleep:
+            with self.assertRaises(sync.requests.HTTPError):
+                sync.get_prom_products()
+        get.assert_called_once()
+        sleep.assert_not_called()
+
+    def test_persistent_interruption_raises_instead_of_returning_partial_catalog(self):
+        first=unittest.mock.Mock(status_code=200)
+        first.json.return_value={'products':[{'id':i} for i in range(1,101)]}
+        error=sync.requests.exceptions.ChunkedEncodingError('Response ended prematurely')
+        with patch.object(sync.requests,'get',side_effect=[first,error,error,error,error]) as get, patch.object(sync.time,'sleep'):
+            with self.assertRaises(sync.requests.exceptions.ChunkedEncodingError):
+                sync.get_prom_products()
+        self.assertEqual(get.call_count,5)
+
     def offer(self, price='630', old='', available='true'):
         e = etree.Element('offer', available=available)
         etree.SubElement(e, 'price').text = price
