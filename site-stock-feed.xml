@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-11-17 09:51">
+<yml_catalog date="2026-11-17 10:23">
   <shop>
     <offers>
       <offer id="1018100" available="true">
@@ -3888,7 +3888,7 @@
       </offer>
       <offer id="7010036" available="true">
         <vendorCode>7010036</vendorCode>
-        <quantity_in_stock>9</quantity_in_stock>
+        <quantity_in_stock>8</quantity_in_stock>
       </offer>
       <offer id="7010033" available="true">
         <vendorCode>7010033</vendorCode>
@@ -3934,9 +3934,9 @@
         <vendorCode>7010030</vendorCode>
         <quantity_in_stock>20</quantity_in_stock>
       </offer>
-      <offer id="7010028" available="true">
+      <offer id="7010028" available="false">
         <vendorCode>7010028</vendorCode>
-        <quantity_in_stock>21</quantity_in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
       </offer>
       <offer id="7010026" available="true">
         <vendorCode>7010026</vendorCode>
@@ -4098,7 +4098,7 @@
       </offer>
       <offer id="70100_box2" available="true">
         <vendorCode>70100_box2</vendorCode>
-        <quantity_in_stock>8</quantity_in_stock>
+        <quantity_in_stock>7</quantity_in_stock>
       </offer>
       <offer id="7010050_box1" available="true">
         <vendorCode>7010050_box1</vendorCode>
@@ -4944,11 +4944,11 @@
       </offer>
       <offer id="70100_box3" available="true">
         <vendorCode>70100_box3</vendorCode>
-        <quantity_in_stock>8</quantity_in_stock>
+        <quantity_in_stock>7</quantity_in_stock>
       </offer>
       <offer id="70100_box4" available="true">
         <vendorCode>70100_box4</vendorCode>
-        <quantity_in_stock>8</quantity_in_stock>
+        <quantity_in_stock>7</quantity_in_stock>
       </offer>
       <offer id="ЗС000475" available="true">
         <vendorCode>ЗС000475</vendorCode>
@@ -4986,9 +4986,9 @@
         <vendorCode>70100_box8</vendorCode>
         <quantity_in_stock>9</quantity_in_stock>
       </offer>
-      <offer id="70100_box9" available="true">
+      <offer id="70100_box9" available="false">
         <vendorCode>70100_box9</vendorCode>
-        <quantity_in_stock>18</quantity_in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
       </offer>
       <offer id="NPSC45834N" available="true">
         <vendorCode>NPSC45834N</vendorCode>
@@ -5228,17 +5228,17 @@
         <vendorCode>1016060</vendorCode>
         <quantity_in_stock>21</quantity_in_stock>
       </offer>
-      <offer id="1038028" available="true">
+      <offer id="1038028" available="false">
         <vendorCode>1038028</vendorCode>
-        <quantity_in_stock>21</quantity_in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
       </offer>
       <offer id="1038018" available="true">
         <vendorCode>1038018</vendorCode>
         <quantity_in_stock>21</quantity_in_stock>
       </offer>
-      <offer id="1090018" available="true">
+      <offer id="1090018" available="false">
         <vendorCode>1090018</vendorCode>
-        <quantity_in_stock>21</quantity_in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
       </offer>
       <offer id="3108016" available="false">
         <vendorCode>3108016</vendorCode>

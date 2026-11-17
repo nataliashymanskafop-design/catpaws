@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-11-17 09:51">
+<yml_catalog date="2026-11-17 10:22">
   <shop>
     <name>CatPaws HOME FOOD stock</name>
     <company>CatPaws</company>
@@ -326,14 +326,14 @@
         <stock>21</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="1038028" available="true">
+      <offer id="1038028" available="false">
         <name>Ласощі для собак HOME FOOD Кручені палички із сушеної шкіри лосося, 80 г</name>
         <vendorCode>1038028</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>21</quantity_in_stock>
-        <stock>21</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="1038100" available="true">
         <name>Беззерновий гіпоалергенний сухий корм HOME FOOD для дорослих собак середніх і великих порід “М'ясо качки з нутом” Hypoallergenic Grain-Free 10 кг</name>
@@ -407,14 +407,14 @@
         <stock>15</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="1090018" available="true">
+      <offer id="1090018" available="false">
         <name>Ласощі для собак HOME FOOD Легені кролика, 80 г</name>
         <vendorCode>1090018</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>21</quantity_in_stock>
-        <stock>21</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="1108003" available="true">
         <name>Сухий корм HOME FOOD для дорослих собак середніх порід з чутливим травленням "Риба та кролик" Sensitive Balanced Formula, 300 г</name>
@@ -1433,14 +1433,14 @@
         <stock>21</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="7010028" available="true">
+      <offer id="7010028" available="false">
         <name>Ласощі для собак HOME FOOD М’ясна соломка з лосося, 80 г</name>
         <vendorCode>7010028</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>21</quantity_in_stock>
-        <stock>21</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="7010029" available="true">
         <name>Ласощі для котів HOME FOOD М’ясна соломка з лосося, 40 г</name>
@@ -1510,8 +1510,8 @@
         <vendorCode>7010036</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>9</quantity_in_stock>
-        <stock>9</stock>
+        <quantity_in_stock>8</quantity_in_stock>
+        <stock>8</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7010037" available="true">
@@ -1708,8 +1708,8 @@
         <vendorCode>70100_box2</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>8</quantity_in_stock>
-        <stock>8</stock>
+        <quantity_in_stock>7</quantity_in_stock>
+        <stock>7</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="70100_box3" available="true">
@@ -1717,8 +1717,8 @@
         <vendorCode>70100_box3</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>8</quantity_in_stock>
-        <stock>8</stock>
+        <quantity_in_stock>7</quantity_in_stock>
+        <stock>7</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="70100_box4" available="true">
@@ -1726,8 +1726,8 @@
         <vendorCode>70100_box4</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>8</quantity_in_stock>
-        <stock>8</stock>
+        <quantity_in_stock>7</quantity_in_stock>
+        <stock>7</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="70100_box5" available="true">
@@ -1766,14 +1766,14 @@
         <stock>9</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="70100_box9" available="true">
+      <offer id="70100_box9" available="false">
         <name>Набір ласощів для собак HOME FOOD «Преміальний мікс», 4 шт, 320 г</name>
         <vendorCode>70100_box9</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>18</quantity_in_stock>
-        <stock>18</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
     </offers>
   </shop>

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T07:51:48Z",
+  "updatedAt": "2026-11-17T08:23:58Z",
   "total": 1668,
   "data": [
     {
@@ -18235,11 +18235,11 @@
       "price": 419,
       "old_price": null,
       "availability": true,
-      "stock": 8,
+      "stock": 7,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 8
+          "stock": 7
         }
       ],
       "warranty_type": "no",
@@ -27111,11 +27111,11 @@
       "price": 599,
       "old_price": null,
       "availability": true,
-      "stock": 8,
+      "stock": 7,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 8
+          "stock": 7
         }
       ],
       "warranty_type": "no",
@@ -27139,11 +27139,11 @@
       "price": 1060,
       "old_price": null,
       "availability": true,
-      "stock": 8,
+      "stock": 7,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 8
+          "stock": 7
         }
       ],
       "warranty_type": "no",
@@ -27418,12 +27418,12 @@
       "code": "70100_box9",
       "price": 699,
       "old_price": null,
-      "availability": true,
-      "stock": 18,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 18
+          "stock": 0
         }
       ],
       "warranty_type": "no",
