@@ -70,6 +70,13 @@ EXPLICIT_BOXES = {
     "NPSC70465-K2-12": ("NPSC70465-K2", 12),
 }
 
+# Supplier identifiers confirmed by Natalia on 2026-11-17.
+# Site/CRM articles and their _box sets keep their existing identifiers.
+SUPPLIER_SKU_ALIASES = {
+    "NPSC47908-K2": "NPSC47908",
+    "NPSC47911-K2": "NPSC47911",
+}
+
 
 def clean(value):
     return " ".join(str(value or "").split())
@@ -123,6 +130,12 @@ def load_supplier():
             "status": clean(row[columns["Статус"]]),
             "quantity_band": clean(row[columns["Кількість"]]),
         }
+
+    # These are replacement identifiers for the same single pouch, not extra
+    # inventory or two-pouch packs. Do not add both quantities together.
+    for supplier_sku, site_sku in SUPPLIER_SKU_ALIASES.items():
+        if supplier_sku in products:
+            products[site_sku] = products.pop(supplier_sku)
 
     return products
 
