@@ -14,13 +14,33 @@ CATALOG_FILE = Path(__file__).resolve().parents[1] / "data/home-food-treats.json
 with CATALOG_FILE.open(encoding="utf-8") as source:
     TREAT_CATALOG = json.load(source)
 
+# Share cat recipes with the stock generator so unavailable components also
+# block their sets in feeds that receive stale positive bundle stock.
+CAT_TREAT_BUNDLES = {
+    "70100_box1": dict.fromkeys(
+        ("7010040", "7010044", "7010046", "7010033", "7010042", "7010048"), 1
+    ),
+    "70100_box2": dict.fromkeys(
+        ("7010036", "7010033", "7010031", "7010038", "7010035"), 1
+    ),
+    "70100_box3": dict.fromkeys(
+        ("7010040", "7010036", "7010038", "7010035", "7010029", "7010027"), 1
+    ),
+    "70100_box4": dict.fromkeys(
+        ("7010040", "7010044", "7010046", "7010036", "7010033", "7010031",
+         "7010042", "7010048", "7010038", "7010035", "7010029", "7010027"), 1
+    ),
+}
+
 # Temporary unavailability confirmed on 2026-11-17. Keep these cards, but do
 # not let the previous all-available confirmation restore them on the next run.
-TEMPORARILY_UNAVAILABLE_TREATS = {"1090018", "1038028", "7010028"}
+TEMPORARILY_UNAVAILABLE_TREATS = {"1090018", "1038028", "7010028", "7010029"}
 UNAVAILABLE_TREAT_SKUS = TEMPORARILY_UNAVAILABLE_TREATS | {
-    sku for sku, record in TREAT_CATALOG.items()
-    if any(component in TEMPORARILY_UNAVAILABLE_TREATS
-           for component in record.get("components") or [])
+    sku for sku, components in {
+        **CAT_TREAT_BUNDLES,
+        **{sku: record.get("components") or [] for sku, record in TREAT_CATALOG.items()},
+    }.items()
+    if any(component in TEMPORARILY_UNAVAILABLE_TREATS for component in components)
 }
 
 
@@ -73,4 +93,7 @@ def restore_confirmed_treats(root):
                 offer.remove(picture)
             for url in record["pictures"]:
                 etree.SubElement(offer, "picture").text = url
+    for sku in UNAVAILABLE_TREAT_SKUS:
+        for offer in by_sku.get(sku, []):
+            offer.set("available", "false")
     return root

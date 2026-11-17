@@ -10,7 +10,7 @@ from zoneinfo import ZoneInfo
 
 from lxml import etree
 from discontinued_products import DISCONTINUED_SKUS, is_discontinued
-from home_food_treats import TREAT_CATALOG, UNAVAILABLE_TREAT_SKUS, restore_confirmed_treats
+from home_food_treats import CAT_TREAT_BUNDLES, TREAT_CATALOG, UNAVAILABLE_TREAT_SKUS, restore_confirmed_treats
 
 SOURCE_CATALOG_SKUS = None
 
@@ -110,43 +110,7 @@ BUNDLES = {
         "7010016": 4,
         "7010050": 4,
     },
-    "70100_box1": {
-        "7010040": 1,
-        "7010044": 1,
-        "7010046": 1,
-        "7010033": 1,
-        "7010042": 1,
-        "7010048": 1,
-    },
-    "70100_box2": {
-        "7010036": 1,
-        "7010033": 1,
-        "7010031": 1,
-        "7010038": 1,
-        "7010035": 1,
-    },
-    "70100_box3": {
-        "7010040": 1,
-        "7010036": 1,
-        "7010038": 1,
-        "7010035": 1,
-        "7010029": 1,
-        "7010027": 1,
-    },
-    "70100_box4": {
-        "7010040": 1,
-        "7010044": 1,
-        "7010046": 1,
-        "7010036": 1,
-        "7010033": 1,
-        "7010031": 1,
-        "7010042": 1,
-        "7010048": 1,
-        "7010038": 1,
-        "7010035": 1,
-        "7010029": 1,
-        "7010027": 1,
-    },
+    **CAT_TREAT_BUNDLES,
     "70100_box5": {
         "1019004": 1,
         "7010032": 1,

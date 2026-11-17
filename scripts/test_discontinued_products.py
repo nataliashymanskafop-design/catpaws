@@ -115,23 +115,40 @@ class DiscontinuedProductsTests(unittest.TestCase):
         self.assertNotIn('Легені яловичі, 80 г',restored['70100_box7'].findtext('description'))
         self.assertNotIn('1016008',restored)
 
-    def test_three_unavailable_treats_and_premium_mix_cannot_be_restored_by_stale_stock(self):
-        self.assertEqual(UNAVAILABLE_TREAT_SKUS,{'1090018','1038028','7010028','70100_box9'})
+    def test_unavailable_treats_and_dependent_sets_cannot_be_restored_by_stale_stock(self):
+        self.assertEqual(UNAVAILABLE_TREAT_SKUS,{
+            '1090018','1038028','7010028','7010029',
+            '70100_box3','70100_box4','70100_box9',
+        })
+        catalog={s:d['name'] for s,d in TREAT_CATALOG.items()}
+        for bundle in ('70100_box1','70100_box2','70100_box3','70100_box4'):
+            catalog[bundle]=f'Набір ласощів для котів HOME FOOD {bundle}'
+            for component in home_food.BUNDLES[bundle]:
+                catalog[component]=f'Ласощі для котів HOME FOOD {component}, 40 г'
+        catalog.update({
+            '7010029':'Ласощі для котів HOME FOOD М’ясна соломка з лосося, 40 г',
+            '70100_box1':'Набір HOME FOOD М’ясний бенкет, 6 × 40 г',
+            '70100_box2':'Набір HOME FOOD Індичка MIX, 5 × 40 г',
+            '70100_box3':'Набір HOME FOOD Котячий гурман, 6 × 40 г',
+            '70100_box4':'Набір HOME FOOD Спробуй усі смаки, 12 × 40 г',
+        })
+        for sku in catalog:
+            self.assertIn(sku,home_food.CRM_HOME_FOOD_SKUS)
         root=etree.Element('yml_catalog')
         offers=etree.SubElement(root,'offers')
         for i in range(2000):
             offers.append(offer((f'control-{i}',f'Control {i}','Untracked')))
-        for sku in TREAT_CATALOG:
-            offers.append(offer((sku,TREAT_CATALOG[sku]['name'],'HOME FOOD')))
+        for sku,name in catalog.items():
+            offers.append(offer((sku,name,'HOME FOOD')))
         restore_confirmed_treats(root)
         restored={o.findtext('vendorCode'):o for o in root.findall('.//offer')}
-        for sku in TREAT_CATALOG:
+        for sku in catalog:
             self.assertEqual(restored[sku].get('available'),'false' if sku in UNAVAILABLE_TREAT_SKUS else 'true')
-        base={sku:999 for sku in home_food.base_skus({s:d['name'] for s,d in TREAT_CATALOG.items()})}
-        home_food.replenish_low_stock({s:d['name'] for s,d in TREAT_CATALOG.items()},base)
+        base={sku:999 for sku in home_food.base_skus(catalog)}
+        home_food.replenish_low_stock(catalog,base)
         for sku in UNAVAILABLE_TREAT_SKUS:
             self.assertEqual(home_food.calculate_stock(sku,base),0)
-        stale={sku:999 for sku in TREAT_CATALOG}
+        stale={sku:999 for sku in catalog}
         with contextlib.redirect_stdout(io.StringIO()):
             site_feed,_=site.build_feed(root,stale,stale)
         site_rows={o.findtext('vendorCode'):o for o in site_feed.findall('.//offer')}
@@ -142,6 +159,20 @@ class DiscontinuedProductsTests(unittest.TestCase):
             self.assertFalse(mono_offer['availability'])
             self.assertEqual(mono_offer['stock'],0)
         self.assertEqual(home_food.calculate_stock('70100_box7',base),998)
+        for sku in ('70100_box1','70100_box2'):
+            self.assertEqual(home_food.calculate_stock(sku,base),998)
+            self.assertEqual(site_rows[sku].get('available'),'true')
+            self.assertTrue(mono.build_offer(restored[sku],{},stale)['availability'])
+
+    def test_prom_marks_cat_salmon_and_its_sets_unavailable(self):
+        with patch.dict(os.environ,{'PROM_API_TOKEN':'test-only'}):
+            import generate_prom_update_feed as prom
+        skus=('7010029','70100_box3','70100_box4')
+        cards={s:{'id':i+1,'sku':s,'name':'HOME FOOD'} for i,s in enumerate(skus)}
+        stale={s:offer((s,'HOME FOOD','HOME FOOD')) for s in skus}
+        with contextlib.redirect_stdout(io.StringIO()):
+            updates=prom.build_updates(cards,set(),stale,set())
+        self.assertEqual(updates,[{'id':i+1,'presence':'not_available'} for i in range(3)])
 
     def test_all_ten_doms_notice_rows_and_lung_products_are_blocked(self):
         for row in RETIRED:
