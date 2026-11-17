@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T09:02:13Z",
+  "updatedAt": "2026-11-17T09:12:08Z",
   "total": 1668,
   "data": [
     {
@@ -35679,11 +35679,11 @@
       "price": 1269,
       "old_price": null,
       "availability": true,
-      "stock": 16,
+      "stock": 14,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 16
+          "stock": 14
         }
       ],
       "warranty_type": "no",

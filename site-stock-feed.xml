@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-11-17 11:07">
+<yml_catalog date="2026-11-17 11:12">
   <shop>
     <offers>
       <offer id="1018100" available="true">
@@ -3232,7 +3232,7 @@
       </offer>
       <offer id="ЗС000231" available="true">
         <vendorCode>ЗС000231</vendorCode>
-        <quantity_in_stock>12</quantity_in_stock>
+        <quantity_in_stock>9</quantity_in_stock>
       </offer>
       <offer id="ЗС000232" available="true">
         <vendorCode>ЗС000232</vendorCode>
@@ -4330,7 +4330,7 @@
       </offer>
       <offer id="ЗС000334" available="true">
         <vendorCode>ЗС000334</vendorCode>
-        <quantity_in_stock>11</quantity_in_stock>
+        <quantity_in_stock>9</quantity_in_stock>
       </offer>
       <offer id="ЗС000385" available="true">
         <vendorCode>ЗС000385</vendorCode>
@@ -4338,7 +4338,7 @@
       </offer>
       <offer id="ЗС000287" available="true">
         <vendorCode>ЗС000287</vendorCode>
-        <quantity_in_stock>50</quantity_in_stock>
+        <quantity_in_stock>49</quantity_in_stock>
       </offer>
       <offer id="ЗС000285" available="true">
         <vendorCode>ЗС000285</vendorCode>
@@ -5202,7 +5202,7 @@
       </offer>
       <offer id="ЗС000383-3" available="true">
         <vendorCode>ЗС000383-3</vendorCode>
-        <quantity_in_stock>16</quantity_in_stock>
+        <quantity_in_stock>14</quantity_in_stock>
         <price>1269.0</price>
         <currencyId>UAH</currencyId>
       </offer>
