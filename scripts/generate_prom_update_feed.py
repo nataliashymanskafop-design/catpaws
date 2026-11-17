@@ -737,11 +737,11 @@ def readback(updates):
     for item in updates:
         product = products.get(str(item["id"]), {})
         code = normalize_code(product.get("sku"))
-        control = (code in {"653651", "5578", "018197", "7000008", "50014710", "50014710Р", "30001660_BOX", "50009044", "50005182"}
+        control = (code in {"653651", "5578", "018197", "7000008", "50014710", "50014710Р", "30001660_BOX", "50009044", "50005182", "7010029", "70100_BOX3", "70100_BOX4"}
                    or code.split("*", 1)[0] in {"50009045", "50009211", "50012991", "50009209", "50012493"}
                    or "homie" in clean(product.get("name")).casefold()
                    or bool(re.fullmatch(r"\d+-\d+(?:-\d+)*", code)))
-        if control or (states[str(item["id"])] and shown < 10):
+        if control or states[str(item["id"])]:
             print("Readback detail:", {"sku": product.get("sku"), "expected": item,
                   "actual": {key: product.get(key) for key in ("id", "price", "presence", "discount")}})
             if "homie" in clean(product.get("name")).casefold():
