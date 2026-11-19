@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-11-19 03:22">
+<yml_catalog date="2026-11-19 10:15">
   <shop>
     <name>CatPaws Kormax stock</name>
     <company>CatPaws</company>
@@ -1888,8 +1888,8 @@
         <vendorCode>NPS45727</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>10</quantity_in_stock>
-        <stock>10</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPS45728" available="true">
@@ -3620,14 +3620,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="TPL63596" available="true">
+      <offer id="TPL63596" available="false">
         <name>Інтенсивно зволожувальна маска для шкіри та шерсті собак і котів TAURO PRO LINE Ultra Natural Care Intense Hydrate Mask, 1000 мл</name>
         <vendorCode>TPL63596</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="TPL63598" available="true">
         <name>Делікатний шампунь-скраб для шерсті та шкіри собак та котів TAURO PRO LINE Ultra Natural Care Gentle Scrub Shampoo, 400 мл</name>
@@ -3782,14 +3782,14 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="TPL63617" available="true">
+      <offer id="TPL63617" available="false">
         <name>Шампунь для глибокого очищення шерсті та шкіри собак і котів білого, світлого забарвлення TAURO PRO LINE Ultra Natural Care, 3785 мл</name>
         <vendorCode>TPL63617</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="TPL63618" available="true">
         <name>Інтенсивно зволожуючий шампунь для шерсті та шкіри собак і котів білого, світлого забарвлення TAURO PRO LINE Ultra Natural Care, 400 мл</name>
