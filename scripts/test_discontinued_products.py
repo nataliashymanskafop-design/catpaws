@@ -73,7 +73,7 @@ class DiscontinuedProductsTests(unittest.TestCase):
         self.assertIn('1016060', home_food.BUNDLES['70100_box7'])
         self.assertNotIn('1016008', home_food.BUNDLES['70100_box7'])
         self.assertIn('1038018', home_food.BUNDLES['70100_box9'])
-        self.assertEqual(home_food.calculate_stock('70100_box7', {s:21 for s in home_food.BUNDLES['70100_box7']}),20)
+        self.assertEqual(home_food.calculate_stock('70100_box7', {s:21 for s in home_food.BUNDLES['70100_box7']}),0)
         self.assertEqual(home_food.calculate_stock('70100_box9', {s:21 for s in home_food.BUNDLES['70100_box9']}),0)
 
     def test_new_pack_is_exported_before_the_site_import_without_writing_unknown_crm_ids(self):
@@ -117,8 +117,8 @@ class DiscontinuedProductsTests(unittest.TestCase):
 
     def test_unavailable_treats_and_dependent_sets_cannot_be_restored_by_stale_stock(self):
         self.assertEqual(UNAVAILABLE_TREAT_SKUS,{
-            '1090018','1038028','7010028','7010029',
-            '70100_box3','70100_box4','70100_box9',
+            '1016060','1090018','1038028','7010028','7010029',
+            '70100_box3','70100_box4','70100_box7','70100_box9',
         })
         catalog={s:d['name'] for s,d in TREAT_CATALOG.items()}
         for bundle in ('70100_box1','70100_box2','70100_box3','70100_box4'):
@@ -158,21 +158,21 @@ class DiscontinuedProductsTests(unittest.TestCase):
             mono_offer=mono.build_offer(restored[sku],{},stale)
             self.assertFalse(mono_offer['availability'])
             self.assertEqual(mono_offer['stock'],0)
-        self.assertEqual(home_food.calculate_stock('70100_box7',base),998)
+        self.assertEqual(home_food.calculate_stock('70100_box6',base),998)
         for sku in ('70100_box1','70100_box2'):
             self.assertEqual(home_food.calculate_stock(sku,base),998)
             self.assertEqual(site_rows[sku].get('available'),'true')
             self.assertTrue(mono.build_offer(restored[sku],{},stale)['availability'])
 
-    def test_prom_marks_cat_salmon_and_its_sets_unavailable(self):
+    def test_prom_marks_unavailable_treats_and_their_sets_unavailable(self):
         with patch.dict(os.environ,{'PROM_API_TOKEN':'test-only'}):
             import generate_prom_update_feed as prom
-        skus=('7010029','70100_box3','70100_box4')
+        skus=tuple(sorted(UNAVAILABLE_TREAT_SKUS))
         cards={s:{'id':i+1,'sku':s,'name':'HOME FOOD'} for i,s in enumerate(skus)}
         stale={s:offer((s,'HOME FOOD','HOME FOOD')) for s in skus}
         with contextlib.redirect_stdout(io.StringIO()):
             updates=prom.build_updates(cards,set(),stale,set())
-        self.assertEqual(updates,[{'id':i+1,'presence':'not_available'} for i in range(3)])
+        self.assertEqual(updates,[{'id':i+1,'presence':'not_available'} for i in range(len(skus))])
 
     def test_all_ten_doms_notice_rows_and_lung_products_are_blocked(self):
         for row in RETIRED:
@@ -194,7 +194,7 @@ class DiscontinuedProductsTests(unittest.TestCase):
             with self.subTest(sku=sku):
                 self.assertTrue(is_discontinued(sku))
         self.assertEqual(home_food.calculate_stock("1016008", {"1016008": 999}), 0)
-        self.assertEqual(home_food.calculate_stock("70100_box7", {s:21 for s in home_food.BUNDLES['70100_box7']}), 20)
+        self.assertEqual(home_food.calculate_stock("70100_box7", {s:21 for s in home_food.BUNDLES['70100_box7']}), 0)
 
     def test_doms_stale_stock_is_zeroed_and_not_replenished_or_exported(self):
         rows = RETIRED[:10] + [ACTIVE[0]]

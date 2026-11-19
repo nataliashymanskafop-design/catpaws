@@ -32,9 +32,9 @@ CAT_TREAT_BUNDLES = {
     ),
 }
 
-# Temporary unavailability confirmed on 2026-11-17. Keep these cards, but do
+# Temporary unavailability confirmed on 2026-11-17 and 2026-11-19. Keep these cards, but do
 # not let the previous all-available confirmation restore them on the next run.
-TEMPORARILY_UNAVAILABLE_TREATS = {"1090018", "1038028", "7010028", "7010029"}
+TEMPORARILY_UNAVAILABLE_TREATS = {"1016060", "1090018", "1038028", "7010028", "7010029"}
 UNAVAILABLE_TREAT_SKUS = TEMPORARILY_UNAVAILABLE_TREATS | {
     sku for sku, components in {
         **CAT_TREAT_BUNDLES,
