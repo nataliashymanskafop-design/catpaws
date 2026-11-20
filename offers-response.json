@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T01:06:51Z",
+  "updatedAt": "2026-11-20T08:59:37Z",
   "total": 1668,
   "data": [
     {
@@ -483,11 +483,11 @@
       "price": 3293,
       "old_price": 4390,
       "availability": true,
-      "stock": 19,
+      "stock": 18,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 19
+          "stock": 18
         }
       ],
       "warranty_type": "no",
@@ -875,11 +875,11 @@
       "price": 542,
       "old_price": 677,
       "availability": true,
-      "stock": 7,
+      "stock": 6,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 7
+          "stock": 6
         }
       ],
       "warranty_type": "no",
@@ -1715,11 +1715,11 @@
       "price": 2858,
       "old_price": 3810,
       "availability": true,
-      "stock": 20,
+      "stock": 19,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 20
+          "stock": 19
         }
       ],
       "warranty_type": "no",
@@ -9328,7 +9328,7 @@
     },
     {
       "code": "50006966р",
-      "price": 1632,
+      "price": 1920,
       "old_price": null,
       "availability": true,
       "stock": 2,
@@ -39487,11 +39487,11 @@
       "price": 7126,
       "old_price": null,
       "availability": true,
-      "stock": 20,
+      "stock": 10,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 20
+          "stock": 10
         }
       ],
       "warranty_type": "no",

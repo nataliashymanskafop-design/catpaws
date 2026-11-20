@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-11-20 03:06">
+<yml_catalog date="2026-11-20 10:58">
   <shop>
     <name>CatPaws Kormax stock</name>
     <company>CatPaws</company>
@@ -2851,8 +2851,8 @@
         <vendorCode>NPSC47601</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPSC47622" available="true">
@@ -4133,14 +4133,14 @@
         <stock>40</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="UNINPSC70012" available="true">
+      <offer id="UNINPSC70012" available="false">
         <name>NATURE'S PROTECTION SUPERIOR CARE White Dogs Adult All Breeds with Tuna and Sea Bass, вологий корм з тунцем та морським окунем для дорослих собак усіх порід з білою шерстю, 70 г у пакетику</name>
         <vendorCode>UNINPSC70012</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="АКЦ_NPSC45663" available="false">
         <name>Сухий корм для дорослих собак малих порід з ягням, 1,5 кг + Nature's Protection Superior Care White Dogs Grain Free Adult All</name>
