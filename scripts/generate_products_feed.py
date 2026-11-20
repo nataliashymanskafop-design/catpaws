@@ -8,7 +8,7 @@ from discontinued_products import is_discontinued_offer
 
 
 XML_URL = "https://catpaws.com.ua/content/export/5d007701b07c6dab399214f2c0d6743c.xml"
-MIN_PRICE = 300
+MIN_PRICE = 1000
 
 
 def main():

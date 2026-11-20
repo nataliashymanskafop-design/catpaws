@@ -17,7 +17,7 @@ PREVIOUS_FEED_FILE = "previous-offers-response.json"
 
 DEFAULT_WAREHOUSE_ID = "SUPPLIER"
 OWN_STOCK_STATE_FILE = "public/own-stock-state.json"
-MIN_PRICE = 300
+MIN_PRICE = 1000
 # Confirmed unavailable; only restore after the supplier confirms stock.
 FORCE_ZERO_SKUS = {
     "254181",  # Start & Go puppy/maternity 10 kg: confirmed unavailable 2026-10-14.

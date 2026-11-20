@@ -54,7 +54,7 @@ ACTIVE = [
 ]
 
 
-def offer(row, price="1000"):
+def offer(row, price="2000"):
     sku, name, vendor = row
     result = etree.Element("offer", id=sku, available="true")
     for tag, value in [("vendorCode", sku), ("name", name), ("vendor", vendor), ("price", price)]:
@@ -148,6 +148,9 @@ class DiscontinuedProductsTests(unittest.TestCase):
         home_food.replenish_low_stock(catalog,base)
         for sku in UNAVAILABLE_TREAT_SKUS:
             self.assertEqual(home_food.calculate_stock(sku,base),0)
+        # Availability checks use offers above Mono's price floor.
+        for sku in catalog:
+            restored[sku].find('price').text='2000'
         stale={sku:999 for sku in catalog}
         with contextlib.redirect_stdout(io.StringIO()):
             site_feed,_=site.build_feed(root,stale,stale)
