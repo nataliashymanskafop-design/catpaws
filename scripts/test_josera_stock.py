@@ -105,6 +105,37 @@ class JoseraTests(unittest.TestCase):
         self.assertEqual(rows["50009986"]["price"], "4320.00")
         self.assertIsNone(rows["50009986"]["sale_price"])
 
+    def test_catelux_eight_pack_keeps_approved_site_price(self):
+        for site_price in ("1920.00", "2000.00"):
+            with self.subTest(site_price=site_price), patch.object(j, "MIN_SOURCE_PRODUCTS", 1), patch.object(j, "MIN_SITE_PRODUCTS", 1):
+                supplier = j.read_supplier(self.supplier_payload(title="Catelux 400 г", weight="0.400", price="204.00", code="50006966"))
+                supplier["50006966"]["sale_price"] = j.Decimal("150")
+                root = etree.fromstring(self.catalog([
+                    ("50006966р", "400 г *8", "Catelux 400 г *8"),
+                    ("50006966", "400 г", "Catelux 400 г"),
+                ]))
+                etree.SubElement(root.find("offer"), "price").text = site_price
+                rows, missing = j.map_catalog(etree.tostring(root), supplier)
+                self.assertEqual(rows["50006966р"]["price"], site_price)
+                self.assertIsNone(rows["50006966р"]["sale_price"])
+                self.assertEqual(rows["50006966"]["price"], "204.00")
+                self.assertEqual(rows["50006966"]["sale_price"], "150.00")
+                self.assertEqual(missing, [])
+
+    def test_catelux_managed_bundle_requires_valid_site_price_and_size(self):
+        with patch.object(j, "MIN_SOURCE_PRODUCTS", 1), patch.object(j, "MIN_SITE_PRODUCTS", 1):
+            supplier = j.read_supplier(self.supplier_payload(title="Catelux 400 г", weight="0.400", price="204.00", code="50006966"))
+            for site_price in (None, "0", "invalid"):
+                root = etree.fromstring(self.catalog([("50006966р", "400 г *8", "Catelux")]))
+                if site_price is not None:
+                    etree.SubElement(root.find("offer"), "price").text = site_price
+                with self.subTest(site_price=site_price), self.assertRaisesRegex(RuntimeError, "Missing site-managed"):
+                    j.map_catalog(etree.tostring(root), supplier)
+            root = etree.fromstring(self.catalog([("50006966р", "400 г *7", "Catelux")]))
+            etree.SubElement(root.find("offer"), "price").text = "1920"
+            with self.assertRaisesRegex(RuntimeError, "Unexpected manually priced"):
+                j.map_catalog(etree.tostring(root), supplier)
+
     def catalog(self, rows, vendor="JOSERA"):
         root = etree.Element("yml_catalog")
         for code, weight, name in rows:

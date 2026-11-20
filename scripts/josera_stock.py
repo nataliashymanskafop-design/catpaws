@@ -13,6 +13,11 @@ DRY_STOCK = 20
 WET_STOCK = 60
 THRESHOLD = 5
 
+# Natalia manages this 8 x 400 g bundle price on the site (1920 UAH,
+# confirmed 2026-11-20). The supplier currently publishes 204 UAH per
+# single pack; importing it must not undo the approved bundle correction.
+SITE_MANAGED_PRICE_SKUS = {"50006966р"}
+
 # On 2026-11-12 the supplier reused these existing SKUs/barcodes for new
 # LargeCat and Senior Grainfree offers, including different package sizes.
 # The original recipes were checked against the site's title, weight and GTIN.
@@ -148,6 +153,14 @@ def map_catalog(payload, supplier):
             if source["sale_price"] < source["price"]:
                 sale_price = str((source["sale_price"] / source["pack_size"] * count).quantize(
                     Decimal("0.01"), rounding=ROUND_HALF_UP))
+        if code in SITE_MANAGED_PRICE_SKUS and matched:
+            if unit != Decimal("400") or count != 8:
+                raise RuntimeError(f"Unexpected manually priced Josera bundle: {code}")
+            site_price = money(offer.findtext("price"))
+            if site_price is None:
+                raise RuntimeError(f"Missing site-managed Josera price: {code}")
+            price = str(site_price.quantize(Decimal("0.01"), rounding=ROUND_HALF_UP))
+            sale_price = None
         rows[code] = {
             "base": base, "pack_size": count,
             "target": WET_STOCK if unit < 200 or "волог" in clean(offer.findtext("name_ua") or offer.findtext("name")).casefold() else DRY_STOCK,
