@@ -59,11 +59,11 @@ class QuadromidasTests(unittest.TestCase):
                 t.load_source('MODES', 'test-only')
 
     def test_mono_uses_bundle_quantity_and_terravet_warehouse(self):
-        code = t.QUADROMIDAS_BASE_SKUS[0] + '-3'
-        offer = etree.fromstring(f'<offer available="true"><vendorCode>{code}</vendorCode><vendor>ModeS</vendor><name>Квадромідас — набір 3 таблетки</name><price>534</price></offer>')
+        code = t.QUADROMIDAS_BASE_SKUS[4] + '-3'
+        offer = etree.fromstring(f'<offer available="true"><vendorCode>{code}</vendorCode><vendor>ModeS</vendor><name>Квадромідас — набір 3 таблетки</name><price>1269</price></offer>')
         source = next(s for s in mono.STOCK_SOURCES if s['warehouse_id'] == 'TERRAVET')
         result = mono.build_offer(offer, {code: {**source, 'stock': 16}}, {})
-        self.assertEqual(result['price'], 534)
+        self.assertEqual(result['price'], 1269)
         self.assertEqual(result['stock'], 16)
         self.assertEqual(result['warehouses'], [{'id': 'TERRAVET', 'stock': 16}])
         self.assertTrue(result['availability'])
