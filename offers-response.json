@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-20T23:50:33Z",
+  "updatedAt": "2026-11-21T06:23:04Z",
   "total": 1086,
   "data": [
     {
       "code": "1018100",
-      "price": 2894,
-      "old_price": null,
+      "price": 2171,
+      "old_price": 2894,
       "availability": true,
       "stock": 18,
       "warehouses": [
@@ -592,7 +592,7 @@
     },
     {
       "code": "1028100",
-      "price": 2627,
+      "price": 2318,
       "old_price": 3091,
       "availability": true,
       "stock": 2,
@@ -676,8 +676,8 @@
     },
     {
       "code": "3199100",
-      "price": 4134,
-      "old_price": null,
+      "price": 3101,
+      "old_price": 4134,
       "availability": true,
       "stock": 19,
       "warehouses": [
@@ -732,8 +732,8 @@
     },
     {
       "code": "3058110",
-      "price": 3940,
-      "old_price": null,
+      "price": 2955,
+      "old_price": 3940,
       "availability": true,
       "stock": 14,
       "warehouses": [
@@ -6536,34 +6536,6 @@
         {
           "id": "TERRAVET",
           "stock": 18
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 2,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "50014717",
-      "price": 2535,
-      "old_price": 3380,
-      "availability": true,
-      "stock": 13,
-      "warehouses": [
-        {
-          "id": "TERRAVET",
-          "stock": 13
         }
       ],
       "warranty_type": "no",
@@ -23000,6 +22972,34 @@
         {
           "id": "DOMS",
           "stock": 0
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 2,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "50014717",
+      "price": 2535,
+      "old_price": 3380,
+      "availability": true,
+      "stock": 13,
+      "warehouses": [
+        {
+          "id": "TERRAVET",
+          "stock": 13
         }
       ],
       "warranty_type": "no",
