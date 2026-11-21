@@ -9,6 +9,8 @@ on:
       - scripts/test_discontinued_products.py
       - scripts/generate_prom_update_feed.py
       - scripts/test_prom_sync.py
+      - scripts/mono_black_friday.py
+      - scripts/test_mono_black_friday.py
       - scripts/generate_feed.py
       - scripts/josera_stock.py
       - scripts/generate_terravet_stock.py
@@ -36,6 +38,8 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Test promotion and availability synchronization
         run: python -m unittest discover -s scripts -p test_prom_sync.py
+      - name: Test shared marketplace Black Friday prices
+        run: python -m unittest discover -s scripts -p test_mono_black_friday.py
       - name: Test Josera unit and bundle mappings
         run: python -m unittest discover -s scripts -p test_josera_stock.py
       # Start from the shared reservation history, then recalculate using current

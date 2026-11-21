@@ -199,6 +199,69 @@ class SyncTests(unittest.TestCase):
         result = self.apply_supplier('50014781', self.offer('2250', '3000'), '3000', '2550')
         self.assertEqual((result.findtext('price'), result.findtext('oldprice')), ('2250', '3000'))
 
+    def campaign_offer(self, sku, price, regular, vendor):
+        source = self.offer(str(price), str(regular))
+        etree.SubElement(source, 'vendorCode').text = sku
+        etree.SubElement(source, 'vendor').text = vendor
+        return source
+
+    def test_prom_josera_uses_supplier_twenty_after_source_validation(self):
+        source = self.campaign_offer('50003279', 2708, 3610, 'JOSERA')
+        result = self.apply_supplier('50003279', source, '3610', '3069')
+        item = self.build(result, sku='50003279')
+        self.assertEqual((item['price'], item['oldprice']), (2888, 3610))
+        self.assertEqual((source.findtext('price'), result.findtext('price')), ('2708', '2708'))
+
+    def test_prom_home_food_small_packs_keep_supplier_twenty_five(self):
+        for sku in ('3058004', '1047007', '3048016', '1128016'):
+            with self.subTest(sku=sku):
+                source = self.campaign_offer(sku, 152, 217, 'HOME FOOD')
+                item = self.build(source, sku=sku)
+                self.assertEqual((item['price'], item['oldprice']), (163, 217))
+
+    def test_prom_home_food_large_and_beauty_keep_supplier_twenty(self):
+        for sku in ('3199100', '1018100', '1028100', '3058110', '7000004', '7000005'):
+            with self.subTest(sku=sku):
+                source = self.campaign_offer(sku, 3101, 4134, 'HOME FOOD')
+                item = self.build(source, sku=sku)
+                self.assertEqual((item['price'], item['oldprice']), (3308, 4134))
+
+    def test_prom_josicat_and_josidog_fifteen_are_preserved(self):
+        for sku, vendor, price, regular in (
+            ('50009044', 'JOSICAT', 1938, 2280),
+            ('50006774', 'JOSIDOG', 1415, 1665),
+        ):
+            source = self.campaign_offer(sku, price, regular, vendor)
+            result = self.apply_supplier(sku, source, str(regular))
+            item = self.build(result, sku=sku)
+            self.assertEqual((item['price'], item['oldprice']), (price, regular))
+
+    def test_prom_ordinary_or_changed_campaign_discounts_are_preserved(self):
+        for sku, vendor, price, regular in (
+            ('1038100', 'HOME FOOD', 2746, 3231),
+            ('50003229', 'JOSERA', 3069, 3610),
+            ('50003279', 'JOSERA', 3069, 3610),
+        ):
+            source = self.campaign_offer(sku, price, regular, vendor)
+            item = self.build(source, sku=sku)
+            self.assertEqual((item['price'], item['oldprice']), (price, regular))
+
+    def test_prom_campaign_does_not_reprice_unavailable_goods(self):
+        source = self.campaign_offer('3199100', 3101, 4134, 'HOME FOOD')
+        source.set('available', 'false')
+        self.assertEqual(self.build(source, sku='3199100'),
+                         {'id': 1, 'presence': 'not_available'})
+
+    def test_prom_campaign_repeated_sync_is_stable_and_readback_rejects_old_discount(self):
+        source = self.campaign_offer('3199100', 3101, 4134, 'HOME FOOD')
+        first = self.build(source, sku='3199100')
+        self.assertEqual(self.build(source, sku='3199100'), first)
+        product = {'price': 4134, 'presence': 'available',
+                   'discount': {'type': 'amount', 'value': 826}}
+        self.assertEqual(sync.state_mismatches(first, product), [])
+        product['discount']['value'] = 1033
+        self.assertEqual(sync.state_mismatches(first, product), ['discount'])
+
     def test_cleared_site_promotion_is_not_recreated_from_old_site_value(self):
         result = self.apply_supplier('50009044', self.offer('2280'), '2280')
         self.assertEqual(result.findtext('price'), '2280')
