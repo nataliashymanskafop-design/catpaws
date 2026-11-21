@@ -8,6 +8,8 @@ on:
       - scripts/test_discontinued_products.py
       - scripts/generate_feed.py
       - scripts/generate_products_feed.py
+      - scripts/mono_black_friday.py
+      - scripts/test_mono_black_friday.py
       # Keep Mono's catalog refreshed alongside promotion synchronization changes.
       - scripts/generate_prom_update_feed.py
       - scripts/test_prom_sync.py
@@ -47,6 +49,9 @@ jobs:
 
       - name: Verify discontinued product exclusions
         run: python -m unittest discover -s scripts -p test_discontinued_products.py
+
+      - name: Verify Mono Black Friday prices and protected supplier promotions
+        run: python -m unittest discover -s scripts -p test_mono_black_friday.py
 
       # Keep a validated previous catalog if PetImpex returns truncated XML.
       # Supplier catalog availability must not block Mono stock updates.

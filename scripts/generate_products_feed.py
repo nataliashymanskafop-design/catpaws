@@ -5,6 +5,7 @@ from lxml import etree
 from generate_feed import DISCONTINUED_SKUS, FORCE_ZERO_SKUS, is_mono_excluded
 from normalize_feed_prices import normalize_feed_prices
 from discontinued_products import is_discontinued_offer
+from mono_black_friday import mono_black_friday_prices, update_black_friday_description
 
 
 XML_URL = "https://catpaws.com.ua/content/export/5d007701b07c6dab399214f2c0d6743c.xml"
@@ -34,6 +35,12 @@ def main():
             price = float("".join(str(price_text).split()).replace(",", "."))
         except (TypeError, ValueError):
             price = 0
+
+        promotion = mono_black_friday_prices(offer)
+        if promotion:
+            price, regular_price, discount = promotion
+            offer.find("oldprice").text = str(regular_price)
+            update_black_friday_description(offer, discount)
 
         if price <= MIN_PRICE:
             offer.getparent().remove(offer)

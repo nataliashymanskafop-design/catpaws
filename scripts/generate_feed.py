@@ -7,6 +7,7 @@ from zoneinfo import ZoneInfo
 import requests
 from lxml import etree
 from discontinued_products import DISCONTINUED_SKUS, is_discontinued_offer
+from mono_black_friday import mono_black_friday_prices
 
 
 XML_URL = "https://catpaws.com.ua/content/export/5d007701b07c6dab399214f2c0d6743c.xml"
@@ -316,7 +317,8 @@ def build_offer(offer, stock_by_sku, own_stock):
     if not code:
         return None
 
-    price = to_int(offer.findtext("price"))
+    promotion = mono_black_friday_prices(offer)
+    price = promotion[0] if promotion else to_int(offer.findtext("price"))
 
     price_allowed = price > MIN_PRICE
 
@@ -368,6 +370,8 @@ def build_offer(offer, stock_by_sku, own_stock):
         if old_price_text
         else None
     )
+    if promotion:
+        old_price = promotion[1]
 
     return {
         "code": normalized_code,
