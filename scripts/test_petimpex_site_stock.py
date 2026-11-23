@@ -111,6 +111,28 @@ class PetimpexSiteAvailabilityTests(unittest.TestCase):
         with self.assertRaises(RuntimeError):
             self.build(public_catalog=etree.Element("offers"))
 
+    def test_confirmed_barpi_availability_does_not_invent_stock_or_prices(self):
+        self.add_offer("A-00003", "Barpi", available="false")
+        self.add_offer("A-00004", "Barpi", available="false")
+        rows = self.build(supplier={"A-00003": 0, "A-00004": 0})
+        self.assertEqual(rows["A-00003"].get("available"), "true")
+        self.assertEqual({node.tag for node in rows["A-00003"]}, {"vendorCode"})
+        self.assertEqual(rows["A-00004"].get("available"), "false")
+
+    def test_confirmed_barpi_is_read_from_general_catalog_when_absent_from_mono(self):
+        public = self.public_petimpex_catalog()
+        for sku in ("A-00003", "A-00004"):
+            offer = etree.SubElement(public, "offer", id=sku, available="")
+            etree.SubElement(offer, "vendorCode").text = sku
+            etree.SubElement(offer, "vendor").text = "Barpi"
+        rows = self.build(public_catalog=public)
+        self.assertEqual(rows["A-00003"].get("available"), "true")
+        self.assertNotIn("A-00004", rows)
+        self.assertEqual(len(rows), 501)
+
+    def test_confirmed_available_product_is_not_created_without_a_site_card(self):
+        self.assertNotIn("A-00003", self.build(public_catalog=self.public_petimpex_catalog()))
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -114,6 +114,18 @@ class SyncTests(unittest.TestCase):
         self.assertEqual(self.build(self.offer(available='false')),
                          {'id': 1, 'presence': 'not_available', 'discount': None})
 
+    def test_confirmed_barpi_is_available_despite_cached_site_export(self):
+        item = self.build(self.offer('399', available='false'), sku='A-00003')
+        self.assertEqual(item, {'id': 1, 'presence': 'available',
+                                'price': 399, 'oldprice': 399})
+        self.assertEqual(self.build(self.offer('399', available='false'), sku='A-00004'),
+                         {'id': 1, 'presence': 'not_available', 'discount': None})
+
+    def test_confirmed_barpi_still_requires_an_existing_site_card(self):
+        self.assertEqual(sync.build_updates({'A-00003': {'id': 1, 'sku': 'A-00003'}},
+                                            set(), {}, set()),
+                         [{'id': 1, 'presence': 'not_available'}])
+
     def test_malformed_oldprice_preserves_discount(self):
         item = self.build(self.offer(old='bad'))
         self.assertNotIn('oldprice', item)

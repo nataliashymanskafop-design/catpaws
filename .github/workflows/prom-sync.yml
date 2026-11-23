@@ -9,6 +9,7 @@ on:
       - scripts/test_discontinued_products.py
       - scripts/generate_prom_update_feed.py
       - scripts/test_prom_sync.py
+      - scripts/manual_availability.py
       - scripts/mono_black_friday.py
       - scripts/test_mono_black_friday.py
       - scripts/generate_feed.py

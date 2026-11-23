@@ -12,6 +12,7 @@ from generate_feed import FORCE_ZERO_SKUS, is_modes_bowl
 from normalize_feed_prices import normalize_price
 from generate_petimpex_catalog import OUTPUT_FILE as CLEAN_PETIMPEX_FILE
 from discontinued_products import is_discontinued_offer
+from manual_availability import MANUAL_AVAILABLE_SKUS
 
 
 # Актуальний фід каталогу сайту. На відміну від Mono-фідів, тут не
@@ -159,7 +160,7 @@ def build_feed(catalog_root, own_stock, supplier_stock, retail_prices=None,
     offers = etree.SubElement(shop, "offers")
 
     seen_skus = set()
-    source_counts = {"SUPPLIER": 0, "supplier": 0, "none": 0, "petimpex_site": 0}
+    source_counts = {"SUPPLIER": 0, "supplier": 0, "none": 0, "petimpex_site": 0, "manual": 0}
 
     catalog_offers = catalog_root.xpath(".//offer")
     if petimpex_catalog_root is not None:
@@ -176,6 +177,15 @@ def build_feed(catalog_root, own_stock, supplier_stock, retail_prices=None,
             offer for offer in catalog_offers
             if clean(offer.findtext("vendor")).casefold() not in PETIMPEX_SITE_VENDORS
         ] + current_petimpex
+        # The Mono-oriented catalog omits Barpi. Include only confirmed manual
+        # articles that already exist in the general site catalog; never invent
+        # a missing product or broaden the export to other untracked articles.
+        present_skus = {clean(offer.findtext("vendorCode")) for offer in catalog_offers}
+        catalog_offers += [
+            offer for offer in petimpex_catalog_root.xpath(".//offer")
+            if clean(offer.findtext("vendorCode")) in MANUAL_AVAILABLE_SKUS
+            and clean(offer.findtext("vendorCode")) not in present_skus
+        ]
     sku_counts = Counter(clean(item.findtext("vendorCode")) for item in catalog_offers)
     duplicate_skus = {sku for sku, count in sku_counts.items() if sku and count > 1}
     if duplicate_skus:
@@ -208,6 +218,10 @@ def build_feed(catalog_root, own_stock, supplier_stock, retail_prices=None,
             # З RAFI більше не працюємо. Товар залишається прихованим у
             # Horoshop, а фід додатково не дозволить повернути наявність.
             quantity, source = 0, "none"
+        elif sku in MANUAL_AVAILABLE_SKUS:
+            # A confirmed available status is not an exact warehouse count.
+            quantity = own_stock.get(sku) or None
+            availability, source = True, "manual"
         elif vendor in PETIMPEX_SITE_VENDORS and own_stock.get(sku, 0) <= 0:
             # Read only availability already published in the public site catalog.
             # Do not upload a private warehouse snapshot or invent exact stock

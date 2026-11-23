@@ -17,6 +17,8 @@ on:
       - scripts/generate_home_food_stock.py
       - scripts/generate_kormax_stock.py
       - scripts/generate_site_stock_feed.py
+      - scripts/manual_availability.py
+      - scripts/test_petimpex_site_stock.py
       - scripts/normalize_feed_prices.py
       - scripts/generate_petimpex_catalog.py
       - scripts/generate_terravet_stock.py
@@ -52,6 +54,9 @@ jobs:
 
       - name: Verify Mono Black Friday prices and protected supplier promotions
         run: python -m unittest discover -s scripts -p test_mono_black_friday.py
+
+      - name: Verify site availability and manual confirmations
+        run: python -m unittest discover -s scripts -p test_petimpex_site_stock.py
 
       # Keep a validated previous catalog if PetImpex returns truncated XML.
       # Supplier catalog availability must not block Mono stock updates.
