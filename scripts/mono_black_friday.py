@@ -1,7 +1,8 @@
-"""Keep Natalia's extra five Black Friday discount points on the site only.
+"""Keep the existing HOME FOOD marketplace campaign rule.
 
 The selection is the approved 2026 campaign, not every active promotion.
 JosiCat and JosiDog already use only the supplier's 15% and are untouched.
+Josera always uses the site's exact promotion, including its 20%/25% split.
 An absent or changed site promotion automatically stops this adjustment.
 """
 
@@ -30,9 +31,7 @@ def mono_black_friday_prices(offer):
     """Return (whole-UAH price, regular price, discount %) for this campaign."""
     sku = (offer.findtext("vendorCode") or "").strip()
     vendor = "".join((offer.findtext("vendor") or "").split()).casefold()
-    if vendor == "josera" and sku in JOSERA_BLACK_FRIDAY_SKUS:
-        site_discount = 25
-    elif vendor == "homefood" and sku in HOME_FOOD_BLACK_FRIDAY_DISCOUNTS:
+    if vendor == "homefood" and sku in HOME_FOOD_BLACK_FRIDAY_DISCOUNTS:
         site_discount = HOME_FOOD_BLACK_FRIDAY_DISCOUNTS[sku]
     else:
         return None

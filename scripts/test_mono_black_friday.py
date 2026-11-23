@@ -27,9 +27,17 @@ def offer(sku, price, regular=None, vendor="JOSERA", description=None):
 
 
 class MonoBlackFridayTests(unittest.TestCase):
-    def test_josera_black_friday_is_exactly_twenty_percent_before_whole_uah_rounding(self):
-        self.assertEqual(mono_black_friday_prices(offer("50003279", 2708, 3610)), (2888, 3610, 20))
-        self.assertEqual(mono_black_friday_prices(offer("50005511", 3293, 4390)), (3512, 4390, 20))
+    def test_josera_uses_the_exact_site_price_for_both_discount_levels(self):
+        for sku, price, regular in [
+            ("50003279", 2888, 3610),
+            ("50014801", 2610, 3263),
+            ("50005511", 3293, 4390),
+            ("50014789", 4519, 6025),
+        ]:
+            source = offer(sku, price, regular)
+            self.assertIsNone(mono_black_friday_prices(source))
+            result = mono.build_offer(source, {}, {sku: 2})
+            self.assertEqual((result["price"], result["old_price"]), (price, regular))
 
     def test_home_food_uses_supplier_discount_and_preserves_the_regular_price(self):
         self.assertEqual(mono_black_friday_prices(offer("3199100", 3101, 4134, "HOME FOOD")), (3308, 4134, 20))
@@ -73,7 +81,8 @@ class MonoBlackFridayTests(unittest.TestCase):
         source = etree.Element("yml_catalog")
         offers = etree.SubElement(etree.SubElement(source, "shop"), "offers")
         rows = [
-            offer("50003279", 2708, 3610),
+            offer("50003279", 2888, 3610),
+            offer("50005511", 3293, 4390),
             offer("3199100", 3101, 4134, "HOME FOOD"),
             offer("3058110", 2955, 3940, "HOME FOOD", "ЧОРНА П’ЯТНИЦЯ HOME FOOD: знижка 25%."),
             offer("50006774", 1415, 1665, "JOSIDOG"),
@@ -105,6 +114,7 @@ class MonoBlackFridayTests(unittest.TestCase):
                 xml_actual = {o.findtext("vendorCode"): (int(float(o.findtext("price"))), int(o.findtext("oldprice"))) for o in catalog.findall(".//offer")}
                 self.assertEqual(actual, xml_actual)
                 self.assertEqual(actual["50003279"], (2888, 3610))
+                self.assertEqual(actual["50005511"], (3293, 4390))
                 self.assertEqual(actual["50006774"], (1415, 1665))
                 self.assertEqual(actual["50009044"], (1938, 2280))
                 self.assertEqual(actual["1038100"], (2746, 3231))

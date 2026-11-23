@@ -218,11 +218,17 @@ class SyncTests(unittest.TestCase):
         return source
 
     def test_prom_josera_uses_supplier_twenty_after_source_validation(self):
-        source = self.campaign_offer('50003279', 2708, 3610, 'JOSERA')
+        source = self.campaign_offer('50003279', 2888, 3610, 'JOSERA')
         result = self.apply_supplier('50003279', source, '3610', '3069')
         item = self.build(result, sku='50003279')
         self.assertEqual((item['price'], item['oldprice']), (2888, 3610))
-        self.assertEqual((source.findtext('price'), result.findtext('price')), ('2708', '2708'))
+        self.assertEqual((source.findtext('price'), result.findtext('price')), ('2888', '2888'))
+
+    def test_prom_josera_over_four_thousand_keeps_site_twenty_five(self):
+        source = self.campaign_offer('50005511', 3293, 4390, 'JOSERA')
+        result = self.apply_supplier('50005511', source, '4390', '3732')
+        item = self.build(result, sku='50005511')
+        self.assertEqual((item['price'], item['oldprice']), (3293, 4390))
 
     def test_prom_home_food_small_packs_keep_supplier_twenty_five(self):
         for sku in ('3058004', '1047007', '3048016', '1128016'):
