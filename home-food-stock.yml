@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-11-23 14:40">
+<yml_catalog date="2026-11-23 17:48">
   <shop>
     <name>CatPaws HOME FOOD stock</name>
     <company>CatPaws</company>
@@ -1627,8 +1627,8 @@
         <vendorCode>7010050</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>24</quantity_in_stock>
-        <stock>24</stock>
+        <quantity_in_stock>40</quantity_in_stock>
+        <stock>40</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7010050_box" available="true">
@@ -1636,8 +1636,8 @@
         <vendorCode>7010050_box</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>3</quantity_in_stock>
-        <stock>3</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7010050_box1" available="true">
@@ -1645,8 +1645,8 @@
         <vendorCode>7010050_box1</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>6</quantity_in_stock>
-        <stock>6</stock>
+        <quantity_in_stock>9</quantity_in_stock>
+        <stock>9</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="7010053" available="true">
