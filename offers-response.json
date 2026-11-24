@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-24T00:14:28Z",
+  "updatedAt": "2026-11-24T07:36:39Z",
   "total": 1086,
   "data": [
     {
       "code": "1018100",
-      "price": 2316,
+      "price": 2171,
       "old_price": 2894,
       "availability": true,
       "stock": 18,
@@ -592,7 +592,7 @@
     },
     {
       "code": "1028100",
-      "price": 2473,
+      "price": 2318,
       "old_price": 3091,
       "availability": true,
       "stock": 1,
@@ -676,7 +676,7 @@
     },
     {
       "code": "3199100",
-      "price": 3308,
+      "price": 3101,
       "old_price": 4134,
       "availability": true,
       "stock": 17,
@@ -732,7 +732,7 @@
     },
     {
       "code": "3058110",
-      "price": 3152,
+      "price": 2955,
       "old_price": 3940,
       "availability": true,
       "stock": 13,
@@ -22683,6 +22683,34 @@
       "manufacture": null
     },
     {
+      "code": "ЗС000383-3",
+      "price": 1269,
+      "old_price": null,
+      "availability": true,
+      "stock": 16,
+      "warehouses": [
+        {
+          "id": "TERRAVET",
+          "stock": 16
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 0,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
       "code": "NPS45785",
       "price": 1197,
       "old_price": null,
@@ -30364,34 +30392,6 @@
         {
           "id": "DARWIN",
           "stock": 0
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 0,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "ЗС000383-3",
-      "price": 1269,
-      "old_price": null,
-      "availability": true,
-      "stock": 16,
-      "warehouses": [
-        {
-          "id": "TERRAVET",
-          "stock": 16
         }
       ],
       "warranty_type": "no",
