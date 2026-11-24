@@ -20,6 +20,9 @@ OWN_STOCK_STATE_FILE = "public/own-stock-state.json"
 MIN_PRICE = 1000
 # Confirmed unavailable; only restore after the supplier confirms stock.
 FORCE_ZERO_SKUS = {
+    # Confirmed unavailable by Natalia on 2026-11-24.
+    "50014714р",  # JOSERA Mini Adult Chicken & Rice (Miniwell), 900 g x 5.
+    "5684",  # Ambrosia duck/turkey for senior/sterilized cats, 1.5 kg.
     "254181",  # Start & Go puppy/maternity 10 kg: confirmed unavailable 2026-10-14.
     "5578",  # happyOne Insect Protein 10 kg, Darwin
     "ЗС000410",  # MODES VetSmile anti-inflammatory gum gel 25 ml: unavailable 2026-11-10.

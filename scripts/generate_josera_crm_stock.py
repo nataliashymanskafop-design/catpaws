@@ -8,6 +8,7 @@ from zoneinfo import ZoneInfo
 
 from lxml import etree
 from josera_stock import pack_weight
+from generate_feed import FORCE_ZERO_SKUS
 
 STATE_FILE = "public/terravet-stock-state.json"
 OUTPUT_FILE = "public/josera-crm-stock.xml"
@@ -28,7 +29,7 @@ def build_feed(state, catalog, purchase_prices):
             continue
         if isinstance(quantity, bool) or not isinstance(quantity, int) or quantity < 0:
             raise RuntimeError(f"Invalid calculated Josera quantity: {sku}")
-        quantities[sku] = quantity
+        quantities[sku] = 0 if sku in FORCE_ZERO_SKUS else quantity
     if len(quantities) < 100:
         raise RuntimeError(f"Josera CRM stock is incomplete: {len(quantities)}")
 
