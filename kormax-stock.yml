@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-11-23 17:48">
+<yml_catalog date="2026-11-24 02:13">
   <shop>
     <name>CatPaws Kormax stock</name>
     <company>CatPaws</company>
@@ -290,14 +290,14 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="CAN451432" available="false">
+      <offer id="CAN451432" available="true">
         <name>Багатофункціональний засіб для догляду за шерстю та шкірою домашніх тварин TAURO PRO LINE Pure Nature, 30g</name>
         <vendorCode>CAN451432</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="CAN63290" available="true">
         <name>Харчова добавка з кальцієм для собак та котів, 250 г Nature's Protection MicroZeoGen</name>
@@ -1145,14 +1145,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="KIKNPSC70542" available="true">
+      <offer id="KIKNPSC70542" available="false">
         <name>Ласощі для собак кролячі вушка з начинкою з кролика, 75 г Nature's Protection Superior Care Rabbit Ears with Rabbit Filling</name>
         <vendorCode>KIKNPSC70542</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="KIKNPSP47238" available="true">
         <name>Ласощі для цуценят з м'ясом птиці Nature's Protection Poultry Healthy Growth, 150г</name>
@@ -3053,14 +3053,14 @@
         <stock>3</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPSC70466-K2" available="true">
+      <offer id="NPSC70466-K2" available="false">
         <name>Вологий корм для собак з рудим забарвленням з лососем і крилем, 85 г Nature's Protection Superior Care Red Coat Grain Free Adult Salmon and Krill 85 г</name>
         <vendorCode>NPSC70466-K2</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>40</quantity_in_stock>
-        <stock>40</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="NPSC70467" available="true">
         <name>Вологий корм для собак з темним забарвленням з форелью і крилем, 85 г Nature's Protection Superior Care Dark Coat Grain Free Adult Trout and Krill 85 г</name>
@@ -3647,14 +3647,14 @@
         <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="TPL63600" available="false">
+      <offer id="TPL63600" available="true">
         <name>Делікатний шампунь-скраб для шерсті та шкіри собак та котів TAURO PRO LINE Ultra Natural Care Gentle Scrub Shampoo, 3785 мл</name>
         <vendorCode>TPL63600</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="TPL63601" available="true">
         <name>Незмивний кондиціонер для шерсті собак і котів, що розплутує шерсть TAURO PRO LINE Ultra Natural Care Detangling Leave-In Conditioner, 250 мл</name>
@@ -3782,14 +3782,14 @@
         <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="TPL63617" available="false">
+      <offer id="TPL63617" available="true">
         <name>Шампунь для глибокого очищення шерсті та шкіри собак і котів білого, світлого забарвлення TAURO PRO LINE Ultra Natural Care, 3785 мл</name>
         <vendorCode>TPL63617</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="TPL63618" available="true">
         <name>Інтенсивно зволожуючий шампунь для шерсті та шкіри собак і котів білого, світлого забарвлення TAURO PRO LINE Ultra Natural Care, 400 мл</name>
