@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-11-24 17:06">
+<yml_catalog date="2026-11-24 22:47">
   <shop>
     <name>CatPaws DOMS stock</name>
     <company>CatPaws</company>
@@ -394,8 +394,8 @@
         <vendorCode>019040</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>36</quantity_in_stock>
-        <stock>36</stock>
+        <quantity_in_stock>30</quantity_in_stock>
+        <stock>30</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="019064" available="true">
@@ -421,8 +421,8 @@
         <vendorCode>019149</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>6</quantity_in_stock>
-        <stock>6</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="019200" available="true">
