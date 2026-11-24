@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T10:18:11Z",
+  "updatedAt": "2026-11-24T11:01:12Z",
   "total": 1086,
   "data": [
     {
@@ -10310,12 +10310,12 @@
       "code": "5684",
       "price": 1055,
       "old_price": null,
-      "availability": true,
-      "stock": 2,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "DARWIN",
-          "stock": 2
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -24674,12 +24674,12 @@
       "code": "50014714р",
       "price": 1517,
       "old_price": null,
-      "availability": true,
-      "stock": 4,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 4
+          "stock": 0
         }
       ],
       "warranty_type": "no",

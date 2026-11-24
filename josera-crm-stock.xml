@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-11-24 12:17">
+<yml_catalog date="2026-11-24 13:01">
   <shop>
     <offers>
       <offer id="30001650" available="true">
@@ -1145,10 +1145,10 @@
         <currencyId>UAH</currencyId>
         <vendorprice>221.40</vendorprice>
       </offer>
-      <offer id="50014714р" available="true">
+      <offer id="50014714р" available="false">
         <vendorCode>50014714р</vendorCode>
         <name>Сухий корм для дорослих собак малих порід JOSERA Mini Adult Chicken &amp; Rice (Miniwell) 900 г*5 шт</name>
-        <quantity_in_stock>4</quantity_in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
         <price>1517.00</price>
         <oldprice>1517.00</oldprice>
         <currencyId>UAH</currencyId>

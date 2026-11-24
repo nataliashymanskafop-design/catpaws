@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-11-24 12:18">
+<yml_catalog date="2026-11-24 13:01">
   <shop>
     <offers>
       <offer id="1018100" available="true">
@@ -3220,7 +3220,7 @@
       </offer>
       <offer id="ЗС000405" available="true">
         <vendorCode>ЗС000405</vendorCode>
-        <quantity_in_stock>6</quantity_in_stock>
+        <quantity_in_stock>2</quantity_in_stock>
       </offer>
       <offer id="ЗС000406" available="true">
         <vendorCode>ЗС000406</vendorCode>
@@ -3594,9 +3594,9 @@
         <vendorCode>5683</vendorCode>
         <quantity_in_stock>2</quantity_in_stock>
       </offer>
-      <offer id="5684" available="true">
+      <offer id="5684" available="false">
         <vendorCode>5684</vendorCode>
-        <quantity_in_stock>2</quantity_in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
       </offer>
       <offer id="5685" available="true">
         <vendorCode>5685</vendorCode>
@@ -4114,7 +4114,7 @@
       </offer>
       <offer id="NPSC47908" available="true">
         <vendorCode>NPSC47908</vendorCode>
-        <quantity_in_stock>60</quantity_in_stock>
+        <quantity_in_stock>48</quantity_in_stock>
       </offer>
       <offer id="NPSC47911" available="true">
         <vendorCode>NPSC47911</vendorCode>
@@ -4122,7 +4122,7 @@
       </offer>
       <offer id="NPSC47908_box" available="true">
         <vendorCode>NPSC47908_box</vendorCode>
-        <quantity_in_stock>5</quantity_in_stock>
+        <quantity_in_stock>4</quantity_in_stock>
       </offer>
       <offer id="NPSC47911_box" available="true">
         <vendorCode>NPSC47911_box</vendorCode>
@@ -5720,9 +5720,9 @@
         <price>303.40</price>
         <currencyId>UAH</currencyId>
       </offer>
-      <offer id="50014714р" available="true">
+      <offer id="50014714р" available="false">
         <vendorCode>50014714р</vendorCode>
-        <quantity_in_stock>4</quantity_in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
         <price>1517.00</price>
         <currencyId>UAH</currencyId>
       </offer>
