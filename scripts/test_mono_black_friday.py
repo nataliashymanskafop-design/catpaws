@@ -39,10 +39,23 @@ class MonoBlackFridayTests(unittest.TestCase):
             result = mono.build_offer(source, {}, {sku: 2})
             self.assertEqual((result["price"], result["old_price"]), (price, regular))
 
-    def test_home_food_uses_supplier_discount_and_preserves_the_regular_price(self):
+    def test_prom_helper_still_uses_supplier_discount_and_preserves_the_regular_price(self):
         self.assertEqual(mono_black_friday_prices(offer("3199100", 3101, 4134, "HOME FOOD")), (3308, 4134, 20))
         self.assertEqual(mono_black_friday_prices(offer("3058110", 2955, 3940, "HOME FOOD")), (3152, 3940, 20))
         self.assertEqual(mono_black_friday_prices(offer("3058004", 152, 217, "HOME FOOD")), (163, 217, 25))
+
+    def test_mono_home_food_matches_the_site_without_changing_prom_rules(self):
+        for sku, price, regular in [
+            ("1018100", 2171, 2894),
+            ("1028100", 2318, 3091),
+            ("3199100", 3101, 4134),
+            ("3058110", 2955, 3940),
+        ]:
+            with self.subTest(sku=sku):
+                source = offer(sku, price, regular, "HOME FOOD")
+                result = mono.build_offer(source, {}, {sku: 2})
+                self.assertEqual((result["price"], result["old_price"]), (price, regular))
+                self.assertEqual(result["stock"], 2)
 
     def test_josicat_and_josidog_supplier_fifteen_percent_is_unchanged(self):
         for sku, price, regular, vendor in [
@@ -77,7 +90,7 @@ class MonoBlackFridayTests(unittest.TestCase):
         update_black_friday_description(source, 20)
         self.assertEqual(source.findtext("description"), "ЧОРНА П’ЯТНИЦЯ HOME FOOD: знижка 20%. Протеїн 25%.")
 
-    def test_both_published_formats_agree_and_apply_the_existing_price_floor_after_adjustment(self):
+    def test_both_mono_formats_match_the_site_and_apply_the_existing_price_floor(self):
         source = etree.Element("yml_catalog")
         offers = etree.SubElement(etree.SubElement(source, "shop"), "offers")
         rows = [
@@ -118,11 +131,13 @@ class MonoBlackFridayTests(unittest.TestCase):
                 self.assertEqual(actual["50006774"], (1415, 1665))
                 self.assertEqual(actual["50009044"], (1938, 2280))
                 self.assertEqual(actual["1038100"], (2746, 3231))
-                self.assertEqual(actual["1018100"], (1040, 1300))
-                self.assertNotIn("1028100", actual)  # 1000 UAH is still below the strict floor.
+                self.assertEqual(actual["3199100"], (3101, 4134))
+                self.assertEqual(actual["3058110"], (2955, 3940))
+                self.assertNotIn("1018100", actual)  # The site's 975 UAH stays below the strict floor.
+                self.assertNotIn("1028100", actual)
                 self.assertNotIn("3058004", actual)
                 hairball = next(o for o in catalog.findall(".//offer") if o.findtext("vendorCode") == "3058110")
-                self.assertIn("знижка 20%", hairball.findtext("description"))
+                self.assertIn("знижка 25%", hairball.findtext("description"))
                 self.assertTrue(all(x["stock"] == 2 for x in price_feed["data"]))
         finally:
             os.chdir(cwd)
