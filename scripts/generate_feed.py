@@ -20,6 +20,9 @@ OWN_STOCK_STATE_FILE = "public/own-stock-state.json"
 MIN_PRICE = 1000
 # Confirmed unavailable; only restore after the supplier confirms stock.
 FORCE_ZERO_SKUS = {
+    # Natalia confirmed no stock on 2026-11-25; include the 12-pouch bundle.
+    "NPSC70465-K2",
+    "NPSC70465-K2-12",
     # Confirmed unavailable by Natalia on 2026-11-24.
     "50014714р",  # JOSERA Mini Adult Chicken & Rice (Miniwell), 900 g x 5.
     "5684",  # Ambrosia duck/turkey for senior/sterilized cats, 1.5 kg.
