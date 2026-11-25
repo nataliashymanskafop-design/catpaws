@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-11-25 16:10">
+<yml_catalog date="2026-11-26 01:14">
   <shop>
     <name>CatPaws Kormax stock</name>
     <company>CatPaws</company>
@@ -403,8 +403,8 @@
         <vendorCode>CAN63551</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>9</quantity_in_stock>
+        <stock>9</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="CAN63552" available="true">
@@ -1280,14 +1280,14 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPB46035" available="true">
+      <offer id="NPB46035" available="false">
         <name>Сухий корм для дорослих котів мешкаючих у будинку Nature's Protection Indoor 18кг</name>
         <vendorCode>NPB46035</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="NPB46036" available="true">
         <name>Сухий корм для цуценят великих порід Maxi Junior Large Breeds 18кг</name>
@@ -1312,8 +1312,8 @@
         <vendorCode>NPB46038</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>20</quantity_in_stock>
-        <stock>20</stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="NPB46039" available="true">
@@ -2495,15 +2495,6 @@
         <stock>20</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPSC45792" available="false">
-        <name>Сухий корм для дорослих собак усіх порід із чутливим травленням з ягням, 1,5 кг Nature's Protection Superior Care Sensitive Skin&amp;Stomach Adult All Breeds</name>
-        <vendorCode>NPSC45792</vendorCode>
-        <currencyId>UAH</currencyId>
-        <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
-      </offer>
       <offer id="NPSC45793" available="true">
         <name>Сухий корм для дорослих собак всіх порід з чутливим травленням та проблемною шкірою Superior Care Sensitive Skin&amp;Stomach Adult All Breeds 10кг</name>
         <vendorCode>NPSC45793</vendorCode>
@@ -3070,15 +3061,6 @@
         <quantity_in_stock>40</quantity_in_stock>
         <stock>40</stock>
         <in_stock>1</in_stock>
-      </offer>
-      <offer id="NPSCVET47577" available="false">
-        <name>Ветеринарний дієтичний корм для собак при захворюванннях шлунково-кишкового тракту NP Superior Care Veterinary Diet Gastrointestinal White Fish Adult All Breed Dogs з білою рибою, 10кг</name>
-        <vendorCode>NPSCVET47577</vendorCode>
-        <currencyId>UAH</currencyId>
-        <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
       </offer>
       <offer id="NPSCVET47579" available="true">
         <name>Ветеринарний дієтичний гіпоалергенний корм для собак NP Superior Care Veterinary Diet Hypoallergenic Insect Adult All Breed Dogs з білком комах, 10кг</name>
@@ -3800,14 +3782,14 @@
         <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="TPL63619" available="true">
+      <offer id="TPL63619" available="false">
         <name>Інтенсивно зволожуючий шампунь для шерсті та шкіри собак і котів білого, світлого забарвлення TAURO PRO LINE Ultra Natural Care, 1000 мл</name>
         <vendorCode>TPL63619</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="TPL63620" available="true">
         <name>Інтенсивно зволожуючий шампунь для шерсті та шкіри собак і котів білого, світлого забарвлення TAURO PRO LINE Ultra Natural Care, 3785 мл</name>
