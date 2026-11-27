@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T00:27:44Z",
+  "updatedAt": "2026-11-27T08:59:25Z",
   "total": 1086,
   "data": [
     {
@@ -595,11 +595,11 @@
       "price": 2318,
       "old_price": 3091,
       "availability": true,
-      "stock": 19,
+      "stock": 17,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 19
+          "stock": 17
         }
       ],
       "warranty_type": "no",
@@ -987,11 +987,11 @@
       "price": 2091,
       "old_price": 2460,
       "availability": true,
-      "stock": 20,
+      "stock": 19,
       "warehouses": [
         {
           "id": "TERRAVET",
-          "stock": 20
+          "stock": 19
         }
       ],
       "warranty_type": "no",
@@ -17031,11 +17031,11 @@
       "price": 1627,
       "old_price": 1914,
       "availability": true,
-      "stock": 10,
+      "stock": 9,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 10
+          "stock": 9
         }
       ],
       "warranty_type": "no",
