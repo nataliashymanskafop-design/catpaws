@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-11-26 17:38">
+<yml_catalog date="2026-11-27 02:27">
   <shop>
     <name>CatPaws Kormax stock</name>
     <company>CatPaws</company>
@@ -736,8 +736,8 @@
         <vendorCode>KIK45097</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>40</quantity_in_stock>
-        <stock>40</stock>
+        <quantity_in_stock>10</quantity_in_stock>
+        <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
       <offer id="KIK45100" available="true">
@@ -1154,14 +1154,14 @@
         <stock>0</stock>
         <in_stock>0</in_stock>
       </offer>
-      <offer id="KIKNPSP47238" available="true">
+      <offer id="KIKNPSP47238" available="false">
         <name>Ласощі для цуценят з м'ясом птиці Nature's Protection Poultry Healthy Growth, 150г</name>
         <vendorCode>KIKNPSP47238</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>10</quantity_in_stock>
-        <stock>10</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="KIKNPSP47239" available="true">
         <name>Ласощі для собак з м'ясом птиці Nature's Protection Healthy Skin &amp; Coat, 160г</name>
@@ -1307,14 +1307,14 @@
         <stock>10</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="NPB46038" available="false">
+      <offer id="NPB46038" available="true">
         <name>Сухий корм для дорослих стерилізованих котів та кішок для профілактики та лікування СКХ Nature's Protection Urinary Formula-S 18кг</name>
         <vendorCode>NPB46038</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>0</quantity_in_stock>
-        <stock>0</stock>
-        <in_stock>0</in_stock>
+        <quantity_in_stock>5</quantity_in_stock>
+        <stock>5</stock>
+        <in_stock>1</in_stock>
       </offer>
       <offer id="NPB46039" available="true">
         <name>Сухий корм для дорослих собак всіх порід з лососем Extra Salmon Adult All Breeds 18кг</name>
@@ -4016,14 +4016,14 @@
         <stock>5</stock>
         <in_stock>1</in_stock>
       </offer>
-      <offer id="TPLRAN70404" available="true">
+      <offer id="TPLRAN70404" available="false">
         <name>Рушник високопоглинальний для домашніх тварин з мікрофібри Tauro Pro Line, принт «тер’єри», 80×160 см</name>
         <vendorCode>TPLRAN70404</vendorCode>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
-        <quantity_in_stock>5</quantity_in_stock>
-        <stock>5</stock>
-        <in_stock>1</in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
+        <stock>0</stock>
+        <in_stock>0</in_stock>
       </offer>
       <offer id="UNINPSC63749" available="true">
         <name>NATURE'S PROTECTION SUPERIOR CARE Skin and Coat Adult Cats All Breeds with Tuna and Shrimps, вологий корм з тунцем та креветками для догляду за шкірою та шерстю дорослих котів усіх порід, 70 г, у пакетику</name>
