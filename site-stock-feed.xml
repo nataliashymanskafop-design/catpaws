@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<yml_catalog date="2026-11-27 20:50">
+<yml_catalog date="2026-11-28 03:50">
   <shop>
     <offers>
       <offer id="1018100" available="true">
         <vendorCode>1018100</vendorCode>
-        <quantity_in_stock>7</quantity_in_stock>
+        <quantity_in_stock>6</quantity_in_stock>
       </offer>
       <offer id="3028004" available="true">
         <vendorCode>3028004</vendorCode>
@@ -210,7 +210,7 @@
       </offer>
       <offer id="1028100" available="true">
         <vendorCode>1028100</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>19</quantity_in_stock>
       </offer>
       <offer id="1047016" available="true">
         <vendorCode>1047016</vendorCode>
@@ -3184,7 +3184,7 @@
       </offer>
       <offer id="ЗС000157" available="true">
         <vendorCode>ЗС000157</vendorCode>
-        <quantity_in_stock>1</quantity_in_stock>
+        <quantity_in_stock>37</quantity_in_stock>
       </offer>
       <offer id="ЗС000155" available="true">
         <vendorCode>ЗС000155</vendorCode>
@@ -5312,9 +5312,9 @@
         <vendorCode>041004</vendorCode>
         <quantity_in_stock>0</quantity_in_stock>
       </offer>
-      <offer id="SNK46132" available="true">
+      <offer id="SNK46132" available="false">
         <vendorCode>SNK46132</vendorCode>
-        <quantity_in_stock>5</quantity_in_stock>
+        <quantity_in_stock>0</quantity_in_stock>
       </offer>
       <offer id="SNK46153" available="false">
         <vendorCode>SNK46153</vendorCode>
