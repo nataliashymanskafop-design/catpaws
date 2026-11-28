@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T01:50:23Z",
+  "updatedAt": "2026-11-28T09:59:26Z",
   "total": 1086,
   "data": [
     {
@@ -7,11 +7,11 @@
       "price": 2171,
       "old_price": 2894,
       "availability": true,
-      "stock": 6,
+      "stock": 20,
       "warehouses": [
         {
           "id": "HOME_FOOD",
-          "stock": 6
+          "stock": 20
         }
       ],
       "warranty_type": "no",
@@ -340,8 +340,8 @@
     },
     {
       "code": "50003229",
-      "price": 3069,
-      "old_price": 3610,
+      "price": 3610,
+      "old_price": null,
       "availability": true,
       "stock": 20,
       "warehouses": [
@@ -424,8 +424,8 @@
     },
     {
       "code": "50009025",
-      "price": 1658,
-      "old_price": 1950,
+      "price": 1950,
+      "old_price": null,
       "availability": true,
       "stock": 20,
       "warehouses": [
@@ -480,8 +480,8 @@
     },
     {
       "code": "50008993",
-      "price": 1658,
-      "old_price": 1950,
+      "price": 1950,
+      "old_price": null,
       "availability": true,
       "stock": 19,
       "warehouses": [
@@ -735,11 +735,11 @@
       "price": 2955,
       "old_price": 3940,
       "availability": true,
-      "stock": 1,
+      "stock": 13,
       "warehouses": [
         {
-          "id": "SUPPLIER",
-          "stock": 1
+          "id": "HOME_FOOD",
+          "stock": 13
         }
       ],
       "warranty_type": "no",
@@ -1068,8 +1068,8 @@
     },
     {
       "code": "50012984",
-      "price": 1658,
-      "old_price": 1950,
+      "price": 1950,
+      "old_price": null,
       "availability": true,
       "stock": 20,
       "warehouses": [
@@ -1180,8 +1180,8 @@
     },
     {
       "code": "50003277",
-      "price": 3069,
-      "old_price": 3610,
+      "price": 3610,
+      "old_price": null,
       "availability": true,
       "stock": 20,
       "warehouses": [
@@ -2439,34 +2439,6 @@
       "manufacture": null
     },
     {
-      "code": "NPB46035",
-      "price": 5532,
-      "old_price": 6508,
-      "availability": false,
-      "stock": 0,
-      "warehouses": [
-        {
-          "id": "KORMAX",
-          "stock": 0
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 2,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
       "code": "NPS45759",
       "price": 2666,
       "old_price": null,
@@ -2749,6 +2721,34 @@
     {
       "code": "NPS45768",
       "price": 3007,
+      "old_price": null,
+      "availability": true,
+      "stock": 20,
+      "warehouses": [
+        {
+          "id": "KORMAX",
+          "stock": 20
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 2,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "NPB46042",
+      "price": 7455,
       "old_price": null,
       "availability": true,
       "stock": 20,
@@ -3924,8 +3924,8 @@
     },
     {
       "code": "50012492",
-      "price": 1972,
-      "old_price": 2320,
+      "price": 2320,
+      "old_price": null,
       "availability": true,
       "stock": 18,
       "warehouses": [
@@ -4875,34 +4875,6 @@
       "manufacture": null
     },
     {
-      "code": "TPL63619",
-      "price": 1380,
-      "old_price": null,
-      "availability": false,
-      "stock": 0,
-      "warehouses": [
-        {
-          "id": "KORMAX",
-          "stock": 0
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 2,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
       "code": "TPL63621",
       "price": 1054,
       "old_price": null,
@@ -4940,34 +4912,6 @@
         {
           "id": "KORMAX",
           "stock": 5
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 2,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
-      "code": "TPL63583",
-      "price": 1130,
-      "old_price": null,
-      "availability": false,
-      "stock": 0,
-      "warehouses": [
-        {
-          "id": "KORMAX",
-          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -6136,8 +6080,8 @@
     },
     {
       "code": "50012158",
-      "price": 2168,
-      "old_price": 2550,
+      "price": 2550,
+      "old_price": null,
       "availability": true,
       "stock": 19,
       "warehouses": [
@@ -6640,8 +6584,8 @@
     },
     {
       "code": "50014715",
-      "price": 2406,
-      "old_price": 2830,
+      "price": 2830,
+      "old_price": null,
       "availability": true,
       "stock": 20,
       "warehouses": [
@@ -6976,8 +6920,8 @@
     },
     {
       "code": "50014787",
-      "price": 2911,
-      "old_price": 3425,
+      "price": 3425,
+      "old_price": null,
       "availability": true,
       "stock": 20,
       "warehouses": [
@@ -16272,8 +16216,8 @@
     },
     {
       "code": "50005178",
-      "price": 1545,
-      "old_price": 1818,
+      "price": 1818,
+      "old_price": null,
       "availability": true,
       "stock": 17,
       "warehouses": [
@@ -22459,34 +22403,6 @@
       "manufacture": null
     },
     {
-      "code": "TPLRAN70404",
-      "price": 1826,
-      "old_price": null,
-      "availability": false,
-      "stock": 0,
-      "warehouses": [
-        {
-          "id": "KORMAX",
-          "stock": 0
-        }
-      ],
-      "warranty_type": "no",
-      "warranty_period": 0,
-      "max_pay_in_parts": 6,
-      "days_to_dispatch": 2,
-      "delivery_methods": [
-        {
-          "method": "nova-post:branch",
-          "price": 0
-        },
-        {
-          "method": "courier:nova-post",
-          "price": 0
-        }
-      ],
-      "manufacture": null
-    },
-    {
       "code": "TPLRAN70316",
       "price": 1826,
       "old_price": null,
@@ -22935,9 +22851,9 @@
       "manufacture": null
     },
     {
-      "code": "NPB46050",
-      "price": 7403,
-      "old_price": null,
+      "code": "NPB46035",
+      "price": 5532,
+      "old_price": 6508,
       "availability": false,
       "stock": 0,
       "warehouses": [
@@ -22963,15 +22879,15 @@
       "manufacture": null
     },
     {
-      "code": "NPB46042",
-      "price": 7455,
+      "code": "NPB46050",
+      "price": 7403,
       "old_price": null,
-      "availability": true,
-      "stock": 20,
+      "availability": false,
+      "stock": 0,
       "warehouses": [
         {
           "id": "KORMAX",
-          "stock": 20
+          "stock": 0
         }
       ],
       "warranty_type": "no",
@@ -23077,6 +22993,62 @@
     {
       "code": "TPL63596",
       "price": 1581,
+      "old_price": null,
+      "availability": false,
+      "stock": 0,
+      "warehouses": [
+        {
+          "id": "KORMAX",
+          "stock": 0
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 2,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "TPL63619",
+      "price": 1380,
+      "old_price": null,
+      "availability": false,
+      "stock": 0,
+      "warehouses": [
+        {
+          "id": "KORMAX",
+          "stock": 0
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 2,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "TPL63583",
+      "price": 1130,
       "old_price": null,
       "availability": false,
       "stock": 0,
@@ -29691,6 +29663,34 @@
       "warehouses": [
         {
           "id": "SUPPLIER",
+          "stock": 0
+        }
+      ],
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 6,
+      "days_to_dispatch": 2,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "manufacture": null
+    },
+    {
+      "code": "TPLRAN70404",
+      "price": 1826,
+      "old_price": null,
+      "availability": false,
+      "stock": 0,
+      "warehouses": [
+        {
+          "id": "KORMAX",
           "stock": 0
         }
       ],
